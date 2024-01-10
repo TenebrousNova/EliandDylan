@@ -113,6 +113,11 @@
 		"Target": "Characters/EDContainer3",
 		"FromFile": "Assets/Images/Containers.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/DoorMonster",
+		"FromFile": "Assets/Images/Door.png"
+	},
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events
 

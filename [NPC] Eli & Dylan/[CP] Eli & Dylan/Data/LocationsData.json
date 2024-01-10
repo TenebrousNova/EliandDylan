@@ -7,6 +7,16 @@
 		},
 		{
 			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseDark",
+			"FromFile": "Assets/Maps/EliDylanHouseDark.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseFull",
+			"FromFile": "Assets/Maps/EliDylanHouseFull.tmx"
+		},
+		{
+			"Action": "Load",
 			"Target": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave",
 			"FromFile": "Assets/Maps/MushroomCave.tmx"
 		},
@@ -35,6 +45,16 @@
 					"DefaultArrivalTile": { "X": 14, "Y": 27 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse" },
 					"FormerLocationNames": [ "Custom_ESEDHouse" ]
+				},
+				"TenebrousNova.EliDylan.CP_ESEDHouseDark": {
+					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
+					"DefaultArrivalTile": { "X": 14, "Y": 27 },
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseDark" }
+				},
+				"TenebrousNova.EliDylan.CP_ESEDHouseFull": {
+					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
+					"DefaultArrivalTile": { "X": 14, "Y": 27 },
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseFull" }
 				},
 				"TenebrousNova.EliDylan.CP_EDMushroomCave": {
 					"DisplayName": "{{i18n:Core.Locations.EDMushroomCave}}",

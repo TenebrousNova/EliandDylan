@@ -144,7 +144,12 @@
 			//Winter Star
 
 			"WinterStar_ReceiveGift_(0)149": "{{i18n:Gifts.NovaDylan.GiftReaction.Octopus.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)265": "",
+			"WinterStar_ReceiveGift_(0)265": "{{i18n:Gifts.NovaDylan.GiftReaction.SeafoamPudding.WinterStar}}",
+			"WinterStar_ReceiveGift_(0)155": "{{I18n:Gifts.NovaDylan.GiftReaction.SuperCucumber.WinterStar}}",
+			"WinterStar_ReceiveGift_(0)560": "{{i18n:Gifts.NovaDylan.GiftReaction.OceanStone.WinterStar}}",
+			"WinterStar_ReceiveGift_(0)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty.WinterStar}}",
+			"WinterStar_ReceiveGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.WinterStar}}",
+			"WinterStar_ReceiveGift_(0)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl.WinterStar}}",
 			
 			//Loves
 
