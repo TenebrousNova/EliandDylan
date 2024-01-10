@@ -1,0 +1,29 @@
+{ 
+    "Changes": [
+
+    //Loads chair overlays.
+
+	{
+		"LogName": "Chair Overlays",
+		"Action": "Load",
+		"Target": "EliDylan/ChairTiles",
+		"FromFile": "Assets/TileSheets/ChairOverlays.png"
+	},
+
+	//Makes custom chairs sittable.
+
+    {
+        "LogName": "House Chairs",
+        "Action": "EditData",
+        "Target": "Data/ChairTiles",
+        "Entries": {
+            "Custom_EDInterior/10/2": "1/1/down/custom 0.5 0 0/0/0/false",
+            "Custom_EDInterior/10/4": "1/1/down/custom 0.5 0 0/0/0/false",
+            "Custom_EDInterior/12/4": "1/1/down/custom -0.5 0 0/0/0/false",
+            "Custom_EDInterior/12/2": "2/1/right/custom 0.5 0 0/12/2/false/Maps\\Custom_EDInterior",
+            "Custom_EDInterior/15/5": "2/2/up/custom 0.5 0 1/0/1/false/EliDylan\\ChairTiles",
+            "Custom_EDInterior/16/5": "2/2/up/custom 0.5 0 1/1/1/false/EliDylan\\ChairTiles"
+        }
+    }
+    ]
+}

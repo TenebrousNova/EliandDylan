@@ -1,0 +1,557 @@
+{
+	"Changes": [
+
+		//The "IT'S ALIIIIVE!!!" code.
+
+		{
+			"LogName": "NPC Dispositions",
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"Nova.Eli": {
+					"DisplayName": "{{i18n:Core.NovaEli.Name}}",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"BirthSeason": "Winter",
+					"BirthDay": 6,
+					"HomeRegion": "Town",
+					"CanBeRomanced": true,
+					"LoveInterest": "Teren",
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "TrailingGroup",
+					"FriendsAndFamily": {
+						"Nova.Dylan": "{{i18n:Core.Relationships.Brother}}",
+						"Emily": "{{i18n:Core.Relationships.Friend}}",
+						"Leah": "{{i18n:Core.Relationships.Friend}}",
+						"Elliott": "{{i18n:Core.Relationships.Friend}}"
+					},
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"ID": "Default",
+							"Location": "TenebrousNova.EliDylan.CP_ESEDHouse",
+							"Tile": { "X": 2, "Y": 5 },
+								"Direction": "Down"
+							}
+					],
+					"Appearance": [
+						{
+							"ID": "Spring",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Spring",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/springRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spring.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring",
+							"Season": "Spring",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spring.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spring.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Spring",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/springRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spring2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring 2",
+							"Season": "Spring",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spring2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spring2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Summer",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/summerRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/summer.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer",
+							"Season": "Summer",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/summer.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/summer.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Summer",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/summerRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/summer2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 2",
+							"Season": "Summer",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/summer2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/summer2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Fall",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/fallRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/fall.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall",
+							"Season": "Fall",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/fall.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/fall.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Fall",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/fallRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/fall2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall 2",
+							"Season": "Fall",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/fall2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/fall2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Winter",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/winterRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/winter.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter",
+							"Season": "Winter",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/winter.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/winter.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Winter",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/winterRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/winter2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 2",
+							"Season": "Winter",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/winter2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/winter2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Adventuring Outfit",
+							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.1\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\"",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/adventure.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/adventure.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Egg Festival",
+							"Condition": "EVENT_ID festival_spring13",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/eggfestival.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/eggfestival.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Flower Dance",
+							"Condition": "EVENT_ID festival_spring24",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/flowerdance.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/flowerdance.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Luau",
+							"Condition": "EVENT_ID festival_summer11",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/luau.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/luau.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Dance of the Moonlight Jellies",
+							"Condition": "EVENT_ID festival_summer28",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/moonlight.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/moonlight.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Stardew Valley Fair",
+							"Condition": "EVENT_ID festival_fall16",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/fair.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/fair.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Spirit's Eve",
+							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spiritseve.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spiritseve.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Spirit's Eve 2",
+							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spiritseve2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spiritseve2.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Festival of Ice",
+							"Condition": "EVENT_ID festival_winter8",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/icefestival.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/icefestival.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Feast of the Winter Star",
+							"Condition": "EVENT_ID festival_winter25",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/winterstar.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/winterstar.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						}
+					]
+				},
+				"Nova.Dylan": {
+					"DisplayName": "{{i18n:Core.NovaDylan.Name}}",
+					"Gender": "Male",
+					"Age": "Adult",
+					"Manner": "Polite",
+					"SocialAnxiety": "Shy",
+					"Optimism": "Negative",
+					"BirthSeason": "Fall",
+					"BirthDay": 18,
+					"HomeRegion": "Town",
+					"CanBeRomanced": false,
+					"LoveInterest": "Sig",
+					"ExcludeFromPerfectionScore": false,
+					"EndSlideShow": "TrailingGroup",
+					"FriendsAndFamily": {
+						"Nova.Eli": "{{i18n:Core.Relationships.Brother}}",
+						"Willy": "{{i18n:Core.Relationships.Friend}}",
+						"Leah": "{{i18n:Core.Relationships.Friend}}",
+						"Elliott": "{{i18n:Core.Relationships.Friend}}"
+					},
+					"SpawnIfMissing": true,
+					"Home": [
+						{
+							"ID": "Default",
+							"Location": "TenebrousNova.EliDylan.CP_ESEDHouse",
+							"Tile": { "X": 17, "Y": 5 },
+							"Direction": "Down"
+						}
+					],
+					"Appearance": [
+						{
+							"ID": "Spring",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Spring",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/springRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring",
+							"Season": "Spring",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spring.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Spring",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/springRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring 2",
+							"Season": "Spring",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spring2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Summer",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/summerRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/summer.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer",
+							"Season": "Summer",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/summer.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/summer.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Summer",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/summerRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/summer2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 2",
+							"Season": "Summer",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/summer2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/summer2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Fall",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/fallRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/fall.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall",
+							"Season": "Fall",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/fall.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/fall.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Fall",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/fallRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/fall2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall 2",
+							"Season": "Fall",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/fall2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/fall2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Winter",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/winterRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter",
+							"Season": "Winter",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/winter.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 2",
+							"Condition": "WEATHER Target Rain",
+							"Season": "Winter",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/winterRain2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter2.png}}",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 2",
+							"Season": "Winter",
+							"Indoors": true,
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/winter2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter2.png}}",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Egg Festival",
+							"Condition": "EVENT_ID festival_spring13",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/eggfestival.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/eggfestival.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Flower Dance",
+							"Condition": "EVENT_ID festival_spring24",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/flowerdance.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/flowerdance.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Luau",
+							"Condition": "EVENT_ID festival_summer11",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/luau.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/luau.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Dance of the Moonlight Jellies",
+							"Condition": "EVENT_ID festival_summer28",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/moonlight.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/moonlight.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Stardew Valley Fair",
+							"Condition": "EVENT_ID festival_fall16",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/fair.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/fair.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Spirit's Eve",
+							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spiritseve.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spiritseve.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Spirit's Eve 2",
+							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spiritseve2.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spiritseve2.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Festival of Ice",
+							"Condition": "EVENT_ID festival_winter8",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/icefestival.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/icefestival.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						},
+						{
+							"ID": "Feast of the Winter Star",
+							"Condition": "EVENT_ID festival_winter25",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/winterstar.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winterstar.png}}",
+							"IsIslandAttire": false,
+							"Precedence": -20
+						}
+					]
+				}
+			}
+		},
+	
+	//Gifts
+	
+	{
+		"LogName": "Gift Tastes",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": {
+			"Nova.Eli": "{{i18n:Gifts.NovaEli.GiftReaction.Love}}/206 565 253 107 773 797/{{i18n:Gifts.NovaEli.GiftReaction.Like}}/261 681 688 689 690 886 260 395 552 258 286 287 288 772 881 -2/{{i18n:Gifts.NovaEli.GiftReaction.Dislike}}/346 303 348 459 873/{{i18n:Gifts.NovaEli.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaEli.GiftReaction.Neutral}}/-12/",
+			"Nova.Dylan": "{{i18n:Gifts.NovaDylan.GiftReaction.Love}}/149 265 155 560 235 797 206/{{i18n:Gifts.NovaDylan.GiftReaction.Like}}/394 116 128 -4/{{i18n:Gifts.NovaDylan.GiftReaction.Dislike}}//{{i18n:Gifts.NovaDylan.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaDylan.GiftReaction.Neutral}}//"
+		}
+	}
+	]
+}

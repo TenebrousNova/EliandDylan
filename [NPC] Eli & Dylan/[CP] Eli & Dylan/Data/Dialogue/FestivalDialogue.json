@@ -1,0 +1,163 @@
+//TO DO: Write more festival dialogue for different heart levels.
+	/*
+	debug festival spring13 - Egg Festival
+debug festival fall16 - Stardew Valley Fair
+debug festival spring24 - Flower Dance
+debug festival fall27 - Spirit's Eve
+debug festival summer11 - Luau
+debug festival winter8 - Festival of Ice
+debug festival summer28 - Moonlight Jellies
+debug festival winter25 - Winter Star
+*/
+
+{
+	"Changes": [
+	
+	//Egg Festival
+	
+	{
+		"LogName": "Egg Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.EggFestivalDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.EggFestivalDialogue}}",
+			"Soot": "{{i18n:Core.Soot.EggFestivalDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.EggFestivalDialogue}}"
+			
+		}
+	},
+	
+	//Flower Dance
+	
+	{
+		"LogName": "Flower Dance",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.FlowerDanceDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FlowerDanceDialogue}}",
+			"Soot": "{{i18n:Core.Soot.FlowerDanceDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.FlowerDanceDialogue}}"
+		}
+	},
+	
+	//Luau
+	
+	{
+		"LogName": "Luau",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.LuauDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.LuauDialogue}}",
+			"Soot": "{{i18n:Core.Soot.LuauDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.LuauDialogue}}"
+		}
+	},
+	
+	//Moonlight Jellies
+	
+	{
+		"LogName": "Moonlight Jellies",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue}}",
+			"Soot": "{{i18n:Core.Soot.MoonlightDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.MoonlightDialogue}}"
+		}
+	},
+	
+	//Fair
+	
+	
+	{
+		"LogName": "Fair",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.FairDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FairDialogue}}",
+			"Soot": "{{i18n:Core.Soot.FairDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.FairDialogue}}"
+		}
+	},
+	
+	//Spirit's Eve
+	
+	{
+		"LogName": "Spirit's Eve",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.Spirit'sEveDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue}}",
+			"Soot": "{{i18n:Core.Soot.Spirit'sEveDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.Spirit'sEveDialogue}}"
+		}
+	},
+	
+	//Ice Festival
+	
+	{
+		"LogName": "Ice Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.IceFestivalDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.IceFestivalDialogue}}",
+			"Soot": "{{i18n:Core.Soot.IceFestivalDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.IceFestivalDialogue}}"
+		}
+	},
+			
+	//Winter Star
+	
+	{
+		"LogName": "Winter Star",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			
+			"Nova.Eli": "{{i18n:Core.NovaEli.WinterStarDialogue.Opening}}[261 681 688 689 690 517 519 773 226]{{i18n:Core.NovaEli.WinterStarDialogue.Closing}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing}}"
+		}
+	},
+
+	//Ridgeside Village Gathering
+
+	{
+		"LogName": "Ridgeside Village Gathering",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
+		"Entries": {
+
+			"Nova.Eli": "{{i18n:Core.NovaEli.RidgesideGatheringDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.RidgesideGatheringDialogue}}"
+		}
+	},
+
+	{
+		"LogName": "Fireworks Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer20",
+		"When": { "HasMod |contains=violetlizabet.FireworksFestival": true},
+		"Entries": {
+
+			"Nova.Eli": "{{i18n:Core.NovaEli.FireworksFestivalDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FireworksFestivalDialogue}}"
+		}
+	}
+	
+	]
+}

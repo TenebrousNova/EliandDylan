@@ -1,0 +1,330 @@
+{
+    "Changes": [
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"FromFile": "Assets/Maps/EliDylanHouse.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave",
+			"FromFile": "Assets/Maps/MushroomCave.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_EDMountainCave",
+			"FromFile": "Assets/Maps/DeepMountainCave.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_DylanTidePool",
+			"FromFile": "Assets/Maps/TidePool.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_OldWoods",
+			"FromFile": "Assets/Maps/OldWoods.tmx"
+		},
+		{
+			"LogName": "Location Data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"TenebrousNova.EliDylan.CP_ESEDHouse": {
+					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
+					"DefaultArrivalTile": { "X": 14, "Y": 27 },
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse" },
+					"FormerLocationNames": [ "Custom_ESEDHouse" ]
+				},
+				"TenebrousNova.EliDylan.CP_EDMushroomCave": {
+					"DisplayName": "{{i18n:Core.Locations.EDMushroomCave}}",
+					"DefaultArrivalTile": { "X": 15, "Y": 19 },
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave" },
+					"FormerLocationNames": [ "Custom_EDMushroomCave" ]
+				},
+				"TenebrousNova.EliDylan.CP_EDMountainCave": {
+					"DisplayName": "{{i18n:Core.Locations.EDMountainCave}}",
+					"DefaultArrivalTile": { "X": 14, "Y": 38 },
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_EDMountainCave" },
+					"FormerLocationNames": [ "Custom_EDMountainCave" ]
+				},
+				"TenebrousNova.EliDylan.CP_DylanTidePool": {
+					"DisplayName": "{{i18n:Core.Locations.DylanTidePool}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanTidePool" },
+					"FormerLocationNames": [ "Custom_DylanTidePool" ]
+				},
+				"TenebrousNova.EliDylan.CP_OldWoods": {
+					"DisplayName": "{{i18n:Core.Locations.OldWoods}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_OldWoods" },
+					"FormerLocationNames": [ "Custom_OldWoods" ]
+				}
+			}
+		},
+
+		//Map Patches
+
+		//Adds the house and garden to East Scarp. Also adds the exterior lantern light.
+
+		{
+			"LogName": "House Patch",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_EastScarpe",
+			"FromFile": "Assets/Maps/REV_NovaPatch.tmx",
+			"ToArea": {
+			"X": 81,
+			"Y": 59,
+			"Width": 12,
+			"Height": 16
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Light"
+					],
+					"Value": "87 65 2",
+					"Delimiter": " "
+				}
+			]
+		},
+		//What's this, then...?
+		{
+			"LogName": "Guest Room",
+			"Action": "EditMap",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"FromFile": "Assets/Maps/GuestRoom.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 0,
+				"Width": 10,
+				"Height": 14
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Doors"
+					],
+					"Value": "24 12 1 120",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"Weather": "Storm"
+			}
+		},
+	
+		//Fireplace
+	
+		{
+			"LogName": "EDHouse Fireplace",
+			"Action": "EditMap",
+			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"FromFile": "Assets/Maps/EDHouseFireplace.tmx",
+			"ToArea": {
+				"X": 15,
+				"Y": 19,
+				"Width": 2,
+				"Height": 2
+			},
+			"When": {
+				"Time": "{{Range: 1800, 2600}}",
+				"Season": "spring, fall, winter"
+			},
+			"PatchMode": "Replace",
+			"Update": "OnTimeChange"
+		},
+	
+		//Deep Mountains Cave
+	
+		{
+			"LogName": "Deep Mountains Cave",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_ESDeepMountains",
+			"FromFile": "Assets/Maps/DeepMountainCavePatch.tmx",
+			"ToArea": {
+				"X": 6,
+				"Y": 18,
+				"Width": 6,
+				"Height": 7
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Warp"
+					],
+					"Value": "8 22 TenebrousNova.EliDylan.CP_EDMountainCave 14 38",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"HasSeenEvent": "EnD.Eli.07"
+			}
+		},
+	
+		//Saturday beach camp. A nice new evening tradition for East Scarp.
+	
+		{
+			"LogName": "ES Beach Camp",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_EastScarpe",
+			"FromFile": "Assets/Maps/ESBeachCampPatch.tmx",
+			"ToArea": {
+				"X": 34,
+				"Y": 101,
+				"Width": 8,
+				"Height": 10
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Light"
+					],
+					"Value": "35 104 4 37 106 4 38 106 4 37 107 4 38 107 4",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"DayOfWeek": "Saturday",
+				"Weather": "Sun, Wind, Snow"
+			},
+			"PatchMode": "Replace"
+		},
+		{
+			"LogName": "ES Beach Campfire",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_EastScarpe",
+			"FromFile": "Assets/Maps/ESBeachCampPatchFire.tmx",
+			"ToArea": {
+				"X": 37,
+				"Y": 106,
+				"Width": 2,
+				"Height": 2
+			},
+			"When": {
+				"DayOfWeek": "Saturday",
+				"Weather": "Sun, Wind, Snow",
+				"Time": "{{Range: 1800, 2600}}"
+			},
+			"PatchMode": "Replace",
+			"Update": "OnTimeChange"
+		},
+	
+		//Loads the house tilesheets.
+	
+		{
+			"LogName": "House Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/spring_z_EDHouse, Maps/summer_z_EDHouse, Maps/fall_z_EDHouse, Maps/winter_z_EDHouse",
+			"FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Interior Tilesheets",
+			"Action": "Load",
+			"Target": "Maps/Custom_EDInterior",
+			"FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
+		},
+
+		//House Exterior Lantern
+
+	{
+		"LogName": "Night Lantern",
+		"Action": "EditImage",
+		"Target": "Maps/{{season}}_z_EDHouse",
+		"FromFile": "assets/TileSheets/{{season}}_z_EDHouse.png",
+		"When": {
+			"HasFile:{{FromFile}}": true,
+			"Time": "{{Range: 2000, 2600}}"
+		},
+		"FromArea": {
+			"X": 112,
+			"Y": 160,
+			"Width": 16,
+			"Height": 16
+		},
+		"ToArea": {
+			"X": 80,
+			"Y": 48,
+			"Width": 16,
+			"Height": 16
+		},
+		"PatchMode": "Replace",
+		"Update": "OnTimeChange"
+	},
+
+	//Eli Intro Patch. This temporarily removes the AlwaysFront parts of the Community Centre roof and replaces them with tiles on the Buildings layer so he can sit there.
+
+	{
+		"LogName": "Eli Intro Patch",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+			{
+				"Position": { "X": 55, "Y": 15 },
+				"Layer": "AlwaysFront",
+				"Remove": true
+			},
+			{
+				"Position": { "X": 55, "Y": 15 },
+				"Layer": "Buildings",
+				"SetTileSheet": "Town",
+				"SetIndex": "1416"
+			},
+			{
+				"Position": { "X": 55, "Y": 14 },
+				"Layer": "AlwaysFront",
+				"Remove": true
+			},
+			{
+				"Position": { "X": 55, "Y": 14 },
+				"Layer": "Buildings",
+				"SetTileSheet": "Town",
+				"SetIndex": "1384"
+			},
+			{
+				"Position": { "X": 55, "Y": 13 },
+				"Layer": "AlwaysFront",
+				"Remove": true
+			},
+			{
+				"Position": { "X": 55, "Y": 13 },
+				"Layer": "Buildings",
+				"SetTileSheet": "Town",
+				"SetIndex": "1352"
+			}
+
+		],
+		"When": {
+			"HasSeenEvent": "112",
+			"HasSeenEvent |contains=EnD.Eli.01": "false"
+		},
+		"Update": "OnLocationChange"
+	},
+
+	//Makes it possible for Eli to sit on Pierre's roof for funsies.
+	
+	{
+		"LogName": "Pierre Roof Patch",
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"MapTiles": [
+			{
+				"Position": { "X": 47, "Y": 50},
+				"Layer": "Front",
+				"Remove": true
+			},
+			{
+				"Position": { "X": 47, "Y": 51},
+				"Layer": "Front",
+				"Remove": true
+			}
+		]
+	}
+    ]
+}

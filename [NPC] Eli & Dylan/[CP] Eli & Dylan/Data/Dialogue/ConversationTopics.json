@@ -1,0 +1,532 @@
+{
+	"Changes": [
+	
+		{
+			"LogName": "Eli",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Nova.Eli",
+			"Entries": {
+
+				"joja_Begin": "{{i18n:CT.NovaEli.JojaBegin}}",
+			    "cc_Begin": "{{i18n:CT.NovaEli.CCBegin}}",
+			    "cc_Bus": "{{i18n:CT.NovaEli.CCBus}}",
+			    "cc_Minecart": "{{i18n:CT.NovaEli.CCMinecart}}",
+			    "cc_Complete": "{{i18n:CT.NovaEli.CCComplete}}",
+			    "movieTheater": "{{i18n:CT.NovaEli.MovieTheater}}",
+
+			//ARV Topics
+			
+			//Sterling
+			
+			    "SterlingTrash": "{{i18n:CT.NovaEli.SterlingTrash}}",
+			    "SterlingTrain": "{{i18n:CT.NovaEli.SterlingTrain}}",
+			    "SterlingShaneParty": "{{i18n:CT.NovaEli.SterlingShaneParty}}",
+			    "SterlingSwim": "{{i18n:CT.NovaEli.SterlingSwim}}",
+			    "SterlingBike": "{{i18n:CT.NovaEli.SterlingBike}}",
+			    "SterlingDrugs": "{{i18n:CT.NovaEli.SterlingDrugs}}",
+			    "SterlingRelapse": "{{i18n:CT.NovaEli.SterlingRelapse}}",
+			    "SterlingApology": "{{i18n:CT.NovaEli.SterlingApology}}",
+			    "SterlingRiver": "{{i18n:CT.NovaEli.SterlingRiver}}",
+
+				//Trace & Anew Topics
+
+				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaEli.AnewCoupleInTown}}",
+
+				//Sen Topics
+
+				"LitD_CT_SenMet": "{{i18n:CT.NovaEli.SenMet}}",
+
+				//Lucikiel Topics
+
+				"LucikielArrives": "{{i18n:CT.NovaEli.LucikielArrives}}",
+
+				//Jorts & Jean Topics
+
+				"MeetTheCats": "{{i18n:CT.NovaEli.MeetTheCats}}",
+
+				//Mateo Topics
+
+				"MateoCaution": "{{i18n:CT.NovaEli.MateoCaution}}",
+				"MateoRescue": "{{i18n:CT.NovaEli.MateoRescue}}",
+				"MateoLibrary": "{{i18n:CT.NovaEli.MateoLibrary}}",
+
+				//The Writer, The Witch & The Wardrobe Topics:
+
+				"TalkWithGunther": "{{i18n:CT.NovaEli.TalkWithGunther}}",
+
+				//Realistic Writer Elliott Topics:
+
+				"elliott_writing_letter1": "{{i18n:CT.NovaEli.elliott_writing_letter1}}",
+
+				//Grandpa's Ghost topics:
+
+				"GrandpaHaunts": "{{i18n:CT.NovaEli.GrandpaHaunts}}",
+
+				//BearFam Topics:
+
+				"BearFamTimeForBees": "{{i18n:CT.NovaEli.BearFamTimeForBees}}",
+				"SigLowBattery": "{{i18n:CT.NovaEli.SigLowBattery}}",
+				"SondraAgingGracefully": "{{i18n:CT.NovaEli.SondraAgingGracefully}}",
+
+				//Nora Topics:
+
+				"NoraIntro": "{{i18n:CT.NovaEli.NoraIntro}}",
+
+				//Lily of the Valley Topics:
+
+				"LotV_CT_EveMeet": "{{i18n:CT.NovaEli.LotV_CT_EveMeet}}",
+
+				//Lyell Topics:
+
+				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}",
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.NovaEli.EliIntro}}",
+				"EliSaloon": "{{i18n:CT.NovaEli.EliSaloon}}",
+				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1}}",
+				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2}}",
+				"EliWoods": "{{i18n:CT.NovaEli.EliWoods}}",
+				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
+				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
+				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.NovaEli.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.NovaEli.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.NovaEli.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
+				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
+
+				//Other Topics
+
+				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
+				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
+
+				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}"
+			}
+		},
+
+		{
+			"LogName": "Dylan",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Nova.Dylan",
+			"Entries": {
+
+				"joja_Begin": "{{i18n:CT.NovaDylan.JojaBegin}}",
+				"cc_Begin": "{{i18n:CT.NovaDylan.CCBegin}}",
+				"cc_Bus": "{{i18n:CT.NovaDylan.CCBus}}",
+				"cc_Minecart": "{{i18n:CT.NovaDylan.CCMinecart}}",
+				"cc_Complete": "{{i18n:CT.NovaDylan.CCComplete}}",
+				"movieTheater": "{{i18n:CT.NovaDylan.MovieTheater}}",
+				
+				//ARV Topics
+				
+				//Sterling
+				
+				"SterlingTrash": "{{i18n:CT.NovaDylan.SterlingTrash}}",
+				"SterlingTrain": "{{i18n:CT.NovaDylan.SterlingTrain}}",
+				"SterlingShaneParty": "{{i18n:CT.NovaDylan.SterlingShaneParty}}",
+				"SterlingSwim": "{{i18n:CT.NovaDylan.SterlingSwim}}",
+				"SterlingBike": "{{i18n:CT.NovaDylan.SterlingBike}}",
+				"SterlingDrugs": "{{i18n:CT.NovaDylan.SterlingDrugs}}",
+				"SterlingRelapse": "{{i18n:CT.NovaDylan.SterlingRelapse}}",
+				"SterlingApology": "{{i18n:CT.NovaDylan.SterlingApology}}",
+				"SterlingRiver": "{{i18n:CT.NovaDylan.SterlingRiver}}",
+
+				//Trace & Anew Topics
+
+				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaDylan.AnewCoupleInTown}}",
+
+				//Sen Topics
+
+				"LitD_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet}}",
+
+				//Lucikiel Topics
+
+				"LucikielArrives": "{{i18n:CT.NovaDylan.LucikielArrives}}",
+
+				//Jorts & Jean Topics
+
+				"MeetTheCats": "{{i18n:CT.NovaDylan.MeetTheCats}}",
+
+				//Mateo Topics
+
+				"MateoCaution": "{{i18n:CT.NovaDylan.MateoCaution}}",
+				"MateoRescue": "{{i18n:CT.NovaDylan.MateoRescue}}",
+				"MateoLibrary": "{{i18n:CT.NovaDylan.MateoLibrary}}",
+
+				//The Writer, The Witch & The Wardrobe Topics:
+
+				"TalkWithGunther": "{{i18n:CT.NovaDylan.TalkWithGunther}}",
+
+				//Realistic Writer Elliott Topics:
+
+				"elliott_writing_letter1": "{{i18n:CT.NovaDylan.elliott_writing_letter1}}",
+
+				//Grandpa's Ghost topics:
+
+				"GrandpaHaunts": "{{i18n:CT.NovaDylan.GrandpaHaunts}}",
+
+				//BearFam Topics:
+
+				"BearFamTimeForBees": "{{i18n:CT.NovaDylan.BearFamTimeForBees}}",
+				"SigLowBattery": "{{i18n:CT.NovaDylan.SigLowBattery}}",
+				"SondraAgingGracefully": "{{i18n:CT.NovaDylan.SondraAgingGracefully}}",
+
+				//Nora Topics:
+
+				"NoraIntro": "{{i18n:CT.NovaDylan.NoraIntro}}",
+
+				//Lily of the Valley Topics:
+
+				"LotV_CT_EveMeet": "{{i18n:CT.NovaDylan.LotV_CT_EveMeet}}",
+
+				//Lyell Topics:
+
+				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}",
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.NovaDylan.EliIntro}}",
+				"EliSaloon": "{{i18n:CT.NovaDylan.EliSaloon}}",
+				"EliJunimo1": "{{i18n:CT.NovaDylan.EliJunimo1}}",
+				"EliJunimo2": "{{i18n:CT.NovaDylan.EliJunimo2}}",
+				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods}}",
+				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
+				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.NovaDylan.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.NovaDylan.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
+				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
+
+				//Other Topics
+
+				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
+				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
+				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}"
+				
+			}
+		},
+
+		{
+			"LogName": "Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Lewis.EliIntro}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Lewis.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Lewis.DylanBeach}}"
+			}
+		},
+
+		{
+			"LogName": "Emily",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Emily.EliIntro}}",
+				"EliSaloon": "{{i18n:CT.Emily.EliSaloon}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Emily.DylanIntro}}",
+				"DylanSaloon": "{{i18n:CT.Emily.DylanSaloon}}"
+
+			}
+		},
+
+		{
+			"LogName": "Haley",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Haley.EliIntro}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Haley.DylanIntro}}"
+			}
+		},
+
+		{
+			"LogName": "Shane",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
+
+				//Dylan Topics
+				
+				"DylanSaloon": "{{i18n:CT.Shane.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Clint",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+
+				//Eli Topics
+				
+				"EliSaloon": "{{i18n:CT.Clint.EliSaloon}}",
+				"EliGuild": "{{i18n:CT.Clint.EliGuild}}",
+
+				//Dylan Topics
+
+				"DylanSaloon": "{{i18n:CT.Clint.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Gus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliSaloon": "{{i18n:CT.Gus.EliSaloon}}",
+
+				//Dylan Topics
+
+				"DylanSaloon": "{{i18n:CT.Gus.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Wizard",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			"Entries": {
+				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}"
+			}
+		},
+
+		{
+			"LogName": "Demetrius",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliMushroomCave": "{{i18n:CT.Demetrius.EliMushroomCave}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}"
+			}
+		},
+
+		{
+			"LogName": "Maru",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Maru.EliIntro}}",
+				"EliMushroomCave": "{{i18n:CT.Maru.EliMushroomCave}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}"
+			}
+		},
+
+		{
+			"LogName": "Leah",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
+				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Leah.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Leah.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.Leah.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Elliott",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Elliott.EliIntro}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Elliott.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Elliott.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.Elliott.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.Elliott.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Harvey",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliMushroomCave": "{{i18n:CT.Harvey.EliMushroomCave}}",
+
+				//Dylan Topics
+
+				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Abigail",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"EliIntro": "{{i18n:CT.Abigail.EliIntro}}",
+				"EliWoods": "{{i18n:CT.Abigail.EliWoods}}",
+				"EliGuild": "{{i18n:CT.Abigail.EliGuild}}"
+			}
+		},
+
+		{
+			"LogName": "Pierre",
+			"Action":"EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}"
+			}
+		},
+
+		{
+			"LogName": "Sebastian",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"EliJunimo1": "{{i18n:CT.Sebastian.EliJunimo1}}"
+			}
+		},
+
+		{
+			"LogName": "Willy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+				"DylanIntro": "{{i18n:CT.Willy.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
+				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Penny",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}"
+			}
+		},
+
+		{
+			"LogName": "Vincent",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"Entries": {
+				"DylanLibrary": "{{i18n:CT.Vincent.DylanLibrary}}"
+			}
+		},
+
+		{
+			"LogName": "Jas",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"Entries": {
+				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary}}"
+			}
+		},
+
+		{
+			"LogName": "Krobus",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Krobus",
+			"Entries": {
+				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}"
+			}
+		},
+
+		{
+			"LogName": "Conversation Topics - Marlon Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marlon",
+			"Entries":
+				{
+					//Eli Topics
+
+					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
+
+					//Dylan Topics
+
+					"DylanSaloon":"{{i18n:CT.Marlon.DylanSaloon}}"
+				},
+				"When": {
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+				  }	
+		},
+		
+			{
+				"LogName": "Conversation Topics - Marlon SVE",
+				"Action": "EditData",
+				"Target": "Characters/Dialogue/MarlonFey",
+				"Entries":
+				{
+					//Eli Topics
+
+					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
+
+					//Dylan Topics
+					
+					"DylanSaloon":"{{i18n:CT.MarlonSVE.DylanSaloon}}"
+				},
+				"When": {
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				  }	
+			}
+	]
+}

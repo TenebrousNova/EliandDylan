@@ -1,0 +1,47 @@
+{
+    "Name": "SootInside",
+    "Type": "Walking",
+    "EnableSpawnAtDayStart": true,
+    "EnableFarmerCollision": true,
+    "EnableShadow": true,
+    "Shadow": {
+        "OffsetX": 0,
+        "OffsetY": -16,
+        "Scale": 1,
+        "Alpha": 255
+    },
+    "EnableBreathing": true,
+    "TravelSpeed": 3,
+    "SpawnOffsetX": 0,
+    "SpawnOffsetY": 0,
+    "MaxIdleDistance": -1,
+    "MaxDistanceBeforeTeleport": -1,
+
+    "Portrait": {
+        "PortraitDisplayName": "Soot",
+        "FrameSizeWidth": 64,
+        "FrameSizeHeight": 64,
+        "FrameIndex": 0
+    },
+    "Sounds": [
+        {
+          "SoundName": "dustMeep",
+          "WhenToPlay": "Idle",
+          "TimeBetweenSound": 2000,
+          "ChanceOfPlaying": 0.2
+        }
+      ],
+    "IdleBehavior": "Jumper",
+    "FrameSizeWidth": 16,
+    "FrameSizeHeight": 32,
+    "UniformAnimation": {
+        "StartingFrame": 0,
+        "NumberOfFrames": 4,
+        "Duration": 100,
+        "IdleAnimation": {
+            "StartingFrame": 0,
+            "NumberOfFrames": 4,
+            "Duration": 100
+        }
+    }
+}

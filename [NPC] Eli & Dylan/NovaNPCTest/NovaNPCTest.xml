@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NovaNPCTest</name>
+    </assembly>
+    <members>
+        <member name="T:NovaNPCTest.ModEntry">
+            <inheritdoc />
+        </member>
+        <member name="M:NovaNPCTest.NPCExtensions.TryGetScheduleEntry(StardewValley.NPC,System.String,System.String@)">
+            <summary>
+            Helper method to get an NPC's raw schedule string for a specific key.
+            </summary>
+            <param name="npc">NPC in question.</param>
+            <param name="scheduleKey">Schedule key to look for.</param>
+            <param name="rawData">Raw schedule string.</param>
+            <returns>True if successful, false otherwise.</returns>
+            <remarks>Does **not** set _lastLoadedScheduleKey, intentionally.</remarks>
+        </member>
+        <member name="M:NovaNPCTest.ScheduleUtilityFunctions.#ctor(StardewModdingAPI.IMonitor,StardewModdingAPI.ITranslationHelper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.ScheduleUtilityFunctions"/> class.
+            </summary>
+            <param name="monitor">The logger.</param>
+            <param name="translation">The translation helper.</param>
+        </member>
+        <member name="M:NovaNPCTest.ScheduleUtilityFunctions.TryFindGOTOschedule(StardewValley.NPC,StardewModdingAPI.Utilities.SDate,System.String,System.String@)">
+            <summary>
+            Given a raw schedule string, returns a new raw schedule string, after following the GOTO/MAIL/NOT friendship keys in the game.
+            </summary>
+            <param name="npc">NPC.</param>
+            <param name="date">The data to analyze.</param>
+            <param name="rawData">The raw schedule string.</param>
+            <param name="scheduleString">A raw schedule string, stripped of MAIL/GOTO/NOT elements. Ready to be parsed.</param>
+            <returns>True if successful, false for error (skip to next schedule entry).</returns>
+        </member>
+        <member name="T:NovaNPCTest.SpanSplitEntry">
+            <summary>
+            A split entry. Consists of the word + the character split by.
+            (The end of the string is marked with string.Empty).
+            </summary>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.#ctor(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.SpanSplitEntry"/> struct.
+            </summary>
+            <param name="word">Word.</param>
+            <param name="seperator">Separator.</param>
+        </member>
+        <member name="P:NovaNPCTest.SpanSplitEntry.Word">
+            <summary>
+            Gets the word.
+            </summary>
+        </member>
+        <member name="P:NovaNPCTest.SpanSplitEntry.Seperator">
+            <summary>
+            Gets the separator after the word. (String.Empty denotes the end).
+            </summary>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.Deconstruct(System.ReadOnlySpan{System.Char}@,System.ReadOnlySpan{System.Char}@)">
+            <summary>
+            De-constructs the entry.
+            </summary>
+            <param name="word">Word.</param>
+            <param name="seperator">Separator.</param>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.Contains(System.ReadOnlySpan{System.Char},System.StringComparison)">
+            <summary>
+            Whether this entry contains the string.
+            </summary>
+            <param name="str">Substring.</param>
+            <param name="comparison">The comparison method - defaults to ordinal.</param>
+            <returns>True if this entry contains that string.</returns>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.StartsWith(System.ReadOnlySpan{System.Char},System.StringComparison)">
+            <summary>
+            Whether this entry starts with the string.
+            </summary>
+            <param name="str">Substring.</param>
+            <param name="comparison">The comparison method - defaults to ordinal.</param>
+            <returns>True if this entry starts with that string.</returns>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.EndsWith(System.ReadOnlySpan{System.Char},System.StringComparison)">
+            <summary>
+            Whether or not this entry ends with a specific string.
+            </summary>
+            <param name="str">Substring.</param>
+            <param name="comparison">The comparison method - defaults to ordinal.</param>
+            <returns>True if this entry ends with that string.</returns>
+        </member>
+        <member name="M:NovaNPCTest.SpanSplitEntry.ToString">
+            <inheritdoc />
+        </member>
+        <member name="T:NovaNPCTest.StreamSplitExtensions">
+            <summary>
+            Holds extensions for StreamSplit.
+            </summary>
+        </member>
+        <member name="T:NovaNPCTest.StreamSplit">
+            <summary>
+            A struct that tracks the split progress.
+            </summary>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.#ctor(System.String,System.Char,System.StringSplitOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.StreamSplit"/> struct.
+            </summary>
+            <param name="str">string to split.</param>
+            <param name="splitchar">character to split by.</param>
+            <param name="options">split options.</param>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.#ctor(System.String,System.Char[],System.StringSplitOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.StreamSplit"/> struct.
+            </summary>
+            <param name="str">string to split.</param>
+            <param name="splitchars">characters to split by.</param>
+            <param name="options">split options.</param>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.#ctor(System.ReadOnlySpan{System.Char},System.Char,System.StringSplitOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.StreamSplit"/> struct.
+            </summary>
+            <param name="str">span to split.</param>
+            <param name="splitchar">character to split by.</param>
+            <param name="options">split options.</param>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.#ctor(System.ReadOnlySpan{System.Char},System.Char[],System.StringSplitOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:NovaNPCTest.StreamSplit"/> struct.
+            </summary>
+            <param name="str">span to split.</param>
+            <param name="splitchars">characters to split by, or null to split by whitespace.</param>
+            <param name="options">split options.</param>
+        </member>
+        <member name="P:NovaNPCTest.StreamSplit.Current">
+            <summary>
+            Gets the current value - for Enumerator.
+            </summary>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.GetEnumerator">
+            <summary>
+            Gets this as an enumerator. Used for ForEach.
+            </summary>
+            <returns>this.</returns>
+        </member>
+        <member name="M:NovaNPCTest.StreamSplit.MoveNext">
+            <summary>
+            Moves to the next value.
+            </summary>
+            <returns>True if the next value exists, false otherwise.</returns>
+        </member>
+        <member name="M:NovaNPCTest.StringExtensions.GetNthChunk(System.String,System.Char,System.Int32)">
+            <summary>
+            Faster replacement for str.Split()[index];.
+            </summary>
+            <param name="str">String to search in.</param>
+            <param name="deliminator">deliminator to use.</param>
+            <param name="index">index of the chunk to get.</param>
+            <returns>a readonlyspan char with the chunk, or an empty readonlyspan for failure.</returns>
+        </member>
+        <member name="M:NovaNPCTest.StringExtensions.GetIndexOfWhiteSpace(System.String)">
+            <summary>
+            Gets the index of the next whitespace character.
+            </summary>
+            <param name="str">String to search in.</param>
+            <returns>Index of the whitespace character, or -1 if not found.</returns>
+        </member>
+        <member name="M:NovaNPCTest.StringExtensions.GetIndexOfWhiteSpace(System.ReadOnlySpan{System.Char})">
+            <summary>
+            Gets the index of the next whitespace character.
+            </summary>
+            <param name="chars">ReadOnlySpan to search in.</param>
+            <returns>Index of the whitespace character, or -1 if not found.</returns>
+        </member>
+        <member name="T:NovaNPCTest.I18n">
+            <summary>Get translations from the mod's <c>i18n</c> folder.</summary>
+            <remarks>This is auto-generated from the <c>i18n/default.json</c> file when the project is compiled.</remarks>
+        </member>
+        <member name="F:NovaNPCTest.I18n.Translations">
+            <summary>The mod's translation helper.</summary>
+        </member>
+        <member name="M:NovaNPCTest.I18n.Init(StardewModdingAPI.ITranslationHelper)">
+            <summary>Construct an instance.</summary>
+            <param name="translations">The mod's translation helper.</param>
+        </member>
+        <member name="M:NovaNPCTest.I18n.Eli_TrashReaction">
+            <summary>Get a translation equivalent to "Find anything interesting? You'd be amazed at what some people throw out.$1".</summary>
+        </member>
+        <member name="M:NovaNPCTest.I18n.Dylan_TrashReaction">
+            <summary>Get a translation equivalent to "Nice to see someone else into recycling. If they're not gonna use it, you might as well.$1".</summary>
+        </member>
+        <member name="M:NovaNPCTest.I18n.GetByKey(System.String,System.Object)">
+            <summary>Get a translation by its key.</summary>
+            <param name="key">The translation key.</param>
+            <param name="tokens">An object containing token key/value pairs. This can be an anonymous object (like <c>new { value = 42, name = "Cranberries" }</c>), a dictionary, or a class instance.</param>
+        </member>
+    </members>
+</doc>

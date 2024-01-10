@@ -1,0 +1,72 @@
+{
+    "Changes": [
+  
+      {
+        "LogName": "Eli & Dylan Special Orders",
+        "Action": "EditData",
+        "Target": "Data/SpecialOrders",
+        "Entries": {
+          "Eli.SpecialOrders.FairyRingOffering": {
+            "Name": "[NovaEli.SpecialOrders.FairyRingOffering_Name]",
+            "Requester": "Nova.Eli",
+            "Duration": "TwoWeeks",
+            "Repeatable": "false",
+            "RequiredTags": "event_EnD.Eli.08, !dropbox_EliBox",
+            "OrderType": "EliDylan",
+            "SpecialRule": "",
+            "Text": "[NovaEli.SpecialOrders.FairyRingOffering_Text]",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomisedElements": null,
+            "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "[NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text]",
+                "RequiredCount": "25",
+                "Data": {
+                  "DropBox": "EliBox",
+                  "DropBoxGameLocation": "TenebrousNova.EliDylan.CP_ESEDHouse",
+                  "DropBoxIndicatorLocation": "1 8",
+                  "AcceptedContextTags": "category_greens/category_flowers/category_fruits/category_vegetable/category_egg/category_milk"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "10000"
+                }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                  "MailReceived": "FairyRingMail",
+                  "NoLetter": "true"
+                }
+              }
+            ]
+          }
+        }
+      },
+
+      {
+        "Action": "EditData",
+        "Target": "Mods/atravita_SpecialOrdersExtended_DurationOverride",
+        "Entries": {
+           "Eli.SpecialOrders.FairyRingOffering": "-1"
+        }
+      },
+
+      {
+        "LogName": "Eli & Dylan Special Orders Strings",
+        "Action": "EditData",
+        "Target": "Strings/SpecialOrderStrings",
+        "Entries": {
+          "NovaEli.SpecialOrders.FairyRingOffering_Name": "{{i18n:SpecialOrders.FairyRingOffering.Name}}",
+          "NovaEli.SpecialOrders.FairyRingOffering_Text": "{{i18n:SpecialOrders.FairyRingOffering.Text}}",
+          "NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text": "{{i18n:SpecialOrders.FairyRingOffering.ObjectiveText}}"
+        }
+      }
+    ]
+  }

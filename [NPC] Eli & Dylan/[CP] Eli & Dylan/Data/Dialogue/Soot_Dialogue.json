@@ -1,0 +1,29 @@
+{ 
+    "Changes": [
+        
+        //Soot Dialogue
+
+	{
+		"Action": "EditData",
+		"Target": "{{PeacefulEnd.CustomCompanions/Companions:TenebrousNova.EliDylanCC.SootInside}}",
+		"TargetField": "Companion",
+		"Entries": {
+			"Companion": {
+				"InspectionDialogue": "{{i18n:CC.Soot.Dialogue.{{Random:{{Range:1, 8}}}}}}",
+				"OverheadTexts": [
+					{
+						"Text": "{{i18n:CC.Soot.OverheadText.1}}",
+						"ChanceWeight": 0.1,
+						"TextLifetime": 2000
+					},
+					{
+						"Text": "{{i18n:CC.Soot.OverheadText.2}}",
+						"ChanceWeight": 0.1,
+						"TextLifetime": 2000
+					}
+				]
+			}
+		}
+	}
+    ]
+}

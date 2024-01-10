@@ -1,0 +1,445 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Nova.Eli": { //Substitute with your NPC's internal name.
+                    "Name": "Nova.Eli", //Substitute with your NPC's internal name.
+                    "LovedTags": [
+                        "Cappuccino Mousse Cake", //Examples. Change with whatever your NPC loves/likes/dislikes.
+                        "Chocolate Popcorn",
+                        "Personal Pizza"
+                    ],
+                    "LikedTags": [
+                        "Sweet",
+                        "Healthy"
+                    ],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Salted Peanuts",
+                        "Joja Cola"
+                    ]
+                },
+
+                "Nova.Dylan": {
+                    "Name": "Nova.Dylan",
+                    "LovedTags": [
+                        "Ice Cream Sandwich",
+                        "Fries",
+                        "Personal Pizza"
+                    ],
+                    "LikedTags": [
+                        "Sweet",
+                        "Healthy"
+                    ],
+                    "DislikedTags": [
+                        "JojaCorn",
+                        "Salted Peanuts",
+                        "Joja Cola"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "Nova.Eli": { //Substitute with your NPC's internal name.
+                    "NPCName": "Nova.Eli", //Substitute with your NPC's internal name.
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0", //Brave Little Sapling
+                            "Response": "like", //Responses are love/like/hate.
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": { //What the NPC says in the lobby.
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.1}}"
+                                },
+                                "DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.2}}"
+                                },
+                                "AfterMovie": { //What the NPC says in the lobby after the movie.
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.3}}"
+                                }
+                            },
+                            "ID": "reaction_0" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
+
+                            //Repeat for the other movies.
+
+                        },
+                        {
+                            "Tag": "spring_movie_1", //Natural Wonders
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": { 
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.NaturalWonders.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.3}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0", //Prairie King
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.3}}"
+                                } 
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1", //Wumbus
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.3}}" 
+                                }
+
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0", //Mysterium
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.Mysterium.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.3}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1", //It Howls In The Rain
+                            "Response": "love", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.ItHowlsInTheRain.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.3}}"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.2}}"
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.3}}"
+                            }
+                        },
+                        "ID": "reaction_6"
+                    },
+                    {
+                        "Tag": "winter_movie_1", //Zuzu City Express
+                        "Response": "hate",
+                        "Whitelist": [],
+                        "SpecialResponses": {
+                            "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "/message \"{{i18n:Movies.NovaEli.ZuzuCityExpress.2}}\"",
+                                "Text": null
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.3}}"
+                            }
+                        }
+                    }
+                    ]
+                },
+
+                "Nova.Dylan": {
+                    "NPCName": "Nova.Dylan",
+                    "Reactions": [
+
+                        {
+                            "Tag": "spring_movie_0", //Brave Little Sapling
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.1}}"
+                                },
+                                "DuringMovie": { 
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.BraveLittleSapling.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": { 
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.3}}"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "spring_movie_1", //Natural Wonders
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": { 
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.3}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0", //Prairie King
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.PrairieKing.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.3}}"
+                                } 
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1", //Wumbus
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.3}}" 
+                                }
+
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0", //Mysterium
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.Mysterium.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.3}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1", //It Howls In The Rain
+                            "Response": "love", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.ItHowlsInTheRain.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.3}}"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.2}}"
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.3}}"
+                            }
+                        },
+                        "ID": "reaction_6"
+                    },
+                    {
+                        "Tag": "winter_movie_1", //Zuzu City Express
+                        "Response": "hate",
+                        "Whitelist": [],
+                        "SpecialResponses": {
+                            "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": "/message \"{{i18n:Movies.NovaDylan.ZuzuCityExpress.2}}\"",
+                                "Text": null
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.3}}"
+                            }
+                        }
+                    }
+                    ]
+                }
+
+                //Entries for other NPCs can be added here. Just repeat all of the above!
+            }
+        }
+        ]
+    }
+    
+                //spring_movie_0 Brave Little Sapling - family, comedy
+                //spring_movie_1 NAtural Wonders - documentary, family
+                //summer_movie_0 Prairie King - action
+                //summer_movie_1 Wumbus - sci-fi, comedy, family
+                //fall_movie_0 Mysterium - horror, art
+                //fall_movie_1 Howls in the rain - horror
+                //winter_movie_0 Miracle at Coldstar Ranch - family, romance
+                //winter_movie_1 Zuzu City Express - classic, romance

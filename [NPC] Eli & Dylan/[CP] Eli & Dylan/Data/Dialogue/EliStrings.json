@@ -1,0 +1,35 @@
+{
+	"Changes": [
+
+		{
+			"LogName": "Eli Strings",
+			"Action": "EditData",
+			"Target": "Strings/schedules/Nova.Eli",
+			"Entries": {
+					//Strings
+	
+	"EliMines.000": "{{i18n:Strings.NovaEli.Mines.1}}",
+	"EliMines.001": "{{i18n:Strings.NovaEli.Mines.2}}",
+	"EliMines.002": "{{i18n:Strings.NovaEli.Mines.3}}",
+	"EliLibrary.000": "{{i18n:Strings.NovaEli.Library.1}}",
+	"EliLibrary.001": "{{i18n:Strings.NovaEli.Library.2}}",
+	"EliLibrary.002": "{{i18n:Strings.NovaEli.Library.3}}",
+	"EliSpiritEveInn.000": "{{i18n:Strings.NovaEli.SpiritEveInn.1}}",
+	"EliSpiritEveInn.002": "{{i18n:Strings.NovaEli.SpiritEveInn.1.B}}",
+	"EliSpiritEveInn.001": "{{i18n:Strings.NovaEli.SpiritEveInn.2}}",
+	"EliClinic.000": "{{i18n:Strings.NovaEli.ClinicAppointment.1}}",
+	"EliClinic.001": "{{i18n:Strings.NovaEli.ClinicAppointment.2}}",
+	"EliClinic.002": "{{i18n:Strings.NovaEli.ClinicAppointment.3}}",
+	"EliClinic.003": "{{i18n:Strings.NovaEli.ClinicAppointment.4}}",
+	"EliClinic.004": "{{i18n:Strings.NovaEli.ClinicAppointment.5}}",
+	"EliClinic.005": "{{i18n:Strings.NovaEli.ClinicAppointment.6}}",
+	"EliUnconscious.000": "{{i18n:Strings.NovaEli.Unconscious.1}}",
+	"EliUnconscious.001": "{{i18n:Strings.NovaEli.Unconscious.2}}",
+	"EliUnconscious.002": "{{i18n:Strings.NovaEli.Unconscious.3}}",
+	"EliLateNightRain.000": "{{i18n:Strings.NovaEli.LateNightRain}}"
+			}
+		}
+
+
+	]
+}

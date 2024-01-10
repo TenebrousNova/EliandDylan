@@ -1,0 +1,29 @@
+{
+    "Changes": [
+  
+      {
+        "LogName": "Soot Spawn",
+        "Action": "EditMap",
+        "Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+        "MapTiles": [
+          {
+            "Position": {
+              "X": "19",
+              "Y": "22"
+            },
+            "Layer": "Back",
+            "SetProperties": {
+              "CustomCompanions": "Spawn 1 TenebrousNova.EliDylanCC.SootInside"
+            }
+          }
+        ],
+        "When": {
+          "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+          "Weather": "Sun, Wind, Snow, Rain, Storm"
+        },
+        "Season": "Spring, Summer, Fall, Winter",
+        "Update": "OnLocationChange"
+      }
+  
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "Custom Letterheading",
+      "Action": "Load",
+      "Target": "Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds",
+      "FromFile": "Assets/Images/ED_Stationary.png"
+    },
+    
+    {
+      "LogName": "EliDylan Mail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "EliLetter1": "{{i18n:Mail.EliLetter.1}}%item object 688 3 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.1.Title}}",
+        "EliCaveInvite": "{{i18n:Mail.EliLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.2.Title}}",
+        "EliWarpPrototype": "{{i18n:Mail.EliLetter.3}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.ELiLetter.3.Title}}",
+
+        "DylanCleanupLetter": "{{i18n:Mail.DylanLetter.1}}%item object 394 1 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.1.Title}}",
+        "DylanApology": "{{i18n:Mail.DylanLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}"
+      }
+    }
+  ]
+}

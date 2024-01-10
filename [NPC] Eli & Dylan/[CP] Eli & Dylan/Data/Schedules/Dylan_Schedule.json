@@ -1,0 +1,53 @@
+{
+    "Changes": 
+
+        [
+
+            {
+                //Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+                
+                //Main Schedule
+
+                "LogName": "Dylan Main Schedule",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Dylan",
+                "Entries": {
+
+                    "rain": "{{Random:{{DylanRain_A}}++{{DylanRain_B}}|InputSeparator=++}}",
+                    "spring": "{{Random:{{DylanMonday_A}}++{{DylanMonday_B}}|InputSeparator=++}}",
+                    "Tue": "{{Random:{{DylanTuesday_A}}++{{DylanTuesday_B}}|InputSeparator=++}}",
+                    "Wed": "{{Random:{{DylanWednesday_A}}++{{DylanWednesday_B}}|InputSeparator=++}}",
+                    "Thu": "{{Random:{{DylanThursday_A}}++{{DylanThursday_B}}|InputSeparator=++}}",
+                    "Thu_noBridge": "610 12 8 3/630 24 23 1/0730 24 23 1/0800 Beach 53 6 2 Dylan_Sit/1330 54 24 1 Dylan_WritingRight/1500 24 27 3 Dylan_WritingLeft/1600 Custom_EastScarpeInn 25 11 2 Dylan_Sit/2100 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1",
+                    "Fri": "{{Random:{{DylanFriday_A}}++{{DylanFriday_B}}|InputSeparator=++}}",
+                    "Sat": "{{Random:{{DylanSaturday_A}}++{{DylanSaturday_B}}|InputSeparator=++}}",
+                    "Sun": "{{Random:{{DylanSunday_A}}++{{DylanSunday_B}}|InputSeparator=++}}",
+                    "fall_27": "610 12 8 3/630 24 23 1/0730 24 24 1/0800 Custom_EastScarpe 31 63 3/1030 40 67 2 \"Strings\\schedules\\Nova.Dylan:DylanSpiritEveInn.000\"/1120 Custom_EastScarpeInn 25 27 2 \"Strings\\schedules\\Nova.Dylan:DylanSpiritEveInn.001\"/2000 Town 0 0 0",
+                    "winter_6": "610 12 8 3/630 23 22 0/0730 24 23 1/0800 Beach 40 36 2/1330 56 11 1/1700 Saloon 26 18 3 Dylan_Drink/2100 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1",
+                    "winter_7": "610 Town 33 57 2/1030 Hospital 12 14 2 {{DylanStrings_ClinicWait}}/1250 10 15 0 {{DylanStrings_ClinicWait}}/1330 4 6 1 {{DylanStrings_ClinicExam}}/1600 Town 50 68 1/1730 Saloon 40 19 2 Dylan_Drink/2200 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1",
+                    "winter_15": "0 Submarine 9 5 1/1700 9 4 1 Dylan_WritingRight/2000 20 4 3 Dylan_WritingLeft/2300 9 4 1 Dylan_WritingRight",
+                    "winter_16": "GOTO winter_15",
+                    "winter_17": "GOTO winter_15"
+                }
+            },
+
+            //Schedules for Dylan's annual checkup.
+            {
+                "LogName": "Harvey Dylan Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Harvey",
+                "Entries": {
+                    "winter_7": "GOTO Tue"
+                }
+            },
+            {
+                "LogName": "Maru Dylan Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Maru",
+                "Entries": {
+                    "winter_7": "GOTO Tue"
+                }
+            }
+    ]
+}
+

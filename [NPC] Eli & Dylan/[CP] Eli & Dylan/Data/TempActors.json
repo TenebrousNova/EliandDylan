@@ -1,0 +1,151 @@
+{
+    "Changes": [
+
+        //Temporary Actors
+
+	{
+		"Action": "Load",
+		"Target": "Characters/Soot",
+		"FromFile": "Assets/Images/SootSprite.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Soot",
+		"FromFile": "Assets/Images/SootPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Thistle",
+		"FromFile": "Assets/Images/ThistleSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/Thistle",
+		"FromFile": "Assets/Images/ThistlePortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/MushroomTotem",
+		"FromFile": "Assets/Images/MushroomTotem.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/OfferingBox",
+		"FromFile": "Assets/Images/OfferingBox.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoKing",
+		"FromFile": "Assets/Images/JunimoKingSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/JunimoKing",
+		"FromFile": "Assets/Images/JunimoKingPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBrown",
+		"FromFile": "Assets/Images/JunimoFriend_brown.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendRed",
+		"FromFile": "Assets/Images/JunimoFriend_red.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendOrange",
+		"FromFile": "Assets/Images/JunimoFriend_orange.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendYellow",
+		"FromFile": "Assets/Images/JunimoFriend_yellow.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendGreen",
+		"FromFile": "Assets/Images/JunimoFriend_green.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBlue",
+		"FromFile": "Assets/Images/JunimoFriend_blue.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendPink",
+		"FromFile": "Assets/Images/JunimoFriend_pink.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendPurple",
+		"FromFile": "Assets/Images/JunimoFriend_purple.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBlack",
+		"FromFile": "Assets/Images/JunimoFriend_black.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendWhite",
+		"FromFile": "Assets/Images/JunimoFriend_white.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Octobucket",
+		"FromFile": "Assets/Images/Octobucket.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EDContainer1",
+		"FromFile": "Assets/Images/Containers.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EDContainer2",
+		"FromFile": "Assets/Images/Containers.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EDContainer3",
+		"FromFile": "Assets/Images/Containers.png"
+	},
+
+	//Loads Max from Always Raining in the Valley as a temp actor for events
+
+	{
+		"Action": "Load",
+		"Target": "Characters/ARVMax",
+		"FromFile": "Assets/Images/MaximumSprites.png",
+		"When": {
+			"HasMod": "Himetarts.ARV.CP"
+		}
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/ARVMax",
+		"FromFile": "Assets/Images/MaximumPortrait.png",
+		"When": {
+			"HasMod": "Himetarts.ARV.CP"
+		}
+	},
+
+    //Loads event particles.
+
+	{
+		"LogName": "Junimo Particles",
+		"Action": "Load",
+		"Target": "EliDylan/Particles",
+		"FromFile": "Assets/Images/Particles.png"
+	},
+	{
+		"LogName": "Junimo Plants",
+		"Action": "Load",
+		"Target": "EliDylan/Plants",
+		"FromFile": "Assets/Images/Plants.png"
+	}
+    ]
+ }

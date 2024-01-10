@@ -1,0 +1,267 @@
+{
+	"Changes": [
+	
+	{
+		"LogName": "Eli",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Entries": {
+			
+			//Intro
+			
+			"Introduction": "{{i18n:Core.NovaEli.Introduction}}",
+
+			//Entry Dialogue
+
+	         "Saloon_Entry": "{{i18n:Core.NovaEli.SaloonEntry}}",
+			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry}}",
+			 "Hospital_Entry": "{{i18n:Core.NovaEli.HospitalEntry}}",
+
+			//Important Dates
+			
+			"spring_2_2": "{{i18n:Core.NovaEli.Spring.2.2}}",
+			"spring_3_1": "{{i18n:Core.NovaEli.Spring.3.1}}",
+			"spring_12": "{{i18n:Core.NovaEli.Spring.12}}",
+			"spring_23": "{{i18n:Core.NovaEli.Spring.23}}",
+			"spring_27": "{{i18n:Core.NovaEli.Spring.27}}",
+
+			"summer_10": "{{i18n:Core.NovaEli.Summer.10}}",
+			"summer_27": "{{i18n:Core.NovaEli.Summer.27}}",
+
+			"fall_15": "{{i18n:Core.NovaEli.Fall.15}}",
+			"fall_17": "{{i18n:Core.NovaEli.Fall.17}}",
+			"fall_26": "{{i18n:Core.NovaEli.Fall.26}}",
+			"fall_28": "{{i18n:Core.NovaEli.Fall.28}}",
+
+			"winter_5": "{{i18n:Core.NovaEli.Winter.5}}",
+			"winter_7": "{{i18n:Core.NovaEli.Winter.7}}",
+			"winter_15": "{{i18n:Core.NovaEli.Winter.15}}",
+			"winter_16": "{{i18n:Core.NovaEli.Winter.16}}",
+			"winter_17": "{{i18n:Core.NovaEli.Winter.17}}",
+			"winter_18": "{{i18n:Core.NovaEli.Winter.18}}",
+			"winter_24": "{{i18n:Core.NovaEli.Winter.24}}",
+			"winter_28": "{{i18n:Core.NovaEli.Winter.28}}",
+
+			//Festival Lines
+
+			"Fair_Judging": "{{i18n:Core.NovaEli.Fair_Judging}}",
+			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_PurpleShorts}}",
+			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_Skipped}}",
+			"Fair_Judged_PlayerLost": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost}}",
+			"Fair_Judged_PlayerWon": "{{i18n:Core.NovaEli.Fair_Judged_PlayerWon}}",
+
+			"FlowerDance_Accept": "{{i18n:Core.NovaEli.FlowerDanceAccept}}",
+			"FlowerDance_Decline": "{{i18n:Core.NovaEli.DanceRejection}}",
+
+			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaEli.WinterStar_GiveGift_Before}}",
+			"WinterStar_GiveGift_After": "{{i18n:Core.NovaEli.WinterStar_GiveGift_After}}",
+			
+			//0 Hearts
+			
+			"spring_Mon": "{{i18n:Core.NovaEli.Spring.Monday.0h}}",
+			"spring_Tue": "{{i18n:Core.NovaEli.Spring.Tuesday.0h}}",
+			"spring_Wed": "{{i18n:Core.NovaEli.Spring.Wednesday.0h}}",
+			"spring_Thu": "{{i18n:Core.NovaEli.Spring.Thursday.0h}}",
+			"spring_Fri": "{{i18n:Core.NovaEli.Spring.Friday.0h}}",
+			"spring_Sat": "{{i18n:Core.NovaEli.Spring.Saturday.0h}}",
+			"spring_Sun": "{{i18n:Core.NovaEli.Spring.Sunday.0h}}",
+			
+			"summer_Mon": "{{i18n:Core.NovaEli.Summer.Monday.0h}}",
+			"summer_Tue": "{{i18n:Core.NovaEli.Summer.Tuesday.0h}}",
+			"summer_Wed": "{{i18n:Core.NovaEli.Summer.Wednesday.0h}}",
+			"summer_Thu": "{{i18n:Core.NovaEli.Summer.Thursday.0h}}",
+			"summer_Fri": "{{i18n:Core.NovaEli.Summer.Friday.0h}}",
+			"summer_Sat": "{{i18n:Core.NovaEli.Summer.Saturday.0h}}",
+			"summer_Sun": "{{i18n:Core.NovaEli.Summer.Sunday.0h}}",
+			
+			"fall_Mon": "{{i18n:Core.NovaEli.Fall.Monday.0h}}",
+			"fall_Tue": "{{i18n:Core.NovaEli.Fall.Tuesday.0h}}",
+			"fall_Wed": "{{i18n:Core.NovaEli.Fall.Wednesday.0h}}",
+			"fall_Thu": "{{i18n:Core.NovaEli.Fall.Thursday.0h}}[281 404 406 408 410]",
+			"fall_Fri": "{{i18n:Core.NovaEli.Fall.Friday.0h}}",
+			"fall_Sat": "{{i18n:Core.NovaEli.Fall.Saturday.0h}}",
+			"fall_Sun": "{{i18n:Core.NovaEli.Fall.Sunday.0h}}",
+			
+			"winter_Mon": "{{i18n:Core.NovaEli.Winter.Monday.0h}}",
+			"winter_Tue": "{{i18n:Core.NovaEli.Winter.Tuesday.0h}}",
+			"winter_Wed": "{{i18n:Core.NovaEli.Winter.Wednesday.0h}}",
+			"winter_Thu": "{{i18n:Core.NovaEli.Winter.Thursday.0h}}",
+			"winter_Fri": "{{i18n:Core.NovaEli.Winter.Friday.0h}}",
+			"winter_Sat": "{{i18n:Core.NovaEli.Winter.Saturday.0h}}",
+			"winter_Sun": "{{i18n:Core.NovaEli.Winter.Sunday.0h}}",
+			
+			//2 Hearts
+			
+			"spring_Mon2": "{{i18n:Core.NovaEli.Spring.Monday.2h}}",
+			"spring_Tue2": "{{i18n:Core.NovaEli.Spring.Tuesday.2h}}",
+			"spring_Wed2": "{{i18n:Core.NovaEli.Spring.Wednesday.2h}}",
+			"spring_Thu2": "{{i18n:Core.NovaEli.Spring.Thursday.2h}}",
+			"spring_Fri2": "{{i18n:Core.NovaEli.Spring.Friday.2h}}",
+			"spring_Sat2": "{{i18n:Core.NovaEli.Spring.Saturday.2h}}",
+			"spring_Sun2": "{{i18n:Core.NovaEli.Spring.Sunday.2h}}[60 78 80 86 535 536 537]",
+			
+			"summer_Mon2": "{{i18n:Core.NovaEli.Summer.Monday.2h}}",
+			"summer_Tue2": "{{i18n:Core.NovaEli.Summer.Tuesday.2h}}",
+			"summer_Wed2": "{{i18n:Core.NovaEli.Summer.Wednesday.2h}}",
+			"summer_Thu2": "{{i18n:Core.NovaEli.Summer.Thursday.2h}}",
+			"summer_Fri2": "{{i18n:Core.NovaEli.Summer.Friday.2h}}",
+			"summer_Sat2": "{{i18n:Core.NovaEli.Summer.Saturday.2h}}",
+			"summer_Sun2": "{{i18n:Core.NovaEli.Summer.Sunday.2h}}[233]",
+			
+			"fall_Mon2": "{{i18n:Core.NovaEli.Fall.Monday.2h}}",
+			"fall_Tue2": "{{i18n:Core.NovaEli.Fall.Tuesday.2h}}",
+			"fall_Wed2": "{{i18n:Core.NovaEli.Fall.Wednesday.2h}}",
+			"fall_Thu2": "{{i18n:Core.NovaEli.Fall.Thursday.2h}}",
+			"fall_Fri2": "{{i18n:Core.NovaEli.Fall.Friday.2h}}",
+			"fall_Sat2": "{{i18n:Core.NovaEli.Fall.Saturday.2h}}",
+			"fall_Sun2": "{{i18n:Core.NovaEli.Fall.Sunday.2h}}",
+			
+			"winter_Mon2": "{{i18n:Core.NovaEli.Winter.Monday.2h}}",
+			"winter_Tue2": "{{i18n:Core.NovaEli.Winter.Tuesday.2h}}",
+			"winter_Wed2": "{{i18n:Core.NovaEli.Winter.Wednesday.2h}}",
+			"winter_Thu2": "{{i18n:Core.NovaEli.Winter.Thursday.2h}}",
+			"winter_Fri2": "{{i18n:Core.NovaEli.Winter.Friday.2h}}",
+			"winter_Sat2": "{{i18n:Core.NovaEli.Winter.Saturday.2h}}",
+			"winter_Sun2": "{{i18n:Core.NovaEli.Winter.Sunday.2h}}",
+			
+			//4 Hearts
+			
+			"spring_Mon4": "{{i18n:Core.NovaEli.Spring.Monday.4h}}",
+			"spring_Tue4": "{{i18n:Core.NovaEli.Spring.Tuesday.4h}}[216 220 221 223]",
+			"spring_Wed4": "{{i18n:Core.NovaEli.Spring.Wednesday.4h}}",
+			"spring_Thu4": "{{i18n:Core.NovaEli.Spring.Thursday.4h}}",
+			"spring_Fri4": "{{i18n:Core.NovaEli.Spring.Friday.4h}}",
+			"spring_Sat4": "{{i18n:Core.NovaEli.Spring.Saturday.4h}}",
+			"spring_Sun4": "{{i18n:Core.NovaEli.Spring.Sunday.4h}}",
+			
+			"summer_Mon4": "{{i18n:Core.NovaEli.Summer.Monday.4h}}",
+			"summer_Tue4": "{{i18n:Core.NovaEli.Summer.Tuesday.4h}}",
+			"summer_Wed4": "{{i18n:Core.NovaEli.Summer.Wednesday.4h}}",
+			"summer_Thu4": "{{i18n:Core.NovaEli.Summer.Thursday.4h}}",
+			"summer_Fri4": "{{i18n:Core.NovaEli.Summer.Friday.4h}}",
+			"summer_Sat4": "{{i18n:Core.NovaEli.Summer.Saturday.4h}}",
+			"summer_Sun4": "[100 103 109 113 115]{{i18n:Core.NovaEli.Summer.Sunday.4h}}",
+			
+			"fall_Mon4": "{{i18n:Core.NovaEli.Fall.Monday.4h}}",
+			"fall_Tue4": "{{i18n:Core.NovaEli.Fall.Tuesday.4h}}",
+			"fall_Wed4": "{{i18n:Core.NovaEli.Fall.Wednesday.4h}}",
+			"fall_Thu4": "{{i18n:Core.NovaEli.Fall.Thursday.4h}}",
+			"fall_Fri4": "{{i18n:Core.NovaEli.Fall.Friday.4h}}",
+			"fall_Sat4": "{{i18n:Core.NovaEli.Fall.Saturday.4h}}",
+			"fall_Sun4": "{{i18n:Core.NovaEli.Fall.Sunday.4h}}",
+			
+			"winter_Mon4": "{{i18n:Core.NovaEli.Winter.Monday.4h}}",
+			"winter_Tue4": "{{i18n:Core.NovaEli.Winter.Tuesday.4h}}",
+			"winter_Wed4": "{{i18n:Core.NovaEli.Winter.Wednesday.4h}}",
+			"winter_Thu4": "{{i18n:Core.NovaEli.Winter.Thursday.4h}}",
+			"winter_Fri4": "{{i18n:Core.NovaEli.Winter.Friday.4h}}",
+			"winter_Sat4": "{{i18n:Core.NovaEli.Winter.Saturday.4h}}",
+			"winter_Sun4": "{{i18n:Core.NovaEli.Winter.Sunday.4h}}",
+			
+			//6 Hearts
+			
+			"spring_Mon6": "[688 689 690]{{i18n:Core.NovaEli.Spring.Monday.6h}}",
+			"spring_Tue6": "{{i18n:Core.NovaEli.Spring.Tuesday.6h}}",
+			"spring_Wed6": "{{i18n:Core.NovaEli.Spring.Wednesday.6h}}",
+			"spring_Thu6": "{{i18n:Core.NovaEli.Spring.Thursday.6h}}",
+			"spring_Fri6": "{{i18n:Core.NovaEli.Spring.Friday.6h}}",
+			"spring_Sat6": "{{i18n:Core.NovaEli.Spring.Saturday.6h}}",
+			"spring_Sun6": "{{i18n:Core.NovaEli.Spring.Sunday.6h}}",
+			
+			"summer_Mon6": "{{i18n:Core.NovaEli.Summer.Monday.6h}}[395]",
+			"summer_Tue6": "{{i18n:Core.NovaEli.Summer.Tuesday.6h}}",
+			"summer_Wed6": "{{i18n:Core.NovaEli.Summer.Wednesday.6h}}",
+			"summer_Thu6": "{{i18n:Core.NovaEli.Summer.Thursday.6h}}",
+			"summer_Fri6": "{{i18n:Core.NovaEli.Summer.Friday.6h}}",
+			"summer_Sat6": "{{i18n:Core.NovaEli.Summer.Saturday.6h}}",
+			"summer_Sun6": "{{i18n:Core.NovaEli.Summer.Sunday.6h}}",
+			
+			"fall_Mon6": "{{i18n:Core.NovaEli.Fall.Monday.6h}}",
+			"fall_Tue6": "{{i18n:Core.NovaEli.Fall.Tuesday.6h}}",
+			"fall_Wed6": "{{i18n:Core.NovaEli.Fall.Wednesday.6h}}",
+			"fall_Thu6": "{{i18n:Core.NovaEli.Fall.Thursday.6h}}",
+			"fall_Fri6": "{{i18n:Core.NovaEli.Fall.Friday.6h}}",
+			"fall_Sat6": "{{i18n:Core.NovaEli.Fall.Saturday.6h}}",
+			"fall_Sun6": "{{i18n:Core.NovaEli.Fall.Sunday.6h}}",
+
+			"winter_Mon6": "{{i18n:Core.NovaEli.Winter.Monday.6h}}",
+			"winter_Tue6": "{{i18n:Core.NovaEli.Winter.Tuesday.6h}}",
+			"winter_Wed6": "[412 414 416 418]{{i18n:Core.NovaEli.Winter.Wednesday.6h}}",
+			"winter_Thu6": "{{i18n:Core.NovaEli.Winter.Thursday.6h}}",
+			"winter_Fri6": "{{i18n:Core.NovaEli.Winter.Friday.6h}}",
+			"winter_Sat6": "{{i18n:Core.NovaEli.Winter.Saturday.6h}}",
+			"winter_Sun6": "{{i18n:Core.NovaEli.Winter.Sunday.6h}}",
+			
+			"spring_Mon8": "{{i18n:Core.NovaEli.Spring.Monday.8h}}",
+			"spring_Tue8": "{{i18n:Core.NovaEli.Spring.Tuesday.8h}}",
+			"spring_Wed8": "{{i18n:Core.NovaEli.Spring.Wednesday.8h}}",
+			"spring_Thu8": "{{i18n:Core.NovaEli.Spring.Thursday.8h}}",
+			"spring_Fri8": "{{i18n:Core.NovaEli.Spring.Friday.8h}}",
+			"spring_Sat8": "{{i18n:Core.NovaEli.Spring.Saturday.8h}}",
+			"spring_Sun8": "{{i18n:Core.NovaEli.Spring.Sunday.8h}}",
+
+			"summer_Mon8": "{{i18n:Core.NovaEli.Summer.Monday.8h}}",
+			"summer_Tue8": "{{i18n:Core.NovaEli.Summer.Tuesday.8h}}",
+			"summer_Wed8": "{{i18n:Core.NovaEli.Summer.Wednesday.8h}}",
+			"summer_Thu8": "{{i18n:Core.NovaEli.Summer.Thursday.8h}}",
+			"summer_Fri8": "{{i18n:Core.NovaEli.Summer.Friday.8h}}",
+			"summer_Sat8": "{{i18n:Core.NovaEli.Summer.Saturday.8h}}",
+			"summer_Sun8": "{{i18n:Core.NovaEli.Summer.Sunday.8h}}",
+
+			"fall_Mon8": "{{i18n:Core.NovaEli.Fall.Monday.8h}}",
+			"fall_Tue8": "{{i18n:Core.NovaEli.Fall.Tuesday.8h}}",
+			"fall_Wed8": "{{i18n:Core.NovaEli.Fall.Wednesday.8h}}",
+			"fall_Thu8": "{{i18n:Core.NovaEli.Fall.Thursday.8h}}",
+			"fall_Fri8": "{{i18n:Core.NovaEli.Fall.Friday.8h}}",
+			"fall_Sat8": "{{i18n:Core.NovaEli.Fall.Saturday.8h}}",
+			"fall_Sun8": "{{i18n:Core.NovaEli.Fall.Sunday.8h}}",
+
+			"winter_Mon8": "{{i18n:Core.NovaEli.Winter.Monday.8h}}{{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range:1, 3}}}}}}",
+			"winter_Tue8": "{{i18n:Core.NovaEli.Winter.Tuesday.8h.Opening}}[395]{{i18n:Core.NovaEli.Winter.Tuesday.8h.Closing}}",
+			"winter_Wed8": "{{i18n:Core.NovaEli.Winter.Wednesday.8h}}",
+			"winter_Thu8": "{{i18n:Core.NovaEli.Winter.Thursday.8h}}",
+			"winter_Fri8": "{{i18n:Core.NovaEli.Winter.Friday.8h}}",
+			"winter_Sat8": "{{i18n:Core.NovaEli.Winter.Saturday.8h}}",
+			"winter_Sun8": "{{i18n:Core.NovaEli.Winter.Sunday.8h}}",
+
+		
+			//Romantic (Negative)
+
+			"refusal_no_heartsA": "{{i18n:Core.NovaEli.RefusalNoHearts.A}}",
+			"refusal_no_heartsB": "{{i18n:Core.NovaEli.RefusalNoHearts.B}}",
+			"reject_two_heartA": "{{i18n:Core.NovaEli.Reject2Hearts.A}}",
+			"reject_two_heartsB": "{{i18n:Core.NovaEli.Reject2Hearts.B}}",
+			"reject_four_heartsA": "{{i18n:Core.NovaEli.Reject4Hearts.A}}",
+			"reject_four_heartsB": "{{i18n:Core.NovaEli.Reject4Hearts.B}}",
+			"refusal_knownA": "{{i18n:Core.NovaEli.RefusalKnown.A}}",
+			"refusal_knownB": "{{i18n:Core.NovaEli.RefusalKnown.B}}",
+			"refusal_botherA": "{{i18n:Core.NovaEli.RefusalBother.A}}",
+			"refusal_botherB": "{{i18n:Core.NovaEli.RefusalBother.B}}",
+			"engageA": "{{i18n:Core.NovaEli.RefusalEngaged.A}}",
+			"engageB": "{{i18n:Core.NovaEli.RefusalEngaged.B}}",
+			"marriedA": "{{i18n:Core.NovaEli.RefusalMarried.A.1}}{{spouse}}{{i18n:Core.NovaEli.RefusalMarried.A.2}}",
+			"marriedB": "{{i18n:Core.NovaEli.RefusalMarried.B.1}}{{spouse}}{{i18n:Core.NovaEli.RefusalMarried.B.2}}"
+		}
+	}
+
+	//Add dialogue about characters from other mods (like birthdays) here later.
+
+	//Also add resort stuff. Examples from Mateo:
+
+	/*            // RESORT
+            "Resort_Entering":"This place is amazing! $1#$b#It makes me feel like I'm back in the Fern Islands. Man, how nostalgic.$10",
+            "Resort_Leaving":"Today was a good day, but I've had my fill.$10#$b#Nothing beats a post-beach shower. Gotta wash all the sunscreen off.$11",
+            "Resort_Shore":"I've visited a lot of different islands, @. But one thing to keep in mind: all of them share the same sky.$14",
+            "Resort_Umbrella":"Just taking a little break from running around, @.#1#$b#Be sure to put on some sunscreen if you're going to spend a lot of time out and about.$11",
+            "Resort_Wander":"I know I live on a beach, but there's still something special about visiting a different one.$11",
+            "Resort_Wander_2":"I need a good pair of sunglasses. The big ones, that the bougie city girls wear.$11",
+            "Resort_Chair":"I could probably fall asleep here, but I snooze like a rock and I'd probably miss the boat back.$10",
+            "Resort_Bar":"We should toast to your hard work, @. Without you, this probably wouldn't have been set up.$11",
+            "Resort_Towel":"%Mateo seems completely relaxed.", 
+            "Resort_Towel_2":"I spent many a day in college drinking at the beach instead of writing papers...$7",
+            "Resort_Towel_3":"This would be a great place to have a party.$11",
+            "Resort":"Did you build a house here, @? Makes sense, being isolated in a beautiful place is hardly a negative.$1",
+		*/
+	
+	]
+}

@@ -1,0 +1,62 @@
+{
+    "Changes": 
+
+        [
+
+            {
+                //Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+
+                //Main Schedule
+
+                "LogName": "Eli Main Schedule",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+
+                    "rain": "{{Random:{{EliRain_A}}++{{EliRain_B}}|InputSeparator=++}}",
+                    "spring": "{{Random:{{EliMonday_A}}++{{EliMonday_B}}|InputSeparator=++}}",
+                    "Tue": "{{Random:{{EliTuesday_A}}++{{EliTuesday_B}}|InputSeparator=++}}",
+                    "Wed": "{{Random:{{EliWednesday_A}}++{{EliWednesday_B}}|InputSeparator=++}}",
+                    "Thu": "{{Random:{{EliThursday_A}}++{{EliThursday_B}}|InputSeparator=++}}",
+                    "Fri": "{{Random:{{EliFriday_A}}++{{EliFriday_B}}|InputSeparator=++}}",
+                    "Sat": "{{Random:{{EliSaturday_A}}++{{EliSaturday_B}}|InputSeparator=++}}",
+                    "Sun": "{{Random:{{EliSunday_A}}++{{EliSunday_B}}|InputSeparator=++}}",
+                    "summer_7": "0 Custom_EastScarpe 60 52/610 Town 33 57 2/1030 Hospital 12 14 2 square_3_1 {{EliStrings_ClinicWait}}/1250 10 15 0 {{EliStrings_ClinicWait}}/1330 4 6 1 {{EliStrings_ClinicExam}}/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3",
+                    "fall_27": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/0730 Custom_EastScarpe 76 114 1/0900 41 67 1 {{EliStrings_Spirit'sEve}}/1120 Custom_EastScarpeInn 26 27 2 \"Strings\\schedules\\Nova.Eli:EliSpiritEveInn.001\"/2000 Town 0 0 0",
+                    "winter_6": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/0730 Custom_EastScarpe 20 66 1/1000 Beach 44 35 1/1400 Town 44 77 2 EliSitB/1700 Saloon 25 18 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3",
+                    "winter_15": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/0730 Custom_EastScarpe 54 84 2 EliSitB/1000 53 69 3/1130 24 62 2/1400 Beach 16 25 2 EliSitA/2130 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3",
+                    "winter_16": "GOTO winter_15",
+                    "winter_17": "GOTO winter_15"
+                }
+            },
+            // Before the Railroad is unlocked, he'll visit the Mountain instead.
+            {
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+                    "Railroad_Replacement": "{{EliMountain_Wed}}"
+                }
+            },
+
+            //Deprives poor Harvey and Maru of a Sunday off so they can be subjected to Eli for a few hours.
+            {
+                "LogName": "Harvey Eli Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Harvey",
+                "Entries": {
+                    "summer_7": "GOTO Tue"
+                }
+            },
+            {
+                "LogName": "Maru Eli Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Maru",
+                "Entries": {
+                    "summer_7": "GOTO Tue"
+                }
+            }
+    ]
+}
+
+
+
