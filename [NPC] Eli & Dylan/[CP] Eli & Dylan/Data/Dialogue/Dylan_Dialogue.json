@@ -213,7 +213,19 @@
 			"winter_Thu8": "{{i18n:Core.NovaDylan.Winter.Thursday.8h}}",
 			"winter_Fri8": "{{i18n:Core.NovaDylan.Winter.Friday.8h}}",
 			"winter_Sat8": "{{i18n:Core.NovaDylan.Winter.Saturday.8h}}",
-			"winter_Sun8": "{{i18n:Core.NovaDylan.Winter.Sunday.8h}}"
+			"winter_Sun8": "{{i18n:Core.NovaDylan.Winter.Sunday.8h}}",
+
+			//Romance (Negative)
+
+			"RejectBouquet_NotDateable": "{{i18n:Core.NovaDylan.RejectBouquet_NotDateable}}"
+		}
+	},
+	{
+		"LogName": "Dylan Misc Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"HitBySlingshot": ""
 		}
 	}
 

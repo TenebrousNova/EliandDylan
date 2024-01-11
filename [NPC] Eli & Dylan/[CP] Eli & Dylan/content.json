@@ -252,7 +252,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTuesday_A",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 47 51 1 EliSitRight/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
+		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 23 63 1 EliSitRead/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliTuesday_B",

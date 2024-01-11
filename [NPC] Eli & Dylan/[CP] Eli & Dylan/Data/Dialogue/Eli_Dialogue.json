@@ -92,12 +92,25 @@
 		  }
 	},
 	{
-		"LogName": "Unique Courtship Responses",
+		"LogName": "Courtship Responses",
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
 
-			//Romantic (Negative)
+			//Positive
+
+			//"AcceptBouquet": "",
+
+			//Negative
+
+			"RejectBouquet_NotDateable": "{{i18n:Core.NovaEli.RejectBouquet_NotDateable}}",
+			"RejectBouquet_NpcAlreadyMarried": "{{i18n:Core.NovaEli.RejectBouquet_NpcAlreadyMarried}}",
+			"RejectBouquet_Divorced": "{{i18n:Core.NovaEli.RejectBouquet_Divorced}}",
+			"RejectBouquet_VeryLowHearts": "{{i18n:Core.NovaEli.Reject2Hearts.B}}",
+			"RejectBouquet_LowHearts": "{{i18n:Core.NovaEli.Reject4Hearts.B}}",
+
+
+			//Unique Courtship Responses
 
 			"refusal_no_heartsA": "{{i18n:Core.NovaEli.RefusalNoHearts.A}}",
 			"refusal_no_heartsB": "{{i18n:Core.NovaEli.RefusalNoHearts.B}}",
@@ -113,6 +126,15 @@
 			"engageB": "{{i18n:Core.NovaEli.RefusalEngaged.B}}",
 			"marriedA": "{{i18n:Core.NovaEli.RefusalMarried.A.1}}{{spouse}}{{i18n:Core.NovaEli.RefusalMarried.A.2}}",
 			"marriedB": "{{i18n:Core.NovaEli.RefusalMarried.B.1}}{{spouse}}{{i18n:Core.NovaEli.RefusalMarried.B.2}}"
+		}
+	},
+
+	{
+		"LogName": "Eli Misc Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Entries": {
+			"HitBySlingshot": "$action AddFriendshipPoints 30{{i18n:Core.NovaEli.HitBySlingshot.{{Random:{{Range: 1, 5}}}}}}"
 		}
 	}
 

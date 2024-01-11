@@ -318,6 +318,10 @@
 
 //ROMANCE (NEGATIVE)
 
+"Core.NovaEli.RejectBouquet_NotDateable": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
+"Core.NovaEli.RejectBouquet_NpcAlreadyMarried": "I hate to point this out to you @, But I'm literally a married man. I'm pretty sure you were at the wedding. So the answer's no.$10",
+"Core.NovaEli.RejectBouquet_Divorced": "Don't take the piss, @. I know I make the effort to talk to you still, but that doesn't mean I've forgotten about what happened.$5",
+
 "Core.NovaEli.RefusalNoHearts.A": "%Eli frowns at you and shakes his head in disbelief.",
 "Core.NovaEli.RefusalNoHearts.B": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
 "Core.NovaEli.Reject2Hearts.A": "...I'm flattered, @. Really I am, but I don't like you in that sort of way. Sorry if I ever gave you the wrong impression.$2",
@@ -334,6 +338,14 @@
 "Core.NovaEli.RefusalMarried.A.2": ".$5",
 "Core.NovaEli.RefusalMarried.B.1": "I hope that ",
 "Core.NovaEli.RefusalMarried.B.2": " comes to see you for what you really are. They deserve far better than this.$5",
+
+//MISC.
+
+"Core.NovaEli.HitBySlingshot.1": "Missed.$6",
+"Core.NovaEli.HitBySlingshot.2": "Aaaand that was a miss!$6",
+"Core.NovaEli.HitBySlingshot.3": "Are you even trying to aim at me? That one went nowhere.$6",
+"Core.NovaEli.HitBySlingshot.4": "*Yawn* Would it help if I stood right in front of you next time?$6",
+"Core.NovaEli.HitBySlingshot.5": "I can do this all day, @. Can you?$6",
 
 //GIFT RESPONSES
 
@@ -775,6 +787,10 @@
 "Gifts.NovaDylan.GiftReaction.LuckyPurpleShorts": "...I've heard of these. Why do you have them? Do I even WANT to know?$5#$b#Hey, don't give them to me - I don't want them! That's so revolting!$8",
 
 "Gifts.NovaDylan.GiftReaction.534": "Hm, that's an interesting ring. Where did you find it?$0#$b#Well, it's definitely not mine. Try asking Rosa? If anyone knows who it belongs to, it'd be her. Good luck.$1",
+
+//ROMANCE (NEGATIVE)
+
+"Core.NovaDylan.RejectBouquet_NotDateable": "You don't interest me in that way, @. But if it's any consolation, nobody does. I just don't see people in that way.$0",
 
 //FESTIVAL DIALOGUE
 

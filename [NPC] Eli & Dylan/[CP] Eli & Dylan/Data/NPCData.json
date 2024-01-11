@@ -22,6 +22,8 @@
 					"LoveInterest": "Teren",
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "TrailingGroup",
+					"IsAdoptionSpouse": true,
+					"WantsChildren": true,
 					"FriendsAndFamily": {
 						"Nova.Dylan": "{{i18n:Core.Relationships.Brother}}",
 						"Emily": "{{i18n:Core.Relationships.Friend}}",
