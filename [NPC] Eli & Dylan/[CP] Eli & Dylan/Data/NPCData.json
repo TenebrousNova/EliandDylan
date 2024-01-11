@@ -24,6 +24,8 @@
 					"EndSlideShow": "TrailingGroup",
 					"IsAdoptionSpouse": true,
 					"WantsChildren": true,
+					"DumpsterDiveFriendshipEffect": 1,
+					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {
 						"Nova.Dylan": "{{i18n:Core.Relationships.Brother}}",
 						"Emily": "{{i18n:Core.Relationships.Friend}}",
@@ -300,6 +302,8 @@
 					"LoveInterest": "Sig",
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": 1,
+					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {
 						"Nova.Eli": "{{i18n:Core.Relationships.Brother}}",
 						"Willy": "{{i18n:Core.Relationships.Friend}}",

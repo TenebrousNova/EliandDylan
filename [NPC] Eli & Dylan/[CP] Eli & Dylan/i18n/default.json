@@ -320,7 +320,14 @@
 
 "Core.NovaEli.RejectBouquet_NotDateable": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
 "Core.NovaEli.RejectBouquet_NpcAlreadyMarried": "I hate to point this out to you @, But I'm literally a married man. I'm pretty sure you were at the wedding. So the answer's no.$10",
-"Core.NovaEli.RejectBouquet_Divorced": "Don't take the piss, @. I know I make the effort to talk to you still, but that doesn't mean I've forgotten about what happened.$5",
+"Core.NovaEli.RejectBouquet_Divorced": "Get back with you? Why would I want that now that I'm doing okay again? I've moved on, @. It's time you did the same thing. This is kind of sad.$8",
+
+"Core.NovaEli.RejectMermaidPendant_Divorced": "Don't take the piss, @. I know I make the effort to talk to you still, but that doesn't mean you get to walk all over me.$5",
+"Core.NovaEli.RejectMermaidPendant_NpcWithSomeoneElse": "Uh, no. I'm spoken for and very happy. And last I checked, we're not looking for a third.$10",
+"Core.NovaEli.RejectMermaidPendant_PlayerWithSomeoneElse": "Oh yeah, because I'd definitely want to be involved with someone who's cheating on their partner. Get lost, creep.$5",
+"Core.NovaEli.RejectMermaidPendant_Under10Hearts": "...You wanna literally marry me when we're not even *that* close. I'm kind of flattered, but I'm gonna have to say no.$10",
+
+"Core.NovaEli.RejectMovieTicket_Divorced": "No thanks. I'd rather keep my boundaries up if you don't mind - but I'm sure someone else will love to join you.$0",
 
 "Core.NovaEli.RefusalNoHearts.A": "%Eli frowns at you and shakes his head in disbelief.",
 "Core.NovaEli.RefusalNoHearts.B": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
@@ -329,7 +336,7 @@
 "Core.NovaEli.Reject4Hearts.A": "I've tried relationships a few times before, @. In the past I might've welcomed your advances, but now... it's just not for me.$2",
 "Core.NovaEli.Reject4Hearts.B": "No thanks, @. You're a good friend... and yeah, I'll admit you're pretty cute. Unfortunately, I never had good experiences with this sort of thing.$0#$b#It's too much hassle for me. No hard feelings?$10",
 "Core.NovaEli.RefusalKnown.A": "Could you please not? I wasn't interested before. I'm not interested now.$2",
-"Core.NovaEli.RefusalKnown.B": "I'll admit it was oddly adorable the first time, but the answer hasn't changed. No.$2",
+"Core.NovaEli.RefusalKnown.B": "I'll admit it was oddly adorable the first time, but the answer hasn't changed. No. I'm not interested in you.$2",
 "Core.NovaEli.RefusalBother.A": "Do you still not get it? Let me make it crystal clear for you: back off.$8",
 "Core.NovaEli.RefusalBother.B": "Now you're just creeping me out. Drop it, farmer.$8",
 "Core.NovaEli.RefusalEngaged.A": "What the actual hell, @? You're engaged! I don't know what kind of person you take me for, but I don't want anything to do with this. Shove off.$5",
@@ -346,6 +353,9 @@
 "Core.NovaEli.HitBySlingshot.3": "Are you even trying to aim at me? That one went nowhere.$6",
 "Core.NovaEli.HitBySlingshot.4": "*Yawn* Would it help if I stood right in front of you next time?$6",
 "Core.NovaEli.HitBySlingshot.5": "I can do this all day, @. Can you?$6",
+
+"Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Oh wow! That's really sweet of you, but I've already been asked to see a movie tonight. Maybe another time?$12",
+"Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek": "Ah, I can't make it today @. I've got a lot to do - how about next week?$12",
 
 //GIFT RESPONSES
 
@@ -739,6 +749,17 @@
 "Core.NovaDylan.Winter.Saturday.8h": "I worry about Thistle getting cold at this time of the year. I know that crows are used to it, but still.$0#$b#She said she's good and she'll nick a scarf from someone if she has to. Not on my watch she isn't.$6",
 "Core.NovaDylan.Winter.Sunday.8h": "One of these years, I'm going to spend Winter in a warmer climate. I'm tired of making a spectacle of myself every time I go into town and slip on ice.$2#$b#I don't want to have to visit Harvey more than my annual checkup, thank you very much.$9",
 
+//MISC.
+
+"Core.NovaDylan.HitBySlingshot.1": "Really, @?$5",
+"Core.NovaDylan.HitBySlingshot.2": "*Sigh* It's like I'm stuck at school all over again.$7",
+"Core.NovaDylan.HitBySlingshot.3": "Do you have nothing better to do than shoot random people?$5",
+"Core.NovaDylan.HitBySlingshot.4": "I wouldn't let my brother catch you doing that to me if I were you.$5",
+"Core.NovaDylan.HitBySlingshot.5": "As if I don't go through laundry fast enough already without some moron doing that.$6",
+
+"Core.NovaDylan.RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Oh! Sorry @, but I've got a prior engagement with someone else to the movie theatre later.$1#$b#I'm not used to being this in demand.$3",
+"Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek": "I'm afraid I'll have to turn you down, I went this week already. It doesn't feel as special if I go too often, you know?$0",
+
 //GIFT RESPONSES
 
 "Gifts.NovaDylan.GiftReaction.Love": "Oh, wow. You've just made my day, @! Thank you so much.",
@@ -791,6 +812,7 @@
 //ROMANCE (NEGATIVE)
 
 "Core.NovaDylan.RejectBouquet_NotDateable": "You don't interest me in that way, @. But if it's any consolation, nobody does. I just don't see people in that way.$0",
+"Core.NovaDylan.RejectMermaidPendant_NotDatable": "You really got the wrong idea about me at some point, didn't you? Sorry @, but I'm definitely not interested.$0",
 
 //FESTIVAL DIALOGUE
 
@@ -805,8 +827,6 @@
 "Core.NovaDylan.WinterStarDialogue.Closing": "Hope you have a great time. We're probably gonna put on a movie once we get home later.$3",
 "Core.NovaDylan.RidgesideGatheringDialogue": "I caught up with Maddie earlier. It's nice to talk to someone in a similar field for a change.$1#$b#The concert? I'm sure I'll enjoy it, but I don't need my eardrums blown out by Sam's screeching. We'll stand further back.$9#$e#Gus and Pika have outdone themselves, haven't they? I can't eat any more... but Eli hasn't stopped. His metabolism is something else.$3",
 "Core.NovaDylan.FireworksFestivalDialogue": "I'm supervising Eli in case he tries smuggling any fireworks home. We are not having a repeat of the catherine wheel incident.$0#$b#I've been looking forward to this, though. I like a good firework display.$3",
-
-//CUSTOM FIXED DIALOGUE
 
 //STRINGS
 

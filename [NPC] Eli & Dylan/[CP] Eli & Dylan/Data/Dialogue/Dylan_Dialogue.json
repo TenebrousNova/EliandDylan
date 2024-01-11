@@ -217,7 +217,8 @@
 
 			//Romance (Negative)
 
-			"RejectBouquet_NotDateable": "{{i18n:Core.NovaDylan.RejectBouquet_NotDateable}}"
+			"RejectBouquet_NotDateable": "{{i18n:Core.NovaDylan.RejectBouquet_NotDateable}}",
+			"RejectMermaidPendant_NotDatable": "{{i18n:Core.NovaDylan.RejectMermaidPendant_NotDatable}}"
 		}
 	},
 	{
@@ -225,7 +226,10 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Entries": {
-			"HitBySlingshot": ""
+			"HitBySlingshot": "{{i18n:Core.NovaDylan.HitBySlingshot.{{Random:{{Range: 1, 5}}}}}}",
+			"DumpsterDiveComment": "{{i18n:Core.NovaDylan.DumpsterDiveComment}}",
+			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek}}"
 		}
 	}
 
