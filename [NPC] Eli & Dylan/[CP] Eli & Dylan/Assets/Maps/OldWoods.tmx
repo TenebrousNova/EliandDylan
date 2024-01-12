@@ -1676,7 +1676,7 @@
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="60" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt10sOQFAMhWEz+98YAxsSMRFCqMvp4/8WIFfbe0rXwbupV58AEQzMSSn02x9LVl/1caTHuIEsOOLuxJRpljO9y98i1k6ROfwfalB3HW+7PdIstMxVb30AKmh1hy3P8Zx1ns9mFfE7WGlbL/YTAO+sOfXVvlPkZuasZofrnNWenuAJ5gVbin/NNzMYeb9GPnsLZM8qSx2yvAegYtm/yx65unsV72X13Qq/ss/mPsMq5g9qY+bjmgF0gikL
+   eJzt18kNgDAMRFFu9N8YHGgIcUNsClZgvPxXACKxPYZhgHfLqH4DRDDRJ6VQb38sWf1Ux5kaowFZcMbsxJSplzOd5W8R706ROfwfanDvOt52e6Re6Jmr3uoAVNBrhi3P8Zx1nt/NKuJ3sNL+vthPgAa51c6aU1/tO0VuZs5qZkHn7u6pCd6gX7Cn+Nes2oOZvw1aXNW9Yi9kOXOWcwAqlv277ZGn2as4l9V3K/zK3pvHDKuYP6iNno9rBW33Kd8=
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
