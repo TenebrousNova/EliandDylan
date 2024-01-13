@@ -100,6 +100,7 @@
 			//Positive
 
 			//"AcceptBouquet": "",
+			//"SpouseStardrop": "",
 
 			//Negative
 
@@ -149,7 +150,8 @@
 			"HitBySlingshot": "$action AddFriendshipPoints 30{{i18n:Core.NovaEli.HitBySlingshot.{{Random:{{Range: 1, 5}}}}}}",
 			"DumpsterDiveComment": "{{i18n:Core.NovaEli.DumpsterDiveComment}}",
 			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
-			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek}}"
+			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+			"WipedMemory": "{{i18n:Core.NovaEli.WipedMemory}}"
 		}
 	}
 

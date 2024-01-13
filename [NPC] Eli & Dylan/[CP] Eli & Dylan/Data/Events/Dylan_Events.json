@@ -66,7 +66,7 @@
 		"Action": "EditData",
 		"Target": "Data/Events/Custom_EastScarpe",
 		"Entries": {
-			"EnD.Dylan.06/f Nova.Dylan 1250/A DylanLibrary/t 0900 1700/F/e EnD.Dylan.05":
+			"EnD.Dylan.06/f Nova.Dylan 1250/A DylanLibrary/t 0800 1130/F/e EnD.Dylan.05":
 			"ocean/53 89/{{DylanClass_Setup}}/skippable/addTemporaryActor Thistle 32 32 54 89 0 false Character/addTemporaryActor EDContainer1 32 32 41 91 2 false Character/addTemporaryActor EDContainer2 32 32 43 91 2 false Character/addTemporaryActor EDContainer3 32 32 39 93 2 false Character/addTemporaryActor Octobucket 32 32 45 88 2 false Character/advancedMove farmer false 0 7 3 0 1 10/pause 1000/speak Nova.Dylan \"I'm regretting this already, Thistle. I don't know why I agreed.$0\"/speak Thistle \"Relax! You're givin' up before you've even started! You're gonna do fine.$1\"/faceDirection Thistle 3/playSound crow/speak Thistle \"'Ere, the farmer's shown up!$0\"/faceDirection Nova.Dylan 3/emote Nova.Dylan 16/speak Nova.Dylan \"Morning, @. I've been busy setting things up for that class field trip.$0#$b#I guess Thistle's right. I'm doing this, sink or swim. It's too late to back out now.$9\"/emote farmer 40/advancedMove Thistle false -4 0 4 10/speak Nova.Dylan \"Yeah, of course you can stay and watch. That might make me feel better, actually.$1\"/emote Thistle 16 true/playSound crow/speak Thistle \"And 'ere come the first bunch of young reprobates! Look at 'em!$4\"/faceDirection Nova.Dylan 0/advancedMove farmer false 0 1 4 10/{{DylanClass_BearIntro}}/{{DylanClass_Sig1}}/pause 1000/jump Thistle/textAboveHead Thistle \"Brace yerself, Dylan!\"/pause 10000/message \"End.\""
 		}
 	}

@@ -348,6 +348,8 @@
 
 //MISC.
 
+"Core.NovaEli.DumpsterDiveComment": "Hahaha, that's not what I expected to see! Found anything good in there?$3",
+
 "Core.NovaEli.HitBySlingshot.1": "Missed.$6",
 "Core.NovaEli.HitBySlingshot.2": "Aaaand that was a miss!$6",
 "Core.NovaEli.HitBySlingshot.3": "Are you even trying to aim at me? That one went nowhere.$6",
@@ -356,6 +358,8 @@
 
 "Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Oh wow! That's really sweet of you, but I've already been asked to see a movie tonight. Maybe another time?$12",
 "Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek": "Ah, I can't make it today @. I've got a lot to do - how about next week?$12",
+
+"Core.NovaEli.WipedMemory": "$t EliMemoryWiped 7 Hey there, @. How're you doing? Wait, this is... what... what did you...?$7#%Eli's eyes momentarily glaze over before refocusing on you with confusion.#$b#Weird. I could've sworn I've known you for ages... but that's not possible. Who are you?$11#$b#@? It's nice to meet you. I'm Eli - we should get to know each other sometime! I'll see you around.$1",
 
 //GIFT RESPONSES
 
@@ -751,6 +755,8 @@
 
 //MISC.
 
+"Core.NovaDylan.DumpsterDiveComment": "Good to see that you take recycling seriously. Might as well take it if they're going to throw it away, right?$1",
+
 "Core.NovaDylan.HitBySlingshot.1": "Really, @?$5",
 "Core.NovaDylan.HitBySlingshot.2": "*Sigh* It's like I'm stuck at school all over again.$7",
 "Core.NovaDylan.HitBySlingshot.3": "Do you have nothing better to do than shoot random people?$5",
@@ -1104,6 +1110,7 @@
 "CT.NovaEli.EliOldWoods": "I'm still wondering what went wrong with my warp totem design. I know it was experimental, but it's not like me to make mistakes with them.$2#$b#Maybe it's a good thing that happened, though. I need to poke around some more in that clearing...$9",
 "CT.NovaEli.JunimoKingIntro": "I've seen some truly outlandish things before. CAUSED some of them, even. But what we saw was in a league of its own.$3#$b#A gestalt entity made from several forest spirits! I've read all the Junimo folklore I can get my hands on. There's NOTHING like that there.$1#$b#And best of all, they want to be friends with us! Can you imagine the things they could tell us? @, I'm so excited!!$3",
 "CT.NovaEli.EliGuild": "I somehow let Abigail rope me into sword fighting practice with her. She's actually not bad at all as it happens.$1#$b#Hm? Of course I won! Pretty decisively, too. Like Abigail could beat me.$9#$b#%Eli walks away with a slight limp.",
+"CT.NovaEli.EliMemoryWiped": "I keep getting this bizarre feeling that we were really close once. I know it sounds strange - I mean, we only met recently!$10#$b#But I have these dreams and they feel so real... sorry @, I don't mean to sound like a creep.$2",
 
 "CT.NovaEli.DylanIntro": "I hear that you met my little brother at the beach earlier!$3#$b#Look, I know people think he's cold. But he doesn't mean anything by it, he's just... painfully awkward sometimes.$0#$b#He actually told me that he liked meeting you. But don't tell him I said that, yeah?$6",
 "CT.NovaEli.DylanBeach": "Oi-oi, if it isn't the Trash Buster!$6#$b#Dylan said you teamed up with him to clean up the beach. Thanks for doing us a public service! Speaking of, I heard that Lewis got an earful about it earlier.$1",
@@ -1171,6 +1178,7 @@
 "CT.NovaDylan.EliOldWoods": "I want to know how Eli managed to lose that... whatever it was in my room. It didn't look hygienic, either.$2#$b#It WOULD be nice if he'd text me or something before showing up in there. One day I'll hide in his room and jump out at him, see how HE likes it.$5",
 "CT.NovaDylan.JunimoKingIntro": "Hey, @? What's all this about you and Eli encountering a cryptid? He won't stop raving on about it!$0#$b#Wait, it really IS real? It isn't just a stag that got his antlers snagged in a bush?$9#$b#I don't know why, but I think I believe you. I've seen too much strange stuff by now to dismiss it as my brother's fantasies.$0",
 "CT.NovaDylan.EliGuild": "Eli came home covered in bruises earlier. He said he doesn't want to talk about it, but I know he was meant to have a duel with someone.$9#$b#I suspect that his big mouth wrote another cheque that he couldn't cash.$3",
+"CT.NovaDylan.EliMemoryWiped": "@? Eli's been worrying me lately. He's basically... forgotten everything that ever happened between you two. It's like you never existed until recently.$9#$b#I don't know how to even begin explaining any of it to him. I don't understand it myself. Maybe... maybe it's for the best that he forgot, though.$2",
 
 "CT.NovaDylan.DylanIntro": "Oh, hello again. It was... nice talking to you, I guess?$9",
 "CT.NovaDylan.DylanBeach": "Cheers again for helping out. I had a chat with Lewis about my concerns and he said he'd see what he can do.$1#$b#I don't expect much, but maybe we've started the ball rolling on something good?$0#$b#I managed to collect some cool samples as well.$3",

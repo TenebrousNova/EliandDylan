@@ -91,6 +91,7 @@
 				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
 				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
+				"EliMemoryWiped": "{{i18n:CT.NovaEli.EliMemoryWiped}}",
 
 				//Dylan Topics
 
@@ -198,6 +199,7 @@
 				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
+				"EliMemoryWiped": "{{i18n:CT.NovaDylan.EliMemoryWiped}}",
 
 				//Dylan Topics
 
