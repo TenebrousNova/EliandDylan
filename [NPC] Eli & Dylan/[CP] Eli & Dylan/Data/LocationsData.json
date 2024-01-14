@@ -2,37 +2,37 @@
     "Changes": [
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
 			"FromFile": "Assets/Maps/EliDylanHouse.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseDark",
+			"Target": "Maps/{{ModID}}_ESEDHouseDark",
 			"FromFile": "Assets/Maps/EliDylanHouseDark.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseFull",
+			"Target": "Maps/{{ModID}}_ESEDHouseFull",
 			"FromFile": "Assets/Maps/EliDylanHouseFull.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave",
+			"Target": "Maps/{{ModID}}_EDMushroomCave",
 			"FromFile": "Assets/Maps/MushroomCave.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_EDMountainCave",
+			"Target": "Maps/{{ModID}}_EDMountainCave",
 			"FromFile": "Assets/Maps/DeepMountainCave.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_DylanTidePool",
+			"Target": "Maps/{{ModID}}_DylanTidePool",
 			"FromFile": "Assets/Maps/TidePool.tmx"
 		},
 		{
 			"Action": "Load",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_OldWoods",
+			"Target": "Maps/{{ModID}}_OldWoods",
 			"FromFile": "Assets/Maps/OldWoods.tmx"
 		},
 		{
@@ -40,40 +40,40 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"Entries": {
-				"TenebrousNova.EliDylan.CP_ESEDHouse": {
+				"{{ModID}}_ESEDHouse": {
 					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
 					"DefaultArrivalTile": { "X": 14, "Y": 27 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse" },
 					"FormerLocationNames": [ "Custom_ESEDHouse" ]
 				},
-				"TenebrousNova.EliDylan.CP_ESEDHouseDark": {
+				"{{ModID}}_ESEDHouseDark": {
 					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
 					"DefaultArrivalTile": { "X": 14, "Y": 27 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseDark" }
 				},
-				"TenebrousNova.EliDylan.CP_ESEDHouseFull": {
+				"{{ModID}}_ESEDHouseFull": {
 					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
 					"DefaultArrivalTile": { "X": 14, "Y": 27 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouseFull" }
 				},
-				"TenebrousNova.EliDylan.CP_EDMushroomCave": {
+				"{{ModID}}_EDMushroomCave": {
 					"DisplayName": "{{i18n:Core.Locations.EDMushroomCave}}",
 					"DefaultArrivalTile": { "X": 15, "Y": 19 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave" },
 					"FormerLocationNames": [ "Custom_EDMushroomCave" ]
 				},
-				"TenebrousNova.EliDylan.CP_EDMountainCave": {
+				"{{ModID}}_EDMountainCave": {
 					"DisplayName": "{{i18n:Core.Locations.EDMountainCave}}",
 					"DefaultArrivalTile": { "X": 14, "Y": 38 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_EDMountainCave" },
 					"FormerLocationNames": [ "Custom_EDMountainCave" ]
 				},
-				"TenebrousNova.EliDylan.CP_DylanTidePool": {
+				"{{ModID}}_DylanTidePool": {
 					"DisplayName": "{{i18n:Core.Locations.DylanTidePool}}",
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanTidePool" },
 					"FormerLocationNames": [ "Custom_DylanTidePool" ]
 				},
-				"TenebrousNova.EliDylan.CP_OldWoods": {
+				"{{ModID}}_OldWoods": {
 					"DisplayName": "{{i18n:Core.Locations.OldWoods}}",
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_OldWoods" },
 					"FormerLocationNames": [ "Custom_OldWoods" ]
@@ -112,7 +112,7 @@
 		{
 			"LogName": "Guest Room",
 			"Action": "EditMap",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
 			"FromFile": "Assets/Maps/GuestRoom.tmx",
 			"ToArea": {
 				"X": 20,
@@ -141,7 +141,7 @@
 		{
 			"LogName": "EDHouse Fireplace",
 			"Action": "EditMap",
-			"Target": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
 			"FromFile": "Assets/Maps/EDHouseFireplace.tmx",
 			"ToArea": {
 				"X": 15,
@@ -177,7 +177,7 @@
 						"MapProperties",
 						"Warp"
 					],
-					"Value": "8 22 TenebrousNova.EliDylan.CP_EDMountainCave 14 38",
+					"Value": "8 22 {{ModID}}_EDMountainCave 14 38",
 					"Delimiter": " "
 				}
 			],

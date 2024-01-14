@@ -37,7 +37,7 @@
 					"Home": [
 						{
 							"ID": "Default",
-							"Location": "TenebrousNova.EliDylan.CP_ESEDHouse",
+							"Location": "{{ModID}}_ESEDHouse",
 							"Tile": { "X": 2, "Y": 5 },
 								"Direction": "Down"
 							}
@@ -315,7 +315,7 @@
 					"Home": [
 						{
 							"ID": "Default",
-							"Location": "TenebrousNova.EliDylan.CP_ESEDHouse",
+							"Location": "{{ModID}}_ESEDHouse",
 							"Tile": { "X": 17, "Y": 5 },
 							"Direction": "Down"
 						}

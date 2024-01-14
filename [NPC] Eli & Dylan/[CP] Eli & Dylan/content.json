@@ -67,7 +67,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "ED House Events Load",
 		"Action": "Load",
-		"Target": "Data/Events/TenebrousNova.EliDylan.CP_ESEDHouse",
+		"Target": "Data/Events/{{ModID}}_ESEDHouse",
 		"FromFile": "Data/blank.json"
 	},
 
@@ -237,7 +237,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 //The insanity is finally condensed.
 	{
 		"Name": "EliRain_A",
-		"Value": "0 Custom_EastScarpe 60 52 0/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 Saloon 25 18 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52 0/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliRain_B",
@@ -245,73 +245,73 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliMonday_A",
-		"Value": "0 Custom_EastScarpe 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0 {{EliStrings_Library}}/1600 10 13 3 {{EliStrings_Library}}/{{EliES_Mon_A}}/2200 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0 {{EliStrings_Library}}/1600 10 13 3 {{EliStrings_Library}}/{{EliES_Mon_A}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliMonday_B",
-		"Value": "0 Custom_EastScarpe 60 52 0/610 SeedShop 4 20 2/1100 AdventureGuild 6 13 0/{{EliES_Mon_B}}/2200 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52 0/610 SeedShop 4 20 2/1100 AdventureGuild 6 13 0/{{EliES_Mon_B}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliTuesday_A",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 23 63 1 EliSitRead/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 23 63 1 EliSitRead/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 {{ModID}}_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliTuesday_B",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 Custom_EastScarpeInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon 25 18 2/2200 Custom_EastScarpeInn 45 34 2 EliKOsleep {{EliStrings_Unconscious}}"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 Custom_EastScarpeInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon 25 18 2/2200 Custom_EastScarpeInn 45 34 2 EliKOsleep {{EliStrings_Unconscious}}"
 	},
 	{
 		"Name": "EliTuesday_B",
-		"Value": "0 Town 78 53/610 Custom_Ridgeside_RSVCliff 81 25 2 EliSitA/{{EliRidgeside_Tue}}/1400 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/{{EliNight_Tue}}",
+		"Value": "0 Town 78 53/610 Custom_Ridgeside_RSVCliff 81 25 2 EliSitA/{{EliRidgeside_Tue}}/1400 {{ModID}}_ESEDHouse 8 21 0/{{EliNight_Tue}}",
 		"When": {
 			"HasMod |contains=Rafseazz.RSVCP": true
 		}
 	},
 	{
 		"Name": "EliWednesday_A",
-		"Value": "0 Custom_EastScarpe 60 52/610 {{EliMountain_Wed}}/{{EliES_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 2/2330 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52/610 {{EliMountain_Wed}}/{{EliES_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2100 {{ModID}}_ESEDHouse 8 21 2/2330 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliWednesday_B",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/{{EliBeach_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2200 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/{{EliBeach_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliWednesday_B",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliCastlePoint_Wed}}/{{EliBeach_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2200 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep",
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliCastlePoint_Wed}}/{{EliBeach_Wed}}/1730 Custom_EastScarpeInn 27 12 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
 		"Name": "EliThursday_A",
-		"Value": "0 Forest 117 25/{{EliForest_Thu}}/{{EliBeach_Thu}}/1530 Custom_EastScarpeInn 27 12 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 2/2330 2 5 3 nova.eli_sleep"
+		"Value": "0 Forest 117 25/{{EliForest_Thu}}/{{EliBeach_Thu}}/1530 Custom_EastScarpeInn 27 12 2/2100 {{ModID}}_ESEDHouse 8 21 2/2330 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliThursday_B",
-		"Value": "0 Custom_EastScarpe 60 52/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 AdventureGuild 6 13 0/{{EliES_TueEvening}}/2200 TenebrousNova.EliDylan.CP_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 AdventureGuild 6 13 0/{{EliES_TueEvening}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliFriday_A",
-		"Value": "0 Custom_EastScarpe 60 52/610 Forest 35 26 2 EliSitA/1200 28 12 0/{{EliBeach_Fri}}/1700 Saloon 25 18 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52/610 Forest 35 26 2 EliSitA/1200 28 12 0/{{EliBeach_Fri}}/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliFriday_B",
-		"Value": "0 Custom_EastScarpe 60 52/610 {{EliRailroad_Fri}}/{{EliTown_Fri}}/1700 Saloon 25 18 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 Custom_EastScarpe 60 52/610 {{EliRailroad_Fri}}/{{EliTown_Fri}}/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSaturday_A",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 4 10 0/1230 11 9 0/1330 13 5 0/1430 4 10 0/1500 Custom_EastScarpe 37 104 2 EliSitB/2400 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 4 10 0/1230 11 9 0/1330 13 5 0/1430 4 10 0/1500 Custom_EastScarpe 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSaturday_B",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliDeepMountains_Sat}}/1300 Custom_EastScarpe 34 106 1/1800 37 104 2 EliSitB/2400 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliDeepMountains_Sat}}/1300 Custom_EastScarpe 34 106 1/1800 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_A",
-		"Value": "610 TenebrousNova.EliDylan.CP_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 Custom_EastScarpeInn 46 33 0/1130 ArchaeologyHouse 12 9 0 {{EliStrings_Library}}/1430 21 5 0 {{EliStrings_Library}}/1500 13 9 0 {{EliStrings_Library}}/1530 6 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 Custom_EastScarpeInn 46 33 0/1130 ArchaeologyHouse 12 9 0 {{EliStrings_Library}}/1430 21 5 0 {{EliStrings_Library}}/1500 13 9 0 {{EliStrings_Library}}/1530 6 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_B",
-		"Value": "0 Forest 117 25/610 28 12 0/{{EliForest_Sun}}/1400 Town 50 68 1/1730 Saloon 41 19 2/2200 TenebrousNova.EliDylan.CP_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 Forest 117 25/610 28 12 0/{{EliForest_Sun}}/1400 Town 50 68 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 
 	//DYLAN
@@ -327,81 +327,81 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "DylanRain_A",
-		"Value": "610 12 8 3/630 24 23 1/0800 Beach 25 37 2 Dylan_Sit/1400 ArchaeologyHouse 12 9 0/1630 10 11 3/1700 Custom_EastScarpe 20 66 1/2000 TenebrousNova.EliDylan.CP_ESEDHouse 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0800 Beach 25 37 2 Dylan_Sit/1400 ArchaeologyHouse 12 9 0/1630 10 11 3/1700 Custom_EastScarpe 20 66 1/2000 {{ModID}}_ESEDHouse 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanRain_B",
-		"Value": "610 12 8 3/630 24 23 1/0800 Custom_EastScarpe 45 110 0/0900 49 128 2 Dylan_Sit/1100 43 106 1 Dylan_WritingRight/1300 57 103 3 Dylan_WritingLeft/1430 47 94 1 Dylan_WritingRight/1600 62 92 3 Dylan_WritingLeft/1700 TenebrousNova.EliDylan.CP_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0800 Custom_EastScarpe 45 110 0/0900 49 128 2 Dylan_Sit/1100 43 106 1 Dylan_WritingRight/1300 57 103 3 Dylan_WritingLeft/1430 47 94 1 Dylan_WritingRight/1600 62 92 3 Dylan_WritingLeft/1700 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanMonday_A",
-		"Value": "610 12 8 3/630 23 22 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 TenebrousNova.EliDylan.CP_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 22 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanMonday_B",
-		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 TenebrousNova.EliDylan.CP_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_A",
-		"Value": "0 Custom_EastScarpe 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 TenebrousNova.EliDylan.CP_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "0 Custom_EastScarpe 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 TenebrousNova.EliDylan.CP_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 22 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_ESCastlePoint 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 TenebrousNova.EliDylan.CP_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
+		"Value": "610 12 8 3/630 23 22 0/0730 Custom_ESCastlePoint 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
 		"Name": "DylanWednesday_A",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 TenebrousNova.EliDylan.CP_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 54 84 2 Dylan_Sit/0930 ArchaeologyHouse 20 10 1/1330 12 9 0/1430 10 13 3/1500 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 54 84 2 Dylan_Sit/0930 ArchaeologyHouse 20 10 1/1330 12 9 0/1430 10 13 3/1500 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",
-		"Value": "0 Town 78 53/610 Custom_Ridgeside_AguarLab 24 4 1 Dylan_WritingRight/1230 21 15 3 Dylan_WritingLeft/1330 Custom_Ridgeside_RidgesideVillage 124 108 2/1500 98 40 0/1730 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep",
+		"Value": "0 Town 78 53/610 Custom_Ridgeside_AguarLab 24 4 1 Dylan_WritingRight/1230 21 15 3 Dylan_WritingLeft/1330 Custom_Ridgeside_RidgesideVillage 124 108 2/1500 98 40 0/1730 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=Rafseazz.RSVCP": true
 		}
 	},
 	{
 		"Name": "DylanThursday_A",
-		"Value": "MAIL beachBridgeFixed/GOTO Thu_noBridge/610 12 8 3/630 24 23 1/730 Beach 85 41 2 Dylan_Sit/1330 86 19 3 Dylan_WritingLeft/1500 73 12 1 Dylan_WritingRight/1600 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "MAIL beachBridgeFixed/GOTO Thu_noBridge/610 12 8 3/630 24 23 1/730 Beach 85 41 2 Dylan_Sit/1330 86 19 3 Dylan_WritingLeft/1500 73 12 1 Dylan_WritingRight/1600 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanThursday_B",
-		"Value": "610 12 8 3/630 24 23 1/730 ArchaeologyHouse 4 10 0/1100 11 9 0/1230 15 9 0/1400 15 5 0/1500 10 13 3/1600 Custom_EastScarpe 50 128 2 Dylan_Sit/2100 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/730 ArchaeologyHouse 4 10 0/1100 11 9 0/1230 15 9 0/1400 15 5 0/1500 10 13 3/1600 Custom_EastScarpe 50 128 2 Dylan_Sit/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanFriday_A",
-		"Value": "610 12 8 3/630 24 23 1/0730 24 23 1/0800 Town 43 77 2 Dylan_Sit/1300 SeedShop 9 26 1/1500 Custom_EastScarpe 51 129 1 Dylan_WritingRight/1900 48 130 2/2100 TenebrousNova.EliDylan.CP_ESEDHouse 12 6 3/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 24 23 1/0800 Town 43 77 2 Dylan_Sit/1300 SeedShop 9 26 1/1500 Custom_EastScarpe 51 129 1 Dylan_WritingRight/1900 48 130 2/2100 {{ModID}}_ESEDHouse 12 6 3/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanFriday_B",
-		"Value": "610 12 8 3/630 24 23 1/0730 24 23 1/0800 Custom_EastScarpeInn 46 33 0/930 Beach 14 39 1 Dylan_WritingRight/1500 Custom_EastScarpe 80 78 2 Dylan_Sit/2100 TenebrousNova.EliDylan.CP_ESEDHouse 4 20 2/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 24 23 1/0800 Custom_EastScarpeInn 46 33 0/930 Beach 14 39 1 Dylan_WritingRight/1500 Custom_EastScarpe 80 78 2 Dylan_Sit/2100 {{ModID}}_ESEDHouse 4 20 2/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSaturday_A",
-		"Value": "610 12 8 3/630 24 23 1/0730 Custom_EastScarpe 73 121 2/1000 22 102 0/1400 45 130 2/1700 38 104 2 DylanCampfire_Sit/2400 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 Custom_EastScarpe 73 121 2/1000 22 102 0/1400 45 130 2/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSaturday_B",
-		"Value": "610 12 8 3/630 24 23 1/0730 Custom_EastScarpeInn 35 32 1/1000 Custom_EastScarpe 93 107 1 Dylan_WritingRight/1330 38 76 0/1500 22 102 0/1700 38 104 2 DylanCampfire_Sit/2400 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 Custom_EastScarpeInn 35 32 1/1000 Custom_EastScarpe 93 107 1 Dylan_WritingRight/1330 38 76 0/1500 22 102 0/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSunday_A",
-		"Value": "610 12 8 3/630 24 24 1/0730 24 25 1/0800 Custom_EastScarpe 59 105 3 Dylan_WritingLeft/1000 45 110 0/1200 60 113 2/1500 Saloon 40 19 2 Dylan_Drink/2200 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 24 1/0730 24 25 1/0800 Custom_EastScarpe 59 105 3 Dylan_WritingLeft/1000 45 110 0/1200 60 113 2/1500 Saloon 40 19 2 Dylan_Drink/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSunday_B",
-		"Value": "610 12 8 3/630 23 21 0/0730 ArchaeologyHouse 6 10 0/1200 Town 62 15 2 Dylan_Sit/1500 50 67 1/1730 Saloon 40 19 2 Dylan_Drink/2200 TenebrousNova.EliDylan.CP_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 21 0/0730 ArchaeologyHouse 6 10 0/1200 Town 62 15 2 Dylan_Sit/1500 50 67 1/1730 Saloon 40 19 2 Dylan_Drink/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 
 	//Events
