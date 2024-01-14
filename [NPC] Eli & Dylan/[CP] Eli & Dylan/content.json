@@ -1078,7 +1078,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "DylanClass_Setup",
-		"Value": "farmer 49 81 2 Nova.Dylan 54 88 2"
+		"Value": "farmer 49 81 2 Nova.Dylan 54 88 2 Penny 45 76 3 Vincent 44 77 1 Jas 44 76 1 Eloise 43 77 1"
 	},
 	{
 		"Name": "DylanClass_Setup",
@@ -1093,18 +1093,65 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanClass_BearIntro",
-		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 4500/textAboveHead Nova.Dylan \"Hello!\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"Hey, first ones here to your fish lesson? Is there a permission slip I need to sign or anything?$11\"/speak MadDog.HashtagBearFam.Gudrun \"Of course we're the first ones here! It'd be so embarrassing to be late!$6#$b#Hi Mr. Moray!$1\"/speak MadDog.HashtagBearFam.Gunnar \"Don't worry, the grumpy one's not staying.$6\"/emote Nova.Dylan 32/speak Nova.Dylan \"Morning, Gudrun! And no worries, you're actually quite early. No, there's no permission slips or whatnot.$1#$b#If you're staying, Gunnar, I think there's a spare bucket you could use. The other kids will probably arrive shortly.$3\"/speak MadDog.HashtagBearFam.Sigurd \"Gun's here to make sure she doesn't get out of control. If they both get rowdy, drown 'em.$18#$b#Worked on the last Bear, after all.$10\"/emote Nova.Dylan 60/speak Nova.Dylan \"Hopefully that won't be necessary. But I'll keep it in mind.$9\"",
+		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"Hello!\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"Hey, first ones here to your fish lesson? Is there a permission slip I need to sign or anything?$11\"/speak MadDog.HashtagBearFam.Gudrun \"Of course we're the first ones here! It'd be so embarrassing to be late!$6#$b#Hi Mr. Moray!$1\"/speak MadDog.HashtagBearFam.Gunnar \"Don't worry, the grumpy one's not staying.$6\"/emote Nova.Dylan 32/speak Nova.Dylan \"Morning, Gudrun! And no worries, you're actually quite early. Penny didn't say anything about permission slips so you should be good.$1#$b#You can stay if you want, Gunnar. You're never too old to learn about sea life.$3\"/speak MadDog.HashtagBearFam.Sigurd \"Gun's here to make sure she doesn't get out of control. If they both get rowdy, drown 'em.$18#$b#Worked on the last Bear, after all.$10\"/emote Nova.Dylan 60/speak Nova.Dylan \"Hopefully that won't be necessary. But I'll keep it in mind.$9\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
 	},
 	{
-		"Name": "DylanClass_Sig1",
+		"Name": "DylanClass_Bear1",
 		"Value": "pause 1"
 	},
 	{
-		"Name": "DylanClass_Sig1",
-		"Value": "advancedMove MadDog.HashtagBearFam.Sigurd false 0 1 4 0 0 1 2 0 3 10/pause 2500/animate MadDog.HashtagBearFam.Sigurd false true 500 22 22 22 22 23 23 23 23 24 24 24 24 25 25 25 25 25 25 25 26 26 26 26 27 27 27 27 27 22 22 22 22 22"
+		"Name": "DylanClass_Bear1",
+		"Value": "advancedMove MadDog.HashtagBearFam.Sigurd false 0 1 4 0 0 1 2 0 3 10/pause 50/advancedMove MadDog.HashtagBearFam.Gudrun false 1 0 0 2 3 10/pause 100/advancedMove MadDog.HashtagBearFam.Gunnar false 3 0 0 1 3 10",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "DylanClass_SigAnimation",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanClass_SigAnimation",
+		"Value": "animate MadDog.HashtagBearFam.Sigurd false true 22 22 22 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "DylanClass_Bear2",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanClass_Bear2",
+		"Value": "warp MadDog.HashtagBearFam.Sigurd 48 110 true/warp MadDog.HashtagBearFam.Gudrun 35 112 true/faceDirection MadDog.HashtagBearFam.Gudrun 0 true/warp MadDog.HashtagBearFam.Gunnar 34 110 true/faceDirection MadDog.HashtagBearFam.Gunnar 1 true",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "DylanClass_Bear3",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanClass_Bear3",
+		"Value": "pause 100/textAboveHead MadDog.HashtagBearFam.Gudrun \"I found that!\"/emote MadDog.HashtagBearFam.Gunnar 32 true",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "DylanClass_Bear4",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanClass_Bear4",
+		"Value": "textAboveHead MadDog.HashtagBearFam.Sigurd \"Pffft!\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
 	}
    ]
 }

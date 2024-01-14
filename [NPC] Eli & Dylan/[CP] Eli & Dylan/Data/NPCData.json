@@ -24,6 +24,7 @@
 					"EndSlideShow": "TrailingGroup",
 					"IsAdoptionSpouse": true,
 					"WantsChildren": true,
+					"SpouseGetsJealousOfGifts": false,
 					"DumpsterDiveFriendshipEffect": 1,
 					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {

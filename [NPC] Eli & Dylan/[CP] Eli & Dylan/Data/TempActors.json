@@ -100,6 +100,21 @@
 	},
 	{
 		"Action": "Load",
+		"Target": "Characters/Bucket1",
+		"FromFile": "Assets/Images/Octobucket.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Bucket2",
+		"FromFile": "Assets/Images/Octobucket.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Bucket3",
+		"FromFile": "Assets/Images/Octobucket.png"
+	},
+	{
+		"Action": "Load",
 		"Target": "Characters/EDContainer1",
 		"FromFile": "Assets/Images/Containers.png"
 	},
