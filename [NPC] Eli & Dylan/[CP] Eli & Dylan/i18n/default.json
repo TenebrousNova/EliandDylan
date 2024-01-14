@@ -2,8 +2,11 @@
 
 //RELATIONSHIPS
 
-"Core.Relationships.Brother": "Brother",
-"Core.Relationships.Friend": "Friend",
+"Core.Relationships.Brother": "brother",
+"Core.Relationships.Emily": "friend Emily",
+"Core.Relationships.Leah": "friend Leah",
+"Core.Relationships.Elliott": "friend Elliott",
+"Core.Relationships.Willy": "friend Willy",
 
 //LOCATION NAMES
 
@@ -1893,6 +1896,57 @@
 "Events.DylanLibrary.Question.1.Response.3": "Haha! I know, right?$3#$b#Okay, maybe not all of them. I was joking... mostly.$1",
 "Events.DylanLibrary.NovaDylan.11": "I think I'll probably wind up doing it. Children learning to appreciate nature is always a net positive, right?$1",
 "Events.DylanLibrary.NovaDylan.12": "Well, I'd better be off. I came here to read, but now I've got a few interesting ideas in mind.$1#$b#Later, @. I'll leave you to... continue lurking behind the bookshelves whilst eavesdropping on random people.$9#$b#See you!$3",
+
+//5 HEARTS
+
+"Events.DylanLesson.NovaDylan.1": "I'm regretting this already, Thistle. I don't know why I agreed to it.$0",
+"Events.DylanLesson.Thistle.1": "Relax! You're givin' up before you've even started! You're gonna do fine.$1",
+"Events.DylanLesson.Thistle.2": "'Ere, the farmer's shown up!$0",
+"Events.DylanLesson.NovaDylan.2": "Morning, @. I've been busy setting things up for that class field trip.$0#$b#I guess Thistle's right. I'm doing this, sink or swim. It's too late to back out now.$9",
+"Events.DylanLesson.NovaDylan.3": "Yeah, of course you can stay and watch. That might make me feel better, actually.$1",
+"Events.DylanLesson.Thistle.3": "And 'ere come the first bunch of young reprobates! Look at 'em!$4",
+"Events.DylanLesson.NovaDylan.4": "Hello!",
+"Events.DylanLesson.Sig.1": "Hey, first ones here to your fish lesson? Is there a permission slip I need to sign or anything?$11",
+"Events.DylanLesson.Gudrun.1": "Of course we're the first ones here! It'd be so embarrassing to be late!$6#$b#Hi Mr. Moray!$1",
+"Events.DylanLesson.Gunnar.1": "Don't worry, the grumpy one's not staying.$6",
+"Events.DylanLesson.NovaDylan.5": "Morning, Gudrun! And no worries, you're actually quite early. Penny didn't say anything about permission slips so you should be good.$1#$b#You can stay if you want, Gunnar. You're never too old to learn about sea life.$3",
+"Events.DylanLesson.Sig.2": "Gun's here to make sure she doesn't get out of control. If they both get rowdy, drown 'em.$18#$b#Worked on the last Bear, after all.$10",
+"Events.DylanLesson.NovaDylan.6": "Hopefully that won't be necessary. But I'll keep it in mind.$9",
+"Events.DylanLesson.Thistle.4": "Brace yerself, Dylan!",
+"Events.DylanLesson.Penny.1": "Good morning, Dylan! I see that you've been busy. Thank you ever so much for agreeing to this.$0#$b#The children have been looking forward to it. Isn't that right, kids?$1",
+"Events.DylanLesson.Vincent.1": "Yeah!",
+"Events.DylanLesson.NovaDylan.7": "Excellent! Let's get started, shall we? We'll go over the basics before getting closely acquainted with these tide pools and the organisms living in them.$1#$b#Now, who can tell me what a tide pool is?$3",
+"Events.DylanLesson.NovaDylan.8": "Fantastic work, everyone! There's quite a collection here. Let's see what we've got, starting with...?$3",
+"Events.DylanLesson.NovaDylan.9": "Jas!",
+"Events.DylanLesson.Jas.1": "I found a sea urchin, Mr. Moray!$1",
+"Events.DylanLesson.NovaDylan.10": "So you did! As we know, sea urchins are Echinoderms, which are related to starfish and sea cucumbers. They use their spines and tiny tube feet to slowly move around.$1",
+"Events.DylanLesson.Jas.2": "And they've found sea urchins in the wild that are 200 years old.$4",
+"Events.DylanLesson.NovaDylan.11": "Correct!",
+"Events.DylanLesson.NovaDylan.12": "I also see a lovely coral specimen here. Duncanopsammia axifuga, also known as the duncan coral or whisker coral. And a mushroom coral! Gorgeous finds.$1",
+"Events.DylanLesson.Gudrun.2": "I found that!",
+"Events.DylanLesson.Penny.2": "Eep!",
+"Events.DylanLesson.NovaDylan.13": "Penelope!",
+"Events.DylanLesson.NovaDylan.14": "And this, kids, is my badly behaved octopus. Who is supposed to be back home in the aquarium. You can say hi to her after the class.$7",
+"Events.DylanLesson.Vincent.2": "That's so COOL!",
+"Events.DylanLesson.Sig.3": "Pffft!",
+"Events.DylanLesson.NovaDylan.15": "@, could you please keep an eye on her? I don't need her sneaking off before I can get her home.$9",
+"Events.DylanLesson.Question.1.Answer.1": "Of course!",
+"Events.DylanLesson.Question.1.Answer.2": "If I must...",
+"Events.DylanLesson.Question.1.Response.1": "Much obliged. Don't worry, she's harmless.$1",
+"Events.DylanLesson.Question.1.Response.2": "You'll be fine. The worst she might do is spray water at you.$0",
+"Events.DylanLesson.NovaDylan.16": "Moving on...",
+"Events.DylanLesson.Vincent.3": "I caught a big crab! He tried to pinch me and everything!$1",
+"Events.DylanLesson.NovaDylan.17": "And a small starfish! So, Vincent. What are crabs exactly?$1",
+"Events.DylanLesson.Vincent.4": "Crustaceans! And he eats anything, so he's an... an omnivore!$0",
+"Events.DylanLesson.Penny.3": "Well done, Vincent! You get a star point for that.$1",
+"Events.DylanLesson.NovaDylan.18": "Last but not least...",
+"Events.DylanLesson.NovaDylan.19": "These are interesting finds! Can you tell us what they are, Eloise?$3",
+"Events.DylanLesson.Eloise.1": "Yes, Mr. Moray! It's a Nudibranch and some kind of pretty coral?$1",
+"Events.DylanLesson.NovaDylan.20": "Right! The coral is called Euphyllia glabrescens, or the torch coral. And well done for knowing that sea slugs are called Nudibranches!$1#$b#This species is known as the sunset Nudibranch and is endemic to East Scarp in particular, along with three other species. They're rather elusive.$3",
+"Events.DylanLesson.NovaDylan.21": "And I think that concludes our lesson! I just want to thank you all for being so... surprisingly well behaved, as opposed to the little demons I was expecting.$1#$b#Make sure you gently put the animals back where you found them. And then you can meet Penelope and be on your way.$0",
+"Events.DylanLesson.Vincent.5": "Thanks Mr. Moray!",
+"Events.DylanLesson.Penny.4": "Vincent! Take that crab back out of your pocket at once!$5",
+"Events.DylanLesson.Vincent.6": "Aww...$2",
 
 //OTHER
 

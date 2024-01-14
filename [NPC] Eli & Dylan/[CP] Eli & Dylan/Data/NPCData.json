@@ -29,9 +29,9 @@
 					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {
 						"Nova.Dylan": "{{i18n:Core.Relationships.Brother}}",
-						"Emily": "{{i18n:Core.Relationships.Friend}}",
-						"Leah": "{{i18n:Core.Relationships.Friend}}",
-						"Elliott": "{{i18n:Core.Relationships.Friend}}"
+						"Emily": "{{i18n:Core.Relationships.Emily}}",
+						"Leah": "{{i18n:Core.Relationships.Leah}}",
+						"Elliott": "{{i18n:Core.Relationships.Elliott}}"
 					},
 					"SpawnIfMissing": true,
 					"Home": [
@@ -307,9 +307,9 @@
 					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {
 						"Nova.Eli": "{{i18n:Core.Relationships.Brother}}",
-						"Willy": "{{i18n:Core.Relationships.Friend}}",
-						"Leah": "{{i18n:Core.Relationships.Friend}}",
-						"Elliott": "{{i18n:Core.Relationships.Friend}}"
+						"Willy": "{{i18n:Core.Relationships.Willy}}",
+						"Leah": "{{i18n:Core.Relationships.Leah}}",
+						"Elliott": "{{i18n:Core.Relationships.Elliott}}"
 					},
 					"SpawnIfMissing": true,
 					"Home": [

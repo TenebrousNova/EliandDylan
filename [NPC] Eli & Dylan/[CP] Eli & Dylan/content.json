@@ -1093,7 +1093,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanClass_BearIntro",
-		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"Hello!\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"Hey, first ones here to your fish lesson? Is there a permission slip I need to sign or anything?$11\"/speak MadDog.HashtagBearFam.Gudrun \"Of course we're the first ones here! It'd be so embarrassing to be late!$6#$b#Hi Mr. Moray!$1\"/speak MadDog.HashtagBearFam.Gunnar \"Don't worry, the grumpy one's not staying.$6\"/emote Nova.Dylan 32/speak Nova.Dylan \"Morning, Gudrun! And no worries, you're actually quite early. Penny didn't say anything about permission slips so you should be good.$1#$b#You can stay if you want, Gunnar. You're never too old to learn about sea life.$3\"/speak MadDog.HashtagBearFam.Sigurd \"Gun's here to make sure she doesn't get out of control. If they both get rowdy, drown 'em.$18#$b#Worked on the last Bear, after all.$10\"/emote Nova.Dylan 60/speak Nova.Dylan \"Hopefully that won't be necessary. But I'll keep it in mind.$9\"",
+		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.4}}\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.1}}\"/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.1}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.DylanLesson.Gunnar.1}}\"/emote Nova.Dylan 32/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.5}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.2}}\"/emote Nova.Dylan 60/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.6}}\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
@@ -1137,7 +1137,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanClass_Bear3",
-		"Value": "pause 100/textAboveHead MadDog.HashtagBearFam.Gudrun \"I found that!\"/emote MadDog.HashtagBearFam.Gunnar 32 true",
+		"Value": "pause 100/textAboveHead MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.2}}\"/emote MadDog.HashtagBearFam.Gunnar 32 true",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
@@ -1148,7 +1148,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanClass_Bear4",
-		"Value": "textAboveHead MadDog.HashtagBearFam.Sigurd \"Pffft!\"",
+		"Value": "textAboveHead MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.3}}\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
