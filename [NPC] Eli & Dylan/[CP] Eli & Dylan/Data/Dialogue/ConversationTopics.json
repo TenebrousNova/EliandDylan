@@ -34,7 +34,7 @@
 
 				//Sen Topics
 
-				"LitD_CT_SenMet": "{{i18n:CT.NovaEli.SenMet}}",
+				"DitR_CT_SenMet": "{{i18n:CT.NovaEli.SenMet}}",
 
 				//Lucikiel Topics
 
@@ -100,6 +100,7 @@
 				"DylanTown": "{{i18n:CT.NovaEli.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
 				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
 
 				//Other Topics
 
@@ -143,7 +144,7 @@
 
 				//Sen Topics
 
-				"LitD_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet}}",
+				"DitR_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet}}",
 
 				//Lucikiel Topics
 
@@ -208,6 +209,7 @@
 				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
 				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
 
 				//Other Topics
 
@@ -462,7 +464,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}"
+				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}"
 			}
 		},
 
@@ -471,7 +474,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"DylanLibrary": "{{i18n:CT.Vincent.DylanLibrary}}"
+				"DylanLibrary": "{{i18n:CT.Vincent.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.Vincent.DylanLesson}}"
 			}
 		},
 
@@ -480,7 +484,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary}}"
+				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.Jas.DylanLesson}}"
 			}
 		},
 

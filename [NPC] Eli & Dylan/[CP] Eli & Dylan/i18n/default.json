@@ -510,7 +510,7 @@
 
 //FESTIVAL DIALOGUE
 
-"Core.NovaEli.EggFestivalDialogue": "What's up, @. Mayor Lewis seems to think that I'm 'too old' to participate in the egg hunt, so I'll be cheering you on instead!$1#$b#Good luck against Abby. She's been crushing those kid's dreams for years according to the other folk, but I reckon you've got this.$6",
+"Core.NovaEli.EggFestivalDialogue": "What's up, @. Mayor Lewis seems to think that I'm 'too old' to participate in the egg hunt, so I'll be cheering you on instead!$1#$b#Good luck against Abby. She's been crushing those kid's dreams for years according to the other folks, but I reckon you've got this.$6",
 "Core.NovaEli.FlowerDanceDialogue": "Ugh, I feel like such a prat. And I LOOK like one! I'm not used to getting all done up like this... this damn suit itches like mad.$2#$b#You're looking great though, farmer! I'm sure you'll have no trouble finding someone to dance with.$0",
 "Core.NovaEli.LuauDialogue": "The Luau is a surprisingly exotic tradition for a place like Pelican Town, but it actually works! The music, food and company are wonderful.$1#$b#Soooo... what's your contribution to the group soup gonna be? Will the fancy-pants Governor get more than he bargained for? I won't judge. And I'll never tell.$6#$b#Just warn Dylan and me first if you actually add something weird, yeah?$3",
 "Core.NovaEli.MoonlightJelliesDialogue": "'Evening @! You're about to witness the most magical and blatantly romantic festival the Valley has to offer.$1#$b#It's hard to explain, but seeing the Lunaloos has this really existential effect on people. It's the last taste of Summer before the turning of the seasons.$0",
@@ -1120,6 +1120,7 @@
 "CT.NovaEli.DylanTown": "Dylan's going to be just fine, @. We marathoned this new documentary series on life in the Abyssopelagic Zone - really interesting stuff!$0#$b#I still feel guilty, though. It was stupid of me to let that happen.$2",
 "CT.NovaEli.DylanSaloon": "Hey there, @. I'm sorry that Dylan made a prat of himself.$10#$b#I carried him home and he complained the entire way. Then he immediately passed out. I'm never, ever gonna let him live this down.$1",
 "CT.NovaEli.DylanLibrary": "He's never going to admit it, but Dylan's actually very excited over being asked to help with that field trip.$1#$b#I reckon it'll do him a lot of good, so long as he isn't too condescending to the kids.$10",
+"CT.NovaEli.DylanLesson": "Man, I wish I'd been there to watch Dylan's lesson. Penny said he handled himself really well! I'm so proud of him right now.$3#$b#I'm glad you helped push him out of his comfort zone. It really has paid off.$1",
 
 "CT.NovaEli.SootIntro": "Thanks for stopping by earlier, farmer. It was nice to have you over! I think Soot likes you already.$1",
 "CT.NovaEli.ThistleIntro": "That Thistle's a royal pain, isn't she? She adores Dylan, but she has it out for me. Come to think of it, she dislikes most people. He tells me what she says.$10#$b#I'm not surprised that he gets migraines all the time with her around. She's so loud.$9#$b#...What do you mean I have no indoor voice either?! THAT'S NOT TRUE AT ALL!$7",
@@ -1188,6 +1189,7 @@
 "CT.NovaDylan.DylanTown": "That was extremely embarrassing. I'm sorry to have caused such a fuss in front of everyone.$0#$b#Still... I get to tease Eli for being afraid of Pam. Thanks for checking on me.$3",
 "CT.NovaDylan.DylanSaloon": "Not now, @. I'm very hung over and in no mood to socialise.$7#$b#I did enough socialising last night that I needn't bother for the rest of the year.$0",
 "CT.NovaDylan.DylanLibrary": "I've been planning activities for that field trip. Hopefully the little munchkins will enjoy themselves.$1#$b#...What? No, I'm not looking forward to it! Why would I??$6",
+"CT.NovaDylan.DylanLesson": "That lesson went much better than I expected! I was rather enjoying myself, actually. I hadn't felt that confident in a long time!$3#$b#Thanks for believing in me, @.$1",
 
 "CT.NovaDylan.SootIntro": "It was a nice change of pace to have a visitor. You're welcome to stop by whenever.$1#$b#Especially if it keeps Soot on his best behaviour. It's not like him to be that docile, especially around strangers.$9",
 "CT.NovaDylan.ThistleIntro": "Sorry if Thistle left a sour impression on you. She was mad when she found out you didn't just leave your crops unprotected from her and her friends.$0#$b#She kept complaining about how unfair it is. But you losing your produce would be unfair. She'll just have to get over it, won't she?$1",
@@ -1204,7 +1206,7 @@
 //EMILY
 
 "CT.Emily.EliIntro": "Oh, hello @! I heard that you met Eli earlier.$0#$b#Some people think he's a bit odd, but he's a sweetheart, really. And he has such a bright aura!$1#$b#I enjoy hearing his stories when he visits the Saloon.$0",
-"CT.Emily.EliSaloon": "I think I'll give the aquamarine that Eli gave me a special place in my gemstone collection.$0#$b#It has just the right energy that'll compliment the others perfectly.$1#$b#Clint left shortly after you two did. He looked upset. I've told him before that he can confide in me, but he never does.$2",
+"CT.Emily.EliSaloon": "I think I'll give the aquamarine that Eli gave me a special place in my gemstone collection.$0#$b#It has just the right energy that'll complement the others perfectly.$1#$b#Clint left shortly after you two did. He looked upset. I've told him before that he can confide in me, but he never does.$2",
 
 "CT.Emily.DylanIntro": "Dylan doesn't come by the Saloon often. And when he does, he's always with Eli and doesn't say much.$0#$b#His eyes light up once you get him on the subject of sea life, though. It's adorable! I think he just needs help coming out of his shell.$1",
 "CT.Emily.DylanSaloon": "I feel a little guilty, @. I did promise to keep an eye on Dylan for Eli.$2#$b#He assured me that no harm was done, and that he now has enough teasing ammunition for the next year.$0",
@@ -1300,14 +1302,17 @@
 //PENNY
 
 "CT.Penny.DylanLibrary": "Hello, @. I honestly didn't expect Dylan to agree to help me in a million years!$1#$b#I'm looking forward to seeing him teach. Although naturally, I'll be on hand as well.$0",
+"CT.Penny.DylanLesson": "Wasn't Dylan amazing, @? The children had such a good time! Maybe I should convince him to give lessons more often.$1#$b#I hope the experience gave him a boost in confidence. I honestly think he surprised himself.$0",
 
 //VINCENT
 
 "CT.Vincent.DylanLibrary": "Miss Penny says that we're going on a field trip to the beach!$0#$b#I'm gonna put a crab in Jas' hair when no one's looking.$1",
+"CT.Vincent.DylanLesson": "Mister Moray's lesson was so cool! I hope he teaches us about sharks next time.$1",
 
 //JAS
 
 "CT.Jas.DylanLibrary": "I'm super excited for that field trip! Mister Moray's going to teach us. Miss Penny said he's very smart.$1",
+"CT.Jas.DylanLesson": "That field trip was really fun! Wasn't that octopus cute?$1",
 
 //KROBUS
 
@@ -1631,7 +1636,7 @@
 "Events.EliJK.Question.1.Response.3": "Then Dylan and I won't have to go shopping for ages because I just bought a month's supply of groceries from you.$10#$b#It's definitely possible that nothing will happen. But nothing ventured, right?$11",
 "Events.EliJK.NovaEli.2": "Okay, let's get cracking! There was something hilarious I wanted to tell you about on the way...$0",
 "Events.EliJK.NovaEli.3": "Oh, we're here! And right as I was getting to the good part. We'll have to resume that story later.$0",
-"Events.EliJK.NovaEli.4": "This is embarrassing...",
+"Events.EliJK.NovaEli.4": "...{0}?",
 "Events.EliJK.NovaEli.5": "I'm nervous.$10#$b#There, I said it.$12#$b#I've been waiting so long for something like this. This could be my big chance! And now that it's here for real...$2",
 "Events.EliJK.Question.2": "#What's the worst that can happen?#You're overthinking it, you massive doofus. Don't panic!",
 "Events.EliJK.Question.2.Response.1": "What if we chose the wrong offering and offend them somehow? What if NOTHING happens at all? What if-$7",
@@ -1918,7 +1923,7 @@
 "Events.DylanLesson.NovaDylan.7": "Excellent! Let's get started, shall we? We'll go over the basics before getting closely acquainted with these tide pools and the organisms living in them.$1#$b#Now, who can tell me what a tide pool is?$3",
 "Events.DylanLesson.NovaDylan.8": "Fantastic work, everyone! There's quite a collection here. Let's see what we've got, starting with...?$3",
 "Events.DylanLesson.NovaDylan.9": "Jas!",
-"Events.DylanLesson.Jas.1": "I found a sea urchin, Mr. Moray!$1",
+"Events.DylanLesson.Jas.1": "I found a sea urchin, Mister Moray!$1",
 "Events.DylanLesson.NovaDylan.10": "So you did! As we know, sea urchins are Echinoderms, which are related to starfish and sea cucumbers. They use their spines and tiny tube feet to slowly move around.$1",
 "Events.DylanLesson.Jas.2": "And they've found sea urchins in the wild that are 200 years old.$4",
 "Events.DylanLesson.NovaDylan.11": "Correct!",
@@ -1941,10 +1946,10 @@
 "Events.DylanLesson.Penny.3": "Well done, Vincent! You get a star point for that.$1",
 "Events.DylanLesson.NovaDylan.18": "Last but not least...",
 "Events.DylanLesson.NovaDylan.19": "These are interesting finds! Can you tell us what they are, Eloise?$3",
-"Events.DylanLesson.Eloise.1": "Yes, Mr. Moray! It's a Nudibranch and some kind of pretty coral?$1",
+"Events.DylanLesson.Eloise.1": "Yes, Mister Moray! It's a Nudibranch and some kind of pretty coral?$1",
 "Events.DylanLesson.NovaDylan.20": "Right! The coral is called Euphyllia glabrescens, or the torch coral. And well done for knowing that sea slugs are called Nudibranches!$1#$b#This species is known as the sunset Nudibranch and is endemic to East Scarp in particular, along with three other species. They're rather elusive.$3",
 "Events.DylanLesson.NovaDylan.21": "And I think that concludes our lesson! I just want to thank you all for being so... surprisingly well behaved, as opposed to the little demons I was expecting.$1#$b#Make sure you gently put the animals back where you found them. And then you can meet Penelope and be on your way.$0",
-"Events.DylanLesson.Vincent.5": "Thanks Mr. Moray!",
+"Events.DylanLesson.Vincent.5": "Thanks Mister Moray!",
 "Events.DylanLesson.Penny.4": "Vincent! Take that crab back out of your pocket at once!$5",
 "Events.DylanLesson.Vincent.6": "Aww...$2",
 

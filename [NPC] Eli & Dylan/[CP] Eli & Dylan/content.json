@@ -335,34 +335,34 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanMonday_A",
-		"Value": "610 12 8 3/630 23 22 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanMonday_B",
-		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_A",
-		"Value": "0 Custom_EastScarpe 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "0 Custom_EastScarpe 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_ESCastlePoint 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 22 0/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
+		"Value": "610 12 8 3/630 23 23 0/0730 Custom_ESCastlePoint 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
 		"Name": "DylanWednesday_A",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 22 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 Custom_EastScarpe 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",
-		"Value": "610 12 8 3/630 23 22 0/0730 Custom_EastScarpe 54 84 2 Dylan_Sit/0930 ArchaeologyHouse 20 10 1/1330 12 9 0/1430 10 13 3/1500 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 Custom_EastScarpe 54 84 2 Dylan_Sit/0930 ArchaeologyHouse 20 10 1/1330 12 9 0/1430 10 13 3/1500 Custom_EastScarpeInn 26 12 2 Dylan_Drink/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",
@@ -408,44 +408,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 
 	//Eli 2 Hearts
-
-	{ 
-		"Name": "EliSaloon_SetUp",
-		"Value": "farmer 14 24 0 Nova.Eli -1000 -1000 0 Sam -1000 -1000 0 Abigail -1000 -1000 0 Sebastian -1000 -1000 0 Gus 13 18 2 Emily 17 17 0 Willy 17 22 2 Clint 19 23 3 Pierre 11 20 0 Shane 21 17 2 Pam 7 18 1 Leah 2 19 1 Elliott 4 19 2"
-	},
-	//Some special guests make a cameo if they're installed!
-	{
-		"Name": "EliSaloon_SetUp",
-		"Value": "{{EliSaloon_Setup}} Sterling 22 18 3",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
-		"Name": "EliSaloon_SetUp",
-		"Value": "{{EliSaloon_Setup}} Trace 6 17 2",
-		"When": {
-			"HasMod": "CreatorKami.TYRSA.CP"
-		}
-	},
-	{
-		"Name": "EliSaloon_SetUp",
-		"Value": "{{EliSaloon_Setup}} RodneyOBrien 12 22 3",
-		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
-		}
-	},
-	{
-		"Name": "EliSaloon_SterlingDrink",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "EliSaloon_SterlingDrink",
-		"Value": "animate Sterling false true 200 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 18 18 18 18 19 19 19 18 18 19 19 17",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
+	//Replace this one when Axell's done with the new animation.
 	{
 		"Name": "EliSaloon_TraceGuitar",
 		"Value": "pause 1"
@@ -457,89 +420,10 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 			"HasMod": "CreatorKami.TYRSA.CP"
 		}
 	},
-	{
-		"Name": "EliSaloon_Rodney",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "EliSaloon_Rodney",
-		"Value": "animate RodneyOBrien false true 100 23 23 23",
-		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
-		}
-	},
 
 	/*Eli 3 Hearts Part 2
-	The suffering I went through to make and especially to TEST this event in particular was immense. So many moving parts.
-	And holy shit that's a lot of cameos!*/
+	The suffering I went through to make and especially to TEST this hilariously overengineered event in particular was immense. So many moving parts. But I have no regrets.*/
 
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "farmer -999 -999 0 Nova.Eli 16 72 0 Rosa 38 67 2 Aideen 24 62 2"
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} RodneyOBrien -999 -999 2",
-		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Juliet 38 68 0",
-		"When": {
-			"HasMod": "LemurKat.JulietHouse.NPC"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Cambria 30 72 3",
-		"When": {
-			"HasMod": "Squeaks.MGC.CP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Mateo 23 63 2",
-		"When": {
-			"HasMod": "DestyNova.Mateo.CP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Torts 13 64 1",
-		"When": {
-			"HasMod": "Rafseazz.RSVCP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Mia -999 -999 2 Henry -999 -999 2",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Yri 32 63 3 Charles 31 63 1",
-		"When": {
-			"HasMod |contains=yri.yri": true
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} SenS 12 59 2",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "EliJunimo2_Setup",
-		"Value": "{{EliJunimo2_Setup}} Anew 46 66 1 Trace 47 66 3",
-		"When": {
-			"HasMod |contains=CreatorKami.TYRSA.CP": true
-		}
-	},
 	{
 		"Name": "EliJunimo2_Maximum",
 		"Value": "pause 1"
@@ -549,39 +433,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "addTemporaryActor ARVMax 32 32 -999 -999 2 false Character",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_MateoSit",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "EliJunimo2_MateoSit",
-		"Value": "animate Mateo false true 500 17 18 19 18 17 18 19 18",
-		"When": {
-			"HasMod": "DestyNova.Mateo.CP"
-		}
-	},
-	{
-		"Name": "EliJunimo2_SenRead",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "EliJunimo2_SenRead",
-		"Value": "animate SenS false true 300 16 17 18 19",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "EliJunimo2_CambriaWalk",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "EliJunimo2_CambriaWalk",
-		"Value": "advancedMove Cambria false -15 0 0 -17 -10 0 3 10",
-		"When": {
-			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
@@ -603,7 +454,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliJunimo2_AideenMateo",
 		"Value": "faceDirection Aideen 3/animate Mateo true true 80 20 20 20/emote Aideen 8/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.4}}\"/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.1.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.1}}\"/pause 250/jump Nova.Eli/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.5}}\"/emote Aideen 12 true/emote Nova.Eli 28 true/temporarySprite 20 60 6 8 30 false 1/playSound coin/warp JunimoFriendPurple 24 60/animate JunimoFriendPurple true true 80 28 29 30 31/temporarySprite 24 60 5 8 50 false 1/playSound coin/pause 250/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.2.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.6}}\"/textAboveHead JunimoFriendPurple \"ĦĵĮĮĹ ĬġĤĹ!\" true/emote Mateo 8 true/faceDirection Aideen 0/playSound junimoMeep1/emote Aideen 40/faceDirection Aideen 3/temporarySprite 24 60 6 8 30 false 1/playSound dwop/warp JunimoFriendPurple -999 -999/stopAnimation JunimoFriendPurple/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.3.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.7}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.3}}\"/animate Mateo false true 500 17 18 19 18 17 18 19 18/faceDirection Aideen 2/emote Nova.Eli 60",
 		"When": {
-			"HasMod": "DestyNova.Mateo.CP"
+			"HasMod": "DN.SnS.CP"
 		}
 	},
 	{
@@ -642,17 +493,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	/*Eli 4 Hearts
 
 	If SVE is installed, the compat map is loaded instead in order to avoid breaking stuff. Also adds Sen to the event if he's installed! If you don't have Sen installed, stop reading my code and download him immediately.*/
-	{
-		"Name": "Eli_Woods_SetUp",
-		"Value": "farmer 20 16 3 Nova.Eli 11 6 2 Krobus 10 8 1"
-	},
-	{
-		"Name": "Eli_Woods_SetUp",
-		"Value": "{{Eli_Woods_SetUp}} SenS 12 6 2",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
+
 	{
 		"Name": "Eli_Woods_Map",
 		"Value": "pause 1"
@@ -665,17 +506,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 	{
-		"Name": "Eli_Woods_SenAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_SenAnimation",
-		"Value": "positionOffset SenS 20 0/animate SenS false true 100 20 20 21 21 22 22 23 23",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
 		"Name": "Eli_Woods_Sen1",
 		"Value": "pause 1"
 	},
@@ -683,7 +513,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen1",
 		"Value": "emote SenS 32/speak SenS \"{{i18n:Events.EliWoods.Sen.1}}\"/showFrame Nova.Eli 61/speak SenS \"{{i18n:Events.EliWoods.Sen.2}}\"/pause 500/showFrame Nova.Eli 60",
 		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP"
 		}
 	},
 	{
@@ -692,145 +522,38 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "Eli_Woods_Sen2",
-		"Value": "emote SenS 16 true/stopAnimation SenS/warp SenS 12 7",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen3",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen3",
-		"Value": "speak SenS \"{{i18n:Events.EliWoods.Sen.3}}\"/faceDirection SenS 3",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen4",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen4",
-		"Value": "faceDirection SenS 2 true",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen5",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen5",
-		"Value": "faceDirection SenS 3/jump SenS/speak SenS \"{{i18n:Events.EliWoods.Sen.4}}\"/advancedMove SenS false 1 0 0 2 -1 0 0 4 2 10",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen6",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen6",
-		"Value": "faceDirection SenS 1/pause 500/faceDirection SenS 2",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen7",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen7",
-		"Value": "emote SenS 8",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen8",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen8",
 		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5}}\"/faceDirection farmer 3/startJittering/pause 500/stopJittering/emote farmer 28/faceDirection 0",
 		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true,
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": true
 		}
 	},
 	{
-		"Name": "Eli_Woods_Sen8",
+		"Name": "Eli_Woods_Sen2",
 		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5.2}}\"/faceDirection farmer 3/emote farmer 20/emote Nova.Eli 16/faceDirection farmer 0/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.13.2}}\"",
 		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true,
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": false
 		}
 	},
 	{
-		"Name": "Eli_Woods_Sen9",
+		"Name": "Eli_Woods_Sen3",
 		"Value": "{{i18n:Events.EliWoods.Question.1.Response.2}}"
 	},
 	{
-		"Name": "Eli_Woods_Sen9",
+		"Name": "Eli_Woods_Sen3",
 		"Value": "{{i18n:Events.EliWoods.Question.1.Response.2.3}}",
 		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true,
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": true
 		}
 	},
 	{
-		"Name": "Eli_Woods_Sen9",
+		"Name": "Eli_Woods_Sen3",
 		"Value": "{{i18n:Events.EliWoods.Question.1.Response.2.2}}",
 		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true,
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": false
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen10",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen10",
-		"Value": "advancedMove SenS false -2 0 0 -8 3 0 0 -2 3 10"
-	},
-	{
-		"Name": "Eli_Woods_Sen11",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen11",
-		"Value": "emote SenS 28/speak SenS \"{{i18n:Events.EliWoods.Sen.6}}\"",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen12",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen12",
-		"Value": "emote SenS 32 true",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
-		}
-	},
-	{
-		"Name": "Eli_Woods_Sen13",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "Eli_Woods_Sen13",
-		"Value": "emote SenS 32/speak SenS \"{{i18n:Events.EliWoods.Sen.7}}\"",
-		"When": {
-			"HasMod |contains=7thAxis.LitD.CP": true
 		}
 	},
 	
@@ -880,17 +603,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Dylan 3 Hearts Part 2
 
 	{
-		"Name": "DylanSaloon_Setup",
-		"Value": "farmer 14 23 0 Nova.Dylan -1000 -1000 0 Nova.Eli 1000 1000 0 Elliott 4 19 2 Leah 2 20 1 Gus 11 18 2 Pam 7 18 1 Emily 14 17 0 Shane 21 17 2 Willy 17 22 2 Clint 19 23 3 Harvey 18 20 0 Lewis 11 23 2 Marnie 10 23 1"
-	},
-	{
-		"Name": "DylanSaloon_Setup",
-		"Value": "{{DylanSaloon_Setup}} Sterling 16 20 3",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
 		"Name": "DylanSaloon_Gossip1",
 		"Value": "{{i18n:Events.DylanSaloon.Elliott.4}}"
 	},
@@ -924,169 +636,19 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 	{
-		"Name": "DylanSaloon_SterlingDrink",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanSaloon_SterlingDrink",
-		"Value": "animate Sterling false true 200 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 18 18 18 18 18 18 18 19 19 19 18 18 19 19 17",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
 		"Name": "DylanSaloon_Sterling1",
 		"Value": "pause 1"
 	},
 	{
 		"Name": "DylanSaloon_Sterling1",
-		"Value": "stopAnimation Sterling/warp Sterling 3 21/faceDirection Sterling 0",
-		"When": {
-			"HasMod": "Himetarts.ARV.CP"
-		}
-	},
-	{
-		"Name": "DylanSaloon_Sterling2",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanSaloon_Sterling2",
 		"Value": "jump Sterling/speak Sterling \"{{i18n:Events.DylanSaloon.Sterling.1}}\"/pause 250/speak Nova.Dylan \"{{i18n:Events.DylanSaloon.NovaDylan.7}}\"/emote Sterling 60 true",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
 		}
 	},
-	{
-		"Name": "DylanSaloon_Sterling3",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanSaloon_Sterling3",
-		"Value": "faceDirection Sterling 1",
-		"When": {
-			"HasMod":"Himetarts.ARV.CP"
-		}
-	},
-
-	//Dylan 4 Hearts Part 1
-
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "farmer 13 7 2 Nova.Dylan 7 12 2 Gunther 5 8 2 Penny 17 9 2"
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} RodneyOBrien 15 5 2",
-		"When": {
-			"HasMod":"TheFrenchDodo.RodneyOBrien"
-		}
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} JortsCat 6 10 2 JeanCat 7 10 2",
-		"When": {
-			"HasMod": "tiakall.jortsandjean"
-		}
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} Nora 20 5 0",
-		"When": {
-			"HasMod": "Bagi.Nora.CP"
-		}
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} Mateo 25 13 2",
-		"When": {
-			"HasMod": "DestyNova.Mateo.CP",
-			"HasConversationTopic |contains=MateoPain": false 
-		}
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} Jasper 19 9 2",
-		"When": {
-			"HasMod": "Lemurkat.NPCJasper"
-		}
-	},
-	{
-		"Name": "DylanLibrary_Setup",
-		"Value": "{{DylanLibrary_Setup}} Victor 10 12 2",
-		"When": {
-			"HasMod": "FlashShifter.StardewValleyExpandedCP"
-		}
-	},
-	{
-		"Name": "DylanLibrary_RodneyAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanLibrary_RodneyAnimation",
-		"Value": "animate RodneyOBrien false true 100 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25",
-		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
-		}
-	},
-	{
-		"Name": "DylanLibrary_Jean&JortsAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanLibrary_Jean&JortsAnimation",
-		"Value": "animate JortsCat false true 150 44 45 46 47 47/animate JeanCat false true 150 36 37 38 39 39",
-		"When": {
-			"HasMod": "tiakall.jortsandjean"
-		}
-	},
-	{
-		"Name": "DylanLibrary_JasperAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanLibrary_JasperAnimation",
-		"Value": "animate Jasper false true 200 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 20 20 20 20 20 20 20 20 20 20",
-		"When": {
-			"HasMod": "Lemurkat.NPCJasper"
-		}
-	},
-	{
-		"Name": "DylanLibrary_MateoAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanLibrary_MateoAnimation",
-		"Value": "animate Mateo false true 200 25 25 25 26 26 26 26 25 25 25",
-		"When": {
-			"HasMod": "DestyNova.Mateo.CP",
-			"HasConversationTopic |contains=MateoPain": false 
-		}
-	},
-	{
-		"Name": "DylanLibrary_VictorAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanLibrary_VictorAnimation",
-		"Value": "animate Victor false true 50 32 32 33 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 33 32",
-		"When": {
-			"HasMod": "FlashShifter.StardewValleyExpandedCP"
-		}
-	},
 
 	//Dylan 5 Hearts
 
-	{
-		"Name": "DylanClass_Setup",
-		"Value": "farmer 49 81 2 Nova.Dylan 54 88 2 Penny 45 76 3 Vincent 44 77 1 Jas 44 76 1 Eloise 43 77 1"
-	},
-	{
-		"Name": "DylanClass_Setup",
-		"Value": "{{DylanClass_Setup}} MadDog.HashtagBearFam.Sigurd 49 76 2 MadDog.HashtagBearFam.Gudrun 49 77 0 MadDog.HashtagBearFam.Gunnar 50 77 3",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
 	{
 		"Name": "DylanClass_BearIntro",
 		"Value": "pause 1"
@@ -1094,61 +656,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"Name": "DylanClass_BearIntro",
 		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.4}}\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.1}}\"/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.1}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.DylanLesson.Gunnar.1}}\"/emote Nova.Dylan 32/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.5}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.2}}\"/emote Nova.Dylan 60/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.6}}\"",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
-	{
-		"Name": "DylanClass_Bear1",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanClass_Bear1",
-		"Value": "advancedMove MadDog.HashtagBearFam.Sigurd false 0 1 4 0 0 1 2 0 3 10/pause 50/advancedMove MadDog.HashtagBearFam.Gudrun false 1 0 0 2 3 10/pause 100/advancedMove MadDog.HashtagBearFam.Gunnar false 3 0 0 1 3 10",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
-	{
-		"Name": "DylanClass_SigAnimation",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanClass_SigAnimation",
-		"Value": "animate MadDog.HashtagBearFam.Sigurd false true 22 22 22 22 22 22 22 22 22 22 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24 24 24 24 24 24 24 24 24 24 24 24 24 24 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 26 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 27 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
-	{
-		"Name": "DylanClass_Bear2",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanClass_Bear2",
-		"Value": "warp MadDog.HashtagBearFam.Sigurd 48 110 true/warp MadDog.HashtagBearFam.Gudrun 35 112 true/faceDirection MadDog.HashtagBearFam.Gudrun 0 true/warp MadDog.HashtagBearFam.Gunnar 34 110 true/faceDirection MadDog.HashtagBearFam.Gunnar 1 true",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
-	{
-		"Name": "DylanClass_Bear3",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanClass_Bear3",
-		"Value": "pause 100/textAboveHead MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.2}}\"/emote MadDog.HashtagBearFam.Gunnar 32 true",
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
-		}
-	},
-	{
-		"Name": "DylanClass_Bear4",
-		"Value": "pause 1"
-	},
-	{
-		"Name": "DylanClass_Bear4",
-		"Value": "textAboveHead MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.3}}\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
