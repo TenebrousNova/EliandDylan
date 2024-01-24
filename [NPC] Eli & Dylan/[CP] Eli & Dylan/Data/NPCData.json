@@ -259,14 +259,14 @@
 						},
 						{
 							"ID": "Spirit's Eve",
-							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+							"Condition": "Any \"EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}\" \"LOCATION_NAME Target Custom_EastScarpeInn, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spiritseve.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spiritseve.png}}",
 							"Precedence": -20
 						},
 						{
 							"ID": "Spirit's Eve 2",
-							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+							"Condition": "Any \"EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}\" \"LOCATION_NAME Target Custom_EastScarpeInn, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spiritseve2.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spiritseve2.png}}",
 							"Precedence": -20
@@ -523,14 +523,14 @@
 						},
 						{
 							"ID": "Spirit's Eve",
-							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}",
+							"Condition": "Any \"EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 1 }}\" \"LOCATION_NAME Target Custom_EastScarpeInn, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 1 }}\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spiritseve.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spiritseve.png}}",
 							"Precedence": -20
 						},
 						{
 							"ID": "Spirit's Eve 2",
-							"Condition": "EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}",
+							"Condition": "Any \"EVENT_ID festival_fall27, {{Query: {{Year}} % 2 = 0 }}\" \"LOCATION_NAME Target Custom_EastScarpeInn, SEASON_DAY fall 27, {{Query: {{Year}} % 2 = 0 }}\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spiritseve2.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spiritseve2.png}}",
 							"Precedence": -20
