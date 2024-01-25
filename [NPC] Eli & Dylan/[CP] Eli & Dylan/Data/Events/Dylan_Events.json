@@ -1,7 +1,23 @@
 {
 	"Changes": [
 
-			//Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+	/*Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+
+	Emotes:
+
+	4- empty can
+	8- question mark
+	12- angry
+	16- exclamation
+	20- heart
+	24- sleep
+	28- sad
+	32- happy
+	36- x
+	40- pause
+	52- video game
+	56- music note
+	60- blush*/
 
     //Intro
 

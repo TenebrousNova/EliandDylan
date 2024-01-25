@@ -88,7 +88,7 @@
 			"Sun": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 11}}}}{{EliRandom_Dialogue_Tokens}}}}"
 		},
 		"When": {
-			"Hearts:Nova.Eli": "{{Range: 6, 10}}"
+			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		  }
 	},
 	{

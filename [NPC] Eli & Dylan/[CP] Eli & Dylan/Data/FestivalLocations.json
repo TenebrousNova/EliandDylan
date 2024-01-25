@@ -110,7 +110,7 @@ debug festival winter25 - Winter Star
 		{
 			"Operation": "Append",
 			"Target": [ "Fields", "set-up", 5],
-			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
 		}
 		]
 	},
@@ -135,7 +135,7 @@ debug festival winter25 - Winter Star
 		{
 			"Operation": "Append",
 			"Target": [ "Fields", "set-up", 5],
-			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
 		}
 		]
 	},
