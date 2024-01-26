@@ -58,9 +58,69 @@
 				},
 				"{{ModID}}_EDMushroomCave": {
 					"DisplayName": "{{i18n:Core.Locations.EDMushroomCave}}",
-					"DefaultArrivalTile": { "X": 15, "Y": 19 },
+					"DefaultArrivalTile": { "X": 21, "Y": 19 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_EDMushroomCave" },
-					"FormerLocationNames": [ "Custom_EDMushroomCave" ]
+					"FormerLocationNames": [ "Custom_EDMushroomCave" ],
+					"FishAreas": {
+						"EnD.MushroomCavePond": {
+							"DisplayName": "{{i18n:Core.Locations.MushroomCavePond}}",
+							"Position": null,
+							"CrabPotFishTypes": [],
+							"CrabPotJunkChance": 1.0
+						}
+					},
+					"Fish": [
+						{
+							"Id": "TenebrousNova.EliDylan.LambentHyphafin",
+							"ItemId": "(O)TenebrousNova.EliDylan.LambentHyphafin",
+							"FishaAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						}
+						/*{
+              			"Id": "(O)",
+              			"ItemId": "(O)",
+              			"FishAreaID": "UndergroundKrakenLake",
+              			"Season": "" //do the same thing for any vanilla fish you want to 
+            			}*/
+					],
+					"Forage": [
+						{
+							"Chance": 0.5,
+							"Season": null,
+							"ID": "(0)257", //Morel	
+							"ItemID": "(0)257"
+						},
+						{
+							"Chance": 0.5,
+              				"Season": null,
+              				"Id": "(O)422", //purple mush
+              				"ItemId": "(O)422"
+						},
+						{
+							"Chance": 0.5,
+              				"Season": null,
+              				"Id": "(O)420", //Red Mushroom
+              				"ItemId": "(O)420"
+						},
+						{
+							"Chance": 0.5,
+              				"Season": null,
+              				"Id": "(O)281", //Chanterelle
+              				"ItemId": "(O)281"
+						},
+						{
+							"Chance": 0.5,
+              				"Season": null,
+              				"Id": "(O)404", //common mush
+              				"ItemId": "(O)404"
+						}
+					],
+					"MinDailyWeeds": 0,
+					"MaxDailyWeeds": 0,
+					"FirstDayWeedMultiplier": 0,
+					"MinDailyForageSpawn": 1,
+					"MaxDailyForageSpawn": 3,
+					"MaxSpawnedForageAtOnce": 8
 				},
 				"{{ModID}}_EDMountainCave": {
 					"DisplayName": "{{i18n:Core.Locations.EDMountainCave}}",

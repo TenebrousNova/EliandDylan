@@ -12,9 +12,15 @@
 
 "Core.Locations.ESEDHouse": "Eli & Dylan's House",
 "Core.Locations.EDMushroomCave": "Mushroom Cavern",
+"Core.Locations.MushroomCavePond": "Mushroom Cavern Pond",
 "Core.Locations.EDMountainCave": "Deep Mountains Cave",
 "Core.Locations.DylanTidePool": "Dylan Tide Pool",
 "Core.Locations.OldWoods": "Old Woods",
+
+//ITEM NAMES
+
+"Core.Items.LambentHyphafin": "Lambent Hyphafin",
+"Core.Items.LambentHyphafin.Description": "A symbiotic fungus within its body fuels its bioluminescent lures, allowing it to capture prey and signal other Hyphafins.",
 
 //ELI DIALOGUE
 

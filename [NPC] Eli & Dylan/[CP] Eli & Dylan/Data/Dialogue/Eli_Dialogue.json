@@ -110,7 +110,7 @@
 			"RejectBouquet_VeryLowHearts": "{{i18n:Core.NovaEli.Reject2Hearts.B}}",
 			"RejectBouquet_LowHearts": "{{i18n:Core.NovaEli.Reject4Hearts.B}}",
 
-			"RejectMermaidPendant_Divorced": "{{i18n:Core.NovaEli.RejectMermaidPendant_Divorced",
+			"RejectMermaidPendant_Divorced": "{{i18n:Core.NovaEli.RejectMermaidPendant_Divorced}}",
 			"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Core.NovaEli.RejectMermaidPendant_NpcWithSomeoneElse}}",
 			"RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Core.NovaEli.RejectMermaidPendant_PlayerWithSomeoneElse}}",
 			"RejectMermaidPendant_Under8Hearts": "{{i18n:Core.NovaEli.RefusalNoHearts.A}}",

@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "TenebrousNova.EliDylan.LambentHyphafin": { //identity of the fish
+          "Name": "TenebrousNova.EliDylan.LambentHyphafin", //ditto
+          "DisplayName": "{{i18n:Core.Items.LambentHyphafin}}", //i18n
+          "Description": "{{i18n:Core.Items.LambentHyphafin.Description}}",
+          "Type": "Fish", //what it is
+          "Category": -4, //fish category is 4
+          "ExcludeFromRandomSale": true, //no one can randomly sell my fish
+          "ExcludeFromShippingCollection": true, //perfection exclusion
+          "ExcludeFromFishingCollection": true, //perfection exclusion
+          "Price": 100, //price fish is worth
+          "Edibility": 50, //positive number provides life
+          "IsDrink": false, //do not drink fish
+          "Texture": "{{InternalAssetKey: Assets/EnDObjects.png}}", //where to find my fish sprite
+          "SpriteIndex": 0, //spot on the sheet it is located
+          "ContextTags": [ //these are what can be referenced so the fish kind, where it can be caught, and it's color for dying things
+            "color_blue",
+            "fish_lambenthyphafin",
+            "fish_cave"
+          ]
+        }
+      }
+    }
+  ]
+ }
+
+ 
