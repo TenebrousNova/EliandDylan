@@ -212,7 +212,7 @@
 						},
 						{
 							"ID": "Adventuring Outfit",
-							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.1\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\"",
+							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.1\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\" \"EVENT_ID MadDog.BearFam.16191005\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/adventure.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/adventure.png}}",
 							"Precedence": -20

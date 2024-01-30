@@ -79,13 +79,13 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
-			"Mon": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Tue": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Wed": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Thu": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Fri": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Sat": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 41}}}}}}",
-			"Sun": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 11}}}}{{EliRandom_Dialogue_Tokens}}}}"
+			"Mon": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Tue": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Wed": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Thu": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Fri": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Sat": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
+			"Sun": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 15}}}}{{EliRandom_Dialogue_Tokens}}}}"
 		},
 		"When": {
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"

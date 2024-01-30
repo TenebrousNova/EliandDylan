@@ -44,7 +44,29 @@
 
 			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_Before}}",
 			"WinterStar_GiveGift_After": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_After}}",
+		}
+	},
+	{
+		"LogName": "Dylan 0-4 Heart Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"Mon": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Tue": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Wed": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Thu": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Fri": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Sat": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
+			"Sun": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 2}}}}}}"
+		},
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+		  }
+	},
+	]
+}
 			
+			/*
 			//0 Hearts
 			
 			"spring_Mon": "{{i18n:Core.NovaDylan.Spring.Monday.0h}}",
@@ -232,8 +254,4 @@
 			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek}}"
 		}
 	}
-
-	//Add dialogue about characters from other mods (like birthdays) here later.
-	
-	]
-}
+*/
