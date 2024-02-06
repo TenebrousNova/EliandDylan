@@ -1,5 +1,7 @@
 { 
 
+"Core.System.PlayerName": "{{PName}}",
+
 //RELATIONSHIPS
 
 "Core.Relationships.Brother": "brother",
@@ -351,11 +353,11 @@
 "Core.NovaEli.6-10.Summer.13": "Hey, @! A new novel I ordered turned up today, I'm so excited to get stuck into it. The blurb's promised me an emotional rollercoaster of romance, drama and raw angst.$3#$b#And apparently there's an entire SERIES! Dylan reckons I'm pretty sad for enjoying this stuff, but there's nothing wrong with a nice paperback romance.$12",
 "Core.NovaEli.6-10.Summer.14": "Thistle's been shadowing me all week. I'm pretty sure she's waiting for an opportunity to snitch on me to Dylan for something or other.$8#$b#Don't look now, but she's circling above us as we speak like the stunted vulture that she is.$9#$b#The worst part is I don't know if she does it for fun, or if Dylan deliberately puts her up to it.$2",
 "Core.NovaEli.6-10.Summer.15": "%Eli excitedly pelts you with greetings and questions so fast that you can barely understand him, wearing a huge goofy grin the whole time.#$b#-And I'm gonna go to the Saloon after work and buy a drink for EVERYONE 'cause it's such a great day and -!$3#$b#@, you're not answering. Why's everyone so damn SLOW today? Time's wasting! Oh forget it I've gotta run, see you -$9#$b#%What was THAT about?",
-"Core.NovaEli.6-10.Summer.16": "",
-"Core.NovaEli.6-10.Summer.17": "",
-"Core.NovaEli.6-10.Summer.18": "",
-"Core.NovaEli.6-10.Summer.19": "",
-"Core.NovaEli.6-10.Summer.20": "",
+"Core.NovaEli.6-10.Summer.16": "I'm thinking about trying to do some DIY around the house for a change. It could do with a lick of paint - or I could put up new shelves!$11#$b#I've got a power drill that I've been itching to use. But Dylan won't tell me where he hid it.$2",
+"Core.NovaEli.6-10.Summer.17": "I might go for a swim later tonight. Haven't decided yet if it'll be in the sea or at the spa out by the tracks.$0#$b#It's better to go at night because I'll have the whole place to myself. I don't mind the company, but it's more relaxing that way.$1",
+"Core.NovaEli.6-10.Summer.18": "Did you hear that there was another sighting of the Mothman of the Ferngill Gully!? This hiker saw weird lights in the forest and swears he got chased off by it.$7#$b#It's said to carry a lantern which it uses to lure travellers into hazards so it can eat them. I'm gonna have to organize a trip over there, I've got to see this beast for myself!$3",
+"Core.NovaEli.6-10.Summer.19": "On Saturday nights, I set up a campfire on the Scarp beach with chairs and snacks. Friends and neighbours come over and listen to me tell spooky stories.$3#$b#It's just a fun little tradition, but I'd love to see you there. Feel free to join us if you want - no pressure!$6",
+"Core.NovaEli.6-10.Summer.20": "It's been quite a while since I got contracted for any monster research jobs. That was my thing you know, before I seriously took up cryptozoology.$11#$b#The last big job was an on location assignment to study Royal Serpent nesting habits. It was really dangerous, but fun!$1#$b#Paid better than cryptozoology, too. But it is what it is.$10",
 "Core.NovaEli.6-10.Fall.1": "I always thought it was weird how some forms of magic, especially witchcraft and black magic, are vilified no matter what.$11#$b#The way I see it, they're just tools like any other magic. User intent is what matters. If you use witchcraft to help someone and nobody gets hurt, isn't that a good thing?$0",
 "Core.NovaEli.6-10.Fall.2": "On some nights we see strange lights coming from the old orchard just east of our place. Fancy coming on a ghost hunting trip with me one night?$0#$b#There's rumours about the place being haunted. Come on, don't make me beg! It'll be so exciting!$1",
 "Core.NovaEli.6-10.Fall.3": "I hope Linus is going to be alright this Winter. I respect his lifestyle and he's tough as nails, but I still worry sometimes.$2#$b#Do you reckon he'd mind if I got him a new blanket?$11",
@@ -367,14 +369,15 @@
 "Core.NovaEli.6-10.Fall.9": "Hi, farmer. Found this on my walk earlier. Here you go!$0[281 404 406 408 410]",
 "Core.NovaEli.6-10.Fall.10": "I enjoy walking through the forest at this time of year. The trees hum so calmly... They sing so beautifully.$1#$b#Can you hear them? Can you hear their song?$16",
 "Core.NovaEli.6-10.Fall.11": "Rasmodius is so secretive about how he sets up the Spirit's Eve maze. Last year, I hid myself on Pierre's roof to catch him at it.$0#$b#He showed up in town, then turned around and looked right at me. Next thing I knew, I woke up a few hours before the festival began. The maze was already up.$10#$e#I'll catch him in action next year for certain. Count on it.$8",
-"Core.NovaEli.6-10.Fall.12": "Marlon calls me out more often this time of year. The monsters become more active than usual and try making breaks for the surface.$2#$b#Not to worry, though! They never make it anywhere near town.$0",
+"Core.NovaEli.6-10.Fall.12": "Marlon calls me out more often this time of year. The monsters become more active than usual and try making breaks for the surface.$2#$b#Not to worry, though! They never make it anywhere near town - you're quite safe.$6",
 "Core.NovaEli.6-10.Fall.13": "I'd better stock up on cocoa before the frost sets in. I drink almost as much cocoa during Winter as I do coffee. And that's saying something!$1",
-"Core.NovaEli.6-10.Fall.14": "I'm not entirely sure why the monsters tend to get more agitated during Fall. It can't be a breeding season thing because many species breed year round.$11#$b#There's got to be some kind of supernatural explanation, but what? And I can't prove it either way.$2",
+"Core.NovaEli.6-10.Fall.14": "I'm not entirely sure why the monsters tend to get more agitated during Fall. It can't be a breeding season thing because many species breed year round.$11#$b#There's got to be some kind of supernatural explanation, but what? And I still can't prove it either way.$2",
 "Core.NovaEli.6-10.Fall.15": "The only thing I don't like about this time of year are the perilous dead leaves that cover the roads on rainy days. I'm always slipping on them.$2#$b#Still, it lets people have a good laugh at my expense.$10",
 "Core.NovaEli.6-10.Fall.16": "I'm dead pleased with how my Spirit's Eve costume turned out. And it's no good asking, because I don't do spoilers.$6#$b#I think Dylan actually outdid me though! You just wait 'til you see him, he's got amazing taste.$3",
-"Core.NovaEli.6-10.Fall.17": "",
-"Core.NovaEli.6-10.Fall.18": "",
-"Core.NovaEli.6-10.Fall.19": "",
+"Core.NovaEli.6-10.Fall.17": "Did I ever tell you about the time I saw an alien? It was when me and Dylan went to Minister Valley ages ago. I've seen weird stuff, but not like THAT!$1#$b#I was in the woods one night when I saw bright green lights falling from the sky. I remember all the animals suddenly went quiet. There was this smell of ozone.$1#$b#Then I saw it - a really tall, dark figure in a sort of cloak with long, grasping arms. It was floating just off the ground and had blank eyes that met mine.$7#e#It's embarrassing, but I did a runner when it started drifting towards me. I should've investigated it, tried getting proof. Now nobody believes me.$2",
+"Core.NovaEli.6-10.Fall.18": "Ugh, a bird managed to crap on me earlier. Emily was all excited and said it's a sign of good luck. For the bird, maybe! I don't feel lucky right now.$10#$b#It better not have been Thistle.$9",
+//Note to translators: you can move the {{GameName}} token below to where it would make sense in the sentence.
+"Core.NovaEli.6-10.Fall.19": "Alright, @? Got much planned for the day? I'm hoping to play {{GameName}} with Dylan later tonight.$1#$b#Why don't you join us? You can team up with him against me, it's more fair! That way he's less likely to ragequit when I trounce you both.$13#$b#Wha- I'M going to be the one ragequitting? Has he been telling you that I ragequit? He's LYING, @! And I'll prove it to you later, when I WIN!$7",
 "Core.NovaEli.6-10.Fall.20": "",
 "Core.NovaEli.6-10.Winter.1": "Business must be quiet for you, @. Are you finding ways to keep busy?$0#$b#You're more than welcome to join me next time I go spelunking! I'm sure we'll make a great team.$3",
 "Core.NovaEli.6-10.Winter.2": "Walking through the forest in Winter is an otherworldly experience. Gleaming blank snow, surrounded on all sides by dark trunks and long, grasping branch fingers.$1#$b#The sound and colours are muted. You feel lost and alone in the world.$0#$e#And then you suddenly hear a voice calling you from deeper into the woods. It sounds familiar. You shouldn't follow, but you do...$9#$b#Heh. Sorry, @. Like I said, it's beautiful! And usually peaceful. Just be careful, alright?$12",
@@ -1093,7 +1096,7 @@
 "Strings.GameName.26": "Violent Badminton of the Damned",
 "Strings.GameName.27": "Bouncin' Spelunking with Friends",
 "Strings.GameName.28": "Forbidden System",
-"Strings.GameName.29": "Evernite",
+"Strings.GameName.29": "Quarter-Life 3",
 "Strings.GameName.30": "Crazy Raccoon Nightmare",
 "Strings.House.EDTrash": "Peelings, empty plastic wrappers and other standard household refuse.#Not for the first time, you find yourself questioning why you dig around in people's trash.",
 "Strings.House.EDFridge": "The fridge door is covered in reminders, shopping lists and delightfully snarky notes addressed from one brother to the other.",
@@ -1668,6 +1671,7 @@
 "Events.EliCave.Question.2.Response.1": "Sounds good. Take all the time you need.$1",
 "Events.EliCave.Question.2.Response.2": "Guilty as charged. But let's be honest, you wouldn't have it any other way.$6",
 "Events.EliCave.NovaEli.21": "Thanks for coming with me today, @. I had a good time... well, minus falling flat on my face earlier.$3#$b#I SUPPOSE I'd better go to the Clinic now.$9#$b#I can drop off those samples for Demetrius while I'm at it. See you around.$1",
+"Events.EliCave.Message.1": "The mushroom cavern in the Deep Mountains is now accessible!",
 
 //6 HEARTS PART 2
 
@@ -1737,7 +1741,7 @@
 "Events.EliJK.Question.1.Response.3": "Then Dylan and I won't have to go shopping for ages because I just bought a month's supply of groceries from you.$10#$b#It's definitely possible that nothing will happen. But nothing ventured, right?$11",
 "Events.EliJK.NovaEli.2": "Okay, let's get cracking! There was something hilarious I wanted to tell you about on the way...$0",
 "Events.EliJK.NovaEli.3": "Oh, we're here! And right as I was getting to the good part. We'll have to resume that story later.$0",
-"Events.EliJK.NovaEli.4": "...{0}?",
+"Events.EliJK.NovaEli.4": "{{PName}}?",
 "Events.EliJK.NovaEli.5": "I'm nervous.$10#$b#There, I said it.$12#$b#I've been waiting so long for something like this. This could be my big chance! And now that it's here for real...$2",
 "Events.EliJK.Question.2": "#What's the worst that can happen?#You're overthinking it, you massive doofus. Don't panic!",
 "Events.EliJK.Question.2.Response.1": "What if we chose the wrong offering and offend them somehow? What if NOTHING happens at all? What if-$7",

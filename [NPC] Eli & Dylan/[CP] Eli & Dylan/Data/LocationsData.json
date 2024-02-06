@@ -75,13 +75,61 @@
 							"ItemId": "(O)TenebrousNova.EliDylan.LambentHyphafin",
 							"FishaAreaID": "EnD.MushroomCavePond",
 							"Season": null
+						},
+						{
+              			    "Id": "(O)156",
+              			    "ItemId": "(O)156",
+              			    "FishAreaID": "EnD.MushroomCavePond",
+              			    "Season": null
+            			},
+						{
+							"Id": "(O)158",
+							"ItemId": "(O)158",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)153",
+							"ItemId": "(O)153",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)157",
+							"ItemId": "(O)157",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)257",
+							"ItemId": "(O)257",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)422",
+							"ItemId": "(O)422",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)420",
+							"ItemId": "(O)420",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)281",
+							"ItemId": "(O)281",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
+							"Id": "(O)404",
+							"ItemId": "(O)404",
+							"FishAreaID": "EnD.MushroomCavePond",
+							"Season": null
 						}
-						/*{
-              			"Id": "(O)",
-              			"ItemId": "(O)",
-              			"FishAreaID": "UndergroundKrakenLake",
-              			"Season": "" //do the same thing for any vanilla fish you want to 
-            			}*/
 					],
 					"Forage": [
 						{
@@ -242,7 +290,7 @@
 				}
 			],
 			"When": {
-				"HasSeenEvent": "EnD.Eli.07"
+				"HasSeenEvent": "EnD.Eli.06"
 			}
 		},
 	

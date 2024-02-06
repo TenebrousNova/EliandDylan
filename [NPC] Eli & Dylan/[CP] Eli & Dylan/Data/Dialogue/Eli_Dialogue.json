@@ -85,7 +85,7 @@
 			"Thu": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
 			"Fri": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
 			"Sat": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}",
-			"Sun": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 15}}}}{{EliRandom_Dialogue_Tokens}}}}"
+			"Sun": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 20}}}}{{Random_Dialogue_Tokens}}}}"
 		},
 		"When": {
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
