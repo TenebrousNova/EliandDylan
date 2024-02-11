@@ -43,7 +43,7 @@
 			"FlowerDance_Decline": "{{i18n:Core.NovaDylan.DanceRejection}}",
 
 			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_Before}}",
-			"WinterStar_GiveGift_After": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_After}}",
+			"WinterStar_GiveGift_After": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_After}}"
 		}
 	},
 	{
@@ -51,18 +51,47 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Entries": {
-			"Mon": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Tue": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Wed": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Thu": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Fri": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Sat": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}",
-			"Sun": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 2}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}"
 		},
 		"When": {
 			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
 		  }
 	},
+	{
+		"LogName": "Dylan 6-10 Heart Dialogue (Platonic)",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.6-10.{{Random:{{Range: 1, 100}}}}}}"
+		},
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		  }
+	},
+	{
+		"LogName": "Dylan Seasonal Dialogue Override 0-4",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": 	{ 
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 10}}}}}}"
+		},
+		"When": { 
+			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true
+		 }
+	},
+	{
+		"LogName": "Dylan Seasonal Dialogue Override 5-10",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": 	{ 
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{season}}.{{Random:{{Range: 1, 20}}}}}}"
+		},
+		"When": { 
+			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true
+		 }
+	}
 	]
 }
 			

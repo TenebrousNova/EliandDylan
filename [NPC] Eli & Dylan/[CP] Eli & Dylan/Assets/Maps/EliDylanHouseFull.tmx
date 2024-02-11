@@ -4,7 +4,7 @@
   <property name="DayTiles" value="Front 4 1 2363 Front 5 1 2364 Front 4 2 2388 Front 5 2 2389 Front 14 1 2363 Front 15 1 2364 Front 14 2 2388 Front 15 2 2389 Front 6 17 1678 Front 6 18 1710 Front 9 11 826 Front 19 11 826 Front 8 7 1449 Front 8 8 1481 Front 18 6 1449 Front 18 7 1481 Front 23 24 1449 Front 23 25 1481"/>
   <property name="Doors" value="4 12 1 120 14 12 1 120 24 12 1 120"/>
   <property name="NightTiles" value="Front 4 1 2365 Front 5 1 2366 Front 4 2 2390 Front 5 2 2391 Front 14 1 2365 Front 15 1 2366 Front 14 2 2390 Front 15 2 2391 Front 6 17 1679 Front 6 18 1711 Front 9 11 827 Front 19 11 827 Front 8 7 1450 Front 8 8 1482 Front 18 6 1450 Front 18 7 1482 Front 23 24 1450 Front 23 25 1482"/>
-  <property name="Warp" value="14 28 Custom_EastScarpe 86 69"/>
+  <property name="Warp" value="14 28 EastScarp_Village 86 69"/>
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>

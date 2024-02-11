@@ -44,7 +44,7 @@
 					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
 					"DefaultArrivalTile": { "X": 14, "Y": 27 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESEDHouse" },
-					"FormerLocationNames": [ "Custom_ESEDHouse" ]
+					"FormerLocationNames": [ "EastScarp_EDHouse" ]
 				},
 				"{{ModID}}_ESEDHouseDark": {
 					"DisplayName": "{{i18n:Core.Locations.ESEDHouse}}",
@@ -196,7 +196,7 @@
 		{
 			"LogName": "House Patch",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_EastScarpe",
+			"Target": "Maps/EastScarp_Village",
 			"FromFile": "Assets/Maps/REV_NovaPatch.tmx",
 			"ToArea": {
 			"X": 81,
@@ -270,7 +270,7 @@
 		{
 			"LogName": "Deep Mountains Cave",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_ESDeepMountains",
+			"Target": "Maps/EastScarp_DeepMountains",
 			"FromFile": "Assets/Maps/DeepMountainCavePatch.tmx",
 			"ToArea": {
 				"X": 6,
@@ -299,7 +299,7 @@
 		{
 			"LogName": "ES Beach Camp",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_EastScarpe",
+			"Target": "Maps/EastScarp_Village",
 			"FromFile": "Assets/Maps/ESBeachCampPatch.tmx",
 			"ToArea": {
 				"X": 34,
@@ -327,7 +327,7 @@
 		{
 			"LogName": "ES Beach Campfire",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_EastScarpe",
+			"Target": "Maps/EastScarp_Village",
 			"FromFile": "Assets/Maps/ESBeachCampPatchFire.tmx",
 			"ToArea": {
 				"X": 37,
