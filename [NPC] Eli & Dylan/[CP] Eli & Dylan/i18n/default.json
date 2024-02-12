@@ -400,6 +400,33 @@
 "Core.NovaEli.6-10.Winter.19": "I wonder what I'll get for Winter Star? I do love surprises!$3#$b#Except when I'm out in the field, because I get very jumpy. And I have a sword. Please don't do it.$10",
 "Core.NovaEli.6-10.Winter.20": "%Eli is humming a festive tune to himself. He offers you a winning smile and an enthusiastic wave as he passes by.",
 
+/*ELI NPC COMMENTARY
+
+#BEARFAM
+
+SIGURD/SONDRA*/
+
+"Core.NovaEli.SigSondra.1": "Sig reckons he saw crop circles when he was deployed in Gotoro, so I've been pestering him for info. I might have a lead on the Golden Thresher Worms at last!$1#$b#He was showing me some fantastic photos he took. Granted I didn't see any Thresher Worms, but any of those wheat stalks could be one of them. I'm so excited!$1",
+"Core.NovaEli.SigSondra.2": "Sondra invited me over to the Lodge the other day for lunch and that place blows me away each time I visit. The Bears are so down to earth, you forget they're minted.$0#$b#I think her coffee machine alone costs more than half our possessions combined. She offered to teach me how to use it, but I'd feel awful if I broke it!$7",
+"Core.NovaEli.SigSondra.3": "Sig is fairly gruff and standoffish, but he's a good man. I like him. I think he actually sort of likes me as well, even if the big bastard will never admit it.$3#$b#It's actually kind of scary how observant he is. It feels like he's reading my mind sometimes.$10",
+"Core.NovaEli.SigSondra.4": "Man, I wish Sondra was the one who taught me mathematics back in school. She's nothing like the crabby guy who's class I failed back in the day.$1#$b#She loves what she does and tries to make it accessible and fun for everyone. She actually cares, you know?$0",
+"Core.NovaEli.SigSondra.5": "%Eli is walking with a limp as he greets you.#$b#Hi, @. Sig and I sometimes have practice duels and he just handed my arse to me. I'm pretty good, but he's really strong and deceptively fast.$10#$b#So far I've yet to win a match against him, but next time I'll get him for sure! I can't wait to see his face when that happens.$12",
+"Core.NovaEli.SigSondra.6": "Sondra took me aside earlier and started mother henning me. I'm not used to anyone doing that, but she's such a sweetheart that I couldn't say no.$0#$b#It's nice to have such lovely neighbours. I'd like to repay her kindness, but I'm too embarrassed to invite her over for MY cooking.$12",
+"Core.NovaEli.SigSondra.7": "Sig's family is from Nors. It's a country I've never been to, but they have some really fascinating mythology and folklore over there for me to get my teeth into.$1#$b#I'll have to ask him for some more book recommendations on the subject. I'd love the chance to find a real Frost Giant!$3",
+"Core.NovaEli.SigSondra.8": "Reckon Sondra would give me a hand with our taxes if I asked nicely? I hear that she knows a trick or two that would make life easier on me and Dylan.$11#$b#Just don't tell him yet, because he wouldn't approve of trying to game the system.$6",
+"Core.NovaEli.SigSondra.9": "Have you heard some of Sig's stories from Gotoro? He's seen and done some crazy stuff there. I never had the courage to ask what happened to send him home, though.$0#$b#I imagine it has something to do with his scar. I never asked about that either. It seems insensitive, you know?$2",
+"Core.NovaEli.SigSondra.10": "I bumped into Sondra and she asked me all about how my research was going. She takes a proper interest, which is a breath of fresh air from the usual skepticism.$1#$b#I think she worries that I'll get hurt on Guild business. Maybe I'll bring her a gemstone next time, if I find any.$11",
+
+//GUNNAR/GUDRUN
+
+"Core.NovaEli.GunnarGudrun.1": "Looks like I'm due for more sword practice with Gunnar later. I'm hard on him, but the monsters in the mine aren't going to hold back when they see him.$11#$b#I'll give him credit though - he's never given up. Maybe it's because he gets to watch Sig defeat me afterwards as a consolation prize.$10",
+"Core.NovaEli.GunnarGudrun.2": "I tried telling one of my best jokes to Gudrun earlier, but she wasn't impressed. She must've rolled her eyes hard enough to power Zuzu City.$0#$b#And then she told me that I'm old! I'm not even 30 yet, how's that OLD?!$7",
+"Core.NovaEli.GunnarGudrun.3": "I met Gunnar on my last foray into the mine. Something had shredded his t-shirt, and he told me how much it cost - it was more expensive than ANYTHING we own.$2#$b#And he just shrugged and said he'd order another one! Rich people are something else, aren't they? I'll never understand them.$7",
+"Core.NovaEli.GunnarGudrun.4": "I see Dylan hanging out a lot with Gudrun these days. I wonder if she's trying to rope him into her ecoterrorism schemes?$2#$b#She certainly seems to respect him more than me. I think it's because I'm a big brother. The dreaded uncool authority figure.$10",
+"Core.NovaEli.GunnarGudrun.5": "Emily asked me and Gunnar over to her place later, so we're going to walk there together. It makes a nice change of pace to hang out with friends sometimes.$3#$b#It'd be cool if Sandy showed up as well, I don't get to see her very often.$1",
+"Core.NovaEli.GunnarGudrun.6": "I saw Sebastian get thoroughly chewed out by Gudrun for throwing his cigarette end into the river. If looks could kill, he'd be a pile of ash right now!$3",
+"Core.NovaEli.GunnarGudrun.7": "",
+
 //ROMANCE (NEGATIVE)
 
 "Core.NovaEli.RejectBouquet_NotDateable": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
@@ -626,7 +653,6 @@
 "Strings.NovaEli.LateNightRain": "Can't sleep either, @? I figured I'd just sit out here for a while longer before heading home. This rain is pretty soothing.$0#$b#Join me if you want. But with your farmer lifestyle, aren't you worried you'll pass out this late?$10",
 
 //DYLAN DIALOGUE
-
 
 "Core.NovaDylan.Name": "Dylan",
 
@@ -967,8 +993,12 @@
 "Core.NovaDylan.5-10.Winter.16": "What a day... I had to dunk my arm into freezing seawater to retrieve my notes after dropping them. And then I got home to find that Eli had finished off our cocoa.$2",
 "Core.NovaDylan.5-10.Winter.17": "I worry about Thistle getting cold at this time of the year. I know that crows are used to it, but still.$0#$b#She said she's good and she'll nick a scarf from someone if she has to. Not on my watch she isn't.$6",
 "Core.NovaDylan.5-10.Winter.18": "One of these years, I'm going to spend Winter in a warmer climate. I'm tired of making a spectacle of myself every time I go into town and slip on ice.$2#$b#I don't want to have to visit Harvey more than my annual checkup, thank you very much.$9",
-"Core.NovaDylan.5-10.Winter.19": "I think Eli wants to bring us one of the massive pizzas that Gus makes for dinner tonight. I can't think of a better way to warm up right now.$3",
+"Core.NovaDylan.5-10.Winter.19": "I think Eli wants to bring home one of those ridiculously massive pizzas that Gus makes for our dinner tonight. I can't think of a better way to warm up right now.$3",
 "Core.NovaDylan.5-10.Winter.20": "Pelican Town always looks gorgeous under a blanket of fresh snow during the Winter. It's very picturesque.$1#$b#It reminds me of the little model village houses that I used to see for sale in Point Drake during Winter Star sales.$3",
+
+/*DYLAN NPC COMMENTARY
+#BEARFAM
+SIGURD/SONDRA*/
 
 //MISC.
 

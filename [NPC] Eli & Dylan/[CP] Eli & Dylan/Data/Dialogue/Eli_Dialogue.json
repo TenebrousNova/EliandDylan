@@ -105,6 +105,34 @@
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		 }
 	},
+	//#BearFam Commentary
+	{
+		"LogName": "Eli #BearFam Commentary (Sig/Sondra)",
+		"Action": "EditData",
+		"Target":"Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.SigSondra.{{Random:{{Range: 1, 10}}}}}}"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"Query: {{Random: {{Range: 1, 15}}|key=ESigSon}} = 1": true
+		}
+	},
+	{
+		"LogName": "Eli #BearFam Commentary (Gunnar/Gudrun)",
+		"Action": "EditData",
+		"Target":"Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 6}}}}}}"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag": "BearFamExtraMembers",
+			"Query: {{Random: {{Range: 1, 15}}|key=EGunGud}} = 1": true
+		}
+	},
 	{
 		"LogName": "Romance Stuff",
 		"Action": "EditData",
