@@ -1,0 +1,43 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "EnD.EliTheme": {
+          "ID": "EnD.EliTheme",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/EliTheme.ogg}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "EnD.DylanTheme": {
+          "ID": "EnD.DylanTheme",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/DylanTheme.ogg}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "EnD.AbyssTheme": {
+          "ID": "EnD.AbyssTheme",
+          "Category": "Music",
+          "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/AbyssTheme.ogg}}" ],
+          "StreamedVorbis": true,
+          "Looped": false
+        }
+      }
+    }
+  ]
+ }

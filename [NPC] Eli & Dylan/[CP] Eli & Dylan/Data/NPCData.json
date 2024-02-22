@@ -18,7 +18,7 @@
 					"BirthSeason": "Winter",
 					"BirthDay": 6,
 					"HomeRegion": "Town",
-					"CanBeRomanced": true,
+					"CanBeRomanced": "{{EliDateable}}",
 					"LoveInterest": "Teren",
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "TrailingGroup",
@@ -216,6 +216,19 @@
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/adventure.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/adventure.png}}",
 							"Precedence": -20
+						},
+						{
+							"ID": "Pool",
+							"Condition": "LOCATION_NAME Target BathHouse_Pool",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/islandRain.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/island.png}}",
+							"Precedence": -20
+						},
+						{
+							"ID": "Island",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/island.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/island.png}}",
+							"IsIslandAttire": true
 						},
 						{
 							"ID": "Egg Festival",
@@ -480,6 +493,12 @@
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter2.png}}",
 							"Precedence": 0,
 							"Weight": 1
+						},
+						{
+							"ID": "Island",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/island.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/island.png}}",
+							"IsIslandAttire": true
 						},
 						{
 							"ID": "Egg Festival",

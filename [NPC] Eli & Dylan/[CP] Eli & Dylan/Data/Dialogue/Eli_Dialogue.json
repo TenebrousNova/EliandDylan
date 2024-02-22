@@ -125,7 +125,7 @@
 		"Target":"Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 6}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 10}}}}}}"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
@@ -133,6 +133,53 @@
 			"Query: {{Random: {{Range: 1, 15}}|key=EGunGud}} = 1": true
 		}
 	},
+	{
+		"LogName": "Eli #BearFam Commentary (Teren, Platonic)",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenPlatonic.{{Random:{{Range: 1, 5}}}}}}"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasSeenEvent": "MadDog.BearFam.16199000",
+			"HasFlag |contains=EliTerenRHActive": false,
+			"Query: {{Random: {{Range: 1, 15}}|key=ETerP}} = 1": true
+		}
+	},
+	{
+		"LogName": "Eli #BearFam Commentary (Teren, Romantic)",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenRomantic.{{Random:{{Range: 1, 2}}}}}}"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasSeenEvent": "MadDog.BearFam.16199000",
+			"HasFlag |contains=EliTerenRHActive": true,
+			"Query: {{Random: {{Range: 1, 15}}|key=ETerR}} = 1": true
+		}
+	},
+
+	//The Writer, the Witch and the Wardrobe Assistant commentary
+
+	{
+		"LogName": "Eli Rodney Commentary",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}}}}}}"
+		},
+		"When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien",
+			"Query: {{Random: {{Range: 1, 15}}|key=ERod}} = 1": true
+		}
+	},
+
 	{
 		"LogName": "Romance Stuff",
 		"Action": "EditData",

@@ -138,19 +138,32 @@
 
 	{
 		"Action": "Load",
-		"Target": "Characters/ARVMax",
-		"FromFile": "Assets/Images/MaximumSprites.png",
+		"Target": "Portraits/ARVMax",
+		"FromFile": "Assets/Images/MaximumPortrait.png",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
 		}
 	},
 	{
 		"Action": "Load",
-		"Target": "Portraits/ARVMax",
-		"FromFile": "Assets/Images/MaximumPortrait.png",
+		"Target": "Characters/ARVMax",
+		"FromFile": "Assets/Images/MaximumSprites.png",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
 		}
+	},
+
+	//Temp actor of Yri for crossover event
+
+	{
+		"Action": "Load",
+		"Target": "Portraits/TempYri",
+		"FromFile": "Assets/Images/YriTempPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/TempYri",
+		"FromFile": "Assets/Images/TempYriSprite.png"
 	},
 
     //Loads event particles.
