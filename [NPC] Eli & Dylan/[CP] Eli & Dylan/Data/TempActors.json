@@ -163,7 +163,7 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/TempYri",
-		"FromFile": "Assets/Images/TempYriSprite.png"
+		"FromFile": "Assets/Images/YriTempSprite.png"
 	},
 
     //Loads event particles.

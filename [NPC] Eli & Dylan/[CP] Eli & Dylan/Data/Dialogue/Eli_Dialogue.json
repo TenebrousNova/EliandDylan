@@ -85,7 +85,7 @@
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{season}}.{{Random:{{Range: 1, 20}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{season}}.{{Random:{{Range: 1, 10}}}}}}"
 		},
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
@@ -116,7 +116,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			"Query: {{Random: {{Range: 1, 15}}|key=ESigSon}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=ESigSon}} = 1": true
 		}
 	},
 	{
@@ -130,7 +130,7 @@
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag": "BearFamExtraMembers",
-			"Query: {{Random: {{Range: 1, 15}}|key=EGunGud}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=EGunGud}} = 1": true
 		}
 	},
 	{
@@ -145,7 +145,7 @@
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasSeenEvent": "MadDog.BearFam.16199000",
 			"HasFlag |contains=EliTerenRHActive": false,
-			"Query: {{Random: {{Range: 1, 15}}|key=ETerP}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=ETerP}} = 1": true
 		}
 	},
 	{
@@ -160,7 +160,7 @@
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasSeenEvent": "MadDog.BearFam.16199000",
 			"HasFlag |contains=EliTerenRHActive": true,
-			"Query: {{Random: {{Range: 1, 15}}|key=ETerR}} = 1": true
+			"Query: {{Random: {{Range: 1, 25}}|key=ETerR}} = 1": true
 		}
 	},
 
@@ -172,11 +172,44 @@
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}} |key=RodRand}}}}"
 		},
 		"When": {
 			"HasMod": "TheFrenchDodo.RodneyOBrien",
-			"Query: {{Random: {{Range: 1, 15}}|key=ERod}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=ERod}} = 1": true
+		}
+	},
+
+	//Diamond in the Rough Commentary
+
+	{
+		"LogName": "Eli Sen Commentary",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Sen.{{Random:{{Range: 1, 5}}}}}}"
+		},
+		"When": {
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasSeenEvent": "EnD.Eli.05",
+			"Query: {{Random: {{Range: 1, 20}}|key=ESen}} = 1": true
+		}
+	},
+
+	//Sword & Sorcery Commentary
+
+	{
+		"LogName": "Eli Mateo Commentary",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Mateo.{{Random:{{Range: 1, 5}}}} |EmeritusCommentary={{EliCommentary_MateoEmeritus}}}}"
+		},
+		"When": {
+			"HasMod": "DN.SnS.CP",
+			"Query: {{Random: {{Range: 1, 20}}|key=EMat}} = 1": true
 		}
 	},
 

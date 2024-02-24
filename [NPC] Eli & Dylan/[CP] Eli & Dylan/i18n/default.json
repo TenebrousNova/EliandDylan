@@ -42,6 +42,11 @@
 "Core.NovaEli.SnowballFight.2": "%Eli quickly gains the upper hand and has you dead to rights. He makes sure to rub a large snowball in your face until you admit defeat.",
 "Core.NovaEli.SnowballFight.3": "%Eli is fast, but you're even faster! You manage to trip him over before mercilessly pelting him with more snowballs. He surrenders, laughing all the while.",
 
+//DYNAMIC DIALOGUE
+
+"Core.NovaEli.MateoEmeritus.Unhatched": "I'm really envious at Mateo for getting hold of that pepper rex egg. I've seen plenty of wild juveniles and adults before, but the nests are always hard to get to.$1#$b#Pepper rex husbandry isn't well documented because most people wouldn't dare try it. This is a great research opportunity for me!$3",
+"Core.NovaEli.MateoEmeritus.Hatched": "Watching Emeritus thrive under Mateo's care has been incredible! I've learned a lot about how pepper rexes develop throughout their lives because of it.$3#$b#I'm still super jealous of Mateo, but after seeing them literally knee deep in dino crap... I'm relieved to just be 'Uncle Eli' instead.$10",
+
 //IMPORTANT DATES
 
 "Core.NovaEli.Spring.2.2": "Hello there, farmer! Must be a relief for you to start planting stuff again.$1#$b#I like Winter myself, but most of my income comes from dungeon delving anyway.$0#$b#Not that I make much.$10",
@@ -241,7 +246,7 @@
 "Core.NovaEli.6-10.34": "I tried to give myself a lucid dream last night. You know, when you're fully aware that you're in the dream and can control it?$0#$b#After a while it actually worked! I was there, but was still sort of aware of being in bed. And yeah, I could fly!$1#$b# But then I got so excited that I immediately woke up. Isn't that just bleeding typical.$10",
 "Core.NovaEli.6-10.35": "How did I get banned from JojaMart? Oh boy, @... fine, I'll give you the short version.$9#$b#The truth is that I tripped over, completely by accident. Which caused a chain reaction that ended in Morris getting publically humiliated.$10#$b#On the plus side, Shane was laughing his head off. He and Sam got me a pizza that night. Said they'll always treasure the memory of Morris crushed beneath those shelves.$1",
 "Core.NovaEli.6-10.36": "Growing up, I learned fast that I shouldn't care about being different from others. That I should embrace my quirks.$1#$b#Who wants to be 'normal', anyway? If everyone was normal, the world would be a very boring place.$11",
-"Core.NovaEli.6-10.37": "%Eli is fidgeting with his pendant and notices you looking at it.#$b#Oh, this? It's a talisman I carved myself. Has some strong magic. It's a fang from a Sea Drake!$1#$b#Point Drake was named after them - it was once their nesting ground. A lot of people think they're long extinct or never even existed, but I know they're out there. This is proof.$3#$b#It's a big reason that I went into cryptozoology in the first place. Neat, huh?$1",
+"Core.NovaEli.6-10.37": "%Eli is fidgeting with his pendant and notices you looking at it.#$b#Oh, this? It's a talisman I carved myself. Has some strong magic. It's a fang from a Sea Drake!$1#$b#Point Drake was named after them - it was once their nesting ground. A lot of people think they're long extinct or never even existed.$3#$b#This is proof that they're out there! It's a big reason that I went into cryptozoology in the first place. Neat, huh?$1",
 "Core.NovaEli.6-10.38": "What's up, @. It's a good day isn't it? Uh... how come you're staring at me like that?$17#$b#Well, I guess you're only human.$6",
 "Core.NovaEli.6-10.39": "I was on the Community Center roof earlier- while Lewis wasn't looking of course. I spend quite a lot of time on rooftops.$0#$b#You should join me one evening! Watching people go about their business below, enjoying town from a new perspective. It makes you feel wild and free.$1#$e#Don't fret, farmer! I'd always be there to catch you.$6",
 "Core.NovaEli.6-10.40": "Do you ever get the feeling that people act friendly to your face, but they're just too polite to say what they really think?$9#$b#That's how I feel with most people who talk to me. I know what I'm like, @. Sorry if I've ever been obnoxious around you.$2",
@@ -451,11 +456,26 @@ SIGURD/SONDRA*/
 "Core.NovaEli.Rodney.4": "I see Rodney quite a lot at the library. He sure loves his sci-fi books. Pretty sure I caught him reading his OWN sci-fi book a few times.$1#$b#Gunther usually ends up telling us to keep it down because we nerd out a lot about aliens and shit.$3",
 "Core.NovaEli.Rodney.5": "I wish Rodney would close his curtains sometimes. I've seen things I wish I could unsee when he goes past the windows in the evening.$9#$b#I hope Dylan doesn't end up looking in that direction at the wrong time, I don't need him getting traumatised.$2",
 
+//SEN
+
+"Core.NovaEli.Sen.1": "I was really lucky to meet Sen when I did. He tried to threaten me but honestly, he looked so adorable that I was more inclined to hug him than stab him.$3#$b#I love being friends with him and Krobus. It's just a shame that I can't talk openly about it with other people. Well, except you.$2",
+"Core.NovaEli.Sen.2": "I'd love to meet Sen's family in the mines, but he reckons it would be too dangerous. He doesn't want to risk a fight breaking out and I can see his point.$0#$b#From what he's told me about them, they're good people. Just very distrusting of smoothskin apes like us.$11",
+"Core.NovaEli.Sen.3": "Sometimes when I try baking, I make extra and leave them wrapped up in the bin outside. I've got to look out for my buddy Sen.$1#$b#Occasionally I leave him other stuff as well, like yarn and books. It's worth it just to see the way he smiles.$3",
+"Core.NovaEli.Sen.4": "One of these days, I'm gonna have to introduce Dylan to Sen. I reckon they'd get on well! It's not like Dylan's a total stranger to this sort of thing.$0#$b#Honestly, I could see them nerding out together and sharing book recommendations. It'd be super cute!$1",
+"Core.NovaEli.Sen.5": "Oi @, check out my new socks!$3#$b#%Eli takes off a shoe and hops about on the other leg to show off the brightly coloured polka dot covered sock he's wearing.#$b#Sen knitted them for me as a present! Isn't that amazing??$3",
+
+//MATEO
+
+"Core.NovaEli.Mateo.1": "I usually work on my own when I'm doing Guild jobs, but it's always good when Mateo ends up coming with. There's nobody else I'd rather have watching my back.$0#$b#And I've got to admit, they've saved my hide a bunch of times now.$1",
+"Core.NovaEli.Mateo.2": "Have you ever been to one of Mateo's game nights? Normally I'm a bit too impatient for tabletop games, but Mateo's great at making it feel immersive and exciting.$1#$b#Last time, I managed to save our party from an Orc warband by seducing their leader with my boyish charm and roguish good looks. He had to let us all go after that!$6#$b#Aideen still won't look me in the eye.$10",
+"Core.NovaEli.Mateo.3": "{{EmeritusCommentary}}",
+"Core.NovaEli.Mateo.4": "",
+
 //ROMANCE (NEGATIVE)
 
 "Core.NovaEli.RejectBouquet_NotDateable": "Oh, I've heard about this tradition! Fingers crossed that your special someone loves it.$0",
 "Core.NovaEli.RejectBouquet_NpcAlreadyMarried": "I hate to point this out to you @, But I'm literally a married man. I'm pretty sure you were at the wedding. So the answer's no.$10",
-"Core.NovaEli.RejectBouquet_Divorced": "Get back with you? Why would I want that now that I'm doing okay again? I've moved on, @. It's time you did the same thing. This is kind of sad.$8",
+"Core.NovaEli.RejectBouquet_Divorced": "Get back with you? Why would I want that now that I'm doing okay again? I've moved on, @. You should the same - this is kind of sad.$8",
 
 "Core.NovaEli.RejectMermaidPendant_Divorced": "Don't take the piss, @. I know I make the effort to talk to you still, but that doesn't mean you get to walk all over me.$5",
 "Core.NovaEli.RejectMermaidPendant_NpcWithSomeoneElse": "Uh, no. I'm spoken for and very happy. And last I checked, we're not looking for a third.$10",
@@ -1061,6 +1081,14 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.Rodney.4": "I had to tell off Thistle again for pranking Rodney. She thinks it's funny to try and drop things on his head from the sky.$7#$b#So far she's only been successful a few times, but it's just a matter of time before she gets the other crows to copy her.$5",
 "Core.NovaDylan.Rodney.5": "Rodney wants to read one of his books at our next Saturday night campfire. I don't think it's what Eli had in mind, but some variety might make it more fun.$0#$b#Rodney's stories are definitely more kid friendly than Eli's. Less likely to give you nightmares.$3",
 
+//SEN
+
+"Core.NovaDylan.Sen.1": "I've never seen this Sen character who Eli's friends with, but apparently he's the one who rummages through our trash at night. And he's not human.$0#$b#I thought the Shadow People are supposed to live far away from people. He sounds nice, though.$1",
+"Core.NovaDylan.Sen.2": "$action AddMail Current DylanSenNote received I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0",
+"Core.NovaDylan.Sen.3": "Eli asked me if there's any books I don't mind lending to Sen. I think there's some fantasy and sci-fi books somewhere that he can take a look at.$0#$b#Maybe I should slip a few of my marine biology books in there as well.$3",
+"Core.NovaDylan.Sen.4": "I heard something moving around outside the house in the early hours and peeked out of my window just in time to see a dark figure with horns making a run for it!$6#$b#Eli thinks it's nothing to worry about, but what if they were some sort of murderous maniac trying to break in? I don't know if I'll be able to sleep tonight.$2",
+"Core.NovaDylan.Sen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$0",
+
 //MISC.
 
 "Core.NovaDylan.DumpsterDiveComment": "Good to see that you take recycling seriously. Might as well take it if they're going to throw it away, right?$1",
@@ -1114,6 +1142,8 @@ SIGURD/SONDRA*/
 "Gifts.NovaDylan.GiftReaction.Tuna": "Tuna are built for speed - This species can reach 70km/h. They also get much bigger than this. Willy's caught tuna that are bigger than him!$3",
 
 //NEUTRAL
+
+"Gifts.NovaDylan.GiftReaction.AnAutographedPhoto": "Getting one of these from Rodney is a sort of rite of passage to live in Stardew Valley - we've all it. Congratulations.$0#$b#Now if only he hadn't filled the ocean with them.$5",
 
 //DISLIKES
 

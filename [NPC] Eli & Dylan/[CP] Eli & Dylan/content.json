@@ -113,6 +113,20 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "WeekDay",
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
+
+	//Commentary tokens for other NPCs
+
+	{
+		"Name": "EliCommentary_MateoEmeritus",
+		"Value": "{{i18n:Core.NovaEli.MateoEmeritus.Unhatched}}"
+	},
+	{
+		"Name": "EliCommentary_MateoEmeritus",
+		"Value": "{{i18n:Core.NovaEli.MateoEmeritus.Hatched}}",
+		"When": {
+			"HasSeenEvent": "SnS.Ch1.Mateo.12"
+		}
+	},
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
 

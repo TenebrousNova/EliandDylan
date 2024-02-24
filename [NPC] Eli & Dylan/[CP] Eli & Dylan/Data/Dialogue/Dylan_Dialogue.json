@@ -107,7 +107,7 @@
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag |contains=SigDylanRHActive": false,
-			"Query: {{Random: {{Range: 1, 15}}|key=DSigP}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=DSigP}} = 1": true
 		}
 	},
 	{
@@ -120,7 +120,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			"Query: {{Random: {{Range: 1, 15}}|key=DSon}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=DSon}} = 1": true
 		}
 	},
 	{
@@ -133,7 +133,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			"Query: {{Random: {{Range: 1, 15}}|key=DGunGud}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=DGunGud}} = 1": true
 		}
 	},
 	{
@@ -146,7 +146,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			"Query: {{Random: {{Range: 1, 15}}|key=DTer}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=DTer}} = 1": true
 		}
 	},
 
@@ -162,7 +162,40 @@
 		},
 		"When": {
 			"HasMod": "TheFrenchDodo.RodneyOBrien",
-			"Query: {{Random: {{Range: 1, 15}}|key=DRod}} = 1": true
+			"Query: {{Random: {{Range: 1, 20}}|key=DRod}} = 1": true
+		}
+	},
+
+	//Diamond in the Rough Commentary
+
+	{
+		"LogName": "Dylan Sen Commentary",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sen.{{Random:{{Range: 1, 5}}}}}}"
+		},
+		"When": {
+			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasSeenEvent": "EnD.Eli.05",
+			"Query: {{Random: {{Range: 1, 20}}|key=DSen}} = 1": true
+		}
+	},
+
+	//Sword & Sorcery Commentary
+
+	{
+		"LogName": "Dylan Mateo Commentary",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Mateo.{{Random:{{Range: 1, 5}}}}}}"
+		},
+		"When": {
+			"HasMod": "DN.SnS.CP",
+			"Query: {{Random: {{Range: 1, 20}}|key=DMat}} = 1": true
 		}
 	},
 
