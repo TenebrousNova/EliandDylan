@@ -24,7 +24,7 @@
 					"EndSlideShow": "TrailingGroup",
 					"IsAdoptionSpouse": true,
 					"WantsChildren": true,
-					"SpouseGetsJealousOfGifts": false,
+					"SpouseGiftJealousy": false,
 					"DumpsterDiveFriendshipEffect": 1,
 					"DumpsterDiveEmote": 32,
 					"FriendsAndFamily": {
@@ -225,11 +225,13 @@
 							"Precedence": -20
 						},
 						{
-							"ID": "Island",
-							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/island.png}}",
-							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/island.png}}",
-							"IsIslandAttire": true
-						},
+                            "ID": "Island Wet",
+                            "Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/islandRain.png}}",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/island.png}}",
+                            "IsIslandAttire": true,
+                            "Precedence": -10,
+                            "Weight": 1
+                        },
 						{
 							"ID": "Egg Festival",
 							"Condition": "EVENT_ID festival_spring13",
@@ -493,12 +495,6 @@
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/winter2.png}}",
 							"Precedence": 0,
 							"Weight": 1
-						},
-						{
-							"ID": "Island",
-							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/island.png}}",
-							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/island.png}}",
-							"IsIslandAttire": true
 						},
 						{
 							"ID": "Egg Festival",

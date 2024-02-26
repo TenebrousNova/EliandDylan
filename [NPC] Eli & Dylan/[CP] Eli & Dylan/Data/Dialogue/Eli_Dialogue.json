@@ -82,26 +82,30 @@
 	{
 		"LogName": "Eli Seasonal Dialogue Override 0-4",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{season}}.{{Random:{{Range: 1, 10}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{season}}.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
 		 }
 	},
 	{
 		"LogName": "Eli Seasonal Dialogue Override 5-10 (Platonic)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 20}}}}{{Random_Dialogue_Tokens}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.6-10.{{season}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}{{Random_Dialogue_Tokens}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		 }
 	},
@@ -109,57 +113,65 @@
 	{
 		"LogName": "Eli #BearFam Commentary (Sig/Sondra)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.SigSondra.{{Random:{{Range: 1, 10}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.SigSondra.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ESigSon}} = 1": true
 		}
 	},
 	{
 		"LogName": "Eli #BearFam Commentary (Gunnar/Gudrun)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 10}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag": "BearFamExtraMembers",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=EGunGud}} = 1": true
 		}
 	},
 	{
 		"LogName": "Eli #BearFam Commentary (Teren, Platonic)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenPlatonic.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenPlatonic.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasSeenEvent": "MadDog.BearFam.16199000",
 			"HasFlag |contains=EliTerenRHActive": false,
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ETerP}} = 1": true
 		}
 	},
 	{
 		"LogName": "Eli #BearFam Commentary (Teren, Romantic)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenRomantic.{{Random:{{Range: 1, 2}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenRomantic.{{Random:{{Range: 1, 2}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasSeenEvent": "MadDog.BearFam.16199000",
 			"HasFlag |contains=EliTerenRHActive": true,
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 25}}|key=ETerR}} = 1": true
 		}
 	},
@@ -169,13 +181,15 @@
 	{
 		"LogName": "Eli Rodney Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}} |key=RodRand}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "TheFrenchDodo.RodneyOBrien",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ERod}} = 1": true
 		}
 	},
@@ -185,14 +199,16 @@
 	{
 		"LogName": "Eli Sen Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Sen.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"HasSeenEvent": "EnD.Eli.05",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ESen}} = 1": true
 		}
 	},
@@ -202,13 +218,15 @@
 	{
 		"LogName": "Eli Mateo Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Mateo.{{Random:{{Range: 1, 5}}}} |EmeritusCommentary={{EliCommentary_MateoEmeritus}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Mateo.{{Random:{{Range: 1, 5}}|key={{Time}}}}|EmeritusCommentary={{EliCommentary_MateoEmeritus}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "DN.SnS.CP",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=EMat}} = 1": true
 		}
 	},
@@ -272,9 +290,48 @@
 			"DumpsterDiveComment": "{{i18n:Core.NovaEli.DumpsterDiveComment}}",
 			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
 			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek}}",
-			"WipedMemory": "{{i18n:Core.NovaEli.WipedMemory}}"
+			"WipedMemory": "{{i18n:Core.NovaEli.WipedMemory}}",
+			"Resort_Entering": "{{i18n:Core.NovaEli.Resort_Entering}}",
+			"Resort": "{{i18n:Core.NovaEli.Resort}}",
+			"Resort_Leaving": "{{i18n:Core.NovaEli.Resort_Leaving}}",
+			"Resort_Shore": "{{i18n:Core.NovaEli.Resort_Shore}}",
+			"Resort_Wander": "{{i18n:Core.NovaEli.Resort_Wander}}",
+			"Resort_Wander_2": "{{i18n:Core.NovaEli.Resort_Wander_2}}",
+			"Resort_Wander_3": "{{i18n:Core.NovaEli.Resort_Wander_3}}",
+			"Resort_Chair": "{{i18n:Core.NovaEli.Resort_Chair}}",
+			"Resort_Towel": "{{i18n:Core.NovaEli.Resort_Towel}}",
+			"Resort_Towel_2": "{{i18n:Core.NovaEli.Resort_Towel_2}}",
+			"Resort_Towel_3": "{{i18n:Core.NovaEli.Resort_Towel_3}}"
 		}
-	}
+	},
+
+	{
+        "LogName": "Eli Override Seen Today Flag Removal", //Removes the flag that stops the NPC from continuing to talk on time update
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+
+            "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1": {
+                "Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current EnD_Eli_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2 false"
+                ]
+            },
+
+            "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2": {
+                "Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current EnD_Eli_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1 false"
+                ]
+            }
+        }
+    }
 
 	//Add dialogue about characters from other mods (like birthdays) here later.
 

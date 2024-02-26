@@ -71,26 +71,30 @@
 	{
 		"LogName": "Dylan Seasonal Dialogue Override 0-4",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 10}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
 		 }
 	},
 	{
 		"LogName": "Dylan Seasonal Dialogue Override 5-10",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{season}}.{{Random:{{Range: 1, 20}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{season}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		 }
 	},
@@ -99,53 +103,61 @@
 	{
 		"LogName": "Dylan #BearFam Commentary (Sig, Platonic)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.SigPlatonic.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.SigPlatonic.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag |contains=SigDylanRHActive": false,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DSigP}} = 1": true
 		}
 	},
 	{
 		"LogName": "Dylan #BearFam Commentary (Sondra)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sondra.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sondra.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DSon}} = 1": true
 		}
 	},
 	{
 		"LogName": "Dylan #BearFam Commentary (Gunnar/Gudrun)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.GunnarGudrun.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.GunnarGudrun.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DGunGud}} = 1": true
 		}
 	},
 	{
 		"LogName": "Dylan #BearFam Commentary (Teren)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target":"Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Teren.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Teren.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DTer}} = 1": true
 		}
 	},
@@ -155,13 +167,15 @@
 	{
 		"LogName": "Dylan Rodney Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Rodney.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Rodney.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "TheFrenchDodo.RodneyOBrien",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DRod}} = 1": true
 		}
 	},
@@ -171,14 +185,16 @@
 	{
 		"LogName": "Dylan Sen Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sen.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"HasSeenEvent": "EnD.Eli.05",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DSen}} = 1": true
 		}
 	},
@@ -188,17 +204,18 @@
 	{
 		"LogName": "Dylan Mateo Commentary",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Mateo.{{Random:{{Range: 1, 5}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Mateo.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
 			"HasMod": "DN.SnS.CP",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DMat}} = 1": true
 		}
 	},
-
 	{
 		"LogName": "Dylan Misc Dialogue",
 		"Action": "EditData",
@@ -209,8 +226,44 @@
 			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
 			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek}}",
 			"RejectBouquet_NotDateable": "{{i18n:Core.NovaDylan.RejectBouquet_NotDateable}}",
-			"RejectMermaidPendant_NotDatable": "{{i18n:Core.NovaDylan.RejectMermaidPendant_NotDatable}}"
+			"RejectMermaidPendant_NotDatable": "{{i18n:Core.NovaDylan.RejectMermaidPendant_NotDatable}}",
+			"Resort_Entering": "{{i18n:Core.NovaDylan.Resort_Entering}}",
+			"Resort": "{{i18n:Core.NovaDylan.Resort}}",
+			"Resort_Leaving": "{{i18n:Core.NovaDylan.Resort_Leaving}}",
+			"Resort_Shore": "{{i18n:Core.NovaDylan.Resort_Shore}}",
+			"Resort_Wander": "{{i18n:Core.NovaDylan.Resort_Wander}}",
+			"Resort_Wander_2": "{{i18n:Core.NovaDylan.Resort_Wander_2}}",
+			"Resort_Wander_3": "{{i18n:Core.NovaDylan.Resort_Wander_3}}",
+			"Resort_Chair": "{{i18n:Core.NovaDylan.Resort_Chair}}",
+			"Resort_Bar": "{{i18n:Core.NovaDylan.Resort_Bar}}"
 		}
+	},
+	{
+        "LogName": "Dylan Override Seen Today Flag Removal", //Removes the flag that stops the NPC from continuing to talk on time update
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+
+            "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1": {
+                "Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current EnD_Dylan_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2 false"
+                ]
+            },
+
+            "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2": {
+                "Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current EnD_Dylan_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1 false"
+                ]
+            }
+        }
 	}
 	]
 }

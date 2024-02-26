@@ -57,7 +57,7 @@
 			//Neutral
 
 			//Update this one to 1.6 format once Dodo gets round to it.
-			"AcceptGift_(O)An_autographed_photo": "{{i18n:Gifts.NovaEli.GiftReaction.AnAutographedPhoto}}",
+			"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gifts.NovaEli.GiftReaction.AnAutographedPhoto}}",
 			
 			"AcceptGift_(O)96": "{{i18n:Gifts.NovaEli.GiftReaction.DwarfScrollI}}",
 			"AcceptGift_(O)97": "{{i18n:Gifts.NovaEli.GiftReaction.DwarfScrollII}}",
@@ -171,7 +171,7 @@
 
 			//Neutral
 
-			"AcceptGift_(O)An_autographed_photo": "{{i18n:Gifts.NovaDylan.GiftReaction.AnAutographedPhoto}}",
+			"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gifts.NovaDylan.GiftReaction.AnAutographedPhoto}}",
 
 			//Hates
 

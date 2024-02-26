@@ -18,7 +18,7 @@ Arknir: Sprites & Animations, helped me overcome event technical difficulties an
 Nin the Cactus: Eli & Dylan's remastered portraits, plus other art!
 Yri: Made the exterior of the brother's house as well as fancy custom furniture and coral reef assets.
 https://aamatniekss.itch.io/grasslands-era-of-fantasy-pixelart-asset-pack: Edited mushroom assets used by Yri for the coral reef.
-Lumina: Tilesheets that I've used in my house map, kindly made me a few more assets and made the transition to 1.6 a lot less scary.
+Lumina: Tilesheets that I've used in my house map, kindly made me a few more assets and made the transition to 1.6 a lot less scary for me.
 Lemurkat: Created East Scarp (and saved my sanity when I was learning how map patches work).
 TheLoreSeeker: Proof reading and art.
 Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to copy their homework and encouraging me this entire time.
@@ -30,7 +30,8 @@ FellowClown: Made custom furniture for the brother's house, plus other assets.
 Logophile: Very kindly allowed me to commandeer the custom rugs she made and put them in the brother's house.
 Mad Dog of Shimano: Custom letterheading, custom furniture, art help (especially with Dylan's sprites) and an endless wellspring of motivation and kind words!
 KittyCatCasey: Has listened to my inane technical questions with great patience and enabled my ideas by adding fancy new custom event commands to SpaceCore.
-TheFrenchDodo: Made additional assets for me. 
+TheFrenchDodo: Made additional assets & music for me. 
+Pooh: Certified Content Patcher genius who has helped me on many an occasion!
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
 
@@ -54,6 +55,18 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Target": "Characters/Nova.Eli, Characters/Nova.Dylan",
 		"FromFile": "Assets/{{Target}}/spring.png"
 	},
+	{
+        "LogName": "Island Outfits",
+        "Action": "Load",
+        "Target": "Portraits/Nova.Eli_Beach, Portraits/Nova.Dylan_Beach",
+        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+    },
+    {
+        "LogName": "Island Outfits",
+        "Action": "Load",
+        "Target": "Characters/Nova.Eli_Beach, Characters/Nova.Dylan_Beach",
+        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+    },
 
 	  //File Includes
 	  
@@ -272,7 +285,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliForest_Sun",
-		"Value": "{{Random:1000 35 26 2 EliSitA++1000 98 40 2 EliSitB++1000 92 20 1|InputSeparator=++}}"
+		"Value": "{{Random:1000 35 26 2 EliSitA++1000 98 40 2 EliSitB++1000 92 21 1|InputSeparator=++}}"
 	},
 //The insanity is finally condensed.
 	{
@@ -285,11 +298,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliMonday_A",
-		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0 {{EliStrings_Library}}/1600 10 13 3 {{EliStrings_Library}}/{{EliES_Mon_A}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0 {{EliStrings_Library}}/1600 10 13 3 {{EliStrings_Library}}/{{EliES_Mon_A}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliMonday_B",
-		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/1100 AdventureGuild 6 13 0/{{EliES_Mon_B}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/1100 AdventureGuild 6 13 0/{{EliES_Mon_B}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliTuesday_A",
@@ -375,11 +388,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanMonday_A",
-		"Value": "610 12 8 3/630 23 23 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 24 23 1/0800 Beach 41 34 2 Dylan_Sit/1330 56 11 1 Dylan_WritingRight/1530 {{ModID}}_ESEDHouse 24 23 1/2000 22 21 0/2300 24 24 1 Dylan_WritingRight/2330 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanMonday_B",
-		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_A",
