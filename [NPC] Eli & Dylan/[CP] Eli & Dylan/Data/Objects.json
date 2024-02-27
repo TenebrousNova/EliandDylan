@@ -13,7 +13,7 @@
           "ExcludeFromRandomSale": true, //no one can randomly sell my fish
           "ExcludeFromShippingCollection": true, //perfection exclusion
           "ExcludeFromFishingCollection": true, //perfection exclusion
-          "Price": 100, //price fish is worth
+          "Price": 150, //price fish is worth
           "Edibility": 50, //positive number provides life
           "IsDrink": false, //do not drink fish
           "Texture": "{{InternalAssetKey: Assets/EnDObjects.png}}", //where to find my fish sprite
@@ -21,7 +21,29 @@
           "ContextTags": [ //these are what can be referenced so the fish kind, where it can be caught, and it's color for dying things
             "color_blue",
             "fish_lambenthyphafin",
+            "fish_semi_rare",
             "fish_cave"
+          ]
+        },
+        "TenebrousNova.EliDylan.Junimeel": {
+          "Name": "TenebrousNova.EliDylan.Junimeel",
+          "DisplayName": "{{i18n:Core.Items.Junimeel}}",
+          "Description": "{{i18n:Core.Items.Junimeel.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromFishingCollection": true,
+          "Price": 200,
+          "Edibility": 70,
+          "IsDrink": false,
+          "Texture":"{{InternalAssetKey: Assets/EnDObjects.png}}",
+          "SpriteIndex": 1,
+          "ContextTags": [
+            "color_green",
+            "fish_junimeel",
+            "fish_semi_rare",
+            "fish_lake"
           ]
         }
       }

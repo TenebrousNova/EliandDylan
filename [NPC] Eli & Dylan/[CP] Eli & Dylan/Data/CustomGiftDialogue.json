@@ -5,6 +5,7 @@
 
 	{
 		//Eli's responses
+		
 		"LogName": "Eli Gifts",
         "Action": "EditData",
         "Target": "Characters/Dialogue/Nova.Eli",
@@ -35,6 +36,7 @@
 			"AcceptGift_(O)373": "{{i18n:Gifts.NovaEli.GiftReaction.GoldenPumpkin.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.{{Random:{{Range:1, 2}}}}}}",
+			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaEli.GiftReaction.GenuineAutographedPhoto}}",
 			
 			//Likes
 			
@@ -56,7 +58,6 @@
 			
 			//Neutral
 
-			//Update this one to 1.6 format once Dodo gets round to it.
 			"AcceptGift_(O)WWWA.AutographedPhoto": "{{i18n:Gifts.NovaEli.GiftReaction.AnAutographedPhoto}}",
 			
 			"AcceptGift_(O)96": "{{i18n:Gifts.NovaEli.GiftReaction.DwarfScrollI}}",
@@ -160,6 +161,7 @@
 			"AcceptGift_(O)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty}}",
 			"AcceptGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl}}",
+			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaDylan.GiftReaction.GenuineAutographedPhoto}}",
 
 			//Likes
 

@@ -14,7 +14,8 @@
     "Action": "EditData",
     "Target": "Data/AquariumFish",
     "Entries": {
-      "TenebrousNova.EliDylan.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EliDylan.CP\\EnDAquariumFish"
+      "TenebrousNova.EliDylan.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EliDylan.CP\\EnDAquariumFish",
+      "TenebrousNova.EliDylan.Junimeel": "1/eel/////Mods\\TenebrousNova.EliDylan.CP\\EnDAquariumFish"
     }
   },
   {
@@ -38,21 +39,21 @@
         "ProducedItems": [
           {
             "RequiredPopulation": 7, //how many fish in there
-            "Chance": 0.01, //how likely
+            "Chance": 0.1, //how likely
             "ItemID": "(O)422", //Purple Mushroom //what item
             "MinQuantity": 1, //minimum quantiy
             "MaxQuantity": 5 //maximum quantity
           },
           {
             "RequiredPopulation": 5,
-            "Chance": 0.01,
+            "Chance": 0.1,
             "ItemID": "(O)281", //Chanterelle
             "MinQuantity": 1,
             "MaxQuantity": 5
           },
           {
             "RequiredPopulation": 3,
-            "Chance": 0.01,
+            "Chance": 0.1,
             "ItemID": "(O)257", //Morel
             "MinQuantity": 1,
             "MaxQuantity": 2
@@ -80,6 +81,61 @@
             "(O)578 2", //Star Shards
             "(O)84 4", //Frozen Tears
             "(O)204 3" //Lucky Lunch
+          ]
+        }
+      },
+      "TenebrousNova.EliDylan.Junimeel": {
+        "ID": "TenebrousNova.EliDylan.Junimeel",
+        "RequiredTags": [
+          "fish_junimeel"
+        ],
+        "Precedence": 0,
+        "SpawnTime": -1,
+        "ProducedItems": [
+          {
+            "RequiredPopulation": 7,
+            "Chance": 0.1,
+            "ItemID": "(0)268", //Starfruit
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+          },
+          {
+            "RequiredPopulation": 5,
+            "Chance": 0.1,
+            "ItemID": "(0)749", //Omni Geode
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+          },
+          {
+            "RequiredPopulation": 3,
+            "Chance": 0.1,
+            "ItemID": "(0)60", //Emerald
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+          },
+          {
+            "RequiredPopulation": 0,
+            "Chance": 0.7,
+            "ItemID": "(0)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+          }
+        ],
+        "PopulationGates": {
+          "3": [
+            "(0)70 1", //Jade
+            "(0)196 1", //Salad
+            "(0)296 5" //Salmonberry
+          ],
+          "5": [
+            "(0)200 1", //Vegetable Medley
+            "(0)259 5", //Fiddlehead Fern
+            "(0)270 3" //Corn
+          ],
+          "7": [
+            "(0)276 3", //Pumpkin
+            "(0)396 3", //Spice Berry
+            "(0)564 1" //Opal
           ]
         }
       }
