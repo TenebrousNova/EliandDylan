@@ -19,7 +19,11 @@
 		{
 			"UniqueID": "PeacefulEnd.CustomCompanions",
 			"IsRequired": true
-		 }
+		 },
+		 {
+            "UniqueID": "LemurKat.CommunityCenter.CP",
+            "IsRequired": false
+        }
 	]
 }
 // Personal reminder: add UpdateKeys when ready to upload! Also add more dependencies.

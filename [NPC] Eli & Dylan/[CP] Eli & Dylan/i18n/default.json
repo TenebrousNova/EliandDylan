@@ -231,7 +231,7 @@
 "Core.NovaEli.6-10.17": "One day, I'm going to visit Zuzu City just to see what it's like. I don't miss all the noise and pollution of city life, but I do miss other things.$0#$b#I used to be into urban exploration. There's something thrilling about looking around abandoned office blocks and condemned buildings. It can be scary, too.$1#$e#Next time I go, I'll be sure to take photos for you!$3",
 "Core.NovaEli.6-10.18": "I had to explain to Alex that just because I keep active, it doesn't mean I'm into Gridball. To tell the truth I find sports mind-numbingly boring.$10#$b#If my job didn't require me to barrel wide-eyed into perilous dungeons and wildly brandish my sword on a regular basis, I'd be watching TV all day instead.$12",
 "Core.NovaEli.6-10.19": "I actually saw a whale out in the distance when I sat by the lighthouse earlier! I was hoping for a glimpse of a sea monster, but whales are every bit as cool.$3#$b#I've seen them in my dreams, swimming lazily through the sky as their song reverberated through my being. Whales have always had a strange association with magic.$1",
-"Core.NovaEli.6-60.20": "*Yaaaaaaaaawn* Hey @. Didn't get any sleep at all last night...$9#$b#%Eli seems to become completely unresponsive before abruptly jerking awake seconds later.#$b#Where...? Sorry mate... I wouldn't make good company right now.$9",
+"Core.NovaEli.6-10.20": "*Yaaaaaaaaawn* Hey @. Didn't get any sleep at all last night...$9#$b#%Eli seems to become completely unresponsive before abruptly jerking awake seconds later.#$b#Where...? Sorry mate... I wouldn't make good company right now.$9",
 "Core.NovaEli.6-10.21": "I should try to get to the Saloon more often. Not for the drink, I swore off that years ago.$0#$b#But sometimes I just need the company. They think I'm a nutjob, but they seem to tolerate me? Or at least pretend to.$2",
 "Core.NovaEli.6-10.22": "%Eli seems lost in thought as he idly fidgets with his pendant. You glimpse a gleaming ivory fang, covered in tiny etched runes. Something about it unsettles you.",
 "Core.NovaEli.6-10.23": "%Eli doesn't notice you as he walks along. He's murmuring strange words to himself. You don't understand them, but hearing them makes your teeth and bones ache.",
@@ -471,7 +471,8 @@ SIGURD/SONDRA*/
 "Core.NovaEli.Mateo.1": "I usually work on my own when I'm doing Guild jobs, but it's always good when Mateo ends up coming with. There's nobody else I'd rather have watching my back.$0#$b#And I've got to admit, they've saved my hide a bunch of times now.$1",
 "Core.NovaEli.Mateo.2": "Have you ever been to one of Mateo's game nights? Normally I'm a bit too impatient for tabletop games, but Mateo's great at making it feel immersive and exciting.$1#$b#Last time, I managed to save our party from an Orc warband by seducing their leader with my boyish charm and roguish good looks. He had to let us all go after that!$6#$b#Aideen still won't look me in the eye.$10",
 "Core.NovaEli.Mateo.3": "{{EmeritusCommentary}}",
-"Core.NovaEli.Mateo.4": "",
+"Core.NovaEli.Mateo.4": "Have you seen Mateo's skill at knife throwing? I watched them nail a cave bat midflight in the mines, while I stood there with my sword waiting for it to get closer!$7#$b#They offered to teach me a few tricks, but Dylan would kill them if it went wrong and I came home missing a few fingers. And then he'd kill me.$11",
+"Core.NovaEli.Mateo.5": "Mateo's knowledge on the supernatural is pretty impressive. It's cool to be able to chat about it with someone who can appreciate it as much as I do.$1#$b#Not sure how much experience they have with it beyond feral undead in the mines, though. I can probably show them a thing or two...$11",
 
 //GINGER ISLAND
 
@@ -1115,6 +1116,14 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.Resort_Wander_3": "I had a chat with that curious bird trader further north. They barter in exchange for a random assortment of items found around here.$1#$b#I don't know what a 'Galaxy Soul' is, but they wanted 10 radioactive bars for it. I declined because I don't carry fissile material on my person.$0#$b#Yoba knows what they want it for, but I can't let Eli find out. I don't need him trying to find some in exchange for whatever that thing is.$7",
 "Core.NovaDylan.Resort_Chair": "This is the life! I'm probably going to shut my eyes for a bit and take a nap in the sunshine to the gentle lapping of the waves. It's so tranquil here.$3#$b#I never seem to get migraines while I'm here. All the more incentive to visit more often.$1",
 "Core.NovaDylan.Resort_Bar": "I'm just taking a moment to enjoy a drink before I continue collecting samples from the shore. Gus has done an excellent job with this bar.$3#$b#I hope you're remembering to stay hydrated, @. I bought extra sunscreen in case you want to borrow some.$1",
+
+//MATEO
+
+"Core.NovaDylan.Mateo.1": "I wasn't sure what to make of Mateo when I first met them. Seemed like your typical rough adventurer type. Then I actually spoke to them and realised...$9#$b#They're a MASSIVE nerd. One of the biggest nerds I've ever met and that's coming from me. They're an excellent DM!$3",
+"Core.NovaDylan.Mateo.2": "It's a good job that Mateo has first aid certification, because it's not uncommon for them and Eli to stagger out of the mine together covered in cuts and scrapes.$2#$b#I'd still prefer that he went to Dr. Harvey for treatment, but you won't get him in that clinic unless you literally drag him kicking and screaming.$9#$b#I speak from experience... I needed Mateo's assistance to do it once.$1",
+"Core.NovaDylan.Mateo.3": "Mateo is well known for their hatred of crabs. Not just the invasive rock crabs that attack people - crabs of all species. What a weird hangup.$9#$b#Maybe they got their toe pinched as a kid or something? Either way, I'd better not catch them hurting any.$0",
+"Core.NovaDylan.Mateo.4": "I caught Eli trying to throw knives IN THE HOUSE! He told me that Dr. Luis showed him a trick and he wanted to learn it for himself.$5#$b#I don't believe him sometimes! Clearly I need to have another word with Mateo - I don't think they realize how impressionable my brother is. He'll be trying to JUGGLE them next.$7",
+"Core.NovaDylan.Mateo.5": "I know it's not Dr. Luis's field of study, but I've heard great thing about the marine biology courses available at the university they went to.$0#$b#If there'd been an exchange student opportunity, I would've taken it in a heartbeat.$1#$b#I might've even seen them on campus then!$3",
 
 //MISC.
 

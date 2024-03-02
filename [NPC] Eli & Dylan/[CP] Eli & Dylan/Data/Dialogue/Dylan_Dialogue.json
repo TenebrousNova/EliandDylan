@@ -212,6 +212,7 @@
 		},
 		"When": {
 			"HasMod": "DN.SnS.CP",
+			"HasSeenEvent": "SnS.Ch1.Mateo.1",
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DMat}} = 1": true
 		}

@@ -36,6 +36,11 @@
 			"FromFile": "Assets/Maps/OldWoods.tmx"
 		},
 		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_LionsMane",
+			"FromFile": "Assets/Maps/LionsMane.tmx"
+		},
+		{
 			"LogName": "Location Data",
 			"Action": "EditData",
 			"Target": "Data/Locations",
