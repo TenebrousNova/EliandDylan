@@ -232,6 +232,24 @@
 		}
 	},
 
+	//Nora Commentary
+
+	{
+		"LogName": "Eli Nora Commentary",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Eli",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.Nora.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "Bagi.Nora.CP",
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=ENor}} = 1": true
+		}
+	},
+
 	{
 		"LogName": "Romance Stuff",
 		"Action": "EditData",

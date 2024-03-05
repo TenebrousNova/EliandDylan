@@ -217,6 +217,25 @@
 			"Query: {{Random: {{Range: 1, 20}}|key=DMat}} = 1": true
 		}
 	},
+
+		//Nora Commentary
+
+		{
+			"LogName": "Dylan Nora Commentary",
+			"Action": "EditData",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/Nova.Dylan",
+			"Priority": "Late",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Core.NovaDylan.Nora.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod": "Bagi.Nora.CP",
+				"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 20}}|key=DNor}} = 1": true
+			}
+		},
+
 	{
 		"LogName": "Dylan Misc Dialogue",
 		"Action": "EditData",

@@ -1,11 +1,153 @@
 {
   "Changes": [
+
+    //Texture Load
+
+    {
+      "Action": "Load",
+      "Target": "Mods/EnD/Objects",
+      "FromFile": "Assets/EnDObjects.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/EnD/Crops",
+      "FromFile": "Assets/EnDCrops.png"
+    },
+
+    //Crops
+
     {
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {
-        "TenebrousNova.EliDylan.LambentHyphafin": { //identity of the fish
-          "Name": "TenebrousNova.EliDylan.LambentHyphafin", //ditto
+        "TenebrousNova.EnD.MandrakeRoot": {
+          "Name": "TenebrousNova.EliDylan.MandrakeRoot",
+          "DisplayName": "{{i18n:Core.Items.MandrakeRoot}}",
+          "Description": "{{i18n:Core.Items.MandrakeRoot.Description}}",
+          "Type": "Vegetable",
+          "Category": -75,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 200,
+          "Edibility": 30,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 0,
+          "ContextTags": [
+            "color_green",
+            "crop_mandrakeroot"
+          ]
+        },
+        "TenebrousNova.EnD.MandrakeRootSeeds": {
+          "Name": "TenebrousNova.EnD.MandrakeRootSeeds",
+          "DisplayName": "{{i18n:Core.Items.MandrakeRootSeeds}}",
+          "Description": "{{i18n:Core.Items.MandrakeRootSeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 50,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 1
+        },
+        "TenebrousNova.EnD.SanguineHeart": {
+          "Name": "TenebrousNova.EnD.SanguineHeart",
+          "DisplayName": "{{i18n:Core.Items.SanguineHeart}}",
+          "Description": "{{i18n:Core.Items.SanguineHeart.Description}}",
+          "Type": "Fruit",
+          "Category": -79,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 250,
+          "Edibility": 30,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 2,
+          "ContextTags": [
+            "color_red",
+            "crop_sanguineheart"
+          ]
+        },
+        "TenebrousNova.EnD.SanguineHeartSeeds": {
+          "Name": "TenebrousNova.EnD.SanguineHeartSeeds",
+          "DisplayName": "{{i18n:Core.Items.SanguineHeartSeeds}}",
+          "Description": "{{i18n:Core.Items.SanguineHeartSeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 40,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 3
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "TenebrousNova.EnD.MandrakeRootSeeds": {
+          "Seasons": [ "fall" ],
+          "DaysInPhase": [ 1, 1, 2, 2, 3, 3 ],
+          "RegrowDays": -1,
+          "HarvestItemID": "TenebrousNova.EnD.MandrakeRoot",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 0
+        },
+        "TenebrousNova.EnD.SanguineHeartSeeds": {
+          "Seasons": [ "fall" ],
+          "DaysInPhase": [ 1, 1, 2, 2, 2, 2 ],
+          "RegrowDays": -1,
+          "HarvestItemID": "TenebrousNova.EnD.SanguineHeart",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 2
+        }
+      }
+    },
+
+    //The Mandrake Root objects to being devoured. You monster.
+
+  {
+    "LogName": "Mandrake Scream",
+    "Action": "EditData",
+    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+    "Entries": {
+      "TenebrousNova.EnD.MandrakeRoot": {
+        "EatForTriggerAction": "EnD.EatMandrake"
+      }
+    }
+  },
+  {
+    "LogName": "Trigger Action - Mandrake Scream",
+    "Action": "EditData",
+    "Target": "Data/TriggerActions",
+    "Entries": {
+      "EnD.EatMandrake": {
+        "Id": "EnD.EatMandrake",
+        "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+        "Actions": [ "spacechase0.SpaceCore_PlaySound rockGolemHit true", "MarkActionApplied Current EnD.MandrakeReset false" ]
+      }
+    }
+  },
+  {
+   "LogName": "Trigger Action - Mandrake Scream Reset",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+      "EnD.MandrakeReset": {
+        "Id": "EnD.MandrakeReset",
+        "Trigger": "spacechase0.SpaceCore_OnItemEaten",
+        "Action": "MarkActionApplied Current EnD.EatMandrake false"
+      }
+    }
+  },
+
+    //Fish
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "TenebrousNova.EnD.LambentHyphafin": { //identity of the fish
+          "Name": "TenebrousNova.EnD.LambentHyphafin", //ditto
           "DisplayName": "{{i18n:Core.Items.LambentHyphafin}}", //i18n
           "Description": "{{i18n:Core.Items.LambentHyphafin.Description}}",
           "Type": "Fish", //what it is
@@ -16,34 +158,36 @@
           "Price": 150, //price fish is worth
           "Edibility": 50, //positive number provides life
           "IsDrink": false, //do not drink fish
-          "Texture": "{{InternalAssetKey: Assets/EnDObjects.png}}", //where to find my fish sprite
-          "SpriteIndex": 0, //spot on the sheet it is located
+          "Texture": "Mods/EnD/Objects", //where to find my fish sprite
+          "SpriteIndex": 14, //spot on the sheet it is located
           "ContextTags": [ //these are what can be referenced so the fish kind, where it can be caught, and it's color for dying things
             "color_blue",
             "fish_lambenthyphafin",
             "fish_semi_rare",
-            "fish_cave"
+            "fish_cave",
+            "fish_difficulty_hard"
           ]
         },
-        "TenebrousNova.EliDylan.Junimeel": {
-          "Name": "TenebrousNova.EliDylan.Junimeel",
+        "TenebrousNova.EnD.Junimeel": {
+          "Name": "TenebrousNova.EnD.Junimeel",
           "DisplayName": "{{i18n:Core.Items.Junimeel}}",
           "Description": "{{i18n:Core.Items.Junimeel.Description}}",
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": true,
-          "ExcludeFromFishingCollection": true,
           "Price": 200,
           "Edibility": 70,
           "IsDrink": false,
-          "Texture":"{{InternalAssetKey: Assets/EnDObjects.png}}",
-          "SpriteIndex": 1,
+          "Texture":"Mods/EnD/Objects",
+          "SpriteIndex": 15,
           "ContextTags": [
             "color_green",
             "fish_junimeel",
             "fish_semi_rare",
-            "fish_lake"
+            "fish_lake",
+            "fish_difficulty_extremely_hard",
+            "fish_favor_weather_sunny"
           ]
         }
       }

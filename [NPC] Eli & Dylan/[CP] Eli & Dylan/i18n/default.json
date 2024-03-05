@@ -21,6 +21,19 @@
 
 //ITEM NAMES
 
+//CROPS
+
+"Core.Items.MandrakeRoot": "Mandrake Root",
+"Core.Items.MandrakeRoot.Description": "A strange but delicious vegetable. It resents you for waking it up.",
+"Core.Items.MandrakeRootSeeds": "Mandrake Root Seeds",
+"Core.Items.MandrakeRootSeeds.Description": "Plant these in the fall. Takes 12 days to produce a mandrake root.",
+"Core.Items.SanguineHeart": "Sanguine Heart",
+"Core.Items.SanguineHeart.Description": "This juicy, eldritch fruit beats in time to your own heart. Despite its gruesome appearance, it is both tasty and vegan friendly!",
+"Core.Items.SanguineHeartSeeds": "Sanguine Heart Seeds",
+"Core.Items.SanguineHeartSeeds.Description": "Plant these in the fall. Takes 10 days to produce a frankly disturbing fruit.",
+
+//FISH
+
 "Core.Items.LambentHyphafin": "Lambent Hyphafin",
 "Core.Items.LambentHyphafin.Description": "A symbiotic fungus within its body fuels its bioluminescent lures, allowing it to capture prey and signal other Hyphafins.",
 "Core.Items.Junimeel": "Junimeel",
@@ -473,6 +486,14 @@ SIGURD/SONDRA*/
 "Core.NovaEli.Mateo.3": "{{EmeritusCommentary}}",
 "Core.NovaEli.Mateo.4": "Have you seen Mateo's skill at knife throwing? I watched them nail a cave bat midflight in the mines, while I stood there with my sword waiting for it to get closer!$7#$b#They offered to teach me a few tricks, but Dylan would kill them if it went wrong and I came home missing a few fingers. And then he'd kill me.$11",
 "Core.NovaEli.Mateo.5": "Mateo's knowledge on the supernatural is pretty impressive. It's cool to be able to chat about it with someone who can appreciate it as much as I do.$1#$b#Not sure how much experience they have with it beyond feral undead in the mines, though. I can probably show them a thing or two...$11",
+
+//NORA
+
+"Core.NovaEli.Nora.1": "I found a certain pink danger noodle lurking around the Scarp earlier and returned her to Nora before one of the cats could get hold of her.$1#$b#Pinkie Pie's the crafty one. I'm not sure if Stupid has the brain cells to even want to escape... ignorance is bliss, right?$3",
+"Core.NovaEli.Nora.2": "I get nervous when I'm over at Nora's place. There's stacks of books and papers precariously perched everywhere - you'll get buried alive if you even sneeze in their direction.$9#$b#I'm speaking from personal experience! She practically had to dig me out under from her herpetology books.$10",
+"Core.NovaEli.Nora.3": "I'm trying to learn sign language for when Nora has her hearing breaks. She thinks I've got a good grasp of the basics already! And Dylan's been nothing but supportive.$3#$b#He thinks I should definitely continue conversing to her that way because it'll make the neighbourhood much quieter. Me and Nora aren't THAT loud... right?$10#e#...What do you mean you're not gonna answer that?!$7",
+"Core.NovaEli.Nora.4": "The flannel shirt I saw Nora wear the other day looks really cool and... oddly familiar? It's nice to see people 'round here have good taste in clothes!$1#$b#I'll need to ask her where she bought it. For some reason a bunch of MY flannels have gone missing, but Dylan probably lost them when doing the laundry.$11",
+"Core.NovaEli.Nora.5": "%Eli looks a lot more jittery than usual.#$b#Hi there, @! Just been 'round Nora's place for a chat over a mug of coffee. And then I followed that up with another two mugs!$1#$b#She went through a lot of our coffee supply last time she visited, I'm just returning the favour.$6",
 
 //GINGER ISLAND
 
@@ -1105,7 +1126,25 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.Sen.2": "$action AddMail Current DylanSenNote received I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0",
 "Core.NovaDylan.Sen.3": "Eli asked me if there's any books I don't mind lending to Sen. I think there's some fantasy and sci-fi books somewhere that he can take a look at.$0#$b#Maybe I should slip a few of my marine biology books in there as well.$3",
 "Core.NovaDylan.Sen.4": "I heard something moving around outside the house in the early hours and peeked out of my window just in time to see a dark figure with horns making a run for it!$6#$b#Eli thinks it's nothing to worry about, but what if they were some sort of murderous maniac trying to break in? I don't know if I'll be able to sleep tonight.$2",
-"Core.NovaDylan.Sen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$0",
+"Core.NovaDylan.Sen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$9",
+
+//MATEO
+
+"Core.NovaDylan.Mateo.1": "I wasn't sure what to make of Mateo when I first met them. Seemed like your typical rough adventurer type. Then I actually spoke to them and realised...$9#$b#They're a MASSIVE nerd. One of the biggest nerds I've ever met and that's coming from me. They're an excellent DM!$3",
+"Core.NovaDylan.Mateo.2": "It's a good job that Mateo has first aid certification, because it's not uncommon for them and Eli to stagger out of the mine together covered in cuts and scrapes.$2#$b#I'd still prefer that he went to Dr. Harvey for treatment, but you won't get him in that clinic unless you literally drag him kicking and screaming.$9#$b#I speak from experience... I needed Mateo's assistance to do it once.$1",
+"Core.NovaDylan.Mateo.3": "Mateo is well known for their hatred of crabs. Not just the invasive rock crabs that attack people - crabs of all species. What a weird hangup.$9#$b#Maybe they got their toe pinched as a kid or something? Either way, I'd better not catch them hurting any.$0",
+"Core.NovaDylan.Mateo.4": "I caught Eli trying to throw knives IN THE HOUSE! He told me that Dr. Luis showed him a trick and he wanted to learn it for himself.$5#$b#I don't believe him sometimes! Clearly I need to have another word with Mateo - I don't think they realize how impressionable my brother is. He'll be trying to JUGGLE them next.$7",
+"Core.NovaDylan.Mateo.5": "I know it's not Dr. Luis's field of study, but I've heard great thing about the marine biology courses available at the university they went to.$0#$b#If there'd been an exchange student opportunity, I would've taken it in a heartbeat.$1#$b#I might've even seen them on campus then!$3",
+
+//NORA
+
+"Core.NovaDylan.Nora.1": "Nora's going to be coming over later to watch a documentary on the Fern Island marine iguanas with me. It should be interesting to the both of us.$0#$b#Eli's hopefully going to pick up one of those XL pizzas that Gus makes, I can hardly wait!$3",
+"Core.NovaDylan.Nora.2": "I might have to pay Nora a visit soon. Partly to catch up, but mostly so I have a pretext to lavish attention on Pinkie Pie and Stupid for a while.$1",
+"Core.NovaDylan.Nora.3": "I actually considered pursuing herpetology before I was serious about marine biology. In another timeline, Nora might've been my colleague.$1#$b#But if you tell her that, I'll deny it. I don't need her trying to convert me.$0",
+"Core.NovaDylan.Nora.4": "Has Eli said anything to you about Pepper Rexes lately? Because I've got the sneaking suspicion that he wants to capture one for Nora to study.$2#$b#Do I really have to remind people that this town is very flammable?$7",
+"Core.NovaDylan.Nora.5": "Sorry @, I've got a migraine flaring up at the moment. Spending too much time in the company of Eli and Nora at the same time will do that to me.$7#$b#Neither of them have an indoor voice. I swear you can hear them from the other side of town sometimes!$9",
+
+//GINGER ISLAND
 
 "Core.NovaDylan.Resort_Entering": "I can hear the parrots welcoming us to the island. They enjoy having new visitors around. Looks like a wonderful day for it!$3",
 "Core.NovaDylan.Resort": "We're very lucky to be able to visit this place. The parrots told me that they set up the resort to reward your generosity. Good on you!$3#$b#Before Ginger Island became accessible to us, I can't remember the last time Eli and I could go on vacation. We're going to cherish it.$1",
@@ -1116,14 +1155,6 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.Resort_Wander_3": "I had a chat with that curious bird trader further north. They barter in exchange for a random assortment of items found around here.$1#$b#I don't know what a 'Galaxy Soul' is, but they wanted 10 radioactive bars for it. I declined because I don't carry fissile material on my person.$0#$b#Yoba knows what they want it for, but I can't let Eli find out. I don't need him trying to find some in exchange for whatever that thing is.$7",
 "Core.NovaDylan.Resort_Chair": "This is the life! I'm probably going to shut my eyes for a bit and take a nap in the sunshine to the gentle lapping of the waves. It's so tranquil here.$3#$b#I never seem to get migraines while I'm here. All the more incentive to visit more often.$1",
 "Core.NovaDylan.Resort_Bar": "I'm just taking a moment to enjoy a drink before I continue collecting samples from the shore. Gus has done an excellent job with this bar.$3#$b#I hope you're remembering to stay hydrated, @. I bought extra sunscreen in case you want to borrow some.$1",
-
-//MATEO
-
-"Core.NovaDylan.Mateo.1": "I wasn't sure what to make of Mateo when I first met them. Seemed like your typical rough adventurer type. Then I actually spoke to them and realised...$9#$b#They're a MASSIVE nerd. One of the biggest nerds I've ever met and that's coming from me. They're an excellent DM!$3",
-"Core.NovaDylan.Mateo.2": "It's a good job that Mateo has first aid certification, because it's not uncommon for them and Eli to stagger out of the mine together covered in cuts and scrapes.$2#$b#I'd still prefer that he went to Dr. Harvey for treatment, but you won't get him in that clinic unless you literally drag him kicking and screaming.$9#$b#I speak from experience... I needed Mateo's assistance to do it once.$1",
-"Core.NovaDylan.Mateo.3": "Mateo is well known for their hatred of crabs. Not just the invasive rock crabs that attack people - crabs of all species. What a weird hangup.$9#$b#Maybe they got their toe pinched as a kid or something? Either way, I'd better not catch them hurting any.$0",
-"Core.NovaDylan.Mateo.4": "I caught Eli trying to throw knives IN THE HOUSE! He told me that Dr. Luis showed him a trick and he wanted to learn it for himself.$5#$b#I don't believe him sometimes! Clearly I need to have another word with Mateo - I don't think they realize how impressionable my brother is. He'll be trying to JUGGLE them next.$7",
-"Core.NovaDylan.Mateo.5": "I know it's not Dr. Luis's field of study, but I've heard great thing about the marine biology courses available at the university they went to.$0#$b#If there'd been an exchange student opportunity, I would've taken it in a heartbeat.$1#$b#I might've even seen them on campus then!$3",
 
 //MISC.
 
@@ -1282,7 +1313,6 @@ SIGURD/SONDRA*/
 "CC.Soot.Dialogue.6": "Soot is somehow hoovering up crumbs and bits of dirt that were undoubtedly left by his master. You can't see any evidence of a mouth. How do dust sprites eat?",
 "CC.Soot.Dialogue.7": "After a short staring contest, Soot rolls closer to allow you to pet him.",
 "CC.Soot.Dialogue.8": "...#$b#...#$b#Meep.",
-"CC.Soot.Dialogue.9": "",
 
 "CC.Soot.OverheadText.1": "Squeak!",
 "CC.Soot.OverheadText.2": "Meep!",
@@ -1416,11 +1446,14 @@ SIGURD/SONDRA*/
 
 "Mail.EliLetter.1.Title": "Eli's Gift",
 "Mail.EliLetter.1": "Hey, @.^^I'm not much of a writer, but I thought I'd thank you for being good company at the Saloon last night. I had a nice time!^^Anyway, I was carving some warp totems and figured that since you're so busy you could do with a few. They're paired up with the statue on your farm. Don't worry! It's the safest method of teleportation and accidents involving these totems are REALLY rare (if they're properly made, which these are!).^I hope you find it useful.^^Cheers,^-Eli Moray",
-"Mail.EliLetter.2.Title": "Invite from Eli",
-"Mail.EliLetter.2": "Wakey wakey, @!^^I found something really cool yesterday. It turns out that the quake caused by Joja a while back opened up a brand new cave system not too far away. Much as I'd love to be exploring it RIGHT THIS SECOND, I thought I'd ask if you fancied joining me first!^If so, meet me at the Deep Mountains north of East Scarp.^^I've no idea what we might find in there. Monsters? Treasure? Part of the collapsed mines? A long forgotten civilisation inhabited by subterranean fish people? Who knows!^^I'll bring my sword and ample supplies of coffee, just in case. I wouldn't say no to any delicious snacks from your farm either, although there's no pressure!^Hell, we could have a picnic down there!^^See you soon,^-Eli",
-"Mail.ELiLetter.3.Title": "Request from Eli",
-"Mail.EliLetter.3": "Rise and shine, farmer!^^I'll get to the point - I need somebody to help me test a little project out and you're the first person I thought of. I know you can be trusted since you've seen plenty of out of the ordinary stuff before. Why bother my lovely neighbours with it and turn their lives upside down, eh? And I won't lie to you, it's also a convenient excuse to spend quality time with my friend!^^If you're interested, trot on over to my place at your earliest convenience.^^Fond regards,^Eli^^P.S. I just stubbed my toe writing this letter and the pain rages worse than a third degree burn from a slime. Got any ice??",
-"Mail.EliLetter.4": "To Whom it May Concern,^^You are cordially invited to a nocturnal... I can't do this. @, Krobus and I are having another late night campfire in the Secret Woods, and he agrees that you should join us. Coffee and marshmallows will be provided, but feel free to bring your own grub! We're looking forward to seeing you there.^^-Your pal,^Eli^^P.S. If Krobus offers you void mayonnaise, eat it at your own risk. It's got an... interesting taste.",
+"Mail.EliLetter.2.Title": "Strange Seeds",
+"Mail.EliLetter.2": "Morning, @!^^I couldn't sleep last night, so I took a walk through the Deep Mountains at... 3am. Anyway, I found this weird little plant that looked like it had a face? And the damn thing SCREAMED when I picked it!^^I felt pretty guilty about that, but it also tasted good, so now I'm a bit conflicted. I saved the seeds in case you wanted to try growing the little buggers for yourself.^^Have fun with them, I guess!^-Eli",
+"Mail.EliLetter.3.Title": "Even Stranger Seeds",
+"Mail.EliLetter.3": "Hello, @!^^I wanted to say sorry for the weird shit you saw at my place - sometimes it's easy for me to forget that most people aren't used to things like that happening to them.^^In any case, I found these seeds in the guest room after you left. They're definitely from the other side, but I couldn't tell you what they grow into. There's probably some sort of protocol for discovering extradimensional flora before you try growing it, like showing Rasmodius or a botanist - but who's got time for that?^^Let me know how it goes!^^Take care,^-Eli",
+"Mail.EliLetter.4.Title": "Invite from Eli",
+"Mail.EliLetter.4": "Wakey wakey, @!^^I found something really cool yesterday. It turns out that the quake caused by Joja a while back opened up a brand new cave system not too far away. Much as I'd love to be exploring it RIGHT THIS SECOND, I thought I'd ask if you fancied joining me first!^If so, meet me at the Deep Mountains north of East Scarp.^^I've no idea what we might find in there. Monsters? Treasure? Part of the collapsed mines? A long forgotten civilisation inhabited by subterranean fish people? Who knows!^^I'll bring my sword and ample supplies of coffee, just in case. I wouldn't say no to any delicious snacks from your farm either, although there's no pressure!^Hell, we could have a picnic down there!^^See you soon,^-Eli",
+"Mail.ELiLetter.5.Title": "Request from Eli",
+"Mail.EliLetter.5": "Rise and shine, farmer!^^I'll get to the point - I need somebody to help me test a little project out and you're the first person I thought of. I know you can be trusted since you've seen plenty of out of the ordinary stuff before. Why bother my lovely neighbours with it and turn their lives upside down, eh? And I won't lie to you, it's also a convenient excuse to spend quality time with my friend!^^If you're interested, trot on over to my place at your earliest convenience.^^Fond regards,^Eli^^P.S. I just stubbed my toe writing this letter and the pain rages worse than a third degree burn from a slime. Got any ice??",
 
 "Mail.DylanLetter.1.Title": "Dylan's Thanks",
 "Mail.DylanLetter.1": "Good morning, @.^^I'd like to thank you for helping me out on the beach and saving me hours of research time that would otherwise have been spent picking up litter.^^Rest assured that I've brought it to the Mayor's attention - I showed him photo evidence, which he won't be able to ignore.^Enclosed is one of the more interesting specimens I found.^^Regards,^-Dylan Moray",
@@ -2053,9 +2086,9 @@ SIGURD/SONDRA*/
 "Events.EliJK.NovaEli.16": "...A genuine, live cryptid. Yoba, I'm so happy I could cry!$3",
 "Events.EliJK.Message.1": "Eli is a barely coherent emotional trainwreck on the journey back. He promises to see you again once he calms down.",
 
-//Bonus Events
+//BONUS EVENTS
 
-//Reluctant Monster Slayer
+//RELUCTANT MONSTER SLAYER
 
 "Events.EliGuild.Marlon.1": "Greetings, Clint!",
 "Events.EliGuild.Clint.1": "Um... hi, Marlon. I was wondering if there was any word on those tools I lost in the mines?$0#$b#Orders are piling up and I can't get anything done without them. I shouldn't have pushed my luck while looking for ore the other day. Stupid monsters...$2",
@@ -2084,7 +2117,7 @@ SIGURD/SONDRA*/
 "Events.EliGuild.Marlon.9": "Your payment's here, Eli.",
 "Events.EliGuild.NovaEli.9": "Sounds great, boss! Now, remind me how much I earned this time...$3",
 
-//The Guest Room
+//THE GUEST ROOM
 
 "Events.EliGuestRoom.Message.1": "Looks like a storm is coming. That wasn't in the forecast...",
 "Events.EliGuestRoom.NovaEli.1": "@? HOW did you get in here?$7",
@@ -2103,7 +2136,7 @@ SIGURD/SONDRA*/
 "Events.EliGuestRoom.NovaEli.6": "Close one! It'll be gone now until whenever the next storm hits. I wonder if the denizens of the Void find it as weird as we do?$11",
 "Events.EliGuestRoom.NovaEli.7": "Oh FUCK!",
 "Events.EliGuestRoom.NovaEli.8": "*Huff*...",
-"Events.EliGuestRoom.NovaEli.9": "I... *Huff* I hope I've made my point, @. Please stay out of there, yeah?$10#$b#So... with that said... do you want to stay round for a mug of coffee? I can put the kettle on for you!$12",
+"Events.EliGuestRoom.NovaEli.9": "I... *huff* I hope I've made my point, @. Please stay out of there, yeah?$10#$b#So... with that said... do you want to stay round for a mug of coffee? I can put the kettle on for you!$12",
 "Events.EliGuestRoom.NovaEli.10": "I'll take that as a 'no', then. Why do they never want to stay over...?$11",
 
 //DYLAN
@@ -2391,5 +2424,31 @@ SIGURD/SONDRA*/
 "Events.ThistleIntro.NovaDylan.11": "Wha- I can't, I haven't got time! D'you know how much research there is to do? I'm behind enough as it is!$9",
 "Events.ThistleIntro.NovaEli.6": "Sorry brother, your mouth is moving but all I'm hearing is a whining noise. Come on, let's go go go!$3",
 "Events.ThistleIntro.Message.1": "Dylan is dragged away by Eli, protesting all the while. High above, crows circle in the sky.",
+
+//BONUS EVENTS
+
+//DYLAN CC AQUARIUM
+
+"Events.DylanCCAquarium.NovaDylan.1": "Specific gravity... 1.025.",
+"Events.DylanCCAquarium.NovaDylan.2": "KH... 10.",
+"Events.DylanCCAquarium.NovaDylan.3": "Ammonia... 0!",
+"Events.DylanCCAquarium.NovaDylan.4": "Hello, @! Come and take a look at this.$1",
+"Events.DylanCCAquarium.Sondra.1": "Isn't our Dylan so brilliant?",
+"Events.DylanCCAquarium.NovaDylan.5": "I just finished stocking the Community Center aquarium. There was no way I could resist a challenge like this!$3",
+"Events.DylanCCAquarium.Willy.1": "She's looking wonderful, Dylan! Even better than she used to.$1",
+"Events.DylanCCAquarium.Rodney.1": "Fish are dumb.",
+"Events.DylanCCAquarium.Jacob.1": "I agree! I could honestly stare at it all day.$1",
+"Events.DylanCCAquarium.NovaDylan.6": "I can't take all the credit. You two obtained the fish and corals for me - and Eloise helped pick them out.$1",
+"Events.DylanCCAquarium.Eloise.1": "It was a team effort!$1",
+"Events.DylanCCAquarium.NovaEli.1": "You've done some INCREDIBLE work, little bruv! You outdid yourself!$3",
+"Events.DylanCCAquarium.Nora.1": "This is so beautiful! If I was a fish, this would be my dream tank for sure.$1",
+"Events.DylanCCAquarium.Teren.1": "The blue one is Sig Junior.",
+"Events.DylanCCAquarium.NovaDylan.7": "Mayor Lewis!",
+"Events.DylanCCAquarium.Lewis.1": "Hello! Sorry for being late, I had to take care of some last minute paperwork.$0",
+"Events.DylanCCAquarium.Lewis.2": "Why, this is marvellous, Dylan! That's certainly going to liven the place up.$1",
+"Events.DylanCCAquarium.NovaDylan.8": "I'm glad you like it. I left the bill for the livestock, water supplements, brand new filtering equipment and so forth on your desk.$1#$b#I imagine that was the last minute paperwork you were going over. You DID see the bill... right?$3",
+"Events.DylanCCAquarium.NovaEli.2": "PFFFFFT!",
+"Events.DylanCCAquarium.Lewis.3": "*Ahem*... of course I did. If the assembled company would please excuse me, another pressing matter has just come to my urgent attention.$5",
+"Events.DylanCCAquarium.Message.1": "The Community Center has recieved yet another upgrade!"
 
 }

@@ -36,11 +36,6 @@
 			"FromFile": "Assets/Maps/OldWoods.tmx"
 		},
 		{
-			"Action": "Load",
-			"Target": "Maps/{{ModID}}_LionsMane",
-			"FromFile": "Assets/Maps/LionsMane.tmx"
-		},
-		{
 			"LogName": "Location Data",
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -348,7 +343,26 @@
 			"PatchMode": "Replace",
 			"Update": "OnTimeChange"
 		},
-	
+
+		//New Community Center aquarium.
+/*
+		{
+			"LogName": "EnD CC Aquarium",
+			"Action": "EditMap",
+			"Target": "Maps/CommunityCenter_Refurbished",
+			"FromFile": "Assets/Maps/CCAquariumPatch.tmx",
+			"ToArea": {
+				"X": 38,
+				"Y": 7,
+				"Width": 6,
+				"Height": 3
+			},
+			"When": {
+				"HasSeenEvent": "191393"
+			},
+			"PatchMode": "Replace"
+		},
+	*/
 		//Loads the house tilesheets.
 	
 		{
