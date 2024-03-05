@@ -77,6 +77,24 @@
           "Price": 40,
           "Texture": "Mods/EnD/Objects",
           "SpriteIndex": 3
+        },
+        "TenebrousNova.EnD.BeholderFruit": {
+          "Name": "TenebrousNova.EnD.BeholderFruit",
+          "DisplayName": "{{i18n:Core.Items.BeholderFruit}}",
+          "Description": "{{i18n:Core.Items.BeholderFruit.Description}}",
+          "Type": "Fruit",
+          "Category": -79,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 150,
+          "Edibility": 25,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 4,
+          "ContextTags": [
+            "color_red",
+            "crop_beholderfruit"
+          ]
         }
       }
     },
@@ -107,16 +125,6 @@
     //The Mandrake Root objects to being devoured. You monster.
 
   {
-    "LogName": "Mandrake Scream",
-    "Action": "EditData",
-    "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-    "Entries": {
-      "TenebrousNova.EnD.MandrakeRoot": {
-        "EatForTriggerAction": "EnD.EatMandrake"
-      }
-    }
-  },
-  {
     "LogName": "Trigger Action - Mandrake Scream",
     "Action": "EditData",
     "Target": "Data/TriggerActions",
@@ -124,7 +132,8 @@
       "EnD.EatMandrake": {
         "Id": "EnD.EatMandrake",
         "Trigger": "spacechase0.SpaceCore_OnItemEaten",
-        "Actions": [ "spacechase0.SpaceCore_PlaySound rockGolemHit true", "MarkActionApplied Current EnD.MandrakeReset false" ]
+        "Actions": [ "spacechase0.SpaceCore_PlaySound rockGolemHit true", "MarkActionApplied Current EnD.MandrakeReset false" ],
+        "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
       }
     }
   },
@@ -136,7 +145,8 @@
       "EnD.MandrakeReset": {
         "Id": "EnD.MandrakeReset",
         "Trigger": "spacechase0.SpaceCore_OnItemEaten",
-        "Action": "MarkActionApplied Current EnD.EatMandrake false"
+        "Action": "MarkActionApplied Current EnD.EatMandrake false",
+        "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
       }
     }
   },
