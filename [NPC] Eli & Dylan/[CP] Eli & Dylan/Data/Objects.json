@@ -86,7 +86,7 @@
           "Category": -79,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": true,
-          "Price": 150,
+          "Price": 100,
           "Edibility": 25,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
@@ -95,6 +95,113 @@
             "color_red",
             "crop_beholderfruit"
           ]
+        },
+        "TenebrousNova.EnD.BeholderFruitSeeds": {
+          "Name": "TenebrousNova.EnD.BeholderFruitSeeds",
+          "DisplayName": "{{i18n:Core.Items.BeholderFruitSeeds}}",
+          "Description": "{{i18n:Core.Items.BeholderFruitSeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 50,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 5
+        },
+        "TenebrousNova.EnD.DragonEye": {
+          "Name": "TenebrousNova.EnD.DragonEye",
+          "DisplayName": "{{i18n:Core.Items.DragonEye}}",
+          "Description": "{{i18n:Core.Items.DragonEye.Description}}",
+          "Type": "Fruit",
+          "Category": -79,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 100,
+          "Edibility": 20,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 6
+        },
+        "TenebrousNova.EnD.DragonEyeSeeds": {
+          "Name": "TenebrousNova.EnD.DragonEyeSeeds",
+          "DisplayName": "{{i18n:Core.Items.DragonEyeSeeds}}",
+          "Description": "{{i18n:Core.Items.DragonEyeSeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 50,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 7
+        },
+        "TenebrousNova.EnD.CrystallineLily": {
+          "Name": "TenebrousNova.EnD.CrystallineLily",
+          "DisplayName": "{{i18n:Core.Items.CrystallineLily}}",
+          "Description": "{{i18n:Core.Items.CrystallineLily.Description}}",
+          "Type": "Flower",
+          "Category": -80,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 180,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 8
+        },
+        "TenebrousNova.EnD.CrystallineLilySeeds": {
+          "Name": "TenerbousNova.EnD.CrystallineLilySeeds",
+          "DisplayName": "{{i18n:Core.Items.CrystallineLilySeeds}}",
+          "Description": "{{i18n:Core.Items.CrystallineLilySeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 60,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 9
+        },
+        "TenebrousNova.EnD.PixieBloom": {
+          "Name": "TenebrousNova.EnD.PixieBloom",
+          "DisplayName": "{{i18n:Core.Items.PixieBloom}}",
+          "Description": "{{i18n:Core.Items.PixieBloom.Description}}",
+          "Type": "Flower",
+          "Category": -80,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 90,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 10
+        },
+        "TenebrousNova.EnD.PixieBloomSeeds": {
+          "Name": "TenebrousNova.EnD.PixieBloomSeeds",
+          "DisplayName": "{{i18n:Core.Items.PixieBloomSeeds}}",
+          "Description": "{{i18n:Core.Items.PixieBloomSeeds.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 60,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 11
+        },
+        "TenebrousNova.EnD.Bluffshroom": {
+          "Name": "TenebrousNova.EnD.Bluffshroom",
+          "DisplayName": "{{i18n:Core.Items.Bluffshroom}}",
+          "Description": "{{i18n:Core.Items.Bluffshroom.Description}}",
+          "Type": "Vegetable",
+          "Category": -75,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 75,
+          "Edibility": 15,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 12
+        },
+        "TenebrousNova.EnD.BluffshroomStarter": {
+          "Name": "TenebrousNova.EnD.BluffshroomStarter",
+          "DisplayName": "{{i18n:Core.Items.BluffshroomStarter}}",
+          "Description": "{{i18n:Core.Items.BluffshroomStarter.Description}}",
+          "Type": "Seeds",
+          "Category": -74,
+          "ExcludeFromRandomSale": true,
+          "Price": 50,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 13
         }
       }
     },
@@ -118,6 +225,55 @@
           "HarvestItemID": "TenebrousNova.EnD.SanguineHeart",
           "Texture": "Mods/EnD/Crops",
           "SpriteIndex": 2
+        },
+        "TenebrousNova.EnD.BeholderFruitSeeds": {
+          "Seasons": [ "fall" ],
+          "DaysInPhase": [ 1, 3, 3, 3, 3 ],
+          "RegrowDays": 4,
+          "HarvestItemID": "TenebrousNova.EnD.BeholderFruit",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 4
+        },
+        "TenebrousNova.EnD.DragonEyeSeeds": {
+          "Seasons": [ "summer" ],
+          "DaysInPhase": [ 1, 3, 3, 3, 3 ],
+          "RegrowDays": 4,
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 2,
+          "HarvestItemID": "TenebrousNova.EnD.DragonEye",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 6
+        },
+        "TenebrousNova.EnD.CrystallineLilySeeds": {
+          "Seasons": [ "winter" ],
+          "DaysInPhase": [ 1, 3, 3, 3, 4 ],
+          "RegrowDays": -1,
+          "HarvestItemID": "TenebrousNova.EnD.CrystallineLily",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 8
+        },
+        "TenebrousNova.EnD.PixieBloomSeeds": {
+          "Seasons": [ "spring", "summer" ],
+          "DaysInPhase": [ 1, 2, 2, 3, 3, 3 ],
+          "RegrowDays": -1,
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.2,
+          "HarvestItemID": "TenebrousNova.EnD.PixieBloom",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 10
+        },
+        "TenebrousNova.EnD.BluffshroomStarter": {
+          "Seasons": [ "spring", "winter" ],
+          "DaysInPhase": [ 2, 2, 2, 1, 1 ],
+          "RegrowDays": 4,
+          "IsRaised": true,
+          "HarvestMinStack": 1,
+          "HarvestMaxStack": 3,
+          "HarvestMaxIncreasePerFarmingLevel": 0.2,
+          "HarvestItemID": "TenebrousNova.EnD.Bluffshroom",
+          "Texture": "Mods/EnD/Crops",
+          "SpriteIndex": 12
         }
       }
     },
@@ -132,7 +288,8 @@
       "EnD.EatMandrake": {
         "Id": "EnD.EatMandrake",
         "Trigger": "spacechase0.SpaceCore_OnItemEaten",
-        "Actions": [ "spacechase0.SpaceCore_PlaySound rockGolemHit true", "MarkActionApplied Current EnD.MandrakeReset false" ],
+        "Action": "spacechase0.SpaceCore_PlaySound rockGolemHit true",
+        "MarkActionApplied": false,
         "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
       }
     }

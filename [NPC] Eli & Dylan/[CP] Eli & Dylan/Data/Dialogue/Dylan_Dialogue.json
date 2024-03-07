@@ -49,22 +49,26 @@
 	{
 		"LogName": "Dylan 0-4 Heart Dialogue",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Entries": {
 			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}"
 		},
 		"When": {
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
 		  }
 	},
 	{
 		"LogName": "Dylan 6-10 Heart Dialogue",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Entries": {
 			"{{WeekDay}}": "{{i18n:Core.NovaDylan.6-10.{{Random:{{Range: 1, 100}}}}}}"
 		},
 		"When": {
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		  }
 	},

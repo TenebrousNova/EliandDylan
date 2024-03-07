@@ -60,23 +60,27 @@
 	{
 		"LogName": "Eli 0-4 Heart Dialogue",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
 			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{Random:{{Range: 1, 60}}}}}}"
 		},
 		"When": {
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
 		  }
 	},
 	{
 		"LogName": "Eli 6-10 Heart Dialogue (Platonic)",
 		"Action": "EditData",
+		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
 			"{{WeekDay}}": "{{i18n:Core.NovaEli.6-10.{{Random:{{Range: 1, 100}}}}}}"
 		},
 		"When": {
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
+			"Hearts:Nova.Eli": "{{Range: 5, 10}}",
 		  }
 	},
 	{
