@@ -2108,6 +2108,7 @@
   <data encoding="csv">
 1977,0,0,0,0,0,0,0,0,0,0,1978,
 0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2010,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2118,13 +2119,23 @@
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2010,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 1976,0,0,0,0,0,0,0,0,0,0,1979
 </data>
  </layer>
- <objectgroup id="8" name="Paths"/>
+ <objectgroup id="8" name="Paths">
+  <object id="185" name="TileData" x="160" y="32" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="fruit Cornucopia_PearSapling 4"/>
+   </properties>
+  </object>
+  <object id="187" name="TileData" x="160" y="208" width="16" height="16">
+   <properties>
+    <property name="SpawnTree" value="fruit Cornucopia_LimeSapling 4"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="9" name="Front" width="12" height="16">
   <data encoding="csv">
 2812,2813,2813,2910,0,2908,2813,2813,2813,2813,2813,2814,

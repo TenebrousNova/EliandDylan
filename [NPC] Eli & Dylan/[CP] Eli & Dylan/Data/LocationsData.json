@@ -197,7 +197,7 @@
 			"LogName": "House Patch",
 			"Action": "EditMap",
 			"Target": "Maps/EastScarp_Village",
-			"FromFile": "Assets/Maps/REV_NovaPatch.tmx",
+			"FromFile": "Assets/Maps/{{HouseExterior}}",
 			"ToArea": {
 			"X": 81,
 			"Y": 59,

@@ -229,7 +229,6 @@
 	Green Jumping Frog (Post): temporaryAnimatedSprite EliDylan\\Critters 0 60 16 32 250 4 1 X Y false false 1 0 1 0 0 0 motion 1.2 0 acceleration 0 0.01
 	Olive Jumping Frog (Post): temporaryAnimatedSprite EliDylan\\Critters 0 192 16 32 250 4 1 X Y false false 1 0 1 0 0 0 motion 1.2 0 acceleration 0 0.01
 	Splash: temporaryAnimatedSprite EliDylan\\Critters 0 224 16 16 250 9 1 X Y false false 1 0 1 0 0 0
-	Spiral: temporaryAnimatedSprite EliDylan\\Particles 0 0 16 16 5000 1 1 X Y false false 1 0.00333 1 0 0.01 0.05 motion 0 -1.6 acceleration 0 0.01
 	temporaryAnimatedSprite texture rect_x rect_y rect_width rect_height animation_interval animation_length number_of_loops tile_x tile_y flicker flipped layer_depth alpha_fade scale scale_change rotation rotation_change
 	*/
 
