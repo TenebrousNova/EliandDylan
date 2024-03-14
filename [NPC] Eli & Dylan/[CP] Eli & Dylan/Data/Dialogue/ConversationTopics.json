@@ -14,9 +14,39 @@
 			    "cc_Complete": "{{i18n:CT.NovaEli.CCComplete}}",
 			    "movieTheater": "{{i18n:CT.NovaEli.MovieTheater}}",
 
-			//ARV Topics
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.NovaEli.EliIntro}}",
+				"EliSaloon": "{{i18n:CT.NovaEli.EliSaloon}}",
+				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1}}",
+				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2}}",
+				"EliWoods": "{{i18n:CT.NovaEli.EliWoods}}",
+				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
+				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
+				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
+				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
+				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.NovaEli.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.NovaEli.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.NovaEli.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
+				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
+
+				//Other Topics
+
+				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
+				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
+
+				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}",
+
+				//ARV Topics
 			
-			//Sterling
+				//Sterling
 			
 			    "SterlingTrash": "{{i18n:CT.NovaEli.SterlingTrash}}",
 			    "SterlingTrain": "{{i18n:CT.NovaEli.SterlingTrain}}",
@@ -32,9 +62,13 @@
 
 				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaEli.AnewCoupleInTown}}",
 
-				//Sen Topics
+				//Diamond in the Rough Topics
 
 				"DitR_CT_SenMet": "{{i18n:CT.NovaEli.SenMet}}",
+
+				"DitR_CT_EveMeet": "{{i18n:CT.NovaEli.LotV_CT_EveMeet}}",
+
+				"DitR_CT_PipoShorts": "{{i18n:CT.NovaEli.DitR_CT_PipoShorts}}",
 
 				//Lucikiel Topics
 
@@ -72,42 +106,9 @@
 
 				"NoraIntro": "{{i18n:CT.NovaEli.NoraIntro}}",
 
-				//Lily of the Valley Topics:
-
-				"LotV_CT_EveMeet": "{{i18n:CT.NovaEli.LotV_CT_EveMeet}}",
-
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}",
-
-				//Eli Topics
-
-				"EliIntro": "{{i18n:CT.NovaEli.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.NovaEli.EliSaloon}}",
-				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1}}",
-				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2}}",
-				"EliWoods": "{{i18n:CT.NovaEli.EliWoods}}",
-				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
-				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
-				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
-				"EliMemoryWiped": "{{i18n:CT.NovaEli.EliMemoryWiped}}",
-
-				//Dylan Topics
-
-				"DylanIntro": "{{i18n:CT.NovaEli.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.NovaEli.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.NovaEli.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
-				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
-
-				//Other Topics
-
-				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
-				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
-
-				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}"
+				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}"
 			}
 		},
 
@@ -123,6 +124,34 @@
 				"cc_Minecart": "{{i18n:CT.NovaDylan.CCMinecart}}",
 				"cc_Complete": "{{i18n:CT.NovaDylan.CCComplete}}",
 				"movieTheater": "{{i18n:CT.NovaDylan.MovieTheater}}",
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.NovaDylan.EliIntro}}",
+				"EliSaloon": "{{i18n:CT.NovaDylan.EliSaloon}}",
+				"EliJunimo1": "{{i18n:CT.NovaDylan.EliJunimo1}}",
+				"EliJunimo2": "{{i18n:CT.NovaDylan.EliJunimo2}}",
+				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods}}",
+				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
+				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
+				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
+				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.NovaDylan.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.NovaDylan.DylanBeach}}",
+				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown}}",
+				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
+				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
+				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
+
+				//Other Topics
+
+				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
+				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
+				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}",
 				
 				//ARV Topics
 				
@@ -142,9 +171,13 @@
 
 				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaDylan.AnewCoupleInTown}}",
 
-				//Sen Topics
+				//Diamond in the Rough Topics
 
 				"DitR_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet}}",
+
+				"DitR_CT_EveMeet": "{{i18n:CT.NovaDylan.LotV_CT_EveMeet}}",
+
+				"DitR_CT_PipoShorts": "{{i18n:CT.NovaDylan.DitR_CT_PipoShorts}}",
 
 				//Lucikiel Topics
 
@@ -182,40 +215,9 @@
 
 				"NoraIntro": "{{i18n:CT.NovaDylan.NoraIntro}}",
 
-				//Lily of the Valley Topics:
-
-				"LotV_CT_EveMeet": "{{i18n:CT.NovaDylan.LotV_CT_EveMeet}}",
-
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}",
-
-				//Eli Topics
-
-				"EliIntro": "{{i18n:CT.NovaDylan.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.NovaDylan.EliSaloon}}",
-				"EliJunimo1": "{{i18n:CT.NovaDylan.EliJunimo1}}",
-				"EliJunimo2": "{{i18n:CT.NovaDylan.EliJunimo2}}",
-				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods}}",
-				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
-				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
-				"EliMemoryWiped": "{{i18n:CT.NovaDylan.EliMemoryWiped}}",
-
-				//Dylan Topics
-
-				"DylanIntro": "{{i18n:CT.NovaDylan.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.NovaDylan.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
-				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
-
-				//Other Topics
-
-				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
-				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
-				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}"
+				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}"
 				
 			}
 		},
@@ -281,6 +283,7 @@
 				//Eli Topics
 
 				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
+				"EliLateHangout": "{{i18n:EliLateHangout}}",
 
 				//Dylan Topics
 				
@@ -374,6 +377,7 @@
 
 				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
 				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
+				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
 
 				//Dylan Topics
 

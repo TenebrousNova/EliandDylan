@@ -294,19 +294,6 @@
       }
     }
   },
-  {
-   "LogName": "Trigger Action - Mandrake Scream Reset",
-   "Action": "EditData",
-   "Target": "Data/TriggerActions",
-   "Entries": {
-      "EnD.MandrakeReset": {
-        "Id": "EnD.MandrakeReset",
-        "Trigger": "spacechase0.SpaceCore_OnItemEaten",
-        "Action": "MarkActionApplied Current EnD.EatMandrake false",
-        "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
-      }
-    }
-  },
 
     //Fish
     {

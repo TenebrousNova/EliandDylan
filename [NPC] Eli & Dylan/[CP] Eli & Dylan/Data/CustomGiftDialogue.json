@@ -24,6 +24,14 @@
 			"WinterStar_ReceiveGift_(0)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.WinterStar}}",
 			"WinterStar_ReceiveGift_(0)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.WinterStar}}",
 
+			//Birthday
+
+			"AcceptBirthdayGift_Loved": "{{i18n:Gifts.NovaEli.GiftReaction.Loved.Birthday}}",
+        	"AcceptBirthdayGift_Liked": "{{i18n:Gifts.NovaEli.GiftReaction.Liked.Birthday}}",
+        	"AcceptBirthdayGift_Disliked": "{{i18n:Gifts.NovaEli.GiftReaction.Disliked.Birthday}}",
+        	"AcceptBirthdayGift_Hated": "{{i18n:Gifts.NovaEli.GiftReaction.Hated.Birthday}}",
+        	"AcceptBirthdayGift_Neutral": "{{i18n:Gifts.NovaEli.GiftReaction.Neutral.Birthday}}",
+
             //Loves
 			
 			"AcceptGift_(O)206": "{{i18n:Gifts.NovaEli.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
@@ -151,6 +159,14 @@
 			"WinterStar_ReceiveGift_(0)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty.WinterStar}}",
 			"WinterStar_ReceiveGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.WinterStar}}",
 			"WinterStar_ReceiveGift_(0)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl.WinterStar}}",
+
+			//Birthday
+
+			"AcceptBirthdayGift_Loved": "{{i18n:Gifts.NovaDylan.GiftReaction.Loved.Birthday}}",
+        	"AcceptBirthdayGift_Liked": "{{i18n:Gifts.NovaDylan.GiftReaction.Liked.Birthday}}",
+        	"AcceptBirthdayGift_Disliked": "{{i18n:Gifts.NovaDylan.GiftReaction.Disliked.Birthday}}",
+        	"AcceptBirthdayGift_Hated": "{{i18n:Gifts.NovaDylan.GiftReaction.Hated.Birthday}}",
+        	"AcceptBirthdayGift_Neutral": "{{i18n:Gifts.NovaDylan.GiftReaction.Neutral.Birthday}}",
 			
 			//Loves
 

@@ -179,6 +179,12 @@
 		"Action": "Load",
 		"Target": "EliDylan/Plants",
 		"FromFile": "Assets/Images/Plants.png"
+	},
+	{
+		"LogName": "Critters",
+		"Action": "Load",
+		"Target": "EliDylan/Critters",
+		"FromFile": "Assets/Images/Critters.png"
 	}
     ]
  }

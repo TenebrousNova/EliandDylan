@@ -32,7 +32,9 @@ KittyCatCasey: Has listened to my inane technical questions with great patience 
 TheFrenchDodo: Made additional assets & music for me. 
 Pooh: Certified Content Patcher genius who has helped me on many an occasion!
 Hisameartwork and TrentXV: Very kindly granted me permission to use assets from More New Fish.
-6480: New crops and custom map tilesets!
+6480: New crops, custom map tilesets!
+The Cornupcopia Team: New bushes and trees!
+
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
 
@@ -99,7 +101,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "Random_Dialogue_Tokens",
-		"Value": "|SnowballFightOutcome={{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}|GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 30}}}}}}"
+		"Value": "|SnowballFightOutcome={{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}|GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 30}}}}}}|EliGenre={{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}"
 	},
 
 	{
@@ -127,64 +129,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "WeekDay",
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
-
-	//Commentary tokens for other NPCs
-
-	{
-		"Name": "EliCommentary_MateoEmeritus",
-		"Value": "{{i18n:Core.NovaEli.MateoEmeritus.Unhatched}}"
-	},
-	{
-		"Name": "EliCommentary_MateoEmeritus",
-		"Value": "{{i18n:Core.NovaEli.MateoEmeritus.Hatched}}",
-		"When": {
-			"HasSeenEvent": "SnS.Ch1.Mateo.12"
-		}
-	},
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
 
 	ELI*/
 
 	{
-		"Name": "EliStrings_Library",
-		"Value": "{{Random:\"Strings\\schedules\\Nova.Eli:EliLibrary.000\"++\"Strings\\schedules\\Nova.Eli:EliLibrary.001\"++\"Strings\\schedules\\Nova.Eli:EliLibrary.002\"|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliStrings_Mines",
-		"Value": "{{Random:\"Strings\\schedules\\Nova.Eli:EliMines.000\"++\"Strings\\schedules\\Nova.Eli:EliMines.001\"++\"Strings\\schedules\\Nova.Eli:EliMines.002\"|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliStrings_ClinicWait",
-		"Value": "{{Random:\"Strings\\schedules\\Nova.Eli:EliClinic.000\"++\"Strings\\schedules\\Nova.Eli:EliClinic.001\"++\"Strings\\schedules\\Nova.Eli:EliClinic.002\"|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliStrings_ClinicExam",
-		"Value": "{{Random:\"Strings\\schedules\\Nova.Eli:EliClinic.003\"++\"Strings\\schedules\\Nova.Eli:EliClinic.004\"++\"Strings\\schedules\\Nova.Eli:EliClinic.005\"|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliStrings_Unconscious",
-		"Value": "{{Random:\"Strings\\schedules\\Nova.Eli:EliUnconscious.000\"++\"Strings\\schedules\\Nova.Eli:EliUnconscious.001\"++\"Strings\\schedules\\Nova.Eli:EliUnconscious.002\"|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliStrings_Spirit'sEve",
-		"Value": "\"Strings\\schedules\\Nova.Eli:EliSpiritEveInn.002\""
-	},
-	{
-		"Name": "EliStrings_Spirit'sEve",
-		"Value": "\"Strings\\schedules\\Nova.Eli:EliSpiritEveInn.000\"",
-		"When": {
-			"HasMod":"Himetarts.ARV.CP"
-		}
-	},
-
-	{
 		"Name": "EliForest_Rain",
 		"Value": "{{Random:610 Forest 35 26 2 EliSitA++610 Forest 39 11 2++610 Forest 92 20 1|InputSeparator=++}}"
-	},
-	{
-		"Name": "EliNight_Rain",
-		"Value": "{{Random:2230 Mountain 30 9 3 \"Strings\\schedules\\Nova.Eli:EliLateNightRain.000\"++2230 Forest 35 26 2 EliSitA \"Strings\\schedules\\Nova.Eli:EliLateNightRain.000\"++2230 Beach 13 40 2 EliSitA \"Strings\\schedules\\Nova.Eli:EliLateNightRain.000\"|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliTown_Mon",
@@ -223,7 +175,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliNight_Tue",
-		"Value": "{{Random:2330 13 21 2 EliKOsleep {{EliStrings_Unconscious}}++2330 2 5 3 nova.eli_sleep|InputSeparator=++}}"
+		"Value": "{{Random:2330 13 21 2 EliKOsleep++2330 2 5 3 nova.eli_sleep|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliRidgeside_Tue",
@@ -291,15 +243,15 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 //The insanity is finally condensed.
 	{
 		"Name": "EliRain_A",
-		"Value": "0 EastScarp_Village 60 52 0/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52 0/610 Mine 20 4 2 EliBagRummage/1330 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliRain_B",
-		"Value": "0 EastScarp_Village 60 52 0/{{EliForest_Rain}}/1200 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 4 10 0/1800 Saloon 25 18 2/{{EliNight_Rain}}"
+		"Value": "0 EastScarp_Village 60 52 0/{{EliForest_Rain}}/1200 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 5 10 0/1800 Saloon 25 18 2/2230 Forest 35 26 2 EliSitA"
 	},
 	{
 		"Name": "EliMonday_A",
-		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0 {{EliStrings_Library}}/1600 10 13 3 {{EliStrings_Library}}/{{EliES_Mon_A}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52 0/610 SeedShop 4 20 2/{{EliTown_Mon}}/1330 ArchaeologyHouse 19 5 0/1600 10 13 3/{{EliES_Mon_A}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliMonday_B",
@@ -311,7 +263,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTuesday_B",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 EastScarp_VillageInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon 25 18 2/2200 EastScarp_VillageInn 45 34 2 EliKOsleep {{EliStrings_Unconscious}}"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 EastScarp_VillageInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon 25 18 2/2200 EastScarp_VillageInn 44 33 2 EliKOsleep"
 	},
 	{
 		"Name": "EliTuesday_B",
@@ -341,7 +293,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliThursday_B",
-		"Value": "0 EastScarp_Village 60 52/610 Mine 20 4 2 EliBagRummage {{EliStrings_Mines}}/1330 AdventureGuild 6 13 0/{{EliES_TueEvening}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52/610 Mine 20 4 2 EliBagRummage/1330 AdventureGuild 6 13 0/{{EliES_TueEvening}}/2200 {{ModID}}_ESEDHouse 8 21 0/2330 7 5 1/2400 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliFriday_A",
@@ -353,7 +305,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSaturday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 4 10 0/1230 11 9 0/1330 13 5 0/1430 4 10 0/1500 EastScarp_Village 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 5 10 0/1230 11 9 0/1330 13 5 0/1430 5 10 0/1500 EastScarp_Village 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSaturday_B",
@@ -361,7 +313,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSunday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0 {{EliStrings_Library}}/1430 21 5 0 {{EliStrings_Library}}/1500 13 9 0 {{EliStrings_Library}}/1530 6 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 5 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_B",
