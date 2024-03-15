@@ -150,7 +150,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "EliForest_Rain",
-		"Value": "{{Random:610 Forest 35 26 2 EliSitA++610 Forest 39 11 2++610 Forest 92 20 1|InputSeparator=++}}"
+		"Value": "{{Random:610 Forest 39 11 2++610 Forest 92 20 1|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliTown_Mon",

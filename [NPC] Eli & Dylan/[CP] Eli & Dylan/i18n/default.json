@@ -504,7 +504,7 @@ SIGURD/SONDRA*/
 
 "Core.NovaEli.Mateo.1": "I usually work on my own when I'm doing Guild jobs, but it's always good when Mateo ends up coming with. There's nobody else I'd rather have watching my back.$0#$b#And I've got to admit, they've saved my hide a bunch of times now.$1",
 "Core.NovaEli.Mateo.2": "Have you ever been to one of Mateo's game nights? Normally I'm a bit too impatient for tabletop games, but Mateo's great at making it feel immersive and exciting.$1#$b#Last time, I managed to save our party from an Orc warband by seducing their leader with my boyish charm and roguish good looks. He had to let us all go after that!$6#$b#Aideen still won't look me in the eye.$10",
-"Core.NovaEli.Mateo.3": "$query PLAYER_HAS_SEEN_EVENT Current SnS.Ch1.Mateo.12#Watching Emeritus thrive under Mateo's care has been incredible! I've learned a lot about how pepper rexes develop throughout their lives because of it.$3#$b#I'm still super jealous of Mateo, but after seeing them literally knee deep in dino crap... I'm relieved to just be 'Uncle Eli' instead.$10|I'm really envious at Mateo for getting hold of that pepper rex egg. I've seen plenty of wild juveniles and adults before, but the nests are always hard to get to.$1#$b#Pepper rex husbandry isn't well documented because most people wouldn't dare try it. This is a great research opportunity for me!$3",
+"Core.NovaEli.Mateo.3": "$query PLAYER_HAS_SEEN_EVENT Current SnS.Ch1.Mateo.12#Watching Emeritus thrive under Mateo's care has been incredible! I've learned a lot about how pepper rexes develop throughout their lives because of it.$3#$b#I'm still super jealous of Mateo, but after seeing them literally knee deep in dino crap... I'm relieved to just be 'Uncle Eli' instead.$10#$action AddMail Current EnD_Eli_OverrideSeenToday received|I'm really envious at Mateo for getting hold of that pepper rex egg. I've seen plenty of wild juveniles and adults before, but the nests are always hard to get to.$1#$b#Pepper rex husbandry isn't well documented because most people wouldn't dare try it. This is a great research opportunity for me!$3",
 "Core.NovaEli.Mateo.4": "Have you seen Mateo's skill at knife throwing? I watched them nail a cave bat midflight in the mines, while I stood there with my sword waiting for it to get closer!$7#$b#They offered to teach me a few tricks, but Dylan would kill them if it went wrong and I came home missing a few fingers. And then he'd kill me.$11",
 "Core.NovaEli.Mateo.5": "Mateo's knowledge on the supernatural is pretty impressive. It's cool to be able to chat about it with someone who can appreciate it as much as I do.$1#$b#Not sure how much experience they have with it beyond feral undead in the mines, though. I can probably show them a thing or two...$11",
 
@@ -767,10 +767,10 @@ SIGURD/SONDRA*/
 "Locations.NovaEli.Unconscious.3": "%He passed out from exhaustion before he could get back to his bed. It looks uncomfortable, but he'll live.",
 "Locations.NovaEli.SpiritsEveInn.1": "Oi, Rosa! Can we come in yet? Just a few minutes early? Pretty please??$3",
 "Locations.NovaEli.SpiritsEveInn.2": "Take care, @. This is the one night a year when the dead can freely cross over into our world. And not just them. Denizens of the Void, monsters... and other things.$1#$b#Man, I'm completely in my element right now!$1",
-"Locations.NovaEli.LateNightRain": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.3#Hi, @. I'm just gonna stay here for a bit longer, then I'll head back and try to get some sleep.$1|Can't sleep either, @? I figured I'd just sit out here for a while longer before heading home. This rain is pretty soothing.$0#$b#Join me if you want. But with your farmer lifestyle, aren't you worried you'll pass out this late?$6#$b#$y '(Hanging out with Eli will end the day!)_Why not? Sounds good!_$v EnD.EliBonus.3 false false_Sorry, I can't stop._No worries, @. Get home safely, alright? ",
+"Locations.NovaEli.LateNightRain": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.3#Hi, @. I'm just gonna stay here for a bit longer, then I'll head back and try to get some sleep.$1|Can't sleep either, @? I figured I'd just sit out here for a while longer before heading home. This rain is pretty soothing.$0#$b#Join me if you want. But with your farmer lifestyle, aren't you worried you'll pass out this late?$6#$b#$y '(Hanging out with Eli will end the day!)_Why not? Sounds good!_$v EnD.EliBonus.3 false false_Sorry, I can't stop._No worries, @. Get home safely, alright?$0'",
 "Locations.NovaEli.RanchFence.1": "These cows are really tame. Intelligent, too. Marnie reckons they can actually understand what we're saying half the time.$1",
 "Locations.NovaEli.RanchFence.2": "It must be pretty spooky at night, living out in the forest like this. Can you imagine the things that could be lurking out here?$0#$b#If only our bovine friends here could talk... they must have some stories to tell!$1",
-"Locations.NovaEli.RanchFence.3": "Here to see Marnie? She loves having company over. She's pretty used to me visiting - I enjoy talking to her cows.$12",
+"Locations.NovaEli.RanchFence.3": "Here to see Marnie? Or to see her cows? I think they both enjoy having company over.$12",
 
 //DYLAN DIALOGUE
 
@@ -1603,8 +1603,9 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.EliOldWoods": "I want to know how Eli managed to lose that... whatever it was in my room. It didn't look hygienic, either.$2#$b#It WOULD be nice if he'd text me or something before materialising in there. One day I'll hide in his room and jump out at him, see how HE likes it.$5",
 "CT.NovaDylan.JunimoKingIntro": "Hey, @? What's all this about you and Eli encountering a cryptid? He won't stop raving on about it!$0#$b#Wait, it really IS real? It isn't just a stag that got his antlers snagged in a bush?$9#$b#I don't know why, but I think I believe you. I've seen too much strange stuff by now to dismiss it as my brother's fantasies.$0",
 "CT.NovaDylan.EliGuild": "Eli came home covered in bruises earlier. He said he doesn't want to talk about it, but I know he was meant to have a practice duel with someone.$9#$b#I suspect that his big mouth wrote yet another cheque that he couldn't cash.$3",
-"CT.NovaDylan.EliGuestRoom": "Eli said you wandered into the guest room. Yes, I know there's meant to be messed up stuff in there, but is it... is it clean, at least?$9#$b#$y 'What should I say?_[Truth] It's actually pretty bad..._It's FILTHY? And there's cobwebs everywhere?! Oh, no! But I can't go in there to tidy it, Eli said it's too dangerous!$6#$b#%Dylan is having a crisis at the thought of a mess in his house that he can't vanquish. You'd better leave him to it..._[Lie] Squeaky clean, don't worry about it!_Oh, thank goodness for that! I was always worried he'd left it in a state of squalor.$1#$b#I don't care if it's 'in another dimension' 90% of the time, it's still in our house for the remainder. It seems I owe him an apology.$0'",
-"CT.NovaDylan.EliLateHangout": "I hope you didn't get a cold after passing out in rain in the middle of the night. Eli said he made sure you got back safely.$0",
+//FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS
+"CT.NovaDylan.EliGuestRoom": "Eli said you wandered into the guest room. Yes, I know there's meant to be messed up stuff in there, but is it... is it clean, at least?$9#$b#$y 'What should I say?_(Truth) It's actually pretty bad..._It's FILTHY? And there's cobwebs everywhere?! Oh, no! But I can't go in there to tidy it, Eli said it's too dangerous!$6_(Lie) Squeaky clean, don't worry about it!_Oh, good. I don't care if it's \"in another dimension\" 90% of the time, it's still in our house for the remainder. It seems I owe him an apology.$0'",
+"CT.NovaDylan.EliLateHangout": "I hope you didn't get a cold after passing out in that rain in the middle of the night. Eli said he made sure you got back safely.$0",
 
 "CT.NovaDylan.DylanIntro": "Oh, hello again. It was... nice talking to you, I guess?$9",
 "CT.NovaDylan.DylanBeach": "Cheers again for helping out. I had a chat with Lewis about my concerns and he said he'd see what he can do.$1#$b#I don't expect much, but maybe we've started the ball rolling on something good?$0#$b#I managed to collect some cool samples as well.$3",
@@ -1682,7 +1683,7 @@ SIGURD/SONDRA*/
 //SHANE
 
 "CT.Shane.EliIntro": "Eli caused one hell of an accident at JojaMart last year. It wasn't his fault, but it made the mother of all messes... which I had to help clear up.$3#$b#Worth it to see Morris squashed under those shelves. But he didn't find it funny and banned Eli from the store. What an ass.$2",
-"EliLateHangout": "Don't make a habit of passing out in the forest, yeah? I had to listen to Eli's chattering the whole time we were hauling you back to the farm.$3#$b#He was going on and on about mothmen and jabberwocks. And asking if I'd seen any UFOs lately.$3",
+"EliLateHangout": "Don't make a habit of passing out in the forest, yeah? I had to listen to Eli's chattering the whole time we were hauling you back to the farm.$3#$b#He was going on and on about mothmen and jabberwocks. And asking if I'd seen any UFOs lately.$2",
 
 "CT.Shane.DylanSaloon": "Watching Dylan outdrink me wasn't on my bingo card this year. Never knew he had it in him.$0#$b#I bet he's already regretting it, though.$3",
 
@@ -2194,7 +2195,7 @@ SIGURD/SONDRA*/
 "Events.EliGuestRoom.Question.2.Response.2": "Rasmodius reckons that what happened here can't be reversed. He said the room's in a state of 'permanent dimensional flux', that it's become attuned to the Void.$11#$b#It's pretty inconvenient, I won't lie to you. Our guests have to settle for the couch these days.$2",
 "Events.EliGuestRoom.NovaEli.4": "Rasmodius knew what I was doing, no idea how. And he put a stop to it before it got too out of hand.$2#$b#If he hadn't, the Void might've leaked out past this house. But the anomalies are mostly confined to this room. It won't get any worse.$9",
 "Events.EliGuestRoom.NovaEli.5": "And that's our cue to leave! It's about to shift again and we don't wanna be here when it does, HURRY!$7",
-"Events.EliGuestRoom.NovaEli.6": "Close one! It'll be gone now until whenever the next storm hits. I wonder if the denizens of the Void find it as weird as we do?$11",
+"Events.EliGuestRoom.NovaEli.6": "Close one! It'll be gone now until whenever the next storm hits. I wonder if the denizens of the Void find it as weird as we do? Having a random room just show up there.$11",
 "Events.EliGuestRoom.NovaEli.7": "Oh FUCK!",
 "Events.EliGuestRoom.NovaEli.8": "*Huff*...",
 "Events.EliGuestRoom.NovaEli.9": "I... *huff* I hope I've made my point, @. Please stay out of there, yeah?$10#$b#So... with that said... do you want to stay round for a mug of coffee? I can put the kettle on for you!$12",
@@ -2203,7 +2204,7 @@ SIGURD/SONDRA*/
 //NIGHT OWL
 
 "Events.EliNightOwl.NovaEli.1": "Take a seat!",
-"Events.EliNightOwl.Question.1": "I don't usually see other people out this late, you know. And I come out here pretty often!",
+"Events.EliNightOwl.Question.1": "I don't usually see other people out this late, you know. And I come out here pretty often!$1",
 "Events.EliNightOwl.Question.1.Answer.1": "How come you're here, Eli?",
 "Events.EliNightOwl.Question.1.Answer.2": "You're going to catch your death.",
 "Events.EliNightOwl.Question.1.Response.1.1": "Because insomnia's a bitch, that's why. I've been amped up all day and I know that if I go to bed now, I'll still be up for the rest of the night.$10#$b#I can normally tell when it'll just be a waste of time. So I spend the night reading, or stay out to clear my head.$0",
