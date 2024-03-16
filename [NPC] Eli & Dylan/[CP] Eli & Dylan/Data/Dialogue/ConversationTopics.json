@@ -41,6 +41,7 @@
 
 				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
 				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
+				"EnDJojaBreak": "{{i18n:CT.NovaEli.EnDJojaBreak}}",
 
 				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}",
 
@@ -152,6 +153,7 @@
 				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
 				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
 				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}",
+				"EnDJojaBreak": "{{i18n:CT.NovaDylan.EnDJojaBreak}}",
 				
 				//ARV Topics
 				
@@ -287,7 +289,11 @@
 
 				//Dylan Topics
 				
-				"DylanSaloon": "{{i18n:CT.Shane.DylanSaloon}}"
+				"DylanSaloon": "{{i18n:CT.Shane.DylanSaloon}}",
+
+				//Other Topics
+
+				"EnDJojaBreak": "{{i18n:CT.Shane.EnDJojaBreak}}"
 			}
 		},
 
@@ -439,7 +445,8 @@
 			"Action":"EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
-				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}"
+				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
+				"EnDJojaBreak": ""
 			}
 		},
 
@@ -449,6 +456,15 @@
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
 				"EliJunimo1": "{{i18n:CT.Sebastian.EliJunimo1}}"
+			}
+		},
+
+		{
+			"LogName": "Sam",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"Entries": {
+				"EnDJojaBreak": "{{i18n:CT.Sam.EnDJojaBreak}}"
 			}
 		},
 

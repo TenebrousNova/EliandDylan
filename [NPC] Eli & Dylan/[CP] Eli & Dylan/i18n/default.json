@@ -1543,6 +1543,7 @@ SIGURD/SONDRA*/
 
 "CT.NovaEli.SootIntro": "Thanks for stopping by earlier, farmer. It was nice to have you over! I think Soot likes you already.$1",
 "CT.NovaEli.ThistleIntro": "That Thistle's a royal pain, isn't she? She adores Dylan, but she has it out for me. Come to think of it, she dislikes most people. He tells me what she says.$10#$b#I'm not surprised that he gets migraines all the time with her around. She's so loud.$9#$b#...What do you mean I have no indoor voice either?! THAT'S NOT TRUE AT ALL!$7",
+"CT.NovaEli.EnDJojaBreak": "*Sigh* I had an unpleasant encounter with Morris earlier. He's had it out for me for ages now... he gives me the evils if I so much as walk near JojaMart.$9#$b#Dylan stood up for me, though! He panicked when he got home, but he was incredible. I love him so damn much.$3",
 
 "CT.NovaEli.SootPocketAdventure": "Teren borrowed one of my hoodies and got more than he bargained for. Soot was hiding in one of the pockets!$3#$b#I was worried my clothes aren't emo enough for him, but he doesn't seem to mind. And hey, Soot got to have an adventure.$1",
 
@@ -1603,7 +1604,6 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.EliOldWoods": "I want to know how Eli managed to lose that... whatever it was in my room. It didn't look hygienic, either.$2#$b#It WOULD be nice if he'd text me or something before materialising in there. One day I'll hide in his room and jump out at him, see how HE likes it.$5",
 "CT.NovaDylan.JunimoKingIntro": "Hey, @? What's all this about you and Eli encountering a cryptid? He won't stop raving on about it!$0#$b#Wait, it really IS real? It isn't just a stag that got his antlers snagged in a bush?$9#$b#I don't know why, but I think I believe you. I've seen too much strange stuff by now to dismiss it as my brother's fantasies.$0",
 "CT.NovaDylan.EliGuild": "Eli came home covered in bruises earlier. He said he doesn't want to talk about it, but I know he was meant to have a practice duel with someone.$9#$b#I suspect that his big mouth wrote yet another cheque that he couldn't cash.$3",
-//FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS FIX THIS
 "CT.NovaDylan.EliGuestRoom": "Eli said you wandered into the guest room. Yes, I know there's meant to be messed up stuff in there, but is it... is it clean, at least?$9#$b#$y 'What should I say?_(Truth) It's actually pretty bad..._It's FILTHY? And there's cobwebs everywhere?! Oh, no! But I can't go in there to tidy it, Eli said it's too dangerous!$6_(Lie) Squeaky clean, don't worry about it!_Oh, good. I don't care if it's \"in another dimension\" 90% of the time, it's still in our house for the remainder. It seems I owe him an apology.$0'",
 "CT.NovaDylan.EliLateHangout": "I hope you didn't get a cold after passing out in that rain in the middle of the night. Eli said he made sure you got back safely.$0",
 
@@ -1616,6 +1616,7 @@ SIGURD/SONDRA*/
 
 "CT.NovaDylan.SootIntro": "It was a nice change of pace to have a visitor. You're welcome to stop by whenever.$1#$b#Especially if it keeps Soot on his best behaviour. It's not like him to be that docile, especially around strangers.$9",
 "CT.NovaDylan.ThistleIntro": "Sorry if Thistle left a sour impression on you. She was mad when she found out you didn't just leave your crops unprotected from her and her friends.$0#$b#She kept complaining about how unfair it is. But you losing your produce would be unfair. She'll just have to get over it, won't she?$1",
+"CT.NovaDylan.EnDJojaBreak": "Morris was an ass to Eli earlier while we were minding our own business. I couldn't believe he had the gall to do that in public!$2#$b#I had to speak up. Nobody's allowed to be rude to my brother except for me.$5",
 
 "CT.NovaDylan.SootPocketAdventure": "I hear that Soot infiltrated the Bear residence because Teren needed to borrow clothes from Eli. I hope he didn't cause too much havoc...$0",
 
@@ -1687,6 +1688,8 @@ SIGURD/SONDRA*/
 
 "CT.Shane.DylanSaloon": "Watching Dylan outdrink me wasn't on my bingo card this year. Never knew he had it in him.$0#$b#I bet he's already regretting it, though.$3",
 
+"CT.Shane.EnDJojaBreak": "Man, watching Dylan put Morris in his place earlier was really something. You've gotta watch out for the quiet ones.$0",
+
 //CLINT
 
 "CT.Clint.EliSaloon": "I haven't got a chance, have I? I'm just not interesting enough for her...$2#$b#%Clint lets out a heavy sigh.",
@@ -1757,6 +1760,10 @@ SIGURD/SONDRA*/
 //SEBASTIAN
 
 "CT.Sebastian.EliJunimo1": "I never really know what to make of Eli. He's nice and all, but the way he talks and acts sometimes... I'm not sure if he's all there.$2#$b#The crafty way he grins at you, like he knows something you don't. And he KNOWS that you know he knows you don't know.$0#$b#I'm not judging him, though. I'm a bit weird myself. So's Abby.$1",
+
+//SAM
+
+"CT.Sam.EnDJojaBreak": "That was the first time I'd seen the Morays lose their cool. Dylan's pretty no-nonsense, but Eli? I didn't think he could glare at someone like that!$8#$b#Morris kept to himself for the rest of our shift. It was like he'd deflated or something.$1",
 
 //WILLY
 
