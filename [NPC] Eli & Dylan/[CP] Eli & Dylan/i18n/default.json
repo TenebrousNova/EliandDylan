@@ -111,6 +111,9 @@
 
 //Festival Lines
 
+"Core.NovaEli.wonEggHunt": "That was some damn good egg hunting, congrats! There's probably going to be people judging you for trouncing the kids, though.$1#$b#Ah well, gotta get them used to disappointment at an early age, right?$3",
+"Core.NovaEli.wonGrange": "Pierre was totally sulking when I saw him earlier. You breaking his winning streak at the fair must've stung a little.$6",
+"Core.NovaEli.wonIceFishing": "Congrats on winning that ice fishing contest! I'm sorry I wasn't there to cheer you on, but a group of ice slimes showed up during all the excitement.$12#$b#Little buggers thought a whole town's worth of people gathered in one place would be an easy meal, but they thought wrong.$9",
 "Core.NovaEli.Fair_Judging": "Oh, Lewis is starting the judging? Sweet! Best of luck to you. Let me know how it goes, yeah?$1",
 "Core.NovaEli.Fair_Judged_PlayerLost_PurpleShorts": "AHAHAHAHAHAHAHAHAHAH I can't believe you did that, holy shit! The LOOK on the old codger's face!$3#$b#Wait, he BRIBED you as well? I just - I can't -! I need a minute...$7#$b#%Eli is crying from laughing so hard.",
 "Core.NovaEli.Fair_Judged_PlayerLost_Skipped": "Oh, you didn't feel up to participating this time? That's too bad. But hey, there's always next year.$0",
@@ -490,7 +493,7 @@ SIGURD/SONDRA*/
 "Core.NovaEli.Rodney.2": "I got a tarot card reading from Rodney! He said I'm represented by The Fool. I know The Fool doesn't mean a LITERAL fool, but I still suspected a veiled insult.$10#$b#New beginnings, optimism, freedom and unlimited potential are traits I'm happy to be assigned, though!$3",
 "Core.NovaEli.Rodney.3": "I was patrolling the beach for rock crabs last night and saw Rodney getting attacked by one. He hammer tossed it right into the sea before I could reach them!$7#$b#Guy's an absolute beast! Next time he offers me his autograph, I might just accept it out of respect. You know, in case he does the same thing to me.$1",
 "Core.NovaEli.Rodney.4": "I see Rodney quite a lot at the library. He sure loves his sci-fi books. Pretty sure I caught him reading his OWN sci-fi book a few times.$1#$b#Gunther usually ends up telling us to keep it down because we nerd out a lot about aliens and shit.$3",
-"Core.NovaEli.Rodney.5": "I wish Rodney would close his curtains sometimes. I've seen things I wish I could unsee when he goes past the windows in the evening.$9#$b#I hope Dylan doesn't end up looking in that direction at the wrong time, I don't need him getting traumatised.$2",
+"Core.NovaEli.Rodney.5": "It would be nice if Rodney closed his curtains sometimes. I've seen things I wish I could unsee when he goes past the windows in the evening.$9#$b#I hope Dylan doesn't end up looking in that direction at the wrong time, I don't need him getting traumatised.$2",
 
 //SEN
 
@@ -563,17 +566,38 @@ SIGURD/SONDRA*/
 //MISC.
 
 "Core.NovaEli.DumpsterDiveComment": "Hahaha, that's not what I expected to see! Found anything good in there?$3",
-
 "Core.NovaEli.HitBySlingshot.1": "Missed.$6",
 "Core.NovaEli.HitBySlingshot.2": "Aaaand that was a miss!$6",
 "Core.NovaEli.HitBySlingshot.3": "Are you even trying to aim at me? That one went nowhere.$6",
 "Core.NovaEli.HitBySlingshot.4": "*Yawn* Would it help if I stood right in front of you next time?$6",
 "Core.NovaEli.HitBySlingshot.5": "I can do this all day, @. Can you?$6",
-
 "Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Oh wow! That's really sweet of you, but I've already been asked to see a movie tonight. Maybe another time?$12",
 "Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek": "Ah, I can't make it today @. I've got a lot to do - how about next week?$12",
-
 "Core.NovaEli.WipedMemory": "Hey there, @. How're you doing? Wait, this is... what... what did you...?$7#%Eli's eyes momentarily glaze over before refocusing on you with confusion.#$b#Weird. I could've sworn I've known you for ages... but that's not possible. Who are you?$11#$b#@, huh? It's nice to meet you. I'm Eli - we should get to know each other sometime! Perhaps I'll see you around.$1",
+"Core.NovaEli.divorced_once": "I'm so sorry the marriage didn't work out, @. I know what it's like to have relationships collapse. I'm here for you if you need someone to talk to, okay?$2",
+"Core.NovaEli.divorced_twice": "Oh boy, @. I heard about your second divorce... is there anything I can do for you? Can't even imagine how that must feel.$2",
+"Core.NovaEli.cropMatured_260": "I saw you've got peppers growing on your farm! Keep me in mind, won't you? I really like those.$1",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.MandrakeRoot": "Hahaha, you grew those mandrake seeds after all? I bet you didn't believe me when I said they screamed!$3#$b#I'd love to use one in a prank sometime.$6",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.SanguineHeart": "Holy shit, @! I saw what you've been growing on your farm. Are those... heart plants... from the Void seeds I sent you?$7#$b#That's incredible! Have you tried one yet? Are they made of actual meat? What do they taste like?$3",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.BeholderFruit": "Uh... @? How come you have giant eldritch eyeball plants on your farm? Don't tell me... you've been in the guest room again.$10#$b#After what you saw last time, you ignored my warning and came back anyway? You're a person after my own heart.$1#$b#",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.DragonEye": "Ooh, I see you've been growing the dragon eyes! Watch out for them, they've got a proper kick. I reckon even Shane might find them hard to handle.$1",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.CrystallineLily": "Those lilies you've been growing look gorgeous, @! Are they actually made of crystal or is the name some kind of embellishment?$0#$b#If you got them from Sentinel, I imagine it's the real thing!$11",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.PixieBloom": "Did Sentinel give you those butterfly flowers? That's absolutely awesome of them! I tried catching one when I checked out your farm earlier.$3",
+"Core.NovaEli.cropMatured_TenebrousNova.EnD.Bluffshroom": "Demetrius told me about those mushrooms you've been growing. He reckons they're safe to eat, so I might try one if that's okay.$3#$b#I wonder how many other mushrooms in that cavern are edible?$11",
+"Core.NovaEli.fishCaught_TenebrousNova.EnD.LambentHyphafin": "You caught some kind of weird fungus fish in that cavern? That's really cool! I wonder if Demetrius or Dylan would know anything about that.$1",
+"Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel": "What's this I hear about you catching a Junimo-looking fish in that clearing? That's interesting and really adorable!$3#$b#Can Junimos take on the form of fish? I mean, we've already seen that they're capable of shapeshifting into big friendly stagbeasts.$11",
+"Core.NovaEli.gotPet": "Oh hey, I heard that Marnie brought a stray over to your place. I thought I'd seen them hanging around town before, it's great to hear that someone's giving 'em a loving home.$1#$b#I'd love a cat or dog as well, but Soot would get jealous.$12",
+"Core.NovaEli.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "Visited our house, huh? It's not too shabby for a fixer-upper - it was a complete wreck when we moved in!$1#$b#Watch your step though, because Dylan will have an aneurysm if you track mud over his spotless floors. I know from experience.$10",
+"Core.NovaEli.houseUpgrade_1": "Look at you with your expanded house and your very own kitchen! You're moving up in the world, huh?$6",
+"Core.NovaEli.houseUpgrade_2": "Your house looks fantastic, @! Robin did a great job. Mind giving me a tour of the place sometime?$3#$b#I wonder how conducive the roof is for a hypothetical crytozoologist to sit on it...$6",
+"Core.NovaEli.GreenRain": "Ahahahahah, it's like a ghost town all of a sudden! Everyone's hiding indoors from whatever this awesome green rain is. It's got to be magical!$3#$b#Me? I'm staying out here, I want to see what happens. Maybe if I'm exposed for long enough, I'll develop superpowers!$1#$b#It, uh... has interesting effects on our house as well. I'll need to check that out in detail later...$11",
+"Core.NovaEli.GreenRain2": "It's nice to see the green rain come back! I'd love to know what causes it, exactly. It clearly has some sort of effect on the plants around here.$1#$b#Maybe it has something to do with the Junimos? But I don't remember reading anything about this in the folklore around them, and I've read it all.$11",
+"Core.NovaEli.GreenRainFinished": "That was so cool! I hope it happens again sometime soon, It NEVER rained green at Point Drake. The only downside was it knackered our TV for the day.$3#$b#Unfortunately, I don't feel any different from usual... it did NOT give me any form of superpowers or have any mutagenic effects. How disappointing.$2",
+"Core.NovaEli.mineArea_20": "I saw you reach the lake in the mines. Not bad at all for a rookie adventurer! It's relaxing there, isn't it?$1#$b#You didn't see me? Hehe... in my profession, being able to move undetected is important. And I'm pretty damn good at that.$6",
+
+"Core.NovaEli.dating_Shane": "Shane had this big adorably goofy grin on his face when I passed him earlier! I'm glad he found you.$1#$b#Respect to you for not judging him for his hardships in life, @. A lot of people wouldn't have given him the chance.$0",
+"Core.NovaEli.dating_Alex": "I've gotta say, you and Alex make a cute couple! I bet he's pretty sensitive under all the macho jock bravado, right?$1#$b#Reminds me of many a male love interest in my favourite romance novels. Hope it turns out as good for you as it did for them!$3",
+"Core.NovaEli.roommates_Krobus": "Krobus is ever so excited to be living in a human house, @! He won't stop telling me all about it, he genuinely doesn't believe his luck.$1#$b#I have so much second hand knowledge of what it's like to live with you. But I'm not judging.$6",
 
 //GIFT RESPONSES
 
@@ -629,6 +653,8 @@ SIGURD/SONDRA*/
 "Gifts.NovaEli.GiftReaction.Pearl.1": "Oh, this is really cool! Not to mention beautiful! The ocean holds such incredible treasures. It's no wonder that Dylan is so obsessed with it.$1",
 "Gifts.NovaEli.GiftReaction.Pearl.2": "This makes me think about all the pale, blind and scary creatures down there in the abyss. I'd love to see that for myself. Whatever's down there would be so alien to us.$3",
 "Gifts.NovaEli.GiftReaction.GenuineAutographedPhoto": "Holy shit, @. Holy. Shit! A real, genuine autographed photo of THE Two-Time Award Winner, Rodney O'Brien? Signed by his own hand??$7#$b#This is getting framed and hung up in our house so we can admire it every day for the rest of our lives!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.PridePop": "Oh, thank you! As far as I'm concerned, EVERY day is Pride Day - so happy Pride Day, @!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.GaylacticCookie": "Ah shit, is it THAT obvious? Hahaha, thanks @! That's really sweet and thoughtful of you.$12",
 
 //LIKES
 
@@ -656,6 +682,12 @@ SIGURD/SONDRA*/
 "Gifts.NovaEli.GiftReaction.MountainsTotem": "These totems are the simplest and safest way of teleporting. Each type is paired with a corresponding statue that you'll arrive at.$1#$b#I'm not sure who built those statues. To my knowledge there are three in Pelican Town.$11",
 "Gifts.NovaEli.GiftReaction.DesertTotem": "Sweet! Thanks a lot for this @. Skull Cavern, here I come!$3#$b#I'd better plan how I'll get home first, though...$10",
 "Gifts.NovaEli.GiftReaction.IslandTotem": "A free ticket to an exotic tropical island filled with beauty and adventure? Sign me the hell up!$3#$b#Once I'm there, I'll send you a postcard.$1",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.BiBerryMuffin": "Oooh, tasty! This takes me back to questioning myself back in school, but then it turned out I wasn't bi at all. Cheers!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.LesbianLollipop": "Thanks, @! *Ahem* LET'S GO LESBIANS, LET'S GO!!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.EnbyEclair": "Who says people have to fit neatly into one group or the other? Such an old way of thinking. Thanks for the treat!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TastyAceCookie": "Ah, this reminds me of my little brother. I bet he'd like one! Thanks, @.$1",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.ARomanticCookie": "You're giving me free cookies, @? I think I love you - in a totally platonic way!$3",
+"Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TransTart": "Trans rights are human rights, enough said. Thanks for the tart!$3",
 
 //NEUTRAL
 
@@ -804,6 +836,7 @@ SIGURD/SONDRA*/
 
 //FESTIVAL LINES
 
+"Core.NovaDylan.wonEggHunt": "Did you see the look on Abigail's face when you stole her egg hunting crown? Good job, @.$3",
 "Core.NovaDylan.Fair_Judging": "The judging has started, you say? I've got my fingers crossed for you.$1",
 "Core.NovaDylan.Fair_Judged_PlayerLost_PurpleShorts": "I have questions, @. And I'm not sure if I want to know the answers. Like... why were you in possession of the mayor's underwear?$9#$b#Oh, I see. A prank. Am I the only one in this town who isn't immature?$0#$b#%Dylan is trying his hardest to keep a straight face, but fails spectacularly and bursts into laughter.",
 "Core.NovaDylan.Fair_Judged_PlayerLost_Skipped": "Ah, didn't bother entering this year? That's fair enough, it's not like the grange display is the only thing to do around here.$0",
@@ -1206,6 +1239,13 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.RejectMovieTicket_AlreadyInvitedBySomeoneElse": "Oh! Sorry @, but I've got a prior engagement with someone else to the movie theatre later.$1#$b#I'm not used to being this in demand.$3",
 "Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek": "I'm afraid I'll have to turn you down, I went this week already. It doesn't feel as special if I go too often, you know?$0",
 
+"Core.NovaDylan.divorced_once": "I heard about your marriage breaking up. I'm not very good at comforting people, but I'm always here if you need to vent.$2",
+"Core.NovaDylan.divorced_twice": "I'm sorry to hear that your second marriage didn't work out... do you want to talk about it, @?$2",
+"Core.NovaDylan.fishCaught_159": "Oh hey, Willy told me that you caught a crimsonfish! I'm impressed. They are extremely strong for their size.$3",
+"Core.NovaDylan.GreenRain": "Yes, I'm aware that we are experiencing anomalous weather today. Yes, I know pretty much everyone else except my brother refuses to go out in it.$0#$b#I have work to do! As long as it doesn't stain my clothes, I'm not bothered. Besides, I'm interested to see what effect it has on the sea life, if any.$9#$b#I don't even want to know what it's been doing to the guest room.$6",
+"Core.NovaDylan.GreenRain2": "Ugh, I'm not looking forward to washing my clothes. Do you know how hard it is to scrub moss out of them? And that idiot Eli insists on staying out there!$2#$b#He can wash his own clothes this time.$5",
+"Core.NovaDylan.GreenRainEnded": "The effects the green rain had on the marine wildlife seem to range from non-existent to outright beneficial.$0#$b#I've noticed an increased amount of Zooxanthellae in the tissue of the coral samples I took, which allows them to grow faster. It makes them more vibrant, too!$3#$b#The downside is that there appears to be some form of algae or moss growing on the clothes I was wearing...$9",
+
 //GIFT RESPONSES
 
 "Gifts.NovaDylan.GiftReaction.Love": "Oh, wow. You've just made my day, @! Thank you so much.",
@@ -1408,6 +1448,7 @@ SIGURD/SONDRA*/
 
 "Strings.House.EDMailBox": "The Moray Residence^^We are too broke to buy anything.^We know who we are voting for.^We have found Yoba.^No junk mail unless it's pizza vouchers!",
 "Strings.House.EDRadio": "The radio is tuned to the Pelican Town Broadcast System. The familiar voices of Dale & Diane are bickering with each other as usual.",
+"Strings.House.EDRadio.GreenRain": "The radio is making incomprehensible sounds, overlaid with heavy static. The strange weather must be interfering with it. Either that, or Eli broke it!",
 "Strings.House.EDTV": "The drawer below the TV contains an impressive collection of documentaries on nature and the supernatural. There's also a lot of horror movies in here.",
 //Note to translators: you can move the {{GameName}} token below to where it would make sense in the sentence.
 "Strings.House.EDConsole": "A fairly old console that's seen a lot of use. Even now, you can picture the brothers accusing each other of cheating and fighting over the player one controller.#The game currently in it is {{GameName}}",
@@ -1468,14 +1509,17 @@ SIGURD/SONDRA*/
 "Strings.House.EDMouse.7": "'Mouse sneaks around houses for food, hears Humans. Mouse knows secrets, such secrets! But will never tell.'",
 "Strings.House.EDMouse.8": "'Mouse isn't allowed in quiet one's room. What he doesn't know won't hurt him.'",
 "Strings.House.EDMouseLocked": "The diminutive door on the mouse hole is locked. The sign reads 'Gone out until scary room goes away'.",
+"Strings.House.EDMouseLocked.GreenRain": "The diminutive door on the mouse hole is locked. The sign reads 'Gone out to see green rain'.",
 
 "Strings.House.EDGuestRoomWindow.1": "The black sky beyond the window is bereft of stars. There isn't even a sky.",
 "Strings.House.EDGuestRoomWindow.2": "You can see flickers of movement out of the corner of your eye, but there's nothing out there when you try to look.",
 "Strings.House.EDGuestRoomWindow.3": "When did you start to feel so cold and lost? You shouldn't be here.",
 "Strings.House.EDGuestRoomWindow.4": "You can hear the howling of wind. But you also realise that the background noise from the rest of the house stopped the moment you entered this room.",
+"Strings.House.EDGuestRoomWindow.GreenRain": "The window has been completely choked by strange vegetation. You can't see through it.",
 "Strings.House.EDGuestRoomRadio.1": "The radio emits garbled bursts of static at random intervals. You swear that you can hear vaguely familiar voices in it.",
 "Strings.House.EDGuestRoomRadio.2": "You can't turn it off. When you flip it around and open the battery compartment, you discover that it's empty.",
 "Strings.House.EDGuestRoomRadio.3": "A faint whisper is coming from the radio as you approach. You lean closer to listen.#'..s..l...'#'...slee...p..#The radio suddenly sparks before falling silent.",
+"Strings.House.EDGuestRoomRadio.GreenRain": "An indistinct voice is coming from the radio as you approach. You lean closer to listen.#G...R...#...GREE...N#As the radio abruptly makes a hideous drawn out electronic screeching sound that pains your ears, green tendrils rapidly sprout from its inner workings. It suddenly falls silent.",
 "Strings.House.EDGuestRoomTotem": "This odd looking, ivory warp totem is resonating with the glowing designs on the floor. It's like nothing you've ever seen... and you have no idea where it would take you. Better leave it alone.",
 "Strings.House.EDGuestRoomPainting": "'Impression of the Void', by Leah.#The painting depicts waterfalls and islands of dark rock floating in an endless black expanse. Somehow the painted landscape is moving. Darkness regularly surges against the canvas, only to be driven back by strange glowing sigils.#You seriously doubt that Leah is responsible for her painting's bizarre properties.",
 "Strings.House.EDGuestRoomBed": "The bed is covered in a thick layer of dust. No one's been in this room for a long time.#Clearly, Dylan isn't aware of such squalor so close to his own room. This would never stand.",
@@ -1484,6 +1528,7 @@ SIGURD/SONDRA*/
 "Strings.House.EDGuestRoomJournal.1": "Eli's Notes, Part 1:^^My research compels me to try to access the Void itself. Rasmodius laughed in my face when I asked him for help, but you know what they say- if you want something done properly, you've got to do it yourself. I don't mind how long it takes or how many moldering old tomes I need to look through! I suspect that the Shadow Folk originated in that impossible place - perhaps they still dwell there.^^I'm aware that this undertaking carries a huge risk. Is the Void even survivable? Will the very sight of the other side make me go insane? Will our house still be standing? Let's find out!#Have I mentioned that I have very little experience with this? The weird things that I can do are a part of me. Materialising out of thin air in the blink of an eye feels as natural as walking. But actually researching incantations and trying to prepare a ritual is a different beast altogether. I'm no real sorcerer. I have no wizardly qualifications.^^WHAT AM I DOING?#Alright, experiment number one: I've been designing a new warp totem and just finished carving the prototype. I've got to admit, it gives me the heebies. I substituted most of the hardwood for monster bone and also added some void essence (ethically sourced!) and iridium ore (a pain to get hold of). The idea is to use this thing as a sort of focus for the portal.^^Fingers crossed!",
 "Strings.House.EDGuestRoomJournal.2": "Eli's Notes, Part 2:^^The warp totem experiment went pear shaped. When I began the spells, the totem started to resonate and I could feel the atmosphere in the room starting to change. Unfortunately, the totem burned out and fell apart after a minute even as the air around it shimmered and distorted.^I definitely felt something happening. I suddenly felt cold and... empty? It's the middle of Summer but my breath was coming out as mist. And I also somehow felt stronger.^^I'm clearly on the right track!#I was reading that art can be a good catalyst for magic. Trouble is, I'm not much of an artist and neither is Dylan. If I could get a decent painting of the Void, using special pigments made from certain ingredients, I might be able to use that in combination with the warp totem! But what does the Void even look like? All I know is that it's mostly empty. Would this painting HAVE to be accurate?^^Leah waved to me when I took a walk past her cabin in the forest this morning. I wonder how much she charges for commissions?^^This could work out nicely!",
 "Strings.House.EDGuestRoomJournal.3": "Eli's Notes, Part 3:^^I think we're just about ready! Leah did an amazing job with that painting. She made this dark, otherworldly vista dotted by islands and waterfalls floating in the nothingness. It's actually rather beautiful- I hope the real Void looks something like that. Of course, I didn't tell her what I need the painting for.^^Hopefully I'll still be able to hang it on a wall somewhere once this little project is all said and done. I also made a new warp totem, hopefully a bit stronger than the last one.#I've double, triple and quadrupal checked everything. If I don't screw up, the painting will form a small, stable portal to another dimension. If not... oh, who am I kidding?^^Nothing will go wrong. I'm looking forward to telling Dylan and old Rasmodius all about my success later!#(The following was written in a hurry. You can barely make it out.)^^It worked, but not how it should've. The painting opened and I finally saw the Void. What I saw defies description. Everything I thought I knew about the world has been turned on its head. But the portal is too unstable and threatens to spill out into the house and East Scarp. I'm both extremely happy and terrified! Rasmodius knows what's going on, he teleported into the room and got to work. He looks PISSED.^^Now he's shouting at me to get out immediately so he can seal the room off and put wards on the door. And he also said to take nothing out of the room- not even you, Journal.^^I'm sorry.",
+"Strings.House.EDGuestRoomJournal.GreenRain": "Eli's Notes^^Holy shit. It's been a long time since my little experiment caused this room to be subsumed by the Void, but today, something else has taken over. Whatever this green rain is, it seems to be muting the Void's influence here. I can feel it for myself... it's absolutely there, but the plants - there are bloody TREES growing in my house - have overrun everything!^^My theory is that the green rain has some sort of purifying effect, that it somehow re-anchored the guest room back into reality. I don't know how long it'll last, so I'm writing as fast as I can. I need to get out in that rain and see what's happening!#What'll happen when the rain ends, though? Will the room leave again? What'll happen to those plants when they reach the Void? Will they die there, or proliferate and turn the timeless black abyss into a lush, otherworldly jungle?^^Arghh, why did I have to screw up that ritual?! I could find answers to these questions if I could get back to the other side, I know it!^^I'm heading out to experience the green rain for myself. Eli signing off!",
 
 "Strings.MushroomCave.Cliff": "A vast cavern stretches before you, filled with glittering spores and giant mushrooms that shimmer with bioluminescent light. This strange ecosystem has lain undisturbed for millenia.",
 
@@ -1568,7 +1613,7 @@ SIGURD/SONDRA*/
 "CT.NovaEli.MeetTheCats": "Oh hey, so you met those cats as well? They make for great conversation, don't they?$1#$b#It feels a bit weird petting them now that I know they're sapient. But they don't seem to mind.$11",
 
 "CT.NovaEli.MateoCaution": "I bumped into Mateo on the beach the other day! What an interesting person. Apparently they're really into adventuring?$0#$b#They're a bit taciturn, though. Which is fine! But it's been a while since I met someone who makes Dylan look like a chatterbox.$3",
-"CT.NovaEli.MateoRescue": "Oh, you went into the mines for the first time? Sweet! How did it go?$3#$b#Mateo saved you a sticky end at the pseudopods of a slime horde? Sounds about right. They've pulled my arse out of the fire once or twice.$10",
+"CT.NovaEli.MateoRescue": "Oh, you went into the mines for the first time? Sweet! How did it go?$3#$b#Mateo saved you from a sticky end at the pseudopods of a slime horde? Sounds about right. They've pulled my arse out of the fire once or twice.$10",
 "CT.NovaEli.MateoLibrary": "It's a shame that someone half-inched the museum collection. It used to be impressive, or so Gunther told me.$2#$b#Seriously, what kind of person would do that? What've they got against education?$8",
 
 "CT.NovaEli.TalkWithGunther": "Oh, I recognise that look of bewildered awe you've got on your mug!$6#$b#You came face to face with TWO TIME AWARD WINNER, RODNEY O'BRIEN!! He's our neighbour.$3#$b#...Is he always like that? Yeah. Yeah, he is. Get used to it.$1",
@@ -1580,12 +1625,15 @@ SIGURD/SONDRA*/
 "CT.NovaEli.BearFamTimeForBees": "How does Sig manage to carry those hives around without getting stung into oblivion? Maybe he just doesn't feel it. He's a tough one!$11",
 "CT.NovaEli.SigLowBattery": "I sometimes forget that Sig has hearing trouble. He always starts frowning and fiddling with his hearing aid when I pass him.$11",
 "CT.NovaEli.SondraAgingGracefully": "I saw Sam and Sebastian lugging Sondra's shopping for her earlier! Sam was talking her ear off about his band.$0#$b#Seb looked like he wanted to melt into the floor.$6",
+"CT.NovaEli.BearFamFullHouse": "I saw that Gunnar and Gudrun have moved in! I only got to meet them briefly last year when Sig and Sondra arrived. I was helping with the furniture.$1#$b#I was carrying something absurdly expensive up the stairs with Gunnar and we dropped it. I actually panicked, I thought they were gonna sue me.$2#$b#Luckily they didn't seem to care. They just said they could get another.$10",
 
 "CT.NovaEli.NoraIntro": "Have you seen Nora's pet reptiles? They're so cute! I always fuss over 'em when I come over.$3#$b#I could honestly chat all day with her. And sometimes I do!$1",
 
 "CT.NovaEli.LotV_CT_EveMeet": "You've got a bunch of dog hair on your clothes, @. Were you accosted by Waffle?$1#$b#Eve's a nice neighbour. Hanging out with her is always a blast!$3",
 
 "CT.NovaEli.LyellsIntro": "Have you seen Lyell's little birdie yet? I'm surprised he's allowed to keep Roswell, but I reckon Lewis is too scared to do anything about it.$6#$b#She tried to steal my best flannel shirt the other day.$10",
+
+"CT.NovaEli.FC.JohnsArrival": "Did you see that John guy earlier? He looked like a gentle breeze would've knocked him flat, poor bastard. What a way to get welcomed to town.$2",
 
 //DYLAN
 
@@ -1653,12 +1701,15 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.BearFamTimeForBees": "I think Sergeant Bear makes a game out of irritating me. He's so crude! But I suppose as neighbours go, he's not too bad.$9",
 "CT.NovaDylan.SigLowBattery": "Sergeant Bear kept telling me to repeat myself earlier and it turned out he was just joking at my expense. He could hear me perfectly well.$7#$b#I thought only old people did that.$9",
 "CT.NovaDylan.SondraAgingGracefully": "I can't believe Eli asked Sondra her age the other day. You just don't DO that to old ladies!$7#$b#From what I gather, she turned 50 recently. For the third time in three years.$1",
+"CT.NovaDylan.BearFamFullHouse": "Hm, I see that Gunnar and Gudrun have returned. I only saw them once, when I introduced myself just to be polite. They seem pleasant enough.$0",
 
 "CT.NovaDylan.NoraIntro": "Nora? Yeah, she's a good friend and a fellow scientist. She comes over pretty often to see documentaries with us or just to talk.$1#$b#It's like having a sister at this point. One who is just as loud as Eli.$9",
 
 "CT.NovaDylan.LotV_CT_EveMeet": "I heard another explosion from Eve's house earlier. What is she DOING in there?$9#$b#She's nice enough, though. And Waffle is really cute!$1",
 
 "CT.NovaDylan.LyellsIntro": "I've heard a lot of stories about people getting chased by Roswell. I'm pretty sure it's baseless slander. She's always very friendly towards me.$1#$b#I don't really know Lyell, but he seems kind and down to earth.$0",
+
+"CT.NovaDylan.FC.JohnsArrival": "I hope that new man is going to be alright. I wonder why he took a boat if he's prone to seasickness? The waves around here can get rough.$2",
 
 //LEWIS
 

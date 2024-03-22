@@ -34,6 +34,8 @@
 
 			//Festival Lines
 
+			"wonEggHunt": "{{i18n:Core.NovaDylan.wonEggHunt}}",
+
 			"Fair_Judging": "{{i18n:Core.NovaDylan.Fair_Judging}}",
 			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerLost_PurpleShorts}}",
 			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerLost_Skipped}}",
@@ -259,7 +261,18 @@
 			"Resort_Wander_2": "{{i18n:Core.NovaDylan.Resort_Wander_2}}",
 			"Resort_Wander_3": "{{i18n:Core.NovaDylan.Resort_Wander_3}}",
 			"Resort_Chair": "{{i18n:Core.NovaDylan.Resort_Chair}}",
-			"Resort_Bar": "{{i18n:Core.NovaDylan.Resort_Bar}}"
+			"Resort_Bar": "{{i18n:Core.NovaDylan.Resort_Bar}}",
+			"divorced_once": "{{i18n:Core.NovaDylan.divorced_once}}",
+  			"divorced_twice": "{{i18n:Core.NovaDylan.divorced_twice}}",
+			"fishCaught_159": "{{i18n:Core.NovaDylan.fishCaught_159}}",
+			"GreenRain": "{{i18n:Core.NovaDylan.GreenRain}}",
+			"GreenRain2": "{{i18n:Core.NovaDylan.GreenRain2}}",
+			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}",
+			//eventseen_(thearrivalevent)_memory_oneweek
+			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
+			
+//Fish caught reactions
+//"fishCaught_139": "I saw you catch that salmon.#$b#If you happen to make a 'salmon dinner' out of it, let me have a bite!",
 		}
 	},
 	{

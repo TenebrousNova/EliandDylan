@@ -102,6 +102,7 @@
 				"BearFamTimeForBees": "{{i18n:CT.NovaEli.BearFamTimeForBees}}",
 				"SigLowBattery": "{{i18n:CT.NovaEli.SigLowBattery}}",
 				"SondraAgingGracefully": "{{i18n:CT.NovaEli.SondraAgingGracefully}}",
+				"BearFamFullHouse": "{{i18n:CT.NovaEli.BearFamFullHouse}}",
 
 				//Nora Topics:
 
@@ -109,7 +110,13 @@
 
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}"
+				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}",
+
+				//John Topics
+
+				"FC.JohnsArrival": "{{i18n:CT.NovaEli.FC.JohnsArrival}}"
+
+				//Barron Topics
 			}
 		},
 
@@ -212,6 +219,7 @@
 				"BearFamTimeForBees": "{{i18n:CT.NovaDylan.BearFamTimeForBees}}",
 				"SigLowBattery": "{{i18n:CT.NovaDylan.SigLowBattery}}",
 				"SondraAgingGracefully": "{{i18n:CT.NovaDylan.SondraAgingGracefully}}",
+				"BearFamFullHouse": "{{i18n:CT.NovaDylan.BearFamFullHouse}}",
 
 				//Nora Topics:
 
@@ -219,7 +227,13 @@
 
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}"
+				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}",
+
+				//John Topics
+
+				"FC.JohnsArrival": "{{i18n:CT.NovaDylan.FC.JohnsArrival}}"
+
+				//Barron Topics
 				
 			}
 		},

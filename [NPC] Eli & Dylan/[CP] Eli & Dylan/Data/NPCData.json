@@ -45,7 +45,7 @@
 					"Appearance": [
 						{
 							"ID": "Spring",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Spring",
 							"Outdoors": true,
 							"Indoors": false,
@@ -65,7 +65,7 @@
 						},
 						{
 							"ID": "Spring 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Spring",
 							"Outdoors": true,
 							"Indoors": false,
@@ -85,7 +85,7 @@
 						},
 						{
 							"ID": "Summer",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Summer",
 							"Outdoors": true,
 							"Indoors": false,
@@ -105,7 +105,7 @@
 						},
 						{
 							"ID": "Summer 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Summer",
 							"Outdoors": true,
 							"Indoors": false,
@@ -125,7 +125,7 @@
 						},
 						{
 							"ID": "Fall",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Fall",
 							"Outdoors": true,
 							"Indoors": false,
@@ -145,7 +145,7 @@
 						},
 						{
 							"ID": "Fall 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Fall",
 							"Outdoors": true,
 							"Indoors": false,
@@ -165,7 +165,7 @@
 						},
 						{
 							"ID": "Winter",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Winter",
 							"Outdoors": true,
 							"Indoors": false,
@@ -185,7 +185,7 @@
 						},
 						{
 							"ID": "Winter 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Winter",
 							"Outdoors": true,
 							"Indoors": false,
@@ -205,14 +205,14 @@
 						},
 						{
 							"ID": "Adventuring Outfit",
-							"Condition": "WEATHER Target Rain, Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.1\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\"",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\", Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.01\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/adventureRain.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/adventure.png}}",
 							"Precedence": -20
 						},
 						{
 							"ID": "Adventuring Outfit",
-							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.1\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\" \"EVENT_ID MadDog.BearFam.16191005\"",
+							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.01\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\" \"EVENT_ID MadDog.BearFam.16191005\"",
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/adventure.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/adventure.png}}",
 							"Precedence": -20
@@ -338,7 +338,7 @@
 					"Appearance": [
 						{
 							"ID": "Spring",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Spring",
 							"Outdoors": true,
 							"Indoors": false,
@@ -358,7 +358,7 @@
 						},
 						{
 							"ID": "Spring 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Spring",
 							"Outdoors": true,
 							"Indoors": false,
@@ -378,7 +378,7 @@
 						},
 						{
 							"ID": "Summer",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Summer",
 							"Outdoors": true,
 							"Indoors": false,
@@ -398,7 +398,7 @@
 						},
 						{
 							"ID": "Summer 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Summer",
 							"Outdoors": true,
 							"Indoors": false,
@@ -418,7 +418,7 @@
 						},
 						{
 							"ID": "Fall",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Fall",
 							"Outdoors": true,
 							"Indoors": false,
@@ -438,7 +438,7 @@
 						},
 						{
 							"ID": "Fall 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Fall",
 							"Outdoors": true,
 							"Indoors": false,
@@ -458,7 +458,7 @@
 						},
 						{
 							"ID": "Winter",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Winter",
 							"Outdoors": true,
 							"Indoors": false,
@@ -478,7 +478,7 @@
 						},
 						{
 							"ID": "Winter 2",
-							"Condition": "WEATHER Target Rain",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Winter",
 							"Outdoors": true,
 							"Indoors": false,
@@ -578,8 +578,8 @@
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": {
-			"Nova.Eli": "{{i18n:Gifts.NovaEli.GiftReaction.Love}}/206 565 253 107 773 797/{{i18n:Gifts.NovaEli.GiftReaction.Like}}/261 681 688 689 690 886 260 395 552 258 286 287 288 772 881 -2/{{i18n:Gifts.NovaEli.GiftReaction.Dislike}}/346 303 348 459 873/{{i18n:Gifts.NovaEli.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaEli.GiftReaction.Neutral}}/-12/",
-			"Nova.Dylan": "{{i18n:Gifts.NovaDylan.GiftReaction.Love}}/149 265 155 560 235 797 206/{{i18n:Gifts.NovaDylan.GiftReaction.Like}}/394 116 128 -4/{{i18n:Gifts.NovaDylan.GiftReaction.Dislike}}//{{i18n:Gifts.NovaDylan.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaDylan.GiftReaction.Neutral}}//"
+			"Nova.Eli": "{{i18n:Gifts.NovaEli.GiftReaction.Love}}/206 565 253 107 773 797 sapphicsaph_pitv.PridePop sapphicsaph_pitv.GaylacticCookie/{{i18n:Gifts.NovaEli.GiftReaction.Like}}/261 681 688 689 690 886 260 395 552 258 286 287 288 772 881 -2 sapphicsaph_pitv.BiBerryMuffin sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart/{{i18n:Gifts.NovaEli.GiftReaction.Dislike}}/346 303 348 459 873/{{i18n:Gifts.NovaEli.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaEli.GiftReaction.Neutral}}/-12/",
+			"Nova.Dylan": "{{i18n:Gifts.NovaDylan.GiftReaction.Love}}/149 265 155 560 235 797 206 sapphicsaph_pitv.PridePop sapphicsaph_pitv.TastyAceCookie/{{i18n:Gifts.NovaDylan.GiftReaction.Like}}/394 116 128 -4 sapphicsaph_pitv.BiBerryMuffin sapphicsaph_pitv.LesbianLollipop  sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart/{{i18n:Gifts.NovaDylan.GiftReaction.Dislike}}//{{i18n:Gifts.NovaDylan.GiftReaction.Hate}}/789/{{i18n:Gifts.NovaDylan.GiftReaction.Neutral}}//"
 		}
 	}
 	]

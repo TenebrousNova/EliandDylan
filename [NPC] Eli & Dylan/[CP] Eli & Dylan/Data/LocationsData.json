@@ -243,6 +243,35 @@
 				"Weather": "Storm"
 			}
 		},
+
+		//???
+
+		{
+			"LogName": "Guest Room (Green)",
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
+			"FromFile": "Assets/Maps/GuestRoomGreen.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 0,
+				"Width": 10,
+				"Height": 14
+			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"Doors"
+					],
+					"Value": "24 12 1 120",
+					"Delimiter": " "
+				}
+			],
+			"When": {
+				"Weather": "GreenRain"
+			}
+		},
 	
 		//Fireplace
 	

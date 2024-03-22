@@ -8,8 +8,8 @@
         "MapTiles": [
           {
             "Position": {
-              "X": "19",
-              "Y": "22"
+              "X": "18",
+              "Y": "25"
             },
             "Layer": "Back",
             "SetProperties": {
@@ -19,7 +19,7 @@
         ],
         "When": {
           "DayOfWeek": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
-          "Weather": "Sun, Wind, Snow, Rain, Storm"
+          "Weather": "Sun, Wind, Snow, Rain, Storm, GreenRain"
         },
         "Season": "Spring, Summer, Fall, Winter",
         "Update": "OnLocationChange"

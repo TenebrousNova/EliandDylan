@@ -143,6 +143,62 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "WeekDay",
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
+
+	{
+		"Name": "ED_Radio",
+		"Value": "{{i18n:Strings.House.EDRadio}}"
+	},
+	{
+		"Name": "ED_Radio",
+		"Value": "{{i18n:Strings.House.EDRadio.GreenRain}}",
+		"When": {
+			"Weather": "GreenRain"
+		}
+	},
+	{
+		"Name": "GuestRoom_Window",
+		"Value": "{{i18n:Strings.House.EDGuestRoomWindow.{{Random:{{Range:1, 4}}}}}}"
+	},
+	{
+		"Name": "GuestRoom_Window",
+		"Value": "{{i18n:Strings.House.EDGuestRoomWindow.GreenRain}}",
+		"When": {
+			"Weather": "GreenRain"
+		}
+	},
+	{
+		"Name": "GuestRoom_Radio",
+		"Value": "{{i18n:Strings.House.EDGuestRoomRadio.{{Random:{{Range:1, 3}}}}}}"
+	},
+	{
+		"Name": "GuestRoom_Radio",
+		"Value": "{{i18n:Strings.House.EDGuestRoomRadio.GreenRain}}",
+		"When": {
+			"Weather": "GreenRain"
+		}
+	},
+	{
+		"Name": "GuestRoom_Journal",
+		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.{{Random:{{Range:1, 3}}}}}}"
+	},
+	{
+		"Name": "GuestRoom_Journal",
+		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.GreenRain}}",
+		"When": {
+			"Weather": "GreenRain"
+		}
+	},
+	{
+		"Name": "ED_Mousehole",
+		"Value": "{{i18n:Strings.House.EDMouseLocked}}"
+	},
+	{
+		"Name": "ED_Mousehole",
+		"Value": "{{i18n:Strings.House.EDMouseLocked.GreenRain}}",
+		"When": {
+			"Weather": "GreenRain"
+		}
+	},
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
 
@@ -197,7 +253,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliMountain_Wed",
-		"Value": "{{Random:Mountain 28 16 2 EliSitA++Mountain 30 25 2 EliSitB++Mountain 48 24 1|InputSeparator=++}}"
+		"Value": "{{Random:Mountain 28 16 2 EliSitA++Mountain 33 25 2 EliSitB++Mountain 48 24 1|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliES_Wed",
@@ -426,6 +482,17 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	//Events
 
+	{
+		"Name": "MarlonSVE",
+		"Value": "Marlon"
+	},
+	{
+		"Name": "MarlonSVE",
+		"Value": "MarlonFay",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		}
+	},
 
 	//Eli 2 Hearts
 	//Replace this one when Axell's done with the new animation.

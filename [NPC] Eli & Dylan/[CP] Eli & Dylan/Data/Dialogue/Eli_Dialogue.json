@@ -44,6 +44,9 @@
 
 			//Festival Lines
 
+			"wonEggHunt": "{{i18n:Core.NovaEli.wonEggHunt}}",
+			"wonGrange": "{{i18n:Core.NovaEli.wonGrange}}",
+			"wonIceFishing": "{{i18n:Core.NovaEli.wonIceFishing}}",
 			"Fair_Judging": "{{i18n:Core.NovaEli.Fair_Judging}}",
 			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_PurpleShorts}}",
 			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_Skipped}}",
@@ -324,7 +327,33 @@
 			"Resort_Chair": "{{i18n:Core.NovaEli.Resort_Chair}}",
 			"Resort_Towel": "{{i18n:Core.NovaEli.Resort_Towel}}",
 			"Resort_Towel_2": "{{i18n:Core.NovaEli.Resort_Towel_2}}",
-			"Resort_Towel_3": "{{i18n:Core.NovaEli.Resort_Towel_3}}"
+			"Resort_Towel_3": "{{i18n:Core.NovaEli.Resort_Towel_3}}",
+			"divorced_once": "{{i18n:Core.NovaEli.divorced_once}}",
+  			"divorced_twice": "{{i18n:Core.NovaEli.divorced_twice}}",
+			"cropMatured_260": "{{i18n:Core.NovaEli.cropMatured_260}}",
+			"cropMatured_TenebrousNova.EnD.MandrakeRoot": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.MandrakeRoot}}",
+			"cropMatured_TenebrousNova.EnD.SanguineHeart": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.SanguineHeart}}",
+			"cropMatured_TenebrousNova.EnD.BeholderFruit": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.BeholderFruit}}",
+			"cropMatured_TenebrousNova.EnD.DragonEye": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.DragonEye}}",
+			"cropMatured_TenebrousNova.EnD.CrystallineLily": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.CrystallineLily}}",
+			"cropMatured_TenebrousNova.EnD.PixieBloom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.PixieBloom}}",
+			"cropMatured_TenebrousNova.EnD.Bluffshroom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.Bluffshroom}}",
+			"fishCaught_TenebrousNova.EnD.LambentHyphafin": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.LambentHyphafin}}",
+			"fishCaught_TenebrousNova.EnD.Junimeel": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel}}",
+			"gotPet": "{{i18n:Core.NovaEli.gotPet}}",
+			"firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "{{i18n:Core.NovaEli.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse}}",
+			"houseUpgrade_1": "{{i18n:Core.NovaEli.houseUpgrade_1}}",
+			"houseUpgrade_2": "{{i18n:Core.NovaEli.houseUpgrade_2}}",
+			"GreenRain": "{{i18n:Core.NovaEli.GreenRain}}",
+			"GreenRain2": "{{i18n:Core.NovaEli.GreenRain2}}",
+			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished}}",
+			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20}}",
+			"structureBuilt_Slime Hutch": "",
+			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane}}",
+			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex}}",
+			"roommates_Krobus": "{{i18n:Core.NovaEli.roommates_Krobus}}"
+			//eventseen_(thearrivalevent)_memory_oneweek
+			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
 		}
 	},
 

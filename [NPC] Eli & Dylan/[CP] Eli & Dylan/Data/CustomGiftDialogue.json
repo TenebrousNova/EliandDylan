@@ -45,7 +45,9 @@
 			"AcceptGift_(O)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaEli.GiftReaction.GenuineAutographedPhoto}}",
-			
+			"AcceptGift_(0)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.PridePop}}",
+			"AcceptGift_(0)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.GaylacticCookie}}",
+
 			//Likes
 			
 			"AcceptGift_(O)260": "{{i18n:Gifts.NovaEli.GiftReaction.HotPepper.{{Random:{{Range:1, 2}}}}}}",
@@ -62,7 +64,13 @@
             "AcceptGift_(O)690": "{{i18n:Gifts.NovaEli.GiftReaction.BeachTotem}}",
             "AcceptGift_(O)689": "{{i18n:Gifts.NovaEli.GiftReaction.MountainsTotem}}",
             "AcceptGift_(O)261": "{{i18n:Gifts.NovaEli.GiftReaction.DesertTotem}}",
-            "AcceptGift_(O)886": "{{i18n:Gifts.NovaEli.GiftReaction.IslandTotem}}",	
+            "AcceptGift_(O)886": "{{i18n:Gifts.NovaEli.GiftReaction.IslandTotem}}",
+			"AcceptGift_(0)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.BiBerryMuffin}}",
+			"AcceptGift_(0)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.LesbianLollipop}}",
+			"AcceptGift_(0)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.EnbyEclair}}",
+			"AcceptGift_(0)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TastyAceCookie}}",
+			"AcceptGift_(0)sapphicsaph_pitv.ARomanticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.ARomanticCookie}}",
+			"AcceptGift_(0)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TransTart}}",
 			
 			//Neutral
 
@@ -178,6 +186,8 @@
 			"AcceptGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl}}",
 			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaDylan.GiftReaction.GenuineAutographedPhoto}}",
+			"AcceptGift_(0)sapphicsaph_pitv.PridePop": "",
+			"AcceptGift_(0)sapphicsaph_pitv.TastyAceCookie": "",
 
 			//Likes
 
@@ -186,6 +196,12 @@
 			"AcceptGift_(O)128": "{{i18n:Gifts.NovaDylan.GiftReaction.Pufferfish}}",
 			"AcceptGift_(O)129": "{{i18n:Gifts.NovaDylan.GiftReaction.Anchovy}}",
 			"AcceptGift_(O)130": "{{i18n:Gifts.NovaDylan.GiftReaction.Tuna}}",
+			"AcceptGift_(0)sapphicsaph_pitv.BiBerryMuffin": "",
+			"AcceptGift_(0)sapphicsaph_pitv.LesbianLollipop": "",
+			"AcceptGift_(0)sapphicsaph_pitv.GaylacticCookie": "",
+			"AcceptGift_(0)sapphicsaph_pitv.EnbyEclair": "",
+			"AcceptGift_(0)sapphicsaph_pitv.ARomanticCookie": "",
+			"AcceptGift_(0)sapphicsaph_pitv.TransTart": "",
 
 			//Neutral
 
