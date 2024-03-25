@@ -4,25 +4,28 @@
         "Action": "EditData",
         "Target": "Data/Fish",
         "Entries": {
-          "TenebrousNova.EnD.LambentHyphafin": "Lambent Hyphafin/50/mixed/12/30/600 1600/spring summer fall winter/both/688 .6 684 .1/3/.5/.5/0" 
+          "TenebrousNova.EnD.LambentHyphafin": "Lambent Hyphafin/50/mixed/12/30/600 1600/spring summer fall winter/both/688 .6 684 .1/3/.5/.5/0" ,
+          "TenebrousNova.EnD.Junimeel": "Junimeel/95/sinker/12/48/600 2600//both/688 .6 684 .1/5/.2/.08/0"
         }
       },
   //"objectid": "name/how often it darts(15 carp, 100 glacierfish)/how it darts(mixed, smooth, floater, sinker, or dart)/min size inches/max size inches/time to catch/seasons unused/weather (sunny, rainy, both)/location unused/min water depth for best catch/spawn multiplier/depth multiplier/min finishing level"
+
+  {
+    "LogName": "Aquarium Sprites",
+    "Action": "Load",
+    "Target": "Mods/TenebrousNova.EnD.CP/EnDAquariumFish",
+    "FromFile": "Assets/EnDAquariumFish.png"
+  },
 
   {
     "LogName": "Aquarium Data",
     "Action": "EditData",
     "Target": "Data/AquariumFish",
     "Entries": {
-      "TenebrousNova.EnD.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EliDylan.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Junimeel": "1/eel/////Mods\\TenebrousNova.EliDylan.CP\\EnDAquariumFish"
+      "TenebrousNova.EnD.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.Junimeel": "1/eel/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.Marimo": "2/crawl/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish/13 10"
     }
-  },
-  {
-    "LogName": "Aquarium Sprites",
-    "Action": "Load",
-    "Target": "Mods/TenebrousNova.EnD.CP/EnDAquariumFish",
-    "FromFile": "Assets/EnDAquariumFish.png"
   },
 
   {

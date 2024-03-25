@@ -1,7 +1,5 @@
 { 
 
-"Core.System.PlayerName": "{{PName}}",
-
 //RELATIONSHIPS
 
 "Core.Relationships.Brother": "brother",
@@ -58,6 +56,8 @@
 "Core.Items.LambentHyphafin.Description": "A symbiotic fungus within its body fuels its bioluminescent lures, allowing it to capture prey and signal other Hyphafins.",
 "Core.Items.Junimeel": "Junimeel",
 "Core.Items.Junimeel.Description": "A rare and delicate fish with a striking resemblance to the forest spirits of legend. It can only thrive in the purest of waters.",
+"Core.Items.Marimo": "Marimo",
+"Core.Items.Marimo.Description": "An aquatic variety of moss that grows in a ball shape and tumbles along the bottom of rivers and lakes. It is popular in aquariums.",
 
 //ELI DIALOGUE
 
@@ -68,7 +68,7 @@
 //BUILDING ENTRY DIALOGUE
 
 "Core.NovaEli.SaloonEntry": "I could murder a coffee, Emily!/Evening everyone!/Something smells delicious, Gus!/Did you all miss me?",
-"Core.NovaEli.SeedShopEntry": "How's it going, Pierre?/Pierre? I had another kitchen mishap!/Soot got into the cupboards again.../Got anything from %farm farm?",
+"Core.NovaEli.SeedShopEntry": "How's it going, Pierre?/Pierre? I had another kitchen mishap!/Soot got into the cupboards again.../Got anything from {{FName}} farm?",
 "Core.NovaEli.HospitalEntry": "Oh no... oh NO.../You can do this, Eli.../Hi there, Maru!/Have mercy on me, Harvey!",
 
 //RANDOM DIALOGUE
@@ -585,7 +585,7 @@ SIGURD/SONDRA*/
 "Core.NovaEli.cropMatured_TenebrousNova.EnD.PixieBloom": "Did Sentinel give you those butterfly flowers? That's absolutely awesome of them! I tried catching one when I checked out your farm earlier.$3",
 "Core.NovaEli.cropMatured_TenebrousNova.EnD.Bluffshroom": "Demetrius told me about those mushrooms you've been growing. He reckons they're safe to eat, so I might try one if that's okay.$3#$b#I wonder how many other mushrooms in that cavern are edible?$11",
 "Core.NovaEli.fishCaught_TenebrousNova.EnD.LambentHyphafin": "You caught some kind of weird fungus fish in that cavern? That's really cool! I wonder if Demetrius or Dylan would know anything about that.$1",
-"Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel": "What's this I hear about you catching a Junimo-looking fish in that clearing? That's interesting and really adorable!$3#$b#Can Junimos take on the form of fish? I mean, we've already seen that they're capable of shapeshifting into big friendly stagbeasts.$11",
+"Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel": "$query PLAYER_HAS_SEEN_EVENT Current EnD.Eli.09#What's this I hear about you catching a Junimo-looking fish? That's interesting and really adorable!$3#$b#Can Junimos take on the form of fish? I mean, we've already seen that they're capable of shapeshifting into big friendly stagbeasts.$11|What's this I hear about you catching a Junimo-looking fish? That's interesting and really adorable!$3Are they some sort of aquatic forest spirit or are they just normal fish that just happen to look that way...? Nah, I don't believe in coincidences.$11",
 "Core.NovaEli.gotPet": "Oh hey, I heard that Marnie brought a stray over to your place. I thought I'd seen them hanging around town before, it's great to hear that someone's giving 'em a loving home.$1#$b#I'd love a cat or dog as well, but Soot would get jealous.$12",
 "Core.NovaEli.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "Visited our house, huh? It's not too shabby for a fixer-upper - it was a complete wreck when we moved in!$1#$b#Watch your step though, because Dylan will have an aneurysm if you track mud over his spotless floors. I know from experience.$10",
 "Core.NovaEli.houseUpgrade_1": "Look at you with your expanded house and your very own kitchen! You're moving up in the world, huh?$6",
@@ -594,6 +594,7 @@ SIGURD/SONDRA*/
 "Core.NovaEli.GreenRain2": "It's nice to see the green rain come back! I'd love to know what causes it, exactly. It clearly has some sort of effect on the plants around here.$1#$b#Maybe it has something to do with the Junimos? But I don't remember reading anything about this in the folklore around them, and I've read it all.$11",
 "Core.NovaEli.GreenRainFinished": "That was so cool! I hope it happens again sometime soon, It NEVER rained green at Point Drake. The only downside was it knackered our TV for the day.$3#$b#Unfortunately, I don't feel any different from usual... it did NOT give me any form of superpowers or have any mutagenic effects. How disappointing.$2",
 "Core.NovaEli.mineArea_20": "I saw you reach the lake in the mines. Not bad at all for a rookie adventurer! It's relaxing there, isn't it?$1#$b#You didn't see me? Hehe... in my profession, being able to move undetected is important. And I'm pretty damn good at that.$6",
+"Core.NovaEli.structureBuilt_Slime Hutch": "Went and built a slime hutch, eh? That thing looks really impressive! Robin outdid herself yet again.$1#$b#Can I visit the slimes when you get some? Not to give them hugs though, I don't fancy getting burned.$3",
 
 "Core.NovaEli.dating_Shane": "Shane had this big adorably goofy grin on his face when I passed him earlier! I'm glad he found you.$1#$b#Respect to you for not judging him for his hardships in life, @. A lot of people wouldn't have given him the chance.$0",
 "Core.NovaEli.dating_Alex": "I've gotta say, you and Alex make a cute couple! I bet he's pretty sensitive under all the macho jock bravado, right?$1#$b#Reminds me of many a male love interest in my favourite romance novels. Hope it turns out as good for you as it did for them!$3",
@@ -1325,16 +1326,19 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.RidgesideGatheringDialogue": "I caught up with Maddie earlier. It's nice to talk to someone in a similar field for a change.$1#$b#The concert? I'm sure I'll enjoy it, but I don't need my eardrums blown out by Sam's screeching. We'll stand further back.$9#$e#Gus and Pika have outdone themselves, haven't they? I can't eat any more... but Eli hasn't stopped. His metabolism is something else.$3",
 "Core.NovaDylan.FireworksFestivalDialogue": "I'm supervising Eli in case he tries smuggling any fireworks home. We are not having a repeat of the catherine wheel incident.$0#$b#I've been looking forward to this, though. I like a good firework display.$3",
 
-//STRINGS
+//LOCATIONAL DIALOGUE
 
-"Strings.NovaDylan.SpiritEveInn.1": "I can't take Eli anywhere with me... so embarrassing...$2",
-"Strings.NovaDylan.SpiritEveInn.2": "Hey, @! Rosa always goes all out when she throws these parties for us. I wouldn't miss them for anything.$0#$b#A lot of people from the west side of town show up as well. I think it's the only time I ever see them round here.$0",
-"Strings.NovaDylan.ClinicAppointment.1": "Hi, @. I'm here for my annual checkup. Hopefully Harvey won't find anything out of the ordinary.$0",
-"Strings.NovaDylan.ClinicAppointment.2": "I know that these appointments are completely routine, but I still can't help but feel a bit paranoid.$9",
-"Strings.NovaDylan.ClinicAppointment.3": "Hey, @. Hope you're not here for anything serious.$0",
-"Strings.NovaDylan.ClinicAppointment.4": "@? I don't think you're meant to be in here.$6",
-"Strings.NovaDylan.ClinicAppointment.5": "...It's getting worse, Harvey. The migraines, the weird dreams... nothing seems to be working.$7",
-"Strings.NovaDylan.ClinicAppointment.6": "...It was entirely my fault that it stung me, I was careless. I think I disinfected it properly, but...$9",
+"Locations.NovaDylan.ClinicWaitA.1": "Hi, @. I'm here for my annual checkup. Hopefully Harvey won't find anything out of the ordinary.$0",
+"Locations.NovaDylan.ClinicWaitA.2": "I know that these appointments are completely routine, but I still can't help but feel a bit paranoid.$9",
+"Locations.NovaDylan.ClinicWaitA.3": "Hey, @. Hope you're not here for anything serious.$0",
+"Locations.NovaDylan.ClinicWaitB.1": "Looks like it's almost time for me to go into the examination room. Wish me luck.$1",
+"Locations.NovaDylan.ClinicWaitB.2": "Oh good, Harvey's not running behind.$0",
+"Locations.NovaDylan.ClinicWaitB.3": "Let's get this over with.$9",
+"Locations.NovaDylan.ClinicAppointment.1": "@? I don't think you're meant to be in here.$6",
+"Locations.NovaDylan.ClinicAppointment.2": "...It's getting worse, Harvey. The migraines, the weird dreams... nothing seems to be working.$7",
+"Locations.NovaDylan.ClinicAppointment.3": "...It was entirely my fault that it stung me, I was careless. I think I disinfected it properly, but...$9",
+"Locations.NovaDylan.SpiritsEveInn.1": "I can't take Eli anywhere with me... so embarrassing...$2",
+"Locations.NovaDylan.SpritisEveInn.2": "Hey, @! Rosa always goes all out when she throws these parties for us. I wouldn't miss them for anything.$0#$b#A lot of people from the west side of town show up as well. I think it's the only time I ever see them round here.$0",
 
 //MOVIE DIALOGUE
 

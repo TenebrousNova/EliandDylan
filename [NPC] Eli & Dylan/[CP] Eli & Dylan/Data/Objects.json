@@ -343,6 +343,24 @@
             "fish_difficulty_extremely_hard",
             "fish_favor_weather_sunny"
           ]
+        },
+        "TenebrousNova.EnD.Marimo": {
+          "Name": "TenebrousNova.EnD.Marimo",
+          "DisplayName": "{{i18n:Core.Items.Marimo}}",
+          "Description": "{{i18n:Core.Items.Marimo.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": true,
+          "Price": 50,
+          "Edibility": 10,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 16,
+          "ContextTags": [
+            "color_green",
+            "forage_marimo"
+          ]
         }
       }
     }

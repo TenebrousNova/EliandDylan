@@ -270,11 +270,22 @@
 			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}",
 			//eventseen_(thearrivalevent)_memory_oneweek
 			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
-			
-//Fish caught reactions
-//"fishCaught_139": "I saw you catch that salmon.#$b#If you happen to make a 'salmon dinner' out of it, let me have a bite!",
 		}
 	},
+
+	{
+		"LogName": "Dylan Locational Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"Hospital_12_14": "{{i18n:Locations.NovaDylan.ClinicWaitA.{{Random:{{Range: 1, 3}}}}}}",
+			"Hospital_10_15": "{{i18n:Locations.NovaDylan.ClinicWaitB.{{Random:{{Range: 1, 3}}}}}}",
+			"Hospital_4_6": "{{i18n:Locations.NovaDylan.ClinicAppointment.{{Random:{{Range: 1, 3}}}}}}",
+			"EastScarp_Village_40_67": "{{i18n:Locations.NovaDylan.SpiritsEveInn.1}}",
+			"EastScarp_VillageInn_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}"
+		}
+	},
+
 	{
         "LogName": "Dylan Override Seen Today Flag Removal", //Removes the flag that stops the NPC from continuing to talk on time update
         "Action": "EditData",

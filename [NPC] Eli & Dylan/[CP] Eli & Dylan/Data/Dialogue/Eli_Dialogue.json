@@ -14,7 +14,7 @@
 			//Entry Dialogue
 
 	         "Saloon_Entry": "{{i18n:Core.NovaEli.SaloonEntry}}",
-			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry}}",
+			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry|FName={{FarmName}}}}",
 			 "Hospital_Entry": "{{i18n:Core.NovaEli.HospitalEntry}}",
 
 			//Important Dates
@@ -348,7 +348,7 @@
 			"GreenRain2": "{{i18n:Core.NovaEli.GreenRain2}}",
 			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished}}",
 			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20}}",
-			"structureBuilt_Slime Hutch": "",
+			"structureBuilt_Slime Hutch": "{{i18n:Core.NovaEli.structureBuilt_Slime Hutch}}",
 			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane}}",
 			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex}}",
 			"roommates_Krobus": "{{i18n:Core.NovaEli.roommates_Krobus}}"

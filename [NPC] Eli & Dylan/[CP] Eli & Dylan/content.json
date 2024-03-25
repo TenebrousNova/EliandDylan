@@ -90,7 +90,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Dialogue/EliStrings.json, Data/Dialogue/DylanStrings.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json"
 	}
 	  
    ],

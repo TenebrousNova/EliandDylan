@@ -501,6 +501,152 @@
 				"Remove": true
 			}
 		]
+	},
+
+	//Adds Marimos and Junimeels to freshwater locations during green rain.
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Town",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Forest",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Woods",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Mountain",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"EastScarp_Village",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"EastScarp_DeepMountains",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Custom_ShearwaterBridge",
+			"Fish"
+		],
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		},
+		"Entries": {
+			"TenebrousNova.EnD.Marimo": {
+				"Id": "TenebrousNova.EnD.Marimo",
+				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"Condition": "WEATHER Here GreenRain"
+			},
+			"TenebrousNova.EnD.Junimeel": {
+				"Id": "TenebrousNova.EnD.Junimeel",
+				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"Condition": "WEATHER Here GreenRain"
+			}
+		}
 	}
     ]
 }
