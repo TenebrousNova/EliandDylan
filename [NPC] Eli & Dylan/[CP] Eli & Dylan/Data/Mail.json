@@ -22,7 +22,7 @@
         "DylanCleanupLetter": "{{i18n:Mail.DylanLetter.1}}%item object 394 1 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.1.Title}}",
         "DylanApology": "{{i18n:Mail.DylanLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}",
 
-        "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1}}%item id (0)TenebrousNova.EnD.BluffshroomStarter 5%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}"
+        "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1}}%item id (O)TenebrousNova.EnD.BluffshroomStarter 5%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}"
       }
     }
   ]

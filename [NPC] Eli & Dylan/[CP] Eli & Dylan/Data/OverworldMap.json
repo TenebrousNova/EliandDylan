@@ -1,0 +1,199 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "NO SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "ESEDHouse": {
+          "Id": "ESEDHouse",
+          "PixelArea": {
+            "X": 204,
+            "Y": 90,
+            "Width": 9,
+            "Height": 7
+          },
+          "Tooltips": [
+            {
+              "Id": "ESEDHouse",
+              "Text": "{{i18n:Core.Locations.ESEDHouse}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "ESEDHouse",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouse",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 204,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "Id": "ESEDHouseDark",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouseDark",
+              "MapPixelArea": {
+                "X": 204,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "Id": "ESEDHouseFull",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouseFull",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 204,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Edit ES World Map NO SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMap/ESmap_EDHouse.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 304,
+        "Height": 222
+      }
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "LogName": "YES SVE",
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "TargetField": [ "EastScarp", "MapAreas" ],
+      "Entries": {
+        "ESEDHouse": {
+          "Id": "ESEDHouse",
+          "PixelArea": {
+            "X": 124,
+            "Y": 90,
+            "Width": 9,
+            "Height": 7
+          },
+          "Tooltips": [
+            {
+              "Id": "ESEDHouse",
+              "Text": "{{i18n:Core.Locations.ESEDHouse}}"
+            }
+          ],
+          "WorldPositions": [
+            {
+              "Id": "ESEDHouse",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouse",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 124,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "Id": "ESEDHouseDark",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouseDark",
+              "MapPixelArea": {
+                "X": 124,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "Id": "ESEDHouseFull",
+              "LocationName": "TenebrousNova.EliDylan.CP_ESEDHouseFull",
+              "ExtendedTileArea": null,
+              "MapPixelArea": {
+                "X": 124,
+                "Y": 90,
+                "Width": 9,
+                "Height": 7
+              },
+              "ScrollText": "{{i18n:Core.Locations.ESEDHouse}}"
+            },
+            {
+              "ScrollTextZones": [],
+              "Id": "Default",
+              "LocationName": "EastScarp_Village",
+              "ScrollText": null
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Edit ES World Map YES SVE",
+      "Action": "EditImage",
+      "When": {
+        //"Season": "spring, summer, fall, winter",
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/WorldMap/ESmap_EDHouseSVE.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 224,
+        "Height": 222
+      }
+    }
+
+  ]
+}

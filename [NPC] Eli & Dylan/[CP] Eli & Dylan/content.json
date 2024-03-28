@@ -41,7 +41,7 @@ ConcernedApe: Making the game that I've been obsessed with for so long!
 And a special thanks to the rest of the gang on the East Scarp and Krobus Discord servers. Without your support, this dumb mod wouldn't have been possible. Love you all!*/
 
 {
-   "Format": "2.0.0",
+   "Format": "2.0.2",
    "Changes": [
 
 	//Portraits & Sprites
@@ -90,10 +90,22 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json"
 	}
 	  
    ],
+
+   //Config
+
+   "ConfigSchema": {
+	"Exclude From Perfection": {
+		"AllowValues": "true, false",
+		"Default": "false",
+		"AllowBlank": false,
+		"Description": "Excludes EnD items from Perfection tracking.",
+		"Section": "General"
+	}
+   },
 
    "DynamicTokens": [
 
@@ -261,7 +273,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliCastlePoint_Wed",
-		"Value": "{{Random:0730 EastScarp_CastlePoint 46 10 2 EliSitA++0730 EastScarp_CastlePoint 9 28 0++0730 EastScarp_CastlePoint 55 60 2 EliSitB++0730 EastScarp_CastlePoint 31 50 2 EliSitA++0730 EastScarp_CastlePoint 12 75 1 EliSitRead|InputSeparator=++}}"
+		"Value": "{{Random:0730 LemurSqueaks.CastlePoint.CP_LoresCove 46 10 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 9 28 0++0730 LemurSqueaks.CastlePoint.CP_LoresCove 55 60 2 EliSitB++0730 LemurSqueaks.CastlePoint.CP_LoresCove 31 50 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 12 75 1 EliSitRead|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliBeach_Wed",
@@ -427,7 +439,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 23 0/0730 EastScarp_CastlePoint 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
+		"Value": "610 12 8 3/630 23 23 0/0730 LemurSqueaks.CastlePoint.CP_LoresCove 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
@@ -609,7 +621,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "Eli_Woods_Sen2",
-		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5}}\"/faceDirection farmer 3/startJittering/pause 500/stopJittering/emote farmer 28/faceDirection 0",
+		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5}}\"/faceDirection farmer 3/startJittering/pause 500/stopJittering/emote farmer 28/faceDirection farmer 0",
 		"When": {
 			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": true

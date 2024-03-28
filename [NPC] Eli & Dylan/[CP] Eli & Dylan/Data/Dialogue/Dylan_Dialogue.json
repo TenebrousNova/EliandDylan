@@ -267,7 +267,7 @@
 			"fishCaught_159": "{{i18n:Core.NovaDylan.fishCaught_159}}",
 			"GreenRain": "{{i18n:Core.NovaDylan.GreenRain}}",
 			"GreenRain2": "{{i18n:Core.NovaDylan.GreenRain2}}",
-			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}",
+			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}"
 			//eventseen_(thearrivalevent)_memory_oneweek
 			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
 		}

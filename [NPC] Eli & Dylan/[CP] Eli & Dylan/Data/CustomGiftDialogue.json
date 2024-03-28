@@ -13,16 +13,16 @@
 
 			//Winter Star
 
-			"WinterStar_ReceiveGift_(0)206": "{{i18n:Gifts.NovaEli.GiftReaction.Pizza.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)107": "{{i18n:Gifts.NovaEli.GiftReaction.DinosaurEgg.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)565": "{{i18n:Gifts.NovaEli.GiftReaction.FireOpal.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)253": "{{i18n:Gifts.NovaEli.GiftReaction.TripleShotEspresso.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)773": "{{i18n:Gifts.NovaEli.GiftReaction.LifeElixir.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)74": "{{i18n:Gifts.NovaEli.GiftReaction.PrismaticShard.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)446": "{{i18n:Gifts.NovaEli.GiftReaction.Rabbit'sFoot.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)373": "{{i18n:Gifts.NovaEli.GiftReaction.GoldenPumpkin.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)206": "{{i18n:Gifts.NovaEli.GiftReaction.Pizza.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)107": "{{i18n:Gifts.NovaEli.GiftReaction.DinosaurEgg.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)565": "{{i18n:Gifts.NovaEli.GiftReaction.FireOpal.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)253": "{{i18n:Gifts.NovaEli.GiftReaction.TripleShotEspresso.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)773": "{{i18n:Gifts.NovaEli.GiftReaction.LifeElixir.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)74": "{{i18n:Gifts.NovaEli.GiftReaction.PrismaticShard.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)446": "{{i18n:Gifts.NovaEli.GiftReaction.Rabbit'sFoot.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)373": "{{i18n:Gifts.NovaEli.GiftReaction.GoldenPumpkin.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.WinterStar}}",
 
 			//Birthday
 
@@ -45,8 +45,8 @@
 			"AcceptGift_(O)279": "{{i18n:Gifts.NovaEli.GiftReaction.MagicRockCandy.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaEli.GiftReaction.Pearl.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaEli.GiftReaction.GenuineAutographedPhoto}}",
-			"AcceptGift_(0)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.PridePop}}",
-			"AcceptGift_(0)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.GaylacticCookie}}",
+			"AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.PridePop}}",
+			"AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.GaylacticCookie}}",
 
 			//Likes
 			
@@ -65,12 +65,12 @@
             "AcceptGift_(O)689": "{{i18n:Gifts.NovaEli.GiftReaction.MountainsTotem}}",
             "AcceptGift_(O)261": "{{i18n:Gifts.NovaEli.GiftReaction.DesertTotem}}",
             "AcceptGift_(O)886": "{{i18n:Gifts.NovaEli.GiftReaction.IslandTotem}}",
-			"AcceptGift_(0)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.BiBerryMuffin}}",
-			"AcceptGift_(0)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.LesbianLollipop}}",
-			"AcceptGift_(0)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.EnbyEclair}}",
-			"AcceptGift_(0)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TastyAceCookie}}",
-			"AcceptGift_(0)sapphicsaph_pitv.ARomanticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.ARomanticCookie}}",
-			"AcceptGift_(0)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TransTart}}",
+			"AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.BiBerryMuffin}}",
+			"AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.LesbianLollipop}}",
+			"AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.EnbyEclair}}",
+			"AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TastyAceCookie}}",
+			"AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.ARomanticCookie}}",
+			"AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.NovaEli.GiftReaction.sapphicsaph_pitv.TransTart}}",
 			
 			//Neutral
 
@@ -160,13 +160,13 @@
 
 			//Winter Star
 
-			"WinterStar_ReceiveGift_(0)149": "{{i18n:Gifts.NovaDylan.GiftReaction.Octopus.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)265": "{{i18n:Gifts.NovaDylan.GiftReaction.SeafoamPudding.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)155": "{{I18n:Gifts.NovaDylan.GiftReaction.SuperCucumber.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)560": "{{i18n:Gifts.NovaDylan.GiftReaction.OceanStone.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.WinterStar}}",
-			"WinterStar_ReceiveGift_(0)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)149": "{{i18n:Gifts.NovaDylan.GiftReaction.Octopus.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)265": "{{i18n:Gifts.NovaDylan.GiftReaction.SeafoamPudding.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)155": "{{I18n:Gifts.NovaDylan.GiftReaction.SuperCucumber.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)560": "{{i18n:Gifts.NovaDylan.GiftReaction.OceanStone.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.WinterStar}}",
+			"WinterStar_ReceiveGift_(O)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl.WinterStar}}",
 
 			//Birthday
 
@@ -183,11 +183,11 @@
 			"AcceptGift_(O)155": "{{i18n:Gifts.NovaDylan.GiftReaction.SuperCucumber.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)560": "{{i18n:Gifts.NovaDylan.GiftReaction.OceanStone}}",
 			"AcceptGift_(O)235": "{{i18n:Gifts.NovaDylan.GiftReaction.Autumn'sBounty}}",
-			"AcceptGift_(0)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
+			"AcceptGift_(O)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl}}",
 			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaDylan.GiftReaction.GenuineAutographedPhoto}}",
-			"AcceptGift_(0)sapphicsaph_pitv.PridePop": "",
-			"AcceptGift_(0)sapphicsaph_pitv.TastyAceCookie": "",
+			"AcceptGift_(O)sapphicsaph_pitv.PridePop": "",
+			"AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "",
 
 			//Likes
 
@@ -196,12 +196,12 @@
 			"AcceptGift_(O)128": "{{i18n:Gifts.NovaDylan.GiftReaction.Pufferfish}}",
 			"AcceptGift_(O)129": "{{i18n:Gifts.NovaDylan.GiftReaction.Anchovy}}",
 			"AcceptGift_(O)130": "{{i18n:Gifts.NovaDylan.GiftReaction.Tuna}}",
-			"AcceptGift_(0)sapphicsaph_pitv.BiBerryMuffin": "",
-			"AcceptGift_(0)sapphicsaph_pitv.LesbianLollipop": "",
-			"AcceptGift_(0)sapphicsaph_pitv.GaylacticCookie": "",
-			"AcceptGift_(0)sapphicsaph_pitv.EnbyEclair": "",
-			"AcceptGift_(0)sapphicsaph_pitv.ARomanticCookie": "",
-			"AcceptGift_(0)sapphicsaph_pitv.TransTart": "",
+			"AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "",
+			"AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "",
+			"AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "",
+			"AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "",
+			"AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "",
+			"AcceptGift_(O)sapphicsaph_pitv.TransTart": "",
 
 			//Neutral
 

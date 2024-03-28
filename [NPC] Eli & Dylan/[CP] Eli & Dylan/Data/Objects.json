@@ -27,7 +27,7 @@
           "Type": "Vegetable",
           "Category": -75,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 200,
           "Edibility": 30,
           "IsDrink": false,
@@ -56,7 +56,7 @@
           "Type": "Fruit",
           "Category": -79,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 250,
           "Edibility": 30,
           "IsDrink": false,
@@ -85,7 +85,7 @@
           "Type": "Fruit",
           "Category": -79,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 100,
           "Edibility": 25,
           "IsDrink": false,
@@ -114,7 +114,7 @@
           "Type": "Fruit",
           "Category": -79,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 100,
           "Edibility": 20,
           "IsDrink": false,
@@ -139,7 +139,7 @@
           "Type": "Flower",
           "Category": -80,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 180,
           "Texture": "Mods/EnD/Objects",
           "SpriteIndex": 8
@@ -162,7 +162,7 @@
           "Type": "Flower",
           "Category": -80,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 90,
           "Texture": "Mods/EnD/Objects",
           "SpriteIndex": 10
@@ -185,7 +185,7 @@
           "Type": "Vegetable",
           "Category": -75,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 75,
           "Edibility": 15,
           "IsDrink": false,
@@ -307,8 +307,8 @@
           "Type": "Fish", //what it is
           "Category": -4, //fish category is 4
           "ExcludeFromRandomSale": true, //no one can randomly sell my fish
-          "ExcludeFromShippingCollection": true, //perfection exclusion
-          "ExcludeFromFishingCollection": true, //perfection exclusion
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}", //perfection exclusion
+          "ExcludeFromFishingCollection": "{{Exclude From Perfection}}", //perfection exclusion
           "Price": 150, //price fish is worth
           "Edibility": 50, //positive number provides life
           "IsDrink": false, //do not drink fish
@@ -329,7 +329,8 @@
           "Type": "Fish",
           "Category": -4,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "ExcludeFromFishingCollection": "{{Exclude From Perfection}}",
           "Price": 200,
           "Edibility": 70,
           "IsDrink": false,
@@ -351,7 +352,7 @@
           "Type": "Forage",
           "Category": -81,
           "ExcludeFromRandomSale": true,
-          "ExcludeFromShippingCollection": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": 50,
           "Edibility": 10,
           "IsDrink": false,
@@ -360,6 +361,215 @@
           "ContextTags": [
             "color_green",
             "forage_marimo"
+          ]
+        },
+        "TenebrousNova.EnD.FrogspawnCoral": {
+          "Name": "TenebrousNova.EnD.FrogspawnCoral",
+          "DisplayName": "{{i18n:Core.Items.FrogspawnCoral}}",
+          "Description": "{{i18n:Core.Items.FrogspawnCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 17,
+          "ContextTags": [
+            "color_green",
+            "forage_frogspawncoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.TorchCoral": {
+          "Name": "TenebrousNova.EnD.TorchCoral",
+          "DisplayName": "{{i18n:Core.Items.TorchCoral}}",
+          "Description": "{{i18n:Core.Items.TorchCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 18,
+          "ContextTags": [
+            "color_purple",
+            "forage_torchcoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.DuncanCoral": {
+          "Name": "TenebrousNova.EnD.DuncanCoral",
+          "DisplayName": "{{i18n:Core.Items.DuncanCoral}}",
+          "Description": "{{i18n:Core.Items.DuncanCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 85,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 19,
+          "ContextTags": [
+            "color_cyan",
+            "forage_duncancoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.Trachyphyllia": {
+          "Name": "TenebrousNova.EnD.Trachyphyllia",
+          "DisplayName": "{{i18n:Core.Items.Trachyphyllia}}",
+          "Description": "{{i18n:Core.Items.Trachyphyllia.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 90,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 20,
+          "ContextTags": [
+            "color_blue",
+            "forage_trachyphyllia",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.Scolymia": {
+          "Name": "TenebrousNova.EnD.Scolymia",
+          "DisplayName": "{{i18n:Core.Items.Scolymia}}",
+          "Description": "{{i18n:Core.Items.Scolymia.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 150,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 21,
+          "ContextTags": [
+            "color_red",
+            "forage_scolymia",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.AcanCoral": {
+          "Name": "TenebrousNova.EnD.AcanCoral",
+          "DisplayName": "{{i18n:Core.Items.AcanCoral}}",
+          "Description": "{{i18n:Core.Items.AcanCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 22,
+          "ContextTags": [
+            "color_purple",
+            "forage_acancoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.ToadstoolCoral": {
+          "Name": "TenebrousNova.EnD.ToadstoolCoral",
+          "DisplayName": "{{i18n:Core.Items.ToadstoolCoral}}",
+          "Description": "{{i18n:Core.Items.ToadstoolCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 23,
+          "ContextTags": [
+            "color_orange",
+            "forage_toadstoolcoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.CandyCaneCoral": {
+          "Name": "TenebrousNova.EnD.CandyCaneCoral",
+          "DisplayName": "{{i18n:Core.Items.CandyCaneCoral}}",
+          "Description": "{{i18n:Core.Items.CandyCaneCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 24,
+          "ContextTags": [
+            "color_brown",
+            "forage_candycanecoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.AcroporaCoral": {
+          "Name": "TenebrousNova.EnD.AcroporaCoral",
+          "DisplayName": "{{i18n:Core.Items.AcroporaCoral}}",
+          "Description": "{{i18n:Core.Items.AcroporaCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 25,
+          "ContextTags": [
+            "color_yellow",
+            "forage_acroporacoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.EleganceCoral": {
+          "Name": "TenebrousNova.EnD.EleganceCoral",
+          "DisplayName": "{{i18n:Core.Items.EleganceCoral}}",
+          "Description": "{{i18n:Core.Items.EleganceCoral.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 120,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 26,
+          "ContextTags": [
+            "color_blue",
+            "forage_elegancecoral",
+            "forage_item_beach"
+          ]
+        },
+        "TenebrousNova.EnD.Gorgonian": {
+          "Name": "TenebrousNova.EnD.Gorgonian",
+          "DisplayName": "{{i18n:Core.Items.Gorgonian}}",
+          "Description": "{{i18n:Core.Items.Gorgonian.Description}}",
+          "Type": "Forage",
+          "Category": -81,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": 80,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 27,
+          "ContextTags": [
+            "color_red",
+            "forage_gorgonian",
+            "forage_item_beach"
           ]
         }
       }

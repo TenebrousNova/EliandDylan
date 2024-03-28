@@ -24,7 +24,18 @@
     "Entries": {
       "TenebrousNova.EnD.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
       "TenebrousNova.EnD.Junimeel": "1/eel/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Marimo": "2/crawl/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish/13 10"
+      "TenebrousNova.EnD.Marimo": "2/crawl/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish/13 10",
+      "TenebrousNova.EnD.FrogspawnCoral": "5/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.TorchCoral": "6/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.DuncanCoral": "7/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.Trachyphyllia": "8/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.Scolymia": "9/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.AcanCoral": "10/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.ToadstoolCoral": "11/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.CandyCaneCoral": "12/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.AcroporaCoral": "13/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.EleganceCoral": "14/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "TenebrousNova.EnD.Gorgonian": "15/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish"
     }
   },
 
@@ -98,47 +109,47 @@
           {
             "RequiredPopulation": 7,
             "Chance": 0.1,
-            "ItemID": "(0)268", //Starfruit
+            "ItemID": "(O)268", //Starfruit
             "MinQuantity": 1,
             "MaxQuantity": 3
           },
           {
             "RequiredPopulation": 5,
             "Chance": 0.1,
-            "ItemID": "(0)749", //Omni Geode
+            "ItemID": "(O)749", //Omni Geode
             "MinQuantity": 1,
             "MaxQuantity": 5
           },
           {
             "RequiredPopulation": 3,
             "Chance": 0.1,
-            "ItemID": "(0)60", //Emerald
+            "ItemID": "(O)60", //Emerald
             "MinQuantity": 1,
             "MaxQuantity": 2
           },
           {
             "RequiredPopulation": 0,
             "Chance": 0.7,
-            "ItemID": "(0)812",
+            "ItemID": "(O)812",
             "MinQuantity": 1,
             "MaxQuantity": 1
           }
         ],
         "PopulationGates": {
           "3": [
-            "(0)70 1", //Jade
-            "(0)196 1", //Salad
-            "(0)296 5" //Salmonberry
+            "(O)70 1", //Jade
+            "(O)196 1", //Salad
+            "(O)296 5" //Salmonberry
           ],
           "5": [
-            "(0)200 1", //Vegetable Medley
-            "(0)259 5", //Fiddlehead Fern
-            "(0)270 3" //Corn
+            "(O)200 1", //Vegetable Medley
+            "(O)259 5", //Fiddlehead Fern
+            "(O)270 3" //Corn
           ],
           "7": [
-            "(0)276 3", //Pumpkin
-            "(0)396 3", //Spice Berry
-            "(0)564 1" //Opal
+            "(O)276 3", //Pumpkin
+            "(O)396 3", //Spice Berry
+            "(O)564 1" //Opal
           ]
         }
       }

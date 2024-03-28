@@ -1,5 +1,7 @@
 { 
 
+//CONFIG
+
 //RELATIONSHIPS
 
 "Core.Relationships.Brother": "brother",
@@ -16,6 +18,8 @@
 "Core.Locations.EDMountainCave": "Deep Mountains Cave",
 "Core.Locations.DylanTidePool": "Dylan Tide Pool",
 "Core.Locations.OldWoods": "Old Woods",
+"Core.Locations.DylanOcean": "Gem Sea",
+"Core.Locations.DylanAbyss": "Abyss",
 
 //ITEM NAMES
 
@@ -58,6 +62,28 @@
 "Core.Items.Junimeel.Description": "A rare and delicate fish with a striking resemblance to the forest spirits of legend. It can only thrive in the purest of waters.",
 "Core.Items.Marimo": "Marimo",
 "Core.Items.Marimo.Description": "An aquatic variety of moss that grows in a ball shape and tumbles along the bottom of rivers and lakes. It is popular in aquariums.",
+"Core.Items.FrogspawnCoral": "Frogspawn Coral",
+"Core.Items.FrogspawnCoral.Description": "A stony coral with large polyps that resemble frog eggs. They can extend long stinging tentacles to attack nearby corals that grow too close.",
+"Core.Items.TorchCoral": "Torch Coral",
+"Core.Items.TorchCoral.Description": "A stony coral with large polyps ending in long, vibrantly coloured tentacles. It is aggressive and will sting other nearby corals.",
+"Core.Items.DuncanCoral": "Duncan Coral",
+"Core.Items.DuncanCoral.Description": "A fast growing stony coral with bright teal polyps ending in short purple tentacles. They have a voracious appetite, but are not aggressive.",
+"Core.Items.Trachyphyllia": "Trachyphyllia",
+"Core.Items.Trachyphyllia.Description": "Known as the open brain coral, it is capable of inflating its tissues in order to slowly move around with the help of the water current.",
+"Core.Items.Scolymia": "Scolymia",
+"Core.Items.Scolymia.Description": "A beautiful variety of stony coral that comes in a large range of stunning colours. They are highly sought after by aquarists.",
+"Core.Items.AcanCoral": "Acan Coral",
+"Core.Items.AcanCoral.Description": "A stony coral with an enormous number of colour variations. Colonies form a dome shape as they grow.",
+"Core.Items.ToadstoolCoral": "Toadstool Coral",
+"Core.Items.ToadstoolCoral.Description": "A species of leather coral. The hundreds of tiny polyps covering its 'cap' give it a soft, fuzzy appearance. It can reach impressive sizes!",
+"Core.Items.CandyCaneCoral": "Candy Cane Coral",
+"Core.Items.CandyCaneCoral.Description": "Also known as the trumpet coral, this stony species can be found in green, purple and brown variations. Colonies can grow up to 16ft across.",
+"Core.Items.AcroporaCoral": "Acropora Coral",
+"Core.Items.AcroporaCoral.Description": "A stony coral that comes in a wide variety of colours and grows in distinctive branching patterns. It is very sensitive to changes in water chemistry.",
+"Core.Items.EleganceCoral": "Elegance Coral",
+"Core.Items.EleganceCoral.Description": "This large stony coral is occasionally mistaken for a sea anemone. With its long swaying tentacles, it's every bit as elegant as its name suggests.",
+"Core.Items.Gorgonian": "Gorgonian",
+"Core.Items.Gorgonian.Description": "This delicate sea fan is composed of a colony of tiny microscopic organisms. Many species are filter feeders, but others rely on photosynthesis.",
 
 //ELI DIALOGUE
 
@@ -1245,7 +1271,7 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.fishCaught_159": "Oh hey, Willy told me that you caught a crimsonfish! I'm impressed. They are extremely strong for their size.$3",
 "Core.NovaDylan.GreenRain": "Yes, I'm aware that we are experiencing anomalous weather today. Yes, I know pretty much everyone else except my brother refuses to go out in it.$0#$b#I have work to do! As long as it doesn't stain my clothes, I'm not bothered. Besides, I'm interested to see what effect it has on the sea life, if any.$9#$b#I don't even want to know what it's been doing to the guest room.$6",
 "Core.NovaDylan.GreenRain2": "Ugh, I'm not looking forward to washing my clothes. Do you know how hard it is to scrub moss out of them? And that idiot Eli insists on staying out there!$2#$b#He can wash his own clothes this time.$5",
-"Core.NovaDylan.GreenRainEnded": "The effects the green rain had on the marine wildlife seem to range from non-existent to outright beneficial.$0#$b#I've noticed an increased amount of Zooxanthellae in the tissue of the coral samples I took, which allows them to grow faster. It makes them more vibrant, too!$3#$b#The downside is that there appears to be some form of algae or moss growing on the clothes I was wearing...$9",
+"Core.NovaDylan.GreenRainFinished": "The effects the green rain had on the marine wildlife seem to range from non-existent to outright beneficial.$0#$b#I've noticed an increased amount of Zooxanthellae in the tissue of the coral samples I took, which allows them to grow faster. It makes them more vibrant, too!$3#$b#The downside is that there appears to be some form of algae or moss growing on the clothes I was wearing...$9",
 
 //GIFT RESPONSES
 

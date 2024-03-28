@@ -119,7 +119,7 @@
 				"Id": "EnD.OnSeenEli4Hearts",
 				"Trigger": "DayStarted",
 				"Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1250, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.05, !PLAYER_HAS_CONVERSATION_TOPIC Current EliWoods",
-				"Action": "AddMail Current EliCaveInvite Now"
+				"Action": "AddMail Current EliCaveInvite now"
 			}
 		}
 	},
@@ -141,8 +141,8 @@
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
-			"EnD.OnSeenEli4Hearts": {
-				"Id": "EnD.OnSeenEli4Hearts",
+			"EnD.OnSeenEli5Hearts": {
+				"Id": "EnD.OnSeenEli5Hearts",
 				"Trigger": "DayStarted",
 				"Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1500, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.06, !PLAYER_HAS_CONVERSATION_TOPIC Current EliMushroomCave",
 				"Action": "AddMail Current EliWarpPrototype Now"

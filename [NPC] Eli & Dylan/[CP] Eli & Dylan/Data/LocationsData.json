@@ -36,6 +36,16 @@
 			"FromFile": "Assets/Maps/OldWoods.tmx"
 		},
 		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_DylanOcean",
+			"FromFile": "Assets/Maps/DylanOcean.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_DylanAbyss",
+			"FromFile": "Assets/Maps/DylanAbyss.tmx"
+		},
+		{
 			"LogName": "Location Data",
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -135,8 +145,8 @@
 						{
 							"Chance": 0.5,
 							"Season": null,
-							"ID": "(0)257", //Morel	
-							"ItemID": "(0)257"
+							"ID": "(O)257", //Morel	
+							"ItemID": "(O)257"
 						},
 						{
 							"Chance": 0.5,
@@ -185,6 +195,14 @@
 					"DisplayName": "{{i18n:Core.Locations.OldWoods}}",
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_OldWoods" },
 					"FormerLocationNames": [ "Custom_OldWoods" ]
+				},
+				"{{ModID}}_DylanOcean": {
+					"DisplayName": "{{i18n:Core.Locations.DylanOcean}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanOcean" }
+				},
+				"{{ModID}}_DylanAbyss": {
+					"DisplayName": "{{i18n:Core.Locations.DylanAbyss}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanAbyss" }
 				}
 			}
 		},
@@ -506,6 +524,7 @@
 	//Adds Marimos and Junimeels to freshwater locations during green rain.
 
 	{
+		"LogName": "EnD Greenrain Fish - Town",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -520,12 +539,13 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - Forest",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -540,12 +560,13 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - Secret Woods",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -560,12 +581,13 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - Mountain",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -580,12 +602,13 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - East Scarp",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -596,16 +619,19 @@
 			"TenebrousNova.EnD.Marimo": {
 				"Id": "TenebrousNova.EnD.Marimo",
 				"ItemId": "(O)TenebrousNova.EnD.Marimo",
+				"FishAreaId": "ESFreshwater",
 				"Condition": "WEATHER Here GreenRain"
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
+				"FishAreaId": "ESFreshwater",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - Deep Mountains",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -620,12 +646,13 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
 	},
 	{
+		"LogName": "EnD Greenrain Fish - Shearwater Bridge",
 		"Action": "EditData",
 		"Target": "Data/Locations",
 		"TargetField": [
@@ -643,8 +670,78 @@
 			},
 			"TenebrousNova.EnD.Junimeel": {
 				"Id": "TenebrousNova.EnD.Junimeel",
-				"ItemId": "(0)TenebrousNova.EnD.Junimeel",
+				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+
+	//Adds corals to the beach.
+
+	{
+		"LogName": "EnD Corals - Beach",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Beach",
+			"Forage"
+		],
+		"Entries": {
+			"(O)TenebrousNova.EnD.FrogspawnCoral": {
+				"Chance": 0.1,
+				"Season": null,
+				"ID": "(O)TenebrousNova.EnD.FrogspawnCoral",	
+				"ItemID": "(O)TenebrousNova.EnD.FrogspawnCoral"
+			},
+			"(O)TenebrousNova.EnD.TorchCoral": {
+				"Chance": 0.1,
+				"Season": null,	
+				"ItemID": "(O)TenebrousNova.EnD.TorchCoral"
+			},
+			"(O)TenebrousNova.EnD.DuncanCoral": {
+				"Chance": 0.1,
+				"Season": null,	
+				"ItemID": "(O)TenebrousNova.EnD.DuncanCoral"
+			},
+			"(O)TenebrousNova.EnD.Trachyphyllia": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.Trachyphyllia"
+			},
+			"(O)TenebrousNova.EnD.Scolymia": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.Scolymia"
+			},
+			"(O)TenebrousNova.EnD.AcanCoral": {
+				"Chance": 0.1,
+				"Season": null,	
+				"ItemID": "(O)TenebrousNova.EnD.AcanCoral"
+			},
+			"(O)TenebrousNova.EnD.ToadstoolCoral": {
+				"Chance": 0.1,
+				"Season": null,	
+				"ItemID": "(O)TenebrousNova.EnD.ToadstoolCoral"
+			},
+			"(O)TenebrousNova.EnD.CandyCaneCoral": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.CandyCaneCoral"
+			},
+			"(O)TenebrousNova.EnD.AcroporaCoral": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.AcroporaCoral"
+			},
+			"(O)TenebrousNova.EnD.EleganceCoral": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.EleganceCoral"
+			},
+			"(O)TenebrousNova.EnD.Gorgonian": {
+				"Chance": 0.1,
+				"Season": null,
+				"ItemID": "(O)TenebrousNova.EnD.Gorgonian"
 			}
 		}
 	}
