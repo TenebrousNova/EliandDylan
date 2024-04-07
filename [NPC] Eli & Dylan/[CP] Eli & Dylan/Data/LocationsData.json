@@ -315,16 +315,34 @@
 		//Deep Mountains Cave
 	
 		{
-			"LogName": "Deep Mountains Cave",
+			"LogName": "Deep Mountains Cave Locked",
 			"Action": "EditMap",
 			"Target": "Maps/EastScarp_DeepMountains",
 			"FromFile": "Assets/Maps/DeepMountainCavePatch.tmx",
 			"ToArea": {
-				"X": 6,
+				"X": 5,
 				"Y": 18,
 				"Width": 6,
-				"Height": 7
+				"Height": 10
 			},
+			"PatchMode": "Replace",
+			"When": {
+				"HasSeenEvent |contains=EnD.Eli.06": "false"
+			}
+		},
+		{
+			"LogName": "Deep Mountains Cave Open",
+			"Action": "EditMap",
+			"Target": "Maps/EastScarp_DeepMountains",
+			"FromFile": "Assets/Maps/DeepMountainCavePatchOpen.tmx",
+			"ToArea": {
+				"X": 5,
+				"Y": 18,
+				"Width": 6,
+				"Height": 10
+			},
+			"Update": "OnLocationChange",
+			"PatchMode": "Replace",
 			"TextOperations": [
 				{
 					"Operation": "Append",
@@ -337,7 +355,7 @@
 				}
 			],
 			"When": {
-				"HasSeenEvent": "EnD.Eli.06"
+				"HasSeenEvent |contains=EnD.Eli.06": "true"
 			}
 		},
 	

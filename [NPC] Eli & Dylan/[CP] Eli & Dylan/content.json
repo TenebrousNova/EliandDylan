@@ -281,7 +281,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliForest_Thu",
-		"Value": "{{Random:610 Forest 100 39 2++610 Forest 58 88 2 EliSitA++610 Forest 34 97 0++610 Forest 35 26 2 EliSitA|InputSeparator=++}}"
+		"Value": "{{Random:610 Forest 97 40 2++610 Forest 58 88 2 EliSitA++610 Forest 34 97 0|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliBeach_Thu",
@@ -320,7 +320,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliForest_Sun",
-		"Value": "{{Random:1000 35 26 2 EliSitA++1000 98 40 2 EliSitB++1000 92 21 1|InputSeparator=++}}"
+		"Value": "{{Random:1000 98 40 2 EliSitB++1000 92 21 1|InputSeparator=++}}"
 	},
 //The insanity is finally condensed.
 	{
@@ -427,26 +427,26 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanMonday_B",
-		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_A",
-		"Value": "0 EastScarp_Village 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "0 EastScarp_Village 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 23 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 23 0/0730 LemurSqueaks.CastlePoint.CP_LoresCove 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep",
+		"Value": "610 12 8 3/630 23 23 0/0730 LemurSqueaks.CastlePoint.CP_LoresCove 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
 		"Name": "DylanWednesday_A",
-		"Value": "610 12 8 3/630 23 23 0/0730 EastScarp_Village 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 EastScarp_Village 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",

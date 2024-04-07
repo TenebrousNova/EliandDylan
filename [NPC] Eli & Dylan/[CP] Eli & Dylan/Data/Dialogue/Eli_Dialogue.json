@@ -83,7 +83,7 @@
 		},
 		"When": {
 			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
+			"Hearts:Nova.Eli": "{{Range: 4, 10}}"
 		  }
 	},
 	{
@@ -113,7 +113,7 @@
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
 			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
+			"Hearts:Nova.Eli": "{{Range: 4, 10}}"
 		 }
 	},
 	//#BearFam Commentary
@@ -348,6 +348,7 @@
 			"GreenRain2": "{{i18n:Core.NovaEli.GreenRain2}}",
 			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished}}",
 			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20}}",
+			"minearea_60": "{{i18n:Core.NovaEli.minearea_60}}",
 			"structureBuilt_Slime Hutch": "{{i18n:Core.NovaEli.structureBuilt_Slime Hutch}}",
 			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane}}",
 			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex}}",

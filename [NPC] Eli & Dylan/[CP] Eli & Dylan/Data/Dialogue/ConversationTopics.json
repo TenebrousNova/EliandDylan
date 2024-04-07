@@ -103,6 +103,7 @@
 				"SigLowBattery": "{{i18n:CT.NovaEli.SigLowBattery}}",
 				"SondraAgingGracefully": "{{i18n:CT.NovaEli.SondraAgingGracefully}}",
 				"BearFamFullHouse": "{{i18n:CT.NovaEli.BearFamFullHouse}}",
+				"GunnarBoxShop": "{{i18n:CT.NovaEli.GunnarBoxShop}}",
 
 				//Nora Topics:
 
@@ -220,6 +221,7 @@
 				"SigLowBattery": "{{i18n:CT.NovaDylan.SigLowBattery}}",
 				"SondraAgingGracefully": "{{i18n:CT.NovaDylan.SondraAgingGracefully}}",
 				"BearFamFullHouse": "{{i18n:CT.NovaDylan.BearFamFullHouse}}",
+				"GunnarBoxShop": "{{i18n:CT.NovaDylan.GunnarBoxShop}}",
 
 				//Nora Topics:
 

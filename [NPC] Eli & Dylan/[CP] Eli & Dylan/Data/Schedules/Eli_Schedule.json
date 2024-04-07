@@ -22,7 +22,7 @@
                     "Sat": "{{Random:{{EliSaturday_A}}++{{EliSaturday_B}}|InputSeparator=++}}",
                     "Sun": "{{Random:{{EliSunday_A}}++{{EliSunday_B}}|InputSeparator=++}}",
                     "summer_7": "0 EastScarp_Village 60 52/610 Town 33 57 2/1030 Hospital 12 14 2/1250 10 15 0/1330 4 6 1/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
-                    "fall_27": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 76 114 1/0900 41 67 1/1120 EastScarp_VillageInn 26 27 2/2000 Town 0 0 0",
+                    "fall_27": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 76 114 1/0900 41 67 1/1120 EastScarp_VillageInn_SpiritEve 26 27 2/2000 Town 0 0 0",
                     "winter_6": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 20 66 1/1000 Beach 44 35 1/1400 Town 44 77 2 EliSitB/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "winter_15": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 54 84 2 EliSitB/1000 53 69 3/1130 24 62 2/1400 Beach 16 25 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "winter_16": "GOTO winter_15",

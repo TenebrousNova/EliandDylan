@@ -71,7 +71,7 @@
 		},
 		"When": {
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
-			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+			"Hearts:Nova.Dylan": "{{Range: 4, 10}}"
 		  }
 	},
 	{
@@ -101,7 +101,7 @@
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
-			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+			"Hearts:Nova.Dylan": "{{Range: 4, 10}}"
 		 }
 	},
 
