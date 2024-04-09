@@ -527,12 +527,12 @@
 		"Target": "Maps/Town",
 		"MapTiles": [
 			{
-				"Position": { "X": 47, "Y": 50},
+				"Position": { "X": 47, "Y": 51},
 				"Layer": "Front",
 				"Remove": true
 			},
 			{
-				"Position": { "X": 47, "Y": 51},
+				"Position": { "X": 47, "Y": 52},
 				"Layer": "Front",
 				"Remove": true
 			}

@@ -333,7 +333,7 @@
 
 "Core.NovaEli.6-10.51": "I saw Lexi out in the ocean the other morning when I was taking a walk on the beach. They actually smiled at me before diving under.$1#$b#What's it like below the waves? What weird and magical stuff must they have seen down there?$11#$b#I'll have to ask! So many questions, so few answers.$0",
 "Core.NovaEli.6-10.52": "Have you seen the local witch? I don't know her story, but she exists. And like many witches she seems to have a massive chip on her shoulder.$0#$b#I asked Rasmodius about her once. He looked very awkward and gruffly told me never to mention her again and not to approach her under any circumstances.$9#$e#I know where this is going. He obviously fancies her.$3",
-"Core.NovaEli.6-10.53": "So, what've you been up to @?$0#$b#Oh, nice! Me, I was out in the forest with Krobus again. I bought marshmallows, pizza, fries and a big thermos of coffee.$1#$e#He got me to try something he called void mayonnaise. It was, uh... UNIQUE. But he wasn't offended by me vomiting into the pond. Seemed to find it funny actually.$10#$b#We both agreed that the rest of the food was wonderful, though!$12",
+"Core.NovaEli.6-10.53": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.05#So what've you been up to, @?$0#$b#Oh, nice! Me, I was out in the forest with Krobus again. I bought marshmallows, pizza, fries and a big thermos of coffee.$1#$e#He got me to try something he called void mayonnaise. It was, uh... UNIQUE. But he wasn't offended by me vomiting into the pond. Seemed to find it funny actually.$10#$b#We both agreed that the rest of the food was wonderful, though!$12|So what've you been up to, @?$0#$b#Oh, nice! I've got plans to visit a friend of mine later. I've got to bring some food and coffee with me.$3#$b#Who is my friend? Sorry @, I'd love to talk about him but I can't. He's extremely shy.$12",
 "Core.NovaEli.6-10.54": "Eloise is a smart kid. She was telling me all kinds of bird facts earlier. I never knew about half of them!$3#$b#I could totally see her becoming an ornithologist one day. Or maybe a vet like her dad.$1",
 "Core.NovaEli.6-10.55": "I bumped into Emily earlier and she said that my aura looks red and yellow with some indigo.$0#$b#I'm not sure what exactly that means but she seems positive it's a good thing. Said it suits me.$3",
 "Core.NovaEli.6-10.56": "*Sigh* I walked all the way into town from the Scarp only to remember that it's Wednesday and Pierre's is closed.$8#$b#Oh well, man's gotta have a break every now and then. Although I reckon he doesn't stop even on his day off.$3#$e#He even works on festivals! Now that's dedication. I don't think Caroline's too impressed, though.$1",
@@ -418,7 +418,7 @@
 "Core.NovaEli.6-10.Summer.8": "Do you grow wheat at this time of year, @? I was thinking about the Golden Thresher Worms of Gotoro. They're cryptids I want to track down once there's a ceasefire.$0#So they're these long, spindly looking annelids with quills running down their sides that let them burrow through soil. And when they emerge to bask, they look just like wheat stalks.$1#$b#There's reports of Gotoran farmers going to harvest their wheat, when a threatened worm thrashed around and sliced through the field. And that's how most crop circles are formed!$3#e#You were thinking it was aliens, weren't you? I've gotta run now, but later I'll tell you all about the time I saw a genuine alien.$6",
 "Core.NovaEli.6-10.Summer.9": "One of these days I've got to ask Robin about getting air conditioning installed in our house. I might actually have an easier time getting to sleep.$2",
 "Core.NovaEli.6-10.Summer.10": "%Eli is walking with a bit of a limp.#$b#Huh? Oh, don't worry about it. Rock crab got my leg when I was on the Scarp beach to clear the buggers out. It happens.$0#$b#No, it's just a shallow cut. Dylan helped me patch it up when I got home. I don't NEED to see the doctor, okay?$9",
-"Core.NovaEli.6-10.Summer.11": "Think I should sign up for that fitness class they have on Tuesdays? I'm pretty active already, but I've been devouring a LOT of ice cream lately.$11",
+"Core.NovaEli.6-10.Summer.11": "Think I should sign up for that fitness class they have on Tuesdays? I'm very active already, but I've been devouring a LOT of ice cream lately.$11",
 "Core.NovaEli.6-10.Summer.12": "Back home, there was this old antique shop that sold jewelry which was rumoured to be magical. All way too expensive for me, of course.$0#$b#And sadly the owner doesn't just let you try out the ring of invisibility before you buy it. That would've been SO handy to have!$2",
 "Core.NovaEli.6-10.Summer.13": "Hey, @! A new novel I ordered turned up today, I'm so excited to get stuck into it. The blurb's promised me an emotional rollercoaster of romance, drama and raw angst.$3#$b#And apparently there's an entire SERIES! Dylan reckons I'm pretty sad for enjoying this stuff, but there's nothing wrong with a nice paperback romance.$12",
 "Core.NovaEli.6-10.Summer.14": "Thistle's been shadowing me all week. I'm pretty sure she's waiting for an opportunity to snitch on me to Dylan for something or other.$8#$b#Don't look now, but she's circling above us as we speak like the stunted vulture that she is.$9#$b#The worst part is I don't know if she does it for fun, or if Dylan deliberately puts her up to it.$2",
@@ -807,27 +807,27 @@ SIGURD/SONDRA*/
 "Locations.NovaEli.Mines.1": "Hey, @. I'm just making last minute preparations before I go down below.$0",
 "Locations.NovaEli.Mines.2": "Sword... check. Medical supplies... check. Emergency warp totem... check. Bombs...$9#$b#...Hang on, where did I leave the bombs?!$7",
 "Locations.NovaEli.Mines.3": "Take care if you're going below, @. Give us a shout if you run into any trouble.$0",
-"Locations.NovaEli.GuntherDesk.1": "Oi Gunther, Have you got that {{EliGenre}} book in that I asked about yet? No? That's cool, I'm just excited about it!$1",
+"Locations.NovaEli.GuntherDesk.1": "Oi Gunther, Have you got that {{EliGenre}} book in that I asked about yet? No? That's cool, I'm just excited about it!$1%noturn",
 "Locations.NovaEli.GuntherDesk.2": "Hi @, I'm just checking in with Gunther. There's supposed to be this fantastic new collection of books coming in soon! I legit can't WAIT!$3#$b#Whoops, sorry Gunther, I'll keep my voice down. I forgot myself for a moment there.$12",
-"Locations.NovaEli.GuntherDesk.3": "%Eli is having an animated, in-depth conversation with Gunther about a translation of some sort of legend or old wife's tale.",
-"Locations.NovaEli.Library.1": "%Eli is completely focused on reading. He doesn't seem to notice you.",
+"Locations.NovaEli.GuntherDesk.3": "%Eli is having an animated, in-depth conversation with Gunther about a translation of some sort of legend or old wife's tale.%noturn",
+"Locations.NovaEli.Library.1": "%Eli is completely focused on reading. He doesn't seem to notice you.%noturn",
 "Locations.NovaEli.Library.2": "Nice to see someone else here! If you ask me, not enough people in this town bother reading.$0#$b#I've always loved it. 'The pen is mightier than the sword' and all that.$1",
 "Locations.NovaEli.Library.3": "Between you and me, I try to get here when Penny's class isn't in session. It can get too awkward when the kids ask me questions.$10#$b#She thinks that my stories aren't suitable for children and she's probably right.$3",
 "Locations.NovaEli.ClinicWaitA.1": "Oh, hey @. Are you here for a torture session with Harvey as well?$2#$b#...What? Me, scared? Pfft! I'm fine! Everything's fine! Who DOESN'T love being poked, prodded and stuck with massive needles?$3#$b#Seriously though. Please rescue me. I'm begging you.$10",
-"Locations.NovaEli.ClinicWaitA.2": "%Eli is visibly pale and agitated. He briefly flashes you a shaky smile but doesn't say anything.",
+"Locations.NovaEli.ClinicWaitA.2": "%Eli is visibly pale and agitated. He briefly flashes you a shaky smile but doesn't say anything.%noturn",
 "Locations.NovaEli.ClinicWaitA.3": "Hi, farmer. Didn't think I'd see you here as well.$0#$b#Dylan said I have to go in for this annual appointment whether I like it or not. I know he's right... but I'd rather be anywhere else.$2",
 "Locations.NovaEli.ClinicWaitB.1": "Everything's fine. I am fine. I am tranquility. I'm in my happy space. I'm safe... I'm gonna be fine! ...R-right??$7",
 "Locations.NovaEli.ClinicWaitB.2": "Play it cool Eli, play it cool. Don't let Harvey see you all worked up like this. He's a nice man. A nice man with... big, BIG sharp needles-!$7",
 "Locations.NovaEli.ClinicWaitB.3": "I-I can still run for it. It's not too late! Nobody could stop me even if they wanted to - but Dylan would be so pissed at me... which one is worse?!$7",
-"Locations.NovaEli.ClinicAppointment.1": "...Yeah, it came out of nowhere and burned a hole right through my shirt. And it's hard to get a slime off you without touching it and making it worse.$2#$b#But really doc, you don't have to make such a fuss. You're not gonna operate, are you? Are you?!$7",
-"Locations.NovaEli.ClinicAppointment.2": "The sleeping medication? It's rubbish! The stuff you prescribed me a while back doesn't make any difference at all.$9#$b#And yeah, I've tried not drinking coffee before sleeping. I still end up restless all night. Why is that?$2#$b#Wait, are you gonna probe my brain or something? I saw this in a horror movie, I'm not dumb! I won't let you do it, Harvey!$7",
+"Locations.NovaEli.ClinicAppointment.1": "...Yeah, it came out of nowhere and burned a hole right through my shirt. And it's hard to get a slime off you without touching it and making it worse.$2#$b#But really doc, you don't have to make such a fuss. You're not gonna operate, are you? Are you?!$7%noturn",
+"Locations.NovaEli.ClinicAppointment.2": "The sleeping medication? It's rubbish! The stuff you prescribed me a while back doesn't make any difference at all.$9#$b#And yeah, I've tried not drinking coffee before sleeping. I still end up restless all night. Why is that?$2#$b#Wait, are you gonna probe my brain or something? I saw this in a horror movie, I'm not dumb! I won't let you do it, Harvey!$7%noturn",
 "Locations.NovaEli.ClinicAppointment.3": "...@? Not that I'm not glad to see you, but when Harvey said this was a walk-in appointment I didn't think he meant it literally.$10#$b#Quick, distract him so I can get out of here! I don't wanna know what he'll do to me if I'm stuck here much longer!$9",
 "Locations.NovaEli.Unconscious.1": "%Eli is passed out and snoring very loudly. It seems that even his energy has its limits.",
 "Locations.NovaEli.Unconscious.2": "%You try to shake Eli awake, but he grumbles at you to leave him alone. Better leave him to it?",
 "Locations.NovaEli.Unconscious.3": "%He passed out from exhaustion before he could get back to his bed. It looks uncomfortable, but he'll live.",
-"Locations.NovaEli.SpiritsEveInn.1": "Oi, Rosa! Can we come in yet? Just a few minutes early? Pretty please??$3",
+"Locations.NovaEli.SpiritsEveInn.1": "Oi, Rosa! Can we come in yet? Just a few minutes early? Pretty please??$3%noturn",
 "Locations.NovaEli.SpiritsEveInn.2": "Take care, @. This is the one night a year when the dead can freely cross over into our world. And not just them. Denizens of the Void, monsters... and other things.$1#$b#Man, I'm completely in my element right now!$1",
-"Locations.NovaEli.LateNightRain": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.3#Hi, @. I'm just gonna stay here for a bit longer, then I'll head back and try to get some sleep.$1|Can't sleep either, @? I figured I'd just sit out here for a while longer before heading home. This rain is pretty soothing.$0#$b#Join me if you want. But with your farmer lifestyle, aren't you worried you'll pass out this late?$6#$b#$y '(Hanging out with Eli will end the day!)_Why not? Sounds good!_$v EnD.EliBonus.3 false false_Sorry, I can't stop._No worries, @. Get home safely, alright?$0'",
+"Locations.NovaEli.LateNightRain": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.03#Hi, @. I'm just gonna stay here for a bit longer, then I'll head back and try to get some sleep.$1|Can't sleep either, @? I figured I'd just sit out here for a while longer before heading home. This rain is pretty soothing.$0#$b#Join me if you want. But with your farmer lifestyle, aren't you worried you'll pass out this late?$6#$b#$y '(Hanging out with Eli will end the day!)_Why not? Sounds good!_$v EnD.EliBonus.03 false false_Sorry, I can't stop._No worries, @. Get home safely, alright?$0'",
 "Locations.NovaEli.RanchFence.1": "These cows are really tame. Intelligent, too. Marnie reckons they can actually understand what we're saying half the time.$1",
 "Locations.NovaEli.RanchFence.2": "It must be pretty spooky at night, living out in the forest like this. Can you imagine the things that could be lurking out here?$0#$b#If only our bovine friends here could talk... they must have some stories to tell!$1",
 "Locations.NovaEli.RanchFence.3": "Here to see Marnie? Or to see her cows? I think they both enjoy having company over.$12",
@@ -1362,8 +1362,8 @@ SIGURD/SONDRA*/
 "Locations.NovaDylan.ClinicWaitB.2": "Oh good, Harvey's not running behind.$0",
 "Locations.NovaDylan.ClinicWaitB.3": "Let's get this over with.$9",
 "Locations.NovaDylan.ClinicAppointment.1": "@? I don't think you're meant to be in here.$6",
-"Locations.NovaDylan.ClinicAppointment.2": "...It's getting worse, Harvey. The migraines, the weird dreams... nothing seems to be working.$7",
-"Locations.NovaDylan.ClinicAppointment.3": "...It was entirely my fault that it stung me, I was careless. I think I disinfected it properly, but...$9",
+"Locations.NovaDylan.ClinicAppointment.2": "...It's getting worse, Harvey. The migraines, the weird dreams... nothing seems to be working.$7%noturn",
+"Locations.NovaDylan.ClinicAppointment.3": "...It was entirely my fault that it stung me, I was careless. I think I disinfected it properly, but...$9%noturn",
 "Locations.NovaDylan.SpiritsEveInn.1": "I can't take Eli anywhere with me... so embarrassing...$2",
 "Locations.NovaDylan.SpritisEveInn.2": "Hey, @! Rosa always goes all out when she throws these parties for us. I wouldn't miss them for anything.$0#$b#A lot of people from the west side of town show up as well. I think it's the only time I ever see them round here.$0",
 
@@ -1585,7 +1585,7 @@ SIGURD/SONDRA*/
 "Mail.DemetriusLetter.1": "Good morning @,^^Eli reported the discovery of the cave system you explored to me, and also provided some truly fascinating fungal samples - I can only find matches for a few of them! I've already sent a few on to my old colleagues at ZuCU's mycology lab and to say that they're excited is an understatement.^^But I digress! One of the specimens is a hardy one that, despite its intriguing warning markings, is non-toxic and even tastes good. I'm not joking! I tried one after my tests concluded it was safe.^^I've enclosed some spores in case you want to try growing them for yourself during Spring and Winter. All they need is some decaying wood to grow on.^^Regards,^-Demetrius",
 
 "Mail.MouseLetter.1.Title": "A crumpled note",
-"Mail.MouseLetter.1": "Mouse knows human wants seeds. Mouse has seeds. Come to Mouse's hidey-hole in brother's house in East Scarp. Bring food and Mouse will give seeds to human... seeds and other things Mouse found.",
+"Mail.MouseLetter.1": "Human wants seeds. Mouse has seeds. Come to Mouse's hidey-hole at brother's house in East Scarp. Bring food and Mouse will give seeds to human... seeds and other things Mouse found.",
 
 //CONVERSATION TOPICS
 
@@ -1595,7 +1595,7 @@ SIGURD/SONDRA*/
 "CT.NovaEli.CCBegin": "The Community Center was a decrepit ruin before we moved here, but we've been shown photos of how it used to look. Fixing it up won't be easy, but I admire you for trying!$1#$b#%Eli looks deep in thought and seems to forget about your presence for a while before you wave your hand in front of his face.#$b#Ah, sorry! You've got me thinking about something in the Community Center that I want to look into. Don't mind me, @.$10",
 "CT.NovaEli.CCBus": "I hear that because of a certain farmer, Pam has been restored to her iron chariot!#$b#I'm looking forward to checking out the desert - I really couldn't be arsed to walk there.$1#$b#But we both know that you had help. Say hi to the Junimos for me, won't you?$6",
 "CT.NovaEli.CCMinecart": "I saw that the minecarts are up and running. This is going to be incredibly convenient, @. And I know that you had a big hand in making it happen!$1#$b#I can already feel my life becoming more and more efficient. I'm never walking to the mines again!$3",
-"CT.NovaEli.CCComplete": "%Eli excitedly greets you with a bone-crushing hug.#$b#You actually did it! The Community Center looks even better now than it did in the old photos!$1#$e#I'm gonna miss those Junimos, though. I'd often visit them, even though I couldn't understand what the little guys were saying.$0#$b#But maybe we haven't seen the last of them. It'll be nice to see that building finally get some use.$1",
+"CT.NovaEli.CCComplete": "%Eli excitedly greets you with a bone-crushing hug.#$b#You actually did it! The Community Center looks even better now than it did in the old photos!$1#$b#I'm gonna miss those Junimos, though. I'd often visit them, even though I couldn't understand what the little guys were saying.$0#$b#But maybe we haven't seen the last of them. It'll be nice to see that building finally get some use.$1",
 "CT.NovaEli.MovieTheater": "Here you go! [809]$0#$b#Dylan and me thought we'd treat you. You deserve it for getting rid of that gaudy Joja eyesore and turning it into something people can actually be proud of.$3#$b#I haven't gone to a movie since we moved here. I'll be happy to join you someday.$1",
 
 "CT.NovaEli.EliIntro": "Sorry that you had to witness me getting chewed out by Lewis earlier. It doesn't happen THAT often, I swear.$10#$b#It was worth it just for the view, to be honest.$3",
@@ -1620,6 +1620,7 @@ SIGURD/SONDRA*/
 "CT.NovaEli.SootIntro": "Thanks for stopping by earlier, farmer. It was nice to have you over! I think Soot likes you already.$1",
 "CT.NovaEli.ThistleIntro": "That Thistle's a royal pain, isn't she? She adores Dylan, but she has it out for me. Come to think of it, she dislikes most people. He tells me what she says.$10#$b#I'm not surprised that he gets migraines all the time with her around. She's so loud.$9#$b#...What do you mean I have no indoor voice either?! THAT'S NOT TRUE AT ALL!$7",
 "CT.NovaEli.EnDJojaBreak": "*Sigh* I had an unpleasant encounter with Morris earlier. He's had it out for me for ages now... he gives me the evils if I so much as walk near JojaMart.$9#$b#Dylan stood up for me, though! He panicked when he got home, but he was incredible. I love him so damn much.$3",
+"CT.NovaEli.EnDClinicAppointment": "Dylan's pretty pissed off at me because he took me to the clinic and I was difficult with Harvey and Maru.$9#$b#And then I ran out on them. I had to get out...$2",
 
 "CT.NovaEli.SootPocketAdventure": "Teren borrowed one of my hoodies and got more than he bargained for. Soot was hiding in one of the pockets!$3#$b#I was worried my clothes aren't emo enough for him, but he doesn't seem to mind. And hey, Soot got to have an adventure.$1",
 
@@ -1697,6 +1698,7 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.SootIntro": "It was a nice change of pace to have a visitor. You're welcome to stop by whenever.$1#$b#Especially if it keeps Soot on his best behaviour. It's not like him to be that docile, especially around strangers.$9",
 "CT.NovaDylan.ThistleIntro": "Sorry if Thistle left a sour impression on you. She was mad when she found out you didn't just leave your crops unprotected from her and her friends.$0#$b#She kept complaining about how unfair it is. But you losing your produce would be unfair. She'll just have to get over it, won't she?$1",
 "CT.NovaDylan.EnDJojaBreak": "Morris was an ass to Eli earlier while we were minding our own business. I couldn't believe he had the gall to do that in public!$2#$b#I had to speak up. Nobody's allowed to be rude to my brother except for me.$5",
+"CT.NovaDylan.EnDClinicAppointment": "I can't believe Eli sometimes. I totally understand him being afraid of being at the clinic, but how he behaved earlier was completely unacceptable.$7#$b#*Sigh* I'll have to sit him down later. I'm not angry at him, just... I worry a lot about him.$2",
 
 "CT.NovaDylan.SootPocketAdventure": "I hear that Soot infiltrated the Bear residence because Teren needed to borrow clothes from Eli. I hope he didn't cause too much havoc...$0",
 
@@ -1805,6 +1807,8 @@ SIGURD/SONDRA*/
 
 "CT.Maru.DylanIntro": "It's exciting to have a marine biologist living in Pelican Town! I think Dylan might actually know more about the local marine ecosystem than Dad.$1#$b#He's always been withdrawn, though. He's obviously passionate about his field of expertise, but he doesn't seem to like engaging with people.$2",
 
+"CT.Maru.EnDClinicAppointment": "Eli got dragged to the clinic earlier by Dylan and... I'm not quite sure what I saw, but he was there one moment and gone the next!$9#$b#Nobody can move that fast, it isn't physically possible.$2",
+
 //Leah
 
 "CT.Leah.EliIntro": "Oh, Eli was on a roof again? I thought I heard Lewis yelling at him earlier.$2#$b#People criticise him for being unconventional, but it's like water off a duck's back to him. I can respect that.$7#$b#Plus he appreciates my art. He commissioned me once when I really needed the cash.$1",
@@ -1830,6 +1834,8 @@ SIGURD/SONDRA*/
 "CT.Harvey.EliMushroomCave": "Eli stopped by earlier, covered in cuts and scrapes. And not for the first time, either. It was all Maru and I could do to get him to stay still long enough to treat him!$2#$b#I'm glad that you were with him when he fell, @. It could've been a lot more serious if he'd landed differently.$0#$b#I worry about these adventurer types, going into dangerous places all the time.$2",
 
 "CT.Harvey.DylanSaloon": "I bumped into Eli on my way out of the Saloon and tried to check him over. Apparently the skirmish over at the mines was a big one.$0#$b#He refused and ran past me. I think Dylan had too much to drink as well... what'll I do with those two?$2",
+
+"CT.Harvey.EnDClinicAppointment": "I'm still trying to work out how Eli managed to leave the clinic without opening the reception door. Maru and I would've noticed!$8",
 
 //ABIGAIL
 
@@ -2295,7 +2301,7 @@ SIGURD/SONDRA*/
 //NIGHT OWL
 
 "Events.EliNightOwl.NovaEli.1": "Take a seat!",
-"Events.EliNightOwl.Question.1": "I don't usually see other people out this late, you know. And I come out here pretty often!$1",
+"Events.EliNightOwl.Question.1": "I don't usually see other people out this late, you know. And I come out here pretty often!",
 "Events.EliNightOwl.Question.1.Answer.1": "How come you're here, Eli?",
 "Events.EliNightOwl.Question.1.Answer.2": "You're going to catch your death.",
 "Events.EliNightOwl.Question.1.Response.1.1": "Because insomnia's a bitch, that's why. I've been amped up all day and I know that if I go to bed now, I'll still be up for the rest of the night.$10#$b#I can normally tell when it'll just be a waste of time. So I spend the night reading, or stay out to clear my head.$0",

@@ -222,7 +222,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Mon",
-		"Value": "{{Random:1100 Town 80 93 2 EliSitA++1100 Town 71 91 2 EliSitRead++1100 Town 25 101 2 EliSitB++1100 Town 47 51 1 EliSitRight|InputSeparator=++}}"
+		"Value": "{{Random:1100 Town 80 93 2 EliSitA++1100 Town 71 91 2 EliSitRead++1100 Town 25 101 2 EliSitB++1100 Town 47 52 1 EliSitRight|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliTown_Mon",
@@ -477,11 +477,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanSaturday_A",
-		"Value": "610 12 8 3/630 24 23 1/0730 EastScarp_Village 73 121 2/1000 22 102 0/1400 45 130 2/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 EastScarp_Village 73 121 2/1000 20 102 0/1400 45 130 2/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSaturday_B",
-		"Value": "610 12 8 3/630 24 23 1/0730 EastScarp_VillageInn 35 32 1/1000 EastScarp_Village 93 107 1 Dylan_WritingRight/1330 38 76 0/1500 22 102 0/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 23 1/0730 EastScarp_VillageInn 35 32 1/1000 EastScarp_Village 93 107 1 Dylan_WritingRight/1330 38 76 0/1500 20 102 0/1700 38 104 2 DylanCampfire_Sit/2400 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSunday_A",

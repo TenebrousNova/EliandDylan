@@ -42,6 +42,7 @@
 				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
 				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
 				"EnDJojaBreak": "{{i18n:CT.NovaEli.EnDJojaBreak}}",
+				"EnDClinicAppointment": "{{i18n:CT.NovaEli.EnDClinicAppointment}}",
 
 				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}",
 
@@ -162,6 +163,7 @@
 				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
 				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}",
 				"EnDJojaBreak": "{{i18n:CT.NovaDylan.EnDJojaBreak}}",
+				"EnDClinicAppointment": "{{i18n:CT.NovaDylan.EnDClinicAppointment}}",
 				
 				//ARV Topics
 				
@@ -385,7 +387,11 @@
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}"
+				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}",
+
+				//Other Topics
+
+				"EnDClinicAppointment": "{{i18n:CT.Maru.EnDClinicAppointment}}"
 			}
 		},
 
@@ -441,7 +447,11 @@
 
 				//Dylan Topics
 
-				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}"
+				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}",
+
+				//Other Topics
+
+				"EnDClinicAppointment": "{{i18n:CT.Harvey.EnDClinicAppointment}}"
 			}
 		},
 
@@ -462,7 +472,7 @@
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
 				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
-				"EnDJojaBreak": ""
+				//"EnDJojaBreak": ""
 			}
 		},
 
