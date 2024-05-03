@@ -18,7 +18,7 @@
 					"BirthSeason": "Winter",
 					"BirthDay": 6,
 					"HomeRegion": "Town",
-					"CanBeRomanced": "{{EliDateable}}",
+					"CanBeRomanced": false,
 					"LoveInterest": "Teren",
 					"ExcludeFromPerfectionScore": false,
 					"EndSlideShow": "TrailingGroup",

@@ -22,7 +22,7 @@
                     "Fri": "{{Random:{{DylanFriday_A}}++{{DylanFriday_B}}|InputSeparator=++}}",
                     "Sat": "{{Random:{{DylanSaturday_A}}++{{DylanSaturday_B}}|InputSeparator=++}}",
                     "Sun": "{{Random:{{DylanSunday_A}}++{{DylanSunday_B}}|InputSeparator=++}}",
-                    "fall_27": "610 12 8 3/630 24 23 1/0730 24 24 1/0800 EastScarp_Village 31 63 3/1030 40 67 2/1120 EastScarp_VillageInn_SpiritEve 25 27 2/2000 Town 0 0 0",
+                    "fall_27": "610 12 8 3/630 24 23 1/0730 24 24 1/0800 EastScarp_Village 31 63 3/1030 40 67 2/1120 EastScarp_VillageInn 25 27 2/2000 Town 0 0 0",
                     "winter_6": "610 12 8 3/630 23 22 0/0730 24 23 1/0800 Beach 40 36 2/1330 56 11 1/1700 Saloon 26 18 3 Dylan_Drink/2100 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep",
                     "winter_7": "610 Town 33 57 2/1030 Hospital 12 14 2/1250 10 15 0/1330 4 6 1/1600 Town 50 68 1/1730 Saloon 40 19 2 Dylan_Drink/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep",
                     "winter_15": "0 Submarine 9 5 1/1700 9 4 1 Dylan_WritingRight/2000 20 4 3 Dylan_WritingLeft/2300 9 4 1 Dylan_WritingRight",

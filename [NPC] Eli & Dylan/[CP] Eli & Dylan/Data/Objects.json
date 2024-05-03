@@ -345,6 +345,44 @@
             "fish_favor_weather_sunny"
           ]
         },
+        "TenebrousNova.EnD.CombJelly": {
+          "Name": "TenebrousNova.EnD.CombJelly",
+          "DisplayName": "{{i18n:Core.Items.CombJelly}}",
+          "Description": "{{i18n:Core.Items.CombJelly.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "ExcludeFromFishingCollection": "{{Exclude From Perfection}}",
+          "Price": 50,
+          "Edibility": 1,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 16,
+          "ContextTags": [
+            "color_white",
+            "fish_combjelly"
+          ]
+        },
+        "TenebrousNova.EnD.BloodybellyCombJelly": {
+          "Name": "TenebrousNova.EnD.BloodybellyCombJelly",
+          "DisplayName": "{{i18n:Core.Items.BloodybellyCombJelly}}",
+          "Description": "{{i18n:Core.Items.BloodybellyCombJelly.Description}}",
+          "Type": "Fish",
+          "Category": -4,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "ExcludeFromFishingCollection": "{{Exclude From Perfection}}",
+          "Price": 70,
+          "Edibility": 2,
+          "IsDrink": false,
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 17,
+          "ContextTags": [
+            "color_white",
+            "fish_bloodybellycombjelly"
+          ]
+        },
         "TenebrousNova.EnD.Marimo": {
           "Name": "TenebrousNova.EnD.Marimo",
           "DisplayName": "{{i18n:Core.Items.Marimo}}",
@@ -357,7 +395,7 @@
           "Edibility": 10,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 16,
+          "SpriteIndex": 18,
           "ContextTags": [
             "color_green",
             "forage_marimo"
@@ -375,7 +413,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 17,
+          "SpriteIndex": 19,
           "ContextTags": [
             "color_green",
             "forage_frogspawncoral",
@@ -394,7 +432,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 18,
+          "SpriteIndex": 20,
           "ContextTags": [
             "color_purple",
             "forage_torchcoral",
@@ -413,7 +451,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 19,
+          "SpriteIndex": 21,
           "ContextTags": [
             "color_cyan",
             "forage_duncancoral",
@@ -432,7 +470,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 20,
+          "SpriteIndex": 22,
           "ContextTags": [
             "color_blue",
             "forage_trachyphyllia",
@@ -451,7 +489,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 21,
+          "SpriteIndex": 23,
           "ContextTags": [
             "color_red",
             "forage_scolymia",
@@ -470,7 +508,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 22,
+          "SpriteIndex": 24,
           "ContextTags": [
             "color_purple",
             "forage_acancoral",
@@ -489,7 +527,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 23,
+          "SpriteIndex": 25,
           "ContextTags": [
             "color_orange",
             "forage_toadstoolcoral",
@@ -508,7 +546,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 24,
+          "SpriteIndex": 26,
           "ContextTags": [
             "color_brown",
             "forage_candycanecoral",
@@ -527,7 +565,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 25,
+          "SpriteIndex": 27,
           "ContextTags": [
             "color_yellow",
             "forage_acroporacoral",
@@ -546,7 +584,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 26,
+          "SpriteIndex": 28,
           "ContextTags": [
             "color_blue",
             "forage_elegancecoral",
@@ -565,7 +603,7 @@
           "Edibility": -300,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
-          "SpriteIndex": 27,
+          "SpriteIndex": 29,
           "ContextTags": [
             "color_red",
             "forage_gorgonian",

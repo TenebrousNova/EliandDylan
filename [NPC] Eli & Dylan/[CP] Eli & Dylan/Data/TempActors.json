@@ -85,6 +85,11 @@
 	},
 	{
 		"Action": "Load",
+		"Target": "Portraits/JunimoFriendPurple",
+		"FromFile": "Assets/Images/JunimoFriend_purplePortrait.png"
+	},
+	{
+		"Action": "Load",
 		"Target": "Characters/JunimoFriendBlack",
 		"FromFile": "Assets/Images/JunimoFriend_black.png"
 	},
@@ -132,6 +137,11 @@
 		"Action": "Load",
 		"Target": "Characters/DoorMonster",
 		"FromFile": "Assets/Images/Door.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Agenda",
+		"FromFile": "Assets/Images/Agenda.png"
 	},
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events

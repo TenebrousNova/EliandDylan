@@ -145,6 +145,20 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
+	//Year check for dialogue (thanks Pooh!)
+
+	{
+		"Name": "YearRepeat",
+		"Value": "2"
+	},
+	{
+		"Name": "YearRepeat",
+		"Value": "1",
+		"When": {
+			"Year": "1"
+		}
+	},
+
 	//Abbreviated weekday check (thanks Axell & Pooh!)
 
 	{
@@ -245,7 +259,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Tue",
-		"Value": "{{Random:1400 41 103 2 EliSitB++1400 74 52 2 EliSitRead++1400 44 77 2 EliSitB++1400 47 51 1 EliSitRight|InputSeparator=++}}"
+		"Value": "{{Random:1400 41 103 2 EliSitB++1400 74 52 2 EliSitRead++1400 44 77 2 EliSitB++1400 47 52 1 EliSitRight|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliES_TueEvening",
@@ -293,7 +307,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Fri",
-		"Value": "{{Random:1330 Town 69 35 2 EliSitRead++1330 Town 17 97 2 EliSitB++1330 Town 47 51 1 EliSitRight++1330 Town 50 68 1|InputSeparator=++}}"
+		"Value": "{{Random:1330 Town 69 35 2 EliSitRead++1330 Town 17 97 2 EliSitB++1330 Town 47 52 1 EliSitRight++1330 Town 50 69 1|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliRailroad_Fri",
@@ -308,7 +322,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Sat",
-		"Value": "{{Random:0730 Town 47 51 1 EliSitRight++0730 Town 80 93 2 EliSitB++0730 Town 102 90 2|InputSeparator=++}}"
+		"Value": "{{Random:0730 Town 47 52 1 EliSitRight++0730 Town 80 93 2 EliSitB++0730 Town 102 90 2|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliDeepMountains_Sat",
@@ -379,7 +393,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliFriday_A",
-		"Value": "0 EastScarp_Village 60 52/610 Forest 35 26 2 EliSitA/1200 28 12 0/{{EliBeach_Fri}}/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 EastScarp_Village 60 52/610 Forest 95 40 2 EliSitA/1200 28 12 0/{{EliBeach_Fri}}/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliFriday_B",

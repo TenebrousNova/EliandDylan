@@ -22,7 +22,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.EggFestivalDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.EggFestivalDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.EggFestivalDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.EggFestivalDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.EggFestivalDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.EggFestivalDialogue}}"
 			
@@ -38,7 +40,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.FlowerDanceDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FlowerDanceDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.FlowerDanceDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FlowerDanceDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.FlowerDanceDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.FlowerDanceDialogue}}"
 		}
@@ -53,7 +57,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.LuauDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.LuauDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.LuauDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.LuauDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.LuauDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.LuauDialogue}}"
 		}
@@ -68,14 +74,15 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.MoonlightDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.MoonlightDialogue}}"
 		}
 	},
 	
 	//Fair
-	
 	
 	{
 		"LogName": "Fair",
@@ -84,7 +91,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.FairDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FairDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.FairDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FairDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.FairDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.FairDialogue}}"
 		}
@@ -99,7 +108,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.Spirit'sEveDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.Spirit'sEveDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.Spirit'sEveDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.Spirit'sEveDialogue}}"
 		}
@@ -114,7 +125,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.IceFestivalDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.IceFestivalDialogue.Y2}}",
 			"Nova.Dylan": "{{i18n:Core.NovaDylan.IceFestivalDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.IceFestivalDialogue.Y2}}",
 			"Soot": "{{i18n:Core.Soot.IceFestivalDialogue}}",
 			"Thistle": "{{i18n:Core.Thistle.IceFestivalDialogue}}"
 		}
@@ -129,7 +142,9 @@ debug festival winter25 - Winter Star
 		"Entries": {
 			
 			"Nova.Eli": "{{i18n:Core.NovaEli.WinterStarDialogue.Opening}}[261 681 688 689 690 517 519 773 226]{{i18n:Core.NovaEli.WinterStarDialogue.Closing}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing}}"
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.WinterStarDialogue.Opening.Y2}}[261 681 688 689 690 517 519 773 226]{{i18n:Core.NovaEli.WinterStarDialogue.Closing.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening.Y2}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing.Y2}}"
 		}
 	},
 

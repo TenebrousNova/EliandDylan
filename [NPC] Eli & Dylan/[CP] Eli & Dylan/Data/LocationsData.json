@@ -81,7 +81,7 @@
 					},
 					"Fish": [
 						{
-							"Id": "TenebrousNova.EliDylan.LambentHyphafin",
+							"Id": "TenebrousNova.EnD.LambentHyphafin",
 							"ItemId": "(O)TenebrousNova.EliDylan.LambentHyphafin",
 							"FishaAreaID": "EnD.MushroomCavePond",
 							"Season": null
@@ -626,6 +626,22 @@
 		}
 	},
 	{
+		"LogName": "EnD Ocean Fish - East Scarp",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"EastScarp_Village",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.CombJelly": {
+				"Id": "TenebrousNova.EnD.CombJelly",
+				"ItemId": "(O)TenebrousNova.EnD.CombJelly",
+				"FishAreaId": "ESBay"
+			}
+		}
+	},
+	{
 		"LogName": "EnD Greenrain Fish - East Scarp",
 		"Action": "EditData",
 		"Target": "Data/Locations",
@@ -690,6 +706,22 @@
 				"Id": "TenebrousNova.EnD.Junimeel",
 				"ItemId": "(O)TenebrousNova.EnD.Junimeel",
 				"Condition": "WEATHER Here GreenRain"
+			}
+		}
+	},
+
+	{
+		"LogName": "EnD Ocean Fish - Beach",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Beach",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.CombJelly": {
+				"Id": "TenebrousNova.EnD.CombJelly",
+				"ItemId": "(O)TenebrousNova.EnD.CombJelly"
 			}
 		}
 	},
@@ -760,6 +792,22 @@
 				"Chance": 0.1,
 				"Season": null,
 				"ItemID": "(O)TenebrousNova.EnD.Gorgonian"
+			}
+		}
+	},
+
+	{
+		"LogName": "EnD Ocean Fish - Submarine",
+		"Action": "EditData",
+		"Target": "Data/Locations",
+		"TargetField": [
+			"Submarine",
+			"Fish"
+		],
+		"Entries": {
+			"TenebrousNova.EnD.BloodybellyCombJelly": {
+				"Id": "TenebrousNova.EnD.BloodybellyCombJelly",
+				"ItemId": "(O)TenebrousNova.EnD.BloodybellyCombJelly"
 			}
 		}
 	}

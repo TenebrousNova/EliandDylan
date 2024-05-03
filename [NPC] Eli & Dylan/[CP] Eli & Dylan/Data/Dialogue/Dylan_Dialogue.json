@@ -15,22 +15,22 @@
 			
 			"spring_2_2": "{{i18n:Core.NovaDylan.Spring.2.2}}",
 			"spring_3_1": "{{i18n:Core.NovaDylan.Spring.3.1}}",
-			"spring_12": "{{i18n:Core.NovaDylan.Spring.12}}",
-			"spring_23": "{{i18n:Core.NovaDylan.Spring.23}}",
-			"spring_27": "{{i18n:Core.NovaDylan.Spring.27}}",
-			"summer_10": "{{i18n:Core.NovaDylan.Summer.10}}",
-			"summer_27": "{{i18n:Core.NovaDylan.Summer.27}}",
-			"fall_15": "{{i18n:Core.NovaDylan.Fall.15}}",
-			"fall_26": "{{i18n:Core.NovaDylan.Fall.26}}",
-			"fall_28": "{{i18n:Core.NovaDylan.Fall.28}}",
-			"winter_5": "{{i18n:Core.NovaDylan.Winter.5}}",
-			"winter_7": "{{i18n:Core.NovaDylan.Winter.7}}",
-			"winter_15": "{{i18n:Core.NovaDylan.Winter.15}}",
-			"winter_16": "{{i18n:Core.NovaDylan.Winter.16}}",
-			"winter_17": "{{i18n:Core.NovaDylan.Winter.17}}",
-			"winter_18": "{{i18n:Core.NovaDylan.Winter.18}}",
-			"winter_24": "{{i18n:Core.NovaDylan.Winter.24}}",
-			"winter_28": "{{i18n:Core.NovaDylan.Winter.28}}",
+			"spring_12_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.12}}",
+			"spring_23_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.23}}",
+			"spring_27_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.27}}",
+			"summer_10_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Summer.10}}",
+			"summer_27_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Summer.27}}",
+			"fall_15_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.15}}",
+			"fall_26_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.26}}",
+			"fall_28_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.28}}",
+			"winter_5_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.5}}",
+			"winter_7_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.7}}",
+			"winter_15_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.15}}",
+			"winter_16_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.16}}",
+			"winter_17_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.17}}",
+			"winter_18_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.18}}",
+			"winter_24_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.24}}",
+			"winter_28_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.28}}",
 
 			//Festival Lines
 
@@ -62,16 +62,16 @@
 		  }
 	},
 	{
-		"LogName": "Dylan 6-10 Heart Dialogue",
+		"LogName": "Dylan 5-10 Heart Dialogue",
 		"Action": "EditData",
 		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Dylan",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaDylan.6-10.{{Random:{{Range: 1, 100}}}}}}"
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{Random:{{Range: 1, 100}}}}}}"
 		},
 		"When": {
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
-			"Hearts:Nova.Dylan": "{{Range: 4, 10}}"
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		  }
 	},
 	{
@@ -101,7 +101,7 @@
 		"When": { 
 			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
-			"Hearts:Nova.Dylan": "{{Range: 4, 10}}"
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		 }
 	},
 
@@ -282,7 +282,7 @@
 			"Hospital_10_15": "{{i18n:Locations.NovaDylan.ClinicWaitB.{{Random:{{Range: 1, 3}}}}}}",
 			"Hospital_4_6": "{{i18n:Locations.NovaDylan.ClinicAppointment.{{Random:{{Range: 1, 3}}}}}}",
 			"EastScarp_Village_40_67": "{{i18n:Locations.NovaDylan.SpiritsEveInn.1}}",
-			"EastScarp_VillageInn_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}"
+			"EastScarp_VillageInn_SpiritEve_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}"
 		}
 	},
 
