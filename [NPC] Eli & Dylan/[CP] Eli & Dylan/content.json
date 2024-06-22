@@ -27,13 +27,15 @@ CreatorKami: Animated CG which turned out very nicely, C# help, plus lots of oth
 Atravita: C# wizardry and helped troubleshoot schedule bugs that were driving me bonkers. Also helped me with the 1.6 transition.
 FellowClown: Made custom furniture for the brother's house, plus other assets. 
 Logophile: Very kindly allowed me to commandeer the custom rugs she made and put them in the brother's house.
-Mad Dog of Shimano: Custom letterheading, custom furniture, art help (especially with Dylan's sprites) and an endless wellspring of motivation and kind words!
+Mad Dog of Shimano: Custom letterheading, custom furniture, art help (especially with Dylan's sprites), emotional support and an endless wellspring of motivation and kind words!
 KittyCatCasey: Has listened to my inane technical questions with great patience and enabled my ideas by adding fancy new custom event commands to SpaceCore.
 TheFrenchDodo: Made additional assets & music for me. 
 Pooh: Certified Content Patcher genius who has helped me on many an occasion!
 Hisameartwork and TrentXV: Very kindly granted me permission to use assets from More New Fish.
 6480: New crops, custom map tilesets!
 The Cornupcopia Team: New bushes and trees!
+SmolHuman: Very kindly granted me permission to use their wild animals.
+Bunnipocalypse: Drone sprites & animations.
 
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
@@ -90,7 +92,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json"
 	}
 	  
    ],
@@ -343,7 +345,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliRain_B",
-		"Value": "0 EastScarp_Village 60 52 0/{{EliForest_Rain}}/1200 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 5 10 0/1800 Saloon 25 18 2/2230 Forest 35 26 2 EliSitA"
+		"Value": "0 EastScarp_Village 60 52 0/{{EliForest_Rain}}/1200 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 7 10 0/1800 Saloon 25 18 2/2230 Forest 35 26 2 EliSitA"
 	},
 	{
 		"Name": "EliMonday_A",
@@ -401,7 +403,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSaturday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 5 10 0/1230 11 9 0/1330 13 5 0/1430 5 10 0/1500 EastScarp_Village 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliTown_Sat}}/1200 ArchaeologyHouse 7 10 0/1230 11 9 0/1330 13 5 0/1430 5 10 0/1500 EastScarp_Village 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSaturday_B",
@@ -409,7 +411,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSunday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 5 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 7 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_B",
@@ -520,17 +522,17 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
-	//Eli 2 Hearts
-	//Replace this one when Axell's done with the new animation.
+	//Eli 3 Hearts Part 1
+
 	{
-		"Name": "EliSaloon_TraceGuitar",
+		"Name": "EliJunimo1_SigStand",
 		"Value": "pause 1"
 	},
 	{
-		"Name": "EliSaloon_TraceGuitar",
-		"Value": "animate Trace false true 50 23 23 22 22 22 21 21 21 20 20 20 21 21 21 22 22 22 23 23",
+		"Name": "EliJunimo1_SigStand",
+		"Value": "playSound dwop",
 		"When": {
-			"HasMod": "CreatorKami.TYRSA.CP"
+			"HasMod": "MadDog.HashtagBearFam"
 		}
 	},
 
@@ -626,7 +628,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen1",
 		"Value": "emote SenS 32/speak SenS \"{{i18n:Events.EliWoods.Sen.1}}\"/showFrame Nova.Eli 61/speak SenS \"{{i18n:Events.EliWoods.Sen.2}}\"/pause 500/showFrame Nova.Eli 60",
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP"
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP"
 		}
 	},
 	{
@@ -637,7 +639,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen2",
 		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5}}\"/faceDirection farmer 3/startJittering/pause 500/stopJittering/emote farmer 28/faceDirection farmer 0",
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": true
 		}
 	},
@@ -645,7 +647,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen2",
 		"Value": "advancedMove SenS false -2 0 0 4 2 0 1 10/pause 4000/speak SenS \"{{i18n:Events.EliWoods.Sen5.2}}\"/faceDirection farmer 3/emote farmer 20/emote Nova.Eli 16/faceDirection farmer 0/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.13.2}}\"",
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": false
 		}
 	},
@@ -657,7 +659,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen3",
 		"Value": "{{i18n:Events.EliWoods.Question.1.Response.2.3}}",
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": true
 		}
 	},
@@ -665,7 +667,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "Eli_Woods_Sen3",
 		"Value": "{{i18n:Events.EliWoods.Question.1.Response.2.2}}",
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP",
 			"Relationship:SenS |contains=Unmet": false
 		}
 	},
@@ -697,6 +699,44 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": false
+		}
+	},
+
+	//Eli Bonus 4
+
+	//Gunnar plays a role if BearFam is installed (you'd better have them installed!).
+
+	{
+		"Name": "EliClothes_IntroConversation",
+		"Value": "textAboveHead Emily \"He DIDN'T!\"/pause 2000/speak Haley \"And then I was all 'oh my god Alex, you totally didn't just say that'! I couldn't believe it!$1\"/emote Emily 20 true/speak Emily \"I hope you said something!$0\"/speak Haley \"I very nearly said something.$0\"/speak Emily \"Well you should've said something!$1\"/textAboveHead Haley \"I was gonna say something!\"/pause 2500/speak Emily \"I wonder how Eli's doing? He mentioned in a text that he wanted to see me soon.$3\"emote Haley 28/speak Haley \"You know you've just brought him down on us, right? I swear Eli can tell when someone says his name.$3\"/speak Emily \"I think you're exaggerating a bit, Haley -$1\""
+	},
+	{
+		"Name": "EliClothes_IntroConversation",
+		"Value": "textAboveHead Emily \"He DIDN'T!\"/pause 2500/emote MadDog.HashtagBearFam.Gunnar 60/speak Haley \"And then I was all 'oh my god Alex, you totally didn't just say that'! I couldn't believe it!$1\"/emote Emily 20 true/speak Emily \"I hope you said something!$0\"/speak Haley \"I very nearly said something.$0\"/speak Emily \"Well you should've said something!$1\"/textAboveHead Haley \"I was gonna say something!\"/emote MadDog.HashtagBearFam.Gunnar 32/speak Emily \"Anyway Gunnar, tell us about that ghost you saw in the mines! Was it scary? Did you defeat it?$1\"/speak MadDog.HashtagBearFam.Gunnar \"Yeah, I did! It was my first time seeing one of those things. It came floating through a solid cavern wall, just like in the folklore.$0#$b#I won't lie, I wasn't ready for anything like that. And it put up a big fight, but I've got the solar essence to prove it!$6\"/speak Haley \"Like, how do you, like, kill a ghost? It's already dead, isn't it?$2\"/speak Emily \"And if it's intangible enough to phase through a rock wall, how can a sword possibly harm it?$3\"/speak MadDog.HashtagBearFam.Gunnar \"Actually, I'm not sure! That's a question for Marlon. Or Eli, come to think of it! That sort of thing's his speciality.$0\"/emote Haley 28/speak Haley \"You know you've just brought him down on us, right? I swear Eli can tell when someone says his name.$3\"/speak Emily \"I think you're exaggerating a bit, Haley -$1\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "EliClothes_GunnarGreeting",
+		"Value": "advancedMove Nova.Eli false 0 -2 4 10/faceDirection Emily 1/speak Nova.Eli \"Haley! Did you miss me?$6\"/emote Haley 40"
+	},
+	{
+		"Name": "EliClothes_GunnarGreeting",
+		"Value": "advancedMove Nova.Eli false 0 -2 1 0 4 10/pause 500/faceDirection Emily 1/speak Nova.Eli \"Gun! It's great to see you, bud. How's it going?$1\"/emote MadDog.HashtagBearFam.Gunnar 32/speak MadDog.HashtagBearFam.Gunnar \"Great, thanks! I was just telling them about that ghost I encountered. Can I ask you some questions about them in a bit?$1\"/textAboveHead Nova.Eli \"Sure!\"/pause 2000/advancedMove Nova.Eli false -1 0 4 10/faceDirection MadDog.HashtagBearFam.Gunnar 3/speak Nova.Eli \"Haley! Did you miss me?$6\"/emote Haley 40",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "EliClothes_GunnarOffer",
+		"Value": "speak Haley \"Alex might have a few sets of older clothes you can borrow, if you promise to be careful. He's a bit shorter than you, but they should fit - I'll ask him about it later.$0\"/advancedMove Nova.Eli false 0 1 1 10/waitForAllStationary/jump Nova.Eli/pause 1000/speak Nova.Eli \"Would you really? Thanks so much!$3\"/emote Haley 20 true/emote Emily 20/speak Emily \"That outfit also needs some work. But I'll wait for you to get something else on before asking you to hand it over.$0\"/emote Nova.Eli 60"
+	},
+	{
+		"Name": "EliClothes_GunnarOffer",
+		"Value": "faceDirection MadDog.HashtagBearFam.Gunnar 1/speak MadDog.HashtagBearFam.Gunnar \"Tell you what. I'll buy you some new clothes, Eli. Just let me know what brand, colours and whatnot you want.$0#$b#And you can borrow a few of mine in the meantime. I'm a little shorter than you, but they should fit you just fine.$6#$b#Actually you can keep 'em, I'll order more!$0\"/showFrame Nova.Eli 86/speak Nova.Eli \"Borrow YOUR clothes? They probably cost more than my HOUSE! I - I can't -!$7\"/speak Haley \"They're designer, too! And they'd actually look pretty good on you.$0#$b#And when someone makes that sort of offer Eli, you take it. Don't be stubborn!$1\"/stopAnimation Nova.Eli/faceDirection Nova.Eli 3",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
 		}
 	},
 
@@ -772,6 +812,32 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
 		}
+	},
+
+	//Dylan Bonus 02
+
+	{
+		"Name": "DylanDream_Rodney",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanDream_Rodney",
+		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 6 41 11 false true 2 0 1 0 0.01 0.04 motion -3.2 0 acceleration 0 0.003",
+		"When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien"
+		}
+	},
+	{
+		"Name": "DylanDream_Emily",
+		"Value": "speak Nova.Dylan \"{{i18n:Events.DylanDream.NovaDylan.5.A.1}}\"/temporaryAnimatedSprite EliDylan\\Critters 0 384 16 16 385 15 2 4 33 false true 2 0 1 0 0 0 motion 1.5 0 acceleration 0 -0.008/emote farmer 32"
+	},
+	{
+		"Name": "DylanDream_Emily",
+		"Value": "speak Nova.Dylan \"{{i18n:Events.DylanDream.NovaDylan.5.B.1}}\"/temporaryAnimatedSprite EliDylan\\Critters 0 384 16 16 385 15 2 4 33 false true 2 0 1 0 0 0 motion 1.5 0 acceleration 0 -0.008/emote farmer 60/speak Nova.Dylan \"{{i18n:Events.DylanDream.NovaDylan.5.B.2}}\"",
+		"When": {
+			"HasSeenEvent": 471942
+		}
 	}
+
    ]
 }

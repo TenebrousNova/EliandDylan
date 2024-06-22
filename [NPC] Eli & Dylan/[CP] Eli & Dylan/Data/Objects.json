@@ -14,6 +14,24 @@
       "FromFile": "Assets/EnDCrops.png"
     },
 
+    //Replace CC Aquarium
+
+    {
+      "LogName": "CC Tank Animation",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "CCTankAnimation": {
+          "TargetTexture": "TileSheets\\furniture_2",
+          "TargetRect": { "X": 0, "Y": 256, "Width": 96, "Height": 48 },
+          "SourceTexture": "{{InternalAssetKey: Assets/Images/CCAquarium.png}}:0..29@12"
+        }
+      },
+      "When": {
+        "HasSeenEvent": "191393"
+      }
+    },
+
     //Crops
 
     {
@@ -277,23 +295,6 @@
         }
       }
     },
-
-    //The Mandrake Root objects to being devoured. You monster.
-
-  {
-    "LogName": "Trigger Action - Mandrake Scream",
-    "Action": "EditData",
-    "Target": "Data/TriggerActions",
-    "Entries": {
-      "EnD.EatMandrake": {
-        "Id": "EnD.EatMandrake",
-        "Trigger": "spacechase0.SpaceCore_OnItemEaten",
-        "Action": "spacechase0.SpaceCore_PlaySound rockGolemHit true",
-        "MarkActionApplied": false,
-        "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
-      }
-    }
-  },
 
     //Fish
     {

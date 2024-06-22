@@ -46,6 +46,74 @@
                 }
               }
             ]
+          },
+          "Dylan.SpecialOrders.DroneComponents": {
+            "Name": "[NovaDylan.SpecialOrders.DroneComponents_Name]",
+            "Requester": "Nova.Dylan",
+            "Duration": "TwoWeeks",
+            "Repeatable": "false",
+            "RequiredTags": "event_EnD.Dylan.08, !dropbox_RobinWood",
+            "OrderType": "EliDylan",
+            "SpecialRule": "",
+            "Text": "[NovaDylan.SpecialOrders.DroneComponents_Text]",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomisedElements": null,
+            "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "[NovaDylan.SpecialOrders.DroneComponents.Objective_0_Text]",
+                "RequiredCount": 5,
+                "Data": {
+                  "DropBox": "RobinWood",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "10.5 18",
+                  "AcceptedContextTags": "item_copper_bar"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "[NovaDylan.SpecialOrders.DroneComponents.Objective_1_Text]",
+                "RequiredCount": 5,
+                "Data": {
+                  "DropBox": "RobinWood",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "10.5 18",
+                  "AcceptedContextTags": "item_iron_bar"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "[NovaDylan.SpecialOrders.DroneComponents.Objective_2_Text]",
+                "RequiredCount": 5,
+                "Data": {
+                  "DropBox": "RobinWood",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "10.5 18",
+                  "AcceptedContextTags": "item_gold_bar"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "[NovaDylan.SpecialOrders.DroneComponents.Objective_3_Text]",
+                "RequiredCount": 3,
+                "Data": {
+                  "DropBox": "RobinWood",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "10.5 18",
+                  "AcceptedContextTags": "item_battery_pack"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Mail",
+                "Data": {
+                  "MailReceived": "DroneMail",
+                  "NoLetter": "false"
+                }
+              }
+            ]
           }
         }
       },
@@ -54,7 +122,8 @@
         "Action": "EditData",
         "Target": "Mods/atravita_SpecialOrdersExtended_DurationOverride",
         "Entries": {
-           "Eli.SpecialOrders.FairyRingOffering": "-1"
+           "Eli.SpecialOrders.FairyRingOffering": "-1",
+           "Dylan.SpecialOrders.DroneComponents": "-1"
         }
       },
 
@@ -65,7 +134,13 @@
         "Entries": {
           "NovaEli.SpecialOrders.FairyRingOffering_Name": "{{i18n:SpecialOrders.FairyRingOffering.Name}}",
           "NovaEli.SpecialOrders.FairyRingOffering_Text": "{{i18n:SpecialOrders.FairyRingOffering.Text}}",
-          "NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text": "{{i18n:SpecialOrders.FairyRingOffering.ObjectiveText}}"
+          "NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text": "{{i18n:SpecialOrders.FairyRingOffering.ObjectiveText.1}}",
+          "NovaDylan.SpecialOrders.DroneComponents_Name": "{{i18n:SpecialOrders.DroneComponents.Name}}",
+          "NovaDylan.SpecialOrders.DroneComponents_Text": "{{i18n:SpecialOrders.DroneComponents.Text}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_0_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.1}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_1_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.2}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_2_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.3}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_3_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.4}}"
         }
       }
     ]

@@ -186,8 +186,8 @@
 			"AcceptGift_(O)206": "{{i18n:Gifts.NovaDylan.GiftReaction.Pizza.{{Random:{{Range:1, 2}}}}}}",
 			"AcceptGift_(O)797": "{{i18n:Gifts.NovaDylan.GiftReaction.Pearl}}",
 			"AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.NovaDylan.GiftReaction.GenuineAutographedPhoto}}",
-			"AcceptGift_(O)sapphicsaph_pitv.PridePop": "",
-			"AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "",
+			"AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.PridePop}}",
+			"AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.TastyAceCookie}}",
 
 			//Likes
 
@@ -196,11 +196,11 @@
 			"AcceptGift_(O)128": "{{i18n:Gifts.NovaDylan.GiftReaction.Pufferfish}}",
 			"AcceptGift_(O)129": "{{i18n:Gifts.NovaDylan.GiftReaction.Anchovy}}",
 			"AcceptGift_(O)130": "{{i18n:Gifts.NovaDylan.GiftReaction.Tuna}}",
-			"AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "",
-			"AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "",
-			"AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "",
-			"AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "",
-			"AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "",
+			"AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.BiBerryMuffin}}",
+			"AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.LesbianLollipop}}",
+			"AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.GaylacticCookie}}",
+			"AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.EnbyEclair}}",
+			"AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie}}",
 			"AcceptGift_(O)sapphicsaph_pitv.TransTart": "",
 
 			//Neutral

@@ -20,6 +20,7 @@
 "Core.Locations.OldWoods": "Old Woods",
 "Core.Locations.DylanOcean": "Gem Sea",
 "Core.Locations.DylanAbyss": "Abyss",
+"Core.Locations.DylanDreamSea": "Dylan Dream Sea",
 
 //ITEM NAMES
 
@@ -139,7 +140,7 @@
 "Core.NovaEli.Winter.16": "In case you're wondering, that Mermaid at the Night Market is the real deal. Patient, too. I've been bombarding her with questions non-stop!$1#$b#What do you mean I have 'confirmation bias'? I'm telling you that she's real! It's literally my JOB to know this stuff!$8",
 "Core.NovaEli.Winter.17": "The Night Market definitely doesn't help my caffeine addiction, but I'm not gonna complain!$3#$b#That merchant's coffee is something else. I'll be sorry to see her go.$0",
 "Core.NovaEli.Winter.18": "I got a letter today telling me who my 'secret friend' will be for Winter Star. Got yours as well? Great!$1#$b#Not to worry, I won't ask who it is. I don't need the mayor ranting at me again.$12",
-"Core.NovaEli.Winter.24": "Dylan and me never really celebrated Winter Star before we moved to the Valley. We didn't have any reason to.$2#$b#Our first time experiencing it here was very different! We were strangers, misfits, but the folk here went out of their way to welcome us with open arms.$0#$b#And we can't even begin to thank them enough for that. I hope we'll see you celebrating with us tomorrow, @.$1",
+"Core.NovaEli.Winter.24": "Me and Dylan never really celebrated Winter Star before we moved to the Valley. We didn't have any reason to.$2#$b#Our first time experiencing it here was very different! We were strangers, misfits, but the folk here went out of their way to welcome us with open arms.$0#$b#And we can't even begin to thank them enough for that. I hope we'll see you celebrating with us tomorrow, @.$1",
 "Core.NovaEli.Winter.28": "Another year come and gone, farmer. Excited for the next one? I'll bet Pierre has missed you and especially your wallet.$6#$b#As for me, I'll be up to my usual shenanigans. I've a good feeling about next year.$1",
 
 //Festival Lines
@@ -343,7 +344,7 @@
 "Core.NovaEli.5-10.53": "$query PLAYER_HAS_SEEN_EVENT Current EnD.EliBonus.05#So what've you been up to, @?$0#$b#Oh, nice! Me, I was out in the forest with Krobus again. I bought marshmallows, pizza, fries and a big thermos of coffee.$1#$e#He got me to try something he called void mayonnaise. It was, uh... UNIQUE. But he wasn't offended by me vomiting into the pond. Seemed to find it funny actually.$10#$b#We both agreed that the rest of the food was wonderful, though!$12|So what've you been up to, @?$0#$b#Oh, nice! I've got plans to visit a friend of mine later. I've got to bring some food and coffee with me.$3#$b#Who is my friend? Sorry @, I'd love to talk about him but I can't. He's extremely shy.$12",
 "Core.NovaEli.5-10.54": "Eloise is a smart kid. She was telling me all kinds of bird facts earlier. I never knew about half of them!$3#$b#I could totally see her becoming an ornithologist one day. Or maybe a vet like her dad.$1",
 "Core.NovaEli.5-10.55": "I bumped into Emily earlier and she said that my aura looks red and yellow with some indigo.$0#$b#I'm not sure what exactly that means but she seems positive it's a good thing. Said it suits me.$3",
-"Core.NovaEli.5-10.56": "*Sigh* I walked all the way into town from the Scarp only to remember that it's Wednesday and Pierre's is closed.$8#$b#Oh well, man's gotta have a break every now and then. Although I reckon he doesn't stop even on his day off.$3#$e#He even works on festivals! Now that's dedication. I don't think Caroline's too impressed, though.$1",
+"Core.NovaEli.5-10.56": "$query DAY_OF_WEEK Wed, !IS_COMMUNITY_CENTER_COMPLETE#*Sigh* I walked all the way into town from the Scarp only to remember that it's Wednesday and Pierre's is closed.$8#$b#Oh well, man's gotta have a break every now and then. Although I reckon he doesn't stop even on his day off.$3#$e#He even works on festivals! Now that's dedication. I don't think Caroline's too impressed, though.$1|I need to go to Pierre's... I tried this new cake recipe and something went horribly wrong. I don't think a cake is supposed to detonate and send flour everywhere.$2",
 "Core.NovaEli.5-10.57": "I asked Rasmodius if he's in the market for an apprentice. You know, just out of casual interest!$12#$b#And the grouchy old goat said he wasn't. And if he WAS, he wouldn't pick me if we were the last sapient beings in this plane of existence.$9#$b#Pffft, no big deal. He doesn't know what he's missing out on.$8",
 "Core.NovaEli.5-10.58": "Did you know that some people actually raise Slimes in captivity? I heard that Marlon was into it in his younger days.$1#$b#I'm not sure if they can be tamed, but you don't want a cuddle from one unless you're wearing corrosion resistant gear. Slime burns are nasty.$10#$e#They also breed with explosive speed. Easy to see why Marlon packed it in.$11",
 "Core.NovaEli.5-10.59": "Aideen chewed me out earlier because I tripped and almost faceplanted in the flowers outside her garden fence.$10#$b#Don't let that woman fool you, @. She might seem kindly, but she could flay you alive with that viciously barbed tongue of hers.$3",
@@ -801,7 +802,7 @@ SIGURD/SONDRA*/
 "Core.NovaEli.EggFestivalDialogue.Y2": "I was really tempted to try making some decoy eggs just to throw you hunters off. Picking them up would've given you a hilarious surprise.$1#$b#What's the surprise? That's for me to know and everyone else to find out, @. Dylan talked me out of it this year. Said it was too unsafe.$11",
 "Core.NovaEli.FlowerDanceDialogue": "Ugh, I feel like such a prat. And I LOOK like one! I'm not used to getting all done up like this... this damn suit itches like mad.$2#$b#You're looking great though, farmer! I'm sure you'll have no trouble finding someone to dance with.$0",
 "Core.NovaEli.FlowerDanceDialogue.Y2": "A few people have dropped hints that they want to dance with me, but I dunno if I want to... maybe I should play hard to get.$6#$b#I could climb up the rigging... only the person who has the guts and tenacity to follow me up there gets to dance with me today!$3#$b#...No Dylan, I'm joking! I'm not REALLY gonna do it. Sheesh!$11",
-"Core.NovaEli.LuauDialogue": "The Luau is a surprisingly exotic tradition for a place like Pelican Town, but it actually works! The music, food and company are wonderful.$1#$b#Soooo... what's your contribution to the group soup gonna be? Will the fancy-pants Governor get more than he bargained for? I won't judge. And I'll never tell.$6#$b#Just warn Dylan and me first if you actually add something weird, yeah?$3",
+"Core.NovaEli.LuauDialogue": "The Luau is a surprisingly exotic tradition for a place like Pelican Town, but it actually works! The music, food and company are wonderful.$1#$b#Soooo... what's your contribution to the group soup gonna be? Will the fancy-pants Governor get more than he bargained for? I won't judge. And I'll never tell.$6#$b#Just warn me and Dylan first if you actually add something weird, yeah?$3",
 "Core.NovaEli.LuauDialogue.Y2": "The water looks great, doesn't it? I'm really tempted to take a dip before I help myself to any of that food. Work up an appetite, you know?$1#$b#Then again, Shane's gonna polish off all the spicy stuff if I take too long.$10",
 "Core.NovaEli.MoonlightJelliesDialogue": "'Evening @! You're about to witness the most magical and blatantly romantic festival the Valley has to offer.$1#$b#It's hard to explain, but seeing the Lunaloos has this really existential effect on people. It's the last taste of Summer before the turning of the seasons.$0",
 "Core.NovaEli.MoonlightJelliesDialogue.Y2": "I thought I saw something in the water earlier! Something big, dark and glinting, just past the lights. Nobody here believes me, but it was fast!$7#$b#Forget the Lunaloos, I want to find out what that was. I've read about old sightings of giant sea serpents around the Gem Isles! They aren't THAT far from here...$9",
@@ -875,7 +876,7 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.Winter.16": "The Mermaids? Yeah, they're real! I've seen them from the submarine and no human could survive unassisted at those depths. You'd implode.$3#$b#There's also one who puts on a show in one of the boats. She has some fascinating tales. Hopefully Eli doesn't scare her off.$1",
 "Core.NovaDylan.Winter.17": "The last day of the Night Market... I've gotta make this one count. It's a shame I can't persuade the submarine captain to stop by the Valley more often.$2#$b#Maybe I'll leave early though. And try to actually enjoy the other things there while I still can.$0",
 "Core.NovaDylan.Winter.18": "We got our Winter Star letters this morning. Got yours yet?$0#$b#We already told each other who our secret friends are. What Lewis doesn't know won't hurt him.$3",
-"Core.NovaDylan.Winter.24": "Eli and me aren't used to bothering with Winter Star, but it holds a different meaning to us now that we live here.$1#$b#I hope you show up. You're welcome to hang out with us.$3",
+"Core.NovaDylan.Winter.24": "Eli and I aren't used to bothering with Winter Star, but it holds a different meaning to us now that we live here.$1#$b#I hope you show up. You're welcome to hang out with us.$3",
 "Core.NovaDylan.Winter.28": "Back to Spring we go. It's been a good year, but hopefully the next one is even better.$0#$b#Got many plans for it, farmer?$1",
 
 //FESTIVAL LINES
@@ -940,21 +941,21 @@ SIGURD/SONDRA*/
 //Other
 
 "Core.NovaDylan.0-4.35": "Hey. Nice day, isn't it?$0#$b#...$9#$b#Well... got lots to do. See you around.$2",
-"Core.NovaDylan.0-4.36": "%Dylan sees you, but doesn't seem interested in talking.",
+"Core.NovaDylan.0-4.36": "%Dylan sees you, but doesn't seem interested in talking.%noturn",
 "Core.NovaDylan.0-4.37": "Hi there. Getting used to Pelican Town? I know it can feel really overwhelming at first, just uprooting yourself like that. You'll adapt soon enough.$0",
-"Core.NovaDylan.0-4.38": "%Dylan acknowledges you with a curt nod but continues along his way.",
+"Core.NovaDylan.0-4.38": "%Dylan acknowledges you with a curt nod but continues along his way.%noturn",
 "Core.NovaDylan.0-4.39": "I'm kind of busy right now. What do you want?$5#$b#...Oh, sorry! I didn't mean to sound like an ass just then.$6#$b#I'm just having an off day, @. Please don't take it personally.$2",
 "Core.NovaDylan.0-4.40": "The marine ecosystem here is a rich and diverse one. I don't know if I could ever catalogue it all, but I'm definitely going to try.$1",
-"Core.NovaDylan.0-4.41": "%Dylan is humming a familiar tune to himself. He doesn't seem to notice you - or perhaps he's pretending that he doesn't.",
-"Core.NovaDylan.0-4.42": "%Dylan looks like he might say something in greeting, but his antisocial side wins over. No dice today.",
-"Core.NovaDylan.0-4.43": "%Dylan is checking his phone. He gives you a small smile and a wave, but doesn't stop to chat.",
+"Core.NovaDylan.0-4.41": "%Dylan is humming a familiar tune to himself. He doesn't seem to notice you - or perhaps he's pretending that he doesn't.%noturn",
+"Core.NovaDylan.0-4.42": "%Dylan looks like he might say something in greeting, but his antisocial side wins over. No dice today.%noturn",
+"Core.NovaDylan.0-4.43": "%Dylan is checking his phone. He gives you a small smile and a wave, but doesn't stop to chat.%noturn",
 "Core.NovaDylan.0-4.44": "You're welcome to check out my aquarium if you like, @. Willy caught an octopus for it a while back.$1#$b#They're extremely intelligent for invertebrates. And their beak is the only solid part of their body. If that fits through an opening, the rest of it can!$3",
-"Core.NovaDylan.0-4.45": "I can't stop to chat, @ - sorry. I'm getting behind on my work.$0",
+"Core.NovaDylan.0-4.45": "I can't stop to chat, @ - sorry. I'm getting behind on my work.$0%noturn",
 "Core.NovaDylan.0-4.46": "Hey there. Keeping busy? It's stupid, but I've been doing some research into unexplained 'sea monster' sightings in the area.$0#$b#Eli reckons he's found and met one. Of course, he didn't think to bring his phone with him to get photos. He's probably just winding me up.$2",
-"Core.NovaDylan.0-4.47": "...Can we talk later, please? I really don't feel good right now.$7",
+"Core.NovaDylan.0-4.47": "...Can we talk later, please? I really don't feel good right now.$7%noturn",
 "Core.NovaDylan.0-4.48": "*Sigh* I had to pick up more litter I found on the beach earlier. Seriously, would it kill people to hold onto it until they reach a trash can?$8#$b#Marine ecosystems are fragile. A single plastic bag can cause all sorts of suffering many years from now.$0",
 "Core.NovaDylan.0-4.49": "East Scarp is home to species of Nudibranch - sea slugs - that you won't find anywhere else around town.$0#$b#There's four kinds in total that I've observed so far. They're very colourful!$1",
-"Core.NovaDylan.0-4.50": "%Dylan looks very lost in thought. It's unclear if he's ignoring you, or just hasn't noticed.",
+"Core.NovaDylan.0-4.50": "%Dylan looks very lost in thought. It's unclear if he's ignoring you, or just hasn't noticed.%noturn",
 "Core.NovaDylan.0-4.51": "What do you do when you're not doing farm work?$0#$b#I guess there's no shortage of stuff to do around here. You certainly chat a lot.$1",
 "Core.NovaDylan.0-4.52": "It's a relief that I'm not the only scientist in town. Maru and Demetrius have been taking some interest in my work lately.$1#$b#They have a more thorough understanding of the local ecosystem... I really should collaborate more often with them.$0",
 "Core.NovaDylan.0-4.53": "I'm happy that you took the risk and left your old Joja job, @. It's not easy to leave behind everything you've ever known, is it?$0#$b#Their track record on pollution is terrible. I've seen sealed Joja Cola cans floating in the ocean too many times to count.$2#$e#And Eli's seen them in even stranger places... like lakes of magma, deep within the mines.$9",
@@ -975,10 +976,10 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.0-4.Spring.8": "*Sigh* Eli managed to drop one of our last best mugs and get coffee on my paperwork this morning. It's a good job that I didn't get very far.$2#$b#I can't get upset at him for long, though. He always looks like a kicked puppy, I had to calm him down and let him know I still love him.$0",
 "Core.NovaDylan.0-4.Spring.9": "Eli found a few shark teeth in one of the caves he started exploring. I need to compare them with those of known sharks, but I've never seen this species!$6#$b#They must be prehistoric. He's excited to know if they'll name this shark after him if my hunch is right. We'll see. I'll have to show Demetrius and Maru first.$1#$b#And we'd have to try and find the rest of it, of course.$3",
 "Core.NovaDylan.0-4.Spring.10": "Hello, @. I've just recovered from a particularly nasty migraine. I'm going to have to apologize to Eli for snapping at him when he kept trying to fuss over me.$2#$b#He means well, but you've heard how loud he is at the best of times - his default volume drowns out nearby jet engines. I hope he isn't upset with me.$9",
-"Core.NovaDylan.0-4.Summer.1": "Hi @. I, uh, managed to fall off the pier. Thought I saw a new jellyfish species and leaned over the edge to take a look.$9#$b#It was actually a floating piece of plastic.$5#$b#Gotta go and get changed before Eli sees. He'd never let me live it down.$2",
+"Core.NovaDylan.0-4.Summer.1": "Hi @. I, uh, managed to fall off the pier. Thought I saw a new jellyfish species and leaned over the edge to take a look.$9#$b#It was actually a floating piece of plastic.$5#$b#Gotta go and get changed before Eli sees. He'd never let me live it down.$2#$action AddConversationTopic DylanDrenched 7",
 "Core.NovaDylan.0-4.Summer.2": "If you're into fishing, you might find a pufferfish if you're lucky! They're quite active at this time of year.$1#$b#Just don't ever try eating one. Tetrodotoxin poisoning is a nasty way to go.$9#$e#And watch your fingers, because they have a powerful bite.$0",
 "Core.NovaDylan.0-4.Summer.3": "Hey, @. Hope you've been sleeping better than I have.$0#$b#The heat's bad enough without Eli's snoring. They can probably hear him from the other side of town.$2",
-"Core.NovaDylan.0-4.Summer.4": "If you're growing peppers, Eli and me will probably buy some. We both enjoy spicy food.$3#$b#How's your new life in the countryside coming along, anyway? Hope it's turning out how you wanted.$1",
+"Core.NovaDylan.0-4.Summer.4": "If you're growing peppers, me and Eli will probably buy some. We both enjoy spicy food.$3#$b#How's your new life in the countryside coming along, anyway? Hope it's turning out how you wanted.$1",
 "Core.NovaDylan.0-4.Summer.5": "A few days each Summer, the ocean water turns bright green. It's caused by phytoplankton blooms that coincide with the crab mating season.$1#$b#You'll find a lot of coral and interesting shells washed up on the beach during this time.$3",
 "Core.NovaDylan.0-4.Summer.6": "Hope you're keeping hydrated, @. Nobody wants to find you collapsed from heat exhaustion.$0#$b#Especially considering how active you are - you remind me of Eli in some ways. Seriously, do you ever rest?$9",
 "Core.NovaDylan.0-4.Summer.7": "I got an angry phone call from Aideen telling me to extract Eli from her rose bushes - he'd somehow wandered there at an unholy hour and passed out.$2I wish he'd stay at home and just read or watch TV when his insomnia plays up. I worry about him going out in the dead of night.$9",
@@ -1237,7 +1238,7 @@ SIGURD/SONDRA*/
 //SEN
 
 "Core.NovaDylan.Sen.1": "I've never seen this Sen character who Eli's friends with, but apparently he's the one who rummages through our trash at night. And he's not human.$0#$b#I thought the Shadow People are supposed to live far away from people. He sounds nice, though.$1",
-"Core.NovaDylan.Sen.2": "$action AddMail Current DylanSenNote received I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0",
+"Core.NovaDylan.Sen.2": "I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0#$action AddMail Current DylanSenNote received",
 "Core.NovaDylan.Sen.3": "Eli asked me if there's any books I don't mind lending to Sen. I think there's some fantasy and sci-fi books somewhere that he can take a look at.$0#$b#Maybe I should slip a few of my marine biology books in there as well.$3",
 "Core.NovaDylan.Sen.4": "I heard something moving around outside the house in the early hours and peeked out of my window just in time to see a dark figure with horns making a run for it!$6#$b#Eli thinks it's nothing to worry about, but what if they were some sort of murderous maniac trying to break in? I don't know if I'll be able to sleep tonight.$2",
 "Core.NovaDylan.Sen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$9",
@@ -1329,6 +1330,9 @@ SIGURD/SONDRA*/
 "Gifts.NovaDylan.GiftReaction.Pizza.2": "Goodness, are you sure? I'm never going to say no to a pizza. Thanks ever so much!$3",
 "Gifts.NovaDylan.GiftReaction.Pearl": "Pearls are one of a handful of gems formed organically. They're the result of an oyster protecting itself from a foreign irritant, such as sand.$3#$b#The process takes years. But the end result is beautiful, isn't it? Thanks so much, @!$1",
 "Gifts.NovaDylan.GiftReaction.GenuineAutographedPhoto": "Oh my goodness, @! Are you sure?! Having a genuine autographed photograph of our own neighbour - this is so prestigious!$6#$b#I've never been one to have any interest in celebrities and their memorabilia, but I'm going to make an exception for this!$3",
+"Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.PridePop": "Oh, these are really nice! Happy Pride, @. It's nice to see it being celebrated here.$3",
+"Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.TastyAceCookie": "You've got me all figured out, haven't you @? Thanks for this!$3",
+
 
 //LIKES
 
@@ -1336,11 +1340,17 @@ SIGURD/SONDRA*/
 "Gifts.NovaDylan.GiftReaction.DriedStarfish": "This is a well preserved Asterozoan. It's amazing to think that starfish were around as early as hundreds of millions of years ago, but still thrive today.$1",
 "Gifts.NovaDylan.GiftReaction.Pufferfish": "Diodon! Not a bad find. It looks cute and goofy even when uninflated, but you wouldn't want to eat this - they're extremely poisonous.$1",
 "Gifts.NovaDylan.GiftReaction.Anchovy": "Anchovies are one of the most abundant fish. They're also a very important, nutritious food source for other ocean dwelling animals. Thanks!$1",
-"Gifts.NovaDylan.GiftReaction.Tuna": "Tuna are built for speed - This species can reach 70km/h. They also get much bigger than this. Willy's caught tuna that are bigger than him!$3",
+"Gifts.NovaDylan.GiftReaction.Tuna": "Tuna are built for speed - This species can reach 70km/h. They also get much bigger than this. Willy's caught tuna that are larger than him!$3",
+"Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.BiBerryMuffin": "Very thoughtful of you!'K thanks bi.$1",
+"Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.LesbianLollipop": "...No, Dylan. Don't make Eli's inappropriate lesbian joke.$9#$b#Thanks for the lollipop, though!$1",
+"Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.GaylacticCookie": "Thank you. You know, I think you'd make Eli's day if you got him one of these!$1",
+"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "Oh, that's kind of you. I like a good eclair.$3",
+"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "'A romantic cookie'? OH, aromatic. I almost panicked just then. Thanks!$3",
+"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.TransTart": "",
 
 //NEUTRAL
 
-"Gifts.NovaDylan.GiftReaction.AnAutographedPhoto": "Getting one of these from Rodney is a sort of rite of passage to live in Stardew Valley - we've all it. Congratulations.$0#$b#Now if only he hadn't filled the ocean with them.$5",
+"Gifts.NovaDylan.GiftReaction.AnAutographedPhoto": "Getting one of these from Rodney is a sort of rite of passage to live in Stardew Valley - we've all had it. Congratulations.$0#$b#Now if only he hadn't filled the ocean with them.$5",
 
 //DISLIKES
 
@@ -1358,7 +1368,7 @@ SIGURD/SONDRA*/
 //FESTIVAL DIALOGUE
 
 "Core.NovaDylan.EggFestivalDialogue": "Alright, farmer? Looks like it's a good day for it.$0#$b#Taking part in the egg hunt? I'd tell you that you should at least take it easy on the kids... but I'd be lying.$3",
-"Core.NovaDylan.EggFestivalDialogue.Y2": "The name of this festival is a little misleading. Only avian eggs get any representation here... where's the fish, reptile and insect eggs?$$0#$b#Who came up with this festival, anyway? Oh well! Good luck with the bird egg hunt if you're participating this year, @.$1",
+"Core.NovaDylan.EggFestivalDialogue.Y2": "The name of this festival is a little misleading. Only avian eggs get any representation here... where's the fish, reptile and insect eggs?$0#$b#Who came up with this festival, anyway? Oh well! Good luck with the bird egg hunt if you're participating this year, @.$1",
 "Core.NovaDylan.FlowerDanceDialogue": "Hi @. Welcome to flower hell. I'd rather be literally anywhere else right now.$2#$b#I did think about faking a migraine to get out of this... but I'm getting there for real.$7",
 "Core.NovaDylan.FlowerDanceDialogue.Y2": "I'll probably go over to watch the actual dance when it starts, but I'm more comfortable over here. Besides, I can't dance and don't care to try.$1#$b#It's a bit of a shame that they don't change it up, though. It's the exact same dance every year.$0",
 "Core.NovaDylan.LuauDialogue": "Enjoying yourself? The food here is really good!$3#$b#I'd prefer to be working but I guess I can take it easy just for once. The water's great.$1#$b#I've also got my eye on Eli. I don't think he'd dare put anything dodgy in the soup, but you never know with him.$9",
@@ -1567,6 +1577,7 @@ SIGURD/SONDRA*/
 "Strings.House.EDMouseLocked": "The diminutive door on the mouse hole is locked. The sign reads 'Gone out until scary room goes away'.",
 "Strings.House.EDMouseLocked.GreenRain": "The diminutive door on the mouse hole is locked. The sign reads 'Gone out to see green rain'.",
 
+"Strings.House.EDGuestRoomBox": "There are seeds in the box! But quite unlike any seeds you've ever seen before...",
 "Strings.House.EDGuestRoomWindow.1": "The black sky beyond the window is bereft of stars. There isn't even a sky.",
 "Strings.House.EDGuestRoomWindow.2": "You can see flickers of movement out of the corner of your eye, but there's nothing out there when you try to look.",
 "Strings.House.EDGuestRoomWindow.3": "When did you start to feel so cold and lost? You shouldn't be here.",
@@ -1604,10 +1615,17 @@ SIGURD/SONDRA*/
 "Mail.DylanLetter.1.Title": "Dylan's Thanks",
 "Mail.DylanLetter.1": "Good morning, @.^^I'd like to thank you for helping me out on the beach and saving me hours of research time that would otherwise have been spent picking up litter.^^Rest assured that I've brought it to the Mayor's attention - I showed him photo evidence, which he won't be able to ignore.^Enclosed is one of the more interesting specimens I found.^^Regards,^-Dylan Moray",
 "Mail.DylanLetter.2.Title": "Dylan's Apology",
-"Mail.DylanLetter.2": "@,^^I don't recall much of what happened the other night, but my brother informed me (after he stopped laughing) that I was very drunk and made a spectacle of myself. I don't know if I said anything I shouldn't have, but if I did, disregard it - I'm sorry.^^Dylan Moray^^P.S. Eli said there's a recording of me dancing with Leah. Please tell me he's winding me up.",
+"Mail.DylanLetter.2": "@,^^I don't recall much of what happened the other night, but my brother informed me (after he stopped laughing) that I was very drunk and made a spectacle of myself. I don't know if I said anything I shouldn't have, but if I did, disregard it - I'm sorry.^^Dylan Moray^^P.S. Eli said there's a video of me dancing with Leah. Please tell me he's winding me up.",
+"Mail.DylanLetter.3.Title": "Dylan's Gift",
+"Mail.DylanLetter.3": "Hello, @.^^I went hiking with Eli recently and we found some sort of unusual fruit growing on a bush. He sampled one of them before I could stop him, because he's irresponsible.^^Fortunately they're safe to eat, but they're also VERY spicy! Both of us love spicy food and even we weren't quite prepared for it. I've enclosed some of the seeds for you - perhaps you can try to grow them?^^If you're successful, we won't say no to more of those fruit!^^Warm regards,^Dylan Moray",
+"Mail.DylanLetter.4.Title": "Note from Dylan",
+"Mail.DylanLetter.4": "Good morning, @.^^Thank you so much for delivering those materials for us! Maru has already begun construction of the ROV. She wants to update us on her progress soon, so pop over to the clinic on a Tuesday or Thursday during opening times.^^I'm really excited. We're actually going to do this!^^Warmest regards,^Dylan^^P.S. Don't worry if Maru goes off on one of her long technical explanations - I can hardly keep up with them myself!",
 
 "Mail.DemetriusLetter.1.Title": "A gift from Demetrius",
 "Mail.DemetriusLetter.1": "Good morning @,^^Eli reported the discovery of the cave system you explored to me, and also provided some truly fascinating fungal samples - I can only find matches for a few of them! I've already sent a few on to my old colleagues at ZuCU's mycology lab and to say that they're excited is an understatement.^^But I digress! One of the specimens is a hardy one that, despite its intriguing warning markings, is non-toxic and even tastes good. I'm not joking! I tried one after my tests concluded it was safe.^^I've enclosed some spores in case you want to try growing them for yourself during Spring and Winter. All they need is some decaying wood to grow on.^^Regards,^-Demetrius",
+
+"Mail.SentinelLetter.1.Title": "A gift from Sentinel",
+"Mail.SentinelLetter.1": "Hi hi!^We gib present from garden to @.^^How humans talk liek this?? Hard!^^No, is easy! We can do this!^^Look! Happy face! :)^^Focus! We tell human about gift.^^Seeds like cold! Become special flower, shiny and pretty!^^We are senT...SeNtAnL...SENTINEL!^Have nice day!",
 
 "Mail.MouseLetter.1.Title": "A crumpled note",
 "Mail.MouseLetter.1": "Human wants seeds. Mouse has seeds. Come to Mouse's hidey-hole at brother's house in East Scarp. Bring food and Mouse will give seeds to human... seeds and other things Mouse found.",
@@ -1621,7 +1639,7 @@ SIGURD/SONDRA*/
 "CT.NovaEli.CCBus": "I hear that because of a certain farmer, Pam has been restored to her iron chariot!#$b#I'm looking forward to checking out the desert - I really couldn't be arsed to walk there.$1#$b#But we both know that you had help. Say hi to the Junimos for me, won't you?$6",
 "CT.NovaEli.CCMinecart": "I saw that the minecarts are up and running. This is going to be incredibly convenient, @. And I know that you had a big hand in making it happen!$1#$b#I can already feel my life becoming more and more efficient. I'm never walking to the mines again!$3",
 "CT.NovaEli.CCComplete": "%Eli excitedly greets you with a bone-crushing hug.#$b#You actually did it! The Community Center looks even better now than it did in the old photos!$1#$b#I'm gonna miss those Junimos, though. I'd often visit them, even though I couldn't understand what the little guys were saying.$0#$b#But maybe we haven't seen the last of them. It'll be nice to see that building finally get some use.$1",
-"CT.NovaEli.MovieTheater": "Here you go! [809]$0#$b#Dylan and me thought we'd treat you. You deserve it for getting rid of that gaudy Joja eyesore and turning it into something people can actually be proud of.$3#$b#I haven't gone to a movie since we moved here. I'll be happy to join you someday.$1",
+"CT.NovaEli.MovieTheater": "Here you go! [809]$0#$b#Dylan and I thought we'd treat you. You deserve it for getting rid of that gaudy Joja eyesore and turning it into something people can actually be proud of.$3#$b#I haven't gone to a movie since we moved here. I'll be happy to join you someday.$1",
 
 "CT.NovaEli.EliIntro": "Sorry that you had to witness me getting chewed out by Lewis earlier. It doesn't happen THAT often, I swear.$10#$b#It was worth it just for the view, to be honest.$3",
 "CT.NovaEli.EliSaloon": "Hope you had a good time earlier! I certainly did. We should hang out more often.$0",
@@ -1641,11 +1659,16 @@ SIGURD/SONDRA*/
 "CT.NovaEli.DylanSaloon": "Hey there, @. I'm sorry that Dylan made a prat of himself.$10#$b#I carried him home and he complained the entire way. Then he immediately passed out. I'm never, ever gonna let him live this down.$1",
 "CT.NovaEli.DylanLibrary": "He's never going to admit it, but Dylan's actually very excited over being asked to help with that field trip.$1#$b#I reckon it'll do him a lot of good, so long as he isn't too condescending to the kids.$10",
 "CT.NovaEli.DylanLesson": "Man, I wish I'd been there to watch Dylan's lesson. Penny said he handled himself really well! I'm so proud of him right now.$3#$b#I'm glad you helped push him out of his comfort zone. It really has paid off.$1",
+"CT.NovaEli.DylanCCAquarium": "I've seen Dylan build some really fancy aquascapes for people before, but I reckon that one in the Community Center might be some of his best work yet!$3#$b#Honestly, I'm surprised he doesn't do it as a side hustle.$11",
+"CT.NovaEli.DylanDream": "Did you have any interesting dreams last night, @? Involving giant killer lampreys, maybe? Just curious!$6#$b#Hahaha, it WAS real - sorry about that! We caught Dylan in one of his moods.$3",
+
+"CT.NovaEli.DylanDrenched": "Ahahahahahaha, you'll never guess what my goofy kid brother went and did!$3#$b#He only fell off the pier looking for jellyfish like a prize winning prat. At least he wasn't hurt.$1",
 
 "CT.NovaEli.SootIntro": "Thanks for stopping by earlier, farmer. It was nice to have you over! I think Soot likes you already.$1",
 "CT.NovaEli.ThistleIntro": "That Thistle's a royal pain, isn't she? She adores Dylan, but she has it out for me. Come to think of it, she dislikes most people. He tells me what she says.$10#$b#I'm not surprised that he gets migraines all the time with her around. She's so loud.$9#$b#...What do you mean I have no indoor voice either?! THAT'S NOT TRUE AT ALL!$7",
 "CT.NovaEli.EnDJojaBreak": "*Sigh* I had an unpleasant encounter with Morris earlier. He's had it out for me for ages now... he gives me the evils if I so much as walk near JojaMart.$9#$b#Dylan stood up for me, though! He panicked when he got home, but he was incredible. I love him so damn much.$3",
-"CT.NovaEli.EnDClinicAppointment": "Dylan's pretty pissed off at me because he took me to the clinic and I was difficult with Harvey and Maru.$9#$b#And then I ran out on them. I had to get out... I feel bad about it now.$2",
+"CT.NovaEli.EnDClinicAppointment": "I think I gave Dylan, Maru and Harvey a hard time when they got me into the clinic earlier. I almost ran out of there at one point!$2#$b#But I managed to pull through! Got my new medication, hopefully it'll help me get some sleep.$3#$b#%Eli proudly flashes a colourful sticker at you that reads 'I was brave for the doctor!'",
+"CT.NovaEli.EnDPlan": "%Eli looks unusually worn out.#$b#Hey. Guess who had to help carry an entire forest's worth of an environmental report from the Scarp to Lewis's place? Even with Alex's help, that thing's no joke!$2#$b#Last I saw, Dylan and company were sitting Lewis down and preparing to make him read it. Poor bastard. I wonder if we'll ever see him again?$11",
 
 "CT.NovaEli.SootPocketAdventure": "Teren borrowed one of my hoodies and got more than he bargained for. Soot was hiding in one of the pockets!$3#$b#I was worried my clothes aren't emo enough for him, but he doesn't seem to mind. And hey, Soot got to have an adventure.$1",
 
@@ -1663,7 +1686,7 @@ SIGURD/SONDRA*/
 
 "CT.NovaEli.SenMet": "Not all monsters you meet will be aggressive. I actually know a few myself that live close by.$0#$b#Who are they? Sorry, @. They generally avoid humans. It'd be a betrayal of trust if I told you their names.$2#$b#But who knows? Maybe you'll see something interesting next time you take a walk in the rain.$6",
 
-"CT.NovaEli.DitR_CT_PipoShorts": "$query PLAYER_HAS_SEEN_EVENT Current 7thAxis.DitR.CP.Events.EveT.2h.P2#That cat of Trace's is parading around in a pair of gaudy underwear. Remind me why people think I'M the weirdo around here again?$10|That cat of Eve's is parading around in a pair of gaudy underwear. Remind me why people think I'M the weirdo around here again?$10",
+"CT.NovaEli.DitR_CT_PipoShorts": "$query PLAYER_HAS_SEEN_EVENT Current 7thAxis.DitR_Events.EveT.2h.P2#That cat of Trace's is parading around in a pair of gaudy underwear. Remind me why people think I'M the weirdo around here again?$10|That cat of Eve's is parading around in a pair of gaudy underwear. Remind me why people think I'M the weirdo around here again?$10",
 
 "CT.NovaEli.LucikielArrives": "Dunno about you @, but that was the most amazing thing I've ever seen. An actual Demon, here in our town!$3#$b##$b#And not just any Demon, but Lucikiel from the old tales. There's entire books about the golden eyed one!$1#$b#Oh man, I've gotta meet him. Do you think he'd mind me interviewing him?$1#$e#I've got to say, he's not what I thought a Demon would look like. Easy on the eye, too...$4#$b#Huh? Ignore me, I'm just thinking out loud.$7",
 
@@ -1719,11 +1742,14 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.DylanSaloon": "Not now, @. I'm very hung over and in no mood to socialise.$7#$b#I did enough socialising last night that I needn't bother for the rest of the year.$0",
 "CT.NovaDylan.DylanLibrary": "I've been planning activities for that field trip. Hopefully the little munchkins will enjoy themselves.$1#$b#...What? No, I'm not looking forward to it! Why would I??$6",
 "CT.NovaDylan.DylanLesson": "That lesson went much better than I expected! I was rather enjoying myself, actually. I hadn't felt that confident in a long time!$3#$b#Thanks for believing in me, @.$1",
+"CT.NovaDylan.DylanCCAquarium": "Reception to my work in the Community Center was better than I anticipated. I didn't expect so many people to show up!$1#$b#The kids seem to love it in particular.$3",
+"CT.NovaDylan.DylanDream": "%Dylan is pointedly avoiding your gaze. He looks guilty.#$b#Sorry about the lampreys... maybe that was a bit harsh...$9",
 
 "CT.NovaDylan.SootIntro": "It was a nice change of pace to have a visitor. You're welcome to stop by whenever.$1#$b#Especially if it keeps Soot on his best behaviour. It's not like him to be that docile, especially around strangers.$9",
 "CT.NovaDylan.ThistleIntro": "Sorry if Thistle left a sour impression on you. She was mad when she found out you didn't just leave your crops unprotected from her and her friends.$0#$b#She kept complaining about how unfair it is. But you losing your produce would be unfair. She'll just have to get over it, won't she?$1",
 "CT.NovaDylan.EnDJojaBreak": "Morris was an ass to Eli earlier while we were minding our own business. I couldn't believe he had the gall to do that in public!$2#$b#I had to speak up. Nobody's allowed to be rude to my brother except for me.$5",
-"CT.NovaDylan.EnDClinicAppointment": "I can't believe Eli sometimes. I totally understand him being afraid of being at the clinic, but how he behaved earlier was completely unacceptable.$7#$b#*Sigh* I'll have to sit him down later. I'm not angry at him, just... I worry a lot about him.$2",
+"CT.NovaDylan.EnDClinicAppointment": "I thought I'd have a fight on my hands keeping Eli in the clinic for his appointment, but he actually calmed down eventually. I'm proud of him.$1#$b#With any luck, he might have an easier time getting some rest in future.$0",
+"CT.NovaDylan.EnDPlan": "I think we've succeeded in impressing on Lewis the importance of preserving the environment and how to start turning things around.$3#$b#Although I suspect that by the time we reached the end of that report, he was prepared to say absolutely anything to make us go away.$1",
 
 "CT.NovaDylan.SootPocketAdventure": "I hear that Soot infiltrated the Bear residence because Teren needed to borrow clothes from Eli. I hope he didn't cause too much havoc...$0",
 
@@ -1735,13 +1761,13 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.SterlingDrugs": "Keep an eye on Sterling, won't you? Something's wrong with him.$0#$b#Eli of all people told me he was being weird, so I went up and asked him about it. Said we're always around if he ever needs to talk.$2#$b#He just laughed it off and said everything's fine, then he made up an excuse and left. But he was being really twitchy the entire time.$9",
 "CT.NovaDylan.SterlingRelapse": "We visited Sterling earlier. He's going to be alright, but seeing him so vulnerable like that is just heartbreaking.$2#$b#We're both there for him if he ever needs it, but I think he'd appreciate it if you dropped by as well, @. He always speaks fondly of you.$1",
 "CT.NovaDylan.SterlingApology": "Nice to see Sterling back to his usual self. I heard he made up with Pierre and got his job back.$1#$b#*Sigh* ...Brace yourself for the flirting, farmer.$9",
-"CT.NovaDylan.SterlingRiver": "Sterling has my utmost respect for what he's doing right now. Eli and me both watched addiction destroy lives, back before we came to the Valley.$0#$b#But occasionally we've seen people overcome it. Support from friends and family can make a world of difference.$1",
+"CT.NovaDylan.SterlingRiver": "Sterling has my utmost respect for what he's doing right now. Me and Eli both watched addiction destroy lives, back before we came to the Valley.$0#$b#But occasionally we've seen people overcome it. Support from friends and family can make a world of difference.$1",
 
 "CT.NovaDylan.AnewCoupleInTown": "Looks like there's a new couple that just moved into the Inn.$1#$b#Or, should I say, ANEW couple. They seem nice enough.$3#$e#I get the feeling that Trace and Eli will get along like a house on fire.$1",
 
 "CT.NovaDylan.SenMet": "Something's been going through the garbage around town. When I asked Eli about it, he just smirked and didn't reply.$0#$b#I'm gonna find him waist deep in a dumpster one day, aren't I. I'm already resigned to it.$6",
 
-"CT.NovaDylan.DitR_CT_PipoShorts": "$query PLAYER_HAS_SEEN_EVENT Current 7thAxis.DitR.CP.Events.EveT.2h.P2#How did Pipo get hold of the mayor's shorts? Was it Trace? They're going to get in trouble if they go around stealing people's underwear like this...$9|How did Pipo get hold of the mayor's shorts? Was it Eve? She's going to get in trouble if she goes around stealing people's underwear like this...$9",
+"CT.NovaDylan.DitR_CT_PipoShorts": "$query PLAYER_HAS_SEEN_EVENT Current 7thAxis.DitR_Events.EveT.2h.P2#How did Pipo get hold of the mayor's shorts? Was it Trace? They're going to get in trouble if they go around stealing people's underwear like this...$9|How did Pipo get hold of the mayor's shorts? Was it Eve? She's going to get in trouble if she goes around stealing people's underwear like this...$9",
 
 "CT.NovaDylan.LucikielArrives": "Just when I thought Morris couldn't act more like a third rate comic book villain, he goes and pulls a stunt like that.$5#$b#Still, that was really fascinating to watch. Eli's going to be talking about this non-stop now.$1#$b#Think this Lucikiel guy will turn him into an animal as well if he bothers him enough?$9",
 
@@ -1777,6 +1803,12 @@ SIGURD/SONDRA*/
 
 "CT.Lewis.DylanIntro": "Dylan has complained to me on numerous occasions about the beach pollution caused by JojaMart.$0#$b#I know he's right and that the garbage is an eyesore, but what can I really do about it? He'd be better off taking it to Morris.$2",
 "CT.Lewis.DylanBeach": "Dylan cornered me again about the pollution problem. He showed me photos of the mess that you two cleaned up recently on the beach.$0#$b#I didn't realise that it had gotten quite so bad... what an embarrassment.$2#$b#He did give me some interesting ideas to promote awareness on this issue, though. I'll give it some thought. Thank you for the help, @.$0",
+"CT.Lewis.DylanCCAquarium": "I didn't realise how expensive saltwater aquariums could be. Still, Dylan assures me that he's going to handle all of the care and maintenance.$2#$b#On a positive note, people do seem to enjoy it. I've already caught myself watching it for nearly half an hour.$1",
+"CT.Lewis.EnDPlan": "Please, Dylan. No more, I'm begging you. I even had NIGHTMARES about the second time we went over chapter 39 of that report last night -!$2#$b#OH! It's just you, @. What a relief!$1",
+
+//ALEX
+
+"CT.Alex.EnDPlan": "Man, you should've seen the book that the scientist bunch asked me to help carry. You could kill someone with that thing!$1#$b#Eli was complaining non-stop the whole time. Dude's actually pretty fit and fights things in the mines, shouldn't it be a piece of cake for him?$0",
 
 //EMILY
 
@@ -1785,12 +1817,14 @@ SIGURD/SONDRA*/
 
 "CT.Emily.DylanIntro": "Dylan doesn't come by the Saloon often. And when he does, he's always with Eli and doesn't say much.$0#$b#His eyes light up once you get him on the subject of sea life, though. It's adorable! I think he just needs help coming out of his shell.$1",
 "CT.Emily.DylanSaloon": "I feel a little guilty, @. I did promise to keep an eye on Dylan for Eli.$2#$b#He assured me that no harm was done, and that he now has enough teasing ammunition for the next year.$0",
+"CT.Emily.DylanDream": "$query PLAYER_HAS_SEEN_EVENT Current 471942#What's that, @? You saw Dylan's dream as well? How interesting! What was it like?$0#$b#...Oh. That deep sea vista sounds gorgeous, but I'll give the lampreys a pass.$3#$b#And you told him about visiting ME? How exciting! Maybe I should try talking to him about it.$1|Sometimes I get the impression that there's more to the Moray brothers than meets the eye. Have you ever noticed that?$1#$b#A few times when I've been near Dylan, I've felt this... presence. Heard thoughts that weren't my own. What does it mean?$3",
 
 //HALEY
 
 "CT.Haley.EliIntro": "Eli? He's friendly enough. And kind of handsome, in that scruffy sort of way.$0#$b#But he's SUCH a weirdo. Like, he makes my sister look downright normal.$3",
 
 "CT.Haley.DylanIntro": "Ugh! I tried saying hello to Dylan because he's actually pretty cute, but he just stared at me and didn't say anything. Then he walked off.$3#$b#You've got one brother who ignores you and the other one doesn't shut up. What's with these people from East Scarp?$2",
+"CT.Haley.DylanCCAquarium": "That aquarium in the community center is really pretty! I've been taking some photos of it for social media.$1",
 
 //SHANE
 
@@ -1824,6 +1858,7 @@ SIGURD/SONDRA*/
 
 "CT.Demetrius.DylanIntro": "Have you met Dylan? He's a marine biologist living in East Scarp. It's a rather respectable field.$1#$b#It's always nice to see younger people taking a serious interest in scientific pursuits. And he certainly knows his stuff!$0#$b#I bet I could still teach him a thing or two, though.$1",
 "CT.Demetrius.DylanBeach": "Thank you for helping Dylan clean up the beach, @. We've always had a certain amount of pollution, but it's gotten worse since Joja came into town.$0#$b#I worry about the deleterious effects it's having on the local ecosystem. Something needs to be done about it.$2",
+"CT.Demetrius.EnDPlan": "I'm actually really proud of the environmental report we compiled for Lewis. I'm hoping we can actually get it publicized pretty soon!$1",
 
 //MARU
 
@@ -1832,7 +1867,8 @@ SIGURD/SONDRA*/
 
 "CT.Maru.DylanIntro": "It's exciting to have a marine biologist living in Pelican Town! I think Dylan might actually know more about the local marine ecosystem than Dad.$1#$b#He's always been withdrawn, though. He's obviously passionate about his field of expertise, but he doesn't seem to like engaging with people.$2",
 
-"CT.Maru.EnDClinicAppointment": "Eli got dragged to the clinic earlier by Dylan and... I'm not quite sure what I saw, but he was there one moment and gone the next!$2#$b#Does he moonlight as a ninja or something? Nobody can move that fast, it just isn't physically possible.$9",
+"CT.Maru.EnDClinicAppointment": "Eli got dragged to the clinic earlier by Dylan and... well, it wasn't easy for any of us. But he actually toughed it out.$1#$b#I gave him a hug before he went. I think he needed it.$0",
+"CT.Maru.EnDPlan": "I'm hopeful that Lewis is going to take our report to heart. At first I was nervous that he'd dismiss it, but he was a lot more patient than I expected.$0",
 
 //Leah
 
@@ -1844,6 +1880,7 @@ SIGURD/SONDRA*/
 "CT.Leah.DylanBeach": "The beach looks a lot nicer now. Thanks for your help with that, @!$0#$b#I've had to do that a few times before, on the beach and in the forest, but it's almost never THAT bad.$2",
 "CT.Leah.DylanTown": "Dylan stopped for a chat earlier. I'm glad to see him feeling better.$0#$b#We both had a laugh at the look Eli had on his face when Pam accosted him. Doesn't he deal with monsters for a living?$1",
 "CT.Leah.DylanSaloon": "Hi, @! I'm sorry that we got a tad carried away the other night.$0#$b#We must do it again sometime!$1",
+"CT.Leah.DylanCCAquarium": "That aquarium in the Community Center is quite something, isn't it? A work of art, even. Maybe I should try designing an aquascape someday...$1",
 
 //ELLIOTT
 
@@ -1852,7 +1889,8 @@ SIGURD/SONDRA*/
 "CT.Elliott.DylanIntro": "Dylan's work often takes him near my shack. He may not be much in the way of socialising, but he never says no to the offer of a hot beverage.$0#$b#Sometimes he talks about his work whilst I listen. I get the impression that he does appreciate my occasional companionship.$1",
 "CT.Elliott.DylanBeach": "Hello, @. As much as I appreciated your efforts, I'd like to profusely apologise for being unable to assist you and Dylan earlier.$2#$b#I was held captive at my writing desk by a brilliant spark of inspiration that I had to commit to paper before I forgot.$0#$b#Such is the peril of being an aspiring writer.$1",
 "CT.Elliott.DylanTown": "Do you think that Leah and I came on a bit too strongly when we extended our offer to Dylan? I'd hate to think that we scared him off.$2#$b#Still, he did say that he would consider joining us. It is more than we'd hoped for.$1",
-"CT.Elliott.DylanSaloon": "Oh dear... I fear that our revels left poor Gus's establishment in quite a state.$2#$b#I hope that you enjoyed yourself though, @.$1",
+"CT.Elliott.DylanSaloon": "Oh dear... I fear that our revels left poor Gus's establishment in quite a sorry state.$2#$b#Still, it feels good to let my hair down occasionally. I hope that you enjoyed yourself, @.$1",
+"CT.Elliott.DylanCCAquarium": "After seeing that aquarium of Dylan's, I can feel a poem taking vivid form. I shall have to retire to my shack soon and commit it to paper.$1",
 
 //HARVEY
 
@@ -1860,7 +1898,7 @@ SIGURD/SONDRA*/
 
 "CT.Harvey.DylanSaloon": "I bumped into Eli on my way out of the Saloon and tried to check him over. Apparently the skirmish over at the mines was a big one.$0#$b#He refused and ran past me. I think Dylan had too much to drink as well... what'll I do with those two?$2",
 
-"CT.Harvey.EnDClinicAppointment": "I'm still trying to work out how Eli managed to leave the clinic without opening the reception door. Maru and I would've noticed!$8",
+"CT.Harvey.EnDClinicAppointment": "Eli visited the clinic earlier and brought Maru and I a coffee each. That was very kind of him!$1#$b#I hope he didn't feel obligated to apologise for being anxious there. He's far from the most difficult patient I've had.$2",
 
 //ABIGAIL
 
@@ -1871,6 +1909,7 @@ SIGURD/SONDRA*/
 //PIERRE
 
 "CT.Pierre.EliGuild": "I think Abigail's been fighting again. She came home covered in dirt and bruises.$2#$b#It had better not be Sam or Sebastian again! I really don't need to have another word with their mothers.$3",
+"CT.Pierre.EnDJojaBreak": "I heard that Morris tried to give Eli a hard time earlier. That incident was a long time ago and from what I heard, it didn't even affect JojaMart's sales!$3#$b#Eli's overenthusiasm has caused accidents in my shop as well, but he always apologised and tried to clear it up. I wouldn't BAN him for it.$2",
 
 //SEBASTIAN
 
@@ -1921,7 +1960,14 @@ SIGURD/SONDRA*/
 
 "SpecialOrders.FairyRingOffering.Name": "Offering to the Woods",
 "SpecialOrders.FairyRingOffering.Text": "Eli is convinced that the faerie ring you discovered deep in the woods is important, and that something may happen if you leave an offering. It could just be another far fetched theory of his... but nothing ventured, nothing gained?",
-"SpecialOrders.FairyRingOffering.ObjectiveText": "Leave 25 crops, flowers, animal products or forage in the box at Eli and Dylan's house.",
+"SpecialOrders.FairyRingOffering.ObjectiveText.1": "Leave 25 crops, flowers, animal products or forage in the box at Eli and Dylan's house.",
+
+"SpecialOrders.DroneComponents.Name": "Into the Abyss",
+"SpecialOrders.DroneComponents.Text": "Dylan, Maru and Demetrius are planning an unmanned expedition into an uncharted deep sea trench, but lack the funding for the components that Maru needs to construct an advanced ROV. Your contribution to Science will be appreciated!",
+"SpecialOrders.DroneComponents.ObjectiveText.1": "Leave 5 copper bars in the box at Robin's house.",
+"SpecialOrders.DroneComponents.ObjectiveText.2": "Leave 5 iron bars in the box at Robin's house.",
+"SpecialOrders.DroneComponents.ObjectiveText.3": "Leave 5 gold bars in the box at Robin's house.",
+"SpecialOrders.DroneComponents.ObjectiveText.4": "Leave 3 battery packs in the box at Robin's house.",
 
 //EVENTS
 
@@ -1932,7 +1978,7 @@ SIGURD/SONDRA*/
 "Events.EliIntro.NovaEli.1": "Nobody ever looks up.$0",
 "Events.EliIntro.NovaEli.2": "Heh. Sorry if I scared you! @, right? How're you liking Pelican Town so far?$3",
 "Events.EliIntro.Question.1": "#I like it! It already feels like home.#I don't know yet. I'm not used to the countryside.#What're you doing on the roof?",
-"Events.EliIntro.Question.1.Response.1": "I'm glad to hear it! I'm pretty new myself. My brother and me are a pair of harbour rats from Point Drake. We got here about a year ago.$1#$b#It's a small and quiet town, but that was a big part of the appeal for us. I get the feeling you came here for similar reasons.$0",
+"Events.EliIntro.Question.1.Response.1": "I'm glad to hear it! I'm pretty new myself. Me and my brother are a pair of harbour rats from Point Drake. We got here about a year ago.$1#$b#It's a small and quiet town, but that was a big part of the appeal for us. I get the feeling you came here for similar reasons.$0",
 "Events.EliIntro.Question.1.Response.2": "I get that. My brother and I come from Point Drake, it's a small port city. When we came here a year ago it was hard to adapt to the sudden quiet.$0#$b#I was so used to hearing traffic and sirens through the night that it felt almost deafening.$11#$b#But there's a sense of community spirit here you just won't find in the cities. Give it time and I'm sure you'll love it too!$1",
 "Events.EliIntro.Question.1.Response.3": "...Not much, actually. Mainly just admiring the view from here. The Mayor recently left this building unlocked so I thought I'd poke around inside.$0#$b#It was totally worth the visit. I'm definitely going to return before long just to be sure of a few things.$1#$b#But yeah, I'm into urban exploration as it goes. Did it a lot as a side hobby before moving here.$3",
 "Events.EliIntro.Lewis.1": "ELI!",
@@ -1942,7 +1988,7 @@ SIGURD/SONDRA*/
 "Events.EliIntro.NovaEli.5": "...I fell?$10",
 "Events.EliIntro.Lewis.3": "That's exactly what I'm worried will happen to you in a minute, young man!$4#$b#After that spectacle you caused at JojaMart last Summer, you breaking your neck is the LAST thing I want. Get down here at once!$3",
 "Events.EliIntro.NovaEli.6": "Okay, sorry! I couldn't resist the chance to get a good look at the town from up here. I'll be right down.$10",
-"Events.EliIntro.Lewis.4": "Hello, @. I'm sorry you had to see that... Eli's a good man but I swear that his recklessness is going to get him killed one day.$3#$b#Were you here to visit the Community Center again? Do let me know if you catch those rats!$1",
+"Events.EliIntro.Lewis.4": "Hello, @. I'm sorry you had to see that... Eli's a good man, but I swear that his recklessness is going to get him killed one day.$3#$b#Were you here to visit the Community Center again? Do let me know if you catch those rats!$1",
 "Events.EliIntro.NovaEli.7": "Hey!",
 "Events.EliIntro.NovaEli.8": "See? Safe and sound. I didn't mean to upset you Lewis, but there's something about the Community Center that I want to investigate.$1#$b#I'll try to refrain from going on the roof in future.$12",
 "Events.EliIntro.Lewis.5": "And I'm sorry for yelling at you. Just try to be more careful, okay? Don't let me catch you up there again.$2",
@@ -1972,7 +2018,7 @@ SIGURD/SONDRA*/
 "Events.EliSaloon.Question.1.Response.2": "Certainly! I hope you enjoy it.[196]$1",
 "Events.EliSaloon.Question.1.Response.3": "Sounds great! This is one of my specialties.[224]$1",
 "Events.EliSaloon.NovaEli.6": "You can keep it, Emily! I might find more the next time I go adventuring.$3",
-"Events.EliSaloon.NovaEli.7": "It's been a busy day, @. Our little friends from a certain building have been taking up my time lately.$6#$b#I can't understand a word they're saying, but they seem to understand me. I wonder what they must make of me?$0",
+"Events.EliSaloon.NovaEli.7": "It's been a busy day, @. Our little friends from a certain building have been taking up my time lately.$6#$b#I can't understand a word they're saying, but it's almost like they can understand me.$0#$b#I wonder what they think of me?$11",
 "Events.EliSaloon.Question.2": "#I can understand them!#They're probably insulting you to your face.",
 "Events.EliSaloon.Question.2.Response.1": "Really?? We need to go together at some point. You can be my interpreter!$3#$b#I didn't know you could talk to spirits, Farmer. That's impressive! Must be a bit of forest magic about you... very interesting.$1",
 "Events.EliSaloon.Question.2.Response.2": "HA! They probably are, as well! That's a great mental image, I love it.$3#$b#Maybe I can teach them to swear in our language. That sounds like a hilarious idea, actually.$1",
@@ -1986,7 +2032,7 @@ SIGURD/SONDRA*/
 "Events.EliSaloon.NovaEli.10": "I don't really know many other people in town. I know they all think I'm nuts.$10#$b#But that comes with the territory when you're a cryptozoologist. It's... whatever.$2",
 "Events.EliSaloon.Sam.2": "I'm telling you that you cheated!",
 "Events.EliSaloon.Sebastian.2": "Yeah, yeah. Don't be so salty.",
-"Events.EliSaloon.NovaEli.11": "Anyway! I've talked your ear off long enough. I'd better get back home. It's a long walk back to East Scarp so I can't stay out too late.$1#$b#Dylan's probably been wondering where I am. Take care, @.$0",
+"Events.EliSaloon.NovaEli.11": "Anyway! I've talked your ear off long enough. I'd better get back home. It's a long walk back to East Scarp, so I can't stay out too late.$1#$b#Dylan's probably been wondering where I am. Take care, @.$0",
 
 //3 HEARTS PART 1
 
@@ -2570,6 +2616,79 @@ SIGURD/SONDRA*/
 "Events.DylanLesson.Penny.4": "Vincent! Take that crab back out of your pocket at once!$5",
 "Events.DylanLesson.Vincent.6": "Aww...$2",
 
+//6 HEARTS PART 1
+
+"Events.DylanMeeting.Robin.1": "Hello there!",
+"Events.DylanMeeting.Robin.2": "It's nice to see you again, Dylan. I take it that you're here on business as usual?$1",
+"Events.DylanMeeting.NovaDylan.1": "I'm afraid so, Robin. Our budget's still too tight at the moment to afford the kind of lab equipment that Demetrius has.$1#$b#Hopefully I haven't been imposing on you too much in the meantime.$9",
+"Events.DylanMeeting.Robin.3": "Of course not! You're welcome here at any time. We've got to look after our marine biologist and teacher extraordinaire, right?$4",
+"Events.DylanMeeting.NovaDylan.2": "But I'm not a teacher, it was a once off...!$6",
+"Events.DylanMeeting.Robin.4": "Oh relax, Dylan. I'm just winding you up.$1#$b#Anyway, don't let me detain you. They're in the lab as usual. They seem pretty excited about something!$0",
+"Events.DylanMeeting.Robin.5": "*Sigh*",
+"Events.DylanMeeting.Robin.6": "Don't mind him.$2",
+"Events.DylanMeeting.NovaDylan.3": "Hello?",
+"Events.DylanMeeting.Maru.1": "Dylan!",
+"Events.DylanMeeting.Demetrius.1": "Hello, Dylan! Did you read about that deep sea trench that was discovered just off the coast?$1",
+"Events.DylanMeeting.NovaDylan.4": "Yes! That's actually what I came here to talk about. To think it's been there all this time! I'd love to know what kind of ecosystem it has.$3",
+"Events.DylanMeeting.Maru.2": "Goblin sharks!$1",
+"Events.DylanMeeting.NovaDylan.5": "Gulper eels!$3",
+"Events.DylanMeeting.Demetrius.2": "Giant isopods!$1",
+"Events.DylanMeeting.Maru.3": "Eeee!!",
+"Events.DylanMeeting.NovaDylan.6": "It's awfully far down, though. There aren't many submersibles capable of reaching that depth, are there?$2",
+"Events.DylanMeeting.Maru.4": "Dad and I were discussing that. The pressure at those depths is definitely a problem, but it's a problem I think I can solve.$3",
+"Events.DylanMeeting.NovaDylan.7": "I see where this is going... are you proposing that we explore the trench ourselves?$1",
+"Events.DylanMeeting.Maru.5": "I think I can design and build an ROV capable of operating safely at those depths. But there's a snag.$0",
+"Events.DylanMeeting.NovaDylan.8": "The budget.",
+"Events.DylanMeeting.Demetrius.3": "The budget...",
+"Events.DylanMeeting.Maru.6": "Yep...",
+"Events.DylanMeeting.Demetrius.4": "The resources we'd need are expensive. And ZuCU isn't going to fund a venture like this, not at such short notice.$2",
+"Events.DylanMeeting.NovaDylan.9": "I wouldn't be much help either. The grant money I get is paltry as it is. And I couldn't ask Eli to take on even more work at the Guild.$9",
+"Events.DylanMeeting.Maru.7": "Is there anyone else we could ask to help? They'd be making an invaluable contribution to science...$2",
+"Events.DylanMeeting.NovaDylan.10": "We'd need someone dependable.$0",
+"Events.DylanMeeting.Demetrius.5": "Someone who enjoys helping others.$3",
+"Events.DylanMeeting.Robin.7": "Hello, @! What can I do for you?$1",
+"Events.DylanMeeting.Demetrius.6": "Aha!",
+"Events.DylanMeeting.NovaDylan.11": "It's worth a shot. We can approach @ about it tomorrow. In the meantime Maru, could you make a list of what you need?$1",
+"Events.DylanMeeting.Maru.8": "Will do!",
+
+//6 HEARTS PART 2
+
+"Events.DylanRequest.NovaDylan.1": "Good morning, @. Apologies for showing up so early, but I've got a tight schedule to keep.$0#$b#I'll get straight to the point - Maru, Demetrius and I have plans for an unmanned expedition into a newly discovered deep sea trench.$1",
+"Events.DylanRequest.NovaDylan.2": "The trouble is, the components Maru needs to design her fancy drone are expensive and we're all on a tight budget.$2#$b#We would need 5 copper bars, 5 iron bars, 5 gold bars and 3 battery packs. I know it's a big request to make...$9",
+"Events.DylanRequest.Question.1.Answer.1": "That sounds easy! Consider it done.",
+"Events.DylanRequest.Question.1.Answer.2": "What are you hoping to find down there?",
+"Events.DylanRequest.Question.1.Answer.3": "Am I getting paid for this?",
+"Events.DylanRequest.Question.1.Response.1": "Wait... really?? You'll do it? I was stressing over how I'd make such a big request for nothing, then!$3#$b#We seriously owe you, @. We won't be able to repay you immediately, but you will be compensated - I promise.$1",
+"Events.DylanRequest.Question.1.Response.2": "Well, I definitely want to get a good look at whatever kind of life there might be at those depths.$1#$b#There could be entirely undiscovered species down there! Creatures that have quite literally never even seen the light of day.$3#$b#There's also the thrill of being the first people to lay eyes on a place that nobody could ever reach through conventional means.$1",
+"Events.DylanRequest.Question.1.Response.3": "I figured you'd say that, but you're right. It's a big thing to ask of anyone.$2#$b#We can't afford to pay you immediately, but we expect an increase in funding if we can pull this off - funding that we'll share with you.$1",
+"Events.DylanRequest.NovaDylan.3": "And naturally, we're going to give you a front row seat to the expedition. I think you'll enjoy it.$3",
+"Events.DylanRequest.NovaDylan.4": "Right, I'd better be off now. I'm sure you have plenty of things to be getting on with. Take care, @.$1",
+
+//6 HEARTS PART 3
+
+"Events.DylanDroneProgress.Harvey.1": "Next! Right this way, Alex.$1",
+"Events.DylanDroneProgress.Harvey.2": "Overdid it again, did we?",
+"Events.DylanDroneProgress.Alex.1": "Yeah...",
+"Events.DylanDroneProgress.Maru.1": "Hey there!",
+"Events.DylanDroneProgress.NovaDylan.1": "Hello, @! Glad you could make it, you're right on time.$1",
+"Events.DylanDroneProgress.Maru.2": "And even better, we're having a pretty quiet day at the clinic so far.$0#$b#Barring any emergencies, I should have time to update you guys on what I've been up to!$1",
+"Events.DylanDroneProgress.NovaDylan.2": "Last time I heard from you, you said there was already pretty substantial progress. I can't believe how fast you work!$3",
+"Events.DylanDroneProgress.Maru.3": "The ROV is mostly functional. Dad's been helping me perform field tests in the lake, and we got some really neat footage!$1#$b#The robotic arm took some fine tuning, but we'll be able to recover samples from the sea floor as we go along.$0",
+"Events.DylanDroneProgress.NovaDylan.3": "How long will the batteries last? It's a very long way down. Would we get much time to explore once we reached the bottom?$9",
+"Events.DylanDroneProgress.Maru.4": "Definitely enough for our purposes, but there's only so much power I can squeeze out of them - especially with the flashlight active, which we'll certainly need.$2#$b#It's either that, or coming up with a miniaturised reactor that would use radioactive bars as fuel.$0#$b#And as a nurse, I think it'd be pretty irresponsible of me to ask @ to collect fissile material!$1",
+"Events.DylanDroneProgress.NovaDylan.4": "True!",
+"Events.DylanDroneProgress.Question.1.Answer.1": "You're a genius, Maru!",
+"Events.DylanDroneProgress.Question.1.Answer.2": "Can it survive the deep sea pressure?",
+"Events.DylanDroneProgress.Question.1.Response.1.1": "Aww, you're just saying that. But it's sweet of you! Thanks, @.$1",
+"Events.DylanDroneProgress.Question.1.Response.1.2": "It's true, though! This venture wouldn't be possible without your technical wizardry.$3",
+"Events.DylanDroneProgress.Question.1.Response.2.1": "It handled the pressure within acceptable margins in all the simulations I ran, but the only way for us to be certain is to do it for real.$0",
+"Events.DylanDroneProgress.Question.1.Response.2.2": "Yeah... there's always a very real risk that it'll implode. But if anyone can make this work, it's Maru.$0",
+"Events.DylanDroneProgress.Maru.5": "Just give me three more days and we should be good to go. Know where we're going to do it?$0",
+"Events.DylanDroneProgress.NovaDylan.5": "The pier outside Willy's shop should be good. It's a more central location. Anyway, I imagine we might have a bunch of onlookers.$1",
+"Events.DylanDroneProgress.Maru.6": "Deal!",
+"Events.DylanDroneProgress.NovaDylan.6": "Well, we'd better let Maru get back to her work before Harvey comes back.$1",
+"Events.DylanDroneProgress.Maru.7": "Thanks for stopping by! I'll see you in three days.$1",
+
 //BONUS EVENTS
 
 //DYLAN CC AQUARIUM
@@ -2583,7 +2702,7 @@ SIGURD/SONDRA*/
 "Events.DylanCCAquarium.Willy.1": "She's looking wonderful, Dylan! Even better than she used to.$1",
 "Events.DylanCCAquarium.Rodney.1": "Fish are dumb.",
 "Events.DylanCCAquarium.Jacob.1": "I agree! I could honestly stare at it all day.$1",
-"Events.DylanCCAquarium.NovaDylan.6": "I can't take all the credit. You two obtained the fish and corals for me - and Eloise helped pick them out.$1",
+"Events.DylanCCAquarium.NovaDylan.6": "I can't take all the credit. You two procured the fish and corals for me - and Eloise helped pick them out.$1",
 "Events.DylanCCAquarium.Eloise.1": "It was a team effort!$1",
 "Events.DylanCCAquarium.NovaEli.1": "You've done some INCREDIBLE work, little bruv! You outdid yourself!$3",
 "Events.DylanCCAquarium.Nora.1": "This is so beautiful! If I was a fish, this would be my dream tank for sure.$1",
@@ -2595,6 +2714,33 @@ SIGURD/SONDRA*/
 "Events.DylanCCAquarium.NovaEli.2": "PFFFFFT!",
 "Events.DylanCCAquarium.Lewis.3": "*Ahem*... of course I did. If the assembled company would please excuse me, another pressing matter has just come to my urgent attention.$5",
 "Events.DylanCCAquarium.Message.1": "The Community Center has recieved yet another upgrade!",
+
+//DYLAN DREAM
+
+"Events.DylanDream.NovaDylan.1": "@? What're you doing here?$0",
+"Events.DylanDream.Question.1.Answer.1": "I could ask you the same question!",
+"Events.DylanDream.Question.1.Answer.2": "Where is 'here', exactly?",
+"Events.DylanDream.Question.1.Response.1": "What's it look like? I'm performing field work. It's perfectly normal in my profession.$9#$b#Got to say, it's pretty weird to see a farmer at the bottom of the ocean. Did you take a wrong turn on the way to Pierre's or something?$1",
+"Events.DylanDream.Question.1.Response.2": "We're at the bottom of the ocean, farmer. It's pretty self evident, don't you think? Why do you look so surprised?$1#$b#It's been very peaceful here. Just look at all of this sea life for me to study!$3",
+"Events.DylanDream.NovaDylan.2": "What do you mean 'this isn't possible' and 'why aren't we drowning'? Of course it's possible. We're here, aren't we?$0#$b#Obviously we're not drowning because... because...$9",
+"Events.DylanDream.NovaDylan.3": "...Oh.",
+"Events.DylanDream.NovaDylan.4": "Of course it's a dream. Right. That's a shame...$2",
+"Events.DylanDream.NovaDylan.5.A.1": "I suppose I should be wondering why you're here. A figment of my subconsciousness wouldn't be telling me to question my own dream.$0",
+"Events.DylanDream.NovaDylan.5.B.1": "I suppose I should be wondering why you're here. A figment of my subconsciousness wouldn't be telling me to question this.$0#$b#This isn't your first time wandering into a random person's dream, is it?$5",
+"Events.DylanDream.NovaDylan.5.B.2": "Emily's as well? For some reason that doesn't surprise me at all. Bet it was filled with rainbows and unicorns.$9",
+"Events.DylanDream.NovaDylan.6": "This is awkward...",
+"Events.DylanDream.NovaDylan.7": "Oh, for Yoba's sake!",
+"Events.DylanDream.NovaEli.1": "Dylan! How come you're dreaming about @? Needed imaginary company for your underwater adventure?$6#$b#Good job I'm here to liven things up, innit!$1",
+"Events.DylanDream.NovaEli.2": "Good likeness, too. Usually people look weird and distorted when you dream about them, don't they?$3",
+"Events.DylanDream.NovaDylan.8": "This actually IS @, Eli. For your information, they somehow ended up here on their own.$9#$b#They're not supposed to be here. Neither are you! Go back to your own sordid dreams. You two aren't holding a party in my head.$5",
+"Events.DylanDream.NovaEli.3": "Huh! I thought only we could visit each other. I'm guessing my grouchy little brother didn't tell you about this, @?$11#$b#I haven't a clue how it works. I'm PRETTY sure it's something on his end, not mine. If I could do this to other people, I would.$1",
+"Events.DylanDream.NovaDylan.9": "You know I can easily boot you out, right? I make the rules here.$0",
+"Events.DylanDream.NovaEli.4": "Sure, you can... but it'll wake me up. And I can just as easily walk into your room and pour cold water on your face!$6",
+"Events.DylanDream.NovaDylan.10": "Not if you want me to do your laundry, you won't! You can get the slime and monster ichor out of your own clothes.$1",
+"Events.DylanDream.NovaEli.5": "Okay, you win!",
+"Events.DylanDream.NovaDylan.11": "No offense @, but I've really got to kick you both out now. Sleep is supposed to be relaxing and social interaction... isn't.$0#$b#See you tomorrow!$3",
+"Events.DylanDream.NovaEli.6": "C'mon, @. We'd better go before he -$12#$b#Before he does THAT!!$7",
+"Events.DylanDream.NovaEli.7": "NOPE NOPE NOPE!",
 
 //OTHER
 
@@ -2664,6 +2810,18 @@ SIGURD/SONDRA*/
 "Events.ThistleIntro.NovaEli.6": "Sorry brother, your mouth is moving but all I'm hearing is a whining noise. Come on, let's go go go!$3",
 "Events.ThistleIntro.Message.1": "Dylan is dragged away by Eli, protesting all the while. High above, crows circle in the sky.",
 
+//JUNIMO GIFT
+
+"Events.JunimoGift.Allium.1": "Hi hi!",
+"Events.JunimoGift.Allium.2": "We bring gift, for present you and Eli gave us!$0",
+"Events.JunimoGift.Question.1.Response.1": "Awww, thanks little buddy!",
+"Events.JunimoGift.Question.1.Response.2": "Are you part of Sentinel?",
+"Events.JunimoGift.Question.1.Answer.1": "No problem! Least Sentinel can do for friend. Here, present! Open it!$3",
+"Events.JunimoGift.Question.1.Answer.2": "Yes! We are close by and watching. We stay small and sneaky - not want to scare humans. Here, present! Open it!$3",
+"Events.JunimoGift.Message.1": "Obtained 5 'Pixie Bloom Seeds'!",
+"Events.JunimoGift.Allium.3": "Special, magical seeds from our garden! Very pretty!$0",
+"Events.JunimoGift.Allium.4": "We must go. Nice to see you! Buh-bi!$1",
+
 //JOJA BREAK
 
 "Events.JojaBreak.Juliet.1": "If it isn't the Moray brothers! Welcome to JojaMart~$0",
@@ -2714,22 +2872,60 @@ SIGURD/SONDRA*/
 "Events.ClinicAppointment.Aideen.3": "Why were you passed out in my garden?$2",
 "Events.ClinicAppointment.NovaEli.5": "All I remember is heading home from my last job at the Guild. I hadn't slept the last few nights...$2",
 "Events.ClinicAppointment.NovaDylan.3": "Eli, you can't go on like this. What if you'd passed out in the mines? What if one of the rock crabs got hold of you?$2#$b#Come on. I'm taking you to the clinic right now.$0",
-"Events.ClinicAppointment.NovaEli.6": "Like hell you are! I'm not going and you can't make me, you hear me?!$8",
+"Events.ClinicAppointment.NovaEli.6": "What?! No! I'm not going and you can't make me, you hear me?!$7",
 "Events.ClinicAppointment.Harvey.1": "There we go! That wasn't so bad, was it Eli?$1",
 "Events.ClinicAppointment.NovaDylan.4": "I'm so sorry about his behaviour on the way in, doctor.$2#$b#I'm sure that most of your patients don't require THREE PEOPLE just to get them into the exam room. I'm very embarrassed.$5",
 "Events.ClinicAppointment.Harvey.2": "It's okay, Dylan. Phobias of doctors and medical environments are more common than you'd think.$0",
 "Events.ClinicAppointment.Harvey.3": "At least we know that he's physically healthy!$1#$b#I think we're going to up the dosage of your insomnia medication, Eli. And in a few weeks, we'll see if it's made any difference.$0",
-"Events.ClinicAppointment.NovaEli.7": "You want me to come back?!$7",
+"Events.ClinicAppointment.NovaEli.7": "You want me to come back??$7",
 "Events.ClinicAppointment.Harvey.4": "Just to see if you've had an easier time sleeping with these new pills! There won't be any needles, I promise.$1",
 "Events.ClinicAppointment.Harvey.5": "I just need to go for a minute to fill out your prescription. While I'm at it Maru, would you mind coming with to check our appointments for an opening?$0",
 "Events.ClinicAppointment.Maru.1": "Of course. You were very brave, Eli!$1",
 "Events.ClinicAppointment.NovaDylan.5": "Hey. I'm sorry for getting angry. I know this is hard for you.$9",
-"Events.ClinicAppointment.NovaEli.8": "I'm sorry too. Because I'm getting out of here before they come back.$9",
+"Events.ClinicAppointment.NovaEli.8": "I'm sorry too. Because I've got to leave, right now.$18",
 "Events.ClinicAppointment.NovaDylan.6": "Don't you DARE-!",
-"Events.ClinicAppointment.NovaDylan.7": "Look, Eli. I know you're worried that one day, people will find out about us and... well, experiment on us.$2#$b#But that's never going to happen here. Harvey and Maru are some of the kindest people I know. They've got our best interests at heart, you know?$0",
-"Events.ClinicAppointment.NovaEli.9": "You're right. I know it's stupid. I just wish we didn't have to hide that part of ourselves from the world, you know?$2#$b#I think @ is one of the only people around here who know about it. If it were up to me, I wouldn't hide it at all!$0",
-"Events.ClinicAppointment.NovaDylan.8": "And what do you always tell me, even when I really wish I couldn't hear the likes of Thistle all the time?$1",
+"Events.ClinicAppointment.NovaDylan.7": "Look, Eli. I know you're worried that one day, people will see something they don't understand and... well, hurt us.$2#$b#But that's never going to happen here. Harvey and Maru are some of the kindest people I know. They've got our best interests at heart, you know?$0",
+"Events.ClinicAppointment.NovaEli.9": "I know you're right. I know it's stupid. I love that I can do what I can do, but it's not fair that we have to hide it from everyone else.$2#$b#You know as well as I do how some people react to it. Like we're some sort of freaks of nature.$9#$b#I'm just worried a doctor like Harvey might see that part of us and want to have us studied.$2",
+"Events.ClinicAppointment.NovaDylan.8": "You've been watching way too many horror movies. Harvey just wants to treat your insomnia, and I'm sure he can.$0#$b#Besides, @ has seen your little trick. And they didn't freak out on you, did they? They're our friend.$1",
+"Events.ClinicAppointment.NovaDylan.9": "And what do you always tell me, even when I really wish I couldn't hear the likes of Thistle all the time?$1",
 "Events.ClinicAppointment.NovaEli.10": "'It's a gift.'",
-"Events.ClinicAppointment.NovaEli.11": "You're always good for a smile, you little sap.$3#$b#Alright then, let's pick up that prescription!$1"
+"Events.ClinicAppointment.NovaEli.11": "You're always good for a smile, you little sap. I love you so much.$3#$b#Alright then, let's pick up that prescription!$1",
+
+//PLAN OF ACTION
+
+"Events.PlanOfAction.Lewis.1": "Come in!",
+"Events.PlanOfAction.Lewis.2": "Welcome! How can I help you all?$1",
+"Events.PlanOfAction.Demetrius.1": "Hello, Lewis. We're here to follow up on that environmental report that we promised you.$1",
+"Events.PlanOfAction.NovaDylan.1": "I phoned you about it a while ago, remember?$0",
+"Events.PlanOfAction.Lewis.3": "Vividly.",
+"Events.PlanOfAction.Maru.1": "You've got this, Dylan. Don't be shy!$1",
+"Events.PlanOfAction.NovaDylan.2": "For SOME reason I'm the one who drew the short straw and got asked to represent us...$9#$b#So let's get down to it, shall we?$0",
+"Events.PlanOfAction.NovaDylan.3": "The local scientific community has come together to provide this peer reviewed report for you. It details the local ecological impact of pollution and its main contributors.$0#$b#It also lists a number of detailed initiatives that we can take to mitigate the damage. But we will need your full cooperation for it to have any hope of succeeding.$9",
+"Events.PlanOfAction.Lewis.4": "I see! Well, I'm sure I can take the time to go over this report. I suppose it's quite thorough?$1",
+"Events.PlanOfAction.Demetrius.2": "Oh yes.",
+"Events.PlanOfAction.Maru.2": "VERY!",
+"Events.PlanOfAction.NovaDylan.4": "You can have a look for yourself. One moment, please.$1",
+"Events.PlanOfAction.NovaDylan.5": "Bring it in!",
+"Events.PlanOfAction.NovaEli.1": "*Huff*",
+"Events.PlanOfAction.Alex.1": "Easy!",
+"Events.PlanOfAction.Alex.2": "Where do you want it?$1",
+"Events.PlanOfAction.NovaEli.2": "Oh, I can think of a great place we can shove it right now. You could've... *huff* ...HELPED us, Dylan!$9",
+"Events.PlanOfAction.NovaDylan.6": "It's more fun to watch you struggle. Put it on the table, it should be quite safe.$3",
+"Events.PlanOfAction.Maru.3": "Hahaha!",
+"Events.PlanOfAction.Lewis.5": "My plant...",
+"Events.PlanOfAction.Lewis.6": "I'm speechless, Dylan.$2",
+"Events.PlanOfAction.NovaEli.3": "I think I've given myself a hernia. I am NOT carrying that thing all the way home.$2#$b#How many trees died to make this monstrosity on saving the environment, brother?$0",
+"Events.PlanOfAction.NovaDylan.7": "It's biodegradable! Now if you're done moaning, you can go back to making a nuisance of yourself elsewhere.$7",
+"Events.PlanOfAction.NovaEli.4": "Gladly!",
+"Events.PlanOfAction.Alex.3": "Hey, Dylan? When Lewis is done with that book, do you mind if I have it?$0",
+"Events.PlanOfAction.NovaDylan.8": "I guess so? I didn't think you'd be interested in reading it, Alex.$1",
+"Events.PlanOfAction.Alex.4": "Nah, I want to bench press it. That was a great workout!$1",
+"Events.PlanOfAction.NovaDylan.9": "Now, shall we get started? There's a lot of material to get through!$1",
+"Events.PlanOfAction.Lewis.7": "Dylan, please. I've been invited out to dinner next month!$2",
+"Events.PlanOfAction.Demetrius.3": "It won't take that long! It'll fly by, you'll see.$1",
+"Events.PlanOfAction.Maru.4": "You promised to hear us out, Lewis. We spent a lot of time compiling this for you.$5",
+"Events.PlanOfAction.Lewis.8": "I suppose so...",
+"Events.PlanOfAction.NovaDylan.10": "Is everyone comfortable? Good! Let's start with the 50 page introduction. And then we can move onto the first chapter of our report.$3",
+"Events.PlanOfAction.Lewis.9": "Oh, Yoba... I can hardly wait.$5"
 
 }

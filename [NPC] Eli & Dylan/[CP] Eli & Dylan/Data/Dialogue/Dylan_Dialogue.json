@@ -57,8 +57,7 @@
 			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}"
 		},
 		"When": {
-			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
-			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false
 		  }
 	},
 	{
@@ -198,7 +197,7 @@
 			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.LitD.CP",
 			"HasSeenEvent": "EnD.Eli.05",
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DSen}} = 1": true
@@ -285,33 +284,20 @@
 			"EastScarp_VillageInn_SpiritEve_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}"
 		}
 	},
-
 	{
-        "LogName": "Dylan Override Seen Today Flag Removal", //Removes the flag that stops the NPC from continuing to talk on time update
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-
-            "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1": {
-                "Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1",
-                "Trigger": "DayStarted",
-                "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
-                "Actions": [
-                    "RemoveMail Current EnD_Dylan_OverrideSeenToday",
-                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2 false"
-                ]
-            },
-
-            "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2": {
-                "Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.2",
-                "Trigger": "DayStarted",
-                "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
-                "Actions": [
-                    "RemoveMail Current EnD_Dylan_OverrideSeenToday",
-                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal.1 false"
-                ]
-            }
-        }
+		"LogName": "Dylan Daily Flag Remover", 
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+  
+			"{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal": {
+				"Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal",
+				"MarkActionApplied": false,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
+				"Actions": [ "RemoveMail Current EnD_Dylan_OverrideSeenToday" ]
+			}
+		}
 	}
 	]
 }

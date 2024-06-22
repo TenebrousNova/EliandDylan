@@ -66,8 +66,7 @@
 			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{Random:{{Range: 1, 60}}}}}}"
 		},
 		"When": {
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
+			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false
 		  }
 	},
 	{
@@ -210,7 +209,7 @@
 			"{{WeekDay}}": "{{i18n:Core.NovaEli.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
 		},
 		"When": {
-			"HasMod": "7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"HasMod": "7thAxis.DitR, 7thAxis.LitD.CP",
 			"HasSeenEvent": "EnD.Eli.05",
 			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ESen}} = 1": true
@@ -382,51 +381,22 @@
 	},
 
 	{
-        "LogName": "Eli Override Seen Today Flag Removal", //Removes the flag that stops the NPC from continuing to talk on time update
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-
-            "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1": {
-                "Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1",
-                "Trigger": "DayStarted",
-                "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
-                "Actions": [
-                    "RemoveMail Current EnD_Eli_OverrideSeenToday",
-                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2 false"
-                ]
-            },
-
-            "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2": {
-                "Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.2",
-                "Trigger": "DayStarted",
-                "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
-                "Actions": [
-                    "RemoveMail Current EnD_Eli_OverrideSeenToday",
-                    "MarkActionApplied Current {{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal.1 false"
-                ]
-            }
-        }
-    }
+		"LogName": "Eli Daily Flag Remover", 
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+  
+			"{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal": {
+				"Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal",
+				"MarkActionApplied": false,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
+				"Actions": [ "RemoveMail Current EnD_Eli_OverrideSeenToday" ]
+			}
+		}
+	}
 
 	//Add dialogue about characters from other mods (like birthdays) here later.
-
-	//Also add resort stuff. Examples from Mateo:
-
-	/*            // RESORT
-            "Resort_Entering":"This place is amazing! $1#$b#It makes me feel like I'm back in the Fern Islands. Man, how nostalgic.$10",
-            "Resort_Leaving":"Today was a good day, but I've had my fill.$10#$b#Nothing beats a post-beach shower. Gotta wash all the sunscreen off.$11",
-            "Resort_Shore":"I've visited a lot of different islands, @. But one thing to keep in mind: all of them share the same sky.$14",
-            "Resort_Umbrella":"Just taking a little break from running around, @.#1#$b#Be sure to put on some sunscreen if you're going to spend a lot of time out and about.$11",
-            "Resort_Wander":"I know I live on a beach, but there's still something special about visiting a different one.$11",
-            "Resort_Wander_2":"I need a good pair of sunglasses. The big ones, that the bougie city girls wear.$11",
-            "Resort_Chair":"I could probably fall asleep here, but I snooze like a rock and I'd probably miss the boat back.$10",
-            "Resort_Bar":"We should toast to your hard work, @. Without you, this probably wouldn't have been set up.$11",
-            "Resort_Towel":"%Mateo seems completely relaxed.", 
-            "Resort_Towel_2":"I spent many a day in college drinking at the beach instead of writing papers...$7",
-            "Resort_Towel_3":"This would be a great place to have a party.$11",
-            "Resort":"Did you build a house here, @? Makes sense, being isolated in a beautiful place is hardly a negative.$1",
-		*/
 	
 	]
 }
