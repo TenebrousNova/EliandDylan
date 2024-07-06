@@ -36,6 +36,8 @@
 				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
 				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
 				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
+				"DylanDroneProgress": "{{i18n:CT.NovaEli.DylanDroneProgress}}",
+				"DylanExpedition": "{{i18n:CT.NovaEli.DylanExpedition}}",
 				"DylanCCAquarium": "{{i18n:CT.NovaEli.DylanCCAquarium}}",
 				"DylanDream": "{{i18n:CT.NovaEli.DylanDream}}",
 
@@ -161,6 +163,8 @@
 				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
 				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
 				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
+				"DylanDroneProgress": "{{i18n:CT.NovaDylan.DylanDroneProgress}}",
+				"DylanExpedition": "{{i18n:CT.NovaDylan.DylanExpedition}}",
 				"DylanCCAquarium": "{{i18n:CT.NovaDylan.DylanCCAquarium}}",
 				"DylanDream": "{{i18n:CT.NovaDylan.DylanDream}}",
 
@@ -379,6 +383,15 @@
 		},
 
 		{
+			"LogName": "Robin",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
+				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}"
+			}
+		},
+
+		{
 			"LogName": "Demetrius",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Demetrius",
@@ -392,6 +405,8 @@
 
 				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro}}",
 				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}",
+				"DylanDroneProgress": "{{i18n:CT.Demetrius.DylanDroneProgress}}",
+				"DylanExpedition": "{{i18n:CT.Demetrius.DylanExpedition}}",
 				"EnDPlan": "{{i18n:CT.Demetrius.EnDPlan}}"
 			}
 		},
@@ -410,6 +425,8 @@
 				//Dylan Topics
 
 				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}",
+				"DylanDroneProgress": "{{i18n:CT.Maru.DylanDroneProgress}}",
+				"DylanExpedition": "{{i18n:CT.Maru.DylanExpedition}}",
 
 				//Other Topics
 
@@ -526,7 +543,8 @@
 			"Entries": {
 				"DylanIntro": "{{i18n:CT.Willy.DylanIntro}}",
 				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
-				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}"
+				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}",
+				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}"
 			}
 		},
 

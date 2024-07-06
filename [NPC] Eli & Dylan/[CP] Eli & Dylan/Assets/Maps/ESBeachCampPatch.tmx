@@ -6,11 +6,11 @@
  <properties>
   <property name="DayTiles" value="AlwaysFront 13 87 907 AlwaysFront 18 57 907 AlwaysFront 33 57 907 AlwaysFront 39 43 907 AlwaysFront 45 37 907 AlwaysFront 66 85 907 AlwaysFront 42 77 907 AlwaysFront 22 84 907 AlwaysFront 39 53 907 AlwaysFront 23 51 907 AlwaysFront 14 66 907 AlwaysFront 66 68 907 AlwaysFront 48 125 907"/>
   <property name="Light" value="72 107 4 73 107 4 13 87 4 13 87 4 18 57 4 33 57 4 39 43 4 45 37 4 66 85 4 47 77 4 23 84 4 22 83 4 39 53 4 23 51 4 14 66 4 66 68 4 48 125 4"/>
-  <property name="NPCWarp" value="32 32 EastScarp__VetAwayWarpRoom 2 8 3 96 EastScarp__CatWarpRoom 2 5 35 39 EastScarp_DeepDark 21 16"/>
+  <property name="NPCWarp" value="32 32 Custom_ES_VetAwayWarpRoom 2 8 3 96 Custom_ES_CatWarpRoom 2 5 35 39 Custom_ESDeepDark 21 16"/>
   <property name="NightTiles">AlwaysFront 13 87 908 AlwaysFront 18 57 908 AlwaysFront 33 57 908 AlwaysFront 39 43 908 AlwaysFront 45 37 908 AlwaysFront 66 85 908 AlwaysFront 47 77 908 AlwaysFront 22 84 908 AlwaysFront 39 53 908 AlwaysFront 23 51 908 AlwaysFront 14 66 908 AlwaysFront 66 68 908
 AlwaysFront 48 125 908</property>
   <property name="Outdoors" value="T"/>
-  <property name="Warp" value="85 48 EastScarp_Orchard 1 18 85 49 EastScarp_Orchard 1 19 85 20 EastScarp_MineEntrance 0 22"/>
+  <property name="Warp" value="85 48 Custom_ESOrchard 1 18 85 49 Custom_ESOrchard 1 19 85 20 Custom_ESMineEntrance 0 22"/>
  </properties>
  <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
@@ -1510,8 +1510,8 @@ AlwaysFront 48 125 908</property>
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
+ <tileset firstgid="1976" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>
@@ -1543,7 +1543,7 @@ AlwaysFront 48 125 908</property>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2012" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="2040" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
   <tile id="12">
    <animation>
@@ -1874,7 +1874,7 @@ AlwaysFront 48 125 908</property>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4316" name="ES_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
+ <tileset firstgid="4344" name="ES_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
   <image source="summer_beach.png" width="272" height="496"/>
   <tile id="7">
    <properties>
@@ -2977,10 +2977,10 @@ AlwaysFront 48 125 908</property>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4843" name="springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
+ <tileset firstgid="4871" name="springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
   <image source="springobjects.png" width="384" height="624"/>
  </tileset>
- <tileset firstgid="5779" name="Custom_EDInterior" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="5807" name="Custom_EDInterior" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="Custom_EDInterior.png" width="512" height="1152"/>
   <tile id="150">
    <animation>
@@ -2996,16 +2996,16 @@ AlwaysFront 48 125 908</property>
  </tileset>
  <layer id="1" name="Back" width="8" height="10">
   <data encoding="csv">
-322,276,4417,4416,4432,4384,4358,4358,
-347,276,4417,4416,4432,4384,4358,4358,
-4415,4415,4415,4416,4432,4384,4358,4358,
-4415,4468,4397,4433,4432,4384,4358,4358,
-4415,4416,4451,4414,4431,4384,4358,4358,
-4398,4433,4432,4367,4369,4386,4358,4335,
-4414,4414,4431,4384,4335,4358,4358,4354,
-4367,4368,4369,4386,4358,4358,4358,4371,
-4386,4358,4358,4358,4358,4358,4358,4371,
-4336,4358,4358,4341,4358,4358,4358,4388
+322,276,4445,4444,4460,4412,4386,4386,
+347,276,4445,4444,4460,4412,4386,4386,
+4443,4443,4443,4444,4460,4412,4386,4386,
+4443,4496,4425,4461,4460,4412,4386,4386,
+4443,4444,4479,4442,4459,4412,4386,4386,
+4426,4461,4460,4395,4397,4414,4386,4363,
+4442,4442,4459,4412,4363,4386,4386,4382,
+4395,4396,4397,4414,4386,4386,4386,4399,
+4414,4386,4386,4386,4386,4386,4386,4399,
+4364,4386,4386,4369,4386,4386,4386,4416
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -3019,9 +3019,9 @@ AlwaysFront 48 125 908</property>
 543,544,545,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 372,0,0,0,0,0,0,0,
-0,5898,0,4489,4490,0,0,0,
-0,0,0,4506,4507,4343,4344,0,
-0,0,0,0,0,4360,4361,0,
+0,5926,0,4517,4518,0,0,0,
+0,0,0,4534,4535,4371,4372,0,
+0,0,0,0,0,4388,4389,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0
 </data>
@@ -3050,12 +3050,12 @@ AlwaysFront 48 125 908</property>
 445,494,495,0,0,0,0,0,
 470,519,520,0,0,0,0,0,
 495,371,545,0,0,0,0,0,
-520,5927,5928,4634,4635,4636,5936,0,
-545,5578,0,0,0,0,5899,0,
-5931,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,4634,4635,4636,0,0,0,
+520,5955,5956,4662,4663,4664,5964,0,
+545,5606,0,0,0,0,5927,0,
+5959,0,0,0,0,0,0,0,
+2080,0,0,0,0,0,0,0,
+2112,0,0,0,0,0,0,0,
+0,0,4662,4663,4664,0,0,0,
 0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -3063,9 +3063,9 @@ AlwaysFront 48 125 908</property>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
+0,5923,5924,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,5929,0,
+0,0,0,0,0,0,5957,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
@@ -3093,10 +3093,10 @@ AlwaysFront 48 125 908</property>
   <data encoding="csv">
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-0,5895,5896,0,0,0,5904,0,
+0,0,0,0,0,0,5932,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
+2048,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,

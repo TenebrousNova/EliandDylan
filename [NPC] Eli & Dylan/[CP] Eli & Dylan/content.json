@@ -92,7 +92,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json"
 	}
 	  
    ],
@@ -407,15 +407,15 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSaturday_B",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliDeepMountains_Sat}}/1300 EastScarp_Village 34 106 1/1800 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliDeepMountains_Sat}}/1300 EastScarp_Village 34 107 1/1800 37 104 2 EliSitB/2400 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 7 10 0/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 7 10 0/1600 Town 50 67 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_B",
-		"Value": "0 Forest 117 25/610 28 12 0/{{EliForest_Sun}}/1400 Town 50 68 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "0 Forest 117 25/610 28 12 0/{{EliForest_Sun}}/1400 Town 50 67 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 
 	//DYLAN
@@ -811,6 +811,31 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.4}}\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.1}}\"/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.1}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.DylanLesson.Gunnar.1}}\"/emote Nova.Dylan 32/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.5}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.2}}\"/emote Nova.Dylan 60/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.6}}\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+
+	//Dylan 6 Hearts
+
+	{
+		"Name": "DylanExpedition_Rodney1",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanExpedition_Rodney1",
+		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 30000 35 48 false true 2 0 1 0 0.01 0.01",
+		"When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien"
+		}
+	},
+	{
+		"Name": "DylanExpedition_Rodney2",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanExpedition_Rodney2",
+		"Value": "playSound detector/textAboveHead Drone \"{{i18n:Events.DylanExpedition.NovaDylan.14}}\"/pause 1500/speak Nova.Dylan \"{{i18n:Events.DylanExpedition.NovaDylan.15}}\"/speak Maru \"{{i18n:Events.DylanExpedition.Maru.10}}\"/emote Drone 60/playSound detector/animate Drone false false 100 16 17 18 19 20 21 22 23 24 25 26 27 28 29 23 22 21 20 19 18 17 16/pause 1100/shake Drone 500/playSound coin/removeSprite 35 48/pause 1100/stopAnimation Drone/showFrame Drone 0",
+		"When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien"
 		}
 	},
 

@@ -143,6 +143,16 @@
 		"Target": "Characters/Agenda",
 		"FromFile": "Assets/Images/Agenda.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Drone",
+		"FromFile": "Assets/Images/Drone.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/MaruLaptop",
+		"FromFile": "Assets/Images/Maru_Laptop.png"
+	},
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events
 
@@ -195,6 +205,18 @@
 		"Action": "Load",
 		"Target": "EliDylan/Critters",
 		"FromFile": "Assets/Images/Critters.png"
+	},
+	{
+		"LogName": "Giant Manta",
+		"Action": "Load",
+		"Target": "EliDylan/Manta",
+		"FromFile": "Assets/Images/Manta.png"
+	},
+	{
+		"LogName": "Leviathan",
+		"Action": "Load",
+		"Target": "EliDylan/Leviathan",
+		"FromFile": "Assets/Images/Leviathan.png"
 	}
     ]
  }

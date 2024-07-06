@@ -19,6 +19,7 @@
 "Core.Locations.DylanTidePool": "Dylan Tide Pool",
 "Core.Locations.OldWoods": "Old Woods",
 "Core.Locations.DylanOcean": "Gem Sea",
+"Core.Locations.DylanAbyssTransition": "Abyss Transition",
 "Core.Locations.DylanAbyss": "Abyss",
 "Core.Locations.DylanDreamSea": "Dylan Dream Sea",
 
@@ -1659,6 +1660,8 @@ SIGURD/SONDRA*/
 "CT.NovaEli.DylanSaloon": "Hey there, @. I'm sorry that Dylan made a prat of himself.$10#$b#I carried him home and he complained the entire way. Then he immediately passed out. I'm never, ever gonna let him live this down.$1",
 "CT.NovaEli.DylanLibrary": "He's never going to admit it, but Dylan's actually very excited over being asked to help with that field trip.$1#$b#I reckon it'll do him a lot of good, so long as he isn't too condescending to the kids.$10",
 "CT.NovaEli.DylanLesson": "Man, I wish I'd been there to watch Dylan's lesson. Penny said he handled himself really well! I'm so proud of him right now.$3#$b#I'm glad you helped push him out of his comfort zone. It really has paid off.$1",
+"CT.NovaEli.DylanDroneProgress": "I heard that you've been helping Dylan and the others with that project of theirs. It sounds exciting!$1#$b#I've already told him to keep an eye out for any sea monsters. There could be ANYTHING down there!$3",
+"CT.NovaEli.DylanExpedition": "I saw that drone footage, @! That was some really incredible stuff. Dylan's been watching it on repeat since he got home.$3#$b#I'm really interested in that kraken they encountered during the descent. Reckon Maru would let me try tracking it down with her fancy equipment?$1",
 "CT.NovaEli.DylanCCAquarium": "I've seen Dylan build some really fancy aquascapes for people before, but I reckon that one in the Community Center might be some of his best work yet!$3#$b#Honestly, I'm surprised he doesn't do it as a side hustle.$11",
 "CT.NovaEli.DylanDream": "Did you have any interesting dreams last night, @? Involving giant killer lampreys, maybe? Just curious!$6#$b#Hahaha, it WAS real - sorry about that! We caught Dylan in one of his moods.$3",
 
@@ -1742,6 +1745,8 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.DylanSaloon": "Not now, @. I'm very hung over and in no mood to socialise.$7#$b#I did enough socialising last night that I needn't bother for the rest of the year.$0",
 "CT.NovaDylan.DylanLibrary": "I've been planning activities for that field trip. Hopefully the little munchkins will enjoy themselves.$1#$b#...What? No, I'm not looking forward to it! Why would I??$6",
 "CT.NovaDylan.DylanLesson": "That lesson went much better than I expected! I was rather enjoying myself, actually. I hadn't felt that confident in a long time!$3#$b#Thanks for believing in me, @.$1",
+"CT.NovaDylan.DylanDroneProgress": "I'm so excited for our expedition, @! Nervous as well, but mostly excited. We're going to learn so much!$3",
+"CT.NovaDylan.DylanExpedition": "Thank you so, so much for making that journey possible, @! We got some amazing footage and even better samples.$3#$b#We're going to try and get our findings published in a scientific publication soon. We've already had an interview request from Deep Dive!!$1",
 "CT.NovaDylan.DylanCCAquarium": "Reception to my work in the Community Center was better than I anticipated. I didn't expect so many people to show up!$1#$b#The kids seem to love it in particular.$3",
 "CT.NovaDylan.DylanDream": "%Dylan is pointedly avoiding your gaze. He looks guilty.#$b#Sorry about the lampreys... maybe that was a bit harsh...$9",
 
@@ -1852,12 +1857,18 @@ SIGURD/SONDRA*/
 
 "CT.Wizard.EliWoods": "I gather that you saw some interesting things in the woods recently. Don't be so surprised - little in the Valley is hidden from one such as I.$0#$b#Eli's magic is curious, I must admit. Occasionally, mortals are born with a natural affinity for it that develops during adolescence if not sooner.$0#$b#But those attuned to the Void behind the world are a rare breed. Ironic given his sunny disposition.$0",
 
+//ROBIN
+
+"CT.Robin.DylanDroneProgress": "I'm not quite sure what Maru's building in her room this time, but the sound's been keeping me awake for the last few nights.$2#$b#I'm just glad that I had the foresight to fireproof our house.$0",
+
 //DEMETRIUS
 
 "CT.Demetrius.EliMushroomCave": "Hello, @! Eli brought me some fungal samples from the cave system that you two discovered.$0#$b#Several are species I can't find in any publications or databases, and a few may belong to an entirely new genus!$1#$b#I'm going to take Maru on a field expedition there soon. We're excited to catalogue the new ecosystem!$0",
 
 "CT.Demetrius.DylanIntro": "Have you met Dylan? He's a marine biologist living in East Scarp. It's a rather respectable field.$1#$b#It's always nice to see younger people taking a serious interest in scientific pursuits. And he certainly knows his stuff!$0#$b#I bet I could still teach him a thing or two, though.$1",
 "CT.Demetrius.DylanBeach": "Thank you for helping Dylan clean up the beach, @. We've always had a certain amount of pollution, but it's gotten worse since Joja came into town.$0#$b#I worry about the deleterious effects it's having on the local ecosystem. Something needs to be done about it.$2",
+"CT.Demetrius.DylanDroneProgress": "Not long until our underwater adventure, huh? I've never seen Dylan so talkative lately!$1#$b#I have to remind Maru to take breaks, though. She's barely stopped since she got hold of those components you delivered.$0",
+"CT.Demetrius.DylanExpedition": "Hello, @! I had the time of my life earlier. I've always wanted the chance to take part in that sort of marine biology venture.$1",
 "CT.Demetrius.EnDPlan": "I'm actually really proud of the environmental report we compiled for Lewis. I'm hoping we can actually get it publicized pretty soon!$1",
 
 //MARU
@@ -1866,6 +1877,8 @@ SIGURD/SONDRA*/
 "CT.Maru.EliMushroomCave": "I had to help Harvey treat Eli earlier when he came back from that trip with you.$2#$b#He's fine, despite acting like a cornered animal when he came to the clinic.$0#$b#He made a run for it as soon as Harvey asked him about booking a follow up appointment!$1#$b#Dad's really excited about the fungal ecosystem you guys found. We're going to take a look for ourselves soon.$3",
 
 "CT.Maru.DylanIntro": "It's exciting to have a marine biologist living in Pelican Town! I think Dylan might actually know more about the local marine ecosystem than Dad.$1#$b#He's always been withdrawn, though. He's obviously passionate about his field of expertise, but he doesn't seem to like engaging with people.$2",
+"CT.Maru.DylanDroneProgress": "Hey, @! It won't be long until I'm done with the ROV. There's just a few last minute bugs to iron out in the software.$0#$b#I wonder if I forgot to put a comma or bracket somewhere...?$2",
+"CT.Maru.DylanExpedition": "I won't lie to you, I had some doubts that my ROV design would be able to get as far as it did. But it exceeded all of my expectations!$1#$b#I should give the little guy a name, don't you think?$0",
 
 "CT.Maru.EnDClinicAppointment": "Eli got dragged to the clinic earlier by Dylan and... well, it wasn't easy for any of us. But he actually toughed it out.$1#$b#I gave him a hug before he went. I think he needed it.$0",
 "CT.Maru.EnDPlan": "I'm hopeful that Lewis is going to take our report to heart. At first I was nervous that he'd dismiss it, but he was a lot more patient than I expected.$0",
@@ -1924,6 +1937,7 @@ SIGURD/SONDRA*/
 "CT.Willy.DylanIntro": "I like that Dylan. Sometimes he asks to see my catch for his research. He knows better than many that the ocean deserves respect.$0#$b#He and Eli are from Point Drake along the coast - I've been there before. They're both good lads, even if one's rowdier than the other.$1",
 "CT.Willy.DylanBeach": "The sea's been a cruel mistress to me as of late. I've been catching more junk than fish!$2",
 "CT.Willy.DylanSaloon": "Heh heh, I wasn't expecting to see Dylan get so comfortable so soon in the Saloon.$1#$b#I'm glad the lad's starting to come out of his shell at last.$0",
+"CT.Willy.DylanExpedition": "Heh, that's quite a contraption that Maru built. I wonder if they can be fitted with nets... not that I'm worried! No machine can replace my job.$0#$b#Dylan showed me the footage you lot took. What a treat! I hope we can do that again sometime.$1",
 
 //PENNY
 
@@ -2689,6 +2703,52 @@ SIGURD/SONDRA*/
 "Events.DylanDroneProgress.NovaDylan.6": "Well, we'd better let Maru get back to her work before Harvey comes back.$1",
 "Events.DylanDroneProgress.Maru.7": "Thanks for stopping by! I'll see you in three days.$1",
 
+//6 HEARTS PART 4
+
+"Events.DylanExpedition.Maru.1": "Done!",
+"Events.DylanExpedition.Maru.2": "Hello, @! Ready to get this show on the road? It was all we could do to get Dylan to wait!$1",
+"Events.DylanExpedition.NovaDylan.1": "@! This is actually happening! We're actually gonna do this!$3",
+"Events.DylanExpedition.Maru.3": "Final checks are complete. Let's power up our friend here!$0",
+"Events.DylanExpedition.Gudrun.1": "Cute!",
+"Events.DylanExpedition.Maru.4": "It worked!!$9#$b#I mean, of course it worked, haha! You know what to do, little guy. Are you ready?$1",
+"Events.DylanExpedition.Demetrius.1": "Let's get comfortable around the video feed, shall we?$1",
+"Events.DylanExpedition.NovaDylan.2": "Let's do this!",
+"Events.DylanExpedition.NovaDylan.3": "Are you seeing this, Demetrius?!",
+"Events.DylanExpedition.Demetrius.2": "Yes! This is incredible!",
+"Events.DylanExpedition.NovaDylan.4": "I think that might just be the biggest Gem Sea Devil I've ever seen. What a beauty!$3",
+"Events.DylanExpedition.Gudrun.2": "Sig, you'd better be watching this. You don't want to miss out!$1",
+"Events.DylanExpedition.Sigurd.1": "I'm watching it, don't worry. I'd love to see Willy tackle a ray that size.$0",
+"Events.DylanExpedition.NovaDylan.5": "So this is it... I won't lie, that actually looks terrifying from here.$6",
+"Events.DylanExpedition.Maru.5": "Right?!",
+"Events.DylanExpedition.Demetrius.3": "Well, this seems as good a place as any to make our descent into the abyss. Are you ready?$1",
+"Events.DylanExpedition.NovaDylan.6": "As ready as I'll ever be. Here goes nothing.$1",
+"Events.DylanExpedition.Maru.6": "Beginning the descent now. Please let my calculations be right... please let my robot make it!$2",
+"Events.DylanExpedition.Demetrius.4": "We're STILL not at the bottom? It's been about an hour already!$6",
+"Events.DylanExpedition.NovaDylan.7": "I can barely see what's around us. And the camera on this is a really good one!$6",
+"Events.DylanExpedition.Maru.7": "It's like we're falling off the edge of the planet. Well obviously the planet doesn't have a - you know what I mean!$9#$b#Hull integrity and power are still in the green so far!$3",
+"Events.DylanExpedition.NovaDylan.8": "We're well within the Abyssopelagic Zone by now. Permanent night. Faint bioluminescence is the only natural light that most of the fauna here ever see.$3#$b#Quite a few of them are completely blind. There's not that much use for eyes down here.$9",
+"Events.DylanExpedition.NovaDylan.9": "HOLY MOTHER OF CTHULHU!!",
+"Events.DylanExpedition.Maru.8": "Well, that thing certainly had eyes! It must've seen us, right??$9",
+"Events.DylanExpedition.NovaDylan.10": "Oh, it definitely saw us. But maybe we're too small to be worth capturing? Or perhaps the lights scared it off.$1#$b#That was too big to be a giant squid or even a colossal squid. I've got so many questions right now! I sure hope we see another one.$3",
+"Events.DylanExpedition.NovaDylan.11": "We finally made it to the Hadopelagic Zone! This is... oh, wow! I wasn't expecting to see so much life down here.$3",
+"Events.DylanExpedition.Maru.9": "It's just as well. I don't think we could've made it too much further down.$0",
+"Events.DylanExpedition.Demetrius.5": "It's so... primordial. That's the only word I can think of for it right now. We're looking at something that few humans have ever laid eyes on.$1",
+"Events.DylanExpedition.NovaDylan.12": "Just look at it all!",
+"Events.DylanExpedition.NovaDylan.13": "Giant tube worms! It's not surprising to see them here. There's a lot of hydrothermal vents for them to live near.$1#$b#Let's nab a few samples while we're passing through.$0",
+"Events.DylanExpedition.NovaDylan.14": "OH, for the LOVE of -!!",
+"Events.DylanExpedition.NovaDylan.15": "Seriously, Rodney? Not even the deepest, darkest fathoms of the ocean are safe from his mug! He and I are going to have a little chat later...$8",
+"Events.DylanExpedition.Maru.10": "Dylan? We're recording audio, you know. Let's take this with us, though...$0",
+"Events.DylanExpedition.Demetrius.6": "I've never heard of brine forming rivers like this! I must take more notes...$1#$b#Oh, drat. My pen's run out again!$2",
+"Events.DylanExpedition.Sigurd.2": "Here you go, Demetrius. I've got a spare.$1",
+"Events.DylanExpedition.Maru.11": "Unfortunately, the ROV isn't capable of diving under the brine. It's too dense, we'd just end up floating on top.$0#$b#And we'd better start heading back now if we're to have enough power to reach the surface.$3",
+"Events.DylanExpedition.NovaDylan.16": "No matter. We can always come back another time. For now, we have what we came for.$1",
+"Events.DylanExpedition.Demetrius.7": "Mission accomplished!",
+"Events.DylanExpedition.NovaDylan.17": "Fantastic work, everyone! We've got so many samples to take a look at later.$3",
+"Events.DylanExpedition.Willy.1": "Finally! Here we go!",
+"Events.DylanExpedition.Willy.2": "It's a whopper!!",
+"Events.DylanExpedition.Willy.3": "...Oh.",
+"Events.DylanExpedition.Sigurd.3": "Pfft.",
+
 //BONUS EVENTS
 
 //DYLAN CC AQUARIUM
@@ -2818,7 +2878,7 @@ SIGURD/SONDRA*/
 "Events.JunimoGift.Question.1.Response.2": "Are you part of Sentinel?",
 "Events.JunimoGift.Question.1.Answer.1": "No problem! Least Sentinel can do for friend. Here, present! Open it!$3",
 "Events.JunimoGift.Question.1.Answer.2": "Yes! We are close by and watching. We stay small and sneaky - not want to scare humans. Here, present! Open it!$3",
-"Events.JunimoGift.Message.1": "Obtained 5 'Pixie Bloom Seeds'!",
+"Events.JunimoGift.Message.1": "Obtained 8 'Pixie Bloom Seeds'!",
 "Events.JunimoGift.Allium.3": "Special, magical seeds from our garden! Very pretty!$0",
 "Events.JunimoGift.Allium.4": "We must go. Nice to see you! Buh-bi!$1",
 

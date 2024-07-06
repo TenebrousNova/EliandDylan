@@ -347,7 +347,7 @@ debug festival winter25 - Winter Star
 		{
 			"Operation": "Append",
 			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
-			"Value": "Nova.Eli 46 72 2/Nova.Dylan 61 65 2",
+			"Value": "Nova.Eli 46 72 2/Nova.Dylan 62 65 2",
 			"Delimiter": "/"
 		},
 		{

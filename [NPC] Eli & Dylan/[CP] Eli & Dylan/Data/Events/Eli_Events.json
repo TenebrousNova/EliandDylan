@@ -223,7 +223,7 @@
 
 	//Destroyed Shirt: temporaryAnimatedSprite EliDylan\\Particles 64 0 16 16 1000 1 1 X Y false false 1 0 1 0 0 0
 	
-	{
+	/*{
 		"LogName": "Fashion Disaster",
 		"Action": "EditData",
 		"Target": "Data/Events/HaleyHouse",
@@ -231,7 +231,7 @@
 			"EnD.EliBonus.04/t 0900 1200/z winter/A EliGuild/e EnD.EliBonus.01/e 917409":
 			"50s/14 19/farmer 999 999 2 Nova.Eli 999 999 0 Emily 16 17 1 Haley 17 16 2 MadDog.HashtagBearFam.Gunnar? 18 17 3/addConversationTopic EliClothes 3/skippable/pause 2000/{{EliClothes_IntroConversation}}/playSound doorClose/warp Nova.Eli 2 23/speed Nova.Eli 4/advancedMove Nova.Eli false 0 -3 15 0 4 10/pause 1000/textAboveHead Nova.Eli \"You there, Emily?\"/pause 50/faceDirection MadDog.HashtagBearFam.Gunnar? 2 true/faceDirection Emily 2/textAboveHead Haley \"See??\"/waitForAllStationary/emote Emily 20 true/textAboveHead MadDog.HashtagBearFam.Gunnar? \"Yo, Eli!\"/speak Nova.Eli \"Oh, I hope I'm not interrupting anything! I should've asked you for a good time to visit. Sorry about that.$12\"/speak Emily \"It's fine, Eli! The more the merrier.$1\"/emote Nova.Eli 32/speed Nova.Eli 2/{{EliClothes_GunnarGreeting}}/speak Nova.Eli \"I'll, uh... take that as a 'maybe' or a 'no'.$10\"/speak Haley \"What's with that getup? Is... is that a *bloodstain* on your shirt?$2\"/emote Nova.Eli 60 true/speak Nova.Eli \"Oh don't worry, it's probably not mine!$0\"/textAboveHead Haley \"Wait WHAT -!\"/pause 1000/speak MadDog.HashtagBearFam.Gunnar? \"Chill Haley, that's his adventuring gear. I'm sure it's from a monster.$6\"/speak Nova.Eli \"That's actually why I'm here! Most of my clothes are either missing or knackered - this is literally all I've got left at the moment.$2#$b#And I was wondering... could you take a look at them for me, Em? I'll pay you, or owe you whatever favours you want!$10\"/speak Emily \"Absolutely! I see you've brought some with you. Put them down there and I'll inspect them.$0\"/faceDirection Nova.Eli 2/advancedMove Emily false -1 0 0 4 2 0 4 10/pause 500/advancedMove Haley false -2 0 0 3 1 10/advancedMove MadDog.HashtagBearFam.Gunnar? false -2 0 0 1 2 10/waitForAllStationary/showFrame Nova.Eli 32/shake Nova.Eli 500/playSound coin/temporaryAnimatedSprite EliDylan\\Particles 64 0 16 16 1000 1 1000 17 19 false false 1 0 1 0 0 0/pause 1000/emote Haley 16 true/emote MadDog.HashtagBearFam.Gunnar? 16 true/emote Emily 16/speak Haley \"Oh my god, Eli. Don't tell me you actually WORE this. It looks like it's been napalmed!$12\"/speak MadDog.HashtagBearFam.Gunnar? \"Dude. Did you get into a wrestling match with a pepper rex or something?$7\"/emote Emily 40/speak Emily \"I'll do my best. But I'm not sure how much of this I can salvage, Eli.$2\"/emote Nova.Eli 28/advancedMove Emily false 0 -1 4 10/waitForAllStationary/shake Emily 500/playSound dwop/removeTemporarySprites/stopAnimation Nova.Eli/speak Nova.Eli \"I figured as much, but I'll be grateful for whatever I can get at this point. At least until I can afford new ones.$2\"/{{EliClothes_GunnarOffer}}"
 		}
-	}
+	}*/
 	]
 }
 /*advancedMove true/false (loop) parameters

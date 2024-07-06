@@ -42,6 +42,11 @@
 		},
 		{
 			"Action": "Load",
+			"Target": "Maps/{{ModID}}_AbyssTransition",
+			"FromFile": "Assets/Maps/AbyssTransition.tmx"
+		},
+		{
+			"Action": "Load",
 			"Target": "Maps/{{ModID}}_DylanAbyss",
 			"FromFile": "Assets/Maps/DylanAbyss.tmx"
 		},
@@ -204,6 +209,10 @@
 				"{{ModID}}_DylanOcean": {
 					"DisplayName": "{{i18n:Core.Locations.DylanOcean}}",
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanOcean" }
+				},
+				"{{ModID}}_AbyssTransition": {
+					"DisplayName": "{{i18n:Core.Locations.DylanAbyssTransition}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_AbyssTransition" }
 				},
 				"{{ModID}}_DylanAbyss": {
 					"DisplayName": "{{i18n:Core.Locations.DylanAbyss}}",
