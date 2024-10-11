@@ -2,6 +2,18 @@
 
 //CONFIG
 
+//NAMES
+
+"Core.NovaEli.Name": "Eli",
+"Core.NovaDylan.Name": "Dylan",
+"Core.Soot.Name": "Soot",
+"Core.Thistle.Name": "Thistle",
+"Core.Mouse.Name.1": "Mouse",
+"Core.Mouse.Name.2": "Mouse?",
+"Core.Mouse.Name.3": "MoUsE?",
+"Core.Allium.Name": "Allium",
+"Core.Sentinel.Name": "Sentinel",
+
 //RELATIONSHIPS
 
 "Core.Relationships.Brother": "brother",
@@ -22,8 +34,16 @@
 "Core.Locations.DylanAbyssTransition": "Abyss Transition",
 "Core.Locations.DylanAbyss": "Abyss",
 "Core.Locations.DylanDreamSea": "Dylan Dream Sea",
+"Core.Locations.ESFlashback": "East Scarp Flashback",
+"Core.Locations.TempInnRoom": "Temp Inn Room",
+"Core.Locations.FarawayIslet": "Faraway Islet",
 
 //ITEM NAMES
+
+//ITEMS
+
+"Core.Items.ChaosTotem": "Warp Totem: Chaos",
+"Core.Items.ChaosTotem.Description": "An experimental prototype totem that will warp you to a random location. Warning: use with caution!",
 
 //CROPS
 
@@ -94,9 +114,11 @@
 "Core.Items.Gorgonian": "Gorgonian",
 "Core.Items.Gorgonian.Description": "This delicate sea fan is composed of a colony of tiny microscopic organisms. Many species are filter feeders, but others rely on photosynthesis.",
 
-//ELI DIALOGUE
+//FURNITURE
 
-"Core.NovaEli.Name": "Eli",
+"Core.Items.AbyssalTank": "Abyssal Tank",
+
+//ELI DIALOGUE
 
 "Core.NovaEli.Introduction": "%Eli notices you with a curious glance before breaking into an easy grin and enthusiastically shaking your hand.#$b#A stranger? You can only be the new farmer that everyone's been talking about. Name's Eli, I'm fairly new to the Valley myself. It's nice to finally meet you!$1#$b# If you haven't met my brother Dylan yet, he's usually hanging around one of the beaches. He's a bit standoffish but he'll soon warm up to you.$0#$e#Perhaps I'll be seeing you around.$1",
 
@@ -453,7 +475,7 @@
 "Core.NovaEli.5-10.Fall.14": "I'm not entirely sure why the monsters tend to get more agitated during Fall. It can't be a breeding season thing because many species breed year round.$11#$b#There's got to be some kind of supernatural explanation, but what? And I still can't prove it either way.$2",
 "Core.NovaEli.5-10.Fall.15": "The only thing I don't like about this time of year are the perilous dead leaves that cover the roads on rainy days. I'm always slipping on them.$2#$b#Still, it lets people have a good laugh at my expense.$10",
 "Core.NovaEli.5-10.Fall.16": "I'm dead pleased with how my Spirit's Eve costume turned out. And it's no good asking, because I don't do spoilers.$6#$b#I think Dylan actually outdid me though! You just wait 'til you see him, he's got amazing taste.$3",
-"Core.NovaEli.5-10.Fall.17": "Did I ever tell you about the time I saw an alien? It was when me and Dylan went to Minister Valley ages ago. I've seen weird stuff, but not like THAT!$1#$b#I was in the woods one night when I saw bright green lights falling from the sky. I remember all the animals suddenly went quiet. There was this smell of ozone.$1#$b#Then I saw it - a really tall, dark figure in a sort of cloak with long, grasping arms. It was floating just off the ground and had blank eyes that met mine.$7#e#It's embarrassing, but I did a runner when it started drifting towards me! I should've investigated it, tried getting proof. Now nobody believes me.$2",
+"Core.NovaEli.5-10.Fall.17": "Did I ever tell you about the time I saw an alien? It was when me and Dylan went to Minister Valley ages ago. I've seen weird stuff, but not like THAT!$1#$b#I was in the woods one night when I saw bright green lights falling from the sky. I remember all the animals suddenly went quiet. There was this smell of ozone.$1#$b#Then I saw it - a really tall, dark figure with long, grasping arms. It was floating just off the ground and had blank eyes that met mine.$7#e#It's embarrassing, but I did a runner when it started drifting towards me! I should've investigated it, tried getting proof. Now nobody believes me.$2",
 "Core.NovaEli.5-10.Fall.18": "Ugh, a bird managed to crap on me earlier. Emily was all excited and said it's a sign of good luck. For the bird, maybe! I don't feel lucky right now.$10#$b#It better not have been Thistle.$9",
 //Note to translators: you can move the {{GameName}} token below to where it would make sense in the sentence.
 "Core.NovaEli.5-10.Fall.19": "Alright, @? Got much planned for the day? I'm hoping to play {{GameName}} with Dylan later tonight.$1#$b#Why don't you join us? You can team up with him against me, it's more fair! That way he's less likely to ragequit when I trounce you both.$13#$b#Wha- I'M going to be the one ragequitting? Has he been telling you that? He's LYING, @! And I'll prove it to you later when I WIN!$7",
@@ -567,6 +589,10 @@ SIGURD/SONDRA*/
 "Core.NovaEli.Resort_Towel": "%Eli is fast asleep with a blissful look on his face. He's not even snoring. It looks like miracles can happen after all.",
 "Core.NovaEli.Resort_Towel_2": "Hi, @! I told myself I'd explore the island, but tragically, I seem to be stuck to this towel. Nothing I can do, so might as well enjoy it. Oh well!$6",
 "Core.NovaEli.Resort_Towel_3": "Aaaah...! I'm trying not to take this for granted, but I could get used to it! There's nice beaches back at Point Drake, but they're nothing like this one.$3#$b#That old lady on the west side of the island doesn't say much about herself, but she has some pretty amazing stories. Must be weird, having mainlanders like us around after so long.$0",
+
+//ROMANCE (POSITIVE)
+
+"Core.NovaEli.AcceptBouquet": "Oh, for me? You shouldn't have! Let's take a look -!$3#$b#W-wait! This... this is -! Y-you want to... to date me, @? As in, actually DATE me? In the r-romantic sense? For... for real??$7#$b#%Eli accepts the bouquet before pulling you a bone crushing hug that sends petals flying everywhere.#$b#Sorry, I was just making sure I wasn't dreaming. Of course I accept, @! I can't think of anything I'd want more!$4#$e#You're sure about this, right? I mean, what you see is exactly what you're going to get.$12#$e#Deep breaths, Eli... deep breaths. There's nothing to panic about, it's only everything you ever hoped for suddenly happening.$4",
 
 //ROMANCE (NEGATIVE)
 
@@ -851,8 +877,6 @@ SIGURD/SONDRA*/
 "Locations.NovaEli.RanchFence.3": "Here to see Marnie? Or to see her cows? I think they both enjoy having company over.$12",
 
 //DYLAN DIALOGUE
-
-"Core.NovaDylan.Name": "Dylan",
 
 "Core.NovaDylan.Introduction": "Oh, hey. I'm guessing that you're @? We've all heard about you. Uh... welcome. I'm Dylan. My brother's Eli... he's more of a people person.$0#$b#Okay, I'll just be going now... in this direction...$9#$b#%He avoids eye contact and moves away before you can say anything else.",
 
@@ -1342,12 +1366,14 @@ SIGURD/SONDRA*/
 "Gifts.NovaDylan.GiftReaction.Pufferfish": "Diodon! Not a bad find. It looks cute and goofy even when uninflated, but you wouldn't want to eat this - they're extremely poisonous.$1",
 "Gifts.NovaDylan.GiftReaction.Anchovy": "Anchovies are one of the most abundant fish. They're also a very important, nutritious food source for other ocean dwelling animals. Thanks!$1",
 "Gifts.NovaDylan.GiftReaction.Tuna": "Tuna are built for speed - This species can reach 70km/h. They also get much bigger than this. Willy's caught tuna that are larger than him!$3",
+"Gifts.NovaDylan.GiftReaction.Albacore": "Most tuna eat a varied diet, but the albacore primarily eats cephalopods. They're also one of the smaller tuna species.$1",
+"Gifts.NovaDylan.GiftReaction.Crab": "",
 "Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.BiBerryMuffin": "Very thoughtful of you!'K thanks bi.$1",
 "Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.LesbianLollipop": "...No, Dylan. Don't make Eli's inappropriate lesbian joke.$9#$b#Thanks for the lollipop, though!$1",
 "Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.GaylacticCookie": "Thank you. You know, I think you'd make Eli's day if you got him one of these!$1",
 "Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "Oh, that's kind of you. I like a good eclair.$3",
-"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "'A romantic cookie'? OH, aromatic. I almost panicked just then. Thanks!$3",
-"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.TransTart": "",
+"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "'A romantic cookie'? OH, aromatic! I almost panicked just then. Thanks!$3",
+"Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.TransTart": "I support trans rights... because I'm not a moron. Thanks for the treat!$1",
 
 //NEUTRAL
 
@@ -1600,6 +1626,27 @@ SIGURD/SONDRA*/
 
 "Strings.MushroomCave.Cliff": "A vast cavern stretches before you, filled with glittering spores and giant mushrooms that shimmer with bioluminescent light. This strange ecosystem has lain undisturbed for millenia.",
 
+//MEEP STRINGS,
+
+"MEEP.CampingPhoto": "Nothing beats toasted marshmallows on the beach on Summer evenings! I think Eli just wanted an excuse to set something on fire.",
+"MEEP.SpookyPhoto": "Eli convinced me to join him in the forest one night while he looked for cryptids. We took this photo for his blog... but something about it unsettles me.",
+"MEEP.OctopusPhoto": "Penelope escaped again when I let my guard down. Eli was too busy cackling at me to help - but it didn't stop him from preserving my shame for posterity. I'll get him back for this!!",
+
+"MEEP.BeyondReal": "This is the front page of Eli's cryptozoology blog. It doesn't seem to get a lot of traffic.",
+"MEEP.KillerBunny": "Killer Rabbit",
+"MEEP.KillerBunny.Description": "I've got a real treat for you today, ladies & gents! This evil tempered rodent is said to have claimed the lives of hundreds of unwary travelers many centuries ago, including a group of knights. Guarding a cave strewn with a small mountain of gnawed bones, it was supposedly destroyed by an ancient king with a weapon blessed by Yoba. The fact that I've encountered this beast for myself suggests that he only succeeded in royally (HA) ticking it off! It also doesn't like camera flashes, so I couldn't stick around to observe it further.",
+"MEEP.Grindylow": "In the Depths",
+"MEEP.Grindylow.Description": "Dylan was with me when I met this sneaky bugger, so he can back me up!! This is a Grindylow, a dangerous water demon that inhabits rivers, lakes and bogs. It can move on land but prefers to spend its time lying in wait just beneath the water's surface, where it's practically invisible to human eyesight. Parents would use this monster as a cautionary tale to avoid treacherous bodies of water - and for good reason! It has a remarkably strong grip and, given half a chance, it'll drag you under the water with it.",
+"MEEP.MeetingSoot": "A New Friend",
+"MEEP.MeetingSoot.Description": "As you know, we recently moved to Stardew Valley and I've been doing part time work for the local Adventurer Guild. While in the mines I found THIS adorable little guy! Dust Sprites are common monsters that live in packs, so it was strange to see him on his own. I gave him a treat and before I knew it, I was bringing him home with me! Dylan's pretty miffed about suddenly sharing a living space with a monster but... guys, gals. Can ANY of you blame me?? Just look at the little fuzzball! LOOK! AAAAAAAAAAAAAAAAAAAAA!!!",
+
+//SHOP STRINGS
+
+"Shops.MouseShopOpen.1": "Welcome, human... got shinies?",
+"Shops.MouseShopOpen.2": "What does human mean by 'refund'?",
+"Shops.MouseShopOpen.3": "Don't ask where Mouse found these.",
+"Shops.MouseShopClosed": "Gone out until scary room goes away.",
+
 //MAIL
 
 "Mail.EliLetter.1.Title": "Eli's Gift",
@@ -1621,6 +1668,8 @@ SIGURD/SONDRA*/
 "Mail.DylanLetter.3": "Hello, @.^^I went hiking with Eli recently and we found some sort of unusual fruit growing on a bush. He sampled one of them before I could stop him, because he's irresponsible.^^Fortunately they're safe to eat, but they're also VERY spicy! Both of us love spicy food and even we weren't quite prepared for it. I've enclosed some of the seeds for you - perhaps you can try to grow them?^^If you're successful, we won't say no to more of those fruit!^^Warm regards,^Dylan Moray",
 "Mail.DylanLetter.4.Title": "Note from Dylan",
 "Mail.DylanLetter.4": "Good morning, @.^^Thank you so much for delivering those materials for us! Maru has already begun construction of the ROV. She wants to update us on her progress soon, so pop over to the clinic on a Tuesday or Thursday during opening times.^^I'm really excited. We're actually going to do this!^^Warmest regards,^Dylan^^P.S. Don't worry if Maru goes off on one of her long technical explanations - I can hardly keep up with them myself!",
+"Mail.DylanLetter.5.Title": "A Present From Dylan",
+"Mail.DylanLetter.5": "Hello, @!^^Thank you for joining us yesterday! I had a wonderful time and I hope that you did as well. I'm still going over the samples and footage that we took, but I've also put this aquarium together for you. I was very inspired after seeing the bottom of the abyss for myself, hehe.^^Any kind of fish should be at home in it.^^-Dylan",
 
 "Mail.DemetriusLetter.1.Title": "A gift from Demetrius",
 "Mail.DemetriusLetter.1": "Good morning @,^^Eli reported the discovery of the cave system you explored to me, and also provided some truly fascinating fungal samples - I can only find matches for a few of them! I've already sent a few on to my old colleagues at ZuCU's mycology lab and to say that they're excited is an understatement.^^But I digress! One of the specimens is a hardy one that, despite its intriguing warning markings, is non-toxic and even tastes good. I'm not joking! I tried one after my tests concluded it was safe.^^I've enclosed some spores in case you want to try growing them for yourself during Spring and Winter. All they need is some decaying wood to grow on.^^Regards,^-Demetrius",
@@ -1629,7 +1678,7 @@ SIGURD/SONDRA*/
 "Mail.SentinelLetter.1": "Hi hi!^We gib present from garden to @.^^How humans talk liek this?? Hard!^^No, is easy! We can do this!^^Look! Happy face! :)^^Focus! We tell human about gift.^^Seeds like cold! Become special flower, shiny and pretty!^^We are senT...SeNtAnL...SENTINEL!^Have nice day!",
 
 "Mail.MouseLetter.1.Title": "A crumpled note",
-"Mail.MouseLetter.1": "Human wants seeds. Mouse has seeds. Come to Mouse's hidey-hole at brother's house in East Scarp. Bring food and Mouse will give seeds to human... seeds and other things Mouse found.",
+"Mail.MouseLetter.1": "HuMaN wAnTs SeEdS. mOuSe HaS sEeDs. CoMe To mOuSe HiDeY-hOlE aT bRoThEr HoUsE tO eAsT.^^^bRiNg^^^ShInIeS",
 
 //CONVERSATION TOPICS
 
@@ -1669,9 +1718,11 @@ SIGURD/SONDRA*/
 
 "CT.NovaEli.SootIntro": "Thanks for stopping by earlier, farmer. It was nice to have you over! I think Soot likes you already.$1",
 "CT.NovaEli.ThistleIntro": "That Thistle's a royal pain, isn't she? She adores Dylan, but she has it out for me. Come to think of it, she dislikes most people. He tells me what she says.$10#$b#I'm not surprised that he gets migraines all the time with her around. She's so loud.$9#$b#...What do you mean I have no indoor voice either?! THAT'S NOT TRUE AT ALL!$7",
+"CT.NovaEli.EnDMouse": "Dylan said you were trying to talk to that mouse we've got. I've tried a lot of times to get a good look at it, but it's too crafty.$10#$b#Dylan accused me one time of moving everything in his room slightly to the left just to weird him out. I bet the mouse did it...$9",
 "CT.NovaEli.EnDJojaBreak": "*Sigh* I had an unpleasant encounter with Morris earlier. He's had it out for me for ages now... he gives me the evils if I so much as walk near JojaMart.$9#$b#Dylan stood up for me, though! He panicked when he got home, but he was incredible. I love him so damn much.$3",
 "CT.NovaEli.EnDClinicAppointment": "I think I gave Dylan, Maru and Harvey a hard time when they got me into the clinic earlier. I almost ran out of there at one point!$2#$b#But I managed to pull through! Got my new medication, hopefully it'll help me get some sleep.$3#$b#%Eli proudly flashes a colourful sticker at you that reads 'I was brave for the doctor!'",
 "CT.NovaEli.EnDPlan": "%Eli looks unusually worn out.#$b#Hey. Guess who had to help carry an entire forest's worth of an environmental report from the Scarp to Lewis's place? Even with Alex's help, that thing's no joke!$2#$b#Last I saw, Dylan and company were sitting Lewis down and preparing to make him read it. Poor bastard. I wonder if we'll ever see him again?$11",
+"CT.NovaEli.EnDHomecoming": "Sometimes I wake up and wonder why I'm in a country house instead of our old apartment on the portside. And then I get the dumbest grin when I remember why.$3#$b#Moving here was hands down the best decision we ever made. I wouldn't give this life up for anything.$1",
 
 "CT.NovaEli.SootPocketAdventure": "Teren borrowed one of my hoodies and got more than he bargained for. Soot was hiding in one of the pockets!$3#$b#I was worried my clothes aren't emo enough for him, but he doesn't seem to mind. And hey, Soot got to have an adventure.$1",
 
@@ -1752,9 +1803,11 @@ SIGURD/SONDRA*/
 
 "CT.NovaDylan.SootIntro": "It was a nice change of pace to have a visitor. You're welcome to stop by whenever.$1#$b#Especially if it keeps Soot on his best behaviour. It's not like him to be that docile, especially around strangers.$9",
 "CT.NovaDylan.ThistleIntro": "Sorry if Thistle left a sour impression on you. She was mad when she found out you didn't just leave your crops unprotected from her and her friends.$0#$b#She kept complaining about how unfair it is. But you losing your produce would be unfair. She'll just have to get over it, won't she?$1",
+"CT.NovaDylan.EnDMouse": "It was good of you to visit earlier, @. Weirdly, I keep hearing noises from that mouse hole. Like it's moving a bunch of items around inside the wall.$9",
 "CT.NovaDylan.EnDJojaBreak": "Morris was an ass to Eli earlier while we were minding our own business. I couldn't believe he had the gall to do that in public!$2#$b#I had to speak up. Nobody's allowed to be rude to my brother except for me.$5",
 "CT.NovaDylan.EnDClinicAppointment": "I thought I'd have a fight on my hands keeping Eli in the clinic for his appointment, but he actually calmed down eventually. I'm proud of him.$1#$b#With any luck, he might have an easier time getting some rest in future.$0",
 "CT.NovaDylan.EnDPlan": "I think we've succeeded in impressing on Lewis the importance of preserving the environment and how to start turning things around.$3#$b#Although I suspect that by the time we reached the end of that report, he was prepared to say absolutely anything to make us go away.$1",
+"CT.NovaDylan.EnDHomecoming": "Thanks for chatting with us earlier. I've got to admit, I still haven't quite gotten over the novelty of living in Pelican Town.$1",
 
 "CT.NovaDylan.SootPocketAdventure": "I hear that Soot infiltrated the Bear residence because Teren needed to borrow clothes from Eli. I hope he didn't cause too much havoc...$0",
 
@@ -1859,7 +1912,8 @@ SIGURD/SONDRA*/
 
 //ROBIN
 
-"CT.Robin.DylanDroneProgress": "I'm not quite sure what Maru's building in her room this time, but the sound's been keeping me awake for the last few nights.$2#$b#I'm just glad that I had the foresight to fireproof our house.$0",
+"CT.Robin.DylanDroneProgress": "I'm not quite sure what Maru's building in her room this time, but the sound's been keeping me awake for the last few nights.$2#$b#Between her and Demetrius, I'm just glad I had the foresight to fireproof our house.$0",
+"CT.Robin.EnDHomecoming": "The Moray brother's house? Oh yeah, I remember the day they showed up. They know how to leave an impression.$0#$b#Their house was a big fixer-upper job, but I had fun with it. It's always nice to restore an abandoned house to its former glory.$1",
 
 //DEMETRIUS
 
@@ -2485,7 +2539,7 @@ SIGURD/SONDRA*/
 "Events.DylanTown.Leah.3": "Hey, Pam. Tell Gus that the next drink's on us, okay?$0",
 "Events.DylanTown.Pam.4": "Fine.$1",
 "Events.DylanTown.NovaEli.4": "Sweet Yoba... that was surprisingly scary! I wouldn't want to bump into Pam in a dark alley.$1#$b#Sorry about causing a scene.$10",
-"Events.DylanTown.Leah.4": "It's fine, Eli. Maybe don't go climbing on her trailer in future, though?$1",
+"Events.DylanTown.Leah.4": "It's fine, Eli. Maybe don't go climbing on her roof in future, though?$1",
 "Events.DylanTown.NovaEli.5": "Dylan, I'm so, SO sorry I forgot my phone! I really hope you weren't stressed because of me.$2#$b#We'll cancel the Saloon trip. Let's go home and watch something you like, yeah? There might be some good documentaries on.$0",
 "Events.DylanTown.NovaDylan.9": "Eli, you don't have to - I feel guilty as it is.$2",
 "Events.DylanTown.NovaEli.6": "You haven't spoiled my evening, okay? And you are NOT a burden. I'll never think of you that way.$0#$b#All I wanted is to hang out with my little brother. I don't mind what we do at all.$1",
@@ -2870,6 +2924,20 @@ SIGURD/SONDRA*/
 "Events.ThistleIntro.NovaEli.6": "Sorry brother, your mouth is moving but all I'm hearing is a whining noise. Come on, let's go go go!$3",
 "Events.ThistleIntro.Message.1": "Dylan is dragged away by Eli, protesting all the while. High above, crows circle in the sky.",
 
+//MOUSE INTRO
+
+"Events.MouseIntro.Mouse.1": "The human got Mouse's note... good.$0",
+"Events.MouseIntro.Question.1": "The strange creature is softly giggling to itself as it stares at you from the darkness of its dwelling.",
+"Events.MouseIntro.Question.1.Response.1": "What are you, exactly...?",
+"Events.MouseIntro.Question.1.Response.2": "Do Eli and Dylan know that you're here?",
+"Events.MouseIntro.Question.1.Answer.1": "Mouse doesn't like questions. The human should mind its own business.$1",
+"Events.MouseIntro.Question.1.Answer.2": "...Mouse doesn't talk to them. But yes... they know.$0#$b#Mouse was here before them. Mouse will be here after.$0",
+"Events.MouseIntro.Mouse.2": "Mouse has seeds. Seeds and other things Mouse found... for shiny coins.$0",
+"Events.MouseIntro.Mouse.3": "Where did Mouse find them? What does it matter? Human wants them. Mouse has them.$1#$b#Visit when sky isn't stormy. Mouse looks forward to the human's... patronage.$0",
+"Events.MouseIntro.NovaDylan.1": "@? I thought I heard your voice. I didn't even notice you arriving, sorry about that!$0",
+"Events.MouseIntro.NovaDylan.2": "Oh, I see. You encountered that house mouse we've got.$2#$b#It's always been there and we've never gotten a proper look at it... but it seems to be harmless enough.$0#$b#Anyway! Since you came out all this way, I'll get you a mug of Eli's favourite coffee. What he doesn't know won't hurt him.$1",
+"Events.MouseIntro.Message.1": "Mouse's shop is now open for business!",
+
 //JUNIMO GIFT
 
 "Events.JunimoGift.Allium.1": "Hi hi!",
@@ -2986,6 +3054,49 @@ SIGURD/SONDRA*/
 "Events.PlanOfAction.Maru.4": "You promised to hear us out, Lewis. We spent a lot of time compiling this for you.$5",
 "Events.PlanOfAction.Lewis.8": "I suppose so...",
 "Events.PlanOfAction.NovaDylan.10": "Is everyone comfortable? Good! Let's start with the 50 page introduction. And then we can move onto the first chapter of our report.$3",
-"Events.PlanOfAction.Lewis.9": "Oh, Yoba... I can hardly wait.$5"
+"Events.PlanOfAction.Lewis.9": "Oh, Yoba... I can hardly wait.$5",
+
+//HOMECOMING
+
+"Events.Homecoming.NovaDylan.1": "Hey there!",
+"Events.Homecoming.NovaEli.1": "Good to see you, @! Dylan and I were just taking a trip down memory lane.$1",
+"Events.Homecoming.NovaDylan.2": "We realised over breakfast that it's now been a few years since we moved here to Pelican Town.$1#$b#It definitely doesn't feel like it's been that long!$3",
+"Events.Homecoming.NovaEli.2": "We got here the year before you, you know. We were really lucky to get this house!$3",
+"Events.Homecoming.NovaDylan.3": "Although we did have a few problems at first, didn't we?$0",
+"Events.Homecoming.NovaEli.3": "That we did, Dylan. C'mon @, it's story time.$1",
+"Events.Homecoming.Robin.1": "Here we are, gents!",
+"Events.Homecoming.NovaDylan.4": "Oh, Yoba...!$6",
+"Events.Homecoming.NovaEli.4": "That's, uh... it's okay, we can work with this.$10",
+"Events.Homecoming.NovaDylan.5": "Work with this?? Eli, we paid real money for this wreck! It looks like someone was murdered in it!$5",
+"Events.Homecoming.NovaEli.5": "Oooooh, I hadn't thought about that! No wonder it was so cheap! Robin, is this house haunted?? That would be so exciting!$3",
+"Events.Homecoming.NovaDylan.6": "Eli!",
+"Events.Homecoming.Robin.2": "...Nobody died here, Eli.$6#$b#It's true that this house has seen better days, but it won't take me long to fix it up for you. It shouldn't take longer than a week!$1#$b#In the meantime, Rosa will put you up in a room at the East Scarp Inn. She should be meeting us soon.$0",
+"Events.Homecoming.NovaDylan.7": "Oh, that's a relief. I'm sorry for my disappointed reaction, Robin. You must be extremely skilled!$3",
+"Events.Homecoming.NovaEli.6": "Hmm...!",
+"Events.Homecoming.Robin.3": "Ah, I wouldn't recommend going in there right now. That door's about ready to fall off its hinges.$2",
+"Events.Homecoming.NovaEli.7": "Do you reckon I can help with any of this? I always wanted to try my hand at DIY.$11",
+"Events.Homecoming.NovaDylan.8": "I remember what happened last time, Eli. Don't touch it - we should let the professional do her thing.$0",
+"Events.Homecoming.NovaEli.8": "C'mon, little bruv! Have a bit of faith in me. I'll be great at it, you'll see-!$6",
+"Events.Homecoming.NovaEli.9": "OOOF",
+"Events.Homecoming.NovaDylan.9": "ELI!",
+"Events.Homecoming.NovaDylan.10": "Are you okay?!$6",
+"Events.Homecoming.NovaEli.10": "Ugh... it's okay! It went just according to plan, Dylan! This is EXACTLY what I wanted to happen!$7",
+"Events.Homecoming.Robin.4": "...Right.",
+"Events.Homecoming.Robin.5": "It was very sweet of you to remove the door for me, Eli. But leave the rest of the renovations to me, okay?$2",
+"Events.Homecoming.NovaEli.11": "...Fine....",
+"Events.Homecoming.Rosa.1": "Sorry I'm late, Robin!$0",
+"Events.Homecoming.Rosa.2": "Oh dear... have I arrived at an awkward time?$2",
+"Events.Homecoming.Robin.6": "Not at all! Meet the latest residents of Pelican Town, Rosa.$4",
+"Events.Homecoming.NovaDylan.11": "Hello, Rosa. I'm Dylan Moray. And this is my brother, Eli. Good to make your acquaintance.$3",
+"Events.Homecoming.NovaEli.12": "Charmed!!",
+"Events.Homecoming.Rosa.3": "It's lovely to meet you both! I've prepared a room for you while Robin works her magic on your house.$1#$b#And it'll soon be time for dinner - you must be famished after the long train journey here. I'm not a bad cook if I do say so myself.$0",
+"Events.Homecoming.Robin.7": "There we go! Are you hurt, Eli? Should I phone Dr. Harvey?$0",
+"Events.Homecoming.NovaEli.13": "Ah, that's not necessary! I'm peachy. Thanks for everything, Robin.$12",
+"Events.Homecoming.NovaEli.14": "So, how're you feeling? You've been handling the new situation really well.$1",
+"Events.Homecoming.NovaDylan.12": "Oh, I'm still anxious over this whole thing. But I also feel... hopeful? Excited, even. A fresh start could be exactly what we both need.$0#$b#And the people here seem to be nice.$1",
+"Events.Homecoming.NovaEli.15": "That so? I can't wait to see you meeting and greeting.$6",
+"Events.Homecoming.NovaEli.16": "We could take a walk to the mountain tomorrow! Apparently they've got an adventurer guild in town. Maybe I can find paying work.$0#$b#And Robin's place is on the way. She reckons you'd get on well with her husband and daughter!$3",
+"Events.Homecoming.NovaDylan.13": "We'll see. I think it's time we turned in for the night... or at least, we should TRY to.$1",
+"Events.Homecoming.NovaEli.17": "Agreed! We've got so much to do later. We're going to love it here, I can tell.$0#$b#G'night, Dylan.$1"
 
 }

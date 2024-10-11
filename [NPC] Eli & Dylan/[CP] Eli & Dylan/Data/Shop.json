@@ -1,0 +1,154 @@
+{ 
+    "Changes": [
+      {
+        "LogName": "Mouse Shop Tile",
+        "Action": "EditMap",
+        "Target": "Maps/{{ModID}}_ESEDHouse",
+        "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.04",
+        /*  "When": {
+              "HasSeenEvent |contains=EnD.Critters.04": true
+            },*/
+        "MapTiles": [
+          {
+            "Position": {
+              "X": 25,
+              "Y": 13
+            },
+            "Layer": "Buildings",
+            "SetProperties": {
+              "Action": "OpenShop EnD.MouseShop none 600 2600"
+            }
+          }
+        ]
+      },
+
+        //Adds the actual shop.
+
+      {
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "When": {
+          "Weather |contains=Storm": false
+        },
+        "Entries": {
+          "EnD.MouseShop": {
+            "Id": "EnD.MouseShop",
+            "Owners": [ //don't need this
+              {
+                "Name": "AnyOrNone",
+                "Id": "EnD.MouseShoppe",
+                "Condition": "TIME 600 2400",
+                "Portrait": "{{InternalAssetKey: Assets/Images/MousePortraits.png}}",
+                "Dialogues": [
+                  {
+                    "Dialogue": "{{i18n:Shops.MouseShopOpen.{{Random:{{Range: 1, 3}}}}}}"
+                  }
+                ]
+              },
+              {
+                "Name": "None",
+                "Id": "EnD.MouseShoppeClosed",
+                "Condition": "WEATHER Here Storm",
+                "Dialogues": [
+                  {
+                    "Dialogue": "{{i18n:Shops.MouseShopClosed}}"
+                  }
+                ]
+              }
+            ],
+            "Items": [
+              {
+                "ID": "TenebrousNova.EnD.ChaosTotem",
+                "Condition": "PLAYER_HAS_MAIL Current EliLetter1 Received",
+                "ItemID": "TenebrousNova.EnD.ChaosTotem",
+                "Price": 250
+              },
+              {
+                "ID": "TenebrousNova.EnD.MandrakeRootSeeds",
+                "Condition": "PLAYER_HAS_MAIL Current EliLetter2 Received",
+                "ItemID": "TenebrousNova.EnD.MandrakeRootSeeds",
+                "Price": 30
+              },
+              {
+                "ID": "TenebrousNova.EnD.SanguineHeartSeeds",
+                "Condition": "PLAYER_HAS_MAIL Current EliLetter3 Received",
+                "ItemID": "TenebrousNova.EnD.SanguineHeartSeeds",
+                "Price": 40
+              },
+              {
+                "ID": "TenebrousNova.EnD.BeholderFruitSeeds",
+                "Condition": "PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Any",
+                "ItemID": "TenebrousNova.EnD.BeholderFruitSeeds",
+                "Price": 50
+              },
+              {
+                "ID": "TenebrousNova.EnD.DragonEyeSeeds",
+                "Condition": "PLAYER_HAS_MAIL Current DylanGift Received",
+                "ItemID": "TenebrousNova.EnD.DragonEyeSeeds",
+                "Price": 50
+              },
+              {
+                "ID": "TenebrousNova.EnD.CrystallineLilySeeds",
+                "Condition": "PLAYER_HAS_MAIL Current SentinelLetter Received",
+                "ItemID": "TenebrousNova.EnD.CrystallineLilySeeds",
+                "Price": 60
+              },
+              {
+                "ID": "TenebrousNova.EnD.PixieBloomSeeds",
+                "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.03",
+                "ItemID": "TenebrousNova.EnD.PixieBloomSeeds",
+                "Price": 60
+              },
+              {
+                "ID": "TenebrousNova.EnD.BluffshroomStarter",
+                "Condition": "PLAYER_HAS_MAIL Current DemetriusCaveLetter Received",
+                "ItemID": "TenebrousNova.EnD.BluffshroomStarter",
+                "Price": 50
+              }
+            ]
+          }
+        }
+      },
+
+      {
+        "LogName": "Mouse Shop - Cornucopia",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "EnD.MouseShop", "Items" ],
+        "When": {
+          "HasMod": "Cornucopia.MoreCrops"
+        },
+        "Entries": {
+          "EnD.MouseShop.Cornucopia.JuniperSeeds": {
+            "ID": "Cornucopia_JuniperBerriesSeeds",
+            "Condition": "SEASON Winter",
+            "ItemID": "Cornucopia_JuniperBerriesSeeds",
+            "IgnoreShopPriceModifiers": true
+          },
+          "EnD.MouseShop.Cornucopia.ElderberrySeeds": {
+            "ID": "Cornucopia_ElderberriesSeeds",
+            "Condition": "YEAR 2, SEASON Winter",
+            "ItemID": "Cornucopia_ElderberriesSeeds",
+            "IgnoreShopPriceModifiers": true
+          }
+        }
+      },
+
+      {
+        "LogName": "Mouse Shop - Rodney",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "EnD.MouseShop", "Items" ],
+        "When": {
+          "HasMod": "TheFrenchDodo.WWWA"
+        },
+        "Entries": {
+          "EnD.MouseShop.Rodney": {
+            "ID": "EnD.MouseShop.Rodney",
+            "ItemId": "WWWA.AutographedPhoto",
+            "Price": 1000
+          }
+        }
+      }
+    ]
+}

@@ -612,6 +612,32 @@ debug festival winter25 - Winter Star
 	},
 
 	{
+		"LogName": "Violet Moon Renaissance Faire",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall1",
+		"When": { "HasMod |contains=DN.SnS.VMFest": true },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+				"Value": "Nova.Eli 84 54 2/Nova.Dylan 83 53 2",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+				"Value": "Nova.Eli 84 54 2/Nova.Dylan 83 53 2",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 140 140 140 140 140 140 140 140/animate Nova.Dylan false true 100 18 18 18/addTemporaryActor Soot 16 32 86 53 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+			}
+		]
+	},
+
+	{
 		"LogName": "Ridgeside Gathering Festival",
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall20",

@@ -196,12 +196,14 @@
 			"AcceptGift_(O)128": "{{i18n:Gifts.NovaDylan.GiftReaction.Pufferfish}}",
 			"AcceptGift_(O)129": "{{i18n:Gifts.NovaDylan.GiftReaction.Anchovy}}",
 			"AcceptGift_(O)130": "{{i18n:Gifts.NovaDylan.GiftReaction.Tuna}}",
+			"AcceptGift_(O)705": "{{i18n:Gifts.NovaDylan.GiftReaction.Albacore}}",
+			"AcceptGift_(O)717": "",
 			"AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.BiBerryMuffin}}",
 			"AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.LesbianLollipop}}",
 			"AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.NovaDylan.GiftReaction.sapphicsaph_pitv.GaylacticCookie}}",
 			"AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.EnbyEclair}}",
 			"AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie": "{{i18n:Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.ARomanticCookie}}",
-			"AcceptGift_(O)sapphicsaph_pitv.TransTart": "",
+			"AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.NovaDylan.GiftReaction.AcceptGift_(O)sapphicsaph_pitv.TransTart}}",
 
 			//Neutral
 

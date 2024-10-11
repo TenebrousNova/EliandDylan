@@ -56,6 +56,22 @@
 			"FromFile": "Assets/Maps/DylanDreamSea.tmx"
 		},
 		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_ESFlashback",
+			"FromFile": "Assets/Maps/EastScarp_Flashback.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_TempInnRoom",
+			"FromFile": "Assets/Maps/TempInnRoom.tmx"
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}_FarawayIslet",
+			"FromFile": "Assets/Maps/FarawayIslet.tmx"
+		},
+
+		{
 			"LogName": "Location Data",
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -221,6 +237,18 @@
 				"{{ModID}}_DylanDreamSea": {
 					"DisplayName": "{{i18n:Core.Locations.DylanDreamSea}}",
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_DylanDreamSea" }
+				},
+				"{{ModID}}_ESFlashback": {
+					"DisplayName": "{{i18n:Core.Locations.ESFlashback}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_ESFlashback" }
+				},
+				"{{ModID}}_TempInnRoom": {
+					"DisplayName": "{{i18n:Core.Locations.TempInnRoom}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_TempInnRoom" }
+				},
+				"{{ModID}}_FarawayIslet": {
+					"DisplayName": "{{i18n:Core.Locations.FarawayIslet}}",
+					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_FarawayIslet" }
 				}
 			}
 		},
@@ -272,6 +300,15 @@
 						"Doors"
 					],
 					"Value": "24 12 1 120",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"spacechase0.SpaceCore_ColoredLights"
+					],
+					"Value": "24 7 4 3 0 255 238",
 					"Delimiter": " "
 				}
 			],

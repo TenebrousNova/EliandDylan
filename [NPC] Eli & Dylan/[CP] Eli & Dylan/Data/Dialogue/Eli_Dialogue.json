@@ -261,7 +261,7 @@
 
 			//Positive
 
-			//"AcceptBouquet": "",
+			"AcceptBouquet": "{{i18n:Core.NovaEli.AcceptBouquet}}",
 			//"SpouseStardrop": "",
 
 			//Negative

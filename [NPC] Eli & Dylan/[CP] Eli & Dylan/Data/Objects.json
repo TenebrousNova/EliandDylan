@@ -13,6 +13,11 @@
       "Target": "Mods/EnD/Crops",
       "FromFile": "Assets/EnDCrops.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Mods/EnD/GiantCrops",
+      "FromFile": "Assets/EnDGiantCrops.png"
+    },
 
     //Replace CC Aquarium
 
@@ -31,6 +36,73 @@
         "HasSeenEvent": "191393"
       }
     },
+
+    {
+      "LogName": "Chaos Totem Animation",
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "ChaosTotemAnimation": {
+          "TargetTexture": "Mods\\EnD\\Objects",
+          "TargetRect": { "X": 32, "Y": 112, "Width": 16, "Height": 16 },
+          "SourceTexture":"{{InternalAssetKey: Assets/Images/ChaosTotem.png}}:0..7@12"
+        }
+      }
+    },
+
+    //Items
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "TenebrousNova.EnD.ChaosTotem": {
+          "Name": "TenebrousNova.EnD.ChaosTotem",
+          "DisplayName": "{{i18n:Core.Items.ChaosTotem}}",
+          "Description": "{{i18n:Core.Items.ChaosTotem.Description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "Price": "250",
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 30,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ContextTags": [
+            "not_placeable",
+            "totem_item"
+          ]
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "Update": "OnLocationChange, OnTimeChange",
+      "Entries": {
+        "TenebrousNova.EnD.ChaosTotem": {
+          "TotemWarp": {
+            "Location": "{{Random: Mountain, Beach, LewisBasement, EastScarp_Village, SeedShop, Summit, WizardHouse, Tunnel|key=warp-totem-{{Time}}-{{LocationName}}}}",
+            "Position": "{{Random: 31, 20++20, 4++4, 4++24, 97++37, 18++11, 12++10, 17++10, 7|key=warp-totem-{{Time}}-{{LocationName}}|inputSeparator=++}}",
+            "Color": {
+              "R": "{{Random: 255, 0, 191, 255, 140, 92, 203, 100|key=warp-totem-{{Time}}-{{LocationName}}}}",
+              "G": "{{Random: 0, 0, 0, 255, 242, 239, 63, 92|key=warp-totem-{{Time}}-{{LocationName}}}}",
+              "B": "{{Random: 0, 255, 255, 255, 0, 255, 224, 112|key=warp-totem-{{Time}}-{{LocationName}}}}",
+              "A": "255"
+            }
+          }
+        }
+      }
+    },
+//Fellowclown.PC_OldGraveYard, 17, 45, light purple
+//TenebrousNova.EliDylan.CP_EDMushroomCave, 16, 8, cyan
+//MadDog.BearFam.Custom_BearLodge, 54, 19, light red
+//7thAxis.DitR_Maps.Jeremy_Room, 17, 11, lava red
+//BugLand, 36 50, dark green
+//IslandSouth, 11, 11, turquoise
+//WitchHut, 7, 7, magenta
+//Mt. Vapius
+
 
     //Crops
 
@@ -63,7 +135,7 @@
           "Type": "Seeds",
           "Category": -74,
           "ExcludeFromRandomSale": true,
-          "Price": 50,
+          "Price": 30,
           "Texture": "Mods/EnD/Objects",
           "SpriteIndex": 1
         },
@@ -292,6 +364,108 @@
           "HarvestItemID": "TenebrousNova.EnD.Bluffshroom",
           "Texture": "Mods/EnD/Crops",
           "SpriteIndex": 12
+        }
+      }
+    },
+
+    //Giant Crops
+
+    {
+      "LogName": "EnD Giant Crops",
+      "Action": "EditData",
+      "Target": "Data/GiantCrops",
+      "Entries": {
+        "TenebrousNova.EnD.GiantMandrakeRoot": {
+          "FromItemID": "TenebrousNova.EnD.MandrakeRoot",
+          "HarvestItems": [
+            {
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.MandrakeRoot",
+							"Quality": 0,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.MandrakeRoot",
+							"Quality": 1,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.MandrakeRoot",
+							"Quality": 2,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 0.5,
+							"ItemID": "TenebrousNova.EnD.MandrakeRoot",
+							"Quality": 4,
+							"MinStack": 1,
+							"MaxStack": 2
+						}
+          ],
+          "Texture": "Mods/EnD/GiantCrops",
+          "TexturePosition": {
+            "X": 0,
+            "Y": 0
+          },
+          "TileSize": {
+            "X": 3,
+            "Y": 3
+          },
+          "Chance": 0.01
+        },
+        "TenebrousNova.EnD.GiantCrystallineLily": {
+          "FromItemID": "TenebrousNova.EnD.CrystallineLily",
+          "HarvestItems": [
+            {
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.CrystallineLily",
+							"Quality": 0,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.CrystallineLily",
+							"Quality": 1,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 1.0,
+							"ItemID": "TenebrousNova.EnD.CrystallineLily",
+							"Quality": 2,
+							"MinStack": 5,
+							"MaxStack": 7
+						},
+						{
+							"Chance": 0.5,
+							"ItemID": "TenebrousNova.EnD.CrystallineLily",
+							"Quality": 4,
+							"MinStack": 1,
+							"MaxStack": 2
+						},
+            {
+              "Chance": "1.0",
+              "ItemID": "80",
+              "MinStack": 2,
+              "MaxStack": 5
+            }
+          ],
+          "Texture": "Mods/EnD/GiantCrops",
+          "TexturePosition": {
+            "X": 48,
+            "Y": 0
+          },
+          "TileSize": {
+            "X": 3,
+            "Y": 3
+          },
+          "Chance": 0.01
         }
       }
     },

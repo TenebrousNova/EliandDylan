@@ -47,9 +47,11 @@
 
 				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
 				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
+				"EnDMouse": "{{i18n:CT.NovaEli.EnDMouse}}",
 				"EnDJojaBreak": "{{i18n:CT.NovaEli.EnDJojaBreak}}",
 				"EnDClinicAppointment": "{{i18n:CT.NovaEli.EnDClinicAppointment}}",
 				"EnDPlan": "{{i18n:CT.NovaEli.EnDPlan}}",
+				"EnDHomecoming": "{{i18n:CT.NovaEli.EnDHomecoming}}",
 
 				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}",
 
@@ -172,10 +174,12 @@
 
 				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
 				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
+				"EnDMouse": "{{i18n:CT.NovaDylan.EnDMouse}}",
 				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}",
 				"EnDJojaBreak": "{{i18n:CT.NovaDylan.EnDJojaBreak}}",
 				"EnDClinicAppointment": "{{i18n:CT.NovaDylan.EnDClinicAppointment}}",
 				"EnDPlan": "{{i18n:CT.NovaDylan.EnDPlan}}",
+				"EnDHomecoming": "{{i18n:CT.NovaDylan.EnDHomecoming}}",
 				
 				//ARV Topics
 				
@@ -387,7 +391,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}"
+				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}",
+				"EnDHomecoming": "{{i18n:CT.Robin.EnDHomecoming}}"
 			}
 		},
 

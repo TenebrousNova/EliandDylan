@@ -64,6 +64,14 @@
 							"Weight": 1
 						},
 						{
+							"ID": "Spring (Event)",
+							"Condition": "EVENT_ID EnD.EnD.04",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Eli/spring.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Eli/spring.png}}",
+							"Precedence": -20,
+							"Weight": 1
+						},
+						{
 							"ID": "Spring 2",
 							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Spring",
@@ -354,6 +362,14 @@
 							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spring.png}}",
 							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring.png}}",
 							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring (Event)",
+							"Condition": "EVENT_ID EnD.EnD.04",
+							"Portrait": "{{InternalAssetKey: Assets/Portraits/Nova.Dylan/spring.png}}",
+							"Sprite": "{{InternalAssetKey: Assets/Characters/Nova.Dylan/spring.png}}",
+							"Precedence": -20,
 							"Weight": 1
 						},
 						{

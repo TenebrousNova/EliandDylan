@@ -41,6 +41,23 @@
         }
       },
 
+      //Mouse sends shop invite after receiving any of this mod's seeds from mail.
+
+      {
+        "LogName": "Mouse Shop Letter",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "TenebrousNova.EnD_MouseShopInvite": {
+            "Id": "TenebrousNova.EnD_MouseShopInvite",
+            "Trigger": "DayStarted",
+            "Condition": "Any \"PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Received\" \"PLAYER_HAS_MAIL Current EliLetter2 Recieved\" \"PLAYER_HAS_MAIL Current DylanGift Received\"",
+            "Action": "AddMail Current MouseLetter Now",
+            "MarkActionApplied": true
+          }
+        } 
+      },
+
       //Sends the Dragon Eye seeds after seeing Dylan's 4 heart event.
 
       {
@@ -91,14 +108,14 @@
       },
 
       {
-        "LogName": "Trigger Action - 6 Hearts",
+        "LogName": "Trigger Action - 8 Hearts",
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
           "EnD.OnSeenEli5Hearts": {
-            "Id": "EnD.OnSeenEli5Hearts",
+            "Id": "EnD.OnSeenEli6Hearts",
             "Trigger": "DayStarted",
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1500, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.06, !PLAYER_HAS_CONVERSATION_TOPIC Current EliMushroomCave",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 2000, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.06, !PLAYER_HAS_CONVERSATION_TOPIC Current EliMushroomCave",
             "Action": "AddMail Current EliWarpPrototype Now"
           }
         }

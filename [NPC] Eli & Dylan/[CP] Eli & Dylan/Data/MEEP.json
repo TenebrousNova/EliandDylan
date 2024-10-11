@@ -1,0 +1,69 @@
+{ 
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Blooper, {{ModID}}/Banner",
+            "FromFile": "Assets/MEEP/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "EnD Dylan Album",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Camping",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.CampingPhoto}}",
+
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Spooky{{Random:{{Range: 1, 2}}}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto}}",
+
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Octopus",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}"
+                    }
+                }
+            ]
+        },
+
+        {
+            "LogName": "EnD Eli Blog",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/BeyondReal",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.BeyondReal}}",
+
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/KillerBunny",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.KillerBunny}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.KillerBunny.Description}}",
+
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Grindylow",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Grindylow}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Grindylow.Description}}",
+
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/MeetingSoot",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot}}",
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}"
+                    }
+                }
+            ]
+        }
+    ]
+}

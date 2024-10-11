@@ -153,6 +153,56 @@
 		"Target": "Characters/MaruLaptop",
 		"FromFile": "Assets/Images/Maru_Laptop.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnD.Mouse",
+		"FromFile": "Assets/Images/MouseSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/EnD.Mouse",
+		"FromFile": "Assets/Images/MousePortraits.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EliDoor",
+		"FromFile": "Assets/Images/EliDoor.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EmptyActor",
+		"FromFile": "Assets/Images/Empty.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDBrownCow",
+		"FromFile": "Assets/Images/EnDBrownCow.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDWhiteCow",
+		"FromFile": "Assets/Images/EnDWhiteCow.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDBabyWhiteCow",
+		"FromFile": "Assets/Images/EnDBabyWhiteCow.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDWhiteChicken",
+		"FromFile": "Assets/Images/EnDWhiteChicken.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDBrownChicken",
+		"FromFile": "Assets/Images/EnDBrownChicken.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnDBrownChick",
+		"FromFile": "Assets/Images/EnDBrownChick.png"
+	},
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events
 
@@ -173,23 +223,10 @@
 		}
 	},
 
-	//Temp actor of Yri for crossover event
-
-	{
-		"Action": "Load",
-		"Target": "Portraits/TempYri",
-		"FromFile": "Assets/Images/YriTempPortrait.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/TempYri",
-		"FromFile": "Assets/Images/YriTempSprite.png"
-	},
-
     //Loads event particles.
 
 	{
-		"LogName": "Junimo Particles",
+		"LogName": "Particles",
 		"Action": "Load",
 		"Target": "EliDylan/Particles",
 		"FromFile": "Assets/Images/Particles.png"

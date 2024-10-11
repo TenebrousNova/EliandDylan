@@ -23,9 +23,11 @@
         "DylanApology": "{{i18n:Mail.DylanLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}",
         "DylanGift": "{{i18n:Mail.DylanLetter.3}}%item id (O)TenebrousNova.EnD.DragonEyeSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.3.Title}}",
         "DroneMail": "{{i18n:Mail.DylanLetter.4}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.4.Title}}",
+        "DylanPresent": "{{i18n:Mail.DylanLetter.5}}%item id (F)EnD.AbyssalTank 1%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.5.Title}}",
 
         "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1}}%item id (O)TenebrousNova.EnD.BluffshroomStarter 8%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}",
-        "SentinelLetter": "{{i18n:Mail.SentinelLetter.1}}%item id (O)TenebrousNova.EnD.CrystallineLilySeeds 8%%[#]{{i18n:Mail.SentinelLetter.1.Title}}"
+        "SentinelLetter": "{{i18n:Mail.SentinelLetter.1}}%item id (O)TenebrousNova.EnD.CrystallineLilySeeds 8%%[#]{{i18n:Mail.SentinelLetter.1.Title}}",
+        "MouseLetter": "{{i18n:Mail.MouseLetter.1}}[textcolor black][#]{{i18n:Mail.MouseLetter.1.Title}}"
       }
     }
   ]

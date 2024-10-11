@@ -25,7 +25,7 @@ Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to
 Agent Lyoko: Providing a template for NPC Adventures, which has saved me a LOT of trouble.
 CreatorKami: Animated CG which turned out very nicely, C# help, plus lots of other technical help!
 Atravita: C# wizardry and helped troubleshoot schedule bugs that were driving me bonkers. Also helped me with the 1.6 transition.
-FellowClown: Made custom furniture for the brother's house, plus other assets. 
+FellowClown: Made custom furniture for the brother's house, plus many other assets!
 Logophile: Very kindly allowed me to commandeer the custom rugs she made and put them in the brother's house.
 Mad Dog of Shimano: Custom letterheading, custom furniture, art help (especially with Dylan's sprites), emotional support and an endless wellspring of motivation and kind words!
 KittyCatCasey: Has listened to my inane technical questions with great patience and enabled my ideas by adding fancy new custom event commands to SpaceCore.
@@ -92,7 +92,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json"
 	}
 	  
    ],
@@ -171,6 +171,114 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "WeekDay",
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
+
+	//Chaos Totem Locations
+
+	{
+		"Name": "ChaosLocation",
+		"Value": ""
+	},
+	{
+		"Name": "ChaosLocation",
+		"Value": ", Desert",
+		"When": {
+			"HasFlag": "ccVault"
+		}
+	},
+	{
+		"Name": "ChaosLocation",
+		"Value": ", Custom_Ridgeside_Ridge",
+		"When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+	},
+
+	//Chaos Totem Positions
+
+	{
+		"Name": "ChaosPosition",
+		"Value": ""
+	},
+	{
+		"Name": "ChaosPosition",
+		"Value": "++35, 43",
+		"When": {
+			"HasFlag": "ccVault"
+		}
+	},
+	{
+		"Name": "ChaosPosition",
+		"Value": "++18, 10",
+		"When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+	},
+
+	//Chaos Totem Colours
+	//Red
+
+	{
+		"Name": "ChaosR",
+		"Value": ""
+	},
+	{
+		"Name": "ChaosR",
+		"Value": ", 255",
+		"When": {
+			"HasFlag": "ccVault"
+		}
+	},
+	{
+		"Name": "ChaosR",
+		"Value": ", 120",
+		"When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+	},
+
+	//Green
+
+	{
+		"Name": "ChaosG",
+		"Value": ""
+	},
+	{
+		"Name": "ChaosG",
+		"Value": ", 155",
+		"When": {
+			"HasFlag": "ccVault"
+		}
+	},
+	{
+		"Name": "ChaosG",
+		"Value": ", 13",
+		"When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+	},
+
+	//Blue
+
+	{
+		"Name": "ChaosB",
+		"Value": ""
+	},
+	{
+		"Name": "ChaosB",
+		"Value": ", 0",
+		"When": {
+			"HasFlag": "ccVault"
+		}
+	},
+	{
+		"Name": "ChaosB",
+		"Value": ", 13",
+		"When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+	},
+
+	//Strings
 
 	{
 		"Name": "ED_Radio",
@@ -261,7 +369,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Tue",
-		"Value": "{{Random:1400 41 103 2 EliSitB++1400 74 52 2 EliSitRead++1400 44 77 2 EliSitB++1400 47 52 1 EliSitRight|InputSeparator=++}}"
+		"Value": "{{Random:1400 41 103 2 EliSitB++1400 68 22 2 EliSitRead++1400 44 77 2 EliSitB++1400 47 52 1 EliSitRight|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliES_TueEvening",
@@ -289,7 +397,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliCastlePoint_Wed",
-		"Value": "{{Random:0730 LemurSqueaks.CastlePoint.CP_LoresCove 46 10 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 9 28 0++0730 LemurSqueaks.CastlePoint.CP_LoresCove 55 60 2 EliSitB++0730 LemurSqueaks.CastlePoint.CP_LoresCove 31 50 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 12 75 1 EliSitRead|InputSeparator=++}}"
+		"Value": "{{Random:0730 LemurSqueaks.CastlePoint.CP_LoresCove 46 10 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 9 28 0++0730 LemurSqueaks.CastlePoint.CP_LoresCove 53 62 2 EliSitB++0730 LemurSqueaks.CastlePoint.CP_LoresCove 33 52 2 EliSitA++0730 LemurSqueaks.CastlePoint.CP_LoresCove 12 75 1 EliSitRead|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliBeach_Wed",
@@ -443,26 +551,26 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanMonday_B",
-		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 Beach 11 27 3 Dylan_WritingLeft/1200 9 12 3 Dylan_WritingLeft/1330 ArchaeologyHouse 15 9 0/1600 20 5 0/1730 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0 Dylan_Ladder/2300 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_A",
-		"Value": "0 EastScarp_Village 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "0 EastScarp_Village 50 58/610 ScienceHouse 22 20 1 Dylan_WritingRight/1100 17 18 0/1430 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0 Dylan_Ladder/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 23 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 FishShop 6 6 0/1300 Beach 44 35 1 Dylan_WritingRight/1430 ArchaeologyHouse 12 9 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0 Dylan_Ladder/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanTuesday_B",
-		"Value": "610 12 8 3/630 23 23 0/0730 LemurSqueaks.CastlePoint.CP_LoresCove 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep",
+		"Value": "610 12 8 3/630 23 23 0/0730 LemurSqueaks.CastlePoint.CP_LoresCove 16 69 2 Dylan_Sit/1230 26 63 3 Dylan_WritingLeft/1530 42 72 1 Dylan_WritingRight/1630 9 28 0/1730 {{ModID}}_ESEDHouse 23 23 0/2100 23 23 0/2200 21 20 0 Dylan_Ladder/2300 17 5 1 nova.dylan_sleep",
 		"When": {
 			"HasMod |contains=LemurSqueaks.CastlePoint.CP": true
 		}
 	},
 	{
 		"Name": "DylanWednesday_A",
-		"Value": "610 12 8 3/630 23 23 0/0730 EastScarp_Village 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 21 0/2300 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 23 0/0730 EastScarp_Village 59 105 3/1000 45 110 0/1200 60 113 2/1500 21 121 2/1700 43 97 1/1800 56 85 2/1900 {{ModID}}_ESEDHouse 24 24 1/2100 23 23 0/2200 21 20 0 Dylan_Ladder/2300 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanWednesday_B",
@@ -569,7 +677,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliJunimo2_AideenMateo",
 		"Value": "faceDirection Aideen 3/animate Mateo true true 80 20 20 20/emote Aideen 8/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.4}}\"/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.1.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.1}}\"/speed WaffleW? 4/advancedMove WaffleW? false 0 1 6 0 0 -1 1 10/pause 250/advancedMove EveT false 0 0 2 2000 0 0 3 10/jump Nova.Eli/emote EveT? 8 true/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.5}}\"/emote Aideen 12 true/emote Nova.Eli 28 true/temporarySprite 20 60 6 8 30 false 1/playSound coin/warp JunimoFriendPurple 24 60/animate JunimoFriendPurple true true 80 28 29 30 31/temporarySprite 24 60 5 8 50 false 1/playSound coin/pause 250/emote WaffleW? 16 true/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.2.2}}\"/advancedMove WaffleW? false 0 1 -6 0 0 -1 3 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.6}}\"/textAboveHead JunimoFriendPurple \"ĦĵĮĮĹ ĬġĤĹ!\" true/emote Mateo 8 true/faceDirection Aideen 0/playSound junimoMeep1/emote Aideen 40/faceDirection Aideen 3/temporarySprite 24 60 6 8 30 false 1/playSound dwop/warp JunimoFriendPurple -999 -999/stopAnimation JunimoFriendPurple/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.3.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.7}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.3}}\"/animate Mateo false true 500 17 18 19 18 17 18 19 18/faceDirection Aideen 2/emote Nova.Eli 60",
 		"When": {
-			"HasMod": "DN.SnS.CP"
+			"HasMod": "DN.SnS"
 		}
 	},
 	{
@@ -591,7 +699,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliJunimo2_Rodney",
 		"Value": "warp RodneyOBrien 10 56/speed RodneyOBrien 3/advancedMove RodneyOBrien false 6 0 0 2 11 0 1 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.14}}\"/jump JunimoFriendPurple/playSound junimoMeep1/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.15}}\"/playSound junimoMeep1/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.1}}\"/temporarySprite 31 58 6 8 30 false 1/warp JunimoFriendPurple 999 999/playSound dwop/faceDirection Nova.Eli 3/emote Nova.Eli 16 true/jump Nova.Eli/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/warp Nova.Eli 29 58/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.16}}\"/playSound junimoMeep1/pause 250/showFrame Nova.Eli 67/pause 750/showFrame Nova.Eli 66/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.17}}\"/pause 500/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.3}}\"/faceDirection Nova.Eli 3/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.18}}\"/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.4}}\"/advancedMove RodneyOBrien false 0 -1 25 0 1 10/emote Nova.Eli 60/pause 500/faceDirection Nova.Eli 1/pause 500/textAboveHead Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.19}}\" true",
 		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
+			"HasMod": "TheFrenchDodo.WWWA"
 		}
 	},
 	{
@@ -699,6 +807,56 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": false
+		}
+	},
+
+	//Eli 6 Hearts Part 1
+
+	{
+		"Name": "EliMysteryBeast_1",
+		"Value": "emote Nova.Eli 16/speak Nova.Eli \"Interesting! There wasn't any fog in yesterday's forecast. So either the weatherman was wrong, or our mysterious beast had something to do with it.$11\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"You're saying that there's monsters out there that can call fog? Out here in the forest, that's the last thing I want to hear!$10\"/speak Nova.Eli \"Such creatures are rare and I've never actually seen one for myself. Which makes me all the more interested in whatever happened here!$1#$b#I can't wait to stake the place out! Can you imagine if it was actually something like that? It's so exciting to think about!$3\"/speak Shane \"...I'd prefer it if the weatherman was wrong.$2\""
+	},
+	{
+		"Name": "EliMysteryBeast_1",
+		"Value": "emote Nova.Eli 16/speak Nova.Eli \"Interesting! There wasn't any fog in yesterday's forecast. So either the weatherman was wrong, or our mysterious beast had something to do with it.$11\"/faceDirection MadDog.HashtagBearFam.Gunnar 1/speak MadDog.HashtagBearFam.Gunnar \"Wait, are there actually monsters that can control the weather? How does that even work?$2\"/faceDirection Nova.Eli 3/speak Nova.Eli \"C'mon mate, I've watched you fight actual ghosts and levitating monsters that spit fireballs. Is a creature that can summon fog that big of a stretch?$3\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"When you put it like that...\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"I'm with Gunnar. It's not necessarily that I don't believe you, but I don't WANT to. We have to live out here in the forest, you know?$10\"/faceDirection Nova.Eli 0/faceDirection MadDog.HashtagBearFam.Gunnar 0/speak Nova.Eli \"Such creatures are rare and I've never actually seen one for myself. Which makes me all the more interested in whatever happened here!$1#$b#I can't wait to stake the place out! Can you imagine if it was actually something like that? It's so exciting to think about!$3\"/speak Shane \"...I'd prefer it if the weatherman was wrong.$2\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"Ditto.\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+
+	{
+		"Name": "EliMysteryBeast_2",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "EliMysteryBeast_2",
+		"Value": "advancedMove MadDog.HashtagBearFam.Gunnar false 0 -1 1 10/textAboveHead MadDog.HashtagBearFam.Gunnar \"Aww!\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+
+	{
+		"Name": "EliMysteryBeast_3",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "EliMysteryBeast_3",
+		"Value": "speak MadDog.HashtagBearFam.Gunnar \"'They'? Jeez... I thought that one was bad enough.\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+
+	{
+		"Name": "EliMysteryBeast_4",
+		"Value": "speak Nova.Eli \"Yoba, the chance to see actual Fog Hounds! If only my old monster research colleagues could see me now. This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself and look for any tracks or other clues they might've left.$0#$b#And I'll come back here tonight to keep watch, just in case they come back. You guys should be able to rest easy.$1\"/emote Shane 32 true"
+	},
+	{
+		"Name": "EliMysteryBeast_4",
+		"Value": "speak Nova.Eli \"Yoba, the chance to see actual Fog Hounds! If only my old monster research colleagues could see me now. This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself with my assistant here and look for any tracks or other clues they might've left.$0#$b#And we'll come back here tonight to keep watch, just in case they come back. You guys should be able to rest easy.$1\"/emote Shane 32 true/jump MadDog.HashtagBearFam.Gunnar/pause 1000/speak MadDog.HashtagBearFam.Gunnar \"Hey, what do you mean by 'assistant'? We're supposed to be partners here, Eli!$7\"/speak Nova.Eli \"You can give yourself whatever title you want, so long as you get yer butt over here after sundown to help me out!$3\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
 		}
 	},
 
@@ -817,6 +975,28 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Dylan 6 Hearts
 
 	{
+		"Name": "DylanExpedition_BearFam1",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanExpedition_BearFam1",
+		"Value": "speak MadDog.HashtagBearFam.Gudrun? \"{{i18n:Events.DylanExpedition.Gudrun.2}}\"/speak MadDog.HashtagBearFam.Sigurd? \"{{i18n:Events.DylanExpedition.Sigurd.1}}\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
+		"Name": "DylanExpedition_BearFam2",
+		"Value": "pause 1"
+	},
+	{
+		"Name": "DylanExpedition_BearFam2",
+		"Value": "speak MadDog.HashtagBearFam.Sigurd? \"{{i18n:Events.DylanExpedition.Sigurd.2}}\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam"
+		}
+	},
+	{
 		"Name": "DylanExpedition_Rodney1",
 		"Value": "pause 1"
 	},
@@ -824,7 +1004,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_Rodney1",
 		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 30000 35 48 false true 2 0 1 0 0.01 0.01",
 		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
+			"HasMod": "TheFrenchDodo.WWWA"
 		}
 	},
 	{
@@ -835,7 +1015,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_Rodney2",
 		"Value": "playSound detector/textAboveHead Drone \"{{i18n:Events.DylanExpedition.NovaDylan.14}}\"/pause 1500/speak Nova.Dylan \"{{i18n:Events.DylanExpedition.NovaDylan.15}}\"/speak Maru \"{{i18n:Events.DylanExpedition.Maru.10}}\"/emote Drone 60/playSound detector/animate Drone false false 100 16 17 18 19 20 21 22 23 24 25 26 27 28 29 23 22 21 20 19 18 17 16/pause 1100/shake Drone 500/playSound coin/removeSprite 35 48/pause 1100/stopAnimation Drone/showFrame Drone 0",
 		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
+			"HasMod": "TheFrenchDodo.WWWA"
 		}
 	},
 
@@ -849,7 +1029,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanDream_Rodney",
 		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 6 41 11 false true 2 0 1 0 0.01 0.04 motion -3.2 0 acceleration 0 0.003",
 		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien"
+			"HasMod": "TheFrenchDodo.WWWA"
 		}
 	},
 	{
