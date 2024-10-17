@@ -248,6 +248,7 @@
 				},
 				"{{ModID}}_FarawayIslet": {
 					"DisplayName": "{{i18n:Core.Locations.FarawayIslet}}",
+					"DefaultArrivalTile": { "X": 30, "Y": 42 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_FarawayIslet" }
 				}
 			}
