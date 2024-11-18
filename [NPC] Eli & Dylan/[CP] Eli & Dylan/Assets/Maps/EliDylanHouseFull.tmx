@@ -1205,6 +1205,82 @@
     <frame tileid="456" duration="400"/>
    </animation>
   </tile>
+  <tile id="961">
+   <animation>
+    <frame tileid="961" duration="250"/>
+    <frame tileid="963" duration="250"/>
+    <frame tileid="965" duration="250"/>
+    <frame tileid="967" duration="250"/>
+    <frame tileid="969" duration="250"/>
+    <frame tileid="971" duration="250"/>
+    <frame tileid="973" duration="250"/>
+    <frame tileid="975" duration="250"/>
+    <frame tileid="977" duration="250"/>
+    <frame tileid="979" duration="250"/>
+    <frame tileid="981" duration="250"/>
+    <frame tileid="983" duration="250"/>
+    <frame tileid="985" duration="250"/>
+    <frame tileid="987" duration="250"/>
+    <frame tileid="989" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="962">
+   <animation>
+    <frame tileid="962" duration="250"/>
+    <frame tileid="964" duration="250"/>
+    <frame tileid="966" duration="250"/>
+    <frame tileid="968" duration="250"/>
+    <frame tileid="970" duration="250"/>
+    <frame tileid="972" duration="250"/>
+    <frame tileid="974" duration="250"/>
+    <frame tileid="976" duration="250"/>
+    <frame tileid="978" duration="250"/>
+    <frame tileid="980" duration="250"/>
+    <frame tileid="982" duration="250"/>
+    <frame tileid="984" duration="250"/>
+    <frame tileid="986" duration="250"/>
+    <frame tileid="988" duration="250"/>
+    <frame tileid="990" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="993">
+   <animation>
+    <frame tileid="993" duration="250"/>
+    <frame tileid="995" duration="250"/>
+    <frame tileid="997" duration="250"/>
+    <frame tileid="999" duration="250"/>
+    <frame tileid="1001" duration="250"/>
+    <frame tileid="1003" duration="250"/>
+    <frame tileid="1005" duration="250"/>
+    <frame tileid="1007" duration="250"/>
+    <frame tileid="1009" duration="250"/>
+    <frame tileid="1011" duration="250"/>
+    <frame tileid="1013" duration="250"/>
+    <frame tileid="1015" duration="250"/>
+    <frame tileid="1017" duration="250"/>
+    <frame tileid="1019" duration="250"/>
+    <frame tileid="1021" duration="250"/>
+   </animation>
+  </tile>
+  <tile id="994">
+   <animation>
+    <frame tileid="994" duration="250"/>
+    <frame tileid="996" duration="250"/>
+    <frame tileid="998" duration="250"/>
+    <frame tileid="1000" duration="250"/>
+    <frame tileid="1002" duration="250"/>
+    <frame tileid="1004" duration="250"/>
+    <frame tileid="1006" duration="250"/>
+    <frame tileid="1008" duration="250"/>
+    <frame tileid="1010" duration="250"/>
+    <frame tileid="1012" duration="250"/>
+    <frame tileid="1014" duration="250"/>
+    <frame tileid="1016" duration="250"/>
+    <frame tileid="1018" duration="250"/>
+    <frame tileid="1020" duration="250"/>
+    <frame tileid="1022" duration="250"/>
+   </animation>
+  </tile>
  </tileset>
  <tileset firstgid="11732" name="Logophile_Rugs" tilewidth="16" tileheight="16" tilecount="684" columns="18">
   <image source="Logophile_Rugs.png" width="288" height="610"/>
@@ -1651,8 +1727,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9813,9814,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9845,9846,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9877,9878,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10389,10390,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10421,10422,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9492,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

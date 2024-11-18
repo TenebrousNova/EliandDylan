@@ -116,7 +116,8 @@
         "Target": "Data/Shops",
         "TargetField": [ "EnD.MouseShop", "Items" ],
         "When": {
-          "HasMod": "Cornucopia.MoreCrops"
+          "HasMod": "Cornucopia.MoreCrops",
+          "Weather |contains=Storm": false
         },
         "Entries": {
           "EnD.MouseShop.Cornucopia.JuniperSeeds": {
@@ -140,7 +141,8 @@
         "Target": "Data/Shops",
         "TargetField": [ "EnD.MouseShop", "Items" ],
         "When": {
-          "HasMod": "TheFrenchDodo.WWWA"
+          "HasMod": "TheFrenchDodo.WWWA",
+          "Weather |contains=Storm": false
         },
         "Entries": {
           "EnD.MouseShop.Rodney": {

@@ -148,6 +148,7 @@
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"HasFlag |contains=BearFamExtraMembers": true,
 			"Query: {{Random: {{Range: 1, 20}}|key=DGunGud}} = 1": true
 		}
 	},
@@ -162,6 +163,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=TerenMysteryMail": true,
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DTer}} = 1": true
 		}
@@ -281,7 +283,10 @@
 			"Hospital_10_15": "{{i18n:Locations.NovaDylan.ClinicWaitB.{{Random:{{Range: 1, 3}}}}}}",
 			"Hospital_4_6": "{{i18n:Locations.NovaDylan.ClinicAppointment.{{Random:{{Range: 1, 3}}}}}}",
 			"EastScarp_Village_40_67": "{{i18n:Locations.NovaDylan.SpiritsEveInn.1}}",
-			"EastScarp_VillageInn_SpiritEve_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}"
+			"EastScarp_VillageInn_SpiritEve_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}",
+			"Forest_96_38": "{{i18n:Locations.NovaDylan.TroutDerby.1}}",
+			"DesertFestival_31_55": "{{i18n:Locations.NovaDylan.DesertFestival.1}}",
+			"Beach_55_22": "{{i18n:Locations.NovaDylan.SquidFest.1}}"
 		}
 	},
 	{

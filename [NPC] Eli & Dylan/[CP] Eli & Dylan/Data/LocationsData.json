@@ -403,12 +403,32 @@
 				"Width": 2,
 				"Height": 2
 			},
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"TreatAsOutdoors"
+					],
+					"Value": "T",
+					"Delimiter": " "
+				},
+				{
+					"Operation": "Append",
+					"Target": [
+						"MapProperties",
+						"BrookSounds"
+					],
+					"Value": "15 20 1",
+					"Delimiter": " "
+				}
+			],
 			"When": {
 				"Time": "{{Range: 1800, 2600}}",
 				"Season": "spring, fall, winter"
 			},
 			"PatchMode": "Replace",
-			"Update": "OnTimeChange"
+			"Update": "OnLocationChange"
 		},
 	
 		//Deep Mountains Cave
@@ -670,6 +690,49 @@
 			"HasSeenEvent |contains=EnD.Eli.01": "false"
 		},
 		"Update": "OnLocationChange"
+	},
+
+	//Makes the forest foggy for Part 2 of Eli's 6 heart event (and STOP being foggy the next day).
+
+	{
+		"LogName": "Forest Monster Fog",
+		"Action": "EditMap",
+		"Target": "Maps/Forest",
+		"FromFile": "Assets/Maps/MonsterFog.tmx",
+		"ToArea": {
+			"X": 0,
+			"Y": 0,
+			"Width": 120,
+			"Height": 120
+		},
+		"PatchMode": "Overlay",
+		"Update": "OnLocationChange",
+		"When": {
+   			"HasSeenEvent |contains=EnD.Eli.10": true,
+  			 "HasSeenEvent |contains=EnD.Eli.11": false,
+   			"HasFlag |contains=EnD.Foggy.Mailflag": true,
+			"Time": "{{Range: 2000, 2400}}"
+ 		}
+	},
+
+	{
+		"LogName": "ES Beach Campfire",
+		"Action": "EditMap",
+		"Target": "Maps/EastScarp_Village",
+		"FromFile": "Assets/Maps/ESBeachCampPatchFire.tmx",
+		"ToArea": {
+			"X": 37,
+			"Y": 106,
+			"Width": 2,
+			"Height": 2
+		},
+		"When": {
+			"DayOfWeek": "Saturday",
+			"Weather": "Sun, Wind, Snow",
+			"Time": "{{Range: 1800, 2600}}"
+		},
+		"PatchMode": "Replace",
+		"Update": "OnTimeChange"
 	},
 
 	//Makes it possible for Eli to sit on Pierre's roof for funsies.

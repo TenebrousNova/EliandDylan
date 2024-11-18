@@ -21,9 +21,10 @@
 				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1}}",
 				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2}}",
 				"EliWoods": "{{i18n:CT.NovaEli.EliWoods}}",
-				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
 				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
+				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
+				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast}}",
 				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
@@ -153,6 +154,8 @@
 				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods}}",
 				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
+				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
+				"EliMysteryBeast": "",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
@@ -332,6 +335,7 @@
 				//Eli Topics
 
 				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
+				"EliMysteryBeast": "",
 				"EliLateHangout": "{{i18n:EliLateHangout}}",
 
 				//Dylan Topics
@@ -341,6 +345,18 @@
 				//Other Topics
 
 				"EnDJojaBreak": "{{i18n:CT.Shane.EnDJojaBreak}}"
+			}
+		},
+
+		{
+			"LogName": "Marnie",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliMysteryBeast": ""
 			}
 		},
 
@@ -578,6 +594,13 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
+
+				//Eli Topics
+
+				"EliMysteryBeast": "",
+
+				//Dylan Topics
+
 				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary}}",
 				"DylanLesson": "{{i18n:CT.Jas.DylanLesson}}"
 			}

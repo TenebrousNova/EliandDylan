@@ -4,8 +4,10 @@
   <export target="MushroomCave.tmx" format="tmx"/>
  </editorsettings>
  <properties>
+  <property name="BrookSounds" value="19 35 0"/>
   <property name="ForceSpawnForageables" value="T"/>
   <property name="Music" value="junimoKart_mushroomMusic"/>
+  <property name="TreatAsOutdoors" value="T"/>
   <property name="Warp" value="22 19 TenebrousNova.EliDylan.CP_EDMountainCave 26 13"/>
   <property name="indoorWater" value="T"/>
  </properties>

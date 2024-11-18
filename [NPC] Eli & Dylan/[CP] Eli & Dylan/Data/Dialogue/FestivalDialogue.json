@@ -162,6 +162,20 @@ debug festival winter25 - Winter Star
 		}
 	},
 
+	//Ember of Resolutions
+
+	{
+		"LogName": "Ember of Resolutions",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
+		"Entries": {
+
+			"Nova.Eli": "{{i18n:Core.NovaEli.EmberOfResolutionsDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.EmberOfResolutionsDialogue}}"
+		}
+	},
+
 	{
 		"LogName": "Fireworks Festival",
 		"Action": "EditData",

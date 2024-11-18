@@ -226,12 +226,12 @@ debug festival winter25 - Winter Star
 			{
 				"Operation": "Append",
 				"Target": [ "Fields", "set-up", 5],
-				"Value": "/addTemporaryActor Thistle 32 32 48 11 3 false Character"
+				"Value": "/addTemporaryActor Thistle 32 32 49 11 3 false Character"
 			},
 			{
 				"Operation": "Append",
 				"Target": [ "Fields", "set-up_y2", 5],
-				"Value": "/addTemporaryActor Thistle 32 32 48 11 3 false Character"
+				"Value": "/addTemporaryActor Thistle 32 32 49 11 3 false Character"
 			}
 		]
 	},
@@ -653,6 +653,26 @@ debug festival winter25 - Winter Star
 				"Operation": "Append",
 				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
 				"Value": "Nova.Eli 88 43 3/Nova.Dylan 88 44 3",
+				"Delimiter": "/"
+			}
+		]
+	},
+	{
+		"LogName": "Ember of Resolutions",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+				"Value": "Nova.Eli 53 53 3/Nova.Dylan 52 53 1",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+				"Value": "Nova.Eli 26 48 1/Nova.Dylan 26 49 1",
 				"Delimiter": "/"
 			}
 		]

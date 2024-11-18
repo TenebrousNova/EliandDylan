@@ -41,23 +41,6 @@
         }
       },
 
-      //Mouse sends shop invite after receiving any of this mod's seeds from mail.
-
-      {
-        "LogName": "Mouse Shop Letter",
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-          "TenebrousNova.EnD_MouseShopInvite": {
-            "Id": "TenebrousNova.EnD_MouseShopInvite",
-            "Trigger": "DayStarted",
-            "Condition": "Any \"PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Received\" \"PLAYER_HAS_MAIL Current EliLetter2 Received\" \"PLAYER_HAS_MAIL Current DylanGift Received\"",
-            "Action": "AddMail Current MouseLetter Now",
-            "MarkActionApplied": true
-          }
-        } 
-      },
-
       //Sends the Dragon Eye seeds after seeing Dylan's 4 heart event.
 
       {
@@ -102,23 +85,40 @@
             "Id": "EnD.OnSeenEli4Hearts",
             "Trigger": "DayStarted",
             "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1250, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.05, !PLAYER_HAS_CONVERSATION_TOPIC Current EliWoods",
-            "Action": "AddMail Current EliCaveInvite Now"
+            "Action": "AddMail Current EliWarpPrototype Now"
           }
         }
       },
 
       {
-        "LogName": "Trigger Action - 8 Hearts",
+        "LogName": "Trigger Action - 6 Hearts",
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
           "EnD.OnSeenEli5Hearts": {
-            "Id": "EnD.OnSeenEli6Hearts",
+            "Id": "EnD.OnSeenEli5Hearts",
             "Trigger": "DayStarted",
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 2000, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.06, !PLAYER_HAS_CONVERSATION_TOPIC Current EliMushroomCave",
-            "Action": "AddMail Current EliWarpPrototype Now"
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1500, PLAYER_HAS_SEEN_EVENT Current EnD.Eli.09, !PLAYER_HAS_CONVERSATION_TOPIC Current JunimoKingIntro",
+            "Action": "AddMail Current EliCaveInvite Now"
           }
         }
+      },
+
+      //Mouse sends shop invite after receiving any of this mod's seeds from mail.
+
+      {
+        "LogName": "Mouse Shop Letter",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "TenebrousNova.EnD_MouseShopInvite": {
+            "Id": "TenebrousNova.EnD_MouseShopInvite",
+            "Trigger": "DayStarted",
+            "Condition": "Any \"PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Received\" \"PLAYER_HAS_MAIL Current EliLetter2 Received\" \"PLAYER_HAS_MAIL Current DylanGift Received\"",
+            "Action": "AddMail Current MouseLetter Now",
+            "MarkActionApplied": true
+          }
+        } 
       }
     ]
   }

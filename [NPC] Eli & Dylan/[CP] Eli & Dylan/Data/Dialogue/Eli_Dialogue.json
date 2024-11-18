@@ -139,7 +139,7 @@
 		},
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			"HasFlag": "BearFamExtraMembers",
+			"HasFlag |contains=BearFamExtraMembers": true,
 			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=EGunGud}} = 1": true
 		}
@@ -156,6 +156,7 @@
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
 			"HasSeenEvent": "MadDog.BearFam.16199000",
+			"HasFlag |contains=TerenMysteryMail": true,
 			"HasFlag |contains=EliTerenRHActive": false,
 			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=ETerP}} = 1": true
@@ -376,7 +377,10 @@
 			"EastScarp_VillageInn_SpiritEve_26_27": "{{i18n:Locations.NovaEli.SpiritsEveInn.2}}",
 			"EastScarp_VillageInn_44_33": "{{i18n:Locations.NovaEli.Unconscious.{{Random:{{Range: 1, 3}}}}}}",
 			"Forest_35_26": "{{i18n:Locations.NovaEli.LateNightRain}}",
-			"Forest_92_20": "{{i18n:Locations.NovaEli.RanchFence.{{Random:{{Range: 1, 3}}}}}}"
+			"Forest_92_20": "{{i18n:Locations.NovaEli.RanchFence.{{Random:{{Range: 1, 3}}}}}}",
+			"Forest_97_38": "{{i18n:Locations.NovaEli.TroutDerby.1}}",
+			"DesertFestival_30_56": "{{i18n:Locations.NovaEli.DesertFestival.1}}",
+			"Beach_50_21": "{{i18n:Locations.NovaEli.SquidFest.1}}"
 		}
 	},
 

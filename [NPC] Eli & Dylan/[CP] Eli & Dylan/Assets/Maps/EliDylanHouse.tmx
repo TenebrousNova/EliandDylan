@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="55">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="66">
  <properties>
   <property name="DayTiles" value="Front 4 1 2363 Front 5 1 2364 Front 4 2 2388 Front 5 2 2389 Front 14 1 2363 Front 15 1 2364 Front 14 2 2388 Front 15 2 2389 Front 6 17 1678 Front 6 18 1710 Front 9 11 826 Front 19 11 826 Front 8 7 1449 Front 8 8 1481 Front 18 6 1449 Front 18 7 1481 Front 23 24 1449 Front 23 25 1481"/>
   <property name="Doors" value="4 12 1 120 14 12 1 120"/>
@@ -8,6 +8,11 @@
  </properties>
  <tileset firstgid="1" name="1" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
+  <tile id="649">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
@@ -1023,7 +1028,7 @@
 1,4998,421,422,521,7399,644,645,5000,1,1,4998,7328,7329,519,520,357,358,5000,1,0,0,0,0,0,0,0,0,0,0,
 1,496,0,0,0,0,0,0,6717,1,1,9482,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
 1,0,323,324,0,0,0,0,6749,1,1,9514,0,0,0,0,321,322,0,1,0,0,0,0,0,0,0,0,0,0,
-1,0,9531,9532,0,0,0,2147490175,2147490174,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
+1,650,9531,9532,0,0,0,2147490175,2147490174,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
 1,0,0,0,0,0,0,2147490207,2147490206,1,1,6717,0,0,0,0,0,0,7493,1,0,0,0,0,0,0,0,0,0,0,
 1,9460,0,0,0,0,0,0,7493,1,1,6749,0,496,0,0,0,2147489956,2147489955,1,0,0,0,0,0,0,0,0,0,0,
 0,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,9453,1,1,1,0,0,
@@ -1271,6 +1276,11 @@
   <object id="54" name="TileData" x="416" y="224" width="16" height="16">
    <properties>
     <property name="OpenShop" value="EnD.MouseShop none 600 2600"/>
+   </properties>
+  </object>
+  <object id="65" name="TileData" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Letter EliJojaLetter"/>
    </properties>
   </object>
  </objectgroup>

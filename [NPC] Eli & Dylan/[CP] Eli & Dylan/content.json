@@ -43,7 +43,7 @@ ConcernedApe: Making the game that I've been obsessed with for so long!
 And a special thanks to the rest of the gang on the East Scarp and Krobus Discord servers. Without your support, this dumb mod wouldn't have been possible. Love you all!*/
 
 {
-   "Format": "2.0.2",
+   "Format": "2.3.0",
    "Changes": [
 
 	//Portraits & Sprites
@@ -630,6 +630,20 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
+	//Eli 2 Hearts
+
+	{
+		"Name": "EliSaloon_Gunnar",
+		"Value": ""
+	},
+	{
+		"Name": "EliSaloon_Gunnar",
+		"Value": "MadDog.HashtagBearFam.Gunnar? 15 20 2",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+
 	//Eli 3 Hearts Part 1
 
 	{
@@ -645,7 +659,19 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 
 	/*Eli 3 Hearts Part 2
-	The suffering I went through to make and especially to TEST this hilariously overengineered event in particular was immense. So many moving parts. But I have no regrets.*/
+	The suffering I went through to make and especially to TEST this hilariously overengineered event in particular was great. So many moving parts. But I have no regrets.*/
+
+	{
+		"Name": "EliJunimo2_Bears",
+		"Value": "MadDog.HashtagBearFam.Sigurd? 31 68 3 MadDog.HashtagBearFam.Sondra? 31 69 3"
+	},
+	{
+		"Name": "EliSaloon_Gunnar",
+		"Value": "MadDog.HashtagBearFam.Sigurd? 31 68 3 MadDog.HashtagBearFam.Gudrun? 46 69 2 MadDog.HashtagBearFam.Gunnar? 45 69 2 MadDog.HashtagBearFam.Sondra? 47 70 3",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
 
 	{
 		"Name": "EliJunimo2_Maximum",
@@ -706,13 +732,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliJunimo2_Juliet",
 		"Value": "faceDirection Rosa 3/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.1}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.20}}\"/advancedMove Nova.Eli false 2 0 0 1 2 0 0 -1 3 0 0 -1 4 10/pause 1000/faceDirection Rosa 1/textAboveHead Rosa \"{{i18n:Events.EliJunimo2.Rosa.2}}\" true/waitForAllStationary/pause 250/playSound doorClose/warp Nova.Eli 999 999/globalFade/viewport -1000 -1000/pause 250/playSound potterySmash/faceDirection MadDog.HashtagBearFam.Gunnar? 3/emote MadDog.HashtagBearFam.Gunnar? 8 true/pause 500/faceDirection MadDog.HashtagBearFam.Gunnar? 2 true/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.3}}\"/playSound junimoMeep1"
 	},
-	{
-		"Name": "EliJunimo2_Juliet",
-		"Value": "faceDirection Rosa 3/faceDirection Juliet 3/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.1}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.20.2}}\"/advancedMove Nova.Eli false 2 0 0 1 2 0 0 -1 3 0 0 -1 4 10/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/showFrame Juliet 9/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/showFrame Juliet 10/pause 1000/faceDirection Rosa 1/faceDirection Juliet 1/pause 500/textAboveHead Rosa \"{{i18n:Events.EliJunimo2.Rosa.2}}\" true/waitForAllStationary/pause 250/playSound doorClose/warp Nova.Eli 999 999/pause 250/playSound potterySmash/faceDirection MadDog.HashtagBearFam.Gunnar? 3/emote MadDog.HashtagBearFam.Gunnar? 8 true/pause 500/faceDirection MadDog.HashtagBearFam.Gunnar? 2 true/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.3}}\"/faceDirection Juliet 0/speak Juliet \"{{i18n:Events.EliJunimo2.Juliet.1}}\"/faceDirection Rosa 2/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.4}}\"/emote Juliet 32 false/globalFade/viewport -1000 -1000/playSound junimoMeep1",
-		"When": {
-			"HasMod": "LemurKat.JulietHouse.NPC"
-		}
-	},
+
 	/*Eli 4 Hearts
 
 	If SVE is installed, the compat map is loaded instead in order to avoid breaking stuff. Also adds Sen to the event if he's installed! If you don't have Sen installed, stop reading my code and download him immediately.*/
@@ -810,17 +830,34 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
+	//Eli 5 Hearts Part 1
+
+	{
+		"Name": "Eli_OldWoods.1",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliPrototype.NovaEli.11.A}}\""
+	},
+	{
+		"Name": "Eli_OldWoods.1",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliPrototype.NovaEli.11.B}}\"",
+		"When": {
+			"HasMod": "7thAxis.DitR, 7thAxis.DitR.CP, 7thAxis.LitD.CP",
+			"Relationship:SenS |contains=Unmet": false
+		}
+	},
+
 	//Eli 6 Hearts Part 1
+	//Gunnar plays a role if BearFam is installed (you'd better have them installed!).
 
 	{
 		"Name": "EliMysteryBeast_1",
-		"Value": "emote Nova.Eli 16/speak Nova.Eli \"Interesting! There wasn't any fog in yesterday's forecast. So either the weatherman was wrong, or our mysterious beast had something to do with it.$11\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"You're saying that there's monsters out there that can call fog? Out here in the forest, that's the last thing I want to hear!$10\"/speak Nova.Eli \"Such creatures are rare and I've never actually seen one for myself. Which makes me all the more interested in whatever happened here!$1#$b#I can't wait to stake the place out! Can you imagine if it was actually something like that? It's so exciting to think about!$3\"/speak Shane \"...I'd prefer it if the weatherman was wrong.$2\""
+		"Value": "emote Nova.Eli 16/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.2}}\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"{{i18n:Events.EliMysteryBeast.Shane.4.A.1}}\"/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.4}}\"/speak Shane \"{{i18n:Events.EliMysteryBeast.Shane.5}}\""
 	},
 	{
 		"Name": "EliMysteryBeast_1",
-		"Value": "emote Nova.Eli 16/speak Nova.Eli \"Interesting! There wasn't any fog in yesterday's forecast. So either the weatherman was wrong, or our mysterious beast had something to do with it.$11\"/faceDirection MadDog.HashtagBearFam.Gunnar 1/speak MadDog.HashtagBearFam.Gunnar \"Wait, are there actually monsters that can control the weather? How does that even work?$2\"/faceDirection Nova.Eli 3/speak Nova.Eli \"C'mon mate, I've watched you fight actual ghosts and levitating monsters that spit fireballs. Is a creature that can summon fog that big of a stretch?$3\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"When you put it like that...\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"I'm with Gunnar. It's not necessarily that I don't believe you, but I don't WANT to. We have to live out here in the forest, you know?$10\"/faceDirection Nova.Eli 0/faceDirection MadDog.HashtagBearFam.Gunnar 0/speak Nova.Eli \"Such creatures are rare and I've never actually seen one for myself. Which makes me all the more interested in whatever happened here!$1#$b#I can't wait to stake the place out! Can you imagine if it was actually something like that? It's so exciting to think about!$3\"/speak Shane \"...I'd prefer it if the weatherman was wrong.$2\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"Ditto.\"",
+		"Value": "emote Nova.Eli 16/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.2}}\"/faceDirection MadDog.HashtagBearFam.Gunnar 1/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.1}}\"/faceDirection Nova.Eli 3/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.3}}\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.2}}\"/emote Shane 16 true/jump Shane/pause 1000/speak Shane \"{{i18n:Events.EliMysteryBeast.Shane.4.B.1}}\"/faceDirection Nova.Eli 0/faceDirection MadDog.HashtagBearFam.Gunnar 0/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.4}}\"/speak Shane \"{{i18n:Events.EliMysteryBeast.Shane.5}}\"/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.3}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 
@@ -830,9 +867,10 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliMysteryBeast_2",
-		"Value": "advancedMove MadDog.HashtagBearFam.Gunnar false 0 -1 1 10/textAboveHead MadDog.HashtagBearFam.Gunnar \"Aww!\"",
+		"Value": "advancedMove MadDog.HashtagBearFam.Gunnar false 0 -1 1 10/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.4}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 
@@ -842,27 +880,89 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliMysteryBeast_3",
-		"Value": "speak MadDog.HashtagBearFam.Gunnar \"'They'? Jeez... I thought that one was bad enough.\"",
+		"Value": "speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.5}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 
 	{
 		"Name": "EliMysteryBeast_4",
-		"Value": "speak Nova.Eli \"Yoba, the chance to see actual Fog Hounds! If only my old monster research colleagues could see me now. This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself and look for any tracks or other clues they might've left.$0#$b#And I'll come back here tonight to keep watch, just in case they come back. You guys should be able to rest easy.$1\"/emote Shane 32 true"
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.8.A.1}}\"/emote Shane 32 true"
 	},
 	{
 		"Name": "EliMysteryBeast_4",
-		"Value": "speak Nova.Eli \"Yoba, the chance to see actual Fog Hounds! If only my old monster research colleagues could see me now. This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself with my assistant here and look for any tracks or other clues they might've left.$0#$b#And we'll come back here tonight to keep watch, just in case they come back. You guys should be able to rest easy.$1\"/emote Shane 32 true/jump MadDog.HashtagBearFam.Gunnar/pause 1000/speak MadDog.HashtagBearFam.Gunnar \"Hey, what do you mean by 'assistant'? We're supposed to be partners here, Eli!$7\"/speak Nova.Eli \"You can give yourself whatever title you want, so long as you get yer butt over here after sundown to help me out!$3\"",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.8.B.1}}\"/emote Shane 32 true/jump MadDog.HashtagBearFam.Gunnar/pause 1000/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliMysteryBeast.Gunnar.6}}\"/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.8.B.2}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliMysteryBeast_5",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.10.A.1}}\""
+	},
+	{
+		"Name": "EliMysteryBeast_5",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.10.B.1}}\"/speak Shane \"{{i18n:Events.EliMysteryBeast.Shane.9}}\"/speak Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.10.B.2}}\"",
+		"When": {
+			"HasMod": "FlashShifter.StardewValleyExpandedCP"
+		}
+	},
+	{
+		"Name": "EliMysteryBeast_6",
+		"Value": "advancedMove Nova.Eli false 1 0 0 1 1 10/pause 100/advancedMove farmer false 0 1 2 0 1 10"
+	},
+	{
+		"Name": "EliMysteryBeast_6",
+		"Value": "advancedMove Nova.Eli false 1 0 0 1 1 10/pause 100/advancedMove farmer false 0 1 2 0 1 10/textAboveHead Nova.Eli \"{{i18n:Events.EliMysteryBeast.NovaEli.11}}\"/pause 100/advancedMove MadDog.HashtagBearFam.Gunnar false 3 0 0 1 1 0 1 10/emote MadDog.HashtagBearFam.Gunnar 32",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+
+	//Eli 6 Hearts Part 2
+
+	{
+		"Name": "EliFogHounds_1",
+		"Value": "textAboveHead Nova.Eli \"Seems quiet enough... where are they?\"/waitForAllStationary/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/speak Nova.Eli \"@! Glad you managed to find your way through this fog. I was getting a little nervous on my own.$12\"/emote farmer 32/speak Nova.Eli \"I was already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9\"/emote farmer 32/speak Nova.Eli \"So I've been looking for information on fog hounds and can't find as much as I'd like.$2#$b#They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11\"/emote farmer 40/speak Nova.Eli \"That's right! If we can somehow clear the fog, they should be vulnerable.$3#$b#Just remember, we're not trying to kill the beasts. This is a valuable research opportunity for me.$1\""
+	},
+	{
+		"Name": "EliFogHounds_1",
+		"Value": "textAboveHead Nova.Eli \"Seems quiet enough... where are they?\"/waitForAllStationary/textAboveHead MadDog.HashtagBearFam.Gunnar \"Who goes there??\"/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/pause 1000/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/advancedMove MadDog.HashtagBearFam.Gunnar false 0 1 4 10/speak Nova.Eli \"@! Glad you managed to find your way through this fog. Gun and I are getting a little jumpy out here.$12\"/emote farmer 32/speak Nova.Eli \"We were already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9\"/emote farmer 32/emote MadDog.HashtagBearFam.Gunnar 8 true/speak MadDog.HashtagBearFam.Gunnar \"Hang on, Eli. I couldn't find much information on fog hounds. Do they have weaknesses?$2\"/speak Nova.Eli \"They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11\"/speak MadDog.HashtagBearFam.Gunnar \"So, clear the fog somehow and they're vulnerable? Hm... what about that explosive potion you got from me?$0\"/speak Nova.Eli \"In my bag with my glow ring! Yeah, that could work. Just remember, we're not trying to kill the beasts.$1#$b#This is a valuable research opportunity for me, after all.$3\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			//"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_2",
+		"Value": "emote Nova.Eli 16 true/emote farmer 16 true/advancedMove farmer false 0 0 2 1000 0 0 4 1000 0 0 3 10/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1"
+	},
+	{
+		"Name": "EliFogHounds_2",
+		"Value": "emote Nova.Eli 16 true/emote farmer 16 true/emote MadDog.HashtagBearFam.Gunnar 16 true/faceDirection MadDog.HashtagBearFam.Gunnar 2/jump MadDog.HashtagBearFam.Gunnar/advancedMove farmer false 0 0 2 1000 0 0 4 1000 0 0 3 10/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/advancedMove MadDog.HashtagBearFam.Gunnar false 0 0 3 1000 0 0 1 1000 0 0 4 10/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			//"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_3",
+		"Value": "speak Nova.Eli \"Sounds like they're coming. Get ready, @! Marnie's animals aren't getting devoured on our watch.$9\"/jump farmer/pause 1000/jump farmer"
+	},
+	{
+		"Name": "EliFogHounds_3",
+		"Value": "speak Nova.Eli \"Sounds like they're coming. Get ready, people! Marnie's animals aren't getting devoured on our watch.$9\"/jump farmer/jump MadDog.HashtagBearFam.Gunnar/textAboveHead MadDog.HashtagBearFam.Gunnar \"We've got this!\"/pause 1000/jump farmer",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			//"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 
 	//Eli Bonus 4
-
-	//Gunnar plays a role if BearFam is installed (you'd better have them installed!).
 
 	{
 		"Name": "EliClothes_IntroConversation",

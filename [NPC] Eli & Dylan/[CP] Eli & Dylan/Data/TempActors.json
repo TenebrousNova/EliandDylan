@@ -175,34 +175,45 @@
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDBrownCow",
-		"FromFile": "Assets/Images/EnDBrownCow.png"
+		"Target": "Characters/EliBag",
+		"FromFile": "Assets/Images/EliBag.png"
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDWhiteCow",
-		"FromFile": "Assets/Images/EnDWhiteCow.png"
+		"Target": "Characters/FogHound1_Mist",
+		"FromFile": "Assets/Images/Foghound_Mist.png"
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDBabyWhiteCow",
-		"FromFile": "Assets/Images/EnDBabyWhiteCow.png"
+		"Target": "Characters/FogHound2_Mist",
+		"FromFile": "Assets/Images/Foghound_Mist.png"
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDWhiteChicken",
-		"FromFile": "Assets/Images/EnDWhiteChicken.png"
+		"Target": "Characters/FogHound3_Mist",
+		"FromFile": "Assets/Images/Foghound_Mist.png"
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDBrownChicken",
-		"FromFile": "Assets/Images/EnDBrownChicken.png"
+		"Target": "Characters/FogHound1",
+		"FromFile": "Assets/Images/Foghound_NoMist.png"
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnDBrownChick",
-		"FromFile": "Assets/Images/EnDBrownChick.png"
+		"Target": "Characters/FogHound2",
+		"FromFile": "Assets/Images/Foghound_NoMist.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound3",
+		"FromFile": "Assets/Images/Foghound_NoMist.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/FogHound1_Mist",
+		"FromFile": "Assets/Images/FoghoundPortrait.png"
+	},
+	
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events
 
@@ -236,6 +247,12 @@
 		"Action": "Load",
 		"Target": "EliDylan/Plants",
 		"FromFile": "Assets/Images/Plants.png"
+	},
+	{
+		"LogName": "Forest Monster Fog",
+		"Action": "Load",
+		"Target": "EliDylan/ForestMonsterFog",
+		"FromFile": "Assets/Images/ForestMonsterFog.png"
 	},
 	{
 		"LogName": "Critters",
