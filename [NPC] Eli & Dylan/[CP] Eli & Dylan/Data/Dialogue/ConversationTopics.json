@@ -155,7 +155,7 @@
 				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
 				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
-				"EliMysteryBeast": "",
+				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast}}",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
@@ -335,7 +335,7 @@
 				//Eli Topics
 
 				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
-				"EliMysteryBeast": "",
+				"EliMysteryBeast": "{{i18n:CT.Shane.EliMysteryBeast}}",
 				"EliLateHangout": "{{i18n:EliLateHangout}}",
 
 				//Dylan Topics
@@ -356,7 +356,7 @@
 
 				//Eli Topics
 
-				"EliMysteryBeast": ""
+				"EliMysteryBeast": "{{i18n:CT.Marnie.EliMysteryBeast}}"
 			}
 		},
 
@@ -398,7 +398,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}"
+				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
+				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}"
 			}
 		},
 
@@ -467,6 +468,7 @@
 				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
 				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
 				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
+				"EliMysteryBeast": "{{i18n:CT.Leah.EliMysteryBeast}}",
 
 				//Dylan Topics
 
@@ -597,7 +599,7 @@
 
 				//Eli Topics
 
-				"EliMysteryBeast": "",
+				"EliMysteryBeast": "{{i18n:CT.Jas.EliMysteryBeast}}",
 
 				//Dylan Topics
 
@@ -616,7 +618,7 @@
 		},
 
 		{
-			"LogName": "Conversation Topics - Marlon Vanilla",
+			"LogName": "Marlon Vanilla",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marlon",
 			"Entries":
@@ -634,11 +636,11 @@
 				  }	
 		},
 		
-			{
-				"LogName": "Conversation Topics - Marlon SVE",
-				"Action": "EditData",
-				"Target": "Characters/Dialogue/MarlonFey",
-				"Entries":
+		{
+			"LogName": "Marlon SVE",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarlonFey",
+			"Entries":
 				{
 					//Eli Topics
 
@@ -651,6 +653,20 @@
 				"When": {
 					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 				  }	
+		},
+
+		{
+			"LogName": "Andy",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Andy",
+			"Entries": {
+				//Eli Topics
+
+				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast}}"
+			},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 			}
+		}
 	]
 }

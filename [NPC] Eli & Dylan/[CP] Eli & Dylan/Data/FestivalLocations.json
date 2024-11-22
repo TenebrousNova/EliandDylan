@@ -579,7 +579,7 @@ debug festival winter25 - Winter Star
 		{
 			"Operation": "Append",
 			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
-			"Value": "Nova.Eli 47 57 2/Nova.Dylan 45 57 2",
+			"Value": "Nova.Eli 48 57 2/Nova.Dylan 45 57 2",
 			"Delimiter": "/"
 		},
 		{
@@ -599,7 +599,7 @@ debug festival winter25 - Winter Star
 		{
 			"Operation": "Append",
 			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
-			"Value": "Nova.Eli 49 57 2/Nova.Dylan 46 57 2",
+			"Value": "Nova.Eli 47 57 2/Nova.Dylan 46 57 2",
 			"Delimiter": "/"
 		},
 		{

@@ -845,7 +845,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
-	//Eli 6 Hearts Part 1
+	//Eli 8 Hearts Part 1
 	//Gunnar plays a role if BearFam is installed (you'd better have them installed!).
 
 	{
@@ -923,42 +923,66 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
-	//Eli 6 Hearts Part 2
+	//Eli 8 Hearts Part 2
 
 	{
 		"Name": "EliFogHounds_1",
-		"Value": "textAboveHead Nova.Eli \"Seems quiet enough... where are they?\"/waitForAllStationary/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/speak Nova.Eli \"@! Glad you managed to find your way through this fog. I was getting a little nervous on my own.$12\"/emote farmer 32/speak Nova.Eli \"I was already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9\"/emote farmer 32/speak Nova.Eli \"So I've been looking for information on fog hounds and can't find as much as I'd like.$2#$b#They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11\"/emote farmer 40/speak Nova.Eli \"That's right! If we can somehow clear the fog, they should be vulnerable.$3#$b#Just remember, we're not trying to kill the beasts. This is a valuable research opportunity for me.$1\""
+		"Value": "textAboveHead Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.1}}\"/waitForAllStationary/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.2.A}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.3.A}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.4.A}}\"/emote farmer 40/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.5.A}}\""
 	},
 	{
 		"Name": "EliFogHounds_1",
-		"Value": "textAboveHead Nova.Eli \"Seems quiet enough... where are they?\"/waitForAllStationary/textAboveHead MadDog.HashtagBearFam.Gunnar \"Who goes there??\"/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/pause 1000/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/advancedMove MadDog.HashtagBearFam.Gunnar false 0 1 4 10/speak Nova.Eli \"@! Glad you managed to find your way through this fog. Gun and I are getting a little jumpy out here.$12\"/emote farmer 32/speak Nova.Eli \"We were already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9\"/emote farmer 32/emote MadDog.HashtagBearFam.Gunnar 8 true/speak MadDog.HashtagBearFam.Gunnar \"Hang on, Eli. I couldn't find much information on fog hounds. Do they have weaknesses?$2\"/speak Nova.Eli \"They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11\"/speak MadDog.HashtagBearFam.Gunnar \"So, clear the fog somehow and they're vulnerable? Hm... what about that explosive potion you got from me?$0\"/speak Nova.Eli \"In my bag with my glow ring! Yeah, that could work. Just remember, we're not trying to kill the beasts.$1#$b#This is a valuable research opportunity for me, after all.$3\"",
+		"Value": "textAboveHead Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.1}}\"/waitForAllStationary/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.1}}\"/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/pause 1000/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/advancedMove MadDog.HashtagBearFam.Gunnar false 0 1 4 10/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.2.B}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.3.B}}\"/emote farmer 32/emote MadDog.HashtagBearFam.Gunnar 8 true/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.2}}\"/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.4.B}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.3}}\"/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.5.B}}\"",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			//"HasFlag |contains=BearFamExtraMembers": true
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 	{
 		"Name": "EliFogHounds_2",
-		"Value": "emote Nova.Eli 16 true/emote farmer 16 true/advancedMove farmer false 0 0 2 1000 0 0 4 1000 0 0 3 10/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1"
+		"Value": "stopAdvancedMoves/speed farmer 2/emote Nova.Eli 16 true/emote farmer 16 true/advancedMove farmer false 0 0 2 1000 0 0 1 1000 0 0 3 1000/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1"
 	},
 	{
 		"Name": "EliFogHounds_2",
-		"Value": "emote Nova.Eli 16 true/emote farmer 16 true/emote MadDog.HashtagBearFam.Gunnar 16 true/faceDirection MadDog.HashtagBearFam.Gunnar 2/jump MadDog.HashtagBearFam.Gunnar/advancedMove farmer false 0 0 2 1000 0 0 4 1000 0 0 3 10/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/advancedMove MadDog.HashtagBearFam.Gunnar false 0 0 3 1000 0 0 1 1000 0 0 4 10/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1",
+		"Value": "stopAdvancedMoves/speed farmer 2/emote Nova.Eli 16 true/emote farmer 16 true/emote MadDog.HashtagBearFam.Gunnar 16 true/faceDirection MadDog.HashtagBearFam.Gunnar 2/jump MadDog.HashtagBearFam.Gunnar/advancedMove farmer false 0 0 2 1000 0 0 1 1000 0 0 3 1000/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/advancedMove MadDog.HashtagBearFam.Gunnar false 0 0 3 1000 0 0 1 1000 0 0 4 10/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			//"HasFlag |contains=BearFamExtraMembers": true
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 	{
 		"Name": "EliFogHounds_3",
-		"Value": "speak Nova.Eli \"Sounds like they're coming. Get ready, @! Marnie's animals aren't getting devoured on our watch.$9\"/jump farmer/pause 1000/jump farmer"
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.6}}\"/jump farmer/pause 1000/jump farmer"
 	},
 	{
 		"Name": "EliFogHounds_3",
-		"Value": "speak Nova.Eli \"Sounds like they're coming. Get ready, people! Marnie's animals aren't getting devoured on our watch.$9\"/jump farmer/jump MadDog.HashtagBearFam.Gunnar/textAboveHead MadDog.HashtagBearFam.Gunnar \"We've got this!\"/pause 1000/jump farmer",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.6}}\"/jump farmer/jump MadDog.HashtagBearFam.Gunnar/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.4}}\"/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 -1 -1 0 2 10/jump farmer",
 		"When": {
 			"HasMod": "MadDog.HashtagBearFam",
-			//"HasFlag |contains=BearFamExtraMembers": true
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_4",
+		"Value": "quickQuestion {{i18n:Events.EliFogHounds.Question.1.A}}#{{i18n:Events.EliFogHounds.Question.1.Answer.1.A}}(break)switchEvent EnD.Eli.11.GlowRing"
+	},
+	{
+		"Name": "EliFogHounds_4",
+		"Value": "quickQuestion {{i18n:Events.EliFogHounds.Question.1.B}}#{{i18n:Events.EliFogHounds.Question.1.Answer.1.B}}#{{i18n:Events.EliFogHounds.Question.1.Answer.2}}(break)switchEvent EnD.Eli.11.GlowRing(break)switchEvent EnD.Eli.11.Potion",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_5",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.16.A}}\""
+	},
+	{
+		"Name": "EliFogHounds_5",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.16.A}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.10}}\"/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.16.B}}\"",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 

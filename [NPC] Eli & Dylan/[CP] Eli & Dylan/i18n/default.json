@@ -1706,10 +1706,10 @@ SIGURD/SONDRA*/
 "CT.NovaEli.EliJunimo1": "This purple Junimo appeared in front of me earlier. It was just for a few seconds but I know what I saw.$11#$b#Leah and Sebastian were there but they definitely couldn't see it...$2#$b#I won't lie to you; I feel like I'm getting trolled by a forest spirit.$10",
 "CT.NovaEli.EliJunimo2": "That same purple Junimo was following me around in public. It's hard to investigate when concerned neighbours keep asking why you're talking to something invisible.$10#$b#I'm not sure why the little guy keeps following me in particular. But I'm going to find out.$1",
 "CT.NovaEli.EliWoods": "I know that the other night must've seemed... weird to you, but I'd appreciate it if you didn't tell anyone about the things you saw.$0#$b#Our mutual friend could get in serious trouble if the wrong person found out. Maybe me as well.$2",
+"CT.NovaEli.EliOldWoods": "I'm still wondering what went wrong with my warp totem design. I know it was experimental, but it's not like me to make mistakes with them.$2#$b#Maybe it's a good thing that happened, though. I need to poke around some more in that clearing...$9",
 "CT.NovaEli.JunimoKingIntro": "I've seen some truly outlandish things before. CAUSED some of them, even. But what we saw was in a league of its own.$3#$b#A gestalt entity made from several forest spirits! I've read all the Junimo folklore I can get my hands on. There's NOTHING like that there.$1#$b#And best of all, they want to be friends with us! Can you imagine the things they could tell us? @, I'm so excited!!$3",
 "CT.NovaEli.EliMushroomCave": "Alright, @? I enjoyed our trip to the cave! Demetrius was really excited when I told him all about it.$1#$b#I'm feeling much better now, although I didn't appreciate being poked and prodded by Harvey later. At one point Maru told me to 'stop being such a big baby'.$10#$b#Dunno what she's talking about!$8",
 "CT.NovaEli.EliMysteryBeast": "We found quite a few claw marks around Marnie's barn, but otherwise our mysterious monsters left no trace of their visit. No tracks or bits of fur.$11#$b#I really hope my guess about the culprits is right, because I'm gonna look a right idiot if they turn out to be ordinary predators.$10",
-"CT.NovaEli.EliOldWoods": "I'm still wondering what went wrong with my warp totem design. I know it was experimental, but it's not like me to make mistakes with them.$2#$b#Maybe it's a good thing that happened, though. I need to poke around some more in that clearing...$9",
 "CT.NovaEli.EliGuild": "I somehow let Abigail rope me into sword fighting practice with her. She's actually not bad at all as it happens.$1#$b#Hm? Of course I won! Pretty decisively, too. As if Abigail could beat me.$9#$b#%Eli walks away with a slight limp.",
 "CT.NovaEli.EliGuestRoom": "How're you holding up? I hope the guest room didn't mentally scar you, @. You LOOK normal enough, but I'm not a psychiatrist.$10#$b#Better people than you and I have seen the Void's effects on reality and just... snapped. Their minds couldn't handle something we weren't supposed to see.$11#$b#That's what Rasmodius told me, anyway. I think he just said that to try and scare me off.$1",
 "CT.NovaEli.EliLateHangout": "How're you doing, sleepyhead? Shane and I had to lug you back to your place after you passed out on me. Good thing it wasn't far away!$6#$b#Seriously though, I enjoyed hanging out with you. You brightened up another sleepless night for me.$1",
@@ -1798,7 +1798,7 @@ SIGURD/SONDRA*/
 "CT.NovaDylan.EliOldWoods": "I want to know how Eli managed to lose that... whatever it was in my room. It didn't look hygienic, either.$2#$b#It WOULD be nice if he'd text me or something before materialising in there. One day I'll hide in his room and jump out at him, see how HE likes it.$5",
 "CT.NovaDylan.JunimoKingIntro": "Hey, @? What's all this about you and Eli encountering a cryptid? He won't stop raving on about it!$0#$b#Wait, it really IS real? It isn't just a stag that got his antlers snagged in a bush?$9#$b#I don't know why, but I think I believe you. I've seen too much strange stuff by now to dismiss it as my brother's wild fantasies.$0",
 "CT.NovaDylan.EliMushroomCave": "According to Eli, there's a pond in the cave that you two explored. I wonder what kind of fish might live in a subterranean ecosystem dominated by fungi?$1#$b#Perhaps I'll tag along the next time he goes there. I know he's already taking Demetrius and Maru.$3",
-"CT.NovaDylan.EliMysteryBeast": "",
+"CT.NovaDylan.EliMysteryBeast": "Eli's been poking around the ranch a lot lately. Apparently Marnie called the Guild over a monster disturbance and they asked him to investigate.$9#$b#I have my doubts about the cryptid stuff he comes out with, but his monster knowledge is encyclopaedic. He'll know what it was.$1",
 "CT.NovaDylan.EliGuild": "Eli came home covered in bruises earlier. He said he doesn't want to talk about it, but I know he was meant to have a practice duel with someone.$9#$b#I suspect that his big mouth wrote yet another cheque that he couldn't cash.$3",
 "CT.NovaDylan.EliGuestRoom": "Eli said you wandered into the guest room. Yes, I know there's meant to be messed up stuff in there, but is it... is it clean, at least?$9#$b#$y 'What should I say?_(Truth) It's actually pretty bad..._It's FILTHY? And there's cobwebs everywhere?! Oh, no! But I can't go in there to tidy it, Eli said it's too dangerous!$6_(Lie) Squeaky clean, don't worry about it!_Oh, good. I don't care if it's \"in another dimension\" 90% of the time, it's still in our house for the remainder. It seems I owe him an apology.$0'",
 "CT.NovaDylan.EliLateHangout": "I hope you didn't get a cold after passing out in that rain in the middle of the night. Eli said he made sure you got back safely.$0",
@@ -1901,10 +1901,15 @@ SIGURD/SONDRA*/
 
 "CT.Shane.EliIntro": "Eli caused one hell of an accident at JojaMart last year. It wasn't his fault, but it made the mother of all messes... which I had to help clear up.$3#$b#Worth it to see Morris squashed under those shelves. But he didn't find it funny and banned Eli from the store. What an ass.$2",
 "EliLateHangout": "Don't make a habit of passing out in the forest, yeah? I had to listen to Eli's chattering the whole time we were hauling you back to the farm.$3#$b#He was going on and on about mothmen and jabberwocks. And asking if I'd seen any UFOs lately.$2",
+"CT.Shane.EliMysteryBeast": "I've gotta admit, I wasn't expecting the Guild to send a man who runs around looking for aliens and made up creatures to help us.$0#$b#Eli seems really confident that he knows what he's doing, though. I'm not entirely sure if that's reassuring or not.$2",
 
 "CT.Shane.DylanSaloon": "Watching Dylan outdrink me wasn't on my bingo card this year. Never knew he had it in him.$0#$b#I bet he's already regretting it, though.$3",
 
-"CT.Shane.EnDJojaBreak": "Man, watching Dylan put Morris in his place earlier was really something. You've gotta watch out for the quiet ones.$0",
+"CT.Shane.EnDJojaBreak": "Man, watching Dylan put Morris in his place earlier was really something. You've gotta watch out for the quiet ones.$1",
+
+//MARNIE
+
+"CT.Marnie.EliMysteryBeast": "Our animals have been on edge since those monsters tried getting into the barn, the poor things.$3#$b#Living so close to the woods, there's always the risk of monsters. But they've never been this bold until now.$2#$b#Eli offered to watch the ranch overnight to reassure Jas. That was sweet of him - I must make a gift hamper of food for him and Dylan.$1",
 
 //CLINT
 
@@ -1922,6 +1927,7 @@ SIGURD/SONDRA*/
 //WIZARD
 
 "CT.Wizard.EliWoods": "I gather that you saw some interesting things in the woods recently. Don't be so surprised - little in the Valley is hidden from one such as I.$0#$b#Eli's magic is curious, I must admit. Occasionally, mortals are born with a natural affinity for it that develops during adolescence if not sooner.$0#$b#But those attuned to the Void behind the world are a rare breed. Ironic given his sunny disposition.$0",
+"CT.Wizard.JunimoKingIntro": "Hmm, so you and Eli met a custodian of the wilderness to the east. I know of this entity... and of their unusual collective composition.$0#$b#Eli would do well to remember that Junimos, like any other spirits, can be prideful and capricious.$0#$b#They were offended by my attempt to commune with them by summoning them to my tower. It took weeks to clear the vegetation they left behind!$0",
 
 //ROBIN
 
@@ -1954,6 +1960,7 @@ SIGURD/SONDRA*/
 
 "CT.Leah.EliIntro": "Oh, Eli was on a roof again? I thought I heard Lewis yelling at him earlier.$2#$b#People criticise him for being unconventional, but it's like water off a duck's back to him. I can respect that.$7#$b#Plus he appreciates my art. He commissioned me once when I really needed the cash.$1",
 "CT.Leah.EliJunimo1": "Eli asked me if I believe in magic. In things like Junimos and ghosts.$0#$b#I try to keep an open mind about these topics, but I haven't personally seen any evidence for it.$2#$b#Who knows? Maybe some people have a different way of seeing the world that lets them perceive things the rest of us can't.$7#$b#I mean, as an artist I try to view the world through a different lens as well. It's an interesting thought, right?$1",
+"CT.Leah.EliMysteryBeast": "There's been an awful lot of fog in the forest at night lately. Eli was at my door earlier, warning me not to go out in it... something about monsters?$2#$b#I hope this means I don't have to miss wine with Elliott at the Saloon later.$7",
 "CT.Leah.EliGuestRoom": "Sometimes I still think about that painting Eli commissioned me to do. The style and the subject matter... it's definitely not what I'm used to.$2#$b#I've been over to their place a few times since and I never saw it. He always gets evasive when I ask.$7#$b#He better not have trashed it by accident!$5",
 
 "CT.Leah.DylanIntro": "Dylan's a bit mysterious, isn't he? I see him quite often when I go to the beach to make sketches.$0#$b#I try to make small talk with him while he's scribbling in his notebook, but it's hard to tell if he's actually listening. He's in his own little world.$2",
@@ -2018,6 +2025,7 @@ SIGURD/SONDRA*/
 
 //JAS
 
+"CT.Jas.EliMysteryBeast": "I had a nightmare that I was lost in the forest. It was so foggy that I couldn't see anything! Just dark trees and bright white eyes.$2",
 "CT.Jas.DylanLibrary": "I'm super excited for that field trip! Mister Moray's going to teach us. Miss Penny said he's very smart.$1",
 "CT.Jas.DylanLesson": "That field trip was really fun! Wasn't that octopus cute?$1",
 
@@ -2036,6 +2044,10 @@ SIGURD/SONDRA*/
 "CT.MarlonSVE.EliIntro": "Eli? He's a cryptozoologist, which is a fancy way of saying he spends his time searching for creatures that don't exist.$0#$b#He knows his stuff when it comes to real monsters, though. And he's a decent fighter - he does jobs for us sometimes.$1",
 
 "CT.MarlonSVE.DylanSaloon": "The other night was a hectic one. Occasionally the monsters in the mine form hordes and try to reach town.$2#$b#We're unsure what causes them to coordinate like that. But we successfully kept them at bay - Eli was a good help.$1",
+
+//ANDY
+
+"CT.Andy.EliMysteryBeast": "Shane mentioned that Eli fella's snoopin' around, looking for monsters or whatnot.$0#$b#I've heard things about that boy. He better not go traipsin' across my farm, there ain't no crop circles there.$2",
 
 //QUESTS
 
@@ -2398,18 +2410,18 @@ SIGURD/SONDRA*/
 "Events.EliCave.NovaEli.21": "Thanks for coming with me today, @. I had a good time... well, minus falling flat on my face earlier.$3#$b#I SUPPOSE I'd better go to the Clinic now.$9#$b#I can drop off those samples for Demetrius while I'm at it. See you around!$1",
 "Events.EliCave.Message.1": "The mushroom cavern in the Deep Mountains is now accessible!",
 
-//6 HEARTS PART 1
+//8 HEARTS PART 1
 
 "Events.EliMysteryBeast.Shane.1": "...And there's actually some damage to the barn door from where it tried to get inside.$0#$b#If Jas hadn't woken us up, I don't wanna know what might've happened.$2",
 "Events.EliMysteryBeast.NovaEli.1": "Did she get a good look at whatever it was? How about you or Marnie?$0",
-"Events.EliMysteryBeast.Shane.2": "I couldn't see much, it was really foggy. I think Jas got a better look at it.$3",
+"Events.EliMysteryBeast.Shane.2": "I couldn't see much, it was really foggy. Neither did Marnie... I think Jas got a better look at it.$3",
 "Events.EliMysteryBeast.Shane.3": "But there was definitely something moving around. All I can tell you is it was FAST.$0#$b#And I'll never forget the sounds it was making.$2",
 "Events.EliMysteryBeast.NovaEli.2": "Interesting! There wasn't any fog in yesterday's forecast. So either the weatherman was wrong, or our mysterious beast had something to do with it.$11",
-"Events.EliMysteryBeast.Shane.4.A.1": "You're saying that there's monsters out there that can call fog? Out here in the forest, that's the last thing I want to hear!$10",
+"Events.EliMysteryBeast.Shane.4.A.1": "You're saying that there's monsters out there that can call fog? Out here in the forest, that's the last thing I want to hear!$10#$b#Fog monsters, Eli? Really?$2",
 "Events.EliMysteryBeast.Gunnar.1": "Wait, are there actually monsters that can control the weather? How does that even work?$2",
 "Events.EliMysteryBeast.NovaEli.3": "C'mon mate, I've watched you fight actual ghosts and levitating monsters that spit fireballs.$1#$b#Is a creature that can summon fog THAT big of a stretch?$3",
 "Events.EliMysteryBeast.Gunnar.2": "When you put it like that...",
-"Events.EliMysteryBeast.Shane.4.B.1": "I'm with Gunnar. It's not necessarily that I don't believe you, but I don't WANT to.$10#$b#We have to live out here in the forest, you know?$2",
+"Events.EliMysteryBeast.Shane.4.B.1": "I'm with Gunnar. It's not necessarily that I don't believe you, wild as it sounds, but I don't WANT to.$10#$b#We have to live out here in the forest, you know? Fog monsters? Really?$2",
 "Events.EliMysteryBeast.NovaEli.4": "Such creatures are rare and I've never actually seen one for myself. Which makes me all the more interested in whatever happened here!$1#$b#I can't wait to stake the place out! Can you imagine if it was actually something like that? It's so exciting to think about!$3",
 "Events.EliMysteryBeast.Shane.5": "...I'd prefer it if the weatherman was wrong.$2",
 "Events.EliMysteryBeast.Gunnar.3": "Ditto.",
@@ -2418,12 +2430,12 @@ SIGURD/SONDRA*/
 "Events.EliMysteryBeast.Jas.1": "Charlie!",
 "Events.EliMysteryBeast.Jas.2": "I'm sorry Uncle Shane, she was too fast for me!$3",
 "Events.EliMysteryBeast.Shane.7": "It's okay, kiddo.",
-"Events.EliMysteryBeast.NovaEli.5": "Hi there, @! Something tried to attack Marnie's animals last night. I've been asked to find out what it was.$1",
+"Events.EliMysteryBeast.NovaEli.5": "Hi there, @! Something tried to attack Marnie's animals last night. I've been asked by Marlon to find out what it was.$1",
 "Events.EliMysteryBeast.NovaEli.6": "Jas? Shane told me that you might've seen the monster. I can try to help, but I've got to know what it was first.$0#$b#Can you describe it for me?$1",
 "Events.EliMysteryBeast.Jas.3": "They were big, hairy and green. They had four legs and glowing white eyes. And sharp teeth!$2",
 "Events.EliMysteryBeast.Gunnar.5": "'They'? Jeez... I thought that just one was bad enough.",
-"Events.EliMysteryBeast.NovaEli.7": "A pack beast, huh? They could be fog hounds... But I've never heard of them being sighted in southern Ferngill before!$11#$b#You might've helped me solve this mystery already, Jas. You did good!$1",
-"Events.EliMysteryBeast.NovaEli.8.A.1": "Yoba, the chance to see actual Fog Hounds! If only my doubting old monster research colleagues could see me now.$11#$b#This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself and look for any tracks or other clues they might've left.$0#$b#And I'll come back here tonight to keep watch, just in case they return. You guys should be able to rest easy.$1",
+"Events.EliMysteryBeast.NovaEli.7": "A pack beast, huh? They could be will o'wisps, or fog hounds... the description matches for the latter. But I've never heard of them being sighted in southern Ferngill before!$11#$b#You might've helped me solve this mystery already, Jas. You did good!$1",
+"Events.EliMysteryBeast.NovaEli.8.A.1": "Yoba, the chance to see actual fog hounds! If only my doubting old monster research colleagues could see me now.$11#$b#This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself and look for any tracks or other clues they might've left.$0#$b#And I'll come back here tonight to keep watch, just in case they return. You guys should be able to rest easy.$1",
 "Events.EliMysteryBeast.NovaEli.8.B.1": "Yoba, the chance to see actual fog hounds! If only my doubting old monster research colleagues could see me now.$11#$b#This is it... the sharp end at last!$3#$b#I'm going to need to take a look around the barn itself with my assistant here and look for any tracks or other clues they might've left.$0#$b#And we'll come back here tonight to keep watch, just in case they return. You guys should be able to rest easy.$1",
 "Events.EliMysteryBeast.Gunnar.6": "Hey, what do you mean by 'assistant'? We're supposed to be partners here, Eli!$7",
 "Events.EliMysteryBeast.NovaEli.8.B.2": "You can give yourself whatever title you want, so long as you get yer butt over here tomorrow night to help me out!$3",
@@ -2434,6 +2446,75 @@ SIGURD/SONDRA*/
 "Events.EliMysteryBeast.Shane.9": "I'll let Andy know.$0",
 "Events.EliMysteryBeast.NovaEli.10.B.2": "That'd probably be best, the bloke thinks I'm some sort of godless heathen. He'd never believe me.$10",
 "Events.EliMysteryBeast.NovaEli.11": "C'mon, Gun! Let's get to work.",
+
+//8 HEARTS PART 2
+
+"Events.EliFogHounds.NovaEli.1": "Seems quiet enough... where are they?",
+"Events.EliFogHounds.Gunnar.1": "Who goes there??",
+"Events.EliFogHounds.NovaEli.2.A": "@! Glad you managed to find your way through this fog. I was getting a little nervous on my own.$12",
+"Events.EliFogHounds.NovaEli.2.B": "@! Glad you managed to find your way through this fog. Gun and I are getting a little jumpy out here.$12",
+"Events.EliFogHounds.NovaEli.3.A": "I was already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9",
+"Events.EliFogHounds.NovaEli.3.B": "We were already waiting when it suddenly rolled in, quick as anything. Our monster friends are close.$11#$b#But we're going to be ready for them!$9",
+"Events.EliFogHounds.Gunnar.2": "Hang on, Eli. I couldn't find much information on fog hounds. Do they have weaknesses?$2",
+"Events.EliFogHounds.NovaEli.4.A": "So I've been looking for information on fog hounds and can't find as much as I'd like.$2#$b#They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11#$b#Or very hard to hit, at least!$10",
+"Events.EliFogHounds.NovaEli.4.B": "They're empowered by the fog they summon. My books reckon they're practically intangible while surrounded by it...$11#$b#Or very hard to hit, at least.$10",
+"Events.EliFogHounds.Gunnar.3": "So, clear the fog somehow and they're vulnerable? Hm... what about that explosive potion you got from me?$0",
+"Events.EliFogHounds.NovaEli.5.A": "That's right! If we can somehow clear the fog, they should be vulnerable.$3#$b#Just remember, we're not trying to kill the beasts. This is a valuable research opportunity for me.$1",
+"Events.EliFogHounds.NovaEli.5.B": "In my bag with my glow ring! Yeah, that could work. Just remember, we're not trying to kill the beasts.$1#$b#This is a valuable research opportunity for me, after all.$3",
+"Events.EliFogHounds.NovaEli.6": "Sounds like they're coming. Get ready, @! Marnie's animals aren't getting devoured on our watch.$9",
+"Events.EliFogHounds.Gunnar.4": "We've got this!",
+"Events.EliFogHounds.Gunnar.5": "Yikes!",
+"Events.EliFogHounds.NovaEli.7": "Whoah, they're a lot bigger than I expected! This is amazing!$20",
+"Events.EliFogHounds.NovaEli.8": "@, get to my bag! There's probably something you can use in there.$22",
+"Events.EliFogHounds.FogHound.1": "...?$0#$b#Grrr...!$1",
+"Events.EliFogHounds.Gunnar.6": "Aww, please be nice doggies!$2",
+"Events.EliFogHounds.NovaEli.9": "Back off, buddy!",
+"Events.EliFogHounds.Question.1.A": "You rummage around in Eli's bag and manage to find his glow ring.",
+"Events.EliFogHounds.Question.1.B": "You rummage around in Eli's bag and manage to find his glow ring and a potion that is smoking ominously.",
+"Events.EliFogHounds.Question.1.Answer.1.A": "Break the glow ring!",
+"Events.EliFogHounds.Question.1.Answer.1.B": "Break Eli's glow ring!",
+"Events.EliFogHounds.Question.1.Answer.2": "Lob Gunnar's potion!",
+"Events.EliFogHounds.NovaEli.10.A": "Using my glow ring as an improvised flashbang, huh? That was very clever, @! Not to mention effective.$11#$b#I'll have to replace it, but who cares? Let's take a closer look at this bad boy.$6",
+"Events.EliFogHounds.NovaEli.10.B.1": "Bloody hell, Gun! That potion packs a punch! Did you see that?!$3",
+"Events.EliFogHounds.Gunnar.7": "I didn't think it would be THAT effective! Thanks for field testing it, @.$1",
+"Events.EliFogHounds.NovaEli.10.B.2": "I'm absolutely putting in a bulk order for more of those. But first... let's take a closer look at this bad boy.$6",
+"Events.EliFogHounds.Allium.1": "Hi hi!",
+"Events.EliFogHounds.Allium.2": "You wanted to look at monster, yes? We help you.$0#$b#Will you... hurt it?$2",
+"Events.EliFogHounds.FogHound.2": "...$2",
+"Events.EliFogHounds.NovaEli.11": "No. I don't go around killing monsters if I can help it, especially not defenseless ones. I have one for a pet, you know!$0#$b#Its friends scarpered and it isn't a threat now. I just want to take a good look and learn what I can. I promise.$1",
+"Events.EliFogHounds.Gunnar.8": "Who're you talking to.",
+"Events.EliFogHounds.NovaEli.12": "Hear that, friend? Everything's gonna be okay. Just leave people's animals alone in future. They're off limits.$0",
+"Events.EliFogHounds.Allium.3": "We were right about you and @...$0",
+"Events.EliFogHounds.Allium.4": "Allium. That is our - MY - name.$1#$b#We will wait for you back home. You give us promised story, yes?$0",
+"Events.EliFogHounds.NovaEli.13": "Of course, Allium! @ and I can tell you all about the things we've been doing since our last meeting.$3",
+"Events.EliFogHounds.Gunnar.9": "Who's Allium.",
+"Events.EliFogHounds.NovaEli.14": "I've got everything I needed! We can let the fog hound go. It'll think twice before coming back here.$6",
+"Events.EliFogHounds.Allium.5": "Buh-bi, friends!",
+"Events.EliFogHounds.NovaEli.15": "Excellent work! I got my rare monster research, and Marnie's cute animals get to live in peace.$1",
+"Events.EliFogHounds.NovaEli.16.A": "All that's left now is to head over to the ranch and let them know it's safe.$0",
+"Events.EliFogHounds.Gunnar.10": "I have a lot of questions about what just happened, Eli.$0",
+"Events.EliFogHounds.NovaEli.16.B": "Of course you do! C'mon, you can ask them on the way.$1",
+"Events.EliFogHounds.Marnie.1": "Goodness, it sounds like you went through quite an ordeal. And you're sure that the monsters won't return?$2",
+"Events.EliFogHounds.NovaEli.17": "As certain as we can be. Some monsters are smarter than others, and these ones were opportunists looking for an easy meal.$0#$b#I think we've shown them that your livestock isn't worth the trouble! But if you notice anything odd, don't hesitate to call the Guild.$3",
+"Events.EliFogHounds.Shane.1": "Thank Yoba for that.",
+"Events.EliFogHounds.Jas.1": "Did they hurt you?",
+"Events.EliFogHounds.Shane.2": "Jas!",
+"Events.EliFogHounds.NovaEli.18": "They didn't hurt us, Jas. And we didn't hurt them, either. They won't be back.$1",
+"Events.EliFogHounds.Gunnar.11": "My leg's cramped, but I'll live.$1",
+"Events.EliFogHounds.Jas.2": "I'm glad you're okay. Thank you!",
+"Events.EliFogHounds.Marnie.2": "I think it's about time you were in bed, Jas. We've had enough excitement for one night, don't you think?$1",
+"Events.EliFogHounds.Shane.3": "I'll read you that story you were telling me about, okay? C'mon, kiddo.$1",
+"Events.EliFogHounds.Shane.4": "Thanks again for your help.$0",
+"Events.EliFogHounds.Message.1": "The mysterious fog starts to dissipate.",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
+"Events.EliFogHounds..": "",
 
 //BONUS EVENTS
 
@@ -2448,7 +2529,7 @@ SIGURD/SONDRA*/
 "Events.EliGuild.Marlon.4": "Speak of the devil...",
 "Events.EliGuild.NovaEli.2": "Sorry I'm late! I had a bit of aggro with a bunch of squid kids on my way out. And then the dumb elevator wouldn't start!$12#$b#So I kicked the mechanism a few times and gave the panel a good whack. That got it moving just before the monsters caught up.$1",
 "Events.EliGuild.Marlon.5": "You're literally the only one I know who's managed to jam that elevator.",
-"Events.EliGuild.NovaEli.3": "ANYWAY...",
+"Events.EliGuild.NovaEli.3": "ANYWAY...!",
 "Events.EliGuild.NovaEli.4": "More importantly, I managed to recover your gear. Is this all of it, Clint?$1",
 "Events.EliGuild.Clint.3": "Yes! Thank you so much for that. I hope it wasn't too much trouble.$1",
 "Events.EliGuild.Marlon.6": "You would have an easier time of it if you actually killed the monsters, Eli.$0",

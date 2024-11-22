@@ -1,5 +1,24 @@
 {
   "Changes": [
+
+    //Sounds
+
+    {
+      "Action": "EditData",
+      "Target": "Data/AudioChanges",
+      "Entries": {
+        "EnD.Fire": {
+          "ID": "EnD.Fire",
+          "Category": "Sound",
+          "FilePaths": [ "{{AbsoluteFilePath: Assets/Music/ForestFire.ogg}}" ],
+          "StreamedVorbis": false,
+          "Looped": false
+        }
+      }
+    },
+
+    //Music
+
     {
       "Action": "EditData",
       "Target": "Data/AudioChanges",
