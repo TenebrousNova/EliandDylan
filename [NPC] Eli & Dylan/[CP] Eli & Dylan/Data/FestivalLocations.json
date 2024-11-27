@@ -339,7 +339,7 @@ debug festival winter25 - Winter Star
 		]
 	},
 	
-		{
+	{
 		"LogName": "Fair",
 		"Action": "EditData",
 		"Target": "Data/Festivals/fall16",

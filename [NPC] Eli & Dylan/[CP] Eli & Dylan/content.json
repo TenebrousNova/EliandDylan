@@ -1092,7 +1092,8 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanClass_BearIntro",
 		"Value": "speed MadDog.HashtagBearFam.Gudrun 3/speed MadDog.HashtagBearFam.Sigurd 3/speed MadDog.HashtagBearFam.Gunnar 3/advancedMove MadDog.HashtagBearFam.Gudrun false 0 9 6 0 2 10/pause 100/advancedMove MadDog.HashtagBearFam.Sigurd false 0 10 5 0 2 10/pause 1000/advancedMove MadDog.HashtagBearFam.Gunnar false 0 9 3 0 2 10/pause 3000/textAboveHead Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.4}}\"/pause 2000/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.1}}\"/speak MadDog.HashtagBearFam.Gudrun \"{{i18n:Events.DylanLesson.Gudrun.1}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.DylanLesson.Gunnar.1}}\"/emote Nova.Dylan 32/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.5}}\"/speak MadDog.HashtagBearFam.Sigurd \"{{i18n:Events.DylanLesson.Sig.2}}\"/emote Nova.Dylan 60/speak Nova.Dylan \"{{i18n:Events.DylanLesson.NovaDylan.6}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 
@@ -1106,7 +1107,8 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_BearFam1",
 		"Value": "speak MadDog.HashtagBearFam.Gudrun? \"{{i18n:Events.DylanExpedition.Gudrun.2}}\"/speak MadDog.HashtagBearFam.Sigurd? \"{{i18n:Events.DylanExpedition.Sigurd.1}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 	{
@@ -1117,7 +1119,8 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_BearFam2",
 		"Value": "speak MadDog.HashtagBearFam.Sigurd? \"{{i18n:Events.DylanExpedition.Sigurd.2}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam"
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
 	{

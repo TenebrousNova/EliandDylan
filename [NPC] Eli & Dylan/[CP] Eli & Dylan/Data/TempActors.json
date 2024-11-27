@@ -213,6 +213,11 @@
 		"Target": "Portraits/FogHound1_Mist",
 		"FromFile": "Assets/Images/FoghoundPortrait.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/DylanMagazine",
+		"FromFile": "Assets/Images/DylanMagazine.png"
+	},
 	
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events

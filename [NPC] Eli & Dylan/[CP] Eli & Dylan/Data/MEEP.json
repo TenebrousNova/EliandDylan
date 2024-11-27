@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Blooper, {{ModID}}/Banner",
+            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine",
             "FromFile": "Assets/MEEP/{{TargetWithoutPath}}.png"
         },
         {
@@ -29,6 +29,27 @@
                     }
                 }
             ]
+        },
+        {
+            "LogName": "Dylan Framed Article",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 4
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Magazine",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Magazine}}"
+                    }
+                }
+            ],
+            "When": {
+                "HasSeenEvent |contains=EnD.Dylan.11": true
+            }
         },
 
         {

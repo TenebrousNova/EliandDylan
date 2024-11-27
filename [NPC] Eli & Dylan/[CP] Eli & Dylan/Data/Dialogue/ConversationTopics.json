@@ -25,6 +25,7 @@
 				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
 				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.NovaEli.EliFogHounds}}",
 				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
@@ -39,6 +40,7 @@
 				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
 				"DylanDroneProgress": "{{i18n:CT.NovaEli.DylanDroneProgress}}",
 				"DylanExpedition": "{{i18n:CT.NovaEli.DylanExpedition}}",
+				"DylanArticle": "{{i18n:CT.NovaEli.DylanArticle}}",
 				"DylanCCAquarium": "{{i18n:CT.NovaEli.DylanCCAquarium}}",
 				"DylanDream": "{{i18n:CT.NovaEli.DylanDream}}",
 
@@ -156,6 +158,7 @@
 				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
 				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.NovaDylan.EliFogHounds}}",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
@@ -170,6 +173,7 @@
 				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
 				"DylanDroneProgress": "{{i18n:CT.NovaDylan.DylanDroneProgress}}",
 				"DylanExpedition": "{{i18n:CT.NovaDylan.DylanExpedition}}",
+				"DylanArticle": "{{i18n:CT.NovaDylan.DylanArticle}}",
 				"DylanCCAquarium": "{{i18n:CT.NovaDylan.DylanCCAquarium}}",
 				"DylanDream": "{{i18n:CT.NovaDylan.DylanDream}}",
 
@@ -275,6 +279,7 @@
 
 				"DylanIntro": "{{i18n:CT.Lewis.DylanIntro}}",
 				"DylanBeach": "{{i18n:CT.Lewis.DylanBeach}}",
+				"DylanArticle": "{{i18n:CT.Lewis.DylanArticle}}",
 				"DylanCCAquarium": "{{i18n:CT.Lewis.DylanCCAquarium}}",
 				"EnDPlan": "{{i18n:CT.Lewis.EnDPlan}}"
 			}
@@ -336,6 +341,7 @@
 
 				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
 				"EliMysteryBeast": "{{i18n:CT.Shane.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.Shane.EliFogHounds}}",
 				"EliLateHangout": "{{i18n:EliLateHangout}}",
 
 				//Dylan Topics
@@ -356,7 +362,8 @@
 
 				//Eli Topics
 
-				"EliMysteryBeast": "{{i18n:CT.Marnie.EliMysteryBeast}}"
+				"EliMysteryBeast": "{{i18n:CT.Marnie.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.Marnie.EliFogHounds}}"
 			}
 		},
 
@@ -399,7 +406,8 @@
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
 				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}"
+				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}",
+				"EliFogHounds": "{{i18n:CT.Wizard.EliFogHounds}}"
 			}
 		},
 
@@ -429,6 +437,7 @@
 				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}",
 				"DylanDroneProgress": "{{i18n:CT.Demetrius.DylanDroneProgress}}",
 				"DylanExpedition": "{{i18n:CT.Demetrius.DylanExpedition}}",
+				"DylanArticle": "{{i18n:CT.Demetrius.DylanArticle}}",
 				"EnDPlan": "{{i18n:CT.Demetrius.EnDPlan}}"
 			}
 		},
@@ -449,6 +458,7 @@
 				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}",
 				"DylanDroneProgress": "{{i18n:CT.Maru.DylanDroneProgress}}",
 				"DylanExpedition": "{{i18n:CT.Maru.DylanExpedition}}",
+				"DylanArticle": "{{i18n:CT.Maru.DylanArticle}}",
 
 				//Other Topics
 
@@ -469,6 +479,7 @@
 				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
 				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
 				"EliMysteryBeast": "{{i18n:CT.Leah.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.Leah.EliFogHounds}}",
 
 				//Dylan Topics
 
@@ -476,6 +487,7 @@
 				"DylanBeach": "{{i18n:CT.Leah.DylanBeach}}",
 				"DylanTown": "{{i18n:CT.Leah.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon}}",
+				"DylanArticle": "",
 				"DylanCCAquarium": "{{i18n:CT.Leah.DylanCCAquarium}}"
 			}
 		},
@@ -496,6 +508,7 @@
 				"DylanBeach": "{{i18n:CT.Elliott.DylanBeach}}",
 				"DylanTown": "{{i18n:CT.Elliott.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.Elliott.DylanSaloon}}",
+				"DylanArticle": "",
 				"DylanCCAquarium": "{{i18n:CT.Elliott.DylanCCAquarium}}"
 			}
 		},
@@ -527,6 +540,7 @@
 			"Entries": {
 				"EliIntro": "{{i18n:CT.Abigail.EliIntro}}",
 				"EliWoods": "{{i18n:CT.Abigail.EliWoods}}",
+				"EliFogHounds": "{{i18n:CT.Abigail.EliFogHounds}}",
 				"EliGuild": "{{i18n:CT.Abigail.EliGuild}}"
 			}
 		},
@@ -536,8 +550,15 @@
 			"Action":"EditData",
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
+
+				//Eli Topics
+
 				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
-				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak}}"
+				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak}}",
+
+				//Dylan Topics
+
+				"DylanArticle": ""
 			}
 		},
 
@@ -567,7 +588,8 @@
 				"DylanIntro": "{{i18n:CT.Willy.DylanIntro}}",
 				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
 				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}",
-				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}"
+				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}",
+				"DylanArticle": ""
 			}
 		},
 
@@ -577,7 +599,8 @@
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
 				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}"
+				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}",
+				"DylanArticle": ""
 			}
 		},
 
@@ -600,6 +623,7 @@
 				//Eli Topics
 
 				"EliMysteryBeast": "{{i18n:CT.Jas.EliMysteryBeast}}",
+				"EliFogHounds": "{{i18n:CT.Jas.EliFogHounds}}",
 
 				//Dylan Topics
 
@@ -613,7 +637,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
-				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}"
+				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}",
+				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds}}"
 			}
 		},
 
@@ -626,6 +651,9 @@
 					//Eli Topics
 
 					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
+					"EliMysteryBeast": "",
+					"EliFogHounds": "",
+					"EliGuild": "",
 
 					//Dylan Topics
 
@@ -645,6 +673,9 @@
 					//Eli Topics
 
 					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
+					"EliMysteryBeast": "",
+					"EliFogHounds": "",
+					"EliGuild": "",
 
 					//Dylan Topics
 					
@@ -662,7 +693,8 @@
 			"Entries": {
 				//Eli Topics
 
-				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast}}"
+				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast}}",
+				"EliFogHounds": ""
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true

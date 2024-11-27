@@ -528,25 +528,6 @@
 			"Update": "OnTimeChange"
 		},
 
-		//New Community Center aquarium.
-/*
-		{
-			"LogName": "EnD CC Aquarium",
-			"Action": "EditMap",
-			"Target": "Maps/CommunityCenter_Refurbished",
-			"FromFile": "Assets/Maps/CCAquariumPatch.tmx",
-			"ToArea": {
-				"X": 38,
-				"Y": 7,
-				"Width": 6,
-				"Height": 3
-			},
-			"When": {
-				"HasSeenEvent": "191393"
-			},
-			"PatchMode": "Replace"
-		},
-	*/
 		//Loads the house tilesheets.
 	
 		{
@@ -587,6 +568,26 @@
 		},
 		"PatchMode": "Replace",
 		"Update": "OnTimeChange"
+	},
+
+	//Dylan framed magazine.
+
+	{
+		"LogName": "Dylan Framed Magazine Patch",
+		"Action": "EditMap",
+		"Target": "Maps/{{ModID}}_ESEDHouse",
+		"FromFile": "Assets/Maps/DylanMagazinePatch.tmx",
+		"ToArea": {
+			"X": 18,
+			"Y": 1,
+			"Width": 1,
+			"Height": 3
+		},
+		"PatchMode": "Overlay",
+		"When": {
+			"HasSeenEvent |contains=EnD.Dylan.11": true
+		},
+		"Update": "OnLocationChange"
 	},
 
 	//Eli Intro Patch. This temporarily removes the AlwaysFront parts of the Community Centre roof and replaces them with tiles on the Buildings layer so he can sit there.
@@ -711,7 +712,7 @@
    			"HasSeenEvent |contains=EnD.Eli.10": true,
   			 "HasSeenEvent |contains=EnD.Eli.11": false,
    			"HasFlag |contains=EnD.Foggy.Mailflag": true,
-			"Time": "{{Range: 2000, 2400}}"
+			"Time": "{{Range: 2100, 2400}}"
  		}
 	},
 
