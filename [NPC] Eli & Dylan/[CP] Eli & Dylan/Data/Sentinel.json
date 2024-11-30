@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "EnD.Sentinel": {
+                    "DisplayName": "{{i18n:Core.Sentinel.Name}}",
+                    "House": "Barn",
+                    "Texture": "Characters/JunimoKing",
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
+                    "SleepFrame": 40
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "MEEP/FarmAnimals/SpawnData",
+            "Entries": {
+                "EnD.Sentinel.OldWoods": {
+                    "AnimalId": "EnD.Sentinel",
+                    "Age": 1,
+                    "LocationId": "{{ModID}}_OldWoods",
+                    "DisplayName": "{{i18n:Core.Sentinel.Name}}",
+                    "PortraitTexture": "Portraits/JunimoKing",
+                    "PetMessage": [
+                        "{{i18n:Core.Sentinel.Dialogue.{{Random:{{Range: 1, 5}}}}}}"
+                    ],
+                    "HomeTileX": 29,
+                    "HomeTileY": 33,
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any EnD.Eli.12, WEATHER EastScarp_Village Sun"
+                }
+            }
+        }
+    ]
+ }

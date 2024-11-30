@@ -31,6 +31,7 @@
 "Core.Locations.EDMountainCave": "Deep Mountains Cave",
 "Core.Locations.DylanTidePool": "Dylan Tide Pool",
 "Core.Locations.OldWoods": "Old Woods",
+"Core.Locations.OldWoodsPond": "Old Woods Pond",
 "Core.Locations.DylanOcean": "Gem Sea",
 "Core.Locations.DylanAbyssTransition": "Abyss Transition",
 "Core.Locations.DylanAbyss": "Abyss",
@@ -44,7 +45,9 @@
 //ITEMS
 
 "Core.Items.ChaosTotem": "Warp Totem: Chaos",
-"Core.Items.ChaosTotem.Description": "An experimental prototype totem that will warp you to a random location. Warning: use with caution!",
+"Core.Items.ChaosTotem.Description": "An experimental warp totem that will transport you to a random location. Warning: use with caution!",
+"Core.Items.JunimoTotem": "Warp Totem: Old Woods",
+"Core.Items.JunimoTotem.Description": "A warp totem that will transport you to the Old Woods.",
 
 //CROPS
 
@@ -202,7 +205,7 @@
 "Core.NovaEli.0-4.12": "Have you seen much of Ferngill, @? Me, I've spent most of my life in Point Drake. It's a lovely place perched on a peninsula by the Gem Sea.$1#$b#But things didn't work out for us there, so we struck out for Stardew Valley to make a new life.$0#$e#From what I heard, you left the City for similar reasons. I've never been there, but I'd like to visit one day.$1",
 "Core.NovaEli.0-4.13": "I've actually got a blog on cryptozoology. Something that'll shake the stones of my profession to its very foundations.$0#$b#Well, alright. Barely anyone reads it. But I can't do worse than the amateurs that write sensationalist tabloid garbage like Crypto Today.$10",
 "Core.NovaEli.0-4.14": "I suppose that if I'm ever hard pressed for cash, I could always have a side gig as a magician for kid's parties or something.$2#$b#I can do one hell of a disappearing act.$6",
-"Core.NovaEli.0-4.15": "%As Eli greets you, you notice there's this strange reverb to his voice.#$b#MORTAL! What do you think of this effect I'm working on for Spirit's Eve? Answer truly, before I claim your soul as my plaything. For ETERNITY!$19#$b#Haha, fine! I'll stop. I'm really happy with how that turned out though. I should do it in front of those Yoba worshippers on Sunday.$3",
+"Core.NovaEli.0-4.15": "%Eli greets you with a deep, demonic voice.#$b#MORTAL! What do you think of this impression I'm working on for Spirit's Eve? Answer truly, before I claim your soul as my plaything. For ETERNITY!$19#$b#Haha, fine! I'll stop. I'm really happy with how that turned out though. I should do it in front of those Yoba worshippers on Sunday.$3",
 "Core.NovaEli.0-4.16": "I tried to give myself a lucid dream last night. You know, when you're fully aware that you're in the dream and can control it?$0#$b#After a while it actually worked! I was there, but was still sort of aware of being in bed. And yeah, I could fly!$1#$b# But then I got so excited that I immediately woke up. Isn't that just bleeding typical.$10",
 "Core.NovaEli.0-4.17": "How did I get banned from JojaMart? Oh boy, @... fine, I'll give you the short version.$9#$b#The truth is that I tripped over, completely by accident. Which caused a chain reaction that ended in Morris getting publically humiliated.$10#$b#On the plus side, Shane was laughing his head off. He and Sam got me a pizza that night. Said they'll always treasure the memory of Morris crushed beneath those shelves.$1",
 "Core.NovaEli.0-4.18": "Growing up, I learned fast that I shouldn't care about being different from others. That I should embrace my quirks.$1#$b#Who wants to be 'normal', anyway? If everyone was normal, the world would be a very boring place.$11",
@@ -353,7 +356,7 @@
 
 "Core.NovaEli.5-10.42": "Dylan's fancy aquarium hypnotises me sometimes - there's an entire ecosystem in there that I could honestly stare at for hours on end.$1#$b#I don't trust that octopus of his, though. She's always watching. Always plotting.$10",
 "Core.NovaEli.5-10.43": "One evening we'll have to have you over at our place. Dinner, conversation, games and horror movies. Not necessarily in that order!$3#$b#If you like, we can even have something that hasn't been recently defrosted.$1#$e#Although I'm not much of a chef... and the less said about Dylan's cooking, the better.$10",
-"Core.NovaEli.5-10.44": "Emily tried getting me to attend the Sunday Yoba worship session. But I don't know if I believe in gods.$2#$b#I know, I know. I believe in a lot of things that most people wouldn't. I'm a spiritualist. But cryptids can be found and studied, even captured sometimes. Gods cannot.$10#$e#Imagine if I could do that, though. Interesting thought... but I don't think Dylan would let me keep a god in the house.$11#$b#He made a big enough fuss the day I found Soot.$12",
+"Core.NovaEli.5-10.44": "Emily tried getting me to attend the Sunday Yoba worship session. But I don't know if I believe in gods.$2#$b#I know, I know. I believe in a lot of things that most people wouldn't. I'm pretty spiritual. But cryptids can be found and studied, even captured sometimes. Gods cannot.$10#$e#Imagine if I could do that, though. Interesting thought... but I don't think Dylan would let me keep a god in the house.$11#$b#He made a big enough fuss the day I found Soot.$12",
 "Core.NovaEli.5-10.45": "Occasionally I see Dust Sprites outside our house. They're bold as anything, refuse to budge and just stare you out. But they don't seem aggressive.$0#$b#They must be friends of Soot. I always wondered why he was all alone when I first found him.$11",
 "Core.NovaEli.5-10.46": "Do you have family that you keep in touch with, @? I envy people who have healthy relationships with theirs. We cut ours off before moving to Pelican Town.$2#$b#I could never meet their standards. I'm too 'different'.$8",
 "Core.NovaEli.5-10.47": "Don't worry if Dylan seems short with you. He's a bit slow to trust and doesn't spend much time around people.$0#$b#He's a marine biologist. Get him on the subject of sea life and he won't shut up.$6",
@@ -1504,6 +1507,15 @@ SIGURD/SONDRA*/
 "CC.Soot.OverheadText.1": "Squeak!",
 "CC.Soot.OverheadText.2": "Meep!",
 
+//SENTINEL DIALOGUE
+
+"Core.Sentinel.Dialogue.1": "Greetings, @. It's nice of you to visit us!$0#$b#Feel free to avail yourself of any forage you find in this clearing. The land provides to everyone.$1",
+"Core.Sentinel.Dialogue.2": "Mmm... it's been a long time since we last visited the Spirit Realm. How are our friends doing over there, we wonder?$0#$b#We have our own means of travelling there, but we cannot disclose it. We have to have some secrets, no?$1",
+"Core.Sentinel.Dialogue.3": "Eli visited us recently. It's good that he's taking his end of our bargain seriously... although he'd probably visit even if he COULDN'T commune with us.$1#$b#He's really quite amusing, isn't he? He was telling us all about the time he blew up a... toilet? Whatever that is.$4",
+"Core.Sentinel.Dialogue.4": "Individuality is a curious idea to us. Is it not lonely, having only your own thoughts for company? We can't imagine being apart for long!$0#$b# We're not sure how humans live like that. Or other Junimo, come to think of it.$2",
+"Core.Sentinel.Dialogue.5": "Has that wizard been asking after us? He summoned us long ago. We warned him not to do it again... and then made his crumbling tower more to our liking.$2#$b#The arrogance of that old manfool, to think his little summoning circle could possibly bind us.$3",
+
+
 //MISC FESTIVAL DIALOGUE
 
 //SOOT
@@ -1641,15 +1653,18 @@ SIGURD/SONDRA*/
 "MEEP.CampingPhoto": "Nothing beats toasted marshmallows on the beach on Summer evenings! I think Eli just wanted an excuse to set something on fire.",
 "MEEP.SpookyPhoto": "Eli convinced me to join him in the forest one night while he looked for cryptids. We took this photo for his blog... but something about it unsettles me.",
 "MEEP.OctopusPhoto": "Penelope escaped again when I let my guard down. Eli was too busy cackling at me to help - but it didn't stop him from preserving my shame for posterity. I'll get him back for this!!",
+"MEEP.AbyssFootage": "One of my favourite photos from our expedition into the deep sea trench. It's famous now!",
 "MEEP.Magazine": "Dylan's framed copy of his magazine interview!",
 
-"MEEP.BeyondReal": "This is the front page of Eli's cryptozoology blog. It doesn't seem to get a lot of traffic.",
+"MEEP.BeyondReal": "This is the front page of Beyond Real, Eli's cryptozoology blog.\n\nIt doesn't seem to get a lot of traffic.",
 "MEEP.KillerBunny": "Killer Rabbit",
-"MEEP.KillerBunny.Description": "I've got a real treat for you today, ladies & gents! This evil tempered rodent is said to have claimed the lives of hundreds of unwary travelers many centuries ago, including a group of knights. Guarding a cave strewn with a small mountain of gnawed bones, it was supposedly destroyed by an ancient king with a weapon blessed by Yoba. The fact that I've encountered this beast for myself suggests that he only succeeded in royally (HA) ticking it off! It also doesn't like camera flashes, so I couldn't stick around to observe it further.",
+"MEEP.KillerBunny.Description": "I've got a real treat for you today, ladies & gents!\nThis evil tempered rodent is said to have claimed the lives of hundreds of unwary travelers many centuries ago, including a group of knights.\n\nGuarding a cave strewn with a small mountain of gnawed bones, it was supposedly destroyed by an ancient king with a weapon blessed by Yoba.\n\nClearly he didn't succeed, because I saw the beast for myself. This photo was taken right before I had to run for my life!",
 "MEEP.Grindylow": "In the Depths",
-"MEEP.Grindylow.Description": "Dylan was with me when I met this sneaky bugger, so he can back me up!! This is a Grindylow, a dangerous water demon that inhabits rivers, lakes and bogs. It can move on land but prefers to spend its time lying in wait just beneath the water's surface, where it's practically invisible to human eyesight. Parents would use this monster as a cautionary tale to avoid treacherous bodies of water - and for good reason! It has a remarkably strong grip and, given half a chance, it'll drag you under the water with it.",
+"MEEP.Grindylow.Description": "Dylan was with me when I met this sneaky bugger, so he can back me up!!\n\nThis is a Grindylow, a dangerous water demon that inhabits rivers, lakes and bogs. It can move on land but prefers to spend its time lying in wait just beneath the water's surface, where it's practically invisible to human eyesight.\n\nParents would use this monster as a cautionary tale to avoid treacherous bodies of water - and for good reason! It has a remarkably strong grip and, given half a chance, it'll drag you under the water with it.",
 "MEEP.MeetingSoot": "A New Friend",
-"MEEP.MeetingSoot.Description": "As you know, we recently moved to Stardew Valley and I've been doing part time work for the local Adventurer Guild. While in the mines I found THIS adorable little guy! Dust Sprites are common monsters that live in packs, so it was strange to see him on his own. I gave him a treat and before I knew it, I was bringing him home with me! Dylan's pretty miffed about suddenly sharing a living space with a monster but... guys, gals. Can ANY of you blame me?? Just look at the little fuzzball! LOOK! AAAAAAAAAAAAAAAAAAAAA!!!",
+"MEEP.MeetingSoot.Description": "As you know, we recently moved to Stardew Valley and I've been doing part time work for the local Adventurer Guild. While in the mines I found THIS adorable little guy! His name is Soot!\n\nDust Sprites are common monsters that live in packs, so it was strange to see him on his own. I gave him a treat and before I knew it, I was bringing him home with me!\n\nDylan's pretty miffed about suddenly sharing a living space with a monster but... guys, gals. Can ANY of you blame me?? Just look at the little fuzzball! LOOK! AAAAA!!!",
+"MEEP.Foghound": "Fog Hound",
+"MEEP.Foghound.Description": "Prepare yourselves dear readers for the chance to feast your eyes on one of the more elusive monsters! This is a species I'd never encountered... UNTIL NOW!\n\nFog Hounds are crafty pack predators from the north that have power over fog, which they use to disorient their quarry as they close in from all sides. They can even merge with it to an extent, rendering them almost intangible.\n\nFortunately, their fog cloaks can be evaporated with heat and light. Exposed, the beasts lose all bravado and run for the hills.",
 
 //SHOP STRINGS
 
@@ -1962,7 +1977,7 @@ SIGURD/SONDRA*/
 "CT.Maru.DylanIntro": "It's exciting to have a marine biologist living in Pelican Town! I think Dylan might actually know more about the local marine ecosystem than Dad.$1#$b#He's always been withdrawn, though. He's obviously passionate about his field of expertise, but he doesn't seem to like engaging with people.$2",
 "CT.Maru.DylanDroneProgress": "Hey, @! It won't be long until I'm done with the ROV. There's just a few last minute bugs to iron out in the software.$0#$b#I wonder if I forgot to put a comma or bracket somewhere...?$2",
 "CT.Maru.DylanExpedition": "I won't lie to you, I had some doubts that my ROV design would be able to get as far as it did. But it exceeded all of my expectations!$1#$b#I should give the little guy a name, don't you think?$0",
-"CT.Maru.DylanArticle": "It feels so weird seeing photos of me and Dad in that article! But it's so cool. We all had a great time.$1#$b#It was a bit embarrassing when he tried talking to them about mushrooms though... really, Dad? In a marine biology publication?$2\"",
+"CT.Maru.DylanArticle": "It feels so weird seeing photos of me and Dad in that article! But it was really cool to get to show off my ROV design.$1#$b#It was a bit embarrassing when he tried talking to them about mushrooms though... really, Dad? In a marine biology publication?$2\"",
 
 "CT.Maru.EnDClinicAppointment": "Eli got dragged to the clinic earlier by Dylan and... well, it wasn't easy for any of us. But he actually toughed it out.$1#$b#I gave him a hug before he went. I think he needed it.$0",
 "CT.Maru.EnDPlan": "I'm hopeful that Lewis is going to take our report to heart. At first I was nervous that he'd dismiss it, but he was a lot more patient than I expected.$0",
@@ -1979,7 +1994,7 @@ SIGURD/SONDRA*/
 "CT.Leah.DylanBeach": "The beach looks a lot nicer now. Thanks for your help with that, @!$0#$b#I've had to do that a few times before, on the beach and in the forest, but it's almost never THAT bad.$2",
 "CT.Leah.DylanTown": "Dylan stopped for a chat earlier. I'm glad to see him feeling better.$0#$b#We both had a laugh at the look Eli had on his face when Pam accosted him. Doesn't he deal with monsters for a living?$1",
 "CT.Leah.DylanSaloon": "Hi, @! I'm sorry that we got a tad carried away the other night.$0#$b#We must do it again sometime!$1",
-"CT.Leah.DylanArticle": "",
+"CT.Leah.DylanArticle": "It's great to see Dylan's confidence go up. The next time they take that drone down, I plan to watch.$1",
 "CT.Leah.DylanCCAquarium": "That aquarium in the Community Center is quite something, isn't it? A work of art, even. Maybe I should try designing an aquascape someday...$1",
 
 //ELLIOTT
@@ -2523,15 +2538,52 @@ SIGURD/SONDRA*/
 "Events.EliFogHounds.Shane.3": "I'll read you that story you were telling me about, okay? C'mon, kiddo.$1",
 "Events.EliFogHounds.Shane.4": "Thanks again for your help.$0",
 "Events.EliFogHounds.Message.1": "The mysterious fog starts to dissipate.",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
-"Events.EliFogHounds..": "",
+
+//10 HEARTS
+
+"Events.EliStory.NovaEli.1": "@! This is great timing, I was just looking for you. I've been asked to pick you up.$1",
+"Events.EliStory.Question.1.Answer.1": "Who asked you to pick me up?",
+"Events.EliStory.Question.1.Answer.2": "Do you mean that literally?",
+"Events.EliStory.Question.1.Response.1": "Our Junimo friends in the woods. They wanted me to bring them stories, remember? And they want you to be there.$0#$b#After all, you were there with me for some of them!$3",
+"Events.EliStory.Question.1.Response.2.A": "Haha!",
+"Events.EliStory.Question.1.Response.2.B": "While I'm pretty sure I can carry you, I'm definitely not piggybacking you out into the wilderness. Too much hassle.$6#$b#Nah, our Junimo friends want those stories I promised them. And they want you to be there.$0#$b#After all, you were with me for some of them!$3",
+"Events.EliStory.Allium.1": "Let's go! Let's go!! We want story time already!$1",
+"Events.EliStory.NovaEli.2": "And people think I'M impatient. Hold your horses Allium, I've got to show @ how we're getting there first!$10",
+"Events.EliStory.NovaEli.3": "Cute, isn't it! And not that hard to make, either. I'll show you how it's done, so you can visit Sentinel whenever.$1",
+"Events.EliStory.Message.1": "Learned how to craft a 'Warp Totem: Old Woods'!",
+"Events.EliStory.NovaEli.4": "Looks like nobody's around. So, are you ready @?$11",
+"Events.EliStory.Allium.2": "Let's go go go!",
+"Events.EliStory.Pam.1": "I... really need to cut back. I'm seeing things now.$2",
+"Events.EliStory.Allium.3": "Off to join with siblings. Give us few seconds!$0",
+"Events.EliStory.Sentinel.1": "Welcome back, friends!",
+"Events.EliStory.Sentinel.2": "@, Eli... It's good to see you. Please allow us to apologise for Allium's overenthusiasm.$0#$b#They were ever our most wilful constituent. Impulsive and adventurous. Did you know that they're the reason we met?$2",
+"Events.EliStory.Sentinel.3": "It wasn't me!! Don't slander Allium to our friends!$5",
+"Events.EliStory.Sentinel.4": "See what we must deal with? Ignore our mischievous sibling.$1",
+"Events.EliStory.NovaEli.5": "Wait, Allium's the reason we met? I know they followed me around a bunch, but how does that work out?$0",
+"Events.EliStory.Sentinel.5": "It was they who meddled with your new warp totem and hid it in your brother's room. You both fell into our hands, just as they intended.$0",
+"Events.EliStory.NovaEli.6": "So it WASN'T my fault it took us to the wrong place! Do you have any idea how long I spent trying to work out what went wrong??$7#$b#But I'm really glad that this wild rollercoaster of events happened, all the same!$3",
+"Events.EliStory.Sentinel.6": "We're also pleased to see that you're taking your end of our little bargain seriously, Eli. We didn't even need to send you a friendly reminder.$1",
+"Events.EliStory.Question.2.Answer.1": "Are you lonely, Sentinel? Does anyone else visit?",
+"Events.EliStory.Question.2.Answer.2": "'Friendly reminder...?'",
+"Events.EliStory.Question.2.Response.2": "Lonely? We're never alone. We have our own company and these woods teem with life.$0#$b#But our contact with humans is minimal. We're glad we befriended you two. It has broken up the ennui, given us some excitement.$1",
+"Events.EliStory.Question.2.Response.2": "We would've sent him a 'strongly worded letter' and given him a short grace period of a decade or two. After that, we would've made our displeasure known.$1",
+"Events.EliStory.NovaEli.7": "We've got so much to tell you about! And I really can't thank @ enough for it all.$1",
+"Events.EliStory.NovaEli.8": "If it wasn't for my bestie here, I wouldn't have made the discoveries I did. And I'd probably be hospitalised by now!$3",
+"Events.EliStory.NovaEli.9": "So, let's get started. Are you comfy? This is going to be a long one...$1",
+"Events.EliStory.Sentinel.7": "What an amusing and extraordinary tale! We're older than the soil this forest rests on, but we never knew about that pretty cave you found.$4#$b#And the monsters you met, the Fog Hounds... Allium helped you, so we already knew some of it. But you were disappointed, Eli. Why?$0",
+"Events.EliStory.NovaEli.10": "I was hoping they'd turn out to be something... more. I love studying monsters, but my field is more specialised than that.$2",
+"Events.EliStory.Sentinel.8": "Ah, right. You look for... cryptids? Elusive, unique beings out of legend whose existence has not been corroborated by humans.$0#$b#But you found us, did you not? There may be other beings out there, some far older and stranger to humans than we are. Don't lose hope!$1",
+"Events.EliStory.NovaEli.11": "No, you're right! They're out there, I know it. I won't give up.$9#$b#And when I find them and get solid proof, I'll tell you all about them!$1",
+"Events.EliStory.Sentinel.9": "That's the spirit! Who knows? Perhaps we've heard of a few of these 'cryptids'...$1#$b#Perhaps we might even drop a few hints your way sometime, if you continue to humour us like you did today.$4",
+"Events.EliStory.Sentinel.10": "And you, farmer...",
+"Events.EliStory.Sentinel.11": "Eli showed you how to get here, yes? You're welcome to visit at any time. You're our friend too!$1",
+"Events.EliStory.Question.3": "There is no pressure, of course.",
+"Events.EliStory.Question.3.Answer.1": "I'll try to visit sometime!",
+"Events.EliStory.Question.3.Answer.2": "Hmmm... Maaaaaaaaybe I'll visit if you're lucky!",
+"Events.EliStory.Question.3.Response.1": "Music to our ears! But please don't feel obligated. You're a busy person, after all.$1#$b#We've kept you for long enough, we think. It's time you were both on your way! Please take care of yourselves.$1",
+"Events.EliStory.Question.3.Response.2": "Teasing us, hmm? That's fair enough, seeing how we pranked you last time!$1#$b#We've kept you for long enough, we think. It's time you were both on your way! Please take care of yourselves.$1",
+"Events.EliStory.NovaEli.12": "They're right, we've been here for a while! Though I could honestly stay here all day. Let's take a nice walk back.$1",
+"Events.EliStory.NovaEli.13": "Thanks again, @. For everything. I genuinely mean it.$0#$b#Oh yeah, I've got another funny story for you. So this is about the time I accidentally tried to join a cult...!$3",
 
 //BONUS EVENTS
 

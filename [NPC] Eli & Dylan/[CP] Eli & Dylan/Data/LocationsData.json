@@ -219,8 +219,196 @@
 				},
 				"{{ModID}}_OldWoods": {
 					"DisplayName": "{{i18n:Core.Locations.OldWoods}}",
+					"DefaultArrivalTile": { "X": 29, "Y": 45 },
 					"CreateOnLoad": { "MapPath": "Maps/TenebrousNova.EliDylan.CP_OldWoods" },
-					"FormerLocationNames": [ "Custom_OldWoods" ]
+					"FormerLocationNames": [ "Custom_OldWoods" ],
+					"FishAreas": {
+						"EnD.OldWoodsPond": {
+							"DisplayName": "{{i18n:Core.Locations.OldWoodsPond}}",
+							"Position": null,
+							"CrabPotFishTypes": [],
+							"CrabPotJunkChance": 1.0
+						}
+					},
+					"Fish": [
+						{
+							"Id": "TenebrousNova.EnD.Junimeel",
+							"ItemId": "(O)TenebrousNova.EnD.Junimeel",
+							"FishaAreaID": "EnD.OldWoodsPond",
+							"Season": null
+						},
+						{
+							"Id": "EastScarp_Fairy_Betta_OldWoods",
+							"ItemId": "(O)EastScarp_Fairy_Betta",
+							"FishAreaID": "EnD.OldWoodsPond",
+							"Condition": "LOCATION_Season Here spring summer fall"
+						  },
+						  {
+							"Id": "(O)698",
+							"ItemId": "(O)698",
+							"Condition": "LOCATION_Season Here spring fall"
+						  },
+						  {
+							"Id": "(O)699",
+							"ItemId": "(O)699"
+						  },
+						  {
+							"Season": "Spring",
+							"Id": "(O)129",
+							"ItemId": "(O)129"
+						  },
+						  {
+							"Season": "Summer",
+							"Id": "(O)137",
+							"ItemId": "(O)137"
+						  },
+						  {
+							"Season": "Summer",
+							"Id": "(O)148",
+							"ItemId": "(O)148"
+						  },
+						  {
+							"FishAreaId": "OldWoods",
+							"Id": "(O)136_OldWoods",
+							"ItemId": "(O)136"
+						  },
+						  {
+							"Season": "fall",
+							"FishAreaId": "OldWoods",
+							"Id": "(O)137_OldWoods",
+							"ItemId": "(O)137"
+						  },
+						  {
+							"Season": "summer",
+							"FishAreaId": "OldWoods",
+							"Id": "(O)138_OldWoods",
+							"ItemId": "(O)138"
+						  },
+						  {
+							"Season": "spring",
+							"FishAreaId": "OldWoods",
+							"Id": "(O)138_OldWoods",
+							"ItemId": "(O)138"
+						  },
+						  {
+							"Season": "fall",
+							"FishAreaId": "OldWoods",
+							"Id": "(O)139_OldWoods",
+							"ItemId": "(O)139"
+						  }
+					],
+					"Forage": [
+						{
+							"Chance": 0.7,
+							"Season": "Spring",
+							"Condition": null,
+							"Id": "OldWoodsForage1",
+							"ItemId": "(O)20",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.5,
+							"Season": "Spring",
+							"Condition": null,
+							"Id": "OldWoodsForage2",
+							"ItemId": "(O)16",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.5,
+							"Season": "Summer",
+							"Condition": null,
+							"Id": "OldWoodsForage3",
+							"ItemId": "(O)396",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.8,
+							"Season": "Summer",
+							"Condition": null,
+							"Id": "OldWoodsForage4",
+							"ItemId": "(O)402",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.4,
+							"Season": "Fall",
+							"Condition": null,
+							"Id": "OldWoodsForage5",
+							"ItemId": "(O)404",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.4,
+							"Season": "Fall",
+							"Condition": null,
+							"Id": "OldWoodsForage6",
+							"ItemId": "(O)406",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.9,
+							"Season": "Fall",
+							"Condition": null,
+							"Id": "OldWoodsForage7",
+							"ItemId": "(O)408",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.85,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "OldWoodsForage8",
+							"ItemId": "(O)414",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.9,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "OldWoodsForage9",
+							"ItemId": "(O)418",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  },
+						  {
+							"Chance": 0.5,
+							"Season": "Winter",
+							"Condition": null,
+							"Id": "OldWoodsForage10",
+							"ItemId": "(O)283",
+							"RandomItemId": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1
+						  }
+					]
 				},
 				"{{ModID}}_DylanOcean": {
 					"DisplayName": "{{i18n:Core.Locations.DylanOcean}}",

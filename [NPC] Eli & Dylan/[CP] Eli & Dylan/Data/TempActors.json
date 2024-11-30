@@ -218,6 +218,11 @@
 		"Target": "Characters/DylanMagazine",
 		"FromFile": "Assets/Images/DylanMagazine.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoTotem",
+		"FromFile": "Assets/Images/JunimoTotem.png"
+	},
 	
 
 	//Loads Max from Always Raining in the Valley as a temp actor for events

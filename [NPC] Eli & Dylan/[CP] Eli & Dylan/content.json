@@ -92,7 +92,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json"
 	}
 	  
    ],
@@ -1097,8 +1097,20 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
-	//Dylan 6 Hearts
+	//Dylan 8 Hearts
 
+	{
+		"Name": "DylanExpedition_Gudrun",
+		"Value": ""
+	},
+	{
+		"Name": "DylanExpedition_Gudrun",
+		"Value": "MadDog.HashtagBearFam.Gudrun 40 36 1",
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
 	{
 		"Name": "DylanExpedition_BearFam1",
 		"Value": "pause 1"
@@ -1119,8 +1131,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_BearFam2",
 		"Value": "speak MadDog.HashtagBearFam.Sigurd? \"{{i18n:Events.DylanExpedition.Sigurd.2}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
-			"HasFlag |contains=BearFamExtraMembers": true
+			"HasMod": "MadDog.HashtagBearFam"
 		}
 	},
 	{

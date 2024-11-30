@@ -26,6 +26,7 @@
 				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.NovaEli.EliFogHounds}}",
+				"EliStory": "",
 				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
@@ -159,6 +160,7 @@
 				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.NovaDylan.EliFogHounds}}",
+				"EliStory": "",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
@@ -407,6 +409,7 @@
 			"Entries": {
 				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}",
+				"EliStory": "",
 				"EliFogHounds": "{{i18n:CT.Wizard.EliFogHounds}}"
 			}
 		},
@@ -487,7 +490,7 @@
 				"DylanBeach": "{{i18n:CT.Leah.DylanBeach}}",
 				"DylanTown": "{{i18n:CT.Leah.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon}}",
-				"DylanArticle": "",
+				"DylanArticle": "{{i18n:CT.Leah.DylanArticle}}",
 				"DylanCCAquarium": "{{i18n:CT.Leah.DylanCCAquarium}}"
 			}
 		},
@@ -638,7 +641,8 @@
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
 				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}",
-				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds}}"
+				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds}}",
+				"EliStory": ""
 			}
 		},
 

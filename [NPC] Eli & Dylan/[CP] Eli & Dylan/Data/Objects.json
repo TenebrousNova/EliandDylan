@@ -62,6 +62,8 @@
           "Description": "{{i18n:Core.Items.ChaosTotem.Description}}",
           "Type": "Crafting",
           "Category": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "Price": "250",
           "Texture": "Mods/EnD/Objects",
           "SpriteIndex": 30,
@@ -71,7 +73,33 @@
             "not_placeable",
             "totem_item"
           ]
+        },
+        "TenebrousNova.EnD.JunimoTotem": {
+          "Name": "TenebrousNova.EnD.JunimoTotem",
+          "DisplayName": "{{i18n:Core.Items.JunimoTotem}}",
+          "Description": "{{i18n:Core.Items.JunimoTotem.Description}}",
+          "Type": "Crafting",
+          "Category": 0,
+          "ExcludeFromRandomSale": true,
+          "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
+          "Price": "250",
+          "Texture": "Mods/EnD/Objects",
+          "SpriteIndex": 31,
+          "Edibility": -300,
+          "IsDrink": false,
+          "ContextTags": [
+            "not_placeable",
+            "totem_item"
+          ]
         }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "TenebrousNova.EnD.JunimoTotem": "TenebrousNova.EnD.MandrakeRoot 1 709 5 768 1//TenebrousNova.EnD.JunimoTotem 1/false/{{i18n:Core.Items.JunimoTotem}}"
       }
     },
 
@@ -88,6 +116,18 @@
               "R": "{{Random: 255, 0, 191, 255, 140, 92, 203, 100|key=warp-totem-{{Time}}-{{LocationName}}}}",
               "G": "{{Random: 0, 0, 0, 255, 242, 239, 63, 92|key=warp-totem-{{Time}}-{{LocationName}}}}",
               "B": "{{Random: 0, 255, 255, 255, 0, 255, 224, 112|key=warp-totem-{{Time}}-{{LocationName}}}}",
+              "A": "255"
+            }
+          }
+        },
+        "TenebrousNova.EnD.JunimoTotem": {
+          "TotemWarp": {
+            "Location": "{{ModID}}_OldWoods",
+            "Position": "29, 45",
+            "Color": {
+              "R": "3",
+              "G": "252",
+              "B": "127",
               "A": "255"
             }
           }
