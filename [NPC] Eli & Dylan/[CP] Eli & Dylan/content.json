@@ -680,7 +680,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "MadDog.HashtagBearFam.Sigurd? 31 68 3 MadDog.HashtagBearFam.Sondra? 31 69 3"
 	},
 	{
-		"Name": "EliJunimo2_Gunnar",
+		"Name": "EliJunimo2_Bears",
 		"Value": "MadDog.HashtagBearFam.Sigurd? 31 68 3 MadDog.HashtagBearFam.Gudrun? 46 69 2 MadDog.HashtagBearFam.Gunnar? 45 69 2 MadDog.HashtagBearFam.Sondra? 47 70 3",
 		"When": {
 			"HasFlag |contains=BearFamExtraMembers": true
