@@ -15,7 +15,7 @@
             "Trigger": "spacechase0.SpaceCore_OnItemEaten",
             "Action": "spacechase0.SpaceCore_PlaySound rockGolemHit true",
             "MarkActionApplied": false,
-            "Condition": "ITEM_ID Input (O)TenebrousNova.EnD.MandrakeRoot"
+            "Condition": "ITEM_ID Input (O){{ModID}}_TenebrousNova.EnD.MandrakeRoot"
           }
         }
       },
@@ -27,32 +27,16 @@
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
-          "TenebrousNova.EnD_SeedGift": {
-            "Id": "TenebrousNova.EnD_SeedGift",
+          "{{ModID}}_TenebrousNova.EnD_SeedGift": {
+            "Id": "{{ModID}}_TenebrousNova.EnD_SeedGift",
             "Trigger": "Manual",
-            "Condition": "!PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Any", 
+            "Condition": "!PLAYER_HAS_MAIL Current {{ModID}}_TenebrousNova.EnD_SeedGift_Received Any", 
             "Actions": [
-              "AddItem (O)TenebrousNova.EnD.BeholderFruitSeeds 8",
+              "AddItem (O){{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds 8",
               "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
-              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox}}\" (O)TenebrousNova.EnD.BeholderFruitSeeds",
-              "AddMail Current TenebrousNova.EnD_SeedGift_Received received"
+              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox}}\" (O){{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds",
+              "AddMail Current {{ModID}}_TenebrousNova.EnD_SeedGift_Received received"
             ]
-          }
-        }
-      },
-
-      //Sends the Dragon Eye seeds after seeing Dylan's 4 heart event.
-
-      {
-        "LogName": "Trigger Action - Dragon Eye Seeds",
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-          "EnD.DragonEyeMail": {
-            "Id": "EnD.DragonEyeMail",
-            "Trigger": "DayStarted",
-            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Dylan 1000, PLAYER_HAS_SEEN_EVENT Current EnD.Dylan.05",
-            "Action": "AddMail Current DylanGift Now"
           }
         }
       },
@@ -111,10 +95,10 @@
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
-          "TenebrousNova.EnD_MouseShopInvite": {
-            "Id": "TenebrousNova.EnD_MouseShopInvite",
+          "{{ModID}}_TenebrousNova.EnD_MouseShopInvite": {
+            "Id": "{{ModID}}_TenebrousNova.EnD_MouseShopInvite",
             "Trigger": "DayStarted",
-            "Condition": "Any \"PLAYER_HAS_MAIL Current TenebrousNova.EnD_SeedGift_Received Received\" \"PLAYER_HAS_MAIL Current EliLetter2 Received\" \"PLAYER_HAS_MAIL Current DylanGift Received\"",
+            "Condition": "Any \"PLAYER_HAS_MAIL Current {{ModID}}_TenebrousNova.EnD_SeedGift_Received Received\" \"PLAYER_HAS_MAIL Current EliLetter2 Received\" \"PLAYER_HAS_MAIL Current DylanGift Received\"",
             "Action": "AddMail Current MouseLetter Now",
             "MarkActionApplied": true
           }

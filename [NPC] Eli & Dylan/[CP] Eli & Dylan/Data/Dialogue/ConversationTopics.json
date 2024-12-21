@@ -26,7 +26,7 @@
 				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.NovaEli.EliFogHounds}}",
-				"EliStory": "",
+				"EliStory": "{{i18n:CT.NovaEli.EliStory}}",
 				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
@@ -72,10 +72,6 @@
 			    "SterlingRelapse": "{{i18n:CT.NovaEli.SterlingRelapse}}",
 			    "SterlingApology": "{{i18n:CT.NovaEli.SterlingApology}}",
 			    "SterlingRiver": "{{i18n:CT.NovaEli.SterlingRiver}}",
-
-				//Trace & Anew Topics
-
-				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaEli.AnewCoupleInTown}}",
 
 				//Diamond in the Rough Topics
 
@@ -160,7 +156,7 @@
 				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
 				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.NovaDylan.EliFogHounds}}",
-				"EliStory": "",
+				"EliStory": "{{i18n:CT.NovaDylan.EliStory}}",
 				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
 				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
 				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
@@ -203,10 +199,6 @@
 				"SterlingRelapse": "{{i18n:CT.NovaDylan.SterlingRelapse}}",
 				"SterlingApology": "{{i18n:CT.NovaDylan.SterlingApology}}",
 				"SterlingRiver": "{{i18n:CT.NovaDylan.SterlingRiver}}",
-
-				//Trace & Anew Topics
-
-				"TYRSA_AnewCoupleInTown": "{{i18n:CT.NovaDylan.AnewCoupleInTown}}",
 
 				//Diamond in the Rough Topics
 
@@ -409,7 +401,7 @@
 			"Entries": {
 				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}",
-				"EliStory": "",
+				"EliStory": "{{i18n:CT.Wizard.EliStory}}",
 				"EliFogHounds": "{{i18n:CT.Wizard.EliFogHounds}}"
 			}
 		},
@@ -511,7 +503,7 @@
 				"DylanBeach": "{{i18n:CT.Elliott.DylanBeach}}",
 				"DylanTown": "{{i18n:CT.Elliott.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.Elliott.DylanSaloon}}",
-				"DylanArticle": "",
+				"DylanArticle": "{{i18n:CT.Elliott.DylanArticle}}",
 				"DylanCCAquarium": "{{i18n:CT.Elliott.DylanCCAquarium}}"
 			}
 		},
@@ -561,7 +553,7 @@
 
 				//Dylan Topics
 
-				"DylanArticle": ""
+				"DylanArticle": "{{i18n:CT.Pierre.DylanArticle}}"
 			}
 		},
 
@@ -592,7 +584,7 @@
 				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
 				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}",
 				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}",
-				"DylanArticle": ""
+				"DylanArticle": "{{i18n:CT.Willy.DylanArticle}}"
 			}
 		},
 
@@ -603,7 +595,7 @@
 			"Entries": {
 				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}",
 				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}",
-				"DylanArticle": ""
+				"DylanArticle": "{{i18n:CT.Penny.DylanArticle}}"
 			}
 		},
 
@@ -642,7 +634,7 @@
 			"Entries": {
 				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}",
 				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds}}",
-				"EliStory": ""
+				"EliStory": "{{i18n:CT.Krobus.EliStory}}"
 			}
 		},
 
@@ -655,9 +647,9 @@
 					//Eli Topics
 
 					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
-					"EliMysteryBeast": "",
-					"EliFogHounds": "",
-					"EliGuild": "",
+					"EliMysteryBeast": "{{i18n:CT.Marlon.EliMysteryBeast}}",
+					"EliFogHounds": "{{i18n:CT.Marlon.EliFogHounds}}",
+					"EliGuild": "{{i18n:CT.Marlon.EliGuild}}",
 
 					//Dylan Topics
 
@@ -677,9 +669,9 @@
 					//Eli Topics
 
 					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
-					"EliMysteryBeast": "",
-					"EliFogHounds": "",
-					"EliGuild": "",
+					"EliMysteryBeast": "{{i18n:CT.MarlonSVE.EliMysteryBeast}}",
+					"EliFogHounds": "{{i18n:CT.MarlonSVE.EliFogHounds}}",
+					"EliGuild": "{{i18n:CT.MarlonSVE.EliGuild}}",
 
 					//Dylan Topics
 					
@@ -698,7 +690,7 @@
 				//Eli Topics
 
 				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast}}",
-				"EliFogHounds": ""
+				"EliFogHounds": "{{i18n:CT.Andy.EliFogHounds}}"
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true

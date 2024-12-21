@@ -4,18 +4,18 @@
         "Action": "EditData",
         "Target": "Data/Fish",
         "Entries": {
-          "TenebrousNova.EnD.LambentHyphafin": "Lambent Hyphafin/50/mixed/12/30/600 1600/spring summer fall winter/both/688 .6 684 .1/3/.5/.5/0",
-          "TenebrousNova.EnD.Junimeel": "Junimeel/95/sinker/12/48/600 2600//both/688 .6 684 .1/5/.2/.08/0",
-          "TenebrousNova.EnD.CombJelly": "Comb Jelly/20/floater/12/30/1700 2600/summer fall/both/688 .6 684 .1/5/.2/.08/0",
-          "TenebrousNova.EnD.BloodybellyCombJelly": "Bloodybelly Comb Jelly/30/floater/12/30/600 2600/winter/both/688 .6 684 .1/5/.2/.08/0"
+          "{{ModID}}_TenebrousNova.EnD.LambentHyphafin": "Lambent Hyphafin/50/mixed/12/30/600 1600/spring summer fall winter/both/688 .6 684 .1/3/.5/.5/0",
+          "{{ModID}}_TenebrousNova.EnD.Junimeel": "Junimeel/95/sinker/12/48/600 2600//both/688 .6 684 .1/5/.2/.08/0",
+          "{{ModID}}_TenebrousNova.EnD.CombJelly": "Comb Jelly/20/floater/12/30/1700 2600/summer fall/both/688 .6 684 .1/5/.2/.08/0",
+          "{{ModID}}_TenebrousNova.EnD.BloodybellyCombJelly": "Bloodybelly Comb Jelly/30/floater/12/30/600 2600/winter/both/688 .6 684 .1/5/.2/.08/0"
         }
       },
-  //"objectid": "name/how often it darts(15 carp, 100 glacierfish)/how it darts(mixed, smooth, floater, sinker, or dart)/min size inches/max size inches/time to catch/seasons unused/weather (sunny, rainy, both)/location unused/min water depth for best catch/spawn multiplier/depth multiplier/min finishing level"
+  /*"objectid": "name/how often it darts(15 carp, 100 glacierfish)/how it darts(mixed, smooth, floater, sinker, or dart)/min size inches/max size inches/time to catch/seasons unused/weather (sunny, rainy, both)/location unused/min water depth for best catch/spawn multiplier/depth multiplier/min finishing level"*/
 
   {
     "LogName": "Aquarium Sprites",
     "Action": "Load",
-    "Target": "Mods/TenebrousNova.EnD.CP/EnDAquariumFish",
+    "Target": "Mods/{{ModID}}_TenebrousNova.EnD.CP/EnDAquariumFish",
     "FromFile": "Assets/EnDAquariumFish.png"
   },
 
@@ -24,22 +24,22 @@
     "Action": "EditData",
     "Target": "Data/AquariumFish",
     "Entries": {
-      "TenebrousNova.EnD.LambentHyphafin": "0/fish/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Junimeel": "1/eel/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Marimo": "2/crawl/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish/13 10",
-      "TenebrousNova.EnD.FrogspawnCoral": "5/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.TorchCoral": "6/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.DuncanCoral": "7/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Trachyphyllia": "8/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Scolymia": "9/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.AcanCoral": "10/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.ToadstoolCoral": "11/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.CandyCaneCoral": "12/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.AcroporaCoral": "13/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.EleganceCoral": "14/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.Gorgonian": "15/static/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.CombJelly": "16/cephalopod/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish",
-      "TenebrousNova.EnD.BloodybellyCombJelly": "17/cephalopod/////Mods\\TenebrousNova.EnD.CP\\EnDAquariumFish"
+      "{{ModID}}_TenebrousNova.EnD.LambentHyphafin": "0/fish/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.Junimeel": "1/eel/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.Marimo": "2/crawl/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish/13 10",
+      "{{ModID}}_TenebrousNova.EnD.FrogspawnCoral": "5/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.TorchCoral": "6/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.DuncanCoral": "7/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.Trachyphyllia": "8/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.Scolymia": "9/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.AcanCoral": "10/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.ToadstoolCoral": "11/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.CandyCaneCoral": "12/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.AcroporaCoral": "13/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.EleganceCoral": "14/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.Gorgonian": "15/static/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.CombJelly": "16/cephalopod/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish",
+      "{{ModID}}_TenebrousNova.EnD.BloodybellyCombJelly": "17/cephalopod/////Mods\\{{ModID}}_TenebrousNova.EnD.CP\\EnDAquariumFish"
     }
   },
 
@@ -47,8 +47,8 @@
     "Action": "EditData",
     "Target": "Data/FishPondData",
     "Entries": {
-      "TenebrousNova.EnD.LambentHyphafin": {
-        "ID": "TenebrousNova.EnD.LambentHyphafin",
+      "{{ModID}}_TenebrousNova.EnD.LambentHyphafin": {
+        "ID": "{{ModID}}_TenebrousNova.EnD.LambentHyphafin",
         "RequiredTags": [
           "fish_lambenthyphafin" //MUST MATCH the tag you used for the object creation
         ],
@@ -102,8 +102,8 @@
           ]
         }
       },
-      "TenebrousNova.EnD.Junimeel": {
-        "ID": "TenebrousNova.EnD.Junimeel",
+      "{{ModID}}_TenebrousNova.EnD.Junimeel": {
+        "ID": "{{ModID}}_TenebrousNova.EnD.Junimeel",
         "RequiredTags": [
           "fish_junimeel"
         ],

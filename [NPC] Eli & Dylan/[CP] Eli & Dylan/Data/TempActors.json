@@ -259,12 +259,6 @@
 		"FromFile": "Assets/Images/Plants.png"
 	},
 	{
-		"LogName": "Forest Monster Fog",
-		"Action": "Load",
-		"Target": "EliDylan/ForestMonsterFog",
-		"FromFile": "Assets/Images/ForestMonsterFog.png"
-	},
-	{
 		"LogName": "Critters",
 		"Action": "Load",
 		"Target": "EliDylan/Critters",

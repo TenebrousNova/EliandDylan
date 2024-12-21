@@ -7,5 +7,6 @@
     "ContentPackFor": {
         "UniqueID": "PeacefulEnd.CustomCompanions",
         "MinimumVersion": "2.5.0"
-    }
+    },
+    "UpdateKeys": ["Nexus:?????"]
 }   

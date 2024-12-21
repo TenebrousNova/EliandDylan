@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#0000",
+        "editorError.background": "#0000",
+        "editorError.border": "#0000",
+        "minimap.errorHighlight": "#0000"
+    }
+}
