@@ -266,6 +266,10 @@
 			"divorced_once": "{{i18n:Core.NovaDylan.divorced_once}}",
   			"divorced_twice": "{{i18n:Core.NovaDylan.divorced_twice}}",
 			"fishCaught_159": "{{i18n:Core.NovaDylan.fishCaught_159}}",
+			"gotPet": "{{i18n:Core.NovaDylan.gotPet}}",
+			"firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "{{i18n:Core.NovaDylan.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse}}",
+			"houseUpgrade_1": "{{i18n:Core.NovaDylan.houseUpgrade_1}}",
+			"houseUpgrade_2": "{{i18n:Core.NovaDylan.houseUpgrade_2}}",
 			"GreenRain": "{{i18n:Core.NovaDylan.GreenRain}}",
 			"GreenRain2": "{{i18n:Core.NovaDylan.GreenRain2}}",
 			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}"

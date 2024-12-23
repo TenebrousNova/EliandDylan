@@ -346,6 +346,8 @@
 			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished}}",
 			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20}}",
 			"minearea_60": "{{i18n:Core.NovaEli.minearea_60}}",
+			"minearea_100": "{{i18n:Core.NovaEli.minearea_100}}",
+			"minearea_120": "{{i18n:Core.NovaEli.minearea_120}}",
 			"structureBuilt_Slime Hutch": "{{i18n:Core.NovaEli.structureBuilt_Slime Hutch}}",
 			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane}}",
 			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex}}",
