@@ -181,7 +181,7 @@
 			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Rodney.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
 		},
 		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien",
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA",
 			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
 			"Query: {{Random: {{Range: 1, 20}}|key=DRod}} = 1": true
 		}
