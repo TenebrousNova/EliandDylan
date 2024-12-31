@@ -10,7 +10,7 @@
   "UniqueID": "atravita.NovaNPCTest",
   "Name": "Eli and Dylan Code",
   "Author": "atravita",
-  "Version": "0.1.2",
+  "Version": "1.2.3",
   "Description": "Code unit for Eli and Dylan.",
   "MinimumApiVersion": "3.18",
   "EntryDll": "NovaNPCTest.dll",
