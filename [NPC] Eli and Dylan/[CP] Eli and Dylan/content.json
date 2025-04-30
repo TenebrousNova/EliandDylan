@@ -22,7 +22,7 @@ Lumina: Tilesheets that I've used in my house map, kindly made me a few more ass
 Gervig91: created many awesome animations, featured prominently in the events!
 Lemurkat: Created East Scarp (and saved my sanity when I was learning how map patches work).
 TheLoreSeeker: Proof reading and art.
-Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to copy their homework and encouraging me this entire time. Also helped me with most of the mod page!
+Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to copy their homework and encouraging me this entire time. Also helped me with the portrait config code and most of the mod page!
 Agent Lyoko: Providing a template for NPC Adventures, which has saved me a LOT of trouble.
 CreatorKami: Animated CG which turned out very nicely, C# help, plus lots of other technical help!
 Atravita: C# wizardry and helped troubleshoot schedule bugs that were driving me bonkers. Also helped me with the 1.6 transition.
@@ -53,35 +53,68 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Portraits & Sprites
 
 	{
-        "LogName": "Portraits",
+        "LogName": "Default Portraits",
         "Action": "Load",
+		"Priority": "Low",
         "Target": "Portraits/Nova.Eli, Portraits/Nova.Dylan",
-        "FromFile": "Assets/{{Target}}/spring.png"
+        "FromFile": "Assets/Portraits/{{Portrait Style}}/{{TargetWithoutPath}}/spring.png"
     },
 	{
-		"LogName": "Sprites",
+		"LogName": "Default Sprites",
 		"Action": "Load",
+		"Priority": "Low",
 		"Target": "Characters/Nova.Eli, Characters/Nova.Dylan",
 		"FromFile": "Assets/{{Target}}/spring.png"
 	},
 	{
-        "LogName": "Island Outfits",
+        "LogName": "Island Portraits",
         "Action": "Load",
+		"Priority": "Low",
         "Target": "Portraits/Nova.Eli_Beach, Portraits/Nova.Dylan_Beach",
-        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+        "FromFile": "Assets/Portraits/{{Portrait Style}}/{{TargetWithoutPath}}/{{TargetWithoutPath}}.png"
     },
     {
-        "LogName": "Island Outfits",
+        "LogName": "Island Sprites",
         "Action": "Load",
+		"Priority": "Low",
         "Target": "Characters/Nova.Eli_Beach, Characters/Nova.Dylan_Beach",
         "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
     },
+	{
+        "LogName": "Eli's Seasonal & Festival Portraits",
+        "Action": "Load",
+		"Priority": "Low",
+        "Target": "Portraits/Nova.Eli/spring, Portraits/Nova.Eli/spring2, Portraits/Nova.Eli/summer, Portraits/Nova.Eli/summer2, Portraits/Nova.Eli/fall, Portraits/Nova.Eli/fall2, Portraits/Nova.Eli/winter, Portraits/Nova.Eli/winter2, Portraits/Nova.Eli/springRain, Portraits/Nova.Eli/springRain2, Portraits/Nova.Eli/summerRain, Portraits/Nova.Eli/summerRain2, Portraits/Nova.Eli/fallRain, Portraits/Nova.Eli/fallRain2, Portraits/Nova.Eli/winterRain, Portraits/Nova.Eli/winterRain2, Portraits/Nova.Eli/adventure, Portraits/Nova.Eli/adventureRain, Portraits/Nova.Eli/islandRain, Portraits/Nova.Eli/pride, Portraits/Nova.Eli/prideRain, Portraits/Nova.Eli/eggfestival, Portraits/Nova.Eli/fair, Portraits/Nova.Eli/flowerdance, Portraits/Nova.Eli/icefestival, Portraits/Nova.Eli/luau, Portraits/Nova.Eli/moonlight, Portraits/Nova.Eli/spiritseve, Portraits/Nova.Eli/spiritseve2, Portraits/Nova.Eli/winterstar",
+        "FromFile": "Assets/Portraits/{{Portrait Style}}/Nova.Eli/{{TargetWithoutPath}}.png"
+    },
+	{
+        "LogName": "Dylan's Seasonal & Festival Portraits",
+        "Action": "Load",
+		"Priority": "Low",
+        "Target": "Portraits/Nova.Dylan/spring, Portraits/Nova.Dylan/spring2, Portraits/Nova.Dylan/summer, Portraits/Nova.Dylan/summer2, Portraits/Nova.Dylan/fall, Portraits/Nova.Dylan/fall2, Portraits/Nova.Dylan/winter, Portraits/Nova.Dylan/winter2, Portraits/Nova.Dylan/springRain, Portraits/Nova.Dylan/springRain2, Portraits/Nova.Dylan/summerRain, Portraits/Nova.Dylan/summerRain2, Portraits/Nova.Dylan/fallRain, Portraits/Nova.Dylan/fallRain2, Portraits/Nova.Dylan/winterRain, Portraits/Nova.Dylan/winterRain2, Portraits/Nova.Dylan/pride, Portraits/Nova.Dylan/prideRain, Portraits/Nova.Dylan/eggfestival, Portraits/Nova.Dylan/fair, Portraits/Nova.Dylan/flowerdance, Portraits/Nova.Dylan/icefestival, Portraits/Nova.Dylan/luau, Portraits/Nova.Dylan/moonlight, Portraits/Nova.Dylan/spiritseve, Portraits/Nova.Dylan/spiritseve2, Portraits/Nova.Dylan/winterstar",
+        "FromFile": "Assets/Portraits/{{Portrait Style}}/Nova.Dylan/{{TargetWithoutPath}}.png"
+    },
+	{
+		"LogName": "Eli's Seasonal & Festival Sprites",
+		"Action": "Load",
+		"Priority": "Low",
+		"Target": "Characters/Nova.Eli/spring, Characters/Nova.Eli/spring2, Characters.Nova.Eli/summer, Characters/Nova.Eli/summer2, Characters/Nova.Eli/fall, Characters/Nova.Eli/fall2, Characters/Nova.Eli/winter, Characters/Nova.Eli/winter2, Characters/Nova.Eli/adventure, Characters/Nova.Eli/pride, Characters/Nova.Eli/eggfestival, Characters/Nova.Eli/fair, Characters/Nova.Eli/flowerdance, Characters/Nova.Eli/icefestival, Characters/Nova.Eli/luau, Characters/Nova.Eli/moonlight, Characters/Nova.Eli/spiritseve, Characters/Nova.Eli/spiritseve2, Characters/Nova.Eli/winterstar",
+		"FromFile": "Assets/Characters/Nova.Eli/{{TargetWithoutPath}}.png"
+	},
+	{
+		"LogName": "Dylan's Seasonal & Festival Sprites",
+		"Action": "Load",
+		"Priority": "Low",
+		"Target": "Characters/Nova.Dylan/spring, Characters/Nova.Dylan/spring2, Characters.Nova.Dylan/summer, Characters/Nova.Dylan/summer2, Characters/Nova.Dylan/fall, Characters/Nova.Dylan/fall2, Characters/Nova.Dylan/winter, Characters/Nova.Dylan/winter2, Characters/Nova.Dylan/pride, Characters/Nova.Dylan/eggfestival, Characters/Nova.Dylan/fair, Characters/Nova.Dylan/flowerdance, Characters/Nova.Dylan/icefestival, Characters/Nova.Dylan/luau, Characters/Nova.Dylan/moonlight, Characters/Nova.Dylan/spiritseve, Characters/Nova.Dylan/spiritseve2, Characters/Nova.Dylan/winterstar",
+		"FromFile": "Assets/Characters/Nova.Dylan/{{TargetWithoutPath}}.png"
+	},
 
 	  //File Includes
 	  
 	  {
 		"LogName": "Dialogue Load",
 		"Action": "Load",
+		"Priority": "Low",
 		"Target": "Characters/Dialogue/Nova.Eli, Characters/Dialogue/Nova.Dylan, Characters/Schedules/Nova.Eli, Characters/Schedules/Nova.Dylan, Strings/schedules/Nova.Eli, Strings/schedules/Nova.Dylan",
 		"FromFile": "Data/blank.json"
     },
@@ -104,6 +137,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
    //Config
 
    "ConfigSchema": {
+	"Portrait Style": {
+      "AllowValues": "NinTheCactus, 6480",
+      "Default": "NinTheCactus",
+      "AllowBlank": false,
+      "AllowMultiple": false,
+      "Description": "Sets the mod's portrait style to either NinTheCactus or 6480.",
+      "Section": "Portraits"
+    },
 	"Exclude From Perfection": {
 		"AllowValues": "true, false",
 		"Default": "false",
