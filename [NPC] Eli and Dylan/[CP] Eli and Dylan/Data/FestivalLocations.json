@@ -1,0 +1,699 @@
+{
+	"Changes": [
+	//Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+	//Note to self: make other modder's lives easier! Fill in Hime's festival spreadsheet once near publishing stage.
+
+	/*
+	debug festival spring13 - Egg Festival
+debug festival fall16 - Stardew Valley Fair
+debug festival spring24 - Flower Dance
+debug festival fall27 - Spirit's Eve
+debug festival summer11 - Luau
+debug festival winter8 - Festival of Ice
+debug festival summer28 - Moonlight Jellies
+debug festival winter25 - Winter Star
+*/
+	{
+		"LogName": "Egg Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 44 78 2/Nova.Dylan 45 78 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 38 74 3/Nova.Dylan 38 75 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 44 78 2/Nova.Dylan 45 78 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 38 74 3/Nova.Dylan 38 75 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 44 76 2 false Character/positionOffset Soot 20 -40/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 44 76 2 false Character/positionOffset Soot 20 -40/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Egg Festival - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 42 76 2 false Character/positionOffset Thistle -40 0"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 42 76 2 false Character/positionOffset Thistle -40 0"
+			}
+		]
+	},
+	
+	{
+		"LogName": "Flower Dance",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 46 44 3/Nova.Dylan 46 45 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 10 32 0/Nova.Dylan 9 32 0",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 50 43 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 46 44 3/Nova.Dylan 46 45 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 10 32 0/Nova.Dylan 9 32 0",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 50 43 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Flower Dance - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 45 42 3 false Character"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 45 42 3 false Character"
+			}
+		]
+	},
+	
+		{
+		"LogName": "Luau SVE",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 22 25 2/Nova.Dylan 46 13 0",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 44 11 3/Nova.Dylan 44 12 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 22 25 2/Nova.Dylan 40 39 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 14 9 1/Nova.Dylan 14 8 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Luau Vanilla",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 22 25 2/Nova.Dylan 46 13 0",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 44 11 3/Nova.Dylan 44 12 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 22 25 2/Nova.Dylan 40 39 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 14 9 1/Nova.Dylan 14 8 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17 17 17/addTemporaryActor Soot 16 32 13 5 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Luau - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 49 11 3 false Character"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 38 40 2 false Character/positionOffset Thistle 0 -10"
+			}
+		]
+	},
+
+	{
+		"LogName": "Moonlight SVE",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 42 24 2/Nova.Dylan 43 24 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 42 24 2/Nova.Dylan 43 24 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 32 5 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 94 46 2/Nova.Dylan 93 46 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 94 46 2/Nova.Dylan 93 46 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 92 43 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Moonlight Vanilla",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 52 24 2/Nova.Dylan 53 24 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 52 24 2/Nova.Dylan 53 24 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 32 5 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 94 46 2/Nova.Dylan 93 46 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 94 46 2/Nova.Dylan 93 46 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 92 43 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Moonlight - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 33 33 2 false Character/positionOffset Thistle -40 0"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 89 34 3 false Character/positionOffset Thistle -40 -40"
+			}
+		]
+	},
+	
+	{
+		"LogName": "Fair",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 46 72 2/Nova.Dylan 62 65 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 47 72 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 49 89 3/Nova.Dylan 48 89 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 52 88 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19/positionOffset Soot 20 0"
+		}
+		]
+	},
+	{
+		"LogName": "Fair - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 63 65 2 false Character/positionOffset Thistle 10 24"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 59 69 3 false Character/positionOffset Thistle 15 0"
+			}
+		]
+	},
+	
+	{
+		"LogName": "Spirit's Eve SVE",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 41 36 2/Nova.Dylan 23 54 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 22 54 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 23 22 1/Nova.Dylan 24 22 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 22 22 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	
+	{
+		"LogName": "Spirit's Eve Vanilla",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 24 16 2/Nova.Dylan 23 54 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 22 54 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 23 22 1/Nova.Dylan 24 22 3",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 22 22 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Spirit's Eve - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 28 58 1 false Character/positionOffset Thistle 15 0"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 20 23 1 false Character/positionOffset Thistle -10 -15"
+			}
+		]
+	},
+	
+		{
+		"LogName": "Ice Festival SVE",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 37 24 3/Nova.Dylan 66 12 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 37 24 3/Nova.Dylan 62 33 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 37 25 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 37 24 3/Nova.Dylan 66 12 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 37 24 3/Nova.Dylan 62 33 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 37 25 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Ice Festival Vanilla",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"When": { "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false },
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 29 14 3/Nova.Dylan 66 12 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+			"Value": "Nova.Eli 29 14 3/Nova.Dylan 63 32 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up", 5],
+			"Value": "/addTemporaryActor Soot 16 32 30 15 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 29 14 3/Nova.Dylan 66 12 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 29 14 3/Nova.Dylan 63 32 1",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Fields", "set-up_y2", 5],
+			"Value": "/addTemporaryActor Soot 16 32 30 15 2 false Character/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+		}
+		]
+	},
+	{
+		"LogName": "Ice Festival - Thistle",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"When": { "HasSeenEvent": "EnD.Critters.02" },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 66 10 2 false Character"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up_y2", 5],
+				"Value": "/addTemporaryActor Thistle 32 32 63 13 1 false Character/positionOffset Thistle -20 5"
+			}
+		]
+	},
+	
+	{
+		"LogName": "Winter Star",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"When": {"HasMod |contains=Fellowclown.Lyell": true},
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 48 57 2/Nova.Dylan 45 57 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 50 74 3/Nova.Dylan 49 74 1",
+			"Delimiter": "/"
+		}
+		]
+	},
+	{
+		"LogName": "Winter Star",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"When": {"HasMod |contains=Fellowclown.Lyell": false},
+		"TextOperations": [
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+			"Value": "Nova.Eli 47 57 2/Nova.Dylan 46 57 2",
+			"Delimiter": "/"
+		},
+		{
+			"Operation": "Append",
+			"Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+			"Value": "Nova.Eli 50 74 3/Nova.Dylan 49 74 1",
+			"Delimiter": "/"
+		}
+		]
+	},
+
+	{
+		"LogName": "Violet Moon Renaissance Faire",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall1",
+		"When": { "HasMod |contains=DN.SnS.VMFest": true },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+				"Value": "Nova.Eli 84 54 2/Nova.Dylan 83 53 2",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+				"Value": "Nova.Eli 84 54 2/Nova.Dylan 83 53 2",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Fields", "set-up", 5],
+				"Value": "/positionOffset Nova.Eli 0 -20/animate Nova.Eli false true 100 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 140 140 140 140 140 140 140 140/animate Nova.Dylan false true 100 18 18 18/addTemporaryActor Soot 16 32 86 53 2 false Character/positionOffset Soot 0 -20/animate Soot false true 20 20 21 22 23 24 25 26 27 28 29 30 31 32 33 18 17 16 16 17 17 18 19"
+			}
+		]
+	},
+
+	{
+		"LogName": "Ridgeside Gathering Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+				"Value": "Nova.Eli 63 46 3/Nova.Dylan 62 46 1",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+				"Value": "Nova.Eli 88 43 3/Nova.Dylan 88 44 3",
+				"Delimiter": "/"
+			}
+		]
+	},
+	{
+		"LogName": "Ember of Resolutions",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "Set-Up_additionalCharacters" ],
+				"Value": "Nova.Eli 53 53 3/Nova.Dylan 52 53 1",
+				"Delimiter": "/"
+			},
+			{
+				"Operation": "Append",
+				"Target": [ "Entries", "MainEvent_additionalCharacters" ],
+				"Value": "Nova.Eli 26 48 1/Nova.Dylan 26 49 1",
+				"Delimiter": "/"
+			}
+		]
+	},
+
+	{
+		"LogName": "Fireworks Festival",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer20",
+		"When": { "HasMod |contains=violetlizabet.FireworksFestival": true},
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": [
+					"Entries",
+					"Set-Up_additionalCharacters"
+				],
+				"Value": "Nova.Eli 13 29 1/Nova.Dylan 13 30 1",
+				"Delimiter": "/"
+			}
+		]
+	}
+	]
+}

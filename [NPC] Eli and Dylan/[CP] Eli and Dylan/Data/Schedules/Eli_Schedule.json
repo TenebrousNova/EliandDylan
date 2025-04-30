@@ -1,0 +1,84 @@
+{
+    "Changes": 
+
+        [
+
+            {
+                //Directions: 0 = UP, 1 = RIGHT, 2 = DOWN, 3 = LEFT
+
+                //Main Schedule
+
+                "LogName": "Eli Main Schedule",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+
+                    "rain": "{{Random:{{EliRain_A}}++{{EliRain_B}}|InputSeparator=++}}",
+                    "spring": "{{Random:{{EliMonday_A}}++{{EliMonday_B}}|InputSeparator=++}}",
+                    "Tue": "{{Random:{{EliTuesday_A}}++{{EliTuesday_B}}|InputSeparator=++}}",
+                    "Wed": "{{Random:{{EliWednesday_A}}++{{EliWednesday_B}}|InputSeparator=++}}",
+                    "Thu": "{{Random:{{EliThursday_A}}++{{EliThursday_B}}|InputSeparator=++}}",
+                    "Fri": "{{Random:{{EliFriday_A}}++{{EliFriday_B}}|InputSeparator=++}}",
+                    "Sat": "{{Random:{{EliSaturday_A}}++{{EliSaturday_B}}|InputSeparator=++}}",
+                    "Sun": "{{Random:{{EliSunday_A}}++{{EliSunday_B}}|InputSeparator=++}}",
+                    "DesertFestival_1": "610 BusStop 31 22 1/1130 Desert 31 56 2 EliSitA/2000 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "DesertFestival_2": "GOTO DesertFestival_1",
+                    "DesertFestival_3": "GOTO DesertFestival_1",
+                    "summer_7": "610 Hospital 12 14 2/1250 10 15 0/1330 4 6 1/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "TroutDerby_1": "610 {{ModID}}_ESEDHouse 14 22 1/0800 Forest 97 38 3/2000 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "TroutDerby_2": "GOTO TroutDerby_1",
+                    "fall_27": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 76 114 1/0900 41 67 1/1120 EastScarp_VillageInn 26 27 2/2000 Town 0 0 0",
+                    "winter_6": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 20 66 1/1000 Beach 44 35 1/1400 Town 44 77 2 EliSitB/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "SquidFest_1": "610 Beach 50 21 3 EliMarshmallow/2000 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "SquidFest_2": "GOTO SquidFest_1",
+                    "NightMarket_1": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 54 84 2 EliSitB/1000 53 69 3/1130 24 62 2/1400 Beach 14 25 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "NightMarket_2": "GOTO NightMarket_1",
+                    "NightMarket_3": "GOTO NightMarket_1",
+                    "GreenRain": "610 Town 29 67 square_7_7/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+                }
+            },
+            // Before the Railroad is unlocked, he'll visit the Mountain instead.
+            {
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+                    "Railroad_Replacement": "{{EliMountain_Wed}}"
+                }
+            },
+
+            //Deprives poor Harvey and Maru of a Sunday off so they can be subjected to Eli being a big baby for a few hours.
+            {
+                "LogName": "Harvey Eli Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Harvey",
+                "Entries": {
+                    "summer_7": "GOTO Tue"
+                }
+            },
+            {
+                "LogName": "Maru Eli Appointment",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Maru",
+                "Entries": {
+                    "summer_7": "GOTO Tue"
+                }
+            },
+
+            //Pride Festival!
+
+            {
+                "LogName": "Pride Festival",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+                    "summer_16": "610 CommunityCenter 50 7 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+                },
+                "When": {
+                    "HasMod |contains=sapphicsaph_pitv": true
+                }
+            }
+    ]
+}
+
+
+

@@ -1,0 +1,313 @@
+{
+	"Changes": [
+	
+	{
+		"LogName": "Dylan",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			
+			//Intro
+			
+			"Introduction": "{{i18n:Core.NovaDylan.Introduction}}",
+
+			//Important Dates
+			
+			"spring_2_2": "{{i18n:Core.NovaDylan.Spring.2.2}}",
+			"spring_3_1": "{{i18n:Core.NovaDylan.Spring.3.1}}",
+			"spring_12_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.12}}",
+			"spring_23_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.23}}",
+			"spring_27_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Spring.27}}",
+			"summer_10_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Summer.10}}",
+			"summer_27_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Summer.27}}",
+			"fall_15_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.15}}",
+			"fall_26_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.26}}",
+			"fall_28_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Fall.28}}",
+			"winter_5_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.5}}",
+			"winter_7_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.7}}",
+			"winter_15_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.15}}",
+			"winter_16_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.16}}",
+			"winter_17_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.17}}",
+			"winter_18_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.18}}",
+			"winter_24_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.24}}",
+			"winter_28_{{YearRepeat}}": "{{i18n:Core.NovaDylan.Winter.28}}",
+
+			//Festival Lines
+
+			"wonEggHunt": "{{i18n:Core.NovaDylan.wonEggHunt}}",
+
+			"Fair_Judging": "{{i18n:Core.NovaDylan.Fair_Judging}}",
+			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerLost_PurpleShorts}}",
+			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerLost_Skipped}}",
+			"Fair_Judged_PlayerLost": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerLost}}",
+			"Fair_Judged_PlayerWon": "{{i18n:Core.NovaDylan.Fair_Judged_PlayerWon}}",
+
+			"FlowerDance_Decline": "{{i18n:Core.NovaDylan.DanceRejection}}",
+
+			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_Before}}",
+			"WinterStar_GiveGift_After": "{{i18n:Core.NovaDylan.WinterStar_GiveGift_After}}"
+		}
+	},
+	{
+		"LogName": "Dylan 0-4 Heart Dialogue",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{Random:{{Range: 1, 60}}}}}}"
+		},
+		"When": {
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false
+		  }
+	},
+	{
+		"LogName": "Dylan 5-10 Heart Dialogue",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{Random:{{Range: 1, 100}}}}}}"
+		},
+		"When": {
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		  }
+	},
+	{
+		"LogName": "Dylan Seasonal Dialogue Override 0-4",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": 	{ 
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.0-4.{{season}}.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": { 
+			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+		 }
+	},
+	{
+		"LogName": "Dylan Seasonal Dialogue Override 5-10",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": 	{ 
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.5-10.{{season}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": { 
+			"Query: {{Random: {{Range: 1, 15}}|key=DSO}} = 1": true,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		 }
+	},
+
+	//#BearFam Commentary
+	{
+		"LogName": "Dylan #BearFam Commentary (Sig, Platonic)",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target":"Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.SigPlatonic.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=SigDylanRHActive": false,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DSigP}} = 1": true
+		}
+	},
+	{
+		"LogName": "Dylan #BearFam Commentary (Sondra)",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target":"Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sondra.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DSon}} = 1": true
+		}
+	},
+	{
+		"LogName": "Dylan #BearFam Commentary (Gunnar/Gudrun)",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target":"Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.GunnarGudrun.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"HasFlag |contains=BearFamExtraMembers": true,
+			"Query: {{Random: {{Range: 1, 20}}|key=DGunGud}} = 1": true
+		}
+	},
+	{
+		"LogName": "Dylan #BearFam Commentary (Teren)",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target":"Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Teren.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "MadDog.HashtagBearFam",
+			"HasFlag |contains=TerenMysteryMail": true,
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DTer}} = 1": true
+		}
+	},
+
+	//The Writer, the Witch and the Wardrobe Assistant commentary
+
+	{
+		"LogName": "Dylan Rodney Commentary",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Rodney.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DRod}} = 1": true
+		}
+	},
+
+	//Diamond in the Rough Commentary
+
+	{
+		"LogName": "Dylan Sen Commentary",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "7thAxis.DitR, 7thAxis.LitD.CP",
+			"HasSeenEvent": "EnD.Eli.05",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DSen}} = 1": true
+		}
+	},
+
+	//Sword & Sorcery Commentary
+
+	{
+		"LogName": "Dylan Mateo Commentary",
+		"Action": "EditData",
+		"Update": "OnLocationChange",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Priority": "Late",
+		"Entries": {
+			"{{WeekDay}}": "{{i18n:Core.NovaDylan.Mateo.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+		},
+		"When": {
+			"HasMod": "DN.SnS.CP",
+			"HasSeenEvent": "SnS.Ch1.Mateo.1",
+			"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+			"Query: {{Random: {{Range: 1, 20}}|key=DMat}} = 1": true
+		}
+	},
+
+		//Nora Commentary
+
+		{
+			"LogName": "Dylan Nora Commentary",
+			"Action": "EditData",
+			"Update": "OnLocationChange",
+			"Target": "Characters/Dialogue/Nova.Dylan",
+			"Priority": "Late",
+			"Entries": {
+				"{{WeekDay}}": "{{i18n:Core.NovaDylan.Nora.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Dylan_OverrideSeenToday received"
+			},
+			"When": {
+				"HasMod": "Bagi.Nora.CP",
+				"HasFlag: |contains=EnD_Dylan_OverrideSeenToday": false,
+				"Query: {{Random: {{Range: 1, 20}}|key=DNor}} = 1": true
+			}
+		},
+
+	{
+		"LogName": "Dylan Misc Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"HitBySlingshot": "{{i18n:Core.NovaDylan.HitBySlingshot.{{Random:{{Range: 1, 5}}}}}}",
+			"DumpsterDiveComment": "{{i18n:Core.NovaDylan.DumpsterDiveComment}}",
+			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaDylan.RejectMovieTicket_AlreadyWatchedThisWeek}}",
+			"RejectBouquet_NotDateable": "{{i18n:Core.NovaDylan.RejectBouquet_NotDateable}}",
+			"RejectMermaidPendant_NotDatable": "{{i18n:Core.NovaDylan.RejectMermaidPendant_NotDatable}}",
+			"Resort_Entering": "{{i18n:Core.NovaDylan.Resort_Entering}}",
+			"Resort": "{{i18n:Core.NovaDylan.Resort}}",
+			"Resort_Leaving": "{{i18n:Core.NovaDylan.Resort_Leaving}}",
+			"Resort_Shore": "{{i18n:Core.NovaDylan.Resort_Shore}}",
+			"Resort_Wander": "{{i18n:Core.NovaDylan.Resort_Wander}}",
+			"Resort_Wander_2": "{{i18n:Core.NovaDylan.Resort_Wander_2}}",
+			"Resort_Wander_3": "{{i18n:Core.NovaDylan.Resort_Wander_3}}",
+			"Resort_Chair": "{{i18n:Core.NovaDylan.Resort_Chair}}",
+			"Resort_Bar": "{{i18n:Core.NovaDylan.Resort_Bar}}",
+			"divorced_once": "{{i18n:Core.NovaDylan.divorced_once}}",
+  			"divorced_twice": "{{i18n:Core.NovaDylan.divorced_twice}}",
+			"fishCaught_159": "{{i18n:Core.NovaDylan.fishCaught_159}}",
+			"gotPet": "{{i18n:Core.NovaDylan.gotPet}}",
+			"firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "{{i18n:Core.NovaDylan.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse}}",
+			"houseUpgrade_1": "{{i18n:Core.NovaDylan.houseUpgrade_1}}",
+			"houseUpgrade_2": "{{i18n:Core.NovaDylan.houseUpgrade_2}}",
+			"GreenRain": "{{i18n:Core.NovaDylan.GreenRain}}",
+			"GreenRain2": "{{i18n:Core.NovaDylan.GreenRain2}}",
+			"GreenRainFinished": "{{i18n:Core.NovaDylan.GreenRainFinished}}"
+			//eventseen_(thearrivalevent)_memory_oneweek
+			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
+		}
+	},
+
+	{
+		"LogName": "Dylan Locational Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Nova.Dylan",
+		"Entries": {
+			"Hospital_12_14": "{{i18n:Locations.NovaDylan.ClinicWaitA.{{Random:{{Range: 1, 3}}}}}}",
+			"Hospital_10_15": "{{i18n:Locations.NovaDylan.ClinicWaitB.{{Random:{{Range: 1, 3}}}}}}",
+			"Hospital_4_6": "{{i18n:Locations.NovaDylan.ClinicAppointment.{{Random:{{Range: 1, 3}}}}}}",
+			"EastScarp_Village_40_67": "{{i18n:Locations.NovaDylan.SpiritsEveInn.1}}",
+			"EastScarp_VillageInn_SpiritEve_25_27": "{{i18n:Locations.NovaDylan.SpritisEveInn.2}}",
+			"Forest_96_38": "{{i18n:Locations.NovaDylan.TroutDerby.1}}",
+			"DesertFestival_31_55": "{{i18n:Locations.NovaDylan.DesertFestival.1}}",
+			"Beach_55_22": "{{i18n:Locations.NovaDylan.SquidFest.1}}",
+			"sapphicsaph_pitv.CommunityCenterPride_49_7": "{{i18n:Locations.NovaDylan.PrideFestival.1}}"
+		}
+	},
+	{
+		"LogName": "Dylan Daily Flag Remover", 
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+  
+			"{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal": {
+				"Id": "{{ModId}}.TriggerActions.NovaDylan.OverrideSeenToday.Removal",
+				"MarkActionApplied": false,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_OverrideSeenToday Any",
+				"Actions": [ "RemoveMail Current EnD_Dylan_OverrideSeenToday" ]
+			}
+		}
+	}
+	]
+}

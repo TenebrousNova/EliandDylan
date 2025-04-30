@@ -1,0 +1,30 @@
+{
+  "Name": "Eli & Dylan",
+  "Author": "Tenebrous Nova",
+  "Version": "1.2.4",
+  "Description": "Adds two new oddballs to town.",
+	"UniqueID": "TenebrousNova.EliDylan.CP",
+	"MinimumApiVersion": "3.7.0",
+	"ContentPackFor": {
+	"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"UpdateKeys": [
+		"Nexus:13883"
+	],
+
+
+	"Dependencies": [
+		{
+			"UniqueID": "Lemurkat.EastScarpe.CP",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "PeacefulEnd.CustomCompanions",
+			"IsRequired": true
+		 },
+		 {
+            "UniqueID": "LemurKat.CommunityCenter.CP",
+            "IsRequired": false
+        }
+	]
+}
