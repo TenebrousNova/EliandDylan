@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine",
+            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine, {{ModID}}/Tentacle, {{ModID}}/Silhouette, {{ModID}}/Thief, {{ModID}}/Dive",
             "FromFile": "Assets/MEEP/{{TargetWithoutPath}}.png"
         },
         {
@@ -25,7 +25,13 @@
                         "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto}}",
 
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Octopus",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}"
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}",
+                        
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Thief",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief}}",
+
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Dive",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive}}"
                     }
                 }
             ]
@@ -55,8 +61,14 @@
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Octopus",
                         "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}",
 
-                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/AbyssFootage",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.AbyssFootage}}"
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Thief",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief}}",
+
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Dive",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive}}",
+
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/AbyssFootage",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.AbyssFootage}}"
                     }
                 }
             ]
@@ -81,6 +93,43 @@
             "When": {
                 "HasSeenEvent |contains=EnD.Dylan.11": true
             }
+        },
+
+        {
+            "LogName": "Poster - The Thing from Beneath the Ice",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Tentacle",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.3}}"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Poster - The Silhouette at the Window",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Silhouette",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.4}}"
+                    }
+                }
+            ]
         },
 
         {
@@ -112,7 +161,12 @@
                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/MeetingSoot",
                         "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot}}",
                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}"
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}",
+
+                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Blooper",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper}}",
+                        "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description}}"
                     }
                 }
             ]
@@ -151,10 +205,15 @@
                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
                         "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}",
 
-                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Foghound",
-                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Foghound}}",
+                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Blooper",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper}}",
                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Foghound.Description}}"
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description}}",
+
+                        "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Foghound",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:MEEP.Foghound}}",
+                        "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Banner",
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:MEEP.Foghound.Description}}"
                     }
                 }
             ]

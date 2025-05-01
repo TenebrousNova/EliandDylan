@@ -419,7 +419,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTown_Tue",
-		"Value": "{{Random:1400 34 102 2 EliSitB++1400 68 35 2 EliSitRead++1400 44 77 2 EliSitB++1400 47 52 1 EliSitRight|InputSeparator=++}}"
+		"Value": "{{Random:1400 34 102 2 EliSitB++1400 68 35 2 EliSitRead++1400 44 77 2 EliSitB++1400 31 64 2 EliSitRead|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliES_TueEvening",
