@@ -14,5 +14,7 @@
   "Description": "Code unit for Eli and Dylan.",
   "MinimumApiVersion": "3.18",
   "EntryDll": "NovaNPCTest.dll",
-  "UpdateKeys": ["Nexus:?????"],
+  "UpdateKeys": [
+    "-1"
+  ]
 }

@@ -4,10 +4,10 @@
         "LogName": "Mouse Shop Tile",
         "Action": "EditMap",
         "Target": "Maps/{{ModID}}_ESEDHouse",
-        "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.04",
-        /*  "When": {
-              "HasSeenEvent |contains=EnD.Critters.04": true
-            },*/
+        "When": {
+          "Weather |contains=Storm": false,
+				  "HasSeenEvent |contains=EnD.Critters.04": "true"
+        },
         "MapTiles": [
           {
             "Position": {
@@ -27,6 +27,7 @@
       {
         "Action": "EditData",
         "Target": "Data/Shops",
+        "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.04",
         "When": {
           "Weather |contains=Storm": false
         },

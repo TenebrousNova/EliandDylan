@@ -1,4 +1,11 @@
 {
   "Portrait Style": "NinTheCactus",
-  "Exclude From Perfection": "false"
+  "PlayerJobTitle": "Modder",
+  "ProfanityFilter": "false",
+  "Exclude From Perfection": "false",
+  "Player Pronouns 1": "He",
+  "Player Pronouns 2": "Him",
+  "Player Pronouns 3": "His",
+  "Player Pronouns 4": "Himself",
+  "Player Pronoun Identifier": "is"
 }

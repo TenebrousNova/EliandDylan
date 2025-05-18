@@ -1,0 +1,289 @@
+{
+  "Changes": [
+
+    //Chaos totem warp locations. Thank you Tedi for the C# sorcery that made this possible!
+
+    {
+      "LogName": "Chaos Totem locations",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Mountain": {
+          "Location": "Mountain",
+          "Position": "31, 20",
+          "Color": "255 0 0"
+        },
+        "Beach": {
+          "Location": "Beach",
+          "Position": "20, 4",
+          "Color": "0 0 255"
+        },
+        "LewisBasement": {
+          "Location": "LewisBasement",
+          "Position": "4, 4",
+          "Color": "191 0 255"
+        },
+        "SeedShop": {
+          "Location": "SeedShop",
+          "Position": "37, 18",
+          "Color": "140 242 0"
+        },
+        "Summit": {
+          "Location": "Summit",
+          "Position": "11, 12",
+          "Color": "92 239 255"
+        },
+        "WizardHouse": {
+          "Location": "WizardHouse",
+          "Position": "10, 17",
+          "Color": "203 63 224"
+        },
+        "Tunnel": {
+          "Location": "Tunnel",
+          "Position": "10, 7",
+          "Color": "100 92 112"
+        },
+        "EastScarp_Village": {
+          "Location": "EastScarp_Village",
+          "Position": "24, 97",
+          "Color": "255 255 255"
+        },
+        "EastScarp_NTHouse": {
+          "Location": "EastScarp_NTHouse",
+          "Position": "17, 20",
+          "Color": "60 222 93"
+        },
+        "{{ModID}}_ESEDHouse": {
+          "Location": "{{ModID}}_ESEDHouse",
+          "Position": "24, 13",
+          "Color": "70 30 140"
+        }
+      }
+    },
+    {
+      "LogName": "Chaos Totem locations - Desert",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Desert": {
+          "Location": "Desert",
+          "Position": "35, 43",
+          "Color": "255 230 0"
+        }
+      },
+      "When": {
+			"HasFlag": "ccVault"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Skull Cavern",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "SkullCave": {
+          "Location": "SkullCave",
+          "Position": "3, 4",
+          "Color": "134 120 0"
+        }
+      },
+      "When": {
+			"HasWalletItem": "SkullKey"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Club",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Club": {
+          "Location": "Club",
+          "Position": "21, 8",
+          "Color": "102 255 255"
+        }
+      },
+      "When": {
+			"HasWalletItem": "ClubCard"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Ginger Island South",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "IslandSouth": {
+          "Location": "IslandSouth",
+          "Position": "11, 11",
+          "Color": "88 255 255"
+        }
+      },
+      "When": {
+			"HasVisitedLocation": "IslandSouth"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Mushroom Cavern",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "{{ModID}}_EDMushroomCave": {
+          "Location": "{{ModID}}_EDMushroomCave",
+          "Position": "18, 33",
+          "Color": "25 0 51"
+        }
+      },
+      "When": {
+			"HasSeenEvent |contains=EnD.Eli.06": "true"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Metalcore Goes Cottagecore",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Squeaks.MGC.CP_CCHouse": {
+          "Location": "Squeaks.MGC.CP_CCHouse",
+          "Position": "17, 14",
+          "Color": "193 83 71"
+        }
+      },
+      "When": {
+			"HasMod": "Squeaks.MGC.CP"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - The Writer, the Witch and the Wardrobe Assistant",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "EastScarp_RodneysBasement": {
+          "Location": "EastScarp_RodneysBasement",
+          "Position": "7, 6",
+          "Color": "228 130 235"
+        }
+      },
+      "When": {
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Ridgeside Village",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Custom_Ridgeside_Ridge": {
+          "Location": "Custom_Ridgeside_Ridge",
+          "Position": "18, 10",
+          "Color": "120 13 13"
+        }
+      },
+      "When": {
+			"HasMod": "Rafseazz.RSVCP"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Visit Mt. Vapius Hamlet",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Lumisteria.MtVapius_Hamlet": {
+          "Location": "Lumisteria.MtVapius_Hamlet",
+          "Position": "16, 61",
+          "Color": "42 198 125"
+        }
+      },
+      "When": {
+			"HasMod": "Lumisteria.MtVapius",
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Visit Mt. Vapius Forest Trail",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Lumisteria.MtVapius_ForestTrailPond": {
+          "Location": "Lumisteria.MtVapius_ForestTrailPond",
+          "Position": "26, 31",
+          "Color": "107 206 31"
+        }
+      },
+      "When": {
+			"HasMod": "Lumisteria.MtVapius",
+      "HasVisitedLocation": "Lumisteria.MtVapius_ForestTrailPond"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Visit Mt. Vapius Caves",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Lumisteria.MtVapius_ForestCaveAmber": {
+          "Location": "Lumisteria.MtVapius_ForestCaveAmber",
+          "Position": "7, 36",
+          "Color": "97 9 9"
+        },
+        "Lumisteria.MtVapius_ForestCaveWinterRift": {
+          "Location": "Lumisteria.MtVapius_ForestCaveWinterRift",
+          "Position": "7, 36",
+          "Color": "135 233 236"
+        }
+      },
+      "When": {
+			"HasMod": "Lumisteria.MtVapius",
+      "HasVisitedLocation": "Lumisteria.MtVapius_ForestCrystalLake"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Sunberry Village",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Custom_SBV_SecretForest1": {
+          "Location": "Custom_SBV_SecretForest1",
+          "Position": "52, 10",
+          "Color": "124 213 36"
+        },
+        "Custom_SBV_Mines5B": {
+          "Location": "Custom_SBV_Mines5B",
+          "Position": "14, 8",
+          "Color": "140 148 23"
+        }
+      },
+      "When": {
+			"HasMod": "skellady.SBVCP"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Stardew Valley Aquarium",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "Gervig91.StardewAquariumCP_ExteriorMuseum": {
+          "Location": "Gervig91.StardewAquariumCP_ExteriorMuseum",
+          "Position": "2, 17",
+          "Color": "42 198 182"
+        }
+      },
+      "When": {
+			"HasMod": "Gervig91.StardewAquariumCP"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Central Station",
+      "Action": "EditData",
+      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Entries": {
+        "PathosChild.CentralStation_CentralStation": {
+          "Location": "PathosChild.CentralStation_CentralStation",
+          "Position": "53, 14",
+          "Color": "36 113 213"
+        }
+      },
+      "When": {
+			"HasMod": "Pathoschild.CentralStation.Content",
+      "HasVisitedLocation": "PathosChild.CentralStation_CentralStation"
+		}
+    }
+  ]
+ }
+
+ 

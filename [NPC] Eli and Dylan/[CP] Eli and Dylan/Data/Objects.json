@@ -109,18 +109,6 @@
       "Target": "spacechase0.SpaceCore/ObjectExtensionData",
       "Update": "OnLocationChange, OnTimeChange",
       "Entries": {
-        "{{ModID}}_TenebrousNova.EnD.ChaosTotem": {
-          "TotemWarp": {
-            "Location": "{{Random: Mountain, Beach, LewisBasement, EastScarp_Village, SeedShop, Summit, WizardHouse, Tunnel|key=warp-totem-{{Time}}-{{LocationName}}}}",
-            "Position": "{{Random: 31, 20++20, 4++4, 4++24, 97++37, 18++11, 12++10, 17++10, 7|key=warp-totem-{{Time}}-{{LocationName}}|inputSeparator=++}}",
-            "Color": {
-              "R": "{{Random: 255, 0, 191, 255, 140, 92, 203, 100|key=warp-totem-{{Time}}-{{LocationName}}}}",
-              "G": "{{Random: 0, 0, 0, 255, 242, 239, 63, 92|key=warp-totem-{{Time}}-{{LocationName}}}}",
-              "B": "{{Random: 0, 255, 255, 255, 0, 255, 224, 112|key=warp-totem-{{Time}}-{{LocationName}}}}",
-              "A": "255"
-            }
-          }
-        },
         "{{ModID}}_TenebrousNova.EnD.JunimoTotem": {
           "TotemWarp": {
             "Location": "{{ModID}}_OldWoods",
@@ -304,7 +292,7 @@
           "Name": "{{ModID}}_TenebrousNova.EnD.Bluffshroom",
           "DisplayName": "{{i18n:Core.Items.Bluffshroom}}",
           "Description": "{{i18n:Core.Items.Bluffshroom.Description}}",
-          "Type": "Vegetable",
+          "Type": "Forage",
           "Category": -75,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",

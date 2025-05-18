@@ -129,7 +129,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json, Data/ChaosWarpTotem.json"
 	}
 	  
    ],
@@ -143,14 +143,63 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
       "AllowBlank": false,
       "AllowMultiple": false,
       "Description": "Sets the mod's portrait style to either NinTheCactus or 6480.",
-      "Section": "Portraits"
+      "Section": "General"
     },
+	"PlayerJobTitle": {
+  	  "Default": "Farmer",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Sets the player's job title for more immersive roleplay for users who aren't playing as farmers specifically. Default is 'farmer'.",
+  	  "Section": "General"
+	},
+	"ProfanityFilter": {
+   	  "AllowValues": "True, False",
+   	  "Default": false,
+   	  "AllowBlank": false,
+   	  "Description": "Changes profanity to mild non-swears for those who prefer a cleaner game. (Think hell becomes heck, damn becomes darn, etc. etc.) False by default, meaning there may be some profanity in the dialogue by default",
+      "Section": "General"
+ 	},
 	"Exclude From Perfection": {
-		"AllowValues": "true, false",
-		"Default": "false",
-		"AllowBlank": false,
-		"Description": "Excludes EnD items from Perfection tracking.",
-		"Section": "General"
+	  "AllowValues": "true, false",
+	  "Default": "false",
+	  "AllowBlank": false,
+	  "Description": "Excludes EnD items from Perfection tracking.",
+	  "Section": "General"
+	},
+	"Player Pronouns 1": {
+  	  "Default": "They",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Sets the player's desired pronouns.",
+  	  "Section": "Pronouns"
+	},
+	"Player Pronouns 2": {
+  	  "Default": "Them",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Sets the player's desired pronouns.",
+  	  "Section": "Pronouns"
+	},
+	"Player Pronouns 3": {
+  	  "Default": "Their",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Sets the player's desired pronouns.",
+  	  "Section": "Pronouns"
+	},
+	"Player Pronouns 4": {
+      "Default": "Themselves",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Sets the player's desired pronouns.",
+  	  "Section": "Pronouns"
+	},
+	"Player Pronoun Identifier": {
+  	  "Default": "are",
+  	  "AllowBlank": false,
+  	  "AllowMultiple": true,
+  	  "Description": "Would usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
+  	  "Section": "Pronouns"
 	}
    },
 
@@ -169,30 +218,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "REV_NovaPatch_Cornucopia.tmx",
 		"When": {
 			"HasMod": "Cornucopia.MoreCrops"
-		}
-	},
-
-	//Pass-in i18n tokens. Don't ask me how these work. Special thanks to Axell for helping me out with them!
-
-	{
-		"Name": "Random_Dialogue_Tokens",
-		"Value": "|SnowballFightOutcome={{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}|GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}|EliGenre={{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}"
-	},
-
-	//Currently unused. 
-
-	{
-		"Name": "EliDateable",
-		"Value": true,
-		"When": {
-			"HasFlag |contains=EliTerenRHActive": false
-		}
-	},
-	{
-		"Name": "EliDateable",
-		"Value": false,
-		"When": {
-			"HasFlag |contains=EliTerenRHActive": true
 		}
 	},
 
@@ -221,109 +246,80 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
 
-	//Chaos Totem Locations. Currently unused unless I can find a way of adding locations from other mods to the chaos totem mechanic without breaking it.
+	//Dialogue randomization stuff that I can barely comprehend. Thanks for inventing this and letting me use it, Mads!
 
 	{
-		"Name": "ChaosLocation",
-		"Value": ""
+		"Name": "NovaEli_HeartLevelToken",
+		"Value": "0-4"
 	},
 	{
-		"Name": "ChaosLocation",
-		"Value": ", Desert",
+		"Name": "NovaEli_HeartLevelToken",
+		"Value": "{{Random: 0-4, 5-10 |key=NovaEli_Sync}}",
 		"When": {
-			"HasFlag": "ccVault"
-		}
-	},
-	{
-		"Name": "ChaosLocation",
-		"Value": ", Custom_Ridgeside_Ridge",
-		"When": {
-			"HasMod": "Rafseazz.RSVCP"
+			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
 	},
 
-	//Chaos Totem Positions
-
 	{
-		"Name": "ChaosPosition",
-		"Value": ""
+		"Name": "NovaEli_HeartLevelToken_Quantity",
+		"Value": "{{Range: 1, 60}}"
 	},
 	{
-		"Name": "ChaosPosition",
-		"Value": "++35, 43",
+		"Name": "NovaEli_HeartLevelToken_Quantity",
+		"Value": "{{Random: {{Range: 1, 60}}, {{Range: 1, 100}} |key=NovaEli_Sync}}",
 		"When": {
-			"HasFlag": "ccVault"
-		}
-	},
-	{
-		"Name": "ChaosPosition",
-		"Value": "++18, 10",
-		"When": {
-			"HasMod": "Rafseazz.RSVCP"
+			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
 	},
 
-	//Chaos Totem Colours
-	//Red
-
 	{
-		"Name": "ChaosR",
-		"Value": ""
+		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
+		"Value": "{{Range: 1, 10}}"
 	},
 	{
-		"Name": "ChaosR",
-		"Value": ", 255",
+		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
+		"Value": "{{Random: {{Range: 1, 10}}, {{Range: 1, 20}} |key=NovaEli_Sync}}",
 		"When": {
-			"HasFlag": "ccVault"
-		}
-	},
-	{
-		"Name": "ChaosR",
-		"Value": ", 120",
-		"When": {
-			"HasMod": "Rafseazz.RSVCP"
+			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
 	},
 
-	//Green
+	//Pass-in i18n tokens. Don't ask me how these work. Special thanks to Axell and Mads for helping me out with them!
 
 	{
-		"Name": "ChaosG",
-		"Value": ""
+		"Name": "GeneralDialogueTokens",
+		"Value": "|CPPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |CPPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |CPPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |CPPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |CPPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}} |LPPNI={{Random: {{Lowercase: {{Player Pronoun Identifier}}}} |key=PlayerPronouns}} |CPJobTitle={{Random: {{PlayerJobTitle}} |key=EnDJobTitle}} |LPJobTitle={{Random: {{Lowercase: {{PlayerJobTitle}}}} |key=EnDJobTitle}} |FName={{FarmName}}"
 	},
+
 	{
-		"Name": "ChaosG",
-		"Value": ", 155",
+		"Name": "Random_Dialogue_Tokens",
+		"Value": "|SnowballFightOutcome={{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}|GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}|EliGenre={{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}"
+	},
+
+	{
+        "Name": "NovaEli_DialogueFiller",
+        "Value": "|NovaEli_Filler={{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Random:{{Range: 2, 60}}}}{{GeneralDialogueTokens}}}} |NovaEli_SigurdSondra={{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_GunnarGudrun={{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_Teren={{i18n:Core.NovaEli.Teren_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_TerenRH={{i18n:Core.NovaEli.TerenRH_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_Nora={{i18n:Core.NovaEli.Nora_HasNora.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Mateo={{i18n:Core.NovaEli.Mateo_HasMateo.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Rodney={{i18n:Core.NovaEli.Rodney_HasRodney.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Sen={{i18n:Core.NovaEli.Sen_HasSen.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}"
+    },
+
+	{
+        "Name": "NovaEli_DialogueModifiers",
+        "Value": "|NovaEli_BigPool={{Random:{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}|inputSeparator=++}}"
+    },
+
+	//Currently unused. 
+
+	{
+		"Name": "EliDateable",
+		"Value": true,
 		"When": {
-			"HasFlag": "ccVault"
+			"HasFlag |contains=EliTerenRHActive": false
 		}
 	},
 	{
-		"Name": "ChaosG",
-		"Value": ", 13",
+		"Name": "EliDateable",
+		"Value": false,
 		"When": {
-			"HasMod": "Rafseazz.RSVCP"
-		}
-	},
-
-	//Blue
-
-	{
-		"Name": "ChaosB",
-		"Value": ""
-	},
-	{
-		"Name": "ChaosB",
-		"Value": ", 0",
-		"When": {
-			"HasFlag": "ccVault"
-		}
-	},
-	{
-		"Name": "ChaosB",
-		"Value": ", 13",
-		"When": {
-			"HasMod": "Rafseazz.RSVCP"
+			"HasFlag |contains=EliTerenRHActive": true
 		}
 	},
 
@@ -770,7 +766,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliJunimo2_Rodney",
 		"Value": "warp RodneyOBrien 10 56/speed RodneyOBrien 3/advancedMove RodneyOBrien false 6 0 0 2 11 0 1 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.14}}\"/jump JunimoFriendPurple/playSound junimoMeep1/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.15}}\"/playSound junimoMeep1/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.1}}\"/temporarySprite 31 58 6 8 30 false 1/warp JunimoFriendPurple 999 999/playSound dwop/faceDirection Nova.Eli 3/emote Nova.Eli 16 true/jump Nova.Eli/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/warp Nova.Eli 29 58/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.16}}\"/playSound junimoMeep1/pause 250/showFrame Nova.Eli 67/pause 750/showFrame Nova.Eli 66/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.17}}\"/pause 500/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.3}}\"/faceDirection Nova.Eli 3/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.18}}\"/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.4}}\"/advancedMove RodneyOBrien false 0 -1 25 0 1 10/emote Nova.Eli 60/pause 500/faceDirection Nova.Eli 1/pause 500/textAboveHead Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.19}}\" true",
 		"When": {
-			"HasMod": "TheFrenchDodo.WWWA"
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
 		}
 	},
 	{
@@ -855,7 +851,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Event plays out slightly differently if you have met Krobus before.
 	{
 		"Name": "Eli_KrobusIntro",
-		"Value": "speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.16.A.1}}\"/emote farmer 20/speak Krobus \"{{i18n:Events.EliWoods.Krobus.10.A.1}}\"",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.16.A.1{{GeneralDialogueTokens}}}}\"/emote farmer 20/speak Krobus \"{{i18n:Events.EliWoods.Krobus.10.A.1}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": true
 		}
@@ -869,14 +865,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "Eli_KrobusGoodbye",
-		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.A.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.2}}\"",
+		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.A.1{{GeneralDialogueTokens}}}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": true
 		}
 	},
 	{
 		"Name": "Eli_KrobusGoodbye",
-		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
+		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1{{GeneralDialogueTokens}}}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": false
 		}
@@ -1194,7 +1190,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_Rodney1",
 		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 30000 35 48 false true 2 0 1 0 0.01 0.01",
 		"When": {
-			"HasMod": "TheFrenchDodo.WWWA"
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
 		}
 	},
 	{
@@ -1205,7 +1201,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanExpedition_Rodney2",
 		"Value": "playSound detector/textAboveHead Drone \"{{i18n:Events.DylanExpedition.NovaDylan.14}}\"/pause 1500/speak Nova.Dylan \"{{i18n:Events.DylanExpedition.NovaDylan.15}}\"/speak Maru \"{{i18n:Events.DylanExpedition.Maru.10}}\"/emote Drone 60/playSound detector/animate Drone false false 100 16 17 18 19 20 21 22 23 24 25 26 27 28 29 23 22 21 20 19 18 17 16/pause 1100/shake Drone 500/playSound coin/removeSprite 35 48/pause 1100/stopAnimation Drone/showFrame Drone 0",
 		"When": {
-			"HasMod": "TheFrenchDodo.WWWA"
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
 		}
 	},
 
@@ -1219,7 +1215,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "DylanDream_Rodney",
 		"Value": "temporaryAnimatedSprite EliDylan\\Critters 0 784 16 16 2000 1 6 41 11 false true 2 0 1 0 0.01 0.04 motion -3.2 0 acceleration 0 0.003",
 		"When": {
-			"HasMod": "TheFrenchDodo.WWWA"
+			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
 		}
 	},
 	{

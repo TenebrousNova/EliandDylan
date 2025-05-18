@@ -618,6 +618,27 @@
 			"PatchMode": "Replace",
 			"Update": "OnLocationChange"
 		},
+
+		//Mouse Shop Coin
+
+		{
+			"LogName": "Mouse Shop Coin",
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
+			"FromFile": "Assets/Maps/MouseShopPatch.tmx",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.04",
+			"ToArea": {
+				"X": 25,
+				"Y": 13,
+				"Width": 1,
+				"Height": 1
+			},
+			"When": {
+				"Weather |contains=Storm": false,
+				"HasSeenEvent |contains=EnD.Critters.04": "true"
+			},
+			"PatchMode": "Overlay"
+		},
 	
 		//Deep Mountains Cave
 	

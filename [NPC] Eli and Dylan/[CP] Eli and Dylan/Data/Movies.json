@@ -56,17 +56,17 @@
                                 "BeforeMovie": { //What the NPC says in the lobby.
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": { //What the NPC says during the actual movie. You can change ResponsePoint to a specific part of the movie to react to.
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.2}}"
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.2{{GeneralDialogueTokens}}}}"
                                 },
                                 "AfterMovie": { //What the NPC says in the lobby after the movie.
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.3}}"
+                                    "Text": "{{i18n:Movies.NovaEli.BraveLittleSapling.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_0" //Each reaction has its own ID. But since I've done this for you, you shouldn't need to change it. I hope.
@@ -82,17 +82,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaEli.NaturalWonders.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.NaturalWonders.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.3}}"
+                                    "Text": "{{i18n:Movies.NovaEli.NaturalWonders.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_1"
@@ -105,17 +105,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.2}}"
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.2{{GeneralDialogueTokens}}}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.3}}"
+                                    "Text": "{{i18n:Movies.NovaEli.PrairieKing.3{{GeneralDialogueTokens}}}}"
                                 } 
                             },
                             "ID": "reaction_2"
@@ -128,17 +128,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.2}}"
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.2{{GeneralDialogueTokens}}}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.3}}" 
+                                    "Text": "{{i18n:Movies.NovaEli.Wumbus.3{{GeneralDialogueTokens}}}}" 
                                 }
 
                             },
@@ -152,17 +152,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaEli.Mysterium.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.Mysterium.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.3}}"
+                                    "Text": "{{i18n:Movies.NovaEli.Mysterium.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_4"
@@ -175,17 +175,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaEli.ItHowlsInTheRain.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaEli.ItHowlsInTheRain.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.3}}"
+                                    "Text": "{{i18n:Movies.NovaEli.ItHowlsInTheRain.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_5"
@@ -198,17 +198,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.1}}"
+                                    "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.1{{GeneralDialogueTokens}}}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.2}}"
+                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.2{{GeneralDialogueTokens}}}}"
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.3}}"
+                                "Text": "{{i18n:Movies.NovaEli.MiracleAtColdstarRanch.3{{GeneralDialogueTokens}}}}"
                             }
                         },
                         "ID": "reaction_6"
@@ -221,17 +221,17 @@
                             "BeforeMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.1}}"
+                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.1{{GeneralDialogueTokens}}}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": null,
-                                "Script": "/message \"{{i18n:Movies.NovaEli.ZuzuCityExpress.2}}\"",
+                                "Script": "/message \"{{i18n:Movies.NovaEli.ZuzuCityExpress.2{{GeneralDialogueTokens}}}}\"",
                                 "Text": null
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.3}}"
+                                "Text": "{{i18n:Movies.NovaEli.ZuzuCityExpress.3{{GeneralDialogueTokens}}}}"
                             }
                         }
                     }
@@ -250,17 +250,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": { 
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaDylan.BraveLittleSapling.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.BraveLittleSapling.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": { 
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.3}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.BraveLittleSapling.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_0"
@@ -273,17 +273,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.2}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.2{{GeneralDialogueTokens}}}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.3}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.NaturalWonders.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_1"
@@ -296,17 +296,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaDylan.PrairieKing.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.PrairieKing.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.3}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.PrairieKing.3{{GeneralDialogueTokens}}}}"
                                 } 
                             },
                             "ID": "reaction_2"
@@ -319,17 +319,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.2}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.2{{GeneralDialogueTokens}}}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.3}}" 
+                                    "Text": "{{i18n:Movies.NovaDylan.Wumbus.3{{GeneralDialogueTokens}}}}" 
                                 }
 
                             },
@@ -343,17 +343,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaDylan.Mysterium.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.Mysterium.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.3}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.Mysterium.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_4"
@@ -366,17 +366,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.1{{GeneralDialogueTokens}}}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:Movies.NovaDylan.ItHowlsInTheRain.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.NovaDylan.ItHowlsInTheRain.2{{GeneralDialogueTokens}}}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.3}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.ItHowlsInTheRain.3{{GeneralDialogueTokens}}}}"
                                 }
                             },
                             "ID": "reaction_5"
@@ -389,17 +389,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.1}}"
+                                    "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.1{{GeneralDialogueTokens}}}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.2}}"
+                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.2{{GeneralDialogueTokens}}}}"
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.3}}"
+                                "Text": "{{i18n:Movies.NovaDylan.MiracleAtColdstarRanch.3{{GeneralDialogueTokens}}}}"
                             }
                         },
                         "ID": "reaction_6"
@@ -412,17 +412,17 @@
                             "BeforeMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.1}}"
+                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.1{{GeneralDialogueTokens}}}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": null,
-                                "Script": "/message \"{{i18n:Movies.NovaDylan.ZuzuCityExpress.2}}\"",
+                                "Script": "/message \"{{i18n:Movies.NovaDylan.ZuzuCityExpress.2{{GeneralDialogueTokens}}}}\"",
                                 "Text": null
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.3}}"
+                                "Text": "{{i18n:Movies.NovaDylan.ZuzuCityExpress.3{{GeneralDialogueTokens}}}}"
                             }
                         }
                     }

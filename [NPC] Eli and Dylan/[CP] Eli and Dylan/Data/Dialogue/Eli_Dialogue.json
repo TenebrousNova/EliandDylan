@@ -9,266 +9,61 @@
 			
 			//Intro
 			
-			"Introduction": "{{i18n:Core.NovaEli.Introduction}}",
+			"Introduction": "{{i18n:Core.NovaEli.Introduction{{GeneralDialogueTokens}}}}",
 
 			//Entry Dialogue
 
-	         "Saloon_Entry": "{{i18n:Core.NovaEli.SaloonEntry}}",
-			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry|FName={{FarmName}}}}",
-			 "Hospital_Entry": "{{i18n:Core.NovaEli.HospitalEntry}}",
+	         "Saloon_Entry": "{{i18n:Core.NovaEli.SaloonEntry{{GeneralDialogueTokens}}}}",
+			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry{{GeneralDialogueTokens}}}}",
+			 "Hospital_Entry": "{{i18n:Core.NovaEli.HospitalEntry{{GeneralDialogueTokens}}}}",
 
 			//Important Dates
 			
-			"spring_2_2": "{{i18n:Core.NovaEli.Spring.2.2}}",
-			"spring_3_1": "{{i18n:Core.NovaEli.Spring.3.1}}",
-			"spring_12_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.12}}",
-			"spring_23_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.23}}",
-			"spring_27_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.27}}",
-			"summer_10_{{YearRepeat}}": "{{i18n:Core.NovaEli.Summer.10}}",
-			"summer_27_{{YearRepeat}}": "{{i18n:Core.NovaEli.Summer.27}}",
-			"fall_15_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.15}}",
-			"fall_17_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.17}}",
-			"fall_26_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.26}}",
-			"fall_28_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.28}}",
-			"winter_5_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.5}}",
-			"winter_7_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.7}}",
-			"winter_15_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.15}}",
-			"winter_16_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.16}}",
-			"winter_17_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.17}}",
-			"winter_18_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.18}}",
-			"winter_24_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.24}}",
-			"winter_28_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.28}}",
+			"spring_2_2": "{{i18n:Core.NovaEli.Spring.2.2{{GeneralDialogueTokens}}}}",
+			"spring_3_1": "{{i18n:Core.NovaEli.Spring.3.1{{GeneralDialogueTokens}}}}",
+			"spring_12_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.12{{GeneralDialogueTokens}}}}",
+			"spring_23_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.23{{GeneralDialogueTokens}}}}",
+			"spring_27_{{YearRepeat}}": "{{i18n:Core.NovaEli.Spring.27{{GeneralDialogueTokens}}}}",
+			"summer_10_{{YearRepeat}}": "{{i18n:Core.NovaEli.Summer.10{{GeneralDialogueTokens}}}}",
+			"summer_27_{{YearRepeat}}": "{{i18n:Core.NovaEli.Summer.27{{GeneralDialogueTokens}}}}",
+			"fall_15_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.15{{GeneralDialogueTokens}}}}",
+			"fall_17_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.17{{GeneralDialogueTokens}}}}",
+			"fall_26_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.26{{GeneralDialogueTokens}}}}",
+			"fall_28_{{YearRepeat}}": "{{i18n:Core.NovaEli.Fall.28{{GeneralDialogueTokens}}}}",
+			"winter_5_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.5{{GeneralDialogueTokens}}}}",
+			"winter_7_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.7{{GeneralDialogueTokens}}}}",
+			"winter_15_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.15{{GeneralDialogueTokens}}}}",
+			"winter_16_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.16{{GeneralDialogueTokens}}}}",
+			"winter_17_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.17{{GeneralDialogueTokens}}}}",
+			"winter_18_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.18{{GeneralDialogueTokens}}}}",
+			"winter_24_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.24{{GeneralDialogueTokens}}}}",
+			"winter_28_{{YearRepeat}}": "{{i18n:Core.NovaEli.Winter.28{{GeneralDialogueTokens}}}}",
 
 			//Festival Lines
 
-			"wonEggHunt": "{{i18n:Core.NovaEli.wonEggHunt}}",
-			"wonGrange": "{{i18n:Core.NovaEli.wonGrange}}",
-			"wonIceFishing": "{{i18n:Core.NovaEli.wonIceFishing}}",
-			"Fair_Judging": "{{i18n:Core.NovaEli.Fair_Judging}}",
-			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_PurpleShorts}}",
-			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_Skipped}}",
-			"Fair_Judged_PlayerLost": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost}}",
-			"Fair_Judged_PlayerWon": "{{i18n:Core.NovaEli.Fair_Judged_PlayerWon}}",
+			"wonEggHunt": "{{i18n:Core.NovaEli.wonEggHunt{{GeneralDialogueTokens}}}}",
+			"wonGrange": "{{i18n:Core.NovaEli.wonGrange{{GeneralDialogueTokens}}}}",
+			"wonIceFishing": "{{i18n:Core.NovaEli.wonIceFishing{{GeneralDialogueTokens}}}}",
+			"Fair_Judging": "{{i18n:Core.NovaEli.Fair_Judging{{GeneralDialogueTokens}}}}",
+			"Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_PurpleShorts{{GeneralDialogueTokens}}}}",
+			"Fair_Judged_PlayerLost_Skipped": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost_Skipped{{GeneralDialogueTokens}}}}",
+			"Fair_Judged_PlayerLost": "{{i18n:Core.NovaEli.Fair_Judged_PlayerLost{{GeneralDialogueTokens}}}}",
+			"Fair_Judged_PlayerWon": "{{i18n:Core.NovaEli.Fair_Judged_PlayerWon{{GeneralDialogueTokens}}}}",
 
-			"FlowerDance_Accept": "{{i18n:Core.NovaEli.FlowerDanceAccept}}",
-			"FlowerDance_Decline": "{{i18n:Core.NovaEli.DanceRejection}}",
+			"FlowerDance_Accept": "{{i18n:Core.NovaEli.FlowerDanceAccept{{GeneralDialogueTokens}}}}",
+			"FlowerDance_Decline": "{{i18n:Core.NovaEli.DanceRejection{{GeneralDialogueTokens}}}}",
 
-			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaEli.WinterStar_GiveGift_Before}}",
-			"WinterStar_GiveGift_After": "{{i18n:Core.NovaEli.WinterStar_GiveGift_After}}"
-		}
-	},
-	{
-		"LogName": "Eli 0-4 Heart Dialogue",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{Random:{{Range: 1, 60}}}}}}"
-		},
-		"When": {
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false
-		  }
-	},
-	{
-		"LogName": "Eli 5-10 Heart Dialogue (Platonic)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.5-10.{{Random:{{Range: 1, 100}}}}}}"
-		},
-		"When": {
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
-		  }
-	},
-	{
-		"LogName": "Eli Seasonal Dialogue Override 0-4",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.0-4.{{season}}.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": { 
-			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
-		 }
-	},
-	{
-		"LogName": "Eli Seasonal Dialogue Override 5-10 (Platonic)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": 	{ 
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.5-10.{{season}}.{{Random:{{Range: 1, 20}}|key={{Time}}}}{{Random_Dialogue_Tokens}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": { 
-			"Query: {{Random: {{Range: 1, 15}}|key=ESO}} = 1": true,
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
-		 }
-	},
-	//#BearFam Commentary
-	{
-		"LogName": "Eli #BearFam Commentary (Sig/Sondra)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target":"Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.SigSondra.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=ESigSon}} = 1": true
-		}
-	},
-	{
-		"LogName": "Eli #BearFam Commentary (Gunnar/Gudrun)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target":"Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.GunnarGudrun.{{Random:{{Range: 1, 10}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
-			"HasFlag |contains=BearFamExtraMembers": true,
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=EGunGud}} = 1": true
-		}
-	},
-	{
-		"LogName": "Eli #BearFam Commentary (Teren, Platonic)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenPlatonic.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
-			"HasSeenEvent": "MadDog.BearFam.16199000",
-			"HasFlag |contains=TerenMysteryMail": true,
-			"HasFlag |contains=EliTerenRHActive": false,
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=ETerP}} = 1": true
-		}
-	},
-	{
-		"LogName": "Eli #BearFam Commentary (Teren, Romantic)",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.TerenRomantic.{{Random:{{Range: 1, 2}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
-			"HasSeenEvent": "MadDog.BearFam.16199000",
-			"HasFlag |contains=EliTerenRHActive": true,
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 25}}|key=ETerR}} = 1": true
+			"WinterStar_GiveGift_Before": "{{i18n:Core.NovaEli.WinterStar_GiveGift_Before{{GeneralDialogueTokens}}}}",
+			"WinterStar_GiveGift_After": "{{i18n:Core.NovaEli.WinterStar_GiveGift_After{{GeneralDialogueTokens}}}}"
 		}
 	},
 
-	//The Writer, the Witch and the Wardrobe Assistant commentary
-
 	{
-		"LogName": "Eli Rodney Commentary",
+		"LogName": "Eli Dialogue",
 		"Action": "EditData",
-		"Update": "OnLocationChange",
 		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
 		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Rodney.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=ERod}} = 1": true
-		}
-	},
-
-	//Diamond in the Rough Commentary
-
-	{
-		"LogName": "Eli Sen Commentary",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Sen.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "7thAxis.DitR, 7thAxis.LitD.CP",
-			"HasSeenEvent": "EnD.Eli.05",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=ESen}} = 1": true
-		}
-	},
-
-	//Sword & Sorcery Commentary
-
-	{
-		"LogName": "Eli Mateo Commentary",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Mateo.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "DN.SnS.CP",
-			"HasSeenEvent": "SnS.Ch1.Mateo.1",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=EMat}} = 1": true
-		}
-	},
-
-	//Nora Commentary
-
-	{
-		"LogName": "Eli Nora Commentary",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Nora.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "Bagi.Nora.CP",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=ENor}} = 1": true
-		}
-	},
-
-	//Denver Commentary
-
-	{
-		"LogName": "Eli Denver Commentary",
-		"Action": "EditData",
-		"Update": "OnLocationChange",
-		"Target": "Characters/Dialogue/Nova.Eli",
-		"Priority": "Late",
-		"Entries": {
-			"{{WeekDay}}": "{{i18n:Core.NovaEli.Denver.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}#$action AddMail Current EnD_Eli_OverrideSeenToday received"
-		},
-		"When": {
-			"HasMod": "balverine.Denver",
-			"HasFlag: |contains=EnD_Eli_OverrideSeenToday": false,
-			"Query: {{Random: {{Range: 1, 20}}|key=EDen}} = 1": true
+			"{{WeekDay}}": "{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Random:{{NovaEli_HeartLevelToken_Quantity}}}}{{GeneralDialogueTokens}}{{NovaEli_DialogueModifiers}}{{Random_Dialogue_Tokens}}}}"
 		}
 	},
 
@@ -327,49 +122,49 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
-			"HitBySlingshot": "$action AddFriendshipPoints 30{{i18n:Core.NovaEli.HitBySlingshot.{{Random:{{Range: 1, 5}}}}}}",
+			"HitBySlingshot": "$action AddFriendshipPoints 30{{i18n:Core.NovaEli.HitBySlingshot.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}",
 			"DumpsterDiveComment": "{{i18n:Core.NovaEli.DumpsterDiveComment}}",
-			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
-			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek}}",
-			"WipedMemory": "{{i18n:Core.NovaEli.WipedMemory}}",
-			"Resort_Entering": "{{i18n:Core.NovaEli.Resort_Entering}}",
-			"Resort": "{{i18n:Core.NovaEli.Resort}}",
-			"Resort_Leaving": "{{i18n:Core.NovaEli.Resort_Leaving}}",
-			"Resort_Shore": "{{i18n:Core.NovaEli.Resort_Shore}}",
-			"Resort_Wander": "{{i18n:Core.NovaEli.Resort_Wander}}",
-			"Resort_Wander_2": "{{i18n:Core.NovaEli.Resort_Wander_2}}",
-			"Resort_Wander_3": "{{i18n:Core.NovaEli.Resort_Wander_3}}",
-			"Resort_Chair": "{{i18n:Core.NovaEli.Resort_Chair}}",
-			"Resort_Towel": "{{i18n:Core.NovaEli.Resort_Towel}}",
-			"Resort_Towel_2": "{{i18n:Core.NovaEli.Resort_Towel_2}}",
-			"Resort_Towel_3": "{{i18n:Core.NovaEli.Resort_Towel_3}}",
-			"divorced_once": "{{i18n:Core.NovaEli.divorced_once}}",
-  			"divorced_twice": "{{i18n:Core.NovaEli.divorced_twice}}",
-			"cropMatured_260": "{{i18n:Core.NovaEli.cropMatured_260}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.MandrakeRoot": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.MandrakeRoot}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.SanguineHeart": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.SanguineHeart}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.BeholderFruit": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.BeholderFruit}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.DragonEye": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.DragonEye}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.CrystallineLily": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.CrystallineLily}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.PixieBloom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.PixieBloom}}",
-			"cropMatured_{{ModID}}_TenebrousNova.EnD.Bluffshroom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.Bluffshroom}}",
-			"fishCaught_{{ModID}}_TenebrousNova.EnD.LambentHyphafin": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.LambentHyphafin}}",
-			"fishCaught_{{ModID}}_TenebrousNova.EnD.Junimeel": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel}}",
-			"gotPet": "{{i18n:Core.NovaEli.gotPet}}",
-			"firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "{{i18n:Core.NovaEli.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse}}",
-			"houseUpgrade_1": "{{i18n:Core.NovaEli.houseUpgrade_1}}",
-			"houseUpgrade_2": "{{i18n:Core.NovaEli.houseUpgrade_2}}",
-			"GreenRain": "{{i18n:Core.NovaEli.GreenRain}}",
-			"GreenRain2": "{{i18n:Core.NovaEli.GreenRain2}}",
-			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished}}",
-			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20}}",
-			"minearea_60": "{{i18n:Core.NovaEli.minearea_60}}",
-			"minearea_100": "{{i18n:Core.NovaEli.minearea_100}}",
-			"minearea_120": "{{i18n:Core.NovaEli.minearea_120}}",
-			"structureBuilt_Slime Hutch": "{{i18n:Core.NovaEli.structureBuilt_Slime Hutch}}",
-			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane}}",
-			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex}}",
-			"roommates_Krobus": "{{i18n:Core.NovaEli.roommates_Krobus}}"
+			"RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyInvitedBySomeoneElse{{GeneralDialogueTokens}}}}",
+			"RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:Core.NovaEli.RejectMovieTicket_AlreadyWatchedThisWeek{{GeneralDialogueTokens}}}}",
+			"WipedMemory": "{{i18n:Core.NovaEli.WipedMemory{{GeneralDialogueTokens}}}}",
+			"Resort_Entering": "{{i18n:Core.NovaEli.Resort_Entering{{GeneralDialogueTokens}}}}",
+			"Resort": "{{i18n:Core.NovaEli.Resort{{GeneralDialogueTokens}}}}",
+			"Resort_Leaving": "{{i18n:Core.NovaEli.Resort_Leaving{{GeneralDialogueTokens}}}}",
+			"Resort_Shore": "{{i18n:Core.NovaEli.Resort_Shore{{GeneralDialogueTokens}}}}",
+			"Resort_Wander": "{{i18n:Core.NovaEli.Resort_Wander{{GeneralDialogueTokens}}}}",
+			"Resort_Wander_2": "{{i18n:Core.NovaEli.Resort_Wander_2{{GeneralDialogueTokens}}}}",
+			"Resort_Wander_3": "{{i18n:Core.NovaEli.Resort_Wander_3{{GeneralDialogueTokens}}}}",
+			"Resort_Chair": "{{i18n:Core.NovaEli.Resort_Chair{{GeneralDialogueTokens}}}}",
+			"Resort_Towel": "{{i18n:Core.NovaEli.Resort_Towel{{GeneralDialogueTokens}}}}",
+			"Resort_Towel_2": "{{i18n:Core.NovaEli.Resort_Towel_2{{GeneralDialogueTokens}}}}",
+			"Resort_Towel_3": "{{i18n:Core.NovaEli.Resort_Towel_3{{GeneralDialogueTokens}}}}",
+			"divorced_once": "{{i18n:Core.NovaEli.divorced_once{{GeneralDialogueTokens}}}}",
+  			"divorced_twice": "{{i18n:Core.NovaEli.divorced_twice{{GeneralDialogueTokens}}}}",
+			"cropMatured_260": "{{i18n:Core.NovaEli.cropMatured_260{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.MandrakeRoot": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.MandrakeRoot{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.SanguineHeart": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.SanguineHeart{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.BeholderFruit": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.BeholderFruit{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.DragonEye": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.DragonEye{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.CrystallineLily": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.CrystallineLily{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.PixieBloom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.PixieBloom{{GeneralDialogueTokens}}}}",
+			"cropMatured_{{ModID}}_TenebrousNova.EnD.Bluffshroom": "{{i18n:Core.NovaEli.cropMatured_TenebrousNova.EnD.Bluffshroom{{GeneralDialogueTokens}}}}",
+			"fishCaught_{{ModID}}_TenebrousNova.EnD.LambentHyphafin": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.LambentHyphafin{{GeneralDialogueTokens}}}}",
+			"fishCaught_{{ModID}}_TenebrousNova.EnD.Junimeel": "{{i18n:Core.NovaEli.fishCaught_TenebrousNova.EnD.Junimeel{{GeneralDialogueTokens}}}}",
+			"gotPet": "{{i18n:Core.NovaEli.gotPet{{GeneralDialogueTokens}}}}",
+			"firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "{{i18n:Core.NovaEli.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse{{GeneralDialogueTokens}}}}",
+			"houseUpgrade_1": "{{i18n:Core.NovaEli.houseUpgrade_1{{GeneralDialogueTokens}}}}",
+			"houseUpgrade_2": "{{i18n:Core.NovaEli.houseUpgrade_2{{GeneralDialogueTokens}}}}",
+			"GreenRain": "{{i18n:Core.NovaEli.GreenRain{{GeneralDialogueTokens}}}}",
+			"GreenRain2": "{{i18n:Core.NovaEli.GreenRain2{{GeneralDialogueTokens}}}}",
+			"GreenRainFinished": "{{i18n:Core.NovaEli.GreenRainFinished{{GeneralDialogueTokens}}}}",
+			"mineArea_20": "{{i18n:Core.NovaEli.mineArea_20{{GeneralDialogueTokens}}}}",
+			"minearea_60": "{{i18n:Core.NovaEli.minearea_60{{GeneralDialogueTokens}}}}",
+			"minearea_100": "{{i18n:Core.NovaEli.minearea_100{{GeneralDialogueTokens}}}}",
+			"minearea_120": "{{i18n:Core.NovaEli.minearea_120{{GeneralDialogueTokens}}}}",
+			"structureBuilt_Slime Hutch": "{{i18n:Core.NovaEli.structureBuilt_Slime Hutch{{GeneralDialogueTokens}}}}",
+			"dating_Shane": "{{i18n:Core.NovaEli.dating_Shane{{GeneralDialogueTokens}}}}",
+			"dating_Alex": "{{i18n:Core.NovaEli.dating_Alex{{GeneralDialogueTokens}}}}",
+			"roommates_Krobus": "{{i18n:Core.NovaEli.roommates_Krobus{{GeneralDialogueTokens}}}}"
 			//eventseen_(thearrivalevent)_memory_oneweek
 			//oneday, oneweek, twoweeks, fourweeks, eightweeks, and oneyear
 		}
@@ -380,44 +175,28 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Nova.Eli",
 		"Entries": {
-			"Mine_20_4": "{{i18n:Locations.NovaEli.Mines.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_5_10": "{{i18n:Locations.NovaEli.GuntherDesk.{{Random:{{Range:1, 3}}}}{{Random_Dialogue_Tokens}}}}",
-			"ArchaeologyHouse_11_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_18_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_19_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_10_13": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_13_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_12_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"ArchaeologyHouse_21_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}}}",
-			"Hospital_12_14": "{{i18n:Locations.NovaEli.ClinicWaitA.{{Random:{{Range: 1, 3}}}}}}",
-			"Hospital_10_15": "{{i18n:Locations.NovaEli.ClinicWaitB.{{Random:{{Range: 1, 3}}}}}}",
-			"Hospital_4_6": "{{i18n:Locations.NovaEli.ClinicAppointment.{{Random:{{Range: 1, 3}}}}}}",
-			"{{ModID}}_ESEDHouse_13_21": "{{i18n:Locations.NovaEli.Unconscious.{{Random:{{Range: 1, 3}}}}}}",
-			"EastScarp_Village_41_67": "{{i18n:Locations.NovaEli.SpiritsEveInn.1}}",
-			"EastScarp_VillageInn_SpiritEve_26_27": "{{i18n:Locations.NovaEli.SpiritsEveInn.2}}",
-			"EastScarp_VillageInn_44_33": "{{i18n:Locations.NovaEli.Unconscious.{{Random:{{Range: 1, 3}}}}}}",
-			"Forest_35_26": "{{i18n:Locations.NovaEli.LateNightRain}}",
-			"Forest_92_20": "{{i18n:Locations.NovaEli.RanchFence.{{Random:{{Range: 1, 3}}}}}}",
-			"Forest_97_38": "{{i18n:Locations.NovaEli.TroutDerby.1}}",
-			"DesertFestival_30_56": "{{i18n:Locations.NovaEli.DesertFestival.1}}",
-			"Beach_50_21": "{{i18n:Locations.NovaEli.SquidFest.1}}",
-			"sapphicsaph_pitv.CommunityCenterPride_50_7": "{{i18n:Locations.NovaEli.PrideFestival.1}}"
-		}
-	},
-
-	{
-		"LogName": "Eli Daily Flag Remover", 
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
-  
-			"{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal": {
-				"Id": "{{ModId}}.TriggerActions.NovaEli.OverrideSeenToday.Removal",
-				"MarkActionApplied": false,
-				"Trigger": "DayEnding",
-				"Condition": "PLAYER_HAS_MAIL Current EnD_Eli_OverrideSeenToday Any",
-				"Actions": [ "RemoveMail Current EnD_Eli_OverrideSeenToday" ]
-			}
+			"Mine_20_4": "{{i18n:Locations.NovaEli.Mines.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_5_10": "{{i18n:Locations.NovaEli.GuntherDesk.{{Random:{{Range:1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_11_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_18_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_19_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_10_13": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_13_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_12_9": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"ArchaeologyHouse_21_5": "{{i18n:Locations.NovaEli.Library.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"Hospital_12_14": "{{i18n:Locations.NovaEli.ClinicWaitA.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"Hospital_10_15": "{{i18n:Locations.NovaEli.ClinicWaitB.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"Hospital_4_6": "{{i18n:Locations.NovaEli.ClinicAppointment.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"{{ModID}}_ESEDHouse_13_21": "{{i18n:Locations.NovaEli.Unconscious.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"EastScarp_Village_41_67": "{{i18n:Locations.NovaEli.SpiritsEveInn.1{{GeneralDialogueTokens}}}}",
+			"EastScarp_VillageInn_SpiritEve_26_27": "{{i18n:Locations.NovaEli.SpiritsEveInn.2{{GeneralDialogueTokens}}}}",
+			"EastScarp_VillageInn_44_33": "{{i18n:Locations.NovaEli.Unconscious.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"Forest_35_26": "{{i18n:Locations.NovaEli.LateNightRain{{GeneralDialogueTokens}}}}",
+			"Forest_92_20": "{{i18n:Locations.NovaEli.RanchFence.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}",
+			"Forest_97_38": "{{i18n:Locations.NovaEli.TroutDerby.1{{GeneralDialogueTokens}}}}",
+			"DesertFestival_31_56": "{{i18n:Locations.NovaEli.DesertFestival.1{{GeneralDialogueTokens}}}}",
+			"Beach_50_21": "{{i18n:Locations.NovaEli.SquidFest.1{{GeneralDialogueTokens}}}}",
+			"sapphicsaph_pitv.CommunityCenterPride_50_7": "{{i18n:Locations.NovaEli.PrideFestival.1{{GeneralDialogueTokens}}}}"
 		}
 	}
 
