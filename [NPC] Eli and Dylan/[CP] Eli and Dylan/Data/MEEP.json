@@ -19,19 +19,19 @@
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteractionReel",
                         "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Camping",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.CampingPhoto}}",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.CampingPhoto{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Spooky{{Random:{{Range: 1, 2}}}}",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Octopus",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto{{GeneralDialogueTokens}}}}",
                         
                         "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Thief",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief}}",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Dive",
-                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive}}"
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]
@@ -53,22 +53,22 @@
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteractionReel",
                         "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Camping",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.CampingPhoto}}",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.CampingPhoto{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Spooky{{Random:{{Range: 1, 2}}}}",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.SpookyPhoto{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Octopus",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto}}",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.OctopusPhoto{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Thief",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief}}",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Thief{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Dive",
-                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive}}",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Dive{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/AbyssFootage",
-                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.AbyssFootage}}"
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.AbyssFootage{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]
@@ -86,7 +86,7 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Magazine",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Magazine}}"
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Magazine{{GeneralDialogueTokens}}}}"
                     }
                 }
             ],
@@ -108,7 +108,7 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Tentacle",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.3}}"
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.3{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]
@@ -126,7 +126,7 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Silhouette",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.4}}"
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.4{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]
@@ -146,27 +146,27 @@
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteractionReel",
                         "MEEP_CloseupInteraction_Image_1": "{{ModID}}/BeyondReal",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.BeyondReal}}",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.BeyondReal{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/KillerBunny",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.KillerBunny}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.KillerBunny{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.KillerBunny.Description}}",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.KillerBunny.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Grindylow",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Grindylow}}",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Grindylow{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Grindylow.Description}}",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Grindylow.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/MeetingSoot",
-                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot}}",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Blooper",
-                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper}}",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description}}"
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]
@@ -188,32 +188,32 @@
                     "SetProperties": {
                         "Action": "MEEP_CloseupInteractionReel",
                         "MEEP_CloseupInteraction_Image_1": "{{ModID}}/BeyondReal",
-                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.BeyondReal}}",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.BeyondReal{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_2": "{{ModID}}/KillerBunny",
-                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.KillerBunny}}",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.KillerBunny{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.KillerBunny.Description}}",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.KillerBunny.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_4": "{{ModID}}/Grindylow",
-                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Grindylow}}",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.Grindylow{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_5": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Grindylow.Description}}",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.Grindylow.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_6": "{{ModID}}/MeetingSoot",
-                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot}}",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.MeetingSoot{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_7": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description}}",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.MeetingSoot.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_8": "{{ModID}}/Blooper",
-                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper}}",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.Blooper{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_9": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description}}",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.Blooper.Description{{GeneralDialogueTokens}}}}",
 
                         "MEEP_CloseupInteraction_Image_10": "{{ModID}}/Foghound",
-                        "MEEP_CloseupInteraction_Text_10": "{{i18n:MEEP.Foghound}}",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:MEEP.Foghound{{GeneralDialogueTokens}}}}",
                         "MEEP_CloseupInteraction_Image_11": "{{ModID}}/Banner",
-                        "MEEP_CloseupInteraction_Text_11": "{{i18n:MEEP.Foghound.Description}}"
+                        "MEEP_CloseupInteraction_Text_11": "{{i18n:MEEP.Foghound.Description{{GeneralDialogueTokens}}}}"
                     }
                 }
             ]

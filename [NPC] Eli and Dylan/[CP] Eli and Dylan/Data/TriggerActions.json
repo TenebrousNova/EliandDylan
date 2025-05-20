@@ -34,7 +34,7 @@
             "Actions": [
               "AddItem (O){{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds 8",
               "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
-              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox}}\" (O){{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds",
+              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox{{GeneralDialogueTokens}}}}\" (O){{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds",
               "AddMail Current {{ModID}}_TenebrousNova.EnD_SeedGift_Received received"
             ]
           }
@@ -121,8 +121,8 @@
             "Condition": "ITEM_ID Target \"Rock Crab\", LOCATION_NAME Here EastScarp_Village",
             "MarkActionApplied": false,
             "Actions": [
-              "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillRockCrab.{{Random:{{Range: 1, 3}}}}}}\"",
-              "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillRockCrab.{{Random:{{Range: 1, 3}}}}}}\""     
+              "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillRockCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\"",
+              "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillRockCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\""     
             ]
           },
        "{{ModID}}_TenebrousNova.EnD_MonsterKilledBETAS2": {
@@ -131,8 +131,8 @@
          "Condition": "ITEM_ID Target \"Lava Crab\", LOCATION_NAME Here EastScarp_Village",
          "MarkActionApplied": false,
          "Actions": [
-           "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillLavaCrab.{{Random:{{Range: 1, 3}}}}}}\"",
-           "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillLavaCrab.{{Random:{{Range: 1, 3}}}}}}\""
+           "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillLavaCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\"",
+           "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillLavaCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\""
          ]
        }
       }

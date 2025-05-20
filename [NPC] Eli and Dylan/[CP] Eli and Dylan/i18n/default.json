@@ -1339,68 +1339,102 @@ SIGURD/SONDRA*/
 
 /*DYLAN NPC COMMENTARY
 #BEARFAM
-SIGURD/SONDRA*/
+SIGURD*/
 
-"Core.NovaDylan.SigPlatonic.1": "Sig once snatched a gull out of the air when it stole my notes on the beach. I'd never seen anything like it! That was surprisingly nice of him.$6#$b#The gulls were less impressed. You should hear the obscenities they scream when they see him these days.$3",
-"Core.NovaDylan.SigPlatonic.2": "The Bears are good neighbours. I don't talk to Sergeant Bear that often and he looks rough, but he's alright. Well, until he starts making those vulgar jokes.$0",
-"Core.NovaDylan.SigPlatonic.3": "I often see Sig loitering on the beach while I'm working. I expect him to throw his cigarette ends or Joja cola cans on the ground, but luckily he never does.$0#$b#He probably knows that Gudrun would lay into him if she found out.$1",
-"Core.NovaDylan.SigPlatonic.4": "I saw Sig thoroughly engrossed in poetry at the library. I didn't think he was the sort to appreciate that kind of thing, but he seems to be an enthusiast.$0#$b#Goes to show that you shouldn't judge a book by its cover, doesn't it?$1",
-"Core.NovaDylan.SigPlatonic.5": "I was checking my phone while walking back home and walked right into Sergeant Bear. I don't know how I failed to spot that dark haired... continental landmass.$7#$b#He just smirked at me and asked if I was alright after helping me up, but I was too embarrassed to say anything. It's going to be awkward next time I see him.$2",
+"Core.NovaDylan.Sigurd_HasBearFam.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Sigurd_HasBearFam.true": "{{NovaDylan_Sigurd}}",
 
-"Core.NovaDylan.Sondra.1": "Having Sondra around is very much what I imagine having an aunt would be like. She dotes on practically everyone around here, not just her family.$1#$b#I'm still not used to it at all.$3",
-"Core.NovaDylan.Sondra.2": "While I was working outdoors, Sondra stopped by with a packed lunch. She was worried that I'd forgotten to eat... it happens sometimes when I'm engrossed in what I'm doing.$1#$b#She seemed to know exactly what my favourite foods are. I don't remember telling her. I wonder if somebody else did?$9",
-"Core.NovaDylan.Sondra.3": "I think Eli's plotting to rope Sondra into helping us dodge taxes. I'll have to stop him before she agrees to do it out of the kindness of her heart.$7#$b#We have enough problems without FRS agents rappelling through our windows in the dead of night.$5",
-"Core.NovaDylan.Sondra.4": "I ended up watching three full episodes of Zuzu M.D. with Sondra at the Bear Lodge yesterday, followed by her insisting that I let her treat me to a homecooked dinner.$1#$b#I only popped round to return the game I borrowed from Gunnar last week! I ended up coming home much later than planned, but I can't possibly complain. The Bears take hospitality seriously.$1",
-"Core.NovaDylan.Sondra.5": "Sondra insisted that I jump ahead of her while queuing at Pierre's, but that seemed wrong, so I told her that she should go first instead. She's older, after all.$0#$b#Followed by us having a back and forth about it until Pierre finally cleared his throat. Sondra won.$1",
+"Core.NovaDylan.Sigurd_HasBearFam.1": "Sig once snatched a gull out of the air when it stole my notes on the beach. I'd never seen anything like it! That was surprisingly nice of him.$6#$b#The gulls were less impressed. You should hear the obscenities they scream when they see him these days.$3",
+"Core.NovaDylan.Sigurd_HasBearFam.2": "The Bears are good neighbours. I don't talk to Sergeant Bear that often and he looks rough, but he's alright. Well, until he starts making those vulgar jokes.$0",
+"Core.NovaDylan.Sigurd_HasBearFam.3": "I often see Sig loitering on the beach while I'm working. I expect him to throw his cigarette ends or Joja cola cans on the ground, but luckily he never does.$0#$b#He probably knows that Gudrun would lay into him if she found out.$1",
+"Core.NovaDylan.Sigurd_HasBearFam.4": "I saw Sig thoroughly engrossed in poetry at the library. I didn't think he was the sort to appreciate that kind of thing, but he seems to be an enthusiast.$0#$b#Goes to show that you shouldn't judge a book by its cover, doesn't it?$1",
+"Core.NovaDylan.Sigurd_HasBearFam.5": "I was checking my phone while walking back home and walked right into Sergeant Bear. I don't know how I failed to spot that dark haired... continental landmass.$7#$b#He just smirked at me and asked if I was alright after helping me up, but I was too embarrassed to say anything. It's going to be awkward next time I see him.$2",
 
-"Core.NovaDylan.GunnarGudrun.1": "I find myself apologising to Gunnar whenever he duels against my brother - I think Eli is a tad too overenthusiastic.$0#$b#Poor guy ends up on the ground more often than not. I'll have to have another word with Eli about it.$9",
-"Core.NovaDylan.GunnarGudrun.2": "Gudrun is remarkably clever for her age. I'm usually a bit impatient around younger people, but she's great at following what I talk about.$1#$b#If she doesn't get arrested for ecoterrorism, I think she would have promise as a scientist.$3",
-"Core.NovaDylan.GunnarGudrun.3": "I think Gunnar wants me to come over for a game night once I'm done with my work. We've mostly been playing versus, but we've been trying coop lately.$3#$b#He's got the newer, fancy consoles as well. And unlike Eli, he doesn't start whining when he loses.$1",
-"Core.NovaDylan.GunnarGudrun.4": "Eli thinks that I've been spending too much time talking to Gudrun. He claims that her juvenile speech patterns are starting to rub off on me.$7#$b#Like, excuse me? What does he know? That's, like, totally not true at all!$5",
-"Core.NovaDylan.GunnarGudrun.5": "My GPU ended up dying on me, so I had to call off the raid I'd planned with Gunnar. It sucked, but I figured that would be the end of it.$0#$b#And then I find out that he ordered a top end replacement that's superior in every way to the one I had. Just casually handed it to me. I'm still in shock!$6",
-"Core.NovaDylan.GunnarGudrun.6": "Gudrun sometimes accompanies me while I'm working. I don't mind, since she shares my passion for what I do and makes herself useful.$1#$b#She even asks to borrow my notes so she can learn more. If only more people were as inquisitive.$3",
-"Core.NovaDylan.GunnarGudrun.7": "Gunnar was telling me about the last time he went into the mines on his own. I don't know how those adventurer types can bring themselves to do it!$9#$b#I know that Dr. Harvey worries himself sick over them. But hey, it keeps him in business.$0",
-"Core.NovaDylan.GunnarGudrun.8": "Gudrun was round our place while I was cleaning the aquarium, talking my ear off about that Navigator Lune show. Got to admit, it all went over my head.$0#$b#Eli teased her for her taste in TV and got shut down so hard that he was too embarrassed to say much for the rest of the visit. Serves him right.$3",
-"Core.NovaDylan.GunnarGudrun.9": "We went over to the Bear Lodge last night to watch Beware the Mothman with Gunnar. It's more Eli's thing, but it's an interesting series.$1#$b#I still can't get over the size of that fancy TV they've got! I dread to imagine how much it cost, let alone the ultimate streaming package they pay for.$6",
-"Core.NovaDylan.GunnarGudrun.10": "Did you know that Gudrun runs a blog about fish facts? She's really shown her work. I've contributed here and there for the sake of scientific accuracy.$3#$b#She also bullies big corporations on social media. I kind of feel sorry for the underpaid interns who have to deal with her shenanigans.$3",
+//SIGURD RH
 
-"Core.NovaDylan.Teren.1": "If it weren't for the dogtags, I'd have a hard time remembering that Teren was a soldier. I picture them more like Sig, you know? Not as outwardly friendly.$0#$b#I was a little wary of him at first, but he's hard not to like.$1",
-"Core.NovaDylan.Teren.2": "Eli seems to get on well with Teren. Granted, that's a low bar - he gets along with anyone who's not an ass. But they hang out quite a lot.$1#$b#Hopefully he won't rope the poor guy into any trouble.$0",
-"Core.NovaDylan.Teren.3": "Teren's got rather good taste in video games. He's not a bad opponent either as it happens... he usually teams up with Eli or Sig, but that won't save any of them.$3",
-"Core.NovaDylan.Teren.4": "Teren was talking to me earlier and somehow we ended up on the subject of his poor luck with dating apps. He was asking if I... have ever had a partner.$0#$b#I've had people show interest in me before, but I've never felt those sort of emotions towards anyone. Well, not yet anyway. Sounds like a hassle, though.$9",
-"Core.NovaDylan.Teren.5": "Teren seemed to be very taken with my aquarium when he last visited. It's always nice when people take the time to appreciate the work I put into it.$1#$b#He's an animal lover, too. Next time I decide to add a fish to it, I might let him choose the species.$3",
+
+
+//SONDRA
+
+"Core.NovaDylan.Sondra_HasBearFam.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Sondra_HasBearFam.true": "{{NovaDylan_Sondra}}",
+
+"Core.NovaDylan.Sondra_HasBearFam.6": "Having Sondra around is very much what I imagine having an aunt would be like. She dotes on practically everyone around here, not just her family.$1#$b#I'm still not used to it at all.$3",
+"Core.NovaDylan.Sondra_HasBearFam.7": "While I was working outdoors, Sondra stopped by with a packed lunch. She was worried that I'd forgotten to eat... it happens sometimes when I'm engrossed in what I'm doing.$1#$b#She seemed to know exactly what my favourite foods are. I don't remember telling her. I wonder if somebody else did?$9",
+"Core.NovaDylan.Sondra_HasBearFam.8": "I think Eli's plotting to rope Sondra into helping us dodge taxes. I'll have to stop him before she agrees to do it out of the kindness of her heart.$7#$b#We have enough problems without FRS agents rappelling through our windows in the dead of night.$5",
+"Core.NovaDylan.Sondra_HasBearFam.9": "I ended up watching three full episodes of Zuzu M.D. with Sondra at the Bear Lodge yesterday, followed by her insisting that I let her treat me to a homecooked dinner.$1#$b#I only popped round to return the game I borrowed from Gunnar last week! I ended up coming home much later than planned, but I can't possibly complain. The Bears take hospitality seriously.$1",
+"Core.NovaDylan.Sondra_HasBearFam.10": "Sondra insisted that I jump ahead of her while queuing at Pierre's, but that seemed wrong, so I told her that she should go first instead. She's older, after all.$0#$b#Followed by us having a back and forth about it until Pierre finally cleared his throat. Sondra won.$1",
+
+//GUNNAR/GUDRUN
+
+"Core.NovaDylan.GunnarGudrun_HasBearFam.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.true": "{{NovaDylan_GunnarGudrun}}",
+
+"Core.NovaDylan.GunnarGudrun_HasBearFam.1": "I find myself apologising to Gunnar whenever he duels against my brother - I think Eli is a tad too overenthusiastic.$0#$b#Poor guy ends up on the ground more often than not. I'll have to have another word with Eli about it.$9",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.2": "I think Gunnar wants me to come over for a game night once I'm done with my work. We've mostly been playing versus, but we've been trying coop lately.$3#$b#He's got the newer, fancy consoles as well. And unlike Eli, he doesn't start whining when he loses.$1",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.3": "My GPU ended up dying on me, so I had to call off the raid I'd planned with Gunnar. It sucked, but I figured that would be the end of it.$0#$b#And then I find out that he ordered a top end replacement that's superior in every way to the one I had. Just casually handed it to me. I'm still in shock!$6",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.4": "Gunnar was telling me about the last time he went into the mines on his own. I don't know how those adventurer types can bring themselves to do it!$9#$b#I know that Dr. Harvey worries himself sick over them. But hey, it keeps him in business.$0",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.5": "We went over to the Bear Lodge last night to watch Beware the Mothman with Gunnar. It's more Eli's thing, but it's an interesting series.$1#$b#I still can't get over the size of that fancy TV they've got! I dread to imagine how much it cost, let alone the ultimate streaming package they pay for.$6",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.6": "Gudrun is remarkably clever for her age. I'm usually a bit impatient around younger people, but she's great at following what I talk about.$1#$b#If she doesn't get arrested for ecoterrorism, I think she would have promise as a scientist.$3",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.7": "Eli thinks that I've been spending too much time talking to Gudrun. He claims that her juvenile speech patterns are starting to rub off on me.$7#$b#Like, excuse me? What does he know? That's, like, totally not true at all!$5",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.8": "Gudrun sometimes accompanies me while I'm working. I don't mind, since she shares my passion for what I do and makes herself useful.$1#$b#She even asks to borrow my notes so she can learn more. If only more people were as inquisitive.$3",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.9": "Gudrun was round our place while I was cleaning the aquarium, talking my ear off about that Navigator Lune show. Got to admit, it all went over my head.$0#$b#Eli teased her for her taste in TV and got shut down so hard that he was too embarrassed to say much for the rest of the visit. Serves him right.$3",
+"Core.NovaDylan.GunnarGudrun_HasBearFam.10": "Did you know that Gudrun runs a blog about fish facts? She's really shown her work. I've contributed here and there for the sake of scientific accuracy.$3#$b#She also bullies big corporations on social media. I kind of feel sorry for the underpaid interns who have to deal with her shenanigans.$3",
+
+//TEREN
+
+"Core.NovaDylan.Teren_HasBearFam.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Teren_HasBearFam.true": "{{NovaDylan_Teren}}",
+
+"Core.NovaDylan.Teren_HasBearFam.1": "If it weren't for the dogtags, I'd have a hard time remembering that Teren was a soldier. I picture them more like Sig, you know? Not as outwardly friendly.$0#$b#I was a little wary of him at first, but he's hard not to like.$1",
+"Core.NovaDylan.Teren_HasBearFam.2": "Eli seems to get on well with Teren. Granted, that's a low bar - he gets along with anyone who's not an {{LPProfanity_Asshole}}. But they hang out quite a lot.$1#$b#Hopefully he won't rope the poor guy into any trouble.$0",
+"Core.NovaDylan.Teren_HasBearFam.3": "Teren's got rather good taste in video games. He's not a bad opponent either as it happens... he usually teams up with Eli or Sig, but that won't save any of them.$3",
+"Core.NovaDylan.Teren_HasBearFam.4": "Teren was talking to me earlier and somehow we ended up on the subject of his poor luck with dating apps. He was asking if I... have ever had a partner.$0#$b#I've had people show interest in me before, but I've never felt those sort of emotions towards anyone. Well, not yet anyway. Sounds like a hassle, though.$9",
+"Core.NovaDylan.Teren_HasBearFam.5": "Teren seemed to be very taken with my aquarium when he last visited. It's always nice when people take the time to appreciate the work I put into it.$1#$b#He's an animal lover, too. Next time I decide to add a fish to it, I might let him choose the species.$3",
 
 //RODNEY
 
-"Core.NovaDylan.Rodney.1": "I just had to fish up yet another autographed photo of Rodney. There's no end to the {{LPProfanity_Damn}} things! And Eli's even found them in the ground!$5#$b#*Sigh* As neighbours go he's not bad at all, but apparently his ego is big enough to have its own gravitational field. I'll have a word with him.$7",
-"Core.NovaDylan.Rodney.2": "I ended up getting accompanied by Rodney when I was working on the beach. He's always kind to me, so it was a welcome distraction.$0#$b#We wound up talking about his latest novel and by the end of it, I'd completely forgotten to collect any samples.$7",
-"Core.NovaDylan.Rodney.3": "On my way back home yesterday, I glanced up at the silo window and caught a glimpse of Rodneys's silhouette. I... don't think he was wearing anything at all?$6#$b#That's going to make the next book club meeting at the library extremely awkward...$2",
-"Core.NovaDylan.Rodney.4": "I had to tell off Thistle again for pranking Rodney. She thinks it's funny to try and drop things on his head from the sky.$7#$b#So far she's only been successful a few times, but it's just a matter of time before she gets the other crows to copy her.$5",
-"Core.NovaDylan.Rodney.5": "Rodney wants to read one of his books at our next Saturday night campfire. I don't think it's what Eli had in mind, but some variety might make it more fun.$0#$b#Rodney's stories are definitely more kid friendly than Eli's. Less likely to give you nightmares.$3",
+"Core.NovaDylan.Rodney_HasRodney.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Rodney_HasRodney.true": "{{NovaDylan_Rodney}}",
+
+"Core.NovaDylan.Rodney_HasRodney.1": "I just had to fish up yet another autographed photo of Rodney. There's no end to the {{LPProfanity_Damn}} things! And Eli's even found them in the ground!$5#$b#*Sigh* As neighbours go he's not bad at all, but apparently his ego is big enough to have its own gravitational field. I'll have a word with him.$7",
+"Core.NovaDylan.Rodney_HasRodney.2": "I ended up getting accompanied by Rodney when I was working on the beach. He's always kind to me, so it was a welcome distraction.$0#$b#We wound up talking about his latest novel and by the end of it, I'd completely forgotten to collect any samples.$7",
+"Core.NovaDylan.Rodney_HasRodney.3": "On my way back home yesterday, I glanced up at the silo window and caught a glimpse of Rodneys's silhouette. I... don't think he was wearing anything at all?$6#$b#That's going to make the next book club meeting at the library extremely awkward...$2",
+"Core.NovaDylan.Rodney_HasRodney.4": "I had to tell off Thistle again for pranking Rodney. She thinks it's funny to try and drop things on his head from the sky.$7#$b#So far she's only been successful a few times, but it's just a matter of time before she gets the other crows to copy her.$5",
+"Core.NovaDylan.Rodney_HasRodney.5": "Rodney wants to read one of his books at our next Saturday night campfire. I don't think it's what Eli had in mind, but some variety might make it more fun.$0#$b#Rodney's stories are definitely more kid friendly than Eli's. Less likely to give you nightmares.$3",
 
 //SEN
 
-"Core.NovaDylan.Sen.1": "I've never seen this Sen character who Eli's friends with, but apparently he's the one who rummages through our trash at night. And he's not human.$0#$b#I thought the Shadow People are supposed to live far away from people. He sounds nice, though.$1",
-"Core.NovaDylan.Sen.2": "I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0#$action AddMail Current DylanSenNote received",
-"Core.NovaDylan.Sen.3": "Eli asked me if there's any books I don't mind lending to Sen. I think there's some fantasy and sci-fi books somewhere that he can take a look at.$0#$b#Maybe I should slip a few of my marine biology books in there as well.$3",
-"Core.NovaDylan.Sen.4": "I heard something moving around outside the house in the early hours and peeked out of my window just in time to see a dark figure with horns making a run for it!$6#$b#Eli thinks it's nothing to worry about, but what if they were some sort of murderous maniac trying to break in? I don't know if I'll be able to sleep tonight.$2",
-"Core.NovaDylan.Sen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$9",
+"Core.NovaDylan.Sen_HasSen.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Sen_HasSen.true": "{{NovaDylan_Sen}}",
+
+"Core.NovaDylan.Sen_HasSen.1": "I've never seen this Sen character who Eli's friends with, but apparently he's the one who rummages through our trash at night. And he's not human.$0#$b#I thought the Shadow People are supposed to live far away from people. He sounds nice, though.$1",
+"Core.NovaDylan.Sen_HasSen.2": "I found a little apology note left on our trashcan when I went to empty it. It was addressed to me... the sender said they accidentally knocked over the trash last night.$9#$b#Eli thinks that Sen wrote it. I've left my own note for him, saying it's okay and thanking him for cleaning up his mess. I wonder if he'll respond?$0#$action AddMail Current DylanSenNote received",
+"Core.NovaDylan.Sen_HasSen.3": "Eli asked me if there's any books I don't mind lending to Sen. I think there's some fantasy and sci-fi books somewhere that he can take a look at.$0#$b#Maybe I should slip a few of my marine biology books in there as well.$3",
+"Core.NovaDylan.Sen_HasSen.4": "I heard something moving around outside the house in the early hours and peeked out of my window just in time to see a dark figure with horns making a run for it!$6#$b#Eli thinks it's nothing to worry about, but what if they were some sort of murderous maniac trying to break in? I don't know if I'll be able to sleep tonight.$2",
+"Core.NovaDylan.Sen_HasSen.5": "Eli sometimes goes out on late night excursions to meet those Shadow People. If we still had a guest room, he'd probably be trying to bring them home with him.$9",
 
 //MATEO
 
-"Core.NovaDylan.Mateo.1": "I wasn't sure what to make of Mateo when I first met them. Seemed like your typical rough adventurer type. Then I actually spoke to them and realised...$9#$b#They're a MASSIVE nerd. One of the biggest nerds I've ever met and that's coming from me. They're an excellent DM!$3",
-"Core.NovaDylan.Mateo.2": "It's a good job that Mateo has first aid certification, because it's not uncommon for them and Eli to stagger out of the mine together covered in cuts and scrapes.$2#$b#I'd still prefer that he went to Dr. Harvey for treatment, but you won't get him in that clinic unless you literally drag him kicking and screaming.$9#$b#I speak from experience... I needed Mateo's assistance to do it once.$1",
-"Core.NovaDylan.Mateo.3": "Mateo is well known for their hatred of crabs. Not just the invasive rock crabs that attack people - crabs of all species. What a weird hangup.$9#$b#Maybe they got their toe pinched as a kid or something? Either way, I'd better not catch them hurting any.$0",
-"Core.NovaDylan.Mateo.4": "I caught Eli trying to throw knives IN THE HOUSE! He told me that Dr. Luis showed him a trick and he wanted to learn it for himself.$5#$b#I don't believe him sometimes! Clearly I need to have another word with Mateo - I don't think they realize how impressionable my brother is. He'll be trying to JUGGLE them next.$7",
-"Core.NovaDylan.Mateo.5": "I know it's not Dr. Luis's field of study, but I've heard great thing about the marine biology courses available at the university they went to.$0#$b#If there'd been an exchange student opportunity, I would've taken it in a heartbeat.$1#$b#I might've even seen them on campus then!$3",
+"Core.NovaDylan.Mateo_HasMateo.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Mateo_HasMateo.true": "{{NovaDylan_Mateo}}",
+
+"Core.NovaDylan.Mateo_HasMateo.1": "I wasn't sure what to make of Mateo when I first met them. Seemed like your typical rough adventurer type. Then I actually spoke to them and realised...$9#$b#They're a MASSIVE nerd. One of the biggest nerds I've ever met and that's coming from me. They're an excellent DM!$3",
+"Core.NovaDylan.Mateo_HasMateo.2": "It's a good job that Mateo has first aid certification, because it's not uncommon for them and Eli to stagger out of the mine together covered in cuts and scrapes.$2#$b#I'd still prefer that he went to Dr. Harvey for treatment, but you won't get him in that clinic unless you literally drag him kicking and screaming.$9#$b#I speak from experience... I needed Mateo's assistance to do it once.$1",
+"Core.NovaDylan.Mateo_HasMateo.3": "Mateo is well known for their hatred of crabs. Not just the invasive rock crabs that attack people - crabs of all species. What a weird hangup.$9#$b#Maybe they got their toe pinched as a kid or something? Either way, I'd better not catch them hurting any.$0",
+"Core.NovaDylan.Mateo_HasMateo.4": "I caught Eli trying to throw knives IN THE HOUSE! He told me that Dr. Luis showed him a trick and he wanted to learn it for himself.$5#$b#I don't believe him sometimes! Clearly I need to have another word with Mateo - I don't think they realize how impressionable my brother is.$7#$b#He'll be trying to JUGGLE them next.$2",
+"Core.NovaDylan.Mateo_HasMateo.5": "I know it's not Dr. Luis's field of study, but I've heard great thing about the marine biology courses available at the university they went to.$0#$b#If there'd been an exchange student opportunity, I would've taken it in a heartbeat.$1#$b#I might've even seen them on campus then!$3",
 
 //NORA
 
-"Core.NovaDylan.Nora.1": "Nora's going to be coming over later to watch a documentary on the Fern Island marine iguanas with me. It should be interesting to the both of us.$0#$b#Eli's hopefully going to pick up one of those XL pizzas that Gus makes, I can hardly wait!$3",
-"Core.NovaDylan.Nora.2": "I might have to pay Nora a visit soon. Partly to catch up, but mostly so I have a pretext to lavish attention on Pinkie Pie and Stupid for a while.$1",
-"Core.NovaDylan.Nora.3": "I actually considered pursuing herpetology before I was serious about marine biology. In another timeline, Nora might've been my colleague.$1#$b#But if you tell her that, I'll deny it. I don't need her trying to convert me.$0",
-"Core.NovaDylan.Nora.4": "Has Eli said anything to you about Pepper Rexes lately? Because I've got the sneaking suspicion that he wants to capture one for Nora to study.$2#$b#Do I really have to remind people that this town is very flammable?$7",
-"Core.NovaDylan.Nora.5": "Sorry @, I've got a migraine flaring up at the moment. Spending too much time in the company of Eli and Nora at the same time will do that to me.$7#$b#Neither of them have an indoor voice. I swear you can hear them from the other side of town sometimes!$9",
+"Core.NovaDylan.Nora_HasNora.false": "{{NovaDylan_Filler}}",
+"Core.NovaDylan.Nora_HasNora.true": "{{NovaDylan_Nora}}",
+
+"Core.NovaDylan.Nora_HasNora.1": "Nora's going to be coming over later to watch a documentary on the Fern Island marine iguanas with me. It should be interesting to the both of us.$0#$b#Eli's hopefully going to pick up one of those XL pizzas that Gus makes, I can hardly wait!$3",
+"Core.NovaDylan.Nora_HasNora.2": "I might have to pay Nora a visit soon. Partly to catch up, but mostly so I have a pretext to lavish attention on Pinkie Pie and Stupid for a while.$1",
+"Core.NovaDylan.Nora_HasNora.3": "I actually considered pursuing herpetology before I was serious about marine biology. In another timeline, Nora might've been my colleague.$1#$b#But if you tell her that, I'll deny it. I don't need her trying to convert me.$0",
+"Core.NovaDylan.Nora_HasNora.4": "Has Eli said anything to you about Pepper Rexes lately? Because I've got the sneaking suspicion that he wants to capture one for Nora to study.$2#$b#Do I really have to remind people that this town is very flammable?$7",
+"Core.NovaDylan.Nora_HasNora.5": "Sorry @, I've got a migraine flaring up at the moment. Spending too much time in the company of Eli and Nora at the same time will do that to me.$7#$b#Neither of them have an indoor voice. I swear you can hear them from the other side of town sometimes!$9",
 
 //GINGER ISLAND
 

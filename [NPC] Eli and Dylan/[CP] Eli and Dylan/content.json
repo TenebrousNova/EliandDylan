@@ -26,9 +26,9 @@ Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to
 Agent Lyoko: Providing a template for NPC Adventures, which has saved me a LOT of trouble.
 CreatorKami: Animated CG which turned out very nicely, C# help, plus lots of other technical help!
 Atravita: C# wizardry and helped troubleshoot schedule bugs that were driving me bonkers. Also helped me with the 1.6 transition.
-FellowClown: Made custom furniture for the brother's house, plus many other assets!
+FellowClown: Made custom furniture for the brother's house, photos, plus many other assets!
 Logophile: Very kindly allowed me to commandeer the custom rugs she made and put them in the brother's house. Also been a great source of support for me!
-MADDOGOFBLANK: Custom letterheading, custom furniture, art help (especially with Dylan's sprites), emotional support and an endless wellspring of motivation and kind words!
+MADDOGOFBLANK: Custom letterheading, custom furniture, art help (especially with Dylan's sprites), emotional support and an endless wellspring of motivation and kind words, helped me restructure my NPC dialogue!
 KittyCatCasey: Has listened to my inane technical questions with great patience and enabled my ideas by adding fancy new custom event commands to SpaceCore.
 7thAxis: Allium portraits, also invented a clever new way of randomising daily dialogue. Mine is the third mod to utilize it!
 TheFrenchDodo: Made additional assets & music for me.
@@ -39,7 +39,7 @@ The Cornupcopia Team: New bushes and trees!
 SmolHuman: Very kindly granted me permission to use their wild animals in events.
 Bunnipocalypse: Drone sprites & animations.
 DolphinIsNotaFish: Mouse portraits, mod page title typography.
-EnderTedi: Moral support and teaching me new event commands.
+EnderTedi: Moral support and teaching me new event commands, provided the C# component for the chaos totem!
 TheMainDaine: Moral support.
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
@@ -284,6 +284,42 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		}
 	},
 
+	{
+		"Name": "NovaDylan_HeartLevelToken",
+		"Value": "0-4"
+	},
+	{
+		"Name": "NovaDylan_HeartLevelToken",
+		"Value": "{{Random: 0-4, 5-10 |key=NovaDylan_Sync}}",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		}
+	},
+
+	{
+		"Name": "NovaDylan_HeartLevelToken_Quantity",
+		"Value": "{{Range: 1, 60}}"
+	},
+	{
+		"Name": "NovaDylan_HeartLevelToken_Quantity",
+		"Value": "{{Random: {{Range: 1, 60}}, {{Range: 1, 100}} |key=NovaDylan_Sync}}",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		}
+	},
+
+	{
+		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
+		"Value": "{{Range: 1, 10}}"
+	},
+	{
+		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
+		"Value": "{{Random: {{Range: 1, 10}}, {{Range: 1, 20}} |key=NovaDylan_Sync}}",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
+		}
+	},
+
 	//Pass-in i18n tokens. Don't ask me how these work. Special thanks to Axell and Mads for helping me out with them!
 
 	{
@@ -304,6 +340,16 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
         "Name": "NovaEli_DialogueModifiers",
         "Value": "|NovaEli_BigPool={{Random:{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}|inputSeparator=++}}"
+    },
+
+	{
+        "Name": "NovaDylan_DialogueFiller",
+        "Value": "|NovaDylan_Filler={{i18n:Core.NovaDylan.{{NovaDylan_HeartLevelToken}}.{{Random:{{Range: 2, 60}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sigurd={{i18n:Core.NovaDylan.Sigurd_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sondra={{i18n:Core.NovaDylan.Sondra_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_GunnarGudrun={{i18n:Core.NovaDylan.GunnarGudrun_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Teren={{i18n:Core.NovaDylan.Teren_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Nora={{i18n:Core.NovaDylan.Nora_HasNora.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Mateo={{i18n:Core.NovaDylan.Mateo_HasMateo.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Rodney={{i18n:Core.NovaDylan.Rodney_HasRodney.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sen={{i18n:Core.NovaDylan.Sen_HasSen.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}"
+    },
+
+	{
+        "Name": "NovaDylan_DialogueModifiers",
+        "Value": "|NovaDylan_BigPool={{Random:{{i18n:Core.NovaDylan.{{NovaDylan_HeartLevelToken}}.{{Season}}.{{Random:{{NovaDylan_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaDylan.Sigurd_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Sondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaDylan_DialogueFiller}}}}|inputSeparator=++}}"
     },
 
 	//Currently unused. 

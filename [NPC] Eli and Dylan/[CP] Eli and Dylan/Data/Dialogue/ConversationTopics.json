@@ -7,132 +7,132 @@
 			"Target": "Characters/Dialogue/Nova.Eli",
 			"Entries": {
 
-				"joja_Begin": "{{i18n:CT.NovaEli.JojaBegin}}",
-			    "cc_Begin": "{{i18n:CT.NovaEli.CCBegin}}",
-			    "cc_Bus": "{{i18n:CT.NovaEli.CCBus}}",
-			    "cc_Minecart": "{{i18n:CT.NovaEli.CCMinecart}}",
-			    "cc_Complete": "{{i18n:CT.NovaEli.CCComplete}}",
-			    "movieTheater": "{{i18n:CT.NovaEli.MovieTheater}}",
+				"joja_Begin": "{{i18n:CT.NovaEli.JojaBegin{{GeneralDialogueTokens}}}}",
+			    "cc_Begin": "{{i18n:CT.NovaEli.CCBegin{{GeneralDialogueTokens}}}}",
+			    "cc_Bus": "{{i18n:CT.NovaEli.CCBus{{GeneralDialogueTokens}}}}",
+			    "cc_Minecart": "{{i18n:CT.NovaEli.CCMinecart{{GeneralDialogueTokens}}}}",
+			    "cc_Complete": "{{i18n:CT.NovaEli.CCComplete{{GeneralDialogueTokens}}}}",
+			    "movieTheater": "{{i18n:CT.NovaEli.MovieTheater{{GeneralDialogueTokens}}}}",
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.NovaEli.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.NovaEli.EliSaloon}}",
-				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1}}",
-				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2}}",
-				"EliWoods": "{{i18n:CT.NovaEli.EliWoods}}",
-				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro}}",
-				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave}}",
-				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.NovaEli.EliFogHounds}}",
-				"EliStory": "{{i18n:CT.NovaEli.EliStory}}",
-				"EliGuild": "{{i18n:CT.NovaEli.EliGuild}}",
-				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom}}",
-				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout}}",
+				"EliIntro": "{{i18n:CT.NovaEli.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliSaloon": "{{i18n:CT.NovaEli.EliSaloon{{GeneralDialogueTokens}}}}",
+				"EliJunimo1": "{{i18n:CT.NovaEli.EliJunimo1{{GeneralDialogueTokens}}}}",
+				"EliJunimo2": "{{i18n:CT.NovaEli.EliJunimo2{{GeneralDialogueTokens}}}}",
+				"EliWoods": "{{i18n:CT.NovaEli.EliWoods{{GeneralDialogueTokens}}}}",
+				"EliOldWoods": "{{i18n:CT.NovaEli.EliOldWoods{{GeneralDialogueTokens}}}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaEli.JunimoKingIntro{{GeneralDialogueTokens}}}}",
+				"EliMushroomCave": "{{i18n:CT.NovaEli.EliMushroomCave{{GeneralDialogueTokens}}}}",
+				"EliMysteryBeast": "{{i18n:CT.NovaEli.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.NovaEli.EliFogHounds{{GeneralDialogueTokens}}}}",
+				"EliStory": "{{i18n:CT.NovaEli.EliStory{{GeneralDialogueTokens}}}}",
+				"EliGuild": "{{i18n:CT.NovaEli.EliGuild{{GeneralDialogueTokens}}}}",
+				"EliGuestRoom": "{{i18n:CT.NovaEli.EliGuestRoom{{GeneralDialogueTokens}}}}",
+				"EliLateHangout": "{{i18n:CT.NovaEli.EliLateHangout{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.NovaEli.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.NovaEli.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.NovaEli.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon}}",
-				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson}}",
-				"DylanDroneProgress": "{{i18n:CT.NovaEli.DylanDroneProgress}}",
-				"DylanExpedition": "{{i18n:CT.NovaEli.DylanExpedition}}",
-				"DylanArticle": "{{i18n:CT.NovaEli.DylanArticle}}",
-				"DylanCCAquarium": "{{i18n:CT.NovaEli.DylanCCAquarium}}",
-				"DylanDream": "{{i18n:CT.NovaEli.DylanDream}}",
+				"DylanIntro": "{{i18n:CT.NovaEli.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.NovaEli.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanTown": "{{i18n:CT.NovaEli.DylanTown{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.NovaEli.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanLibrary": "{{i18n:CT.NovaEli.DylanLibrary{{GeneralDialogueTokens}}}}",
+				"DylanLesson": "{{i18n:CT.NovaEli.DylanLesson{{GeneralDialogueTokens}}}}",
+				"DylanDroneProgress": "{{i18n:CT.NovaEli.DylanDroneProgress{{GeneralDialogueTokens}}}}",
+				"DylanExpedition": "{{i18n:CT.NovaEli.DylanExpedition{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.NovaEli.DylanArticle{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.NovaEli.DylanCCAquarium{{GeneralDialogueTokens}}}}",
+				"DylanDream": "{{i18n:CT.NovaEli.DylanDream{{GeneralDialogueTokens}}}}",
 
-				"DylanDrenched": "{{i18n:CT.NovaEli.DylanDrenched}}",
+				"DylanDrenched": "{{i18n:CT.NovaEli.DylanDrenched{{GeneralDialogueTokens}}}}",
 
 				//Other Topics
 
-				"SootIntro": "{{i18n:CT.NovaEli.SootIntro}}",
-				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro}}",
-				"EnDMouse": "{{i18n:CT.NovaEli.EnDMouse}}",
-				"EnDJojaBreak": "{{i18n:CT.NovaEli.EnDJojaBreak}}",
-				"EnDClinicAppointment": "{{i18n:CT.NovaEli.EnDClinicAppointment}}",
-				"EnDPlan": "{{i18n:CT.NovaEli.EnDPlan}}",
-				"EnDHomecoming": "{{i18n:CT.NovaEli.EnDHomecoming}}",
+				"SootIntro": "{{i18n:CT.NovaEli.SootIntro{{GeneralDialogueTokens}}}}",
+				"ThistleIntro": "{{i18n:CT.NovaEli.ThistleIntro{{GeneralDialogueTokens}}}}",
+				"EnDMouse": "{{i18n:CT.NovaEli.EnDMouse{{GeneralDialogueTokens}}}}",
+				"EnDJojaBreak": "{{i18n:CT.NovaEli.EnDJojaBreak{{GeneralDialogueTokens}}}}",
+				"EnDClinicAppointment": "{{i18n:CT.NovaEli.EnDClinicAppointment{{GeneralDialogueTokens}}}}",
+				"EnDPlan": "{{i18n:CT.NovaEli.EnDPlan{{GeneralDialogueTokens}}}}",
+				"EnDHomecoming": "{{i18n:CT.NovaEli.EnDHomecoming{{GeneralDialogueTokens}}}}",
 
-				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure}}",
+				"SootPocketAdventure": "{{i18n:CT.NovaEli.SootPocketAdventure{{GeneralDialogueTokens}}}}",
 
 				//ARV Topics
 			
 				//Sterling
 			
-			    "SterlingTrash": "{{i18n:CT.NovaEli.SterlingTrash}}",
-			    "SterlingTrain": "{{i18n:CT.NovaEli.SterlingTrain}}",
-			    "SterlingShaneParty": "{{i18n:CT.NovaEli.SterlingShaneParty}}",
-			    "SterlingSwim": "{{i18n:CT.NovaEli.SterlingSwim}}",
-			    "SterlingBike": "{{i18n:CT.NovaEli.SterlingBike}}",
-			    "SterlingDrugs": "{{i18n:CT.NovaEli.SterlingDrugs}}",
-			    "SterlingRelapse": "{{i18n:CT.NovaEli.SterlingRelapse}}",
-			    "SterlingApology": "{{i18n:CT.NovaEli.SterlingApology}}",
-			    "SterlingRiver": "{{i18n:CT.NovaEli.SterlingRiver}}",
+			    "SterlingTrash": "{{i18n:CT.NovaEli.SterlingTrash{{GeneralDialogueTokens}}}}",
+			    "SterlingTrain": "{{i18n:CT.NovaEli.SterlingTrain{{GeneralDialogueTokens}}}}",
+			    "SterlingShaneParty": "{{i18n:CT.NovaEli.SterlingShaneParty{{GeneralDialogueTokens}}}}",
+			    "SterlingSwim": "{{i18n:CT.NovaEli.SterlingSwim{{GeneralDialogueTokens}}}}",
+			    "SterlingBike": "{{i18n:CT.NovaEli.SterlingBike{{GeneralDialogueTokens}}}}",
+			    "SterlingDrugs": "{{i18n:CT.NovaEli.SterlingDrugs{{GeneralDialogueTokens}}}}",
+			    "SterlingRelapse": "{{i18n:CT.NovaEli.SterlingRelapse{{GeneralDialogueTokens}}}}",
+			    "SterlingApology": "{{i18n:CT.NovaEli.SterlingApology{{GeneralDialogueTokens}}}}",
+			    "SterlingRiver": "{{i18n:CT.NovaEli.SterlingRiver{{GeneralDialogueTokens}}}}",
 
 				//Diamond in the Rough Topics
 
-				"DitR_CT_SenMet": "{{i18n:CT.NovaEli.SenMet}}",
+				"DitR_CT_SenMet": "{{i18n:CT.NovaEli.SenMet{{GeneralDialogueTokens}}}}",
 
-				"DitR_CT_EveMeet": "{{i18n:CT.NovaEli.LotV_CT_EveMeet}}",
+				"DitR_CT_EveMeet": "{{i18n:CT.NovaEli.LotV_CT_EveMeet{{GeneralDialogueTokens}}}}",
 
-				"DitR_CT_PipoShorts": "{{i18n:CT.NovaEli.DitR_CT_PipoShorts}}",
+				"DitR_CT_PipoShorts": "{{i18n:CT.NovaEli.DitR_CT_PipoShorts{{GeneralDialogueTokens}}}}",
 
 				//Lucikiel Topics
 
-				"LucikielArrives": "{{i18n:CT.NovaEli.LucikielArrives}}",
+				"LucikielArrives": "{{i18n:CT.NovaEli.LucikielArrives{{GeneralDialogueTokens}}}}",
 
 				//Jorts & Jean Topics
 
-				"MeetTheCats": "{{i18n:CT.NovaEli.MeetTheCats}}",
+				"MeetTheCats": "{{i18n:CT.NovaEli.MeetTheCats{{GeneralDialogueTokens}}}}",
 
 				//Mateo Topics
 
-				"MateoCaution": "{{i18n:CT.NovaEli.MateoCaution}}",
-				"MateoRescue": "{{i18n:CT.NovaEli.MateoRescue}}",
-				"MateoLibrary": "{{i18n:CT.NovaEli.MateoLibrary}}",
+				"MateoCaution": "{{i18n:CT.NovaEli.MateoCaution{{GeneralDialogueTokens}}}}",
+				"MateoRescue": "{{i18n:CT.NovaEli.MateoRescue{{GeneralDialogueTokens}}}}",
+				"MateoLibrary": "{{i18n:CT.NovaEli.MateoLibrary{{GeneralDialogueTokens}}}}",
 
 				//The Writer, The Witch & The Wardrobe Topics:
 
-				"TalkWithGunther": "{{i18n:CT.NovaEli.TalkWithGunther}}",
+				"TalkWithGunther": "{{i18n:CT.NovaEli.TalkWithGunther{{GeneralDialogueTokens}}}}",
 
 				//Realistic Writer Elliott Topics:
 
-				"elliott_writing_letter1": "{{i18n:CT.NovaEli.elliott_writing_letter1}}",
+				"elliott_writing_letter1": "{{i18n:CT.NovaEli.elliott_writing_letter1{{GeneralDialogueTokens}}}}",
 
 				//Grandpa's Ghost topics:
 
-				"GrandpaHaunts": "{{i18n:CT.NovaEli.GrandpaHaunts}}",
+				"GrandpaHaunts": "{{i18n:CT.NovaEli.GrandpaHaunts{{GeneralDialogueTokens}}}}",
 
 				//BearFam Topics:
 
-				"BearFamTimeForBees": "{{i18n:CT.NovaEli.BearFamTimeForBees}}",
-				"SigLowBattery": "{{i18n:CT.NovaEli.SigLowBattery}}",
-				"SondraAgingGracefully": "{{i18n:CT.NovaEli.SondraAgingGracefully}}",
-				"BearFamFullHouse": "{{i18n:CT.NovaEli.BearFamFullHouse}}",
-				"GunnarBoxShop": "{{i18n:CT.NovaEli.GunnarBoxShop}}",
+				"BearFamTimeForBees": "{{i18n:CT.NovaEli.BearFamTimeForBees{{GeneralDialogueTokens}}}}",
+				"SigLowBattery": "{{i18n:CT.NovaEli.SigLowBattery{{GeneralDialogueTokens}}}}",
+				"SondraAgingGracefully": "{{i18n:CT.NovaEli.SondraAgingGracefully{{GeneralDialogueTokens}}}}",
+				"BearFamFullHouse": "{{i18n:CT.NovaEli.BearFamFullHouse{{GeneralDialogueTokens}}}}",
+				"GunnarBoxShop": "{{i18n:CT.NovaEli.GunnarBoxShop{{GeneralDialogueTokens}}}}",
 
 				//Nora Topics:
 
-				"NoraIntro": "{{i18n:CT.NovaEli.NoraIntro}}",
+				"NoraIntro": "{{i18n:CT.NovaEli.NoraIntro{{GeneralDialogueTokens}}}}",
 
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro}}",
+				"LyellsIntro": "{{i18n:CT.NovaEli.LyellsIntro{{GeneralDialogueTokens}}}}",
 
 				//John Topics
 
-				"FC.JohnsArrival": "{{i18n:CT.NovaEli.FC.JohnsArrival}}",
+				"FC.JohnsArrival": "{{i18n:CT.NovaEli.FC.JohnsArrival{{GeneralDialogueTokens}}}}",
 
 				//Denver Topics
 
-				"DenverTwoHearts": "{{i18n:CT.NovaEli.DenverTwoHearts}}",
-				"DenverSixHearts": "{{i18n:CT.NovaEli.DenverSixHearts}}",
-				"DenverInjuries": "{{i18n:CT.NovaEli.DenverInjuries}}",
-				"DenCeceliaDating": "{{i18n:CT.NovaEli.DenCeceliaDating}}"
+				"DenverTwoHearts": "{{i18n:CT.NovaEli.DenverTwoHearts{{GeneralDialogueTokens}}}}",
+				"DenverSixHearts": "{{i18n:CT.NovaEli.DenverSixHearts{{GeneralDialogueTokens}}}}",
+				"DenverInjuries": "{{i18n:CT.NovaEli.DenverInjuries{{GeneralDialogueTokens}}}}",
+				"DenCeceliaDating": "{{i18n:CT.NovaEli.DenCeceliaDating{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -142,129 +142,129 @@
 			"Target": "Characters/Dialogue/Nova.Dylan",
 			"Entries": {
 
-				"joja_Begin": "{{i18n:CT.NovaDylan.JojaBegin}}",
-				"cc_Begin": "{{i18n:CT.NovaDylan.CCBegin}}",
-				"cc_Bus": "{{i18n:CT.NovaDylan.CCBus}}",
-				"cc_Minecart": "{{i18n:CT.NovaDylan.CCMinecart}}",
-				"cc_Complete": "{{i18n:CT.NovaDylan.CCComplete}}",
-				"movieTheater": "{{i18n:CT.NovaDylan.MovieTheater}}",
+				"joja_Begin": "{{i18n:CT.NovaDylan.JojaBegin{{GeneralDialogueTokens}}}}",
+				"cc_Begin": "{{i18n:CT.NovaDylan.CCBegin{{GeneralDialogueTokens}}}}",
+				"cc_Bus": "{{i18n:CT.NovaDylan.CCBus{{GeneralDialogueTokens}}}}",
+				"cc_Minecart": "{{i18n:CT.NovaDylan.CCMinecart{{GeneralDialogueTokens}}}}",
+				"cc_Complete": "{{i18n:CT.NovaDylan.CCComplete{{GeneralDialogueTokens}}}}",
+				"movieTheater": "{{i18n:CT.NovaDylan.MovieTheater{{GeneralDialogueTokens}}}}",
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.NovaDylan.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.NovaDylan.EliSaloon}}",
-				"EliJunimo1": "{{i18n:CT.NovaDylan.EliJunimo1}}",
-				"EliJunimo2": "{{i18n:CT.NovaDylan.EliJunimo2}}",
-				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods}}",
-				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro}}",
-				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave}}",
-				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.NovaDylan.EliFogHounds}}",
-				"EliStory": "{{i18n:CT.NovaDylan.EliStory}}",
-				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild}}",
-				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom}}",
-				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout}}",
+				"EliIntro": "{{i18n:CT.NovaDylan.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliSaloon": "{{i18n:CT.NovaDylan.EliSaloon{{GeneralDialogueTokens}}}}",
+				"EliJunimo1": "{{i18n:CT.NovaDylan.EliJunimo1{{GeneralDialogueTokens}}}}",
+				"EliJunimo2": "{{i18n:CT.NovaDylan.EliJunimo2{{GeneralDialogueTokens}}}}",
+				"EliWoods": "{{i18n:CT.NovaDylan.EliWoods{{GeneralDialogueTokens}}}}",
+				"EliOldWoods": "{{i18n:CT.NovaDylan.EliOldWoods{{GeneralDialogueTokens}}}}",
+				"JunimoKingIntro": "{{i18n:CT.NovaDylan.JunimoKingIntro{{GeneralDialogueTokens}}}}",
+				"EliMushroomCave": "{{i18n:CT.NovaDylan.EliMushroomCave{{GeneralDialogueTokens}}}}",
+				"EliMysteryBeast": "{{i18n:CT.NovaDylan.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.NovaDylan.EliFogHounds{{GeneralDialogueTokens}}}}",
+				"EliStory": "{{i18n:CT.NovaDylan.EliStory{{GeneralDialogueTokens}}}}",
+				"EliGuild": "{{i18n:CT.NovaDylan.EliGuild{{GeneralDialogueTokens}}}}",
+				"EliGuestRoom": "{{i18n:CT.NovaDylan.EliGuestRoom{{GeneralDialogueTokens}}}}",
+				"EliLateHangout": "{{i18n:CT.NovaDylan.EliLateHangout{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.NovaDylan.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.NovaDylan.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon}}",
-				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson}}",
-				"DylanDroneProgress": "{{i18n:CT.NovaDylan.DylanDroneProgress}}",
-				"DylanExpedition": "{{i18n:CT.NovaDylan.DylanExpedition}}",
-				"DylanArticle": "{{i18n:CT.NovaDylan.DylanArticle}}",
-				"DylanCCAquarium": "{{i18n:CT.NovaDylan.DylanCCAquarium}}",
-				"DylanDream": "{{i18n:CT.NovaDylan.DylanDream}}",
+				"DylanIntro": "{{i18n:CT.NovaDylan.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.NovaDylan.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanTown": "{{i18n:CT.NovaDylan.DylanTown{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.NovaDylan.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanLibrary": "{{i18n:CT.NovaDylan.DylanLibrary{{GeneralDialogueTokens}}}}",
+				"DylanLesson": "{{i18n:CT.NovaDylan.DylanLesson{{GeneralDialogueTokens}}}}",
+				"DylanDroneProgress": "{{i18n:CT.NovaDylan.DylanDroneProgress{{GeneralDialogueTokens}}}}",
+				"DylanExpedition": "{{i18n:CT.NovaDylan.DylanExpedition{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.NovaDylan.DylanArticle{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.NovaDylan.DylanCCAquarium{{GeneralDialogueTokens}}}}",
+				"DylanDream": "{{i18n:CT.NovaDylan.DylanDream{{GeneralDialogueTokens}}}}",
 
 				//Other Topics
 
-				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro}}",
-				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro}}",
-				"EnDMouse": "{{i18n:CT.NovaDylan.EnDMouse}}",
-				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure}}",
-				"EnDJojaBreak": "{{i18n:CT.NovaDylan.EnDJojaBreak}}",
-				"EnDClinicAppointment": "{{i18n:CT.NovaDylan.EnDClinicAppointment}}",
-				"EnDPlan": "{{i18n:CT.NovaDylan.EnDPlan}}",
-				"EnDHomecoming": "{{i18n:CT.NovaDylan.EnDHomecoming}}",
+				"SootIntro": "{{i18n:CT.NovaDylan.SootIntro{{GeneralDialogueTokens}}}}",
+				"ThistleIntro": "{{i18n:CT.NovaDylan.ThistleIntro{{GeneralDialogueTokens}}}}",
+				"EnDMouse": "{{i18n:CT.NovaDylan.EnDMouse{{GeneralDialogueTokens}}}}",
+				"SootPocketAdventure": "{{i18n:CT.NovaDylan.SootPocketAdventure{{GeneralDialogueTokens}}}}",
+				"EnDJojaBreak": "{{i18n:CT.NovaDylan.EnDJojaBreak{{GeneralDialogueTokens}}}}",
+				"EnDClinicAppointment": "{{i18n:CT.NovaDylan.EnDClinicAppointment{{GeneralDialogueTokens}}}}",
+				"EnDPlan": "{{i18n:CT.NovaDylan.EnDPlan{{GeneralDialogueTokens}}}}",
+				"EnDHomecoming": "{{i18n:CT.NovaDylan.EnDHomecoming{{GeneralDialogueTokens}}}}",
 				
 				//ARV Topics
 				
 				//Sterling
 				
-				"SterlingTrash": "{{i18n:CT.NovaDylan.SterlingTrash}}",
-				"SterlingTrain": "{{i18n:CT.NovaDylan.SterlingTrain}}",
-				"SterlingShaneParty": "{{i18n:CT.NovaDylan.SterlingShaneParty}}",
-				"SterlingSwim": "{{i18n:CT.NovaDylan.SterlingSwim}}",
-				"SterlingBike": "{{i18n:CT.NovaDylan.SterlingBike}}",
-				"SterlingDrugs": "{{i18n:CT.NovaDylan.SterlingDrugs}}",
-				"SterlingRelapse": "{{i18n:CT.NovaDylan.SterlingRelapse}}",
-				"SterlingApology": "{{i18n:CT.NovaDylan.SterlingApology}}",
-				"SterlingRiver": "{{i18n:CT.NovaDylan.SterlingRiver}}",
+				"SterlingTrash": "{{i18n:CT.NovaDylan.SterlingTrash{{GeneralDialogueTokens}}}}",
+				"SterlingTrain": "{{i18n:CT.NovaDylan.SterlingTrain{{GeneralDialogueTokens}}}}",
+				"SterlingShaneParty": "{{i18n:CT.NovaDylan.SterlingShaneParty{{GeneralDialogueTokens}}}}",
+				"SterlingSwim": "{{i18n:CT.NovaDylan.SterlingSwim{{GeneralDialogueTokens}}}}",
+				"SterlingBike": "{{i18n:CT.NovaDylan.SterlingBike{{GeneralDialogueTokens}}}}",
+				"SterlingDrugs": "{{i18n:CT.NovaDylan.SterlingDrugs{{GeneralDialogueTokens}}}}",
+				"SterlingRelapse": "{{i18n:CT.NovaDylan.SterlingRelapse{{GeneralDialogueTokens}}}}",
+				"SterlingApology": "{{i18n:CT.NovaDylan.SterlingApology{{GeneralDialogueTokens}}}}",
+				"SterlingRiver": "{{i18n:CT.NovaDylan.SterlingRiver{{GeneralDialogueTokens}}}}",
 
 				//Diamond in the Rough Topics
 
-				"DitR_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet}}",
+				"DitR_CT_SenMet": "{{i18n:CT.NovaDylan.SenMet{{GeneralDialogueTokens}}}}",
 
-				"DitR_CT_EveMeet": "{{i18n:CT.NovaDylan.LotV_CT_EveMeet}}",
+				"DitR_CT_EveMeet": "{{i18n:CT.NovaDylan.LotV_CT_EveMeet{{GeneralDialogueTokens}}}}",
 
-				"DitR_CT_PipoShorts": "{{i18n:CT.NovaDylan.DitR_CT_PipoShorts}}",
+				"DitR_CT_PipoShorts": "{{i18n:CT.NovaDylan.DitR_CT_PipoShorts{{GeneralDialogueTokens}}}}",
 
 				//Lucikiel Topics
 
-				"LucikielArrives": "{{i18n:CT.NovaDylan.LucikielArrives}}",
+				"LucikielArrives": "{{i18n:CT.NovaDylan.LucikielArrives{{GeneralDialogueTokens}}}}",
 
 				//Jorts & Jean Topics
 
-				"MeetTheCats": "{{i18n:CT.NovaDylan.MeetTheCats}}",
+				"MeetTheCats": "{{i18n:CT.NovaDylan.MeetTheCats{{GeneralDialogueTokens}}}}",
 
 				//Mateo Topics
 
-				"MateoCaution": "{{i18n:CT.NovaDylan.MateoCaution}}",
-				"MateoRescue": "{{i18n:CT.NovaDylan.MateoRescue}}",
-				"MateoLibrary": "{{i18n:CT.NovaDylan.MateoLibrary}}",
+				"MateoCaution": "{{i18n:CT.NovaDylan.MateoCaution{{GeneralDialogueTokens}}}}",
+				"MateoRescue": "{{i18n:CT.NovaDylan.MateoRescue{{GeneralDialogueTokens}}}}",
+				"MateoLibrary": "{{i18n:CT.NovaDylan.MateoLibrary{{GeneralDialogueTokens}}}}",
 
 				//The Writer, The Witch & The Wardrobe Topics:
 
-				"TalkWithGunther": "{{i18n:CT.NovaDylan.TalkWithGunther}}",
+				"TalkWithGunther": "{{i18n:CT.NovaDylan.TalkWithGunther{{GeneralDialogueTokens}}}}",
 
 				//Realistic Writer Elliott Topics:
 
-				"elliott_writing_letter1": "{{i18n:CT.NovaDylan.elliott_writing_letter1}}",
+				"elliott_writing_letter1": "{{i18n:CT.NovaDylan.elliott_writing_letter1{{GeneralDialogueTokens}}}}",
 
 				//Grandpa's Ghost topics:
 
-				"GrandpaHaunts": "{{i18n:CT.NovaDylan.GrandpaHaunts}}",
+				"GrandpaHaunts": "{{i18n:CT.NovaDylan.GrandpaHaunts{{GeneralDialogueTokens}}}}",
 
 				//BearFam Topics:
 
-				"BearFamTimeForBees": "{{i18n:CT.NovaDylan.BearFamTimeForBees}}",
-				"SigLowBattery": "{{i18n:CT.NovaDylan.SigLowBattery}}",
-				"SondraAgingGracefully": "{{i18n:CT.NovaDylan.SondraAgingGracefully}}",
-				"BearFamFullHouse": "{{i18n:CT.NovaDylan.BearFamFullHouse}}",
-				"GunnarBoxShop": "{{i18n:CT.NovaDylan.GunnarBoxShop}}",
+				"BearFamTimeForBees": "{{i18n:CT.NovaDylan.BearFamTimeForBees{{GeneralDialogueTokens}}}}",
+				"SigLowBattery": "{{i18n:CT.NovaDylan.SigLowBattery{{GeneralDialogueTokens}}}}",
+				"SondraAgingGracefully": "{{i18n:CT.NovaDylan.SondraAgingGracefully{{GeneralDialogueTokens}}}}",
+				"BearFamFullHouse": "{{i18n:CT.NovaDylan.BearFamFullHouse{{GeneralDialogueTokens}}}}",
+				"GunnarBoxShop": "{{i18n:CT.NovaDylan.GunnarBoxShop{{GeneralDialogueTokens}}}}",
 
 				//Nora Topics:
 
-				"NoraIntro": "{{i18n:CT.NovaDylan.NoraIntro}}",
+				"NoraIntro": "{{i18n:CT.NovaDylan.NoraIntro{{GeneralDialogueTokens}}}}",
 
 				//Lyell Topics:
 
-				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro}}",
+				"LyellsIntro": "{{i18n:CT.NovaDylan.LyellsIntro{{GeneralDialogueTokens}}}}",
 
 				//John Topics
 
-				"FC.JohnsArrival": "{{i18n:CT.NovaDylan.FC.JohnsArrival}}",
+				"FC.JohnsArrival": "{{i18n:CT.NovaDylan.FC.JohnsArrival{{GeneralDialogueTokens}}}}",
 
 				//Denver Topics
 
-				"DenverTwoHearts": "{{i18n:CT.NovaDylan.DenverTwoHearts}}",
-				"DenverSixHearts": "{{i18n:CT.NovaDylan.DenverSixHearts}}",
-				"DenverInjuries": "{{i18n:CT.NovaDylan.DenverInjuries}}",
-				"DenCeceliaDating": "{{i18n:CT.NovaDylan.DenCeceliaDating}}"
+				"DenverTwoHearts": "{{i18n:CT.NovaDylan.DenverTwoHearts{{GeneralDialogueTokens}}}}",
+				"DenverSixHearts": "{{i18n:CT.NovaDylan.DenverSixHearts{{GeneralDialogueTokens}}}}",
+				"DenverInjuries": "{{i18n:CT.NovaDylan.DenverInjuries{{GeneralDialogueTokens}}}}",
+				"DenCeceliaDating": "{{i18n:CT.NovaDylan.DenCeceliaDating{{GeneralDialogueTokens}}}}"
 				
 			}
 		},
@@ -277,15 +277,15 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Lewis.EliIntro}}",
+				"EliIntro": "{{i18n:CT.Lewis.EliIntro{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Lewis.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Lewis.DylanBeach}}",
-				"DylanArticle": "{{i18n:CT.Lewis.DylanArticle}}",
-				"DylanCCAquarium": "{{i18n:CT.Lewis.DylanCCAquarium}}",
-				"EnDPlan": "{{i18n:CT.Lewis.EnDPlan}}"
+				"DylanIntro": "{{i18n:CT.Lewis.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.Lewis.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Lewis.DylanArticle{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.Lewis.DylanCCAquarium{{GeneralDialogueTokens}}}}",
+				"EnDPlan": "{{i18n:CT.Lewis.EnDPlan{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -294,7 +294,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"EnDPlan": "{{i18n:CT.Alex.EnDPlan}}"
+				"EnDPlan": "{{i18n:CT.Alex.EnDPlan{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -306,14 +306,14 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Emily.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.Emily.EliSaloon}}",
+				"EliIntro": "{{i18n:CT.Emily.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliSaloon": "{{i18n:CT.Emily.EliSaloon{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Emily.DylanIntro}}",
-				"DylanSaloon": "{{i18n:CT.Emily.DylanSaloon}}",
-				"DylanDream": "{{i18n:CT.Emily.DylanDream}}"
+				"DylanIntro": "{{i18n:CT.Emily.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.Emily.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanDream": "{{i18n:CT.Emily.DylanDream{{GeneralDialogueTokens}}}}"
 
 			}
 		},
@@ -326,12 +326,12 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Haley.EliIntro}}",
+				"EliIntro": "{{i18n:CT.Haley.EliIntro{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Haley.DylanIntro}}",
-				"DylanCCAquarium": "{{i18n:CT.Haley.DylanCCAquarium}}"
+				"DylanIntro": "{{i18n:CT.Haley.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.Haley.DylanCCAquarium{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -343,18 +343,18 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
-				"EliMysteryBeast": "{{i18n:CT.Shane.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.Shane.EliFogHounds}}",
-				"EliLateHangout": "{{i18n:EliLateHangout}}",
+				"EliIntro": "{{i18n:CT.Shane.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliMysteryBeast": "{{i18n:CT.Shane.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Shane.EliFogHounds{{GeneralDialogueTokens}}}}",
+				"EliLateHangout": "{{i18n:EliLateHangout{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 				
-				"DylanSaloon": "{{i18n:CT.Shane.DylanSaloon}}",
+				"DylanSaloon": "{{i18n:CT.Shane.DylanSaloon{{GeneralDialogueTokens}}}}",
 
 				//Other Topics
 
-				"EnDJojaBreak": "{{i18n:CT.Shane.EnDJojaBreak}}"
+				"EnDJojaBreak": "{{i18n:CT.Shane.EnDJojaBreak{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -366,8 +366,8 @@
 
 				//Eli Topics
 
-				"EliMysteryBeast": "{{i18n:CT.Marnie.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.Marnie.EliFogHounds}}"
+				"EliMysteryBeast": "{{i18n:CT.Marnie.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Marnie.EliFogHounds{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -379,12 +379,12 @@
 
 				//Eli Topics
 				
-				"EliSaloon": "{{i18n:CT.Clint.EliSaloon}}",
-				"EliGuild": "{{i18n:CT.Clint.EliGuild}}",
+				"EliSaloon": "{{i18n:CT.Clint.EliSaloon{{GeneralDialogueTokens}}}}",
+				"EliGuild": "{{i18n:CT.Clint.EliGuild{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanSaloon": "{{i18n:CT.Clint.DylanSaloon}}"
+				"DylanSaloon": "{{i18n:CT.Clint.DylanSaloon{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -396,11 +396,11 @@
 
 				//Eli Topics
 
-				"EliSaloon": "{{i18n:CT.Gus.EliSaloon}}",
+				"EliSaloon": "{{i18n:CT.Gus.EliSaloon{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanSaloon": "{{i18n:CT.Gus.DylanSaloon}}"
+				"DylanSaloon": "{{i18n:CT.Gus.DylanSaloon{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -409,10 +409,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
-				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
-				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}",
-				"EliStory": "{{i18n:CT.Wizard.EliStory}}",
-				"EliFogHounds": "{{i18n:CT.Wizard.EliFogHounds}}"
+				"EliWoods": "{{i18n:CT.Wizard.EliWoods{{GeneralDialogueTokens}}}}",
+				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro{{GeneralDialogueTokens}}}}",
+				"EliStory": "{{i18n:CT.Wizard.EliStory{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Wizard.EliFogHounds{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -421,8 +421,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}",
-				"EnDHomecoming": "{{i18n:CT.Robin.EnDHomecoming}}"
+				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress{{GeneralDialogueTokens}}}}",
+				"EnDHomecoming": "{{i18n:CT.Robin.EnDHomecoming{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -434,16 +434,16 @@
 
 				//Eli Topics
 
-				"EliMushroomCave": "{{i18n:CT.Demetrius.EliMushroomCave}}",
+				"EliMushroomCave": "{{i18n:CT.Demetrius.EliMushroomCave{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}",
-				"DylanDroneProgress": "{{i18n:CT.Demetrius.DylanDroneProgress}}",
-				"DylanExpedition": "{{i18n:CT.Demetrius.DylanExpedition}}",
-				"DylanArticle": "{{i18n:CT.Demetrius.DylanArticle}}",
-				"EnDPlan": "{{i18n:CT.Demetrius.EnDPlan}}"
+				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanDroneProgress": "{{i18n:CT.Demetrius.DylanDroneProgress{{GeneralDialogueTokens}}}}",
+				"DylanExpedition": "{{i18n:CT.Demetrius.DylanExpedition{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Demetrius.DylanArticle{{GeneralDialogueTokens}}}}",
+				"EnDPlan": "{{i18n:CT.Demetrius.EnDPlan{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -455,20 +455,20 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Maru.EliIntro}}",
-				"EliMushroomCave": "{{i18n:CT.Maru.EliMushroomCave}}",
+				"EliIntro": "{{i18n:CT.Maru.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliMushroomCave": "{{i18n:CT.Maru.EliMushroomCave{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Maru.DylanIntro}}",
-				"DylanDroneProgress": "{{i18n:CT.Maru.DylanDroneProgress}}",
-				"DylanExpedition": "{{i18n:CT.Maru.DylanExpedition}}",
-				"DylanArticle": "{{i18n:CT.Maru.DylanArticle}}",
+				"DylanIntro": "{{i18n:CT.Maru.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanDroneProgress": "{{i18n:CT.Maru.DylanDroneProgress{{GeneralDialogueTokens}}}}",
+				"DylanExpedition": "{{i18n:CT.Maru.DylanExpedition{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Maru.DylanArticle{{GeneralDialogueTokens}}}}",
 
 				//Other Topics
 
-				"EnDClinicAppointment": "{{i18n:CT.Maru.EnDClinicAppointment}}",
-				"EnDPlan": "{{i18n:CT.Maru.EnDPlan}}"
+				"EnDClinicAppointment": "{{i18n:CT.Maru.EnDClinicAppointment{{GeneralDialogueTokens}}}}",
+				"EnDPlan": "{{i18n:CT.Maru.EnDPlan{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -480,20 +480,20 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
-				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
-				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
-				"EliMysteryBeast": "{{i18n:CT.Leah.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.Leah.EliFogHounds}}",
+				"EliIntro": "{{i18n:CT.Leah.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1{{GeneralDialogueTokens}}}}",
+				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom{{GeneralDialogueTokens}}}}",
+				"EliMysteryBeast": "{{i18n:CT.Leah.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Leah.EliFogHounds{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Leah.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Leah.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.Leah.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon}}",
-				"DylanArticle": "{{i18n:CT.Leah.DylanArticle}}",
-				"DylanCCAquarium": "{{i18n:CT.Leah.DylanCCAquarium}}"
+				"DylanIntro": "{{i18n:CT.Leah.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.Leah.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanTown": "{{i18n:CT.Leah.DylanTown{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Leah.DylanArticle{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.Leah.DylanCCAquarium{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -505,16 +505,16 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Elliott.EliIntro}}",
+				"EliIntro": "{{i18n:CT.Elliott.EliIntro{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Elliott.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Elliott.DylanBeach}}",
-				"DylanTown": "{{i18n:CT.Elliott.DylanTown}}",
-				"DylanSaloon": "{{i18n:CT.Elliott.DylanSaloon}}",
-				"DylanArticle": "{{i18n:CT.Elliott.DylanArticle}}",
-				"DylanCCAquarium": "{{i18n:CT.Elliott.DylanCCAquarium}}"
+				"DylanIntro": "{{i18n:CT.Elliott.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.Elliott.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanTown": "{{i18n:CT.Elliott.DylanTown{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.Elliott.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Elliott.DylanArticle{{GeneralDialogueTokens}}}}",
+				"DylanCCAquarium": "{{i18n:CT.Elliott.DylanCCAquarium{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -526,15 +526,15 @@
 
 				//Eli Topics
 
-				"EliMushroomCave": "{{i18n:CT.Harvey.EliMushroomCave}}",
+				"EliMushroomCave": "{{i18n:CT.Harvey.EliMushroomCave{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}",
+				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon{{GeneralDialogueTokens}}}}",
 
 				//Other Topics
 
-				"EnDClinicAppointment": "{{i18n:CT.Harvey.EnDClinicAppointment}}"
+				"EnDClinicAppointment": "{{i18n:CT.Harvey.EnDClinicAppointment{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -543,10 +543,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"EliIntro": "{{i18n:CT.Abigail.EliIntro}}",
-				"EliWoods": "{{i18n:CT.Abigail.EliWoods}}",
-				"EliFogHounds": "{{i18n:CT.Abigail.EliFogHounds}}",
-				"EliGuild": "{{i18n:CT.Abigail.EliGuild}}"
+				"EliIntro": "{{i18n:CT.Abigail.EliIntro{{GeneralDialogueTokens}}}}",
+				"EliWoods": "{{i18n:CT.Abigail.EliWoods{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Abigail.EliFogHounds{{GeneralDialogueTokens}}}}",
+				"EliGuild": "{{i18n:CT.Abigail.EliGuild{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -558,12 +558,12 @@
 
 				//Eli Topics
 
-				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
-				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak}}",
+				"EliGuild": "{{i18n:CT.Pierre.EliGuild{{GeneralDialogueTokens}}}}",
+				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanArticle": "{{i18n:CT.Pierre.DylanArticle}}"
+				"DylanArticle": "{{i18n:CT.Pierre.DylanArticle{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -572,7 +572,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"EliJunimo1": "{{i18n:CT.Sebastian.EliJunimo1}}"
+				"EliJunimo1": "{{i18n:CT.Sebastian.EliJunimo1{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -581,7 +581,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"EnDJojaBreak": "{{i18n:CT.Sam.EnDJojaBreak}}"
+				"EnDJojaBreak": "{{i18n:CT.Sam.EnDJojaBreak{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -590,11 +590,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
-				"DylanIntro": "{{i18n:CT.Willy.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
-				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}",
-				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}",
-				"DylanArticle": "{{i18n:CT.Willy.DylanArticle}}"
+				"DylanIntro": "{{i18n:CT.Willy.DylanIntro{{GeneralDialogueTokens}}}}",
+				"DylanBeach": "{{i18n:CT.Willy.DylanBeach{{GeneralDialogueTokens}}}}",
+				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon{{GeneralDialogueTokens}}}}",
+				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Willy.DylanArticle{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -603,9 +603,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
-				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}",
-				"DylanArticle": "{{i18n:CT.Penny.DylanArticle}}"
+				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary{{GeneralDialogueTokens}}}}",
+				"DylanLesson": "{{i18n:CT.Penny.DylanLesson{{GeneralDialogueTokens}}}}",
+				"DylanArticle": "{{i18n:CT.Penny.DylanArticle{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -614,8 +614,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"DylanLibrary": "{{i18n:CT.Vincent.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.Vincent.DylanLesson}}"
+				"DylanLibrary": "{{i18n:CT.Vincent.DylanLibrary{{GeneralDialogueTokens}}}}",
+				"DylanLesson": "{{i18n:CT.Vincent.DylanLesson{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -627,13 +627,13 @@
 
 				//Eli Topics
 
-				"EliMysteryBeast": "{{i18n:CT.Jas.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.Jas.EliFogHounds}}",
+				"EliMysteryBeast": "{{i18n:CT.Jas.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Jas.EliFogHounds{{GeneralDialogueTokens}}}}",
 
 				//Dylan Topics
 
-				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.Jas.DylanLesson}}"
+				"DylanLibrary": "{{i18n:CT.Jas.DylanLibrary{{GeneralDialogueTokens}}}}",
+				"DylanLesson": "{{i18n:CT.Jas.DylanLesson{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -642,9 +642,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
-				"EliWoods": "{{i18n:CT.Krobus.EliWoods}}",
-				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds}}",
-				"EliStory": "{{i18n:CT.Krobus.EliStory}}"
+				"EliWoods": "{{i18n:CT.Krobus.EliWoods{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Krobus.EliFogHounds{{GeneralDialogueTokens}}}}",
+				"EliStory": "{{i18n:CT.Krobus.EliStory{{GeneralDialogueTokens}}}}"
 			}
 		},
 
@@ -656,14 +656,14 @@
 				{
 					//Eli Topics
 
-					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
-					"EliMysteryBeast": "{{i18n:CT.Marlon.EliMysteryBeast}}",
-					"EliFogHounds": "{{i18n:CT.Marlon.EliFogHounds}}",
-					"EliGuild": "{{i18n:CT.Marlon.EliGuild}}",
+					"EliIntro": "{{i18n:CT.Marlon.EliIntro{{GeneralDialogueTokens}}}}",
+					"EliMysteryBeast": "{{i18n:CT.Marlon.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+					"EliFogHounds": "{{i18n:CT.Marlon.EliFogHounds{{GeneralDialogueTokens}}}}",
+					"EliGuild": "{{i18n:CT.Marlon.EliGuild{{GeneralDialogueTokens}}}}",
 
 					//Dylan Topics
 
-					"DylanSaloon":"{{i18n:CT.Marlon.DylanSaloon}}"
+					"DylanSaloon":"{{i18n:CT.Marlon.DylanSaloon{{GeneralDialogueTokens}}}}"
 				},
 				"When": {
 					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -678,14 +678,14 @@
 				{
 					//Eli Topics
 
-					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
-					"EliMysteryBeast": "{{i18n:CT.MarlonSVE.EliMysteryBeast}}",
-					"EliFogHounds": "{{i18n:CT.MarlonSVE.EliFogHounds}}",
-					"EliGuild": "{{i18n:CT.MarlonSVE.EliGuild}}",
+					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro{{GeneralDialogueTokens}}}}",
+					"EliMysteryBeast": "{{i18n:CT.MarlonSVE.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+					"EliFogHounds": "{{i18n:CT.MarlonSVE.EliFogHounds{{GeneralDialogueTokens}}}}",
+					"EliGuild": "{{i18n:CT.MarlonSVE.EliGuild{{GeneralDialogueTokens}}}}",
 
 					//Dylan Topics
 					
-					"DylanSaloon":"{{i18n:CT.MarlonSVE.DylanSaloon}}"
+					"DylanSaloon":"{{i18n:CT.MarlonSVE.DylanSaloon{{GeneralDialogueTokens}}}}"
 				},
 				"When": {
 					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
@@ -699,8 +699,8 @@
 			"Entries": {
 				//Eli Topics
 
-				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast}}",
-				"EliFogHounds": "{{i18n:CT.Andy.EliFogHounds}}"
+				"EliMysteryBeast": "{{i18n:CT.Andy.EliMysteryBeast{{GeneralDialogueTokens}}}}",
+				"EliFogHounds": "{{i18n:CT.Andy.EliFogHounds{{GeneralDialogueTokens}}}}"
 			},
 			"When": {
 				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
