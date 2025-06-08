@@ -74,7 +74,8 @@
                     "summer_16": "610 CommunityCenter 50 7 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
                 },
                 "When": {
-                    "HasMod |contains=sapphicsaph_pitv": true
+                    "HasMod |contains=sapphicsaph_pitv": true,
+                    "IsCommunityCenterComplete": true
                 }
             }
     ]

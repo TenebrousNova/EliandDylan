@@ -107,8 +107,8 @@
 					},
 					"Fish": [
 						{
-							"Id": "{{ModID}}_TenebrousNova.EnD.LambentHyphafin",
-							"ItemId": "(O){{ModID}}_TenebrousNova.EnD.LambentHyphafin",
+							"Id": "{{ModID}}_LambentHyphafin",
+							"ItemId": "(O){{ModID}}_LambentHyphafin",
 							"FishaAreaID": "EnD.MushroomCavePond",
 							"Season": null
 						},
@@ -232,8 +232,8 @@
 					},
 					"Fish": [
 						{
-							"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-							"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+							"Id": "{{ModID}}_Junimeel",
+							"ItemId": "(O){{ModID}}_Junimeel",
 							"FishaAreaID": "EnD.OldWoodsPond",
 							"Season": null
 						},
@@ -550,7 +550,7 @@
 			},
 			"PatchMode": "Overlay",
 			"When": {
-			  "HasFlag: |contains={{ModID}}_TenebrousNova.EnD_SeedGift_Received": false,
+			  "HasFlag: |contains={{ModID}}_SeedGift_Received": false,
 			  "HasSeenEvent |contains=EnD.EliBonus.02": true,
 			  "Weather": "Storm"
 			}
@@ -560,7 +560,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/{{ModID}}_ESEDHouse",
 			"When": {
-				"HasFlag: |contains={{ModID}}_TenebrousNova.EnD_SeedGift_Received": false,
+				"HasFlag: |contains={{ModID}}_SeedGift_Received": false,
 				"HasSeenEvent |contains=EnD.EliBonus.02": true,
 				"Weather": "Storm"
 			  },
@@ -572,7 +572,7 @@
 				},
 				"Layer": "Buildings",
 				"SetProperties": {
-				  "Action": "spacechase0.SpaceCore_TriggerAction {{ModID}}_TenebrousNova.EnD_SeedGift"
+				  "Action": "spacechase0.SpaceCore_TriggerAction {{ModID}}_SeedGift"
 				}
 			  }
 			]
@@ -976,14 +976,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -997,14 +997,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -1018,14 +1018,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -1039,14 +1039,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -1060,9 +1060,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.CombJelly": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.CombJelly",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.CombJelly",
+			"{{ModID}}_CombJelly": {
+				"Id": "{{ModID}}_CombJelly",
+				"ItemId": "(O){{ModID}}_CombJelly",
+				"FishAreaId": "ESBay"
+			},
+			"{{ModID}}_SeaAngel": {
+				"Id": "{{ModID}}_SeaAngel",
+				"ItemId": "(O){{ModID}}_SeaAngel",
 				"FishAreaId": "ESBay"
 			}
 		}
@@ -1076,15 +1081,15 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"FishAreaId": "ESFreshwater",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"FishAreaId": "ESFreshwater",
 				"Condition": "WEATHER Here GreenRain"
 			}
@@ -1099,14 +1104,14 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -1123,14 +1128,14 @@
 			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
 		},
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.Marimo": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Marimo",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Marimo",
+			"{{ModID}}_Marimo": {
+				"Id": "{{ModID}}_Marimo",
+				"ItemId": "(O){{ModID}}_Marimo",
 				"Condition": "WEATHER Here GreenRain"
 			},
-			"{{ModID}}_TenebrousNova.EnD.Junimeel": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.Junimeel",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.Junimeel",
+			"{{ModID}}_Junimeel": {
+				"Id": "{{ModID}}_Junimeel",
+				"ItemId": "(O){{ModID}}_Junimeel",
 				"Condition": "WEATHER Here GreenRain"
 			}
 		}
@@ -1145,9 +1150,13 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.CombJelly": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.CombJelly",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.CombJelly"
+			"{{ModID}}_CombJelly": {
+				"Id": "{{ModID}}_CombJelly",
+				"ItemId": "(O){{ModID}}_CombJelly"
+			},
+			"{{ModID}}_SeaAngel": {
+				"Id": "{{ModID}}_SeaAngel",
+				"ItemId": "(O){{ModID}}_SeaAngel"
 			}
 		}
 	},
@@ -1163,61 +1172,61 @@
 			"Forage"
 		],
 		"Entries": {
-			"(O){{ModID}}_TenebrousNova.EnD.FrogspawnCoral": {
+			"(O){{ModID}}_FrogspawnCoral": {
 				"Chance": 0.1,
 				"Season": null,
-				"ID": "(O){{ModID}}_TenebrousNova.EnD.FrogspawnCoral",	
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.FrogspawnCoral"
+				"ID": "(O){{ModID}}_FrogspawnCoral",	
+				"ItemID": "(O){{ModID}}_FrogspawnCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.TorchCoral": {
+			"(O){{ModID}}_TorchCoral": {
 				"Chance": 0.1,
 				"Season": null,	
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.TorchCoral"
+				"ItemID": "(O){{ModID}}_TorchCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.DuncanCoral": {
+			"(O){{ModID}}_DuncanCoral": {
 				"Chance": 0.1,
 				"Season": null,	
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.DuncanCoral"
+				"ItemID": "(O){{ModID}}_DuncanCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.Trachyphyllia": {
+			"(O){{ModID}}_Trachyphyllia": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.Trachyphyllia"
+				"ItemID": "(O){{ModID}}_Trachyphyllia"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.Scolymia": {
+			"(O){{ModID}}_Scolymia": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.Scolymia"
+				"ItemID": "(O){{ModID}}_Scolymia"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.AcanCoral": {
+			"(O){{ModID}}_AcanCoral": {
 				"Chance": 0.1,
 				"Season": null,	
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.AcanCoral"
+				"ItemID": "(O){{ModID}}_AcanCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.ToadstoolCoral": {
+			"(O){{ModID}}_ToadstoolCoral": {
 				"Chance": 0.1,
 				"Season": null,	
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.ToadstoolCoral"
+				"ItemID": "(O){{ModID}}_ToadstoolCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.CandyCaneCoral": {
+			"(O){{ModID}}_CandycaneCoral": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.CandyCaneCoral"
+				"ItemID": "(O){{ModID}}_CandycaneCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.AcroporaCoral": {
+			"(O){{ModID}}_AcroporaCoral": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.AcroporaCoral"
+				"ItemID": "(O){{ModID}}_AcroporaCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.EleganceCoral": {
+			"(O){{ModID}}_EleganceCoral": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.EleganceCoral"
+				"ItemID": "(O){{ModID}}_EleganceCoral"
 			},
-			"(O){{ModID}}_TenebrousNova.EnD.Gorgonian": {
+			"(O){{ModID}}_Gorgonian": {
 				"Chance": 0.1,
 				"Season": null,
-				"ItemID": "(O){{ModID}}_TenebrousNova.EnD.Gorgonian"
+				"ItemID": "(O){{ModID}}_Gorgonian"
 			}
 		}
 	},
@@ -1231,9 +1240,9 @@
 			"Fish"
 		],
 		"Entries": {
-			"{{ModID}}_TenebrousNova.EnD.BloodybellyCombJelly": {
-				"Id": "{{ModID}}_TenebrousNova.EnD.BloodybellyCombJelly",
-				"ItemId": "(O){{ModID}}_TenebrousNova.EnD.BloodybellyCombJelly"
+			"{{ModID}}_BloodybellyCombJelly": {
+				"Id": "{{ModID}}_BloodybellyCombJelly",
+				"ItemId": "(O){{ModID}}_BloodybellyCombJelly"
 			}
 		}
 	}

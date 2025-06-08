@@ -67,7 +67,8 @@
                     "summer_16": "610 CommunityCenter 49 7 2/2130 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
                 },
                 "When": {
-                    "HasMod |contains=sapphicsaph_pitv": true
+                    "HasMod |contains=sapphicsaph_pitv": true,
+                    "IsCommunityCenterComplete": true
                 }
             }
     ]

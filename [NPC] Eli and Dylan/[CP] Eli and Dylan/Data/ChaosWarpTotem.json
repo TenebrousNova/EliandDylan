@@ -6,7 +6,7 @@
     {
       "LogName": "Chaos Totem locations",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Mountain": {
           "Location": "Mountain",
@@ -63,7 +63,7 @@
     {
       "LogName": "Chaos Totem locations - Desert",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Desert": {
           "Location": "Desert",
@@ -78,7 +78,7 @@
     {
       "LogName": "Chaos Totem locations - Skull Cavern",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "SkullCave": {
           "Location": "SkullCave",
@@ -93,7 +93,7 @@
     {
       "LogName": "Chaos Totem locations - Club",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Club": {
           "Location": "Club",
@@ -108,7 +108,7 @@
     {
       "LogName": "Chaos Totem locations - Ginger Island South",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "IslandSouth": {
           "Location": "IslandSouth",
@@ -123,7 +123,7 @@
     {
       "LogName": "Chaos Totem locations - Mushroom Cavern",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "{{ModID}}_EDMushroomCave": {
           "Location": "{{ModID}}_EDMushroomCave",
@@ -138,7 +138,7 @@
     {
       "LogName": "Chaos Totem locations - Metalcore Goes Cottagecore",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Squeaks.MGC.CP_CCHouse": {
           "Location": "Squeaks.MGC.CP_CCHouse",
@@ -153,7 +153,7 @@
     {
       "LogName": "Chaos Totem locations - The Writer, the Witch and the Wardrobe Assistant",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "EastScarp_RodneysBasement": {
           "Location": "EastScarp_RodneysBasement",
@@ -168,7 +168,7 @@
     {
       "LogName": "Chaos Totem locations - Ridgeside Village",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Custom_Ridgeside_Ridge": {
           "Location": "Custom_Ridgeside_Ridge",
@@ -183,7 +183,7 @@
     {
       "LogName": "Chaos Totem locations - Visit Mt. Vapius Hamlet",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Lumisteria.MtVapius_Hamlet": {
           "Location": "Lumisteria.MtVapius_Hamlet",
@@ -198,7 +198,7 @@
     {
       "LogName": "Chaos Totem locations - Visit Mt. Vapius Forest Trail",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Lumisteria.MtVapius_ForestTrailPond": {
           "Location": "Lumisteria.MtVapius_ForestTrailPond",
@@ -214,7 +214,7 @@
     {
       "LogName": "Chaos Totem locations - Visit Mt. Vapius Caves",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Lumisteria.MtVapius_ForestCaveAmber": {
           "Location": "Lumisteria.MtVapius_ForestCaveAmber",
@@ -235,7 +235,7 @@
     {
       "LogName": "Chaos Totem locations - Sunberry Village",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Custom_SBV_SecretForest1": {
           "Location": "Custom_SBV_SecretForest1",
@@ -255,7 +255,7 @@
     {
       "LogName": "Chaos Totem locations - Stardew Valley Aquarium",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "Gervig91.StardewAquariumCP_ExteriorMuseum": {
           "Location": "Gervig91.StardewAquariumCP_ExteriorMuseum",
@@ -270,7 +270,7 @@
     {
       "LogName": "Chaos Totem locations - Central Station",
       "Action": "EditData",
-      "Target": "TenebrousNova.EnD/ChaosTotemLocations",
+      "Target": "{{ModID}}/ChaosTotemLocations",
       "Entries": {
         "PathosChild.CentralStation_CentralStation": {
           "Location": "PathosChild.CentralStation_CentralStation",

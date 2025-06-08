@@ -9,7 +9,7 @@
           "Eli.SpecialOrders.FairyRingOffering": {
             "Name": "[NovaEli.SpecialOrders.FairyRingOffering_Name]",
             "Requester": "Nova.Eli",
-            "Duration": "TwoWeeks",
+            "Duration": "Month",
             "Repeatable": "false",
             "RequiredTags": "event_EnD.Eli.08, !dropbox_EliBox",
             "OrderType": "EliDylan",
@@ -50,7 +50,7 @@
           "Dylan.SpecialOrders.DroneComponents": {
             "Name": "[NovaDylan.SpecialOrders.DroneComponents_Name]",
             "Requester": "Nova.Dylan",
-            "Duration": "TwoWeeks",
+            "Duration": "Month",
             "Repeatable": "false",
             "RequiredTags": "event_EnD.Dylan.08, !dropbox_RobinWood",
             "OrderType": "EliDylan",
@@ -120,7 +120,7 @@
 
       {
         "Action": "EditData",
-        "Target": "Mods/atravita_SpecialOrdersExtended_DurationOverride",
+        "Target": "Mods/EastScarp/DurationOverride",
         "Entries": {
            "Eli.SpecialOrders.FairyRingOffering": "-1",
            "Dylan.SpecialOrders.DroneComponents": "-1"

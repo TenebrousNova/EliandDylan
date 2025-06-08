@@ -59,57 +59,57 @@
             ],
             "Items": [
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.ChaosTotem",
+                "ID": "{{ModID}}_ChaosTotem",
                 "Condition": "PLAYER_HAS_MAIL Current EliLetter1 Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.ChaosTotem",
+                "ItemID": "{{ModID}}_ChaosTotem",
                 "Price": 250
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.JunimoTotem",
+                "ID": "{{ModID}}_JunimoTotem",
                 "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Eli.12",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.JunimoTotem",
+                "ItemID": "{{ModID}}_JunimoTotem",
                 "Price": 300
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.MandrakeRootSeeds",
+                "ID": "{{ModID}}_MandrakeRootSeeds",
                 "Condition": "PLAYER_HAS_MAIL Current EliLetter2 Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.MandrakeRootSeeds",
+                "ItemID": "{{ModID}}_MandrakeRootSeeds",
                 "Price": 30
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.SanguineHeartSeeds",
+                "ID": "{{ModID}}_SanguineHeartSeeds",
                 "Condition": "PLAYER_HAS_MAIL Current EliLetter3 Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.SanguineHeartSeeds",
+                "ItemID": "{{ModID}}_SanguineHeartSeeds",
                 "Price": 40
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds",
-                "Condition": "PLAYER_HAS_MAIL Current {{ModID}}_TenebrousNova.EnD_SeedGift_Received Any",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.BeholderFruitSeeds",
+                "ID": "{{ModID}}_BeholderFruitSeeds",
+                "Condition": "PLAYER_HAS_MAIL Current {{ModID}}_SeedGift_Received Any",
+                "ItemID": "{{ModID}}_BeholderFruitSeeds",
                 "Price": 50
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.DragonEyeSeeds",
+                "ID": "{{ModID}}_DragonEyeSeeds",
                 "Condition": "PLAYER_HAS_MAIL Current DylanGift Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.DragonEyeSeeds",
+                "ItemID": "{{ModID}}_DragonEyeSeeds",
                 "Price": 50
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.CrystallineLilySeeds",
+                "ID": "{{ModID}}_CrystallineLilySeeds",
                 "Condition": "PLAYER_HAS_MAIL Current SentinelLetter Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.CrystallineLilySeeds",
+                "ItemID": "{{ModID}}_CrystallineLilySeeds",
                 "Price": 60
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.PixieBloomSeeds",
+                "ID": "{{ModID}}_PixieBloomSeeds",
                 "Condition": "PLAYER_HAS_SEEN_EVENT Current EnD.Critters.03",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.PixieBloomSeeds",
+                "ItemID": "{{ModID}}_PixieBloomSeeds",
                 "Price": 60
               },
               {
-                "ID": "{{ModID}}_TenebrousNova.EnD.BluffshroomStarter",
+                "ID": "{{ModID}}_BluffshroomStarter",
                 "Condition": "PLAYER_HAS_MAIL Current DemetriusCaveLetter Received",
-                "ItemID": "{{ModID}}_TenebrousNova.EnD.BluffshroomStarter",
+                "ItemID": "{{ModID}}_BluffshroomStarter",
                 "Price": 50
               }
             ]

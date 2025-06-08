@@ -42,7 +42,7 @@
         "Action": "EditData",
         "Target": "Data/Furniture",
         "Entries": {
-            "EnD.AbyssalTank": "EnD.AbyssalTank/fishtank/4 3/4 1/1/5000/-1/{{i18n:Core.Items.AbyssalTank}}/0/EnD\\Aquariums/true"
+            "{{ModID}}_AbyssalTank": "{{ModID}}_AbyssalTank/fishtank/4 3/4 1/1/5000/-1/{{i18n:Core.Items.AbyssalTank}}/0/EnD\\Aquariums/true"
         }
     }
     ]
