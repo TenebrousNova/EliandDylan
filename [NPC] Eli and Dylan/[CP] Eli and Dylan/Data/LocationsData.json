@@ -113,6 +113,12 @@
 							"Season": null
 						},
 						{
+							"Id": "{{ModID}}_StarlightWeaver",
+							"ItemId": "(O){{ModID}}_StarlightWeaver",
+							"FishaAreaID": "EnD.MushroomCavePond",
+							"Season": null
+						},
+						{
               			    "Id": "(O)156",
               			    "ItemId": "(O)156",
               			    "FishAreaID": "EnD.MushroomCavePond",
