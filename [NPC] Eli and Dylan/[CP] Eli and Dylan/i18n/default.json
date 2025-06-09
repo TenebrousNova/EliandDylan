@@ -55,8 +55,6 @@
 "Profanity_Lowercase_Pised_True": "ticked",
 "Profanity_Lowercase_Pissed_False": "pissed",
 
-"ProfanityTest": "{{CPProfanity_Damn}}!#$b#{{CPProfanity_Shit}}!#$b#{{CPProfanity_Shitty}}!#$b#{{CPProfanity_Fuck}}!#$b#{{CPProfanity_Fucking}}!#$b#{{CPProfanity_Hell}}!#$b#{{CPProfanity_Bastard}}!#$b#{{CPProfanity_Bastards}}!#$b#{{CPProfanity_Asshole}}!#$b#{{CPProfanity_Piss}}!#$b#{{CPProfanity_Pissed}}!",
-
 //NAMES
 
 "Core.NovaEli.Name": "Eli",

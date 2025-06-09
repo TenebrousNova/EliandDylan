@@ -250,11 +250,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaEli_HeartLevelToken",
-		"Value": "0-4"
+		"Value": "0-4",
+		"When": {
+			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaEli_HeartLevelToken",
-		"Value": "{{Random: 0-4, 5-10 |key=NovaEli_Sync}}",
+		"Value": "5-10",
 		"When": {
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
@@ -262,11 +265,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaEli_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 60}}"
+		"Value": "{{Range: 1, 60}}",
+		"When": {
+			"Hearts:Nova.Eli":"{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaEli_HeartLevelToken_Quantity",
-		"Value": "{{Random: {{Range: 1, 60}}, {{Range: 1, 100}} |key=NovaEli_Sync}}",
+		"Value": "{{Range: 1, 100}}",
 		"When": {
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
@@ -274,11 +280,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 10}}"
+		"Value": "{{Range: 1, 10}}",
+		"When": {
+			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Random: {{Range: 1, 10}}, {{Range: 1, 20}} |key=NovaEli_Sync}}",
+		"Value": "{{Range: 1, 20}}",
 		"When": {
 			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
 		}
@@ -286,11 +295,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaDylan_HeartLevelToken",
-		"Value": "0-4"
+		"Value": "0-4",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaDylan_HeartLevelToken",
-		"Value": "{{Random: 0-4, 5-10 |key=NovaDylan_Sync}}",
+		"Value": "5-10",
 		"When": {
 			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		}
@@ -298,11 +310,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaDylan_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 60}}"
+		"Value": "{{Range: 1, 60}}",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaDylan_HeartLevelToken_Quantity",
-		"Value": "{{Random: {{Range: 1, 60}}, {{Range: 1, 100}} |key=NovaDylan_Sync}}",
+		"Value": "{{Range: 1, 100}}",
 		"When": {
 			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		}
@@ -310,11 +325,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 10}}"
+		"Value": "{{Range: 1, 10}}",
+		"When": {
+			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
+		}
 	},
 	{
 		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Random: {{Range: 1, 10}}, {{Range: 1, 20}} |key=NovaDylan_Sync}}",
+		"Value": "{{Range: 1, 20}}",
 		"When": {
 			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
 		}
@@ -339,7 +357,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
         "Name": "NovaEli_DialogueModifiers",
-        "Value": "|NovaEli_BigPool={{Random:{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}|inputSeparator=++}}"
+        "Value": "|NovaEli_BigPool={{Random:{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}|inputSeparator=++}}"
     },
 
 	{

@@ -1,11 +1,11 @@
 {
-  "Portrait Style": "6480",
-  "PlayerJobTitle": "Modder",
+  "Portrait Style": "NinTheCactus",
+  "PlayerJobTitle": "Farmer",
   "ProfanityFilter": "false",
   "Exclude From Perfection": "false",
-  "Player Pronouns 1": "He",
-  "Player Pronouns 2": "Him",
-  "Player Pronouns 3": "His",
-  "Player Pronouns 4": "Himself",
-  "Player Pronoun Identifier": "is"
+  "Player Pronouns 1": "They",
+  "Player Pronouns 2": "Them",
+  "Player Pronouns 3": "Their",
+  "Player Pronouns 4": "Themselves",
+  "Player Pronoun Identifier": "are"
 }
