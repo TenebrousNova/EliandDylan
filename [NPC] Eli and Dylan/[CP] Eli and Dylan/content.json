@@ -336,7 +336,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"Name": "RasmodiaName",
 		"Value": "{{i18n:Core.Rasmodia.{{HasMod |contains=Nom0ri.RomRas}}}}"
-	}
+	},
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
 	It'll probably make your eyes bleed.
