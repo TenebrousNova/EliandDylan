@@ -3,15 +3,6 @@
  <editorsettings>
   <export target="." format="tmx"/>
  </editorsettings>
- <properties>
-  <property name="DayTiles" value="AlwaysFront 13 87 907 AlwaysFront 18 57 907 AlwaysFront 33 57 907 AlwaysFront 39 43 907 AlwaysFront 45 37 907 AlwaysFront 66 85 907 AlwaysFront 42 77 907 AlwaysFront 22 84 907 AlwaysFront 39 53 907 AlwaysFront 23 51 907 AlwaysFront 14 66 907 AlwaysFront 66 68 907 AlwaysFront 48 125 907"/>
-  <property name="Light" value="72 107 4 73 107 4 13 87 4 13 87 4 18 57 4 33 57 4 39 43 4 45 37 4 66 85 4 47 77 4 23 84 4 22 83 4 39 53 4 23 51 4 14 66 4 66 68 4 48 125 4"/>
-  <property name="NPCWarp" value="32 32 Custom_ES_VetAwayWarpRoom 2 8 3 96 Custom_ES_CatWarpRoom 2 5 35 39 Custom_ESDeepDark 21 16"/>
-  <property name="NightTiles">AlwaysFront 13 87 908 AlwaysFront 18 57 908 AlwaysFront 33 57 908 AlwaysFront 39 43 908 AlwaysFront 45 37 908 AlwaysFront 66 85 908 AlwaysFront 47 77 908 AlwaysFront 22 84 908 AlwaysFront 39 53 908 AlwaysFront 23 51 908 AlwaysFront 14 66 908 AlwaysFront 66 68 908
-AlwaysFront 48 125 908</property>
-  <property name="Outdoors" value="T"/>
-  <property name="Warp" value="85 48 Custom_ESOrchard 1 18 85 49 Custom_ESOrchard 1 19 85 20 Custom_ESMineEntrance 0 22"/>
- </properties>
  <tileset firstgid="1" name="outdoors" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">

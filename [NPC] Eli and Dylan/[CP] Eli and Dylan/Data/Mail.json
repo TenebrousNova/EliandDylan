@@ -13,20 +13,20 @@
       "Action": "EditData",
       "Target": "Data/Mail",
       "Entries": {
-        "EliLetter1": "{{i18n:Mail.EliLetter.1{{GeneralDialogueTokens}}}}%item object 688 3 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.1.Title}}",
-        "EliLetter2": "{{i18n:Mail.EliLetter.2{{GeneralDialogueTokens}}}}%item id (O){{ModID}}_MandrakeRootSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.2.Title}}",
-        "EliLetter3": "{{i18n:Mail.EliLetter.3{{GeneralDialogueTokens}}}}%item id (O){{ModID}}_SanguineHeartSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.3.Title}}",
-        "EliCaveInvite": "{{i18n:Mail.EliLetter.4{{GeneralDialogueTokens}}}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.4.Title}}",
-        "EliWarpPrototype": "{{i18n:Mail.EliLetter.5{{GeneralDialogueTokens}}}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.ELiLetter.5.Title}}",
+        "EliLetter1": "{{i18n:Mail.EliLetter.1}}%item object 688 3 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.1.Title}}",
+        "EliLetter2": "{{i18n:Mail.EliLetter.2}}%item id (O){{ModID}}_MandrakeRootSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.2.Title}}",
+        "EliLetter3": "{{i18n:Mail.EliLetter.3}}%item id (O){{ModID}}_SanguineHeartSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.3.Title}}",
+        "EliCaveInvite": "{{i18n:Mail.EliLetter.4}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.EliLetter.4.Title}}",
+        "EliWarpPrototype": "{{i18n:Mail.EliLetter.5}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.ELiLetter.5.Title}}",
 
-        "DylanCleanupLetter": "{{i18n:Mail.DylanLetter.1{{GeneralDialogueTokens}}}}%item object 394 1 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.1.Title}}",
-        "DylanApology": "{{i18n:Mail.DylanLetter.2{{GeneralDialogueTokens}}}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}",
-        "DylanGift": "{{i18n:Mail.DylanLetter.3{{GeneralDialogueTokens}}}}%item id (O){{ModID}}_DragonEyeSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.3.Title}}",
-        "DroneMail": "{{i18n:Mail.DylanLetter.4{{GeneralDialogueTokens}}}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.4.Title}}",
-        "DylanPresent": "{{i18n:Mail.DylanLetter.5{{GeneralDialogueTokens}}}}%item id (F){{ModID}}_AbyssalTank 1%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.5.Title}}",
+        "DylanCleanupLetter": "{{i18n:Mail.DylanLetter.1}}%item object 394 1 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.1.Title}}",
+        "DylanApology": "{{i18n:Mail.DylanLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}",
+        "DylanGift": "{{i18n:Mail.DylanLetter.3}}%item id (O){{ModID}}_DragonEyeSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.3.Title}}",
+        "DroneMail": "{{i18n:Mail.DylanLetter.4}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.4.Title}}",
+        "DylanPresent": "{{i18n:Mail.DylanLetter.5}}%item id (F){{ModID}}_AbyssalTank 1%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.5.Title}}",
 
-        "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1{{GeneralDialogueTokens}}}}%item id (O){{ModID}}_BluffshroomStarter 8%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}",
-        "SentinelLetter": "{{i18n:Mail.SentinelLetter.1{{GeneralDialogueTokens}}}}%item id (O){{ModID}}_CrystallineLilySeeds 8%%[#]{{i18n:Mail.SentinelLetter.1.Title}}",
+        "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1}}%item id (O){{ModID}}_BluffshroomStarter 8%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}",
+        "SentinelLetter": "{{i18n:Mail.SentinelLetter.1}}%item id (O){{ModID}}_CrystallineLilySeeds 8%%[#]{{i18n:Mail.SentinelLetter.1.Title}}",
         "MouseLetter": "{{i18n:Mail.MouseLetter.1}}[textcolor black][#]{{i18n:Mail.MouseLetter.1.Title}}"
       }
     }

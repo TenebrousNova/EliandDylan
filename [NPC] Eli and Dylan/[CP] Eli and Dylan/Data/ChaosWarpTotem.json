@@ -28,11 +28,6 @@
           "Position": "37, 18",
           "Color": "140 242 0"
         },
-        "Summit": {
-          "Location": "Summit",
-          "Position": "11, 12",
-          "Color": "92 239 255"
-        },
         "WizardHouse": {
           "Location": "WizardHouse",
           "Position": "10, 17",
@@ -59,6 +54,55 @@
           "Color": "70 30 140"
         }
       }
+    },
+    {
+      "LogName": "Chaos Totem locations - Qi Summit",
+      "Action": "EditData",
+      "Target": "{{ModID}}/ChaosTotemLocations",
+      "Entries": {
+        "Summit": {
+          "Location": "Summit",
+          "Position": "11, 12",
+          "Color": "92 239 255"
+        }
+      },
+      "When": {
+      "Chaos Warp Totem Danger": true,
+      "HasFlag |contains=Farm_Eternal": false,
+      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Summit",
+      "Action": "EditData",
+      "Target": "{{ModID}}/ChaosTotemLocations",
+      "Entries": {
+        "Summit": {
+          "Location": "Summit",
+          "Position": "11, 12",
+          "Color": "92 239 255"
+        }
+      },
+      "When": {
+      "HasFlag |contains=Farm_Eternal": true,
+      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - SVE Summit",
+      "Action": "EditData",
+      "Target": "{{ModID}}/ChaosTotemLocations",
+      "Entries": {
+        "Custom_SVESummit": {
+          "Location": "Custom_SVESummit",
+          "Position": "11, 27",
+          "Color": "92 239 255"
+        }
+      },
+      "When": {
+			"HasFlag: |contains=RailroadBoulderRemoved": true,
+      "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		}
     },
     {
       "LogName": "Chaos Totem locations - Desert",
@@ -192,7 +236,7 @@
         }
       },
       "When": {
-			"HasMod": "Lumisteria.MtVapius",
+			"HasMod": "Lumisteria.MtVapius"
 		}
     },
     {
@@ -229,7 +273,8 @@
       },
       "When": {
 			"HasMod": "Lumisteria.MtVapius",
-      "HasVisitedLocation": "Lumisteria.MtVapius_ForestCrystalLake"
+      "HasVisitedLocation": "Lumisteria.MtVapius_ForestCrystalLake",
+      "Chaos Warp Totem Danger": true
 		}
     },
     {
@@ -241,7 +286,17 @@
           "Location": "Custom_SBV_SecretForest1",
           "Position": "52, 10",
           "Color": "124 213 36"
-        },
+        }
+      },
+      "When": {
+			"HasMod": "skellady.SBVCP"
+		}
+    },
+    {
+      "LogName": "Chaos Totem locations - Sunberry Village Mines",
+      "Action": "EditData",
+      "Target": "{{ModID}}/ChaosTotemLocations",
+      "Entries": {
         "Custom_SBV_Mines5B": {
           "Location": "Custom_SBV_Mines5B",
           "Position": "14, 8",
@@ -249,7 +304,8 @@
         }
       },
       "When": {
-			"HasMod": "skellady.SBVCP"
+			"HasMod": "skellady.SBVCP",
+      "Chaos Warp Totem Danger": true
 		}
     },
     {

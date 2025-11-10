@@ -132,15 +132,15 @@
         "Action": "EditData",
         "Target": "Strings/SpecialOrderStrings",
         "Entries": {
-          "NovaEli.SpecialOrders.FairyRingOffering_Name": "{{i18n:SpecialOrders.FairyRingOffering.Name{{GeneralDialogueTokens}}}}",
-          "NovaEli.SpecialOrders.FairyRingOffering_Text": "{{i18n:SpecialOrders.FairyRingOffering.Text{{GeneralDialogueTokens}}}}",
-          "NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text": "{{i18n:SpecialOrders.FairyRingOffering.ObjectiveText.1{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents_Name": "{{i18n:SpecialOrders.DroneComponents.Name{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents_Text": "{{i18n:SpecialOrders.DroneComponents.Text{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents.Objective_0_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.1{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents.Objective_1_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.2{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents.Objective_2_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.3{{GeneralDialogueTokens}}}}",
-          "NovaDylan.SpecialOrders.DroneComponents.Objective_3_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.4{{GeneralDialogueTokens}}}}"
+          "NovaEli.SpecialOrders.FairyRingOffering_Name": "{{i18n:SpecialOrders.FairyRingOffering.Name}}",
+          "NovaEli.SpecialOrders.FairyRingOffering_Text": "{{i18n:SpecialOrders.FairyRingOffering.Text}}",
+          "NovaEli.SpecialOrders.FairyRingOffering.Objective_0_Text": "{{i18n:SpecialOrders.FairyRingOffering.ObjectiveText.1}}",
+          "NovaDylan.SpecialOrders.DroneComponents_Name": "{{i18n:SpecialOrders.DroneComponents.Name}}",
+          "NovaDylan.SpecialOrders.DroneComponents_Text": "{{i18n:SpecialOrders.DroneComponents.Text}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_0_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.1}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_1_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.2}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_2_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.3}}",
+          "NovaDylan.SpecialOrders.DroneComponents.Objective_3_Text": "{{i18n:SpecialOrders.DroneComponents.ObjectiveText.4}}"
         }
       }
     ]

@@ -33,7 +33,7 @@
 		"EDMailBox": "{{i18n:Strings.House.EDMailBox}}",
 		"EDRadio": "{{ED_Radio}}",
 		"EDTV": "{{i18n:Strings.House.EDTV}}",
-		"EDConsole": "{{i18n:Strings.House.EDConsole{{Random_Dialogue_Tokens}}}}",
+		"EDConsole": "{{i18n:Strings.House.EDConsole}}",
 		"EDTrash": "{{i18n:Strings.House.EDTrash}}",
 		"EDFridge": "{{i18n:Strings.House.EDFridge}}",
 		"EDPoster1": "{{i18n:Strings.House.EDPoster.1}}",
@@ -65,7 +65,11 @@
 
 		//Mushroom Cave
 
-		"EDMushroomCliff": "{{i18n:Strings.MushroomCave.Cliff}}"
+		"EDMushroomCliff": "{{i18n:Strings.MushroomCave.Cliff}}",
+
+		//Misc. Strings
+
+		"SnowzillaFestival": "{{i18n:Strings.SnowzillaFestival}}"
 		
         }
 }

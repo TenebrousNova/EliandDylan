@@ -77,7 +77,24 @@
                     "HasMod |contains=sapphicsaph_pitv": true,
                     "IsCommunityCenterComplete": true
                 }
-            }
+            },
+
+            //Therapy Appointment - WIP!
+/*
+            {
+                "LogName": "Therapy",
+                "Action": "EditData",
+                "Target": "Characters/Schedules/Nova.Eli",
+                "Entries": {
+                    "spring_9": "610 Daine.TPOChoice_Aliyah_House 18 32 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "summer_9": "610 CommunityCenter 50 7 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "fall_9": "610 CommunityCenter 50 7 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
+                    "winter_9": "610 CommunityCenter 50 7 2 EliSitA/2130 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+                },
+                "When": {
+                    "HasMod |contains=Daine.TPOChoice": true
+                }
+            }*/
     ]
 }
 

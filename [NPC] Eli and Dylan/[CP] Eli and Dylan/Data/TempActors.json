@@ -223,8 +223,12 @@
 		"Target": "Characters/JunimoTotem",
 		"FromFile": "Assets/Images/JunimoTotem.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/Icezilla",
+		"FromFile": "Assets/Images/Icezilla.png"
+	},
 	
-
 	//Loads Max from Always Raining in the Valley as a temp actor for events
 
 	{

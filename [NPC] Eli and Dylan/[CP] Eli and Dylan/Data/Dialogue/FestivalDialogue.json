@@ -21,12 +21,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/spring13",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.EggFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.EggFestivalDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.EggFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.EggFestivalDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.EggFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.EggFestivalDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.EggFestivalDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.EggFestivalDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.EggFestivalDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.EggFestivalDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.EggFestivalDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.EggFestivalDialogue}}"
 			
 		}
 	},
@@ -39,12 +39,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/spring24",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.FlowerDanceDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FlowerDanceDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.FlowerDanceDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FlowerDanceDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.FlowerDanceDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.FlowerDanceDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.FlowerDanceDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FlowerDanceDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FlowerDanceDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FlowerDanceDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.FlowerDanceDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.FlowerDanceDialogue}}"
 		}
 	},
 	
@@ -56,12 +56,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/summer11",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.LuauDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.LuauDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.LuauDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.LuauDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.LuauDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.LuauDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.LuauDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.LuauDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.LuauDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.LuauDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.LuauDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.LuauDialogue}}"
 		}
 	},
 	
@@ -73,12 +73,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/summer28",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.MoonlightDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.MoonlightDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.MoonlightJelliesDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.MoonlightJelliesDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.MoonlightDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.MoonlightDialogue}}"
 		}
 	},
 	
@@ -90,12 +90,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/fall16",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.FairDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FairDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.FairDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FairDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.FairDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.FairDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.FairDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.FairDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FairDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.FairDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.FairDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.FairDialogue}}"
 		}
 	},
 	
@@ -107,12 +107,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/fall27",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.Spirit'sEveDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.Spirit'sEveDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.Spirit'sEveDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.Spirit'sEveDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.Spirit'sEveDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.Spirit'sEveDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.Spirit'sEveDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.Spirit'sEveDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.Spirit'sEveDialogue}}"
 		}
 	},
 	
@@ -124,12 +124,12 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/winter8",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.IceFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.IceFestivalDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.IceFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.IceFestivalDialogue.Y2{{GeneralDialogueTokens}}}}",
-			"Soot": "{{i18n:Core.Soot.IceFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Thistle": "{{i18n:Core.Thistle.IceFestivalDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.IceFestivalDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.IceFestivalDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.IceFestivalDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.IceFestivalDialogue.Y2}}",
+			"Soot": "{{i18n:Core.Soot.IceFestivalDialogue}}",
+			"Thistle": "{{i18n:Core.Thistle.IceFestivalDialogue}}"
 		}
 	},
 			
@@ -141,10 +141,10 @@ debug festival winter25 - Winter Star
 		"Target": "Data/Festivals/winter25",
 		"Entries": {
 			
-			"Nova.Eli": "{{i18n:Core.NovaEli.WinterStarDialogue.Opening{{GeneralDialogueTokens}}}}[261 681 688 689 690 517 519 773 226]{{i18n:Core.NovaEli.WinterStarDialogue.Closing{{GeneralDialogueTokens}}}}",
-			"Nova.Eli_y2": "{{i18n:Core.NovaEli.WinterStarDialogue.Opening.Y2{{GeneralDialogueTokens}}}}[261 681 688 689 690 517 519 773 226]{{i18n:Core.NovaEli.WinterStarDialogue.Closing.Y2{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening{{GeneralDialogueTokens}}}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.WinterStarDialogue.Opening.Y2{{GeneralDialogueTokens}}}}[223 226 348 459 560 611 265 694]{{i18n:Core.NovaDylan.WinterStarDialogue.Closing.Y2{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.WinterStarDialogue}}",
+			"Nova.Eli_y2": "{{i18n:Core.NovaEli.WinterStarDialogue.Y2}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.WinterStarDialogue}}",
+			"Nova.Dylan_y2": "{{i18n:Core.NovaDylan.WinterStarDialogue.Y2}}"
 		}
 	},
 
@@ -157,8 +157,8 @@ debug festival winter25 - Winter Star
 		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
 		"Entries": {
 
-			"Nova.Eli": "{{i18n:Core.NovaEli.RidgesideGatheringDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.RidgesideGatheringDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.RidgesideGatheringDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.RidgesideGatheringDialogue}}"
 		}
 	},
 
@@ -171,8 +171,8 @@ debug festival winter25 - Winter Star
 		"When": { "HasMod |contains=Rafseazz.RSVCP": true },
 		"Entries": {
 
-			"Nova.Eli": "{{i18n:Core.NovaEli.EmberOfResolutionsDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.EmberOfResolutionsDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.EmberOfResolutionsDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.EmberOfResolutionsDialogue}}"
 		}
 	},
 
@@ -183,8 +183,8 @@ debug festival winter25 - Winter Star
 		"When": { "HasMod |contains=violetlizabet.FireworksFestival": true},
 		"Entries": {
 
-			"Nova.Eli": "{{i18n:Core.NovaEli.FireworksFestivalDialogue{{GeneralDialogueTokens}}}}",
-			"Nova.Dylan": "{{i18n:Core.NovaDylan.FireworksFestivalDialogue{{GeneralDialogueTokens}}}}"
+			"Nova.Eli": "{{i18n:Core.NovaEli.FireworksFestivalDialogue}}",
+			"Nova.Dylan": "{{i18n:Core.NovaDylan.FireworksFestivalDialogue}}"
 		}
 	}
 	

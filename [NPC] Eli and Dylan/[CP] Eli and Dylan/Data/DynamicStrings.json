@@ -1,0 +1,79 @@
+{
+    "Changes": [
+        //[LocalizedText Strings/TN.EnD:KEY]
+        //[LocalizedText Strings/TN.EnD:RasmodiaDialogue.9]
+        {
+            "LogName": "Dynamic Strings",
+            "Action": "EditData",
+            "Target": "Strings/TN.EnD",
+            "Entries": {
+                //Player
+                "FName": "{{PlayerName}}",
+                "FarmName": "{{FarmName}}",
+                "CJobTitle": "{{Random: {{Player Job Title}} |key=PlayerJobTitle}}",
+                "LJobTitle": "{{Random: {{Lowercase: {{Player Job Title}}}} |key=PlayerJobTitle}}",
+                "CThey": "{{Random: {{Player Pronouns 1}} |key=PlayerPronouns}}",
+                "CThem": "{{Random: {{Player Pronouns 2}} |key=PlayerPronouns}}",
+                "CTheir": "{{Random: {{Player Pronouns 3}} |key=PlayerPronouns}}",
+                "CThemself": "{{Random: {{Player Pronouns 4}} |key=PlayerPronouns}}",
+                "CIdentifier": "{{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}}",
+                "LThey": "{{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}}",
+                "LThem": "{{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}}",
+                "LTheir": "{{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}}",
+                "LThemself": "{{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}}",
+                "LIdentifier": "{{Random: {{Lowercase: {{Player Pronoun Identifier}}}} |key=PlayerPronouns}}",
+
+                //Profanity
+                "CDamn": "{{i18n:Profanity_Damn_{{Profanity Filter}}}}",
+                "LDamn": "{{i18n:Profanity_Lowercase_Damn_{{Profanity Filter}}}}",
+                "CShit": "{{i18n:Profanity_Shit_{{Profanity Filter}}}}",
+                "LShit": "{{i18n:Profanity_Lowercase_Shit_{{Profanity Filter}}}}",
+                "SHIT": "{{i18n:Profanity_Caps_Shit_{{Profanity Filter}}}}",
+                "CShitty": "{{i18n:Profanity_Shitty_{{Profanity Filter}}}}",
+                "LShitty": "{{i18n:Profanity_Lowercase_Shitty_{{Profanity Filter}}}}",
+                "CFuck": "{{i18n:Profanity_Fuck_{{Profanity Filter}}}}",
+                "LFuck": "{{i18n:Profanity_Lowercase_Fuck_{{Profanity Filter}}}}",
+                "FUCK": "{{i18n:Profanity_Caps_Fuck_{{Profanity Filter}}}}",
+                "CFucking": "{{i18n:Profanity_Fucking_{{Profanity Filter}}}}",
+                "LFucking": "{{i18n:Profanity_Lowercase_Fucking_{{Profanity Filter}}}}",
+                "FFFFFFucking": "{{i18n:Profanity_FFFFFFucking_{{Profanity Filter}}}}",
+                "CHell": "{{i18n:Profanity_Hell_{{Profanity Filter}}}}",
+                "LHell": "{{i18n:Profanity_Lowercase_Hell_{{Profanity Filter}}}}",
+                "CBastard": "{{i18n:Profanity_Bastard_{{Profanity Filter}}}}",
+                "LBastard": "{{i18n:Profanity_Lowercase_Bastard_{{Profanity Filter}}}}",
+                "CBastards": "{{i18n:Profanity_Bastards_{{Profanity Filter}}}}",
+                "LBastards": "{{i18n:Profanity_Lowercase_Bastards_{{Profanity Filter}}}}",
+                "CAsshole": "{{i18n:Profanity_Asshole_{{Profanity Filter}}}}",
+                "LAsshole": "{{i18n:Profanity_Lowercase_Asshole_{{Profanity Filter}}}}",
+                "CPiss": "{{i18n:Profanity_Piss_{{Profanity Filter}}}}",
+                "LPiss": "{{i18n:Profanity_Lowercase_Piss_{{Profanity Filter}}}}",
+                "CPissed": "{{i18n:Profanity_Pissed_{{Profanity Filter}}}}",
+                "LPissed": "{{i18n:Profanity_Lowercase_Pissed_{{Profanity Filter}}}}",
+
+                //Items
+                "WinterStarEli": "{{Random:(O)261++(O)681++(O)688++(O)689++(O)690++(O)517++(O)519++(O)773++(O)226|InputSeparator=++}}",
+
+                //Randomized Dialogue
+                "SnowballFightOutcome": "{{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}",
+
+                //Randomized Strings
+                "GameName": "{{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}",
+                "EliGenre": "{{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}",
+
+                //Compatibility
+                "RasmodiaName": "{{i18n:Core.Rasmodia.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.1": "{{i18n:Compat.Rasmodia.1.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.2": "{{i18n:Compat.Rasmodia.2.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.3": "{{i18n:Compat.Rasmodia.3.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.4": "{{i18n:Compat.Rasmodia.4.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.5": "{{i18n:Compat.Rasmodia.5.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.6": "{{i18n:Compat.Rasmodia.6.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.7": "{{i18n:Compat.Rasmodia.7.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.8": "{{i18n:Compat.Rasmodia.8.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "RasmodiaDialogue.9": "{{i18n:Compat.Rasmodia.9.{{HasMod |contains=Nom0ri.RomRas}}}}",
+                "FeastOfTheSun": "{{i18n:Core.FeastOfTheSun.{{HasMod |contains=KaileyStardew.FeastOfTheSun}}}}"
+
+            }
+        }
+    ]
+ }

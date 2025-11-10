@@ -58,7 +58,7 @@
 		{
 			"Action": "Load",
 			"Target": "Maps/{{ModID}}_ESFlashback",
-			"FromFile": "Assets/Maps/EastScarp_Flashback.tmx"
+			"FromFile": "Assets/Maps/EastScarp_FlashbackESR.tmx"
 		},
 		{
 			"Action": "Load",
@@ -951,6 +951,43 @@
 		"Update": "OnTimeChange"
 	},
 
+	//Ice Festival Patch, Year 2
+
+	{
+		"LogName": "EnD Ice Festival Patch Y2",
+		"Action": "EditMap",
+		"Target": "Maps/Forest-IceFestival2",
+		"FromFile": "Assets/Maps/SnowzillaPatch.tmx",
+		"Priority": "Late",
+		"ToArea": {
+			"X": 64,
+			"Y": 8,
+			"Width": 4,
+			"Height": 3
+		},
+		"PatchMode": "Overlay",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+		}
+	},
+	{
+		"LogName": "EnD Ice Festival Patch Y2",
+		"Action": "EditMap",
+		"Target": "Maps/Forest-IceFestival2",
+		"FromFile": "Assets/Maps/SnowzillaPatch.tmx",
+		"Priority": "Late",
+		"ToArea": {
+			"X": 61,
+			"Y": 11,
+			"Width": 4,
+			"Height": 3
+		},
+		"PatchMode": "Overlay",
+		"When": {
+			"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+		}
+	},
+
 	//Makes it possible for Eli to sit on Pierre's roof for funsies.
 	
 	{
@@ -1074,6 +1111,7 @@
 			"{{ModID}}_SeaAngel": {
 				"Id": "{{ModID}}_SeaAngel",
 				"ItemId": "(O){{ModID}}_SeaAngel",
+				"Condition": "LOCATION_Season Here winter",
 				"FishAreaId": "ESBay"
 			}
 		}
@@ -1162,7 +1200,8 @@
 			},
 			"{{ModID}}_SeaAngel": {
 				"Id": "{{ModID}}_SeaAngel",
-				"ItemId": "(O){{ModID}}_SeaAngel"
+				"ItemId": "(O){{ModID}}_SeaAngel",
+				"Condition": "LOCATION_Season Here winter"
 			}
 		}
 	},
@@ -1251,6 +1290,20 @@
 				"ItemId": "(O){{ModID}}_BloodybellyCombJelly"
 			}
 		}
+	},
+
+	{
+		"LogName": "Godrays & Lighting - Old Woods",
+		"Action": "EditMap",
+		"Target": "Maps/{{ModID}}_OldWoods",
+		"When": {
+			"HasMod": "mushymato.MMAP"
+		},
+		"MapProperties": {
+			"mushymato.MMAP_LightRays": "T",
+			"mushymato.MMAP_WoodsLighting": "T #0a1e55"
+		}
 	}
+	
     ]
 }

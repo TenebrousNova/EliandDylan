@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="4" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="190">
+ <editorsettings>
+  <export target="." format="tmx"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Snowzilla" tilewidth="16" tileheight="16" tilecount="12" columns="4">
+  <image source="Snowzilla.png" width="64" height="48"/>
+ </tileset>
+ <layer id="1" name="Back" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+9,10,11,12
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="188" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message SnowzillaFestival"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Paths" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="Front" width="4" height="3">
+  <data encoding="csv">
+0,0,0,0,
+5,6,7,8,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="Front"/>
+ <layer id="11" name="AlwaysFront" width="4" height="3">
+  <data encoding="csv">
+1,2,3,4,
+0,0,0,0,
+0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="AlwaysFront"/>
+</map>

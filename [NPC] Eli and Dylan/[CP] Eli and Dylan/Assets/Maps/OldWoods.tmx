@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="50">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="60" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="64">
  <properties>
   <property name="BrookSounds" value="29 26 0"/>
   <property name="Outdoors" value="T"/>
@@ -1654,7 +1654,78 @@
    eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAA8GY4QAAB
   </data>
  </layer>
- <objectgroup id="2" name="Back"/>
+ <objectgroup id="2" name="Back">
+  <object id="50" name="TileData" x="464" y="528" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="464" y="336" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="256" y="208" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="640" y="224" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="624" y="688" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="272" y="656" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="688" y="896" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="112" y="848" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="96" y="400" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="59" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="416" y="16" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="784" y="128" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="880" y="560" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+  <object id="63" name="TileData" x="944" y="896" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_Critter" value="Firefly T 6"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="3" name="Buildings" width="60" height="60">
   <data encoding="base64" compression="zlib">
    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

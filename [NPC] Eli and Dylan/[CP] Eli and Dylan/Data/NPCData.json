@@ -215,12 +215,15 @@
 							"ID": "Adventuring Outfit",
 							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\", Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.01\" \"EVENT_ID EnD.EliBonus.04\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\"",
 							"Portrait": "Portraits/Nova.Eli/adventureRain",
+							"Outdoors": true,
+							"Indoors": false,
 							"Sprite": "Characters/Nova.Eli/adventure",
 							"Precedence": -20
 						},
 						{
 							"ID": "Adventuring Outfit",
 							"Condition": "Any \"LOCATION_NAME Target Mine\" \"EVENT_ID EnD.EliBonus.01\" \"EVENT_ID EnD.EliBonus.04\" \"EVENT_ID SnS.Ch1.Mateo.9\" \"EVENT_ID MadDog.BearFam.16193005\" \"EVENT_ID MadDog.BearFam.16191005\"",
+							"Indoors": true,
 							"Portrait": "Portraits/Nova.Eli/adventure",
 							"Sprite": "Characters/Nova.Eli/adventure",
 							"Precedence": -20

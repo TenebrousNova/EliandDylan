@@ -2095,7 +2095,7 @@
  <objectgroup id="4" name="Buildings">
   <object id="179" name="TileData" x="80" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 14 26 TenebrousNova.EliDylan.CP_ESEDHouse"/>
+    <property name="Action" value="LockedDoorWarp 14 26 TenebrousNova.EliDylan.CP_ESEDHouse 900 2300"/>
    </properties>
   </object>
   <object id="180" name="TileData" x="96" y="224" width="16" height="16">
@@ -2135,7 +2135,6 @@
     <property name="SpawnTree" value="fruit Cornucopia_LimeSapling 4 4"/>
    </properties>
   </object>
-  <object id="190" x="304" y="96"/>
  </objectgroup>
  <layer id="9" name="Front" width="12" height="16">
   <data encoding="csv">

@@ -41,6 +41,7 @@ Bunnipocalypse: Drone sprites & animations.
 DolphinIsNotaFish: Mouse portraits, mod page title typography.
 EnderTedi: Moral support and teaching me new event commands, provided the C# component for the chaos totem!
 TheMainDaine: Moral support.
+OrcaRequiem: Sea angel sprite & animation, snow beasts art
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
 
@@ -112,24 +113,26 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	  //File Includes
 	  
 	  {
-		"LogName": "Dialogue Load",
+		"LogName": "Dialogue & Event Loading",
 		"Action": "Load",
 		"Priority": "Low",
-		"Target": "Characters/Dialogue/Nova.Eli, Characters/Dialogue/Nova.Dylan, Characters/Schedules/Nova.Eli, Characters/Schedules/Nova.Dylan, Strings/schedules/Nova.Eli, Strings/schedules/Nova.Dylan",
+		"Target": "Characters/Dialogue/Nova.Eli, Characters/Dialogue/Nova.Dylan, Characters/Schedules/Nova.Eli, Characters/Schedules/Nova.Dylan, Strings/schedules/Nova.Eli, Strings/schedules/Nova.Dylan, Data/Events/{{ModID}}_ESEDHouse, Strings/TN.EnD",
 		"FromFile": "Data/blank.json"
     },
 
 	{
-		"LogName": "ED House Events Load",
-		"Action": "Load",
-		"Target": "Data/Events/{{ModID}}_ESEDHouse",
-		"FromFile": "Data/blank.json"
-	},
+        "Logname": "Inject New Emotes",
+        "Action": "EditImage",
+        "PatchMode": "Replace",
+        "Target": "TileSheets/emotes",
+        "FromFile": "Assets/ExtendedEmotes.png",
+        "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 320 }
+    },
 
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json, Data/ChaosWarpTotem.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json, Data/ChaosWarpTotem.json, Data/DynamicStrings.json"
 	}
 	  
    ],
@@ -142,17 +145,17 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
       "Default": "NinTheCactus",
       "AllowBlank": false,
       "AllowMultiple": false,
-      "Description": "Sets the mod's portrait style to either NinTheCactus or 6480.",
+      "Description": "Sets Eli and Dylan's portrait style to either NinTheCactus or 6480.",
       "Section": "General"
     },
-	"PlayerJobTitle": {
+	"Player Job Title": {
   	  "Default": "Farmer",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
   	  "Description": "Sets the player's job title for more immersive roleplay for users who aren't playing as farmers specifically. Default is 'farmer'.",
   	  "Section": "General"
 	},
-	"ProfanityFilter": {
+	"Profanity Filter": {
    	  "AllowValues": "true, false",
    	  "Default": false,
    	  "AllowBlank": false,
@@ -166,39 +169,46 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	  "Description": "Excludes EnD items from Perfection tracking.",
 	  "Section": "General"
 	},
+	"Chaos Warp Totem Danger": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		"Description": "Disable to prevent the Chaos Warp Totem from taking you to dangerous locations.",
+		"Section": "General"
+	},
 	"Player Pronouns 1": {
   	  "Default": "They",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
-  	  "Description": "Sets the player's desired pronouns.",
+  	  "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: They, She)",
   	  "Section": "Pronouns"
 	},
 	"Player Pronouns 2": {
   	  "Default": "Them",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
-  	  "Description": "Sets the player's desired pronouns.",
+  	  "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Them, Her)",
   	  "Section": "Pronouns"
 	},
 	"Player Pronouns 3": {
   	  "Default": "Their",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
-  	  "Description": "Sets the player's desired pronouns.",
+  	  "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Theirs, Hers)",
   	  "Section": "Pronouns"
 	},
 	"Player Pronouns 4": {
-      "Default": "Themselves",
+      "Default": "Themself",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
-  	  "Description": "Sets the player's desired pronouns.",
+  	  "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Themself, Herself)",
   	  "Section": "Pronouns"
 	},
 	"Player Pronoun Identifier": {
   	  "Default": "are",
   	  "AllowBlank": false,
   	  "AllowMultiple": true,
-  	  "Description": "Would usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
+  	  "Description": "Would usually be \"is\" or \"are\", depending on context. (She IS so cool! VS. They ARE so cool!) You can enter multiple sets for randomized selection each day separated by ','. (Example: are, is)",
   	  "Section": "Pronouns"
 	}
    },
@@ -245,130 +255,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "WeekDay",
 		"Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
 	},
-
-	//Dialogue randomization stuff that I can barely comprehend. Thanks for inventing this and letting me use it, Mads!
-
-	{
-		"Name": "NovaEli_HeartLevelToken",
-		"Value": "0-4",
-		"When": {
-			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaEli_HeartLevelToken",
-		"Value": "5-10",
-		"When": {
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
-		}
-	},
-
-	{
-		"Name": "NovaEli_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 60}}",
-		"When": {
-			"Hearts:Nova.Eli":"{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaEli_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 100}}",
-		"When": {
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
-		}
-	},
-
-	{
-		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 10}}",
-		"When": {
-			"Hearts:Nova.Eli": "{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaEli_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 20}}",
-		"When": {
-			"Hearts:Nova.Eli": "{{Range: 5, 10}}"
-		}
-	},
-
-	{
-		"Name": "NovaDylan_HeartLevelToken",
-		"Value": "0-4",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaDylan_HeartLevelToken",
-		"Value": "5-10",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
-		}
-	},
-
-	{
-		"Name": "NovaDylan_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 60}}",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaDylan_HeartLevelToken_Quantity",
-		"Value": "{{Range: 1, 100}}",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
-		}
-	},
-
-	{
-		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 10}}",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 0, 4}}"
-		}
-	},
-	{
-		"Name": "NovaDylan_HeartLevelToken_SeasonQuantity",
-		"Value": "{{Range: 1, 20}}",
-		"When": {
-			"Hearts:Nova.Dylan": "{{Range: 5, 10}}"
-		}
-	},
-
-	//Pass-in i18n tokens. Don't ask me how these work. Special thanks to Axell and Mads for helping me out with them!
-
-	{
-		"Name": "GeneralDialogueTokens",
-		"Value": "|CPPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |CPPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |CPPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |CPPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |CPPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}} |LPPNI={{Random: {{Lowercase: {{Player Pronoun Identifier}}}} |key=PlayerPronouns}} |CPJobTitle={{Random: {{PlayerJobTitle}} |key=EnDJobTitle}} |LPJobTitle={{Random: {{Lowercase: {{PlayerJobTitle}}}} |key=EnDJobTitle}} |FName={{FarmName}} |CPProfanity_Damn={{i18n:Profanity_Damn_{{ProfanityFilter}}}} |LPProfanity_Damn={{i18n:Profanity_Lowercase_Damn_{{ProfanityFilter}}}} |CPProfanity_Shit={{i18n:Profanity_Shit_{{ProfanityFilter}}}} |LPProfanity_Shit={{i18n:Profanity_Lowercase_Shit_{{ProfanityFilter}}}} |CapsPProfanity_Shit={{i18n:Profanity_Caps_Shit_{{ProfanityFilter}}}} |CPProfanity_Shitty={{i18n:Profanity_Shitty_{{ProfanityFilter}}}} |LPProfanity_Shitty={{i18n:Profanity_Lowercase_Shitty_{{ProfanityFilter}}}} |CPProfanity_Fuck={{i18n:Profanity_Fuck_{{ProfanityFilter}}}} |LPProfanity_Fuck={{i18n:Profanity_Lowercase_Fuck_{{ProfanityFilter}}}} |CapsPProfanity_Fuck={{i18n:Profanity_Caps_Fuck_{{ProfanityFilter}}}} |CPProfanity_Fucking={{i18n:Profanity_Fucking_{{ProfanityFilter}}}} |LPProfanity_Fucking={{i18n:Profanity_Lowercase_Fucking_{{ProfanityFilter}}}} |CPProfanity_FFFFFFucking={{i18n:Profanity_FFFFFFucking_{{ProfanityFilter}}}} |CPProfanity_Hell={{i18n:Profanity_Hell_{{ProfanityFilter}}}} |LPProfanity_Hell={{i18n:Profanity_Lowercase_Hell_{{ProfanityFilter}}}} |CPProfanity_Bastard={{i18n:Profanity_Bastard_{{ProfanityFilter}}}} |LPProfanity_Bastard={{i18n:Profanity_Lowercase_Bastard_{{ProfanityFilter}}}} ||CPProfanity_Bastards={{i18n:Profanity_Bastards_{{ProfanityFilter}}}} |LPProfanity_Bastards={{i18n:Profanity_Lowercase_Bastards_{{ProfanityFilter}}}} |CPProfanity_Asshole={{i18n:Profanity_Asshole_{{ProfanityFilter}}}} |LPProfanity_Asshole={{i18n:Profanity_Lowercase_Asshole_{{ProfanityFilter}}}} |CPProfanity_Piss={{i18n:Profanity_Piss_{{ProfanityFilter}}}} |LPProfanity_Piss={{i18n:Profanity_Lowercase_Piss_{{ProfanityFilter}}}} |CPProfanity_Pissed={{i18n:Profanity_Pissed_{{ProfanityFilter}}}} |LPProfanity_Pissed={{i18n:Profanity_Lowercase_Pissed_{{ProfanityFilter}}}}"
-	},
-
-	{
-		"Name": "Random_Dialogue_Tokens",
-		"Value": "|SnowballFightOutcome={{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}|GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}|EliGenre={{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}"
-	},
-
-	{
-        "Name": "NovaEli_DialogueFiller",
-        "Value": "|NovaEli_Filler={{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Random:{{Range: 2, 60}}}}{{GeneralDialogueTokens}}}} |NovaEli_SigurdSondra={{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_GunnarGudrun={{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_Teren={{i18n:Core.NovaEli.Teren_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_TerenRH={{i18n:Core.NovaEli.TerenRH_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaEli_Nora={{i18n:Core.NovaEli.Nora_HasNora.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Mateo={{i18n:Core.NovaEli.Mateo_HasMateo.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Rodney={{i18n:Core.NovaEli.Rodney_HasRodney.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaEli_Sen={{i18n:Core.NovaEli.Sen_HasSen.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}"
-    },
-
-	{
-        "Name": "NovaEli_DialogueModifiers",
-        "Value": "|NovaEli_BigPool={{Random:{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.{{NovaEli_HeartLevelToken}}.{{Season}}.{{Random:{{NovaEli_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaEli.SigurdSondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.TerenRH_HasBearFam.{{HasFlag |contains=EliTerenRHActive}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaEli_DialogueFiller}}}}++{{i18n:Core.NovaEli.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaEli_DialogueFiller}}}}|inputSeparator=++}}"
-    },
-
-	{
-        "Name": "NovaDylan_DialogueFiller",
-        "Value": "|NovaDylan_Filler={{i18n:Core.NovaDylan.{{NovaDylan_HeartLevelToken}}.{{Random:{{Range: 2, 60}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sigurd={{i18n:Core.NovaDylan.Sigurd_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_SigurdRH={{i18n:Core.NovaDylan.SigurdRH_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sondra={{i18n:Core.NovaDylan.Sondra_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_GunnarGudrun={{i18n:Core.NovaDylan.GunnarGudrun_HasBearFam.{{Random:{{Range: 1, 10}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Teren={{i18n:Core.NovaDylan.Teren_HasBearFam.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Nora={{i18n:Core.NovaDylan.Nora_HasNora.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Mateo={{i18n:Core.NovaDylan.Mateo_HasMateo.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Rodney={{i18n:Core.NovaDylan.Rodney_HasRodney.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}} |NovaDylan_Sen={{i18n:Core.NovaDylan.Sen_HasSen.{{Random:{{Range: 1, 5}}}}{{GeneralDialogueTokens}}}}"
-    },
-
-	{
-        "Name": "NovaDylan_DialogueModifiers",
-        "Value": "|NovaDylan_BigPool={{Random:{{i18n:Core.NovaDylan.{{NovaDylan_HeartLevelToken}}.{{Season}}.{{Random:{{NovaDylan_HeartLevelToken_SeasonQuantity}}}}.{{GeneralDialogueTokens}}{{Random_Dialogue_Tokens}}}}++{{i18n:Core.NovaDylan.Sigurd_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.SigurdRH_HasBearFam.{{HasFlag |contains=SigDylanRHActive}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Sondra_HasBearFam.{{HasMod |contains=MadDog.HashtagBearFam}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.GunnarGudrun_HasBearFam.{{HasFlag |contains=MadDog.BearFamExtraMembers}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Teren_HasBearFam.{{HasFlag |contains=TerenMysteryMail}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Nora_HasNora.{{HasMod |contains=Bagi.Nora.CP}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Mateo_HasMateo.{{HasSeenEvent |contains=SnS.Ch1.Mateo.0}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Rodney_HasRodney.{{HasSeenEvent |contains=134371008}}{{NovaDylan_DialogueFiller}}}}++{{i18n:Core.NovaDylan.Sen_HasSen.{{HasSeenEvent |contains=7thAxis.DitR_Events.SenS.0h, 7th.LitD_Events.SenS.0h}}{{NovaDylan_DialogueFiller}}}}|inputSeparator=++}}"
-    },
 
 	//Currently unused. 
 
@@ -424,11 +310,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "GuestRoom_Journal",
-		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.{{Random:{{Range:1, 3}}}}}}"
+		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.{{Random:{{Range:1, 3}}}}}}}"
 	},
 	{
 		"Name": "GuestRoom_Journal",
-		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.GreenRain}}",
+		"Value": "{{i18n:Strings.House.EDGuestRoomJournal.GreenRain}}}",
 		"When": {
 			"Weather": "GreenRain"
 		}
@@ -444,6 +330,13 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 			"Weather": "GreenRain"
 		}
 	},
+
+	//COMPAT
+
+	{
+		"Name": "RasmodiaName",
+		"Value": "{{i18n:Core.Rasmodia.{{HasMod |contains=Nom0ri.RomRas}}}}"
+	}
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
 	It'll probably make your eyes bleed.
@@ -503,7 +396,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliES_Wed",
-		"Value": "{{Random:1400 EastScarp_Village 24 63 2 EliSitA++1400 EastScarp_Village 50 61 2 EliSitRead++1400 EastScarp_Village 40 71 2 EliSitB|InputSeparator=++}}"
+		"Value": "{{Random:1400 EastScarp_Village 24 62 2 EliSitA++1400 EastScarp_Village 50 61 2 EliSitRead++1400 EastScarp_Village 40 71 2 EliSitB|InputSeparator=++}}"
 	},
 	{
 		"Name": "EliCastlePoint_Wed",
@@ -802,13 +695,16 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliJunimo2_AideenMateo",
-		"Value": "faceDirection Aideen 3/emote Aideen 8/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.4}}\"/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.1}}\"/speed WaffleW? 4/advancedMove WaffleW? false 0 1 6 0 0 -1 1 10/pause 250/advancedMove EveT false 0 0 2 2000 0 0 3 10/jump Nova.Eli/emote EveT? 8 true/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.5}}\"/emote Aideen 12 true/emote Nova.Eli 28 true/temporarySprite 20 60 6 8 30 false 1/playSound coin/warp JunimoFriendPurple 24 60/animate JunimoFriendPurple true true 80 28 29 30 31/temporarySprite 24 60 5 8 50 false 1/pause 250/emote WaffleW? 16 true/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.2}}\"/advancedMove WaffleW? false 0 1 -6 0 0 -1 3 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.6}}\"/textAboveHead JunimoFriendPurple \"ĦĵĮĮĹ ĬġĤĹ!\" true/faceDirection Aideen 0/playSound junimoMeep1/emote Aideen 40/faceDirection Aideen 3/temporarySprite 24 60 6 8 30 false 1/playSound dwop/warp JunimoFriendPurple -999 -999/stopAnimation JunimoFriendPurple/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.3}}\"/faceDirection Aideen 2/emote Nova.Eli 60"
+		"Value": "faceDirection Aideen 3/emote Aideen 8/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.4}}\"/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.1}}\"/speed WaffleW? 4/advancedMove WaffleW? false 0 1 6 0 0 -1 1 10/pause 250/advancedMove EveT false 0 0 2 2000 0 0 3 10/jump Nova.Eli/emote EveT? 8 true/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.5}}\"/emote Aideen 12 true/emote Nova.Eli 28 true/temporarySprite 20 60 6 8 30 false 1/playSound coin/warp JunimoFriendPurple 24 60/animate JunimoFriendPurple true true 80 28 29 30 31/temporarySprite 24 60 5 8 50 false 1/pause 250/emote WaffleW? 16 true/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.2}}\"/advancedMove WaffleW? false 0 1 -6 0 0 -1 3 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.6}}\"/textAboveHead JunimoFriendPurple \"ĦĵĮĮĹ ĬġĤĹ!\" true/faceDirection Aideen 0/playSound junimoMeep1/emote Aideen 40/faceDirection Aideen 3/temporarySprite 24 60 6 8 30 false 1/playSound dwop/warp JunimoFriendPurple -999 -999/stopAnimation JunimoFriendPurple/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.3}}\"/faceDirection Aideen 2/emote Nova.Eli 60",
+		"When": {
+			"HasMod |contains=DN.SnS": false
+		}
 	},
 	{
 		"Name": "EliJunimo2_AideenMateo",
 		"Value": "faceDirection Aideen 3/animate Mateo true true 80 20 20 20/emote Aideen 8/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.4}}\"/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.1.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.1}}\"/speed WaffleW? 4/advancedMove WaffleW? false 0 1 6 0 0 -1 1 10/pause 250/advancedMove EveT false 0 0 2 2000 0 0 3 10/jump Nova.Eli/emote EveT? 8 true/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.5}}\"/emote Aideen 12 true/emote Nova.Eli 28 true/temporarySprite 20 60 6 8 30 false 1/playSound coin/warp JunimoFriendPurple 24 60/animate JunimoFriendPurple true true 80 28 29 30 31/temporarySprite 24 60 5 8 50 false 1/playSound coin/pause 250/emote WaffleW? 16 true/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.2.2}}\"/advancedMove WaffleW? false 0 1 -6 0 0 -1 3 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.6}}\"/textAboveHead JunimoFriendPurple \"ĦĵĮĮĹ ĬġĤĹ!\" true/emote Mateo 8 true/faceDirection Aideen 0/playSound junimoMeep1/emote Aideen 40/faceDirection Aideen 3/temporarySprite 24 60 6 8 30 false 1/playSound dwop/warp JunimoFriendPurple -999 -999/stopAnimation JunimoFriendPurple/speak Aideen \"{{i18n:Events.EliJunimo2.Aideen.3.2}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.7}}\"/speak Mateo \"{{i18n:Events.EliJunimo2.Mateo.3}}\"/animate Mateo false true 500 17 18 19 18 17 18 19 18/faceDirection Aideen 2/emote Nova.Eli 60",
 		"When": {
-			"HasMod": "DN.SnS"
+			"HasMod |contains=DN.SnS": true
 		}
 	},
 	{
@@ -828,20 +724,9 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliJunimo2_Rodney",
-		"Value": "warp RodneyOBrien 10 56/speed RodneyOBrien 3/advancedMove RodneyOBrien false 6 0 0 2 11 0 1 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.14}}\"/jump JunimoFriendPurple/playSound junimoMeep1/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.15}}\"/playSound junimoMeep1/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.1{{GeneralDialogueTokens}}}}\"/temporarySprite 31 58 6 8 30 false 1/warp JunimoFriendPurple 999 999/playSound dwop/faceDirection Nova.Eli 3/emote Nova.Eli 16 true/jump Nova.Eli/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/warp Nova.Eli 29 58/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.16}}\"/playSound junimoMeep1/pause 250/showFrame Nova.Eli 67/pause 750/showFrame Nova.Eli 66/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.17}}\"/pause 500/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.3}}\"/faceDirection Nova.Eli 3/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.18}}\"/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.4}}\"/advancedMove RodneyOBrien false 0 -1 25 0 1 10/emote Nova.Eli 60/pause 500/faceDirection Nova.Eli 1/pause 500/textAboveHead Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.19}}\" true",
+		"Value": "warp RodneyOBrien 10 56/speed RodneyOBrien 3/advancedMove RodneyOBrien false 6 0 0 2 11 0 1 10/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.14}}\"/jump JunimoFriendPurple/playSound junimoMeep1/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.15}}\"/playSound junimoMeep1/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.1}}\"/temporarySprite 31 58 6 8 30 false 1/warp JunimoFriendPurple 999 999/playSound dwop/faceDirection Nova.Eli 3/emote Nova.Eli 16 true/jump Nova.Eli/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/positionOffset Nova.Eli 4 0/pause 5/warp Nova.Eli 29 58/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.2}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.16}}\"/playSound junimoMeep1/pause 250/showFrame Nova.Eli 67/pause 750/showFrame Nova.Eli 66/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.17}}\"/pause 500/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.3}}\"/faceDirection Nova.Eli 3/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.18}}\"/speak RodneyOBrien \"{{i18n:Events.EliJunimo2.Rodney.4}}\"/advancedMove RodneyOBrien false 0 -1 25 0 1 10/emote Nova.Eli 60/pause 500/faceDirection Nova.Eli 1/pause 500/textAboveHead Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.19}}\" true",
 		"When": {
 			"HasMod": "TheFrenchDodo.RodneyOBrien, TheFrenchDodo.WWWA"
-		}
-	},
-	{
-		"Name": "EliJunimo2_Juliet",
-		"Value": "faceDirection Rosa 3/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.1}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.20{{GeneralDialogueTokens}}}}\"/advancedMove Nova.Eli false 2 0 0 1 2 0 0 -1 3 0 0 -1 4 10/pause 1000/faceDirection Rosa 1/textAboveHead Rosa \"{{i18n:Events.EliJunimo2.Rosa.2}}\" true/waitForAllStationary/pause 250/playSound doorClose/warp Nova.Eli 999 999/globalFade/viewport -1000 -1000/pause 250/playSound potterySmash/faceDirection MadDog.HashtagBearFam.Gunnar? 3/emote MadDog.HashtagBearFam.Gunnar? 8 true/pause 500/faceDirection MadDog.HashtagBearFam.Gunnar? 2 true/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.3}}\"/playSound junimoMeep1"
-	},
-	{
-		"Name": "EliJunimo2_Juliet",
-		"Value": "faceDirection Rosa 3/faceDirection Juliet 3/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.1}}\"/speak Nova.Eli \"{{i18n:Events.EliJunimo2.NovaEli.20.2{{GeneralDialogueTokens}}}}\"/advancedMove Nova.Eli false 2 0 0 1 2 0 0 -1 3 0 0 -1 4 10/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/showFrame Juliet 9/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/positionOffset Juliet 0 4/pause 5/showFrame Juliet 10/pause 1000/faceDirection Rosa 1/faceDirection Juliet 1/pause 500/textAboveHead Rosa \"{{i18n:Events.EliJunimo2.Rosa.2}}\" true/waitForAllStationary/pause 250/playSound doorClose/warp Nova.Eli 999 999/pause 250/playSound potterySmash/faceDirection MadDog.HashtagBearFam.Gunnar? 3/emote MadDog.HashtagBearFam.Gunnar? 8 true/pause 500/faceDirection MadDog.HashtagBearFam.Gunnar? 2 true/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.3}}\"/faceDirection Juliet 0/speak Juliet \"{{i18n:Events.EliJunimo2.Juliet.1}}\"/faceDirection Rosa 2/speak Rosa \"{{i18n:Events.EliJunimo2.Rosa.4}}\"/emote Juliet 32 false/globalFade/viewport -1000 -1000/playSound junimoMeep1",
-		"When": {
-			"HasMod": "LemurKat.JulietHouse.NPC"
 		}
 	},
 
@@ -915,7 +800,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Event plays out slightly differently if you have met Krobus before.
 	{
 		"Name": "Eli_KrobusIntro",
-		"Value": "speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.16.A.1{{GeneralDialogueTokens}}}}\"/emote farmer 20/speak Krobus \"{{i18n:Events.EliWoods.Krobus.10.A.1}}\"",
+		"Value": "speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.16.A.1}}\"/emote farmer 20/speak Krobus \"{{i18n:Events.EliWoods.Krobus.10.A.1}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": true
 		}
@@ -929,14 +814,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "Eli_KrobusGoodbye",
-		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.A.1{{GeneralDialogueTokens}}}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.2}}\"",
+		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.A.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.A.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": true
 		}
 	},
 	{
 		"Name": "Eli_KrobusGoodbye",
-		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1{{GeneralDialogueTokens}}}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
+		"Value": "speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.1}}\"/speak Nova.Eli \"{{i18n:Events.EliWoods.NovaEli.20.B.1}}\"/speak Krobus \"{{i18n:Events.EliWoods.Krobus.12.B.2}}\"",
 		"When": {
 			"Relationship:Krobus |contains=Unmet": false
 		}
@@ -1138,11 +1023,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "DylanTown_Pam",
-		"Value": "{{i18n:Events.DylanTown.Pam.1{{RandomDialogueTokens}}}}"
+		"Value": "{{i18n:Events.DylanTown.Pam.1}}"
 	},
 	{
 		"Name": "DylanTown_Pam",
-		"Value": "{{i18n:Events.DylanTown.Pam.1.2{{RandomDialogueTokens}}}}",
+		"Value": "{{i18n:Events.DylanTown.Pam.1.2}}",
 		"When": {
 			"HasSeenEvent": "611173"
 		}

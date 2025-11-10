@@ -92,7 +92,7 @@
             "Actions": [
               "AddItem (O){{ModID}}_BeholderFruitSeeds 8",
               "spacechase0.SpaceCore_PlaySound getNewSpecialItem false",
-              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox{{GeneralDialogueTokens}}}}\" (O){{ModID}}_BeholderFruitSeeds",
+              "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Strings.House.EDGuestRoomBox}}\" (O){{ModID}}_BeholderFruitSeeds",
               "AddMail Current {{ModID}}_SeedGift_Received received"
             ]
           }
@@ -179,8 +179,8 @@
             "Condition": "ITEM_ID Target \"Rock Crab\", LOCATION_NAME Here EastScarp_Village",
             "MarkActionApplied": false,
             "Actions": [
-              "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillRockCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\"",
-              "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillRockCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\""     
+              "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillRockCrab.{{Random:{{Range: 1, 3}}}}}}\"",
+              "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillRockCrab.{{Random:{{Range: 1, 3}}}}}}\""     
             ]
           },
        "{{ModID}}_MonsterKilledBETAS2": {
@@ -189,11 +189,19 @@
          "Condition": "ITEM_ID Target \"Lava Crab\", LOCATION_NAME Here EastScarp_Village",
          "MarkActionApplied": false,
          "Actions": [
-           "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillLavaCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\"",
-           "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillLavaCrab.{{Random:{{Range: 1, 3}}}}{{GeneralDialogueTokens}}}}\""
+           "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"{{i18n:Betas.NovaEli.KillLavaCrab.{{Random:{{Range: 1, 3}}}}}}\"",
+           "Spiderbuttons.BETAS_TextAboveHead Nova.Dylan \"{{i18n:Betas.NovaDylan.KillLavaCrab.{{Random:{{Range: 1, 3}}}}}}\""
          ]
-       }
-      }
+       },
+       /*"EliBombReact": {
+         "Id": "EliBombReact",
+         "Trigger": "Spiderbuttons.BETAS_BombExploded",
+         "Actions": [
+          "Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"FUCK ME!!\" 1500 0 true",
+          "Spiderbuttons.BETAS_SetNewDialogue Nova.Eli \"A little warning next time, @?? You nearly gave me a heart attack!$7"
+         ]
+      }*/
     }
+  }
     ]
   }

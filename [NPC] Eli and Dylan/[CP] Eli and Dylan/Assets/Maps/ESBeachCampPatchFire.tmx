@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="147">
  <editorsettings>
-  <export format="tmx"/>
+  <export target="." format="tmx"/>
  </editorsettings>
- <properties>
-  <property name="DayTiles" value="AlwaysFront 13 87 907 AlwaysFront 18 57 907 AlwaysFront 33 57 907 AlwaysFront 39 43 907 AlwaysFront 45 37 907 AlwaysFront 66 85 907 AlwaysFront 42 77 907 AlwaysFront 22 84 907 AlwaysFront 39 53 907 AlwaysFront 23 51 907 AlwaysFront 14 66 907 AlwaysFront 66 68 907 AlwaysFront 48 125 907"/>
-  <property name="Light" value="72 107 4 73 107 4 13 87 4 13 87 4 18 57 4 33 57 4 39 43 4 45 37 4 66 85 4 47 77 4 23 84 4 22 83 4 39 53 4 23 51 4 14 66 4 66 68 4 48 125 4"/>
-  <property name="NPCWarp" value="32 32 EastScarp__VetAwayWarpRoom 2 8 3 96 EastScarp__CatWarpRoom 2 5 35 39 EastScarp_DeepDark 21 16"/>
-  <property name="NightTiles">AlwaysFront 13 87 908 AlwaysFront 18 57 908 AlwaysFront 33 57 908 AlwaysFront 39 43 908 AlwaysFront 45 37 908 AlwaysFront 66 85 908 AlwaysFront 47 77 908 AlwaysFront 22 84 908 AlwaysFront 39 53 908 AlwaysFront 23 51 908 AlwaysFront 14 66 908 AlwaysFront 66 68 908
-AlwaysFront 48 125 908</property>
-  <property name="Outdoors" value="T"/>
-  <property name="Warp" value="85 48 EastScarp_Orchard 1 18 85 49 EastScarp_Orchard 1 19 85 20 EastScarp_MineEntrance 0 22"/>
- </properties>
- <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="32" columns="4">
-  <image source="paths.png" width="64" height="128"/>
+ <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>
@@ -45,7 +36,7 @@ AlwaysFront 48 125 908</property>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="33" name="ES_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
+ <tileset firstgid="65" name="ES_beach" tilewidth="16" tileheight="16" tilecount="527" columns="17">
   <image source="summer_beach.png" width="272" height="496"/>
   <tile id="7">
    <properties>
@@ -1148,7 +1139,7 @@ AlwaysFront 48 125 908</property>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="560" name="campfire-Sheet" tilewidth="16" tileheight="16" tilecount="16" columns="8">
+ <tileset firstgid="592" name="campfire-Sheet" tilewidth="16" tileheight="16" tilecount="16" columns="8">
   <image source="campfire-Sheet.png" width="128" height="32"/>
   <tile id="0">
    <animation>
@@ -1185,8 +1176,8 @@ AlwaysFront 48 125 908</property>
  </tileset>
  <layer id="1" name="Back" width="2" height="2">
   <data encoding="csv">
-84,86,
-101,52
+116,118,
+133,84
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
@@ -1212,14 +1203,14 @@ AlwaysFront 48 125 908</property>
  <objectgroup id="17" name="Back3"/>
  <layer id="3" name="Buildings" width="2" height="2">
   <data encoding="csv">
-206,207,
-223,224
+238,239,
+255,256
 </data>
  </layer>
  <layer id="19" name="Buildings1" width="2" height="2">
   <data encoding="csv">
-560,561,
-568,569
+592,593,
+600,601
 </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
