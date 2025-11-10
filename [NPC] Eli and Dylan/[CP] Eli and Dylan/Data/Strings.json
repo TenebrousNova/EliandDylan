@@ -31,7 +31,7 @@
 		"DylanDrawer": "{{i18n:Strings.House.DylanDrawer}}",
 		
 		"EDMailBox": "{{i18n:Strings.House.EDMailBox}}",
-		"EDRadio": "{{ED_Radio}}",
+		"EDRadio": "{{i18n:Strings.House.EDRadio}}",
 		"EDTV": "{{i18n:Strings.House.EDTV}}",
 		"EDConsole": "{{i18n:Strings.House.EDConsole}}",
 		"EDTrash": "{{i18n:Strings.House.EDTrash}}",
@@ -51,17 +51,17 @@
 		"EDNano": "{{i18n:Strings.House.EDNano}}",
 		"EDJars": "{{i18n:Strings.House.EDJars}}",
 		"EDMouse": "{{i18n:Strings.House.EDMouse.{{Random:{{Range:1, 8}}}}}}",
-		"EDMouse2": "{{ED_Mousehole}}",
+		"EDMouse2": "{{i18n:Strings.House.EDMouseLocked}}",
 		"EDLockedDoor": "{{i18n:Strings.House.EDLockedDoor}}",
 
-		"EDGuestRoomWindow": "{{GuestRoom_Window}}",
-		"EDGuestRoomRadio": "{{GuestRoom_Radio}}",
+		"EDGuestRoomWindow": "{{i18n:Strings.House.EDGuestRoomWindow.{{Random:{{Range:1, 4}}}}}}",
+		"EDGuestRoomRadio": "{{i18n:Strings.House.EDGuestRoomRadio.{{Random:{{Range:1, 3}}}}}}",
 		"EDGuestRoomTotem": "{{i18n:Strings.House.EDGuestRoomTotem}}",
 		"EDGuestRoomPainting": "{{i18n:Strings.House.EDGuestRoomPainting}}",
 		"EDGuestRoomBed": "{{i18n:Strings.House.EDGuestRoomBed}}",
 		"EDGuestRoomDrawer": "{{i18n:Strings.House.EDGuestRoomDrawer}}",
 		"EDGuestRoomBook": "{{i18n:Strings.House.EdGuestRoomBook}}",
-		"EDGuestRoomJournal": "{{GuestRoom_Journal}}",
+		"EDGuestRoomJournal": "{{i18n:Strings.House.EDGuestRoomJournal.{{Random:{{Range:1, 3}}}}{{EnDDialogueTokens}}}}",
 
 		//Mushroom Cave
 
@@ -72,6 +72,24 @@
 		"SnowzillaFestival": "{{i18n:Strings.SnowzillaFestival}}"
 		
         }
+},
+
+//Green Rain strings
+
+{
+	"LogName": "Strings - Green Rain",
+	"Action": "EditData",
+	"Target": "strings/StringsFromMaps",
+	"Entries": {
+		"EDRadio": "{{i18n:Strings.House.EDRadio.GreenRain}}",
+		"EDMouse2": "{{i18n:Strings.House.EDMouseLocked.GreenRain}}",
+		"EDGuestRoomWindow": "{{i18n:Strings.House.EDGuestRoomWindow.GreenRain}}",
+		"EDGuestRoomRadio": "{{i18n:Strings.House.EDGuestRoomRadio.GreenRain}}",
+		"EDGuestRoomJournal": "{{i18n:Strings.House.EDGuestRoomJournal.GreenRain}}"
+	},
+	"When": {
+		"Weather": "GreenRain"
+	}
 }
     ]
 

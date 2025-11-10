@@ -14,7 +14,7 @@
 			//Entry Dialogue
 
 	         "Saloon_Entry": "{{i18n:Core.NovaEli.SaloonEntry}}",
-			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry}}",
+			 "SeedShop_Entry": "{{i18n:Core.NovaEli.SeedShopEntry{{EnDDialogueTokens}}}}",
 			 "Hospital_Entry": "{{i18n:Core.NovaEli.HospitalEntry}}",
 
 			//Important Dates
