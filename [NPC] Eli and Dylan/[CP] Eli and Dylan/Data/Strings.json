@@ -33,7 +33,7 @@
 		"EDMailBox": "{{i18n:Strings.House.EDMailBox}}",
 		"EDRadio": "{{i18n:Strings.House.EDRadio}}",
 		"EDTV": "{{i18n:Strings.House.EDTV}}",
-		"EDConsole": "{{i18n:Strings.House.EDConsole}}",
+		"EDConsole": "{{i18n:Strings.House.EDConsole{{EnDDialogueTokens}}}}",
 		"EDTrash": "{{i18n:Strings.House.EDTrash}}",
 		"EDFridge": "{{i18n:Strings.House.EDFridge}}",
 		"EDPoster1": "{{i18n:Strings.House.EDPoster.1}}",

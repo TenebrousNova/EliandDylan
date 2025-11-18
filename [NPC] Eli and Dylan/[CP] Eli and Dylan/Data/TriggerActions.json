@@ -163,6 +163,77 @@
         } 
       },
 
+      //Recipe Mail
+
+      {
+        "LogName": "Cornucopia Recipes - Lobster Roll",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_LobsterRollMail": {
+            "Id": "{{ModID}}_LobsterRollMail",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Dylan 1000",
+            "Action": "AddMail Current EnDRecipeMail1 Now",
+            "MarkActionApplied": true
+          }
+        },
+        "When": {
+          "HasMod |contains=Cornucopia.CookingRecipes": true
+        }
+      },
+      {
+        "LogName": "Cornucopia Recipes - Salt and Vinegar Fish & Chips",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_SaltAndVinegarFishAndChips": {
+            "Id": "{{ModID}}_SaltAndVinegarFishAndChips",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1000",
+            "Action": "AddMail Current EnDRecipeMail2 Now",
+            "MarkActionApplied": true
+          }
+        },
+        "When": {
+          "HasMod |contains=Cornucopia.CookingRecipes": true
+        }
+      },
+      {
+        "LogName": "Cornucopia Recipes - Hot Sauce",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_HotSauce": {
+            "Id": "{{ModID}}_HotSauce",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Eli 1500",
+            "Action": "AddMail Current EnDRecipeMail3 Now",
+            "MarkActionApplied": true
+          }
+        },
+        "When": {
+          "HasMod |contains=Cornucopia.CookingRecipes": true
+        }
+      },
+      {
+        "LogName": "Cornucopia Recipes - Hot Chocolate",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_HotChocolate": {
+            "Id": "{{ModID}}_HotChocolate",
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Nova.Dylan 1500",
+            "Action": "AddMail Current EnDRecipeMail4 Now",
+            "MarkActionApplied": true
+          }
+        },
+        "When": {
+          "HasMod |contains=Cornucopia.CookingRecipes": true
+        }
+      },
+
       //BETAS Stuff
 
       {

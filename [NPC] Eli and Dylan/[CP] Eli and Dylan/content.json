@@ -42,6 +42,7 @@ DolphinIsNotaFish: Mouse portraits, mod page title typography.
 EnderTedi: Moral support and teaching me new event commands, provided the C# component for the chaos totem!
 TheMainDaine: Moral support.
 OrcaRequiem: Sea angel sprite & animation, snow beasts art
+HeartOfFlowers: Additional sprites.
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
 
@@ -277,7 +278,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 
 	{
 		"Name": "EnDDialogueTokens",
-		"Value": "|PlayerFarmName={{FarmName}} |RasmodiaName={{i18n:Core.Rasmodia.{{HasMod |contains=Nom0ri.RomRas}}}} |RasmodiaJournalCompat={{i18n:Compat.Rasmodia.8.{{HasMod |contains=Nom0ri.RomRas}}}}"
+		"Value": "|PlayerFarmName={{FarmName}} |RasmodiaName={{i18n:Core.Rasmodia.{{HasMod |contains=Nom0ri.RomRas}}}} |RasmodiaJournalCompat={{i18n:Compat.Rasmodia.8.{{HasMod |contains=Nom0ri.RomRas}}}} |GameName={{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}"
 	},
 	
 	/*This is where all of the many pieces of NPC schedules are randomised. It makes the actual schedules file much more streamlined, at the cost of cluttering up THIS file instead.
@@ -380,14 +381,37 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliForest_Sun",
 		"Value": "{{Random:610 Forest 98 40 2 EliSitB++610 Forest 92 21 1|InputSeparator=++}}"
 	},
+
+	{
+		"Name": "EliSaloonCompatA",
+		"Value": "25 18 2"
+	},
+	{
+		"Name": "EliSaloonCompatA",
+		"Value": "42 33 3 EliSitLeftSofa",
+		"When": {
+			"HasMod |contains=RaffieJohn.ExtraSaloonSpace": true
+		}
+	},
+	{
+		"Name": "EliSaloonCompatB",
+		"Value": "41 19 2"
+	},
+	{
+		"Name": "EliSaloonCompatB",
+		"Value": "42 33 3 EliSitLeftSofa",
+		"When": {
+			"HasMod |contains=RaffieJohn.ExtraSaloonSpace": true
+		}
+	},
 //The insanity is finally condensed.
 	{
 		"Name": "EliRain_A",
-		"Value": "610 Mine 20 4 2 EliBagRummage/1330 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 Mine 20 4 2 EliBagRummage/1330 Saloon {{EliSaloonCompatA}}/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliRain_B",
-		"Value": "{{EliForest_Rain}}/1300 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 7 10 0/1800 Saloon 25 18 2/2230 Forest 35 26 2 EliSitA"
+		"Value": "{{EliForest_Rain}}/1300 ArchaeologyHouse 11 9 0/1630 18 9 0/1730 7 10 0/1800 Saloon {{EliSaloonCompatA}}/2230 Forest 35 26 2 EliSitA"
 	},
 	{
 		"Name": "EliMonday_A",
@@ -403,7 +427,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTuesday_B",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 EastScarp_VillageInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon 25 18 2/2200 EastScarp_VillageInn 44 34 2 EliKOsleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0900 EastScarp_VillageInn 46 33 0/{{EliInn_Tue}}/1200 Town 50 69 1/{{EliTown_Tue}}/1730 Saloon {{EliSaloonCompatA}}/2200 EastScarp_VillageInn 44 34 2 EliKOsleep"
 	},
 	{
 		"Name": "EliTuesday_B",
@@ -437,11 +461,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliFriday_A",
-		"Value": "610 Forest 95 40 2 EliSitA/1400 28 12 0/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 Forest 95 40 2 EliSitA/1400 28 12 0/1700 Saloon {{EliSaloonCompatA}}/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliFriday_B",
-		"Value": "610 BathHouse_Pool 17 11 2 EliSwim/{{EliTown_Fri}}/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 BathHouse_Pool 17 11 2 EliSwim/{{EliTown_Fri}}/1700 Saloon {{EliSaloonCompatA}}/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSaturday_A",
@@ -453,11 +477,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliSunday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 7 10 0/1600 Town 50 67 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_Sun}}/0930 EastScarp_VillageInn 46 33 0/1130 ArchaeologyHouse 12 9 0/1430 21 5 0/1500 13 9 0/1530 7 10 0/1600 Town 50 67 1/1730 Saloon {{EliSaloonCompatB}}/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliSunday_B",
-		"Value": "{{EliForest_Sun}}/1400 Town 50 67 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
+		"Value": "{{EliForest_Sun}}/1400 Town 50 67 1/1730 Saloon {{EliSaloonCompatB}}/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep"
 	},
 
 	//DYLAN
@@ -469,6 +493,15 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	{
 		"Name": "DylanStrings_ClinicExam",
 		"Value": "{{Random:\"Strings\\schedules\\Nova.Dylan:DylanClinic.003\"++\"Strings\\schedules\\Nova.Dylan:DylanClinic.004\"++\"Strings\\schedules\\Nova.Dylan:DylanClinic.005\"|InputSeparator=++}}"
+	},
+
+	{
+		"Name": "DylanSaloonCompatA",
+		"Value": "40 19 2 Dylan_Drink"
+	},
+	{
+		"Name": "DylanSaloonCompatA",
+		"Value": "42 33 3 DylanSitLeftSofa"
 	},
 
 	{
@@ -543,11 +576,11 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "DylanSunday_A",
-		"Value": "610 12 8 3/630 24 24 1/0730 24 25 1/0800 EastScarp_Village 59 105 3 Dylan_WritingLeft/1000 45 110 0/1200 60 113 2/1500 Saloon 40 19 2 Dylan_Drink/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 24 24 1/0730 24 25 1/0800 EastScarp_Village 59 105 3 Dylan_WritingLeft/1000 45 110 0/1200 60 113 2/1500 Saloon {{DylanSaloonCompatA}}/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 	{
 		"Name": "DylanSunday_B",
-		"Value": "610 12 8 3/630 23 21 0/0730 ArchaeologyHouse 6 10 0/1200 Town 62 15 2 Dylan_Sit/1500 50 67 1/1730 Saloon 40 19 2 Dylan_Drink/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
+		"Value": "610 12 8 3/630 23 21 0/0730 ArchaeologyHouse 6 10 0/1200 Town 62 15 2 Dylan_Sit/1500 50 67 1/1730 Saloon {{DylanSaloonCompatA}}/2200 {{ModID}}_ESEDHouse 17 5 1 nova.dylan_sleep"
 	},
 
 	//Events

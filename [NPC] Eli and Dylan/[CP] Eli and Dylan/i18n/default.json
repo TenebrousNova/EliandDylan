@@ -2,6 +2,8 @@
 
 //CONFIG
 
+"Test.NaughtyWords": "We don't. [CapitalizeFirstLetter [LocalizedText Strings/TN.EnD:LFucking]]. Swear in this house!",
+
 "Config.section.General.name": "General",
 "Config.Portrait Style.name": "Portrait Style",
 "Config.Portrait Style.description": "Sets Eli and Dylan's portrait style to either NinTheCactus or 6480.",
@@ -1322,7 +1324,7 @@ SIGURD/SONDRA*/
 "Core.NovaDylan.5-10.Summer.4": "If you're growing peppers, Eli and me will probably buy some. We both enjoy spicy food.$3#$b#How's your new life in the countryside coming along, anyway? Hope it's turning out how you wanted.$1",
 "Core.NovaDylan.5-10.Summer.5": "A few days each Summer, the ocean water turns bright green. It's caused by phytoplankton blooms that coincide with the crab mating season.$1#$b#You'll find a lot of coral and interesting shells washed up on the beach during this time.$3",
 "Core.NovaDylan.5-10.Summer.6": "Hope you're keeping hydrated, @. Nobody wants to find you collapsed from heat exhaustion.$0#$b#Especially considering how active you are - you remind me of Eli in some ways. Seriously, do you ever rest?$9",
-"Core.NovaDylan.5-10.Summer.7": "I got an angry phone call from Aideen telling me to extract Eli from her rose bushes - he'd somehow wandered there at an unholy hour and passed out.$2I wish he'd stay at home and just read or watch TV when his insomnia plays up. I worry about him going out in the dead of night.$9",
+"Core.NovaDylan.5-10.Summer.7": "I got an angry phone call from Aideen telling me to extract Eli from her rose bushes - he'd somehow wandered there at an unholy hour and passed out.$2#$b#I wish he'd stay at home and just read or watch TV when his insomnia plays up. I worry about him going out in the dead of night.$9",
 "Core.NovaDylan.5-10.Summer.8": "I get that dust sprites hate the Summer heat, but that's no excuse for Soot to get into our fridge. He made it filthy and somehow devoured half our groceries!$7#$b#I cleaned the fridge out, but Eli's replacing our food. He probably left the door ajar yet again and that's how the little bugger got in.$5",
 "Core.NovaDylan.5-10.Summer.9": "Get out to the beach early enough and you can find wild octopuses at this time of year. Good luck catching one, though - even Willy has a tough time with them.$1",
 "Core.NovaDylan.5-10.Summer.10": "This new game came out recently called [LocalizedText Strings/TN.EnD:GameName]. We just bought it, I'm looking forward to trying it with Eli later.$3",
@@ -1478,7 +1480,7 @@ SIGURD*/
 "Core.NovaDylan.fishCaught_159": "Oh hey, Willy told me that you caught a crimsonfish! I'm impressed. They are extremely strong for their size.$3",
 "Core.NovaDylan.gotPet": "I met %pet earlier! Very friendly indeed. It's always great to see more pet owners around town.$3",
 "Core.NovaDylan.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "Someone tracked dirt all across the floor I'd cleaned earlier. It was probably Eli, but he mentioned we had a visitor earlier.$0#$b#%Dylan is giving you a suspicious stare.",
-"Core.NovaDylan.houseUpgrade_1": "I saw that your house got renovated, @! Robin does a fantastic job, doesn't she?$3#$b#She worked on our house as well when she moved in - but it was far more descrepit than yours.$0",
+"Core.NovaDylan.houseUpgrade_1": "I saw that your house got renovated, @! Robin does a fantastic job, doesn't she?$3#$b#She worked on our house as well when she moved in - but it was far more decrepit than yours.$0",
 "Core.NovaDylan.houseUpgrade_2": "Congratulations on the house expansion! Are you planning on doing a lot of decorating? That's the really fun part.$3",
 "Core.NovaDylan.GreenRain": "Yes, I'm aware that we are experiencing anomalous weather today. Yes, I know pretty much everyone else except my brother refuses to go out in it.$0#$b#I have work to do! As long as it doesn't stain my clothes, I'm not bothered. Besides, I'm interested to see what effect it has on the sea life, if any.$9#$b#I don't even want to know what it's been doing to the guest room.$6",
 "Core.NovaDylan.GreenRain2": "Ugh, I'm not looking forward to washing my clothes. Do you know how hard it is to scrub moss out of them? And that idiot Eli insists on staying out there!$2#$b#He can wash his own clothes this time.$5",
@@ -1734,7 +1736,7 @@ SIGURD*/
 "Strings.House.EDRadio.GreenRain": "The radio is making incomprehensible sounds, overlaid with heavy static. The strange weather must be interfering with it. Either that, or Eli broke it!",
 "Strings.House.EDTV": "The drawer below the TV contains an impressive collection of documentaries on nature and the supernatural. There's also a lot of horror movies in here.",
 //Note to translators: you can move the [LocalizedText Strings/TN.EnD:GameName] token below to where it would make sense in the sentence.
-"Strings.House.EDConsole": "A fairly old console that's seen a lot of use. Even now, you can picture the brothers accusing each other of cheating and fighting over the player one controller.#The game currently in it is [LocalizedText Strings/TN.EnD:GameName]",
+"Strings.House.EDConsole": "A fairly old console that's seen a lot of use. Even now, you can picture the brothers accusing each other of cheating and fighting over the player one controller.#The game currently in it is {{GameName}}.",
 "Strings.GameName.1": "Samurai Snowboard Onslaught",
 "Strings.GameName.2": "Hallowed Voyage",
 "Strings.GameName.3": "Primal Betrayal",
@@ -1880,6 +1882,15 @@ SIGURD*/
 
 "Mail.MouseLetter.1.Title": "A Crumpled Note",
 "Mail.MouseLetter.1": "HuMaN wAnTs SeEdS. mOuSe HaS sEeDs. CoMe To mOuSe HiDeY-hOlE aT bRoThEr HoUsE tO eAsT.^^^bRiNg^^^ShInIeS",
+
+"Mail.RecipeMail.1.Title": "A Recipe From Dylan",
+"Mail.RecipeMail.1": "Hello, @.^^I decided to try my hand at making lobster roll yesterday and thought that I'd share the recipe with you, seeing how you've been such a good friend to me!^^This is a popular dish back in Point Drake and brings back many memories for Eli and myself. If you decide to make it, please think of us as you enjoy.^^Kind regards,^Dylan Moray^^P.S. If Eli tries to tell you that I screwed up the recipe last night and set fire to it, don't listen to him. He is NOT the only cook in this house!",
+"Mail.RecipeMail.2.Title": "A Recipe From Eli",
+"Mail.RecipeMail.2": "Hiya, @!^^Have you ever had a proper fish and chips before? I made some for me and Dylan the other day in preparation for the movie night we'd had planned. I figured I'd share my own recipe for it with salt and vinegar!^^Try to go easy on the salt, haha.^^Next time I make it, I'll totally have to make extra and invite you over!^^Your friend,^Eli",
+"Mail.RecipeMail.3.Title": "Another Recipe from Eli",
+"Mail.RecipeMail.3": "Oi-oi, @!^^I'm sending you my favourite hot sauce recipe. It goes well with a lot of things, although Dylan reckons I go way overboard and slather too much of the stuff on our food.^^I never hear him complaining when he actually eats it, though - isn't that funny?^^You can also use it in pranks, but you didn't hear that from me!^^-Eli",
+"Mail.RecipeMail.4.Title": "Another Recipe from Dylan",
+"Mail.RecipeMail.4": "Good morning, @!^^I found this recipe for hot chocolate in my new cookery book. It's so simple that even I didn't have much difficulty with it!^^There's nothing quite like a nice mug of steaming hot chocolate in the evening, especially during the colder months.^^Please let me know what you think if you make it!^^Wishing you well,^Dylan",
 
 //CONVERSATION TOPICS
 

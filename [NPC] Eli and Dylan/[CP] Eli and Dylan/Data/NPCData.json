@@ -50,7 +50,7 @@
 							"Outdoors": true,
 							"Indoors": false,
 							"Portrait": "Portraits/Nova.Eli/springRain",
-							"Sprite": "Characters/Nova.Eli/springRain",
+							"Sprite": "Characters/Nova.Eli/spring",
 							"Precedence": -10,
 							"Weight": 1
 						},

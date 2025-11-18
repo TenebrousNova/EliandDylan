@@ -23,11 +23,23 @@
         "DylanApology": "{{i18n:Mail.DylanLetter.2}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.2.Title}}",
         "DylanGift": "{{i18n:Mail.DylanLetter.3}}%item id (O){{ModID}}_DragonEyeSeeds 8 %%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.3.Title}}",
         "DroneMail": "{{i18n:Mail.DylanLetter.4}}[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.4.Title}}",
-        "DylanPresent": "{{i18n:Mail.DylanLetter.5}}%item id (F){{ModID}}_AbyssalTank 1%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.5.Title}}",
+        "DylanPresent": "{{i18n:Mail.DylanLetter.5}}%item id (F){{ModID}}_AbyssalTank 1%%%item money 10000%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.DylanLetter.5.Title}}",
 
         "DemetriusCaveLetter": "{{i18n:Mail.DemetriusLetter.1}}%item id (O){{ModID}}_BluffshroomStarter 8%%[#]{{i18n:Mail.DemetriusLetter.1.Title}}",
         "SentinelLetter": "{{i18n:Mail.SentinelLetter.1}}%item id (O){{ModID}}_CrystallineLilySeeds 8%%[#]{{i18n:Mail.SentinelLetter.1.Title}}",
         "MouseLetter": "{{i18n:Mail.MouseLetter.1}}[textcolor black][#]{{i18n:Mail.MouseLetter.1.Title}}"
+      }
+    },
+
+    {
+      "LogName": "Cornucopia Recipe Mail",
+      "Action": "EditData",
+      "Target": "Data/Mail",
+      "Entries": {
+        "EnDRecipeMail1": "{{i18n:Mail.RecipeMail.1}}%item cookingRecipe Cornucopia_LobsterRoll%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 6][textcolor black][#]{{i18n:Mail.RecipeMail.1.Title}}",
+        "EnDRecipeMail2": "{{i18n:Mail.RecipeMail.2}}%item cookingRecipe Cornucopia_SaltandVinegarChips%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.RecipeMail.2.Title}}",
+        "EnDRecipeMail3": "{{i18n:Mail.RecipeMail.3}}%item cookingRecipe Cornucopia_HotSauce%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.RecipeMail.3.Title}}",
+        "EnDRecipeMail4": "{{i18n:Mail.RecipeMail.4}}%item cookingRecipe Cornucopia_HotChocolate%%[letterbg Mods/TenebrousNova.EliDylan.CP/LetterBackgrounds 3][textcolor black][#]{{i18n:Mail.RecipeMail.4.Title}}"
       }
     }
   ]

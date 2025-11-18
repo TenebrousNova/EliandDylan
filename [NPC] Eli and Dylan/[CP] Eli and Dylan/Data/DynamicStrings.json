@@ -1,12 +1,13 @@
 {
     "Changes": [
         //[LocalizedText Strings/TN.EnD:KEY]
-        //[LocalizedText Strings/TN.EnD:RasmodiaDialogue.9]
+        //[LocalizedText Strings/TN.EnD:CDamn]
         {
             "LogName": "Dynamic Strings",
             "Action": "EditData",
             "Target": "Strings/TN.EnD",
             "Entries": {
+
                 //Player
                 "FName": "{{PlayerName}}",
                 "FarmName": "{{FarmName}}",

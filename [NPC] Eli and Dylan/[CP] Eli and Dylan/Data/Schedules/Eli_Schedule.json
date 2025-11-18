@@ -27,7 +27,7 @@
                     "summer_7": "610 Hospital 12 14 2/1250 10 15 0/1330 4 6 1/1600 Town 50 69 1/1730 Saloon 41 19 2/2200 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "TroutDerby_1": "610 {{ModID}}_ESEDHouse 14 22 1/0800 Forest 97 38 3/2000 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "TroutDerby_2": "GOTO TroutDerby_1",
-                    "fall_27": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 76 114 1/0900 41 67 1/1120 EastScarp_VillageInn 26 27 2/2000 Town 0 0 0",
+                    "fall_27": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 70 119 3/0900 41 67 1/1120 EastScarp_VillageInn 26 27 2/2000 Town 0 0 0",
                     "winter_6": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/0730 EastScarp_Village 20 66 1/1000 Beach 44 35 1/1400 Town 44 77 2 EliSitB/1700 Saloon 25 18 2/2100 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "SquidFest_1": "610 Beach 50 21 3 EliMarshmallow/2000 {{ModID}}_ESEDHouse 2 5 3 nova.eli_sleep",
                     "SquidFest_2": "GOTO SquidFest_1",
