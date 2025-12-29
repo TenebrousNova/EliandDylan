@@ -1,28 +1,141 @@
 {
     "Changes": [
 
-        //Temporary Actors
+        //Characters
 
 	{
 		"Action": "Load",
 		"Target": "Characters/Soot",
-		"FromFile": "Assets/Images/SootSprite.png"
+		"FromFile": "Assets/Characters/Actors/SootSprites.png"
 	},
 	{
 		"Action": "Load",
 		"Target": "Portraits/Soot",
-		"FromFile": "Assets/Images/SootPortrait.png"
+		"FromFile": "Assets/Portraits/Hime Tarts/Actors/SootPortrait.png"
 	},
 	{
 		"Action": "Load",
 		"Target": "Characters/Thistle",
-		"FromFile": "Assets/Images/ThistleSprites.png"
+		"FromFile": "Assets/Characters/Actors/ThistleSprites.png"
 	},
 	{
 		"Action": "Load",
 		"Target": "Portraits/Thistle",
-		"FromFile": "Assets/Images/ThistlePortrait.png"
+		"FromFile": "Assets/Portraits/{{Actor Portrait Style}}/Actors/ThistlePortrait.png"
 	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoKing",
+		"FromFile": "Assets/Characters/Actors/SentinelSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/JunimoKing",
+		"FromFile": "Assets/Portraits/{{Actor Portrait Style}}/Actors/SentinelPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBrown",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_brown.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendRed",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_red.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendOrange",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_orange.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendYellow",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_yellow.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendGreen",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_green.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBlue",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_blue.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendPink",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_pink.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendPurple",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_purple.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/JunimoFriendPurple",
+		"FromFile": "Assets/Portraits/7thAxis/Actors/AlliumPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendBlack",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_black.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/JunimoFriendWhite",
+		"FromFile": "Assets/Characters/Actors/JunimoFriend_white.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound1_Mist",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites_Shrouded.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound2_Mist",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites_Shrouded.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound3_Mist",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites_Shrouded.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound1",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound2",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/FogHound3",
+		"FromFile": "Assets/Characters/Actors/FoghoundSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/FogHound1_Mist",
+		"FromFile": "Assets/Portraits/7thAxis/Actors/FoghoundPortrait.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Characters/EnD.Mouse",
+		"FromFile": "Assets/Images/MouseSprites.png"
+	},
+	{
+		"Action": "Load",
+		"Target": "Portraits/EnD.Mouse",
+		"FromFile": "Assets/Images/MousePortrait.png"
+	},
+
+	//Other Actors
+
 	{
 		"Action": "Load",
 		"Target": "Characters/MushroomTotem",
@@ -32,71 +145,6 @@
 		"Action": "Load",
 		"Target": "Characters/OfferingBox",
 		"FromFile": "Assets/Images/OfferingBox.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoKing",
-		"FromFile": "Assets/Images/JunimoKingSprites.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Portraits/JunimoKing",
-		"FromFile": "Assets/Images/JunimoKingPortrait.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendBrown",
-		"FromFile": "Assets/Images/JunimoFriend_brown.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendRed",
-		"FromFile": "Assets/Images/JunimoFriend_red.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendOrange",
-		"FromFile": "Assets/Images/JunimoFriend_orange.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendYellow",
-		"FromFile": "Assets/Images/JunimoFriend_yellow.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendGreen",
-		"FromFile": "Assets/Images/JunimoFriend_green.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendBlue",
-		"FromFile": "Assets/Images/JunimoFriend_blue.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendPink",
-		"FromFile": "Assets/Images/JunimoFriend_pink.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendPurple",
-		"FromFile": "Assets/Images/JunimoFriend_purple.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Portraits/JunimoFriendPurple",
-		"FromFile": "Assets/Images/JunimoFriend_purplePortrait.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendBlack",
-		"FromFile": "Assets/Images/JunimoFriend_black.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/JunimoFriendWhite",
-		"FromFile": "Assets/Images/JunimoFriend_white.png"
 	},
 	{
 		"Action": "Load",
@@ -155,16 +203,6 @@
 	},
 	{
 		"Action": "Load",
-		"Target": "Characters/EnD.Mouse",
-		"FromFile": "Assets/Images/MouseSprites.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Portraits/EnD.Mouse",
-		"FromFile": "Assets/Images/MousePortraits.png"
-	},
-	{
-		"Action": "Load",
 		"Target": "Characters/EliDoor",
 		"FromFile": "Assets/Images/EliDoor.png"
 	},
@@ -177,41 +215,6 @@
 		"Action": "Load",
 		"Target": "Characters/EliBag",
 		"FromFile": "Assets/Images/EliBag.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound1_Mist",
-		"FromFile": "Assets/Images/Foghound_Mist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound2_Mist",
-		"FromFile": "Assets/Images/Foghound_Mist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound3_Mist",
-		"FromFile": "Assets/Images/Foghound_Mist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound1",
-		"FromFile": "Assets/Images/Foghound_NoMist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound2",
-		"FromFile": "Assets/Images/Foghound_NoMist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Characters/FogHound3",
-		"FromFile": "Assets/Images/Foghound_NoMist.png"
-	},
-	{
-		"Action": "Load",
-		"Target": "Portraits/FogHound1_Mist",
-		"FromFile": "Assets/Images/FoghoundPortrait.png"
 	},
 	{
 		"Action": "Load",
@@ -229,12 +232,12 @@
 		"FromFile": "Assets/Images/Icezilla.png"
 	},
 	
-	//Loads Max from Always Raining in the Valley as a temp actor for events
+	//Loads Max from Always Raining in the Valley as a temp actor for events.
 
 	{
 		"Action": "Load",
 		"Target": "Portraits/ARVMax",
-		"FromFile": "Assets/Images/MaximumPortrait.png",
+		"FromFile": "Assets/Portraits/Hime Tarts/Actors/MaximumPortrait.png",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
 		}
@@ -242,13 +245,13 @@
 	{
 		"Action": "Load",
 		"Target": "Characters/ARVMax",
-		"FromFile": "Assets/Images/MaximumSprites.png",
+		"FromFile": "Assets/Characters/Actors/MaximumSprites.png",
 		"When": {
 			"HasMod": "Himetarts.ARV.CP"
 		}
 	},
 
-    //Loads event particles.
+    //Loads Temporary Animated Sprites for my event bullshittery.
 
 	{
 		"LogName": "Particles",

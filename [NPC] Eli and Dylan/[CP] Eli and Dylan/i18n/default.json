@@ -5,10 +5,14 @@
 "Test.NaughtyWords": "We don't. [CapitalizeFirstLetter [LocalizedText Strings/TN.EnD:LFucking]]. Swear in this house!",
 
 "Config.section.General.name": "General",
-"Config.Portrait Style.name": "Portrait Style",
+"Config.Portrait Style.name": "Eli & Dylan's Portrait Style",
 "Config.Portrait Style.description": "Sets Eli and Dylan's portrait style to either NinTheCactus or 6480.",
 "Config.Portrait Styles.values.NinTheCactus": "NinTheCactus",
 "Config.Portrait Styles.values.6480": "6480",
+"Config.Actor Portrait Style.name": "Thistle & Sentinel's Portrait Style",
+"Config.Actor Portrait Styles.description": "Sets Thistle and Sentinel's portrait style to either NinTheCactus or 7thAxis.",
+"Config.Actor Portrait Styles.values.NinTheCactus": "NinTheCactus",
+"Config.Actor Portrait Styles.values.6480": "6480",
 "Config.Player Job Title.name": "Player Job Title",
 "Config.Player Job Title.description": "Sets the player's job title for more immersive roleplay for users who aren't playing as farmers specifically. Default is 'farmer'.",
 "Config.Profanity Filter.name": "Profanity Filter",
@@ -207,6 +211,7 @@
 //FURNITURE
 
 "Core.Items.AbyssalTank": "Abyssal Tank",
+"Core.Items.AbyssalTank.Description": "A lovingly crafted aquarium, gifted to you by Dylan for making his deep sea discoveries possible.",
 
 //COMPAT
 
@@ -951,7 +956,7 @@ SIGURD/SONDRA*/
 "Gifts.NovaEli.GiftReaction.RustySpoon": "Doesn't even look that old to me. But you could always claim it's an antique and flog it to someone with too much money and not enough sense.$0",
 "Gifts.NovaEli.GiftReaction.ChippedAmphora": "This reminds me of the time Dylan got [LocalizedText Strings/TN.EnD:LPissed] off because Soot knocked over this ugly old vase we had and shattered it. Bless the little fuzzball!$3",
 
-"Gifts.NovaEli.ChaosTotem": "$query PLAYER_HAS_MAIL Current EnD_GiftedEliChaosTotem Any#Seriously, where are you finding these? Are they coming back like non-Euclidean boomerangs when you use them?$10|Wh-what?? Where the [LocalizedText Strings/TN.EnD:LFuck] did you get that thing from? I thought I'd gotten rid of them! Do you know how dangerous they are?!$7#$b#I'm only gonna tell you once: those totems are a failed experiment of mine and they're WAY too volatile. You can end up in places you REALLY don't wanna be.$9#$b#Don't say I didn't give you fair warning, @.$2#$action AddMail Current EnD_GiftedEliChaosTotem received",
+"Gifts.NovaEli.ChaosTotem": "$query PLAYER_HAS_MAIL Current EnD_GiftedEliChaosTotem Any#Seriously, where are you finding these? Are they coming back like non-Euclidean boomerangs when you use them?$10|Wh-what?? Where the [LocalizedText Strings/TN.EnD:LFuck] did you get that thing from!? I thought I'd gotten rid of them! Do you know how dangerous they are?!$7#$b#I'm only gonna tell you once: those totems are a failed experiment of mine and they're WAY too volatile. You can end up in places you REALLY don't wanna be.$9#$b#Don't say I didn't give you fair warning, @.$2#$action AddMail Current EnD_GiftedEliChaosTotem received",
 
 "Gifts.NovaEli.GiftReaction.AnAutographedPhoto": "Oh, Rodney gave me one of these as well. He sort of pulled it out of nowhere when I was just making small talk with him.$0",
 
@@ -1729,7 +1734,7 @@ SIGURD*/
 "Strings.House.DylanPC": "This PC is a rather good one, built for gaming. In true Dylan fashion it's very clean. You can't even see any dust on the keyboard. How does he do it?#It's also password protected, so don't even think about it.",
 "Strings.House.DylanBooks.1": "'Journey of the Prairie King: A True Story' (autographed by Linden Hawthorn himself!), 'Song of the Leviathans', 'Reefs of the Fern Islands', 'A Complete Handbook to Ferngill's Marine Life', 'Sea Monster Sightings'#Many of the books pertain to Dylan's profession, but it looks like he enjoys the odd myth and legend as well.",
 "Strings.House.DylanBooks.2": "'The Moonlight Jellies', 'A Study of Bird Intelligence', 'How to Blend Into The Background', 'All Knowledge is Worth Knowing', 'Coral and Pearl: Merfolk and Their Society'#Dylan clearly has a lot on his mind. A few of these books were borrowed from the Library and are overdue to be returned.",
-"Strings.House.DylanDrawer": "Opening the drawer with iron determination in your eyes, you gaze upon the neatly folded articles of clothing therein.#Dylan is clearly more careful about how he dresses than his brother, but he's not out to win any fashion contests either. There's a folded note under the clothing!#'Eli- I'm not stupid and you're not nearly as sneaky as you think you are. I know you've been nicking my toothpaste! It's almost empty already and you're paying for the next tube.'#'P.S. If for some reason you are NOT Eli, then what the [LocalizedText Strings/TN.EnD:LHell] are you doing in my stuff??'",
+"Strings.House.DylanDrawer": "Opening the drawer with iron determination in your eyes, you gaze upon the neatly folded articles of clothing therein.#Dylan is clearly more careful about how he dresses than his brother, but he's not out to win any fashion contests either. There's a folded note under the clothing!#'Eli- I'm not stupid and you're not nearly as sneaky as you think you are. I know you've been nicking my toothpaste! It's almost empty already and you're paying for the next tube.'#'P.S. If for some reason you are NOT Eli, then WHAT are you doing in my stuff??'",
 
 "Strings.House.EDMailBox": "The Moray Residence^^We are too broke to buy anything.^We know who we are voting for.^We have found Yoba.^No junk mail unless it's pizza vouchers!",
 "Strings.House.EDRadio": "The radio is tuned to the Pelican Town Broadcast System. The familiar voices of Dale & Diane are bickering with each other as usual.",
@@ -2706,7 +2711,8 @@ SIGURD*/
 "Events.EliFogHounds.Gunnar.5": "Yikes!",
 "Events.EliFogHounds.NovaEli.7": "Whoah, they're a lot bigger than I expected! This is amazing!$20",
 "Events.EliFogHounds.NovaEli.8": "@, get to my bag! There's probably something you can use in there.$22",
-"Events.EliFogHounds.FogHound.1": "...?$0#$b#Grrr...!$1",
+"Events.EliFogHounds.FogHound.1": "...?$8",
+"Events.EliFogHounds.FogHound.2": "Grrr...!$1",
 "Events.EliFogHounds.Gunnar.6": "Aww, please be nice doggies!$2",
 "Events.EliFogHounds.NovaEli.9": "Back off, buddy!",
 "Events.EliFogHounds.Question.1.A": "You rummage around in Eli's bag and manage to find his glow ring.",
@@ -2720,7 +2726,7 @@ SIGURD*/
 "Events.EliFogHounds.NovaEli.10.B.2": "I'm absolutely putting in a bulk order for more of those. But first... let's take a closer look at this bad boy.$6",
 "Events.EliFogHounds.Allium.1": "Hi hi!",
 "Events.EliFogHounds.Allium.2": "You wanted to look at monster, yes? We help you.$0#$b#Will you... hurt it?$2",
-"Events.EliFogHounds.FogHound.2": "...$2",
+"Events.EliFogHounds.FogHound.3": "...$6",
 "Events.EliFogHounds.NovaEli.11": "No. I don't go around killing monsters if I can help it, especially not defenseless ones. I have one for a pet, you know!$0#$b#Its friends scarpered and it isn't a threat now. I just want to take a good look and learn what I can. I promise.$1",
 "Events.EliFogHounds.Gunnar.8": "Who're you talking to.",
 "Events.EliFogHounds.NovaEli.12": "Hear that, friend? Everything's gonna be okay. Just leave people's animals alone in future. They're off limits.$0",

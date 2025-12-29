@@ -1,0 +1,76 @@
+{
+	"Changes": [
+
+		//Gift Tastes
+	
+		{
+            "LogName": "Gift Tastes Empty Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": { "Nova.Eli": "//////////" }
+        },
+        {
+            "LogName": "Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "Nova.Eli": {
+                    //Love
+                    "0": "{{i18n:GiftReaction.Love}}",
+                    "1": "206 565 253 107 773 797 sapphicsaph_pitv.PridePop sapphicsaph_pitv.GaylacticCookie",
+
+                    //Like
+                    "2": "{{i18n:GiftReaction.Like}}",
+                    "3": "-2 261 681 688 689 690 886 260 395 552 258 286 287 288 772 881 EastScarp_Scarp_Warp_Totem {{ModID}}_JunimoTotem sapphicsaph_pitv.BiBerryMuffin sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.TastyAceCookie sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart",
+
+                    //Dislike
+                    "4": "{{i18n:GiftReaction.Dislike}}",
+                    "5": "346 303 348 459 873 167",
+
+                    //Hate
+                    "6": "{{i18n:GiftReaction.Hate}}",
+                    "7": "789",
+
+                    //Neutral
+                    "8": "{{i18n:GiftReaction.Neutral}}",
+                    "9": "-12 {{ModID}}_ChaosTotem"
+                }
+            }
+        },
+
+        {
+            "LogName": "Gift Tastes Empty Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": { "Nova.Dylan": "//////////" }
+        },
+        {
+            "LogName": "Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Fields": {
+                "Nova.Dylan": {
+                    //Love
+                    "0": "{{i18n:GiftReaction.Love}}",
+                    "1": "149 265 155 560 235 797 206 sapphicsaph_pitv.PridePop sapphicsaph_pitv.TastyAceCookie",
+
+                    //Like
+                    "2": "{{i18n:GiftReaction.Like}}",
+                    "3": "-4 394 116 128 sapphicsaph_pitv.BiBerryMuffin sapphicsaph_pitv.LesbianLollipop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.ARomanticCookie sapphicsaph_pitv.TransTart",
+
+                    //Dislike
+                    "4": "{{i18n:GiftReaction.Dislike}}",
+                    "5": "",
+
+                    //Hate
+                    "6": "{{i18n:GiftReaction.Hate}}",
+                    "7": "789",
+
+                    //Neutral
+                    "8": "{{i18n:GiftReaction.Neutral}}",
+                    "9": ""
+                }
+            }
+        }
+	]
+}

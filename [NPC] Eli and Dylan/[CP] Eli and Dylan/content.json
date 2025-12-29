@@ -127,13 +127,13 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
         "PatchMode": "Replace",
         "Target": "TileSheets/emotes",
         "FromFile": "Assets/ExtendedEmotes.png",
-        "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 320 }
+        "ToArea": { "X": 0, "Y": 848, "Width": 64, "Height": 336 }
     },
 
 	{
 		"LogName": "File Includes",
 		"Action": "Include",
-		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json, Data/ChaosWarpTotem.json, Data/DynamicStrings.json"
+		"FromFile": "Data/NPCData.json, Data/Movies.json, Data/Animations.json, Data/Mail.json, Data/CustomGiftDialogue.json, Data/Dialogue/Eli_Dialogue.json, Data/Dialogue/Dylan_Dialogue.json, Data/Dialogue/Soot_Dialogue.json, Data/Dialogue/FestivalDialogue.json, Data/FestivalLocations.json, Data/Strings.json, Data/Schedules/Eli_Schedule.json, Data/Schedules/Dylan_Schedule.json, Data/Dialogue/ConversationTopics.json, Data/Events/Eli_Events.json, Data/Events/Dylan_Events.json, Data/Events/Other_Events.json, Data/SootPathing.json, Data/Quests.json, Data/LocationsData.json, Data/TempActors.json, Data/Furniture.json, Data/Objects.json, Data/Fish.json, Data/OverworldMap.json, Data/TriggerActions.json, Data/Music.json, Data/MEEP.json, Data/Shop.json, Data/Sentinel.json, Data/ChaosWarpTotem.json, Data/DynamicStrings.json, Data/GiftTastes.json, Data/AppearanceData.json, Data/TrashData.json"
 	}
 	  
    ],
@@ -149,6 +149,14 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
       "Description": "Sets Eli and Dylan's portrait style to either NinTheCactus or 6480.",
       "Section": "General"
     },
+	"Actor Portrait Style": {
+		"AllowValues": "NinTheCactus, 7thAxis",
+		"Default": "NinTheCactus",
+		"AllowBlank": false,
+		"AllowMultiple": false,
+		"Description": "Sets Thistle and Sentinel's portrait style to either NinTheCactus or 7thAxis.",
+		"Section": "General"
+	},
 	"Player Job Title": {
   	  "Default": "Farmer",
   	  "AllowBlank": false,
@@ -423,7 +431,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	},
 	{
 		"Name": "EliTuesday_A",
-		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 23 63 1 EliSitRead/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 {{ModID}}_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
+		"Value": "610 {{ModID}}_ESEDHouse 7 6 1/630 7 21 2/{{EliES_TueMorning}}/0930 23 62 2/{{EliTown_Tue}}/{{EliES_TueEvening}}/2000 {{ModID}}_ESEDHouse 8 21 0/2230 7 21 2/2330 2 5 3 nova.eli_sleep"
 	},
 	{
 		"Name": "EliTuesday_B",
@@ -898,6 +906,48 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	//Eli 8 Hearts Part 2
 
 	{
+		"Name": "EliFogHounds_Gunnar",
+		"Value": "",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": false
+		}
+	},
+	{
+		"Name": "EliFogHounds_Gunnar",
+		"Value": "MadDog.HashtagBearFam.Gunnar? 67 46 1",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_Gunnar1",
+		"Value": "",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": false
+		}
+	},
+	{
+		"Name": "EliFogHounds_Gunnar1",
+		"Value": "speak MadDog.HashtagBearFam.Gunnar? \"{{i18n:Events.EliFogHounds.Gunnar.6}}\"",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
+		"Name": "EliFogHounds_Gunnar2",
+		"Value": "",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": false
+		}
+	},
+	{
+		"Name": "EliFogHounds_Gunnar2",
+		"Value": "speak MadDog.HashtagBearFam.Gunnar? \"{{i18n:Events.EliFogHounds.Gunnar.11}}\"",
+		"When": {
+			"HasFlag |contains=BearFamExtraMembers": true
+		}
+	},
+	{
 		"Name": "EliFogHounds_1",
 		"Value": "textAboveHead Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.1}}\"/waitForAllStationary/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.2.A}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.3.A}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.4.A}}\"/emote farmer 40/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.5.A}}\""
 	},
@@ -905,7 +955,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliFogHounds_1",
 		"Value": "textAboveHead Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.1}}\"/waitForAllStationary/textAboveHead MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.1}}\"/jump farmer/pause 1000/emote farmer 8 true/faceDirection Nova.Eli 1/pause 1000/emote Nova.Eli 16/advancedMove farmer false -4 0 3 10/advancedMove MadDog.HashtagBearFam.Gunnar false 0 1 4 10/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.2.B}}\"/emote farmer 32/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.3.B}}\"/emote farmer 32/emote MadDog.HashtagBearFam.Gunnar 8 true/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.2}}\"/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.4.B}}\"/speak MadDog.HashtagBearFam.Gunnar \"{{i18n:Events.EliFogHounds.Gunnar.3}}\"/speak Nova.Eli \"{{i18n:Events.EliFogHounds.NovaEli.5.B}}\"",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},
@@ -917,7 +966,6 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Name": "EliFogHounds_2",
 		"Value": "stopAdvancedMoves/speed farmer 2/emote Nova.Eli 16 true/emote farmer 16 true/emote MadDog.HashtagBearFam.Gunnar 16 true/faceDirection MadDog.HashtagBearFam.Gunnar 2/jump MadDog.HashtagBearFam.Gunnar/advancedMove farmer false 0 0 2 1000 0 0 1 1000 0 0 3 1000/faceDirection Nova.Eli 2/showFrame Nova.Eli 86/pause 1500/advancedMove MadDog.HashtagBearFam.Gunnar false 0 0 3 1000 0 0 1 1000 0 0 4 10/showFrame Nova.Eli 87/pause 1000/showFrame Nova.Eli 0/faceDirection Nova.Eli 1",
 		"When": {
-			"HasMod": "MadDog.HashtagBearFam",
 			"HasFlag |contains=BearFamExtraMembers": true
 		}
 	},

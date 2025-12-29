@@ -642,7 +642,7 @@
           "Name": "{{ModID}}_FrogspawnCoral",
           "DisplayName": "{{i18n:Core.Items.FrogspawnCoral}}",
           "Description": "{{i18n:Core.Items.FrogspawnCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -654,14 +654,15 @@
           "ContextTags": [
             "color_green",
             "forage_frogspawncoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_TorchCoral": {
           "Name": "{{ModID}}_TorchCoral",
           "DisplayName": "{{i18n:Core.Items.TorchCoral}}",
           "Description": "{{i18n:Core.Items.TorchCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -673,14 +674,15 @@
           "ContextTags": [
             "color_purple",
             "forage_torchcoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_DuncanCoral": {
           "Name": "{{ModID}}_DuncanCoral",
           "DisplayName": "{{i18n:Core.Items.DuncanCoral}}",
           "Description": "{{i18n:Core.Items.DuncanCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -692,14 +694,15 @@
           "ContextTags": [
             "color_cyan",
             "forage_duncancoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_Trachyphyllia": {
           "Name": "{{ModID}}_Trachyphyllia",
           "DisplayName": "{{i18n:Core.Items.Trachyphyllia}}",
           "Description": "{{i18n:Core.Items.Trachyphyllia.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -711,14 +714,15 @@
           "ContextTags": [
             "color_blue",
             "forage_trachyphyllia",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_Scolymia": {
           "Name": "{{ModID}}_Scolymia",
           "DisplayName": "{{i18n:Core.Items.Scolymia}}",
           "Description": "{{i18n:Core.Items.Scolymia.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -730,14 +734,15 @@
           "ContextTags": [
             "color_red",
             "forage_scolymia",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_AcanCoral": {
           "Name": "{{ModID}}_AcanCoral",
           "DisplayName": "{{i18n:Core.Items.AcanCoral}}",
           "Description": "{{i18n:Core.Items.AcanCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -749,14 +754,15 @@
           "ContextTags": [
             "color_purple",
             "forage_acancoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_ToadstoolCoral": {
           "Name": "{{ModID}}_ToadstoolCoral",
           "DisplayName": "{{i18n:Core.Items.ToadstoolCoral}}",
           "Description": "{{i18n:Core.Items.ToadstoolCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -768,14 +774,15 @@
           "ContextTags": [
             "color_orange",
             "forage_toadstoolcoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_CandycaneCoral": {
           "Name": "{{ModID}}_CandycaneCoral",
           "DisplayName": "{{i18n:Core.Items.CandycaneCoral}}",
           "Description": "{{i18n:Core.Items.CandycaneCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -786,15 +793,16 @@
           "SpriteIndex": 26,
           "ContextTags": [
             "color_brown",
-            "forage_Candycanecoral",
-            "forage_item_beach"
+            "forage_candycanecoral",
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_AcroporaCoral": {
           "Name": "{{ModID}}_AcroporaCoral",
           "DisplayName": "{{i18n:Core.Items.AcroporaCoral}}",
           "Description": "{{i18n:Core.Items.AcroporaCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -806,14 +814,15 @@
           "ContextTags": [
             "color_yellow",
             "forage_acroporacoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_EleganceCoral": {
           "Name": "{{ModID}}_EleganceCoral",
           "DisplayName": "{{i18n:Core.Items.EleganceCoral}}",
           "Description": "{{i18n:Core.Items.EleganceCoral.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -825,14 +834,15 @@
           "ContextTags": [
             "color_blue",
             "forage_elegancecoral",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         },
         "{{ModID}}_Gorgonian": {
           "Name": "{{ModID}}_Gorgonian",
           "DisplayName": "{{i18n:Core.Items.Gorgonian}}",
           "Description": "{{i18n:Core.Items.Gorgonian.Description}}",
-          "Type": "Forage",
+          "Type": "Basic",
           "Category": -81,
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
@@ -844,7 +854,8 @@
           "ContextTags": [
             "color_red",
             "forage_gorgonian",
-            "forage_item_beach"
+            "forage_item_beach",
+            "forage_item"
           ]
         }
       }

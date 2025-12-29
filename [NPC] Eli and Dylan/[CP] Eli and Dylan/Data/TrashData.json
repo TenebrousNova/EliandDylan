@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "Logname": "EnD Trashcan",
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ], 
+            "Entries": {
+               
+                "Trash.EnD_House": {
+                    "BaseChance": 1.0,
+                    "Items": [
+                        {
+                            "Id": "Trash.EnD_House",
+                            "RandomItemId": [ "(O)881", "(O)869", "(O)382", "(O)769" ]
+                        }
+                    ],
+                    "CustomFields": {}
+                }
+            }
+        },
+
+        ]
+}

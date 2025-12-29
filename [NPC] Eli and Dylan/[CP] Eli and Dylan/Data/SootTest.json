@@ -1,0 +1,154 @@
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.8.0",
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/{{ModId}}_Soot",
+      "FromFile": "assets/soot.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/{{ModId}}_Soot",
+      "FromFile": "assets/soot.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Anim/{{ModId}}_Soot",
+      "FromFile": "assets/soot_anim.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/TextureOverrides",
+      "Entries": {
+        "{{ModId}}_Soot_F0": {
+          "TargetTexture": "Characters/{{ModId}}_Soot",
+          "TargetRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+          },
+          "SourceTexture": "Characters/Anim/{{ModId}}_Soot:0..20@1"
+        },
+        "{{ModId}}_Soot_F1": {
+          "TargetTexture": "Characters/{{ModId}}_Soot",
+          "TargetRect": {
+            "X": 16,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+          },
+          "SourceTexture": "Characters/Anim/{{ModId}}_Soot:0..20@1"
+        },
+        "{{ModId}}_Soot_F2": {
+          "TargetTexture": "Characters/{{ModId}}_Soot",
+          "TargetRect": {
+            "X": 32,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+          },
+          "SourceTexture": "Characters/Anim/{{ModId}}_Soot:0..20@1"
+        },
+        "{{ModId}}_Soot_F3": {
+          "TargetTexture": "Characters/{{ModId}}_Soot",
+          "TargetRect": {
+            "X": 48,
+            "Y": 0,
+            "Width": 16,
+            "Height": 32
+          },
+          "SourceTexture": "Characters/Anim/{{ModId}}_Soot:0..20@1"
+        }
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/{{ModId}}_Soot",
+      "FromFile": "blank.json"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Characters/schedules/{{ModId}}_Soot",
+      "Entries": {
+        "spring": "0700 Town 29 75 2"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "{{ModId}}_Soot": {
+          "DisplayName": "???",
+          "BirthSeason": null,
+          "BirthDay": 0,
+          "HomeRegion": "Other",
+          "Language": "Default",
+          "Gender": "Undefined",
+          "Age": "Adult",
+          "Manner": "Neutral",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Neutral",
+          "IsDarkSkinned": false,
+          "CanBeRomanced": false,
+          "LoveInterest": null,
+          "Calendar": "HiddenAlways",
+          "SocialTab": "HiddenAlways",
+          "CanSocialize": "FALSE",
+          "CanReceiveGifts": true,
+          "CanGreetNearbyCharacters": true,
+          "CanCommentOnPurchasedShopItems": null,
+          "CanVisitIsland": null,
+          "IntroductionsQuest": false,
+          "ItemDeliveryQuests": null,
+          "PerfectionScore": false,
+          "EndSlideShow": "Hidden",
+          "SpouseAdopts": null,
+          "SpouseWantsChildren": null,
+          "SpouseGiftJealousy": null,
+          "SpouseGiftJealousyFriendshipChange": -30,
+          "SpouseRoom": null,
+          "SpousePatio": null,
+          "SpouseFloors": [],
+          "SpouseWallpapers": [],
+          "DumpsterDiveFriendshipEffect": -25,
+          "DumpsterDiveEmote": null,
+          "FriendsAndFamily": {},
+          "FlowerDanceCanDance": null,
+          "WinterStarGifts": [],
+          "WinterStarParticipant": null,
+          "UnlockConditions": null,
+          "SpawnIfMissing": true,
+          "Home": null,
+          "TextureName": "{{ModId}}_Soot",
+          "Appearance": [],
+          "MugShotSourceRect": null,
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": false,
+          "BreathChestRect": null,
+          "BreathChestPosition": null,
+          "Shadow": null,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 0
+          },
+          "ShakePortraits": [],
+          "KissSpriteIndex": 28,
+          "KissSpriteFacingRight": true,
+          "HiddenProfileEmoteSound": null,
+          "HiddenProfileEmoteDuration": -1,
+          "HiddenProfileEmoteStartFrame": -1,
+          "HiddenProfileEmoteFrameCount": 1,
+          "HiddenProfileEmoteFrameDuration": 200.0,
+          "FormerCharacterNames": [],
+          "FestivalVanillaActorIndex": -1,
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

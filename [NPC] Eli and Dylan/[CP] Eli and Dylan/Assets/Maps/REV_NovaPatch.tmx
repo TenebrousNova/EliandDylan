@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="188">
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="12" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="189">
  <editorsettings>
   <export target="." format="tmx"/>
  </editorsettings>
@@ -2089,7 +2089,7 @@
 2904,0,0,0,0,0,0,0,0,0,0,2906,
 2936,0,0,0,0,0,0,0,0,0,0,2938,
 2968,2969,2969,2970,0,0,4423,2968,2969,2969,2969,2970,
-0,0,2983,2984,0,0,0,0,0,0,0,308
+2118,0,2983,2984,0,0,0,0,0,0,0,308
 </data>
  </layer>
  <objectgroup id="4" name="Buildings">
@@ -2101,6 +2101,11 @@
   <object id="180" name="TileData" x="96" y="224" width="16" height="16">
    <properties>
     <property name="Action" value="Message EDMailBox"/>
+   </properties>
+  </object>
+  <object id="188" name="TileData" x="0" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="Garbage Trash.EnD_House"/>
    </properties>
   </object>
  </objectgroup>
@@ -2141,7 +2146,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,
 0,2937,2937,2938,0,0,4415,2936,2937,2937,2937,0,
-0,0,2951,2952,0,0,0,0,0,0,0,0,
+2086,0,2951,2952,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>

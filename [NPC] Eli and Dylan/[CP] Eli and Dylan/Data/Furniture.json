@@ -44,6 +44,19 @@
         "Entries": {
             "{{ModID}}_AbyssalTank": "{{ModID}}_AbyssalTank/fishtank/4 3/4 1/1/5000/-1/{{i18n:Core.Items.AbyssalTank}}/0/EnD\\Aquariums/true"
         }
+    },
+
+    //Furniture Descriptions
+
+    {
+        "LogName": "EnD Furniture Descriptions",
+        "Action": "EditData",
+        "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+        "Entries": {
+            "{{ModID}}_AbyssalTank": {
+                "DescriptionOverride": "{{i18n:Core.Items.AbyssalTank.Description}}"
+            }
+        }
     }
     ]
 }
