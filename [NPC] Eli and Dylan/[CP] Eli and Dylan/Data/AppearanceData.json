@@ -60,6 +60,26 @@
 							"Weight": 1
 						},
 						{
+							"ID": "Spring 3",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+							"Season": "Spring",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "Portraits/Nova.Eli/springRain3",
+							"Sprite": "Characters/Nova.Eli/spring3",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Spring 3",
+							"Season": "Spring",
+							"Indoors": true,
+							"Portrait": "Portraits/Nova.Eli/spring3",
+							"Sprite": "Characters/Nova.Eli/spring3",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
 							"ID": "Summer",
 							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Summer",
@@ -96,6 +116,26 @@
 							"Indoors": true,
 							"Portrait": "Portraits/Nova.Eli/summer2",
 							"Sprite": "Characters/Nova.Eli/summer2",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 3",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+							"Season": "Summer",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "Portraits/Nova.Eli/summerRain3",
+							"Sprite": "Characters/Nova.Eli/summer3",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Summer 3",
+							"Season": "Summer",
+							"Indoors": true,
+							"Portrait": "Portraits/Nova.Eli/summer3",
+							"Sprite": "Characters/Nova.Eli/summer3",
 							"Precedence": 0,
 							"Weight": 1
 						},
@@ -140,6 +180,26 @@
 							"Weight": 1
 						},
 						{
+							"ID": "Fall 3",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+							"Season": "Fall",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "Portraits/Nova.Eli/fallRain3",
+							"Sprite": "Characters/Nova.Eli/fall3",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Fall 3",
+							"Season": "Fall",
+							"Indoors": true,
+							"Portrait": "Portraits/Nova.Eli/fall3",
+							"Sprite": "Characters/Nova.Eli/fall3",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
 							"ID": "Winter",
 							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 							"Season": "Winter",
@@ -176,6 +236,26 @@
 							"Indoors": true,
 							"Portrait": "Portraits/Nova.Eli/winter2",
 							"Sprite": "Characters/Nova.Eli/winter2",
+							"Precedence": 0,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 3",
+							"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+							"Season": "Winter",
+							"Outdoors": true,
+							"Indoors": false,
+							"Portrait": "Portraits/Nova.Eli/winterRain3",
+							"Sprite": "Characters/Nova.Eli/winter3",
+							"Precedence": -10,
+							"Weight": 1
+						},
+						{
+							"ID": "Winter 3",
+							"Season": "Winter",
+							"Indoors": true,
+							"Portrait": "Portraits/Nova.Eli/winter3",
+							"Sprite": "Characters/Nova.Eli/winter3",
 							"Precedence": 0,
 							"Weight": 1
 						},
