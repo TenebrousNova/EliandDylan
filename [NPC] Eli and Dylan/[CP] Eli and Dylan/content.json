@@ -235,7 +235,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"Value": "REV_NovaPatch_Cornucopia.tmx",
 		"When": {
 			"HasMod": "Cornucopia.MoreCrops"
-		}892F-7C96
+		}
 	},
 
 	//Year check for dialogue (thanks Pooh!)
