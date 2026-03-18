@@ -86,7 +86,7 @@
 							"Outdoors": true,
 							"Indoors": false,
 							"Portrait": "Portraits/Nova.Eli/summerRain",
-							"Sprite": "Characters.Nova.Eli/summer",
+							"Sprite": "Characters/Nova.Eli/summer",
 							"Precedence": -10,
 							"Weight": 1
 						},
@@ -95,7 +95,7 @@
 							"Season": "Summer",
 							"Indoors": true,
 							"Portrait": "Portraits/Nova.Eli/summer",
-							"Sprite": "Characters.Nova.Eli/summer",
+							"Sprite": "Characters/Nova.Eli/summer",
 							"Precedence": 0,
 							"Weight": 1
 						},
@@ -435,7 +435,7 @@
 						"Outdoors": true,
 						"Indoors": false,
 						"Portrait": " Portraits/Nova.Dylan/summerRain",
-						"Sprite": "Characters.Nova.Dylan/summer",
+						"Sprite": "Characters/Nova.Dylan/summer",
 						"Precedence": -10,
 						"Weight": 1
 					},
@@ -444,7 +444,7 @@
 						"Season": "Summer",
 						"Indoors": true,
 						"Portrait": " Portraits/Nova.Dylan/summer",
-						"Sprite": "Characters.Nova.Dylan/summer",
+						"Sprite": "Characters/Nova.Dylan/summer",
 						"Precedence": 0,
 						"Weight": 1
 					},

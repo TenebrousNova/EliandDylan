@@ -592,9 +592,9 @@
 			"Target": "Maps/{{ModID}}_ESEDHouse",
 			"FromFile": "Assets/Maps/EDHouseFireplace.tmx",
 			"ToArea": {
-				"X": 15,
+				"X": 13,
 				"Y": 19,
-				"Width": 2,
+				"Width": 3,
 				"Height": 2
 			},
 			"TextOperations": [
@@ -621,7 +621,7 @@
 				"Time": "{{Range: 1800, 2600}}",
 				"Season": "spring, fall, winter"
 			},
-			"PatchMode": "Replace",
+			"PatchMode": "Overlay",
 			"Update": "OnLocationChange"
 		},
 
