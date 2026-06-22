@@ -1485,7 +1485,7 @@ SIGURD*/
 "Core.NovaDylan.fishCaught_159": "Oh hey, Willy told me that you caught a crimsonfish! I'm impressed. They are extremely strong for their size.$3",
 "Core.NovaDylan.gotPet": "I met %pet earlier! Very friendly indeed. It's always great to see more pet owners around town.$3",
 "Core.NovaDylan.firstVisit_TenebrousNova.EliDylan.CP_ESEDHouse": "Someone tracked dirt all across the floor I'd cleaned earlier. It was probably Eli, but he mentioned we had a visitor earlier.$0#$b#%Dylan is giving you a suspicious stare.",
-"Core.NovaDylan.houseUpgrade_1": "I saw that your house got renovated, @! Robin does a fantastic job, doesn't she?$3#$b#She worked on our house as well when she moved in - but it was far more decrepit than yours.$0",
+"Core.NovaDylan.houseUpgrade_1": "I saw that your house got renovated, @! Robin does a fantastic job, doesn't she?$3#$b#She worked on our house as well when we moved in - but it was far more decrepit than yours.$0",
 "Core.NovaDylan.houseUpgrade_2": "Congratulations on the house expansion! Are you planning on doing a lot of decorating? That's the really fun part.$3",
 "Core.NovaDylan.GreenRain": "Yes, I'm aware that we are experiencing anomalous weather today. Yes, I know pretty much everyone else except my brother refuses to go out in it.$0#$b#I have work to do! As long as it doesn't stain my clothes, I'm not bothered. Besides, I'm interested to see what effect it has on the sea life, if any.$9#$b#I don't even want to know what it's been doing to the guest room.$6",
 "Core.NovaDylan.GreenRain2": "Ugh, I'm not looking forward to washing my clothes. Do you know how hard it is to scrub moss out of them? And that idiot Eli insists on staying out there!$2#$b#He can wash his own clothes this time.$5",
@@ -1740,7 +1740,7 @@ SIGURD*/
 "Strings.House.EDRadio": "The radio is tuned to the Pelican Town Broadcast System. The familiar voices of Dale & Diane are bickering with each other as usual.",
 "Strings.House.EDRadio.GreenRain": "The radio is making incomprehensible sounds, overlaid with heavy static. The strange weather must be interfering with it. Either that, or Eli broke it!",
 "Strings.House.EDTV": "The drawer below the TV contains an impressive collection of documentaries on nature and the supernatural. There's also a lot of horror movies in here.",
-//Note to translators: you can move the [LocalizedText Strings/TN.EnD:GameName] token below to where it would make sense in the sentence.
+//Note to translators: you can move the {{GameName}} token below to where it would make sense in the sentence.
 "Strings.House.EDConsole": "A fairly old console that's seen a lot of use. Even now, you can picture the brothers accusing each other of cheating and fighting over the player one controller.#The game currently in it is {{GameName}}.",
 "Strings.GameName.1": "Samurai Snowboard Onslaught",
 "Strings.GameName.2": "Hallowed Voyage",

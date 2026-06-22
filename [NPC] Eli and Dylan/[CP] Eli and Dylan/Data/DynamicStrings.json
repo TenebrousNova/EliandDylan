@@ -58,7 +58,6 @@
                 "SnowballFightOutcome": "{{i18n:Core.NovaEli.SnowballFight.{{Random:{{Range: 1, 3}}}}}}",
 
                 //Randomized Strings
-                "GameName": "{{i18n:Strings.GameName.{{Random:{{Range: 1, 31}}}}}}",
                 "EliGenre": "{{i18n:Core.NovaEli.Genre.{{Random:{{Range: 1, 6}}}}}}",
 
                 //Compatibility

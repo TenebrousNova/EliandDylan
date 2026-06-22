@@ -625,6 +625,26 @@
 			"Update": "OnLocationChange"
 		},
 
+		//Night Aquarium
+
+		{
+			"LogName": "EDHouse Aquarium",
+			"Action": "EditMap",
+			"Target": "Maps/{{ModID}}_ESEDHouse",
+			"FromFile": "Assets/Maps/EliDylanAquarium_Night.tmx",
+			"ToArea": {
+				"X": 20,
+				"Y": 17,
+				"Width": 5,
+				"Height": 5
+			},
+			"When": {
+				"Time": "{{Range: 1800, 2600}}"
+			},
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange"
+		},
+
 		//Mouse Shop Coin
 
 		{
@@ -740,7 +760,7 @@
 				"Time": "{{Range: 1800, 2600}}"
 			},
 			"PatchMode": "Replace",
-			"Update": "OnTimeChange"
+			"Update": "OnLocationChange"
 		},
 
 		//Loads the house tilesheets.
@@ -782,7 +802,7 @@
 			"Height": 16
 		},
 		"PatchMode": "Replace",
-		"Update": "OnTimeChange"
+		"Update": "OnLocationChange"
 	},
 
 	//Dylan framed magazine.
@@ -948,7 +968,7 @@
 			"Time": "{{Range: 1800, 2600}}"
 		},
 		"PatchMode": "Replace",
-		"Update": "OnTimeChange"
+		"Update": "OnLocationChange"
 	},
 
 	//Ice Festival Patch, Year 2

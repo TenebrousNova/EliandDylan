@@ -22,25 +22,27 @@ Lemurkat: Created East Scarp (and saved my sanity when I was learning how map pa
 TheLoreSeeker: Proof reading and art.
 Desty Nova: Patiently showed me the ropes, troubleshooting, ideas, allowed me to copy their homework and encouraging me this entire time. Also helped me with the portrait config code and most of the mod page!
 Agent Lyoko: Providing a template for NPC Adventures, which has saved me a LOT of trouble.
-CreatorKami: Animated CG which turned out very nicely, C# help, plus lots of other technical help!
+CreatorKami: Animated CG for Dylan's intro event which turned out very nicely, C# help, plus lots of other technical help!
 Atravita: C# wizardry and helped troubleshoot schedule bugs that were driving me bonkers. Also helped me with the 1.6 transition.
 FellowClown: Made custom furniture for the brother's house, photos, plus many other assets!
 Logophile: Very kindly allowed me to commandeer the custom rugs she made and put them in the brother's house. Also been a great source of support for me!
 MADDOGOFBLANK: Custom letterheading, custom furniture, art help (especially with Dylan's sprites), emotional support and an endless wellspring of motivation and kind words, helped me restructure my NPC dialogue!
 KittyCatCasey: Has listened to my inane technical questions with great patience and enabled my ideas by adding fancy new custom event commands to SpaceCore.
-7thAxis: Allium portraits, also invented a clever new way of randomising daily dialogue. Mine is the third mod to utilize it!
+7thAxis: Allium portraits, new alt. portraits for Soot, Thistle & Sentinel. Also invented a clever new way of randomising daily dialogue. Mine is the third mod to utilize it!
 TheFrenchDodo: Made additional assets & music for me.
 Pooh: Certified Content Patcher genius who has helped me on many an occasion!
 Hisameartwork and TrentXV: Very kindly granted me permission to use assets from More New Fish.
-6480: New crops, custom map tilesets!
+6480: New crops, custom map tilesets, new vanilla style alt. portraits for the boys!
 The Cornupcopia Team: New bushes and trees!
 SmolHuman: Very kindly granted me permission to use their wild animals in events.
 Bunnipocalypse: Drone sprites & animations.
-DolphinIsNotaFish: Mouse portraits, mod page title typography.
+DolphinIsNotaFish: Mouse portraits, Raccoon portrait, mod page title typography.
 EnderTedi: Moral support and teaching me new event commands, provided the C# component for the chaos totem!
 TheMainDaine: Moral support.
 OrcaRequiem: Sea angel sprite & animation, snow beasts art
-HeartOfFlowers: Additional sprites.
+HeartOfFlowers: Additional sprites, went through the positively Sisyphean task of remastering Eli's sprites and giving him a third set of seasonal outfits. Also remastered Dylan's (much smaller) spritesheet and gave him a third set of seasonal outfits.
+PlatinumCats: Fantastic new custom tilesheet for Eli & Dylan's house!
+The regulars of my channel in the ES Discord server: Brightening my day and making me laugh with their shenanigans. You know who you are!
 
 ConcernedApe: Making the game that I've been obsessed with for so long!
 
@@ -91,7 +93,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
         "LogName": "Dylan's Seasonal & Festival Portraits",
         "Action": "Load",
 		"Priority": "Low",
-        "Target": "Portraits/Nova.Dylan/spring, Portraits/Nova.Dylan/spring2, Portraits/Nova.Dylan/summer, Portraits/Nova.Dylan/summer2, Portraits/Nova.Dylan/fall, Portraits/Nova.Dylan/fall2, Portraits/Nova.Dylan/winter, Portraits/Nova.Dylan/winter2, Portraits/Nova.Dylan/springRain, Portraits/Nova.Dylan/springRain2, Portraits/Nova.Dylan/summerRain, Portraits/Nova.Dylan/summerRain2, Portraits/Nova.Dylan/fallRain, Portraits/Nova.Dylan/fallRain2, Portraits/Nova.Dylan/winterRain, Portraits/Nova.Dylan/winterRain2, Portraits/Nova.Dylan/pride, Portraits/Nova.Dylan/prideRain, Portraits/Nova.Dylan/eggfestival, Portraits/Nova.Dylan/fair, Portraits/Nova.Dylan/flowerdance, Portraits/Nova.Dylan/icefestival, Portraits/Nova.Dylan/luau, Portraits/Nova.Dylan/moonlight, Portraits/Nova.Dylan/spiritseve, Portraits/Nova.Dylan/spiritseve2, Portraits/Nova.Dylan/winterstar",
+        "Target": "Portraits/Nova.Dylan/spring, Portraits/Nova.Dylan/spring2, Portraits/Nova.Dylan/spring3, Portraits/Nova.Dylan/summer, Portraits/Nova.Dylan/summer2, Portraits/Nova.Dylan/summer3, Portraits/Nova.Dylan/fall, Portraits/Nova.Dylan/fall2, Portraits/Nova.Dylan/fall3, Portraits/Nova.Dylan/winter, Portraits/Nova.Dylan/winter2, Portraits/Nova.Dylan/winter3, Portraits/Nova.Dylan/springRain, Portraits/Nova.Dylan/springRain2, Portraits/Nova.Dylan/springRain3, Portraits/Nova.Dylan/summerRain, Portraits/Nova.Dylan/summerRain2, Portraits/Nova.Dylan/summerRain3, Portraits/Nova.Dylan/fallRain, Portraits/Nova.Dylan/fallRain2, Portraits/Nova.Dylan/fallRain3, Portraits/Nova.Dylan/winterRain, Portraits/Nova.Dylan/winterRain2, Portraits/Nova.Dylan/winterRain3, Portraits/Nova.Dylan/pride, Portraits/Nova.Dylan/prideRain, Portraits/Nova.Dylan/eggfestival, Portraits/Nova.Dylan/fair, Portraits/Nova.Dylan/flowerdance, Portraits/Nova.Dylan/icefestival, Portraits/Nova.Dylan/luau, Portraits/Nova.Dylan/moonlight, Portraits/Nova.Dylan/spiritseve, Portraits/Nova.Dylan/spiritseve2, Portraits/Nova.Dylan/winterstar",
         "FromFile": "Assets/Portraits/{{Portrait Style}}/Nova.Dylan/{{TargetWithoutPath}}.png"
     },
 	{
@@ -105,7 +107,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 		"LogName": "Dylan's Seasonal & Festival Sprites",
 		"Action": "Load",
 		"Priority": "Low",
-		"Target": "Characters/Nova.Dylan/spring, Characters/Nova.Dylan/spring2, Characters/Nova.Dylan/summer, Characters/Nova.Dylan/summer2, Characters/Nova.Dylan/fall, Characters/Nova.Dylan/fall2, Characters/Nova.Dylan/winter, Characters/Nova.Dylan/winter2, Characters/Nova.Dylan/pride, Characters/Nova.Dylan/eggfestival, Characters/Nova.Dylan/fair, Characters/Nova.Dylan/flowerdance, Characters/Nova.Dylan/icefestival, Characters/Nova.Dylan/luau, Characters/Nova.Dylan/moonlight, Characters/Nova.Dylan/spiritseve, Characters/Nova.Dylan/spiritseve2, Characters/Nova.Dylan/winterstar",
+		"Target": "Characters/Nova.Dylan/spring, Characters/Nova.Dylan/spring2, Characters/Nova.Dylan/spring3, Characters/Nova.Dylan/summer, Characters/Nova.Dylan/summer2, Characters/Nova.Dylan/summer3, Characters/Nova.Dylan/fall, Characters/Nova.Dylan/fall2, Characters/Nova.Dylan/fall3, Characters/Nova.Dylan/winter, Characters/Nova.Dylan/winter2, Characters/Nova.Dylan/winter3, Characters/Nova.Dylan/pride, Characters/Nova.Dylan/eggfestival, Characters/Nova.Dylan/fair, Characters/Nova.Dylan/flowerdance, Characters/Nova.Dylan/icefestival, Characters/Nova.Dylan/luau, Characters/Nova.Dylan/moonlight, Characters/Nova.Dylan/spiritseve, Characters/Nova.Dylan/spiritseve2, Characters/Nova.Dylan/winterstar",
 		"FromFile": "Assets/Characters/Nova.Dylan/{{TargetWithoutPath}}.png"
 	},
 
@@ -410,6 +412,7 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 			"HasMod |contains=RaffieJohn.ExtraSaloonSpace": true
 		}
 	},
+
 //The insanity is finally condensed.
 	{
 		"Name": "EliRain_A",

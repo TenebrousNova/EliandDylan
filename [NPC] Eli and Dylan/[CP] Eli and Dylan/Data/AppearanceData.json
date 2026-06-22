@@ -429,6 +429,25 @@
 						"Weight": 1
 					},
 					{
+						"ID": "Spring 3",
+						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+						"Season": "Spring",
+						"Outdoors": true,
+						"Indoors": false,
+						"Portrait": "Portraits/Nova.Dylan/springRain3",
+						"Sprite": "Characters/Nova.Dylan/spring3",
+						"Precedence": -10,
+						"Weight": 1
+					},						{
+						"ID": "Spring 3",
+						"Season": "Spring",
+						"Indoors": true,
+						"Portrait": "Portraits/Nova.Dylan/spring3",
+						"Sprite": "Characters/Nova.Dylan/spring3",
+						"Precedence": 0,
+						"Weight": 1
+					},
+					{
 						"ID": "Summer",
 						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 						"Season": "Summer",
@@ -465,6 +484,26 @@
 						"Indoors": true,
 						"Portrait": "Portraits/Nova.Dylan/summer2",
 						"Sprite": "Characters/Nova.Dylan/summer2",
+						"Precedence": 0,
+						"Weight": 1
+					},
+					{
+						"ID": "Summer 3",
+						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+						"Season": "Summer",
+						"Outdoors": true,
+						"Indoors": false,
+						"Portrait": "Portraits/Nova.Dylan/summerRain3",
+						"Sprite": "Characters/Nova.Dylan/summer3",
+						"Precedence": -10,
+						"Weight": 1
+					},
+					{
+						"ID": "Summer 3",
+						"Season": "Summer",
+						"Indoors": true,
+						"Portrait": "Portraits/Nova.Dylan/summer3",
+						"Sprite": "Characters/Nova.Dylan/summer3",
 						"Precedence": 0,
 						"Weight": 1
 					},
@@ -509,6 +548,26 @@
 						"Weight": 1
 					},
 					{
+						"ID": "Fall 3",
+						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+						"Season": "Fall",
+						"Outdoors": true,
+						"Indoors": false,
+						"Portrait": "Portraits/Nova.Dylan/fallRain3",
+						"Sprite": "Characters/Nova.Dylan/fall3",
+						"Precedence": -10,
+						"Weight": 1
+					},
+					{
+						"ID": "Fall 3",
+						"Season": "Fall",
+						"Indoors": true,
+						"Portrait": "Portraits/Nova.Dylan/fall3",
+						"Sprite": "Characters/Nova.Dylan/fall3",
+						"Precedence": 0,
+						"Weight": 1
+					},
+					{
 						"ID": "Winter",
 						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
 						"Season": "Winter",
@@ -545,6 +604,26 @@
 						"Indoors": true,
 						"Portrait": "Portraits/Nova.Dylan/winter2",
 						"Sprite": "Characters/Nova.Dylan/winter2",
+						"Precedence": 0,
+						"Weight": 1
+					},
+					{
+						"ID": "Winter 3",
+						"Condition": "Any \"WEATHER Target Rain\" \"WEATHER Target Storm\" \"WEATHER Target GreenRain\"",
+						"Season": "Winter",
+						"Outdoors": true,
+						"Indoors": false,
+						"Portrait": "Portraits/Nova.Dylan/winterRain3",
+						"Sprite": "Characters/Nova.Dylan/winter3",
+						"Precedence": -10,
+						"Weight": 1
+					},
+					{
+						"ID": "Winter 3",
+						"Season": "Winter",
+						"Indoors": true,
+						"Portrait": "Portraits/Nova.Dylan/winter3",
+						"Sprite": "Characters/Nova.Dylan/winter3",
 						"Precedence": 0,
 						"Weight": 1
 					},

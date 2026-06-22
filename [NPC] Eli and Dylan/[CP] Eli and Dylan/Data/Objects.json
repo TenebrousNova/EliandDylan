@@ -107,7 +107,7 @@
     {
       "Action": "EditData",
       "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-      "Update": "OnLocationChange, OnTimeChange",
+      "Update": "OnLocationChange",
       "Entries": {
         "{{ModID}}_JunimoTotem": {
           "TotemWarp": {

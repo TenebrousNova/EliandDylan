@@ -7,7 +7,7 @@
 		"LogName": "Chair Overlays",
 		"Action": "Load",
 		"Target": "EnD/ChairTiles",
-		"FromFile": "Assets/TileSheets/ChairOverlays.png"
+		"FromFile": "Assets/TileSheets/EliDylanChairs.png"
 	},
 
     //Loads aquarium textures.
@@ -26,12 +26,25 @@
         "Action": "EditData",
         "Target": "Data/ChairTiles",
         "Entries": {
-            "Custom_EDInterior/10/2": "1/1/down/custom 0.5 0 0/0/0/false",
-            "Custom_EDInterior/10/4": "1/1/down/custom 0.5 0 0/0/0/false",
-            "Custom_EDInterior/12/4": "1/1/down/custom -0.5 0 0/0/0/false",
-            "Custom_EDInterior/12/2": "2/1/right/custom 0.5 0 0/12/2/false/Maps\\Custom_EDInterior",
-            "Custom_EDInterior/15/5": "2/2/up/custom 0.5 0 1/0/1/false/EnD\\ChairTiles",
-            "Custom_EDInterior/16/5": "2/2/up/custom 0.5 0 1/1/1/false/EnD\\ChairTiles"
+            //Right facing armchair
+            "Custom_EDInterior/8/40": "1/1/right/default/1/0/false/EnD\\ChairTiles",
+            //Back facing sofa
+            "Custom_EDInterior/7/42": "1/1/up/highback_chair/0/2/false/EnD\\ChairTiles",
+            "Custom_EDInterior/8/42": "1/1/up/highback_chair/1/2/false/EnD\\ChairTiles",
+            "Custom_EDInterior/9/42": "1/1/up/highback_chair/2/2/false/EnD\\ChairTiles",
+            //Right facing kitchen stools
+            "Custom_EDInterior/9/49": "1/1/right/default/-1/-1/false",
+            //Left facing kitchen stools
+            "Custom_EDInterior/10/49": "1/1/left/default/-1/-1/false",
+            //Dylan lab stool
+            "Custom_EDInterior/1/48": "1/1/opposite/default/-1/-1/false",
+            //Eli's couch
+            "Custom_EDInterior/4/56": "1/1/left/default/-1/-1/false",
+            "Custom_EDInterior/4/57": "1/1/left/default/0/7/false/EnD\\ChairTiles",
+            //Dylan's chair
+            "Custom_EDInterior/0/56": "1/1/left/default/0/4/false/EnD\\ChairTiles",
+            //Dylan's computer chair
+            "Custom_EDInterior/11/51": "1/1/left/default/-1/-1/false"
         }
     },
 
