@@ -2,8 +2,232 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine, {{ModID}}/Tentacle, {{ModID}}/Silhouette, {{ModID}}/Thief, {{ModID}}/Dive",
+            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine, {{ModID}}/Tentacle, {{ModID}}/Silhouette, {{ModID}}/Thief, {{ModID}}/Dive, {{ModID}}/EnD_baby, {{ModID}}/EnD_coffee, {{ModID}}/EnD_Dylan_Birthday, {{ModID}}/EnD_flowerdance, {{ModID}}/EnD_hiking, {{ModID}}/EnD_mirror_selfie, {{ModID}}/EnD_piggyback, {{ModID}}/EnD_pizza, {{ModID}}/EnD_porch, {{ModID}}/EnD_pumpkin_carving, {{ModID}}/EnD_urbex",
             "FromFile": "Assets/MEEP/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "LogName": "Picture - Porch",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 24
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_porch"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Pizza",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 22
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pizza"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Porch",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_Dylan_Birthday"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Pyjama Selfie",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_mirror_selfie"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Hiking",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 1,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_hiking"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Urbex",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_urbex"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Pumpkin Carving",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pumpkin_carving"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Baby",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 14
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_baby"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Piggyback",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 10,
+                        "Y": 14
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_piggyback"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Coffee",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 11,
+                        "Y": 14
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_coffee"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Picture - Flower Dance",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 22,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_flowerdance"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Poster - The Thing from Beneath the Ice",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 2,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Tentacle",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.1}}"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Poster - The Silhouette at the Window",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 13
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Silhouette",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.2}}"
+                    }
+                }
+            ]
         },
         {
             "LogName": "EnD Dylan Album",
@@ -93,43 +317,6 @@
             "When": {
                 "HasSeenEvent |contains=EnD.Dylan.11": true
             }
-        },
-
-        {
-            "LogName": "Poster - The Thing from Beneath the Ice",
-            "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_ESEDHouse",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 2,
-                        "Y": 13
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Tentacle",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.3}}"
-                    }
-                }
-            ]
-        },
-        {
-            "LogName": "Poster - The Silhouette at the Window",
-            "Action": "EditMap",
-            "Target": "Maps/{{ModID}}_ESEDHouse",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 6,
-                        "Y": 13
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/Silhouette",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:Strings.House.EDPoster.4}}"
-                    }
-                }
-            ]
         },
 
         {

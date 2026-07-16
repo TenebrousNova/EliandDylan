@@ -1008,6 +1008,23 @@
 		}
 	},
 
+	//Dylan makes himself at home in the Night Market submarine.
+
+	{
+		"LogName": "Dylan Submarine Camp",
+		"Action": "EditMap",
+		"Target": "Maps/Submarine",
+		"FromFile": "Assets/Maps/DylanSubmarinePatch.tmx",
+		"Priority": "Late",
+		"ToArea": {
+			"X": 22,
+			"Y": 5,
+			"Width": 3,
+			"Height": 4
+		},
+		"PatchMode": "Overlay"
+	},
+
 	//Makes it possible for Eli to sit on Pierre's roof for funsies.
 	
 	{

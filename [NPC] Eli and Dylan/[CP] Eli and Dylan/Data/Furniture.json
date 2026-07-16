@@ -44,7 +44,9 @@
             //Dylan's chair
             "Custom_EDInterior/0/56": "1/1/left/default/0/4/false/EnD\\ChairTiles",
             //Dylan's computer chair
-            "Custom_EDInterior/11/51": "1/1/left/default/-1/-1/false"
+            "Custom_EDInterior/11/51": "1/1/left/default/-1/-1/false",
+            //Left facing deck chair
+            "Custom_EDInterior/1/68": "1/1/left/default/0/9/false/EnD\\ChairTiles"
         }
     },
 

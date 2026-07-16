@@ -56,7 +56,7 @@
         "RequiredTags": [
           "fish_lambenthyphafin" //MUST MATCH the tag you used for the object creation
         ],
-        "Precedence": 0,
+        "Precedence": -1,
         "SpawnTime": -1,
         "ProducedItems": [
           {

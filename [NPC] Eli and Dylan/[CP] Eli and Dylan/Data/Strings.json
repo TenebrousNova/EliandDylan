@@ -21,6 +21,7 @@
 		"EliDrawer": "{{i18n:Strings.House.EliDrawer}}",
 		"EliPlant": "{{i18n:Strings.House.EliPlant}}",
 		"EliJojaLetter": "{{i18n:Strings.House.EliJojaLetter}}",
+		"EliSword": "{{i18n:Strings.House.EliSword}}",
 		
 		"DylanTrash": "{{i18n:Strings.House.DylanTrash}}",
 		"DylanDresser": "{{i18n:Strings.House.DylanDresser}}",
@@ -33,18 +34,16 @@
 		"EDMailBox": "{{i18n:Strings.House.EDMailBox}}",
 		"EDRadio": "{{i18n:Strings.House.EDRadio}}",
 		"EDTV": "{{i18n:Strings.House.EDTV}}",
+		"EDTVLeft": "{{i18n:Strings.House.EDTVLeft}}",
+		"EDTVRight": "{{i18n:Strings.House.EDTVRight}}",
 		"EDConsole": "{{i18n:Strings.House.EDConsole{{EnDDialogueTokens}}}}",
 		"EDTrash": "{{i18n:Strings.House.EDTrash}}",
 		"EDFridge": "{{i18n:Strings.House.EDFridge}}",
 		"EDPoster1": "{{i18n:Strings.House.EDPoster.1}}",
 		"EDPoster2": "{{i18n:Strings.House.EDPoster.2}}",
-		"EDPoster3": "{{i18n:Strings.House.EDPoster.3}}",
-		"EDPoster4": "{{i18n:Strings.House.EDPoster.4}}",
 		"EDPainting1": "{{i18n:Strings.House.EDPainting1}}",
 		"EDPainting2": "{{i18n:Strings.House.EDPainting2}}",
 		"EDPainting3": "{{i18n:Strings.House.EDPainting3}}",
-		"EDPainting4": "{{i18n:Strings.House.EDPainting4}}",
-		"EDPainting5": "{{i18n:Strings.House.EDPainting5}}",
 		"EDAquarium": "{{i18n:Strings.House.EDAquarium}}",
 		"EDNotes": "{{i18n:Strings.House.EDNotes}}",
 		"EDBooks": "{{i18n:Strings.House.EDBooks}}",
@@ -69,8 +68,8 @@
 
 		//Misc. Strings
 
-		"SnowzillaFestival": "{{i18n:Strings.SnowzillaFestival}}"
-		
+		"SnowzillaFestival": "{{i18n:Strings.SnowzillaFestival}}",
+		"DylanSubCamp": "{{i18n:Strings.DylanSubCamp}}"
         }
 },
 

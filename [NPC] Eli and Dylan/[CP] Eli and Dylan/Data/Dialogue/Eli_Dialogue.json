@@ -385,6 +385,7 @@
 			"DesertFestival_31_56": "{{i18n:Locations.NovaEli.DesertFestival.1}}",
 			"Beach_50_21": "{{i18n:Locations.NovaEli.SquidFest.1}}",
 			"sapphicsaph_pitv.CommunityCenterPride_50_7": "{{i18n:Locations.NovaEli.PrideFestival.1}}",
+			"BeachNightMarket_14_25": "{{i18n:Locations.NovaEli.NightMarket.{{Random:{{Range:1, 3}}}}}}"
 			//"Daine.TPOChoice_Aliyah_House_18_32": "Thanks for having me, Ali!$1#$action Spiderbuttons.BETAS_TextAboveHead Nova.Eli \"Sometimes I dream about cheese.\"",
 		}
 	},

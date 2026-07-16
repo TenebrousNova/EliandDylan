@@ -1040,6 +1040,9 @@ SIGURD/SONDRA*/
 "Locations.NovaEli.TroutDerby.1": "Hey @, Dylan dragged me over here to watch people fishing all day. It's, uh... not that exciting, is it? They should ride jetskis with nets instead.$10#$b#I'm more interested in where all these out of towners came from... *yawn*$9#$b#%Eli seems to be slowly falling asleep from boredom.",
 "Locations.NovaEli.SquidFest.1": "Hi there! I figured that if I have to babysit Dylan while he stares at the squid, I might as well toast some marshmallows.$1#$b#I'm doing surprisingly well! Usually I end up burning a bunch beyond recognition.$12",
 "Locations.NovaEli.PrideFestival.1": "Hey, @! We're doing our part to advance the Gay Agenda for Lewis. I kind of wish we could do this every day, wouldn't that be fun?$1#$b#Emily even dyed one of my shirts for me! What do you reckon? It's good, isn't it!$12",
+"Locations.NovaEli.NightMarket.1": "You know, this festival always reminded me of what it was like back home - before we moved here, I mean.$0#$b#Sometimes the Night Market would visit at the start of the season, but we'd often have community barbeques by the sea late into the evening.$1",
+"Locations.NovaEli.NightMarket.2": "Reckon the lady will let me have another free coffee if I turn up the charm? Puppy eyes, maybe?$11",
+"Locations.NovaEli.NightMarket.3": "Dylan's not answering my texts. I'm probably gonna go to the submarine and check up on him in a bit.$0",
 
 //DYLAN DIALOGUE
 
@@ -1727,6 +1730,7 @@ SIGURD*/
 "Strings.House.EliDrawer": "You rummage through Eli's clothes like the nosy weirdo that you are.#His taste is carelessly casual and bereft of any sort of flair for fashion, but he seems to like flannel in particular. Oh, what's this?#You uncover a few strange trinkets, apparently carved out of white bone. Etched with tiny glyphs that shiver and distort as you look at them, they are oddly warm to the touch.#You are filled with sudden unease and decide against snooping any further.",
 "Strings.House.EliPlant": "Surprisingly, this plant is doing quite well in Eli's care. A stern note in his messy handwriting reminds him to water and feed it.",
 "Strings.House.EliJojaLetter": "Subject: Official Notice of Ban from JojaMart location in Stardew Valley^^Dear Eli Moray,^^I am writing on behalf of JojaMart to address a serious issue that has arisen. Due to the nature of your actions on the 5th of Summer XXXX, it has been determined that your presence is a danger and threat to the continued functions of the store. Your disruptive actions have caused distress and damages to our staff and customers.^^While we are aware the actions were not done with intent to harm, due to the damage done, both to items as well as the JojaMart image, it cannot be allowed to happen again.^^The purpose of this letter is to inform you that you are now formally banned from entering and staying on the premises of JojaMart located in Stardew Valley. This decision has been made in accordance with the policies of our establishment, where we strive to maintain a safe, harmonious, and positive environment for everyone.^^We hope that this action can serve as an awakening and induce a change in your behavior. We appreciate your understanding and cooperation.^^Kind Regards,^Morris, Joja Customer Satisfaction Representative[letterbg 4]",
+"Strings.House.EliSword": "Eli's battered old falchion. Only Clint's hard work and some hopes and dreams keep it intact.",
 
 "Strings.House.DylanTrash": "Clean and devoid of trash. Dylan must empty it regularly.",
 "Strings.House.DylanDresser": "Dylan's dresser is carefully organised. You see notebooks, a laptop and a photo album. He has quite a few heartwarming photos in here of Eli and himself.#There's even some of Soot. Awww, he DOES care!",
@@ -1739,7 +1743,9 @@ SIGURD*/
 "Strings.House.EDMailBox": "The Moray Residence^^We are too broke to buy anything.^We know who we are voting for.^We have found Yoba.^No junk mail unless it's pizza vouchers!",
 "Strings.House.EDRadio": "The radio is tuned to the Pelican Town Broadcast System. The familiar voices of Dale & Diane are bickering with each other as usual.",
 "Strings.House.EDRadio.GreenRain": "The radio is making incomprehensible sounds, overlaid with heavy static. The strange weather must be interfering with it. Either that, or Eli broke it!",
-"Strings.House.EDTV": "The drawer below the TV contains an impressive collection of documentaries on nature and the supernatural. There's also a lot of horror movies in here.",
+"Strings.House.EDTV": "The bouncing logo on the TV is quite mesmerising. Perhaps if you stare for long enough, it'll hit the corner of the screen...",
+"Strings.House.EDTVLeft": "These shelves contain an impressive collection of documentaries on nature and the supernatural. There's also a lot of horror movies in here.",
+"Strings.House.EDTVRight": "Dylan's favourite documentaries, sci-fi movies and comedies. ",
 //Note to translators: you can move the {{GameName}} token below to where it would make sense in the sentence.
 "Strings.House.EDConsole": "A fairly old console that's seen a lot of use. Even now, you can picture the brothers accusing each other of cheating and fighting over the player one controller.#The game currently in it is {{GameName}}.",
 "Strings.GameName.1": "Samurai Snowboard Onslaught",
@@ -1775,15 +1781,11 @@ SIGURD*/
 "Strings.GameName.31": "The First of Us",
 "Strings.House.EDTrash": "Peelings, empty plastic wrappers and other standard household refuse.#Not for the first time, you find yourself questioning why you dig around in people's trash.",
 "Strings.House.EDFridge": "The fridge door is covered in reminders, shopping lists and delightfully snarky notes addressed from one brother to the other.",
-"Strings.House.EDPoster.1": "Mysterium- 'Peer behind the midnight veil... You must experience to believe!'",
-"Strings.House.EDPoster.2": "Journey of the Prairie King: The Motion Picture- 'The beloved video game comes to the silver screen!'",
-"Strings.House.EDPoster.3": "The Thing Beneath the Ice:\n\n'A chilling arctic tale that'll pull you right in!'",
-"Strings.House.EDPoster.4": "The Silhouette at the Window:\n\n'Whatever happens... don't let him inside!'",
-"Strings.House.EDPainting1": "'1,000 Years From Now', by Lupini.#It's a replica.",
-"Strings.House.EDPainting2": "'Gem Reef Shipwreck', by F.C.",
-"Strings.House.EDPainting3": "'Little Tree', by Unknown.",
-"Strings.House.EDPainting4": "'Sun 45', by Unknown.",
-"Strings.House.EDPainting5": "'Blue City', by Unknown.",
+"Strings.House.EDPoster.1": "The Thing Beneath the Ice:\n\n'A chilling arctic tale that'll pull you right in!'",
+"Strings.House.EDPoster.2": "The Silhouette at the Window:\n\n'Whatever happens... don't let him inside!'",
+"Strings.House.EDPainting1": "'Cloudgazing', by Unknown.",
+"Strings.House.EDPainting2": "'A Frigid New Frontier', by Unknown.",
+"Strings.House.EDPainting3": "'Living Dust', by Unknown.",
 "Strings.House.EDAquarium": "This aquarium is Dylan's pride and joy. You find yourself spellbound by the vibrant, flashing colours of the exotic sea life within.#That octopus seems to be giving you a calculating look.",
 "Strings.House.EDNotes": "Dylan's research notes. They are written in shorthand that you're unable to decipher.",
 "Strings.House.EDBooks": "These books consist of scientific publications and Dylan's own studies. You decide not to mess with them.",
@@ -1825,6 +1827,8 @@ SIGURD*/
 "Strings.MushroomCave.Cliff": "A vast cavern stretches before you, filled with glittering spores and giant mushrooms that shimmer with bioluminescent light. This strange ecosystem has lain undisturbed for millenia.",
 
 "Strings.SnowzillaFestival": "Eli and Dylan's contribution to the festival. Scary!",
+
+"Strings.DylanSubCamp": "Dr. Dylan Moray's field notes - Hands off!#*Someone* has been making himself at home...",
 
 //MEEP STRINGS
 
