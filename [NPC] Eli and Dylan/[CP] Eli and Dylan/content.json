@@ -176,14 +176,56 @@ And a special thanks to the rest of the gang on the East Scarp and Krobus Discor
 	  "Default": "false",
 	  "AllowBlank": false,
 	  "Description": "Excludes EnD items from Perfection tracking.",
-	  "Section": "General"
+	  "Section": "Gameplay"
+	},
+	"Eli Event Cooldown Length": {
+		"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+		"Default": "3",
+		"AllowBlank": false,
+		"Description": "Adjusts number of days you have to wait between Eli's events.\n\n(Default 3 days)",
+		"Section": "Gameplay"
+	},
+	"Dylan Event Cooldown Length": {
+		"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10",
+		"Default": "3",
+		"AllowBlank": false,
+		"Description": "Adjusts number of days you have to wait between Dylan's events.\n\n(Default 3 days)",
+		"Section": "Gameplay"
+	},
+	"Extra Events": {
+		"AllowValues": "true, false",
+		"Default": true,
+		"AllowBlank": false,
+		"Description": "Enable to allow extra fun events, disable to limit it to regular heart events.\n\n(Default true)",
+		"Section": "Gameplay"
+	},
+	"Extra Conversation Topics": {
+		"AllowValues": "true, false",
+		"Default": "false",
+		"AllowBlank": false,
+		"Description": "If you'd like more villagers to talk about Eli & Dylan's events after seeing them, set this to true.\n\n(Default false)",
+		"Section": "Gameplay"
+	},
+	"Conversation Topic Length": {
+		"AllowValues": "1, 2, 3, 4, 5, 6, 7",
+		"Default": "1",
+		"AllowBlank": false,
+		"Description": "The length of time in days that conversation topics should be active for after seeing the related event.\n\n(Default 1)",
+		"Section": "Gameplay"
+	},
+	"Community Center Aquarium": {
+		"AllowValues": "true, false",
+		"Default": "true",
+		"AllowBlank": false,
+		"Description": "If enabled, replaces the Community Center's aquarium after it's been completed.\n\n(Default true)",
+		"Section": "Gameplay"
 	},
 	"Chaos Warp Totem Danger": {
 		"AllowValues": "true, false",
 		"Default": "true",
 		"AllowBlank": false,
 		"Description": "Disable to prevent the Chaos Warp Totem from taking you to dangerous locations.",
-		"Section": "General"
+		"Section": "Gameplay"
 	},
 	"Player Pronouns 1": {
   	  "Default": "They",

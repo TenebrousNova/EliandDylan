@@ -2,7 +2,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine, {{ModID}}/Tentacle, {{ModID}}/Silhouette, {{ModID}}/Thief, {{ModID}}/Dive, {{ModID}}/EnD_baby, {{ModID}}/EnD_coffee, {{ModID}}/EnD_Dylan_Birthday, {{ModID}}/EnD_flowerdance, {{ModID}}/EnD_hiking, {{ModID}}/EnD_mirror_selfie, {{ModID}}/EnD_piggyback, {{ModID}}/EnD_pizza, {{ModID}}/EnD_porch, {{ModID}}/EnD_pumpkin_carving, {{ModID}}/EnD_urbex",
+            "Target": "{{ModID}}/Camping, {{ModID}}/Spooky1, {{ModID}}/Spooky2, {{ModID}}/Octopus, {{ModID}}/AbyssFootage, {{ModID}}/BeyondReal, {{ModID}}/KillerBunny, {{ModID}}/Grindylow, {{ModID}}/MeetingSoot, {{ModID}}/Foghound, {{ModID}}/Blooper, {{ModID}}/Banner, {{ModID}}/Magazine, {{ModID}}/Tentacle, {{ModID}}/Silhouette, {{ModID}}/Thief, {{ModID}}/Dive, {{ModID}}/EnD_baby, {{ModID}}/EnD_coffee, {{ModID}}/EnD_Dylan_Birthday, {{ModID}}/EnD_flowerdance, {{ModID}}/EnD_hiking, {{ModID}}/EnD_mirror_selfie, {{ModID}}/EnD_piggyback, {{ModID}}/EnD_pizza, {{ModID}}/EnD_porch, {{ModID}}/EnD_pumpkin_carving, {{ModID}}/EnD_urbex, {{ModID}}/Arcade, {{ModID}}/Baking, {{ModID}}/DylanxSig, {{ModID}}/EliGunnar, {{ModID}}/EliHurst, {{ModID}}/EliRodney, {{ModID}}/ElixTeren, {{ModID}}/DylanCamie, {{ModID}}/DylanGudrun, {{ModID}}/EliSen, {{ModID}}/EnDBearFam, {{ModID}}/EnDNora, {{ModID}}/Gaming, {{ModID}}/IceSkating",
             "FromFile": "Assets/MEEP/{{TargetWithoutPath}}.png"
         },
 
@@ -18,7 +18,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_porch"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_porch",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Porch}}"
                     }
                 }
             ]
@@ -35,13 +36,14 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pizza"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pizza",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Pizza}}"
                     }
                 }
             ]
         },
         {
-            "LogName": "Picture - Porch",
+            "LogName": "Picture - Dylan's Birthday",
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}_ESEDHouse",
             "MapTiles": [
@@ -52,7 +54,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_Dylan_Birthday"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_Dylan_Birthday",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.DylanBirthday}}"
                     }
                 }
             ]
@@ -69,7 +72,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_mirror_selfie"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_mirror_selfie",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.PyjamaSelfie}}"
                     }
                 }
             ]
@@ -86,7 +90,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_hiking"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_hiking",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Hiking}}"
                     }
                 }
             ]
@@ -103,7 +108,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_urbex"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_urbex",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Urbex}}"
                     }
                 }
             ]
@@ -120,7 +126,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pumpkin_carving"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_pumpkin_carving",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.PumpkinCarving}}"
                     }
                 }
             ]
@@ -137,7 +144,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_baby"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_baby",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Baby}}"
                     }
                 }
             ]
@@ -154,7 +162,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_piggyback"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_piggyback",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Piggyback}}"
                     }
                 }
             ]
@@ -171,7 +180,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_coffee"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_coffee",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.Coffee}}"
                     }
                 }
             ]
@@ -188,11 +198,87 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_flowerdance"
+                        "Action": "MEEP_CloseupInteraction_Image {{ModID}}/EnD_flowerdance",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:MEEP.FlowerDance}}"
                     }
                 }
             ]
         },
+
+        //Additional fun photos + crossovers
+
+        {
+            "LogName": "Kitchen Photo Album",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Arcade",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.Arcade}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Baking",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.Baking}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Gaming",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.Gaming}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/IceSkating",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.IceSkating}}"
+                    }
+                }
+            ]
+        },
+
+        {
+            "LogName": "Kitchen Photo Album - Crossovers",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}_ESEDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteractionReel",
+                        "MEEP_CloseupInteraction_Image_1": "{{ModID}}/Arcade",
+                        "MEEP_CloseupInteraction_Text_1": "{{i18n:MEEP.Arcade}}",
+                        "MEEP_CloseupInteraction_Image_2": "{{ModID}}/Baking",
+                        "MEEP_CloseupInteraction_Text_2": "{{i18n:MEEP.Baking}}",
+                        "MEEP_CloseupInteraction_Image_3": "{{ModID}}/Gaming",
+                        "MEEP_CloseupInteraction_Text_3": "{{i18n:MEEP.Gaming}}",
+                        "MEEP_CloseupInteraction_Image_4": "{{ModID}}/IceSkating",
+                        "MEEP_CloseupInteraction_Text_4": "{{i18n:MEEP.IceSkating}}",
+                        "MEEP_CloseupInteraction_Image_5": "{{ModID}}/DylanCamie",
+                        "MEEP_CloseupInteraction_Text_5": "{{i18n:MEEP.DylanCamie}}",
+                        "MEEP_CloseupInteraction_Image_6": "{{ModID}}/EliRodney",
+                        "MEEP_CloseupInteraction_Text_6": "{{i18n:MEEP.EliRodney}}",
+                        "MEEP_CloseupInteraction_Image_7": "{{ModID}}/EliHurst",
+                        "MEEP_CloseupInteraction_Text_7": "{{i18n:MEEP.EliHurst}}",
+                        "MEEP_CloseupInteraction_Image_8": "{{ModID}}/EliSen",
+                        "MEEP_CloseupInteraction_Text_8": "{{i18n:MEEP.EliSen}}",
+                        "MEEP_CloseupInteraction_Image_9": "{{ModID}}/EliGunnar",
+                        "MEEP_CloseupInteraction_Text_9": "{{i18n:MEEP.EliGunnar}}",
+                        "MEEP_CloseupInteraction_Image_10": "{{ModID}}/DylanGudrun",
+                        "MEEP_CloseupInteraction_Text_10": "{{i18n:MEEP.DylanGudrun}}"
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains=Bagi.Nora.CP": true,
+                "HasMod |contains=TheFrenchDodo.RodneyOBrien": true,
+                "HasMod |contains=Squeaks.MGC.CP": true,
+                "HasMod |contains=sprinton.hurst": true,
+                "HasFlag |contains=BearFamExtraMembers": true,
+                "HasFlag |contains=TerenMysteryMail": true
+            }
+        },
+
         {
             "LogName": "Poster - The Thing from Beneath the Ice",
             "Action": "EditMap",

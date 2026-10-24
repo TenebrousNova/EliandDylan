@@ -33,7 +33,8 @@
         }
       },
       "When": {
-        "HasSeenEvent": "191393"
+        "HasSeenEvent": "191393",
+        "Community Center Aquarium": true
       },
       "Update": "OnLocationChange"
     },
@@ -553,7 +554,7 @@
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "ExcludeFromFishingCollection": "{{Exclude From Perfection}}",
-          "Price": 50,
+          "Price": 100,
           "Edibility": 1,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",
@@ -572,7 +573,7 @@
           "ExcludeFromRandomSale": true,
           "ExcludeFromShippingCollection": "{{Exclude From Perfection}}",
           "ExcludeFromFishingCollection": "{{Exclude From Perfection}}",
-          "Price": 70,
+          "Price": 150,
           "Edibility": 2,
           "IsDrink": false,
           "Texture": "Mods/EnD/Objects",

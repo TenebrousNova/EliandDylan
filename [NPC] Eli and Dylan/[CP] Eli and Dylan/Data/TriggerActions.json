@@ -116,6 +116,44 @@
       },
 
       //Events
+
+      //Cooldowns
+
+      {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+          "{{ModID}}_EventCooldown_CooldownCounter_Eli": {
+            "Id": "{{ModID}}_EventCooldown_CooldownCounter_Eli",
+            "MarkActionApplied": false,
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_EventCooldownActive, !PLAYER_STAT Current EnD_Eli_EventCooldownStat 0 0",
+            "Actions": [ "IncrementStat EnD_Eli_EventCooldownActive -1" ]
+          },
+          "{{ModID}}_EventCooldown_TimerHitZero_Eli": {
+            "Id": "{{ModID}}_EventCooldown_TimerHitZero_Eli",
+            "MarkActionApplied": false,
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_MAIL Current EnD_Eli_EventCooldownActive, PLAYER_STAT Current EnD_Eli_EventCooldownStat 0 0",
+            "Actions": [ "RemoveMail Current EnD_Eli_EventCooldownActive all" ]
+          },
+          "{{ModID}}_EventCooldown_CooldownCounter_Dylan": {
+            "Id": "{{ModID}}_EventCooldown_CooldownCounter_Dylan",
+            "MarkActionApplied": false,
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_EventCooldownActive, !PLAYER_STAT Current EnD_Dylan_EventCooldownStat 0 0",
+            "Actions": [ "IncrementStat EnD_Dylan_EventCooldownActive -1" ]
+          },
+          "{{ModID}}_EventCooldown_TimerHitZero_Dylan": {
+            "Id": "{{ModID}}_EventCooldown_TimerHitZero_Dylan",
+            "MarkActionApplied": false,
+            "Trigger": "DayStarted",
+            "Condition": "PLAYER_HAS_MAIL Current EnD_Dylan_EventCooldownActive, PLAYER_STAT Current EnD_Dylan_EventCooldownStat 0 0",
+            "Actions": [ "RemoveMail Current EnD_Dylan_EventCooldownActive all" ]
+          }
+        }
+      },
+
       //Eli
 
       {

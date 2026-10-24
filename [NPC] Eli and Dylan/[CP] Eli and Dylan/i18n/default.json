@@ -17,8 +17,22 @@
 "Config.Player Job Title.description": "Sets the player's job title for more immersive roleplay for users who aren't playing as farmers specifically. Default is 'farmer'.",
 "Config.Profanity Filter.name": "Profanity Filter",
 "Config.Profanity Filter.description": "Changes profanity to mild non-swears for those who prefer a cleaner game. (Think hell becomes heck, damn becomes darn, etc. etc.) False by default, meaning there may be some profanity in the dialogue by default",
+
+"Config.section.Gameplay.name": "Gameplay",
 "Config.Exclude From Perfection.name": "Exclude From Perfection",
 "Config.Exclude From Perfection.description": "Excludes EnD items from Perfection tracking.",
+"Config.Eli Event Cooldown Length.name": "Eli Event Cooldown Length",
+"Config.Eli Event Cooldown Length.description": "Adjusts number of days you have to wait between Eli's events.\n\n(Default 3 days)",
+"Config.Dylan Event Cooldown Length.name": "Dylan Event Cooldown Length",
+"Config.Dylan Event Cooldown Length.description": "Adjusts number of days you have to wait between Dylan's events.\n\n(Default 3 days)",
+"Config.Extra Conversation Topics.name": "Extra Conversation Topics",
+"Config.Extra Conversation Topics.description": "If you'd like more villagers to talk about Eli & Dylan's events after seeing them, set this to true.\n\n(Default false)",
+"Config.Conversation Topic Length.name": "Conversation Topic Length",
+"Config.Conversation Topic Length.description": "The length of time in days that conversation topics should be active for after seeing the related event.\n\n(Default 1)",
+"Config.Extra Events.name": "Extra Events",
+"Config.Extra Events.description": "Enable to allow extra fun events, disable to limit it to regular heart events.\n\n(Default true)",
+"Config.Community Center Aquarium.name": "Community Center Aquarium",
+"Config.Community Center Aquarium.description": "If enabled, replaces the Community Center's aquarium after it's been completed.\n\n(Default true)",
 "Config.Chaos Warp Totem Danger.name": "Chaos Warp Totem Danger",
 "Config.Chaos Warp Totem Danger.description": "Disable to prevent the Chaos Warp Totem from taking you to dangerous locations.",
 
@@ -1832,6 +1846,32 @@ SIGURD*/
 
 //MEEP STRINGS
 
+"MEEP.Porch": "Late Summer evening at our old house in Point Drake. Eli (16), Dylan (15)",
+"MEEP.Pizza": "Community seaside gathering at Drake Promenade. They always did the best pizza and barbeques!",
+"MEEP.DylanBirthday": "Dylan's 27th birthday! I know I say this all the time, but I'm gonna say it again: I love ya, little brother!",
+"MEEP.PyjamaSelfie": "There was a heavy storm, so we made a pyjama movie night out of it!",
+"MEEP.Hiking": "Morning hike in the Deep Mountains. The views out there are absolutely gorgeous!",
+"MEEP.Urbex": "Urban exploration at a condemned office complex. Found this wicked serpent grafitti!",
+"MEEP.PumpkinCarving": "Preparing for our first Spirit's Eve celebration in the Valley!",
+"MEEP.Baby": "Eli (3) and Dylan (2).\n\nAWWWWWWWWW!",
+"MEEP.Piggyback": "Eli (9) and Dylan (8). Dylan thinks he's 'too old' to be given piggyback rides these days. I disagree!",
+"MEEP.Coffee": "Candid photo of Eli. He now uses this as his profile picture online.",
+"MEEP.FlowerDance": "The future Flower King and his sidekick!\n\n(I'll let you guess which one is which.)",
+
+"MEEP.Arcade": "The time Dylan conquered Junimo Kart at the Saloon! The arcade machine was eventually reset, but we still have the proof right here.",
+"MEEP.Baking": "Eli helped me make some cookies to bring to a gathering at the Inn. He also tried to eat them all before we'd even left the house.",
+"MEEP.Gaming": "The moment when Eli realised I was about to take the lead from him with a certain item!",
+"MEEP.IceSkating": "Trying to teach my older brother how to ice skate. Not pictured: Dr. Harvey on standby.",
+
+"MEEP.DylanCamie": "Hanging out at Lore's Cove with Cambria. I didn't notice those shapes in the water at the time... curious.",
+"MEEP.EliRodney": "Helping Rodney out of the pond after I accidentally startled him into falling in. Whoops!!",
+"MEEP.EliHurst": "Borrowed Orchid from Camie to show Hurst. Didn't know he's got a chicken phobia!",
+"MEEP.EliSen": "Offered the boys dinner at our place, but they wanted me to go with them to the Saloon. Maybe being in the trash gives the food an extra something...?",
+
+"MEEP.EliGunnar": "Gun's first prismatic shard! And we did it with a bare minimum of life threatening injuries!",
+"MEEP.DylanGudrun": "Whale watching with Gudrun. Imagine my surprise when she told me to get ready because she's chartered a boat! A wonderful afternoon spent.",
+"MEEP.EnDBearFam": "Dinner at the Bear Lodge with our new family! Sondra's food is to DIE for.",
+
 "MEEP.CampingPhoto": "Nothing beats toasted marshmallows on the beach on Summer evenings! I think Eli just wanted an excuse to set something on fire.",
 "MEEP.SpookyPhoto": "Eli convinced me to join him in the forest one night while he looked for cryptids. We took this photo for his blog... but something about it unsettles me.",
 "MEEP.OctopusPhoto": "Penelope escaped again when I let my guard down. Eli was too busy cackling at me to help - but it didn't stop him from preserving my shame for posterity. I'll get him back for this!!",
@@ -2118,9 +2158,9 @@ SIGURD*/
 
 //HALEY
 
-"CT.Haley.EliIntro": "Eli? He's friendly enough. And kind of handsome, in that scruffy sort of way.$0#$b#But he's SUCH a weirdo. Like, he makes my sister look downright normal.$3",
+"CT.Haley.EliIntro": "Eli? He's friendly enough. But he's SUCH a weirdo. Like, he makes my sister look downright normal.$3#$b#I wish she wouldn't invite him over... he doesn't stop talking about his weird imaginary monsters.$2",
 
-"CT.Haley.DylanIntro": "Ugh! I tried saying hello to Dylan because he's actually pretty cute, but he just stared at me and didn't say anything. Then he walked off.$3#$b#You've got one brother who ignores you and the other one doesn't shut up. What's with these people from East Scarp?$2",
+"CT.Haley.DylanIntro": "Ugh! I tried saying hello to that Dylan guy when I was at the beach, but he just stared at me and didn't say anything. Then he walked off.$3#$b#You've got one brother who ignores you and the other one doesn't shut up. What's with these people from East Scarp?$2",
 "CT.Haley.DylanCCAquarium": "That aquarium in the community center is really pretty! I've been taking some photos of it for social media.$1",
 
 //SHANE

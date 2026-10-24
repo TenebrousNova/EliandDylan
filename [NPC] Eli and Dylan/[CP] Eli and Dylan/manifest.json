@@ -29,6 +29,10 @@
 		{
 			"UniqueID": "Spiderbuttons.BETAS",
 			"IsRequired": true
+		},
+		{
+			"UniqueID": "ichortower.ECC",
+			"IsRequired": true
 		}
 	]
 }

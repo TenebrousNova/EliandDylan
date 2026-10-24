@@ -295,6 +295,9 @@
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
 				"EnDPlan": "{{i18n:CT.Alex.EnDPlan}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -307,19 +310,29 @@
 				//Eli Topics
 
 				"EliIntro": "{{i18n:CT.Emily.EliIntro}}",
-				"EliSaloon": "{{i18n:CT.Emily.EliSaloon}}",
+				"EliSaloon": "{{i18n:CT.Emily.EliSaloon}}"
+			}
+		},
+
+		{
+			"LogName": "Emily - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
 
 				//Dylan Topics
 
 				"DylanIntro": "{{i18n:CT.Emily.DylanIntro}}",
 				"DylanSaloon": "{{i18n:CT.Emily.DylanSaloon}}",
 				"DylanDream": "{{i18n:CT.Emily.DylanDream}}"
-
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
 		{
-			"LogName": "Haley",
+			"LogName": "Haley - Extra",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
@@ -332,6 +345,9 @@
 
 				"DylanIntro": "{{i18n:CT.Haley.DylanIntro}}",
 				"DylanCCAquarium": "{{i18n:CT.Haley.DylanCCAquarium}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -343,7 +359,6 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Shane.EliIntro}}",
 				"EliMysteryBeast": "{{i18n:CT.Shane.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.Shane.EliFogHounds}}",
 				"EliLateHangout": "{{i18n:EliLateHangout}}",
@@ -355,6 +370,21 @@
 				//Other Topics
 
 				"EnDJojaBreak": "{{i18n:CT.Shane.EnDJojaBreak}}"
+			}
+		},
+
+		{
+			"LogName": "Shane - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Shane.EliIntro}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -389,6 +419,21 @@
 		},
 
 		{
+			"LogName": "Clint - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"Entries": {
+
+				//Dylan Topics
+
+				"DylanSaloon": "{{i18n:CT.Clint.DylanSaloon}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
+			}
+		},
+
+		{
 			"LogName": "Gus",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Gus",
@@ -409,6 +454,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard",
 			"Entries": {
+
+				//Eli Topics
+
 				"EliWoods": "{{i18n:CT.Wizard.EliWoods}}",
 				"JunimoKingIntro": "{{i18n:CT.Wizard.JunimoKingIntro}}",
 				"EliStory": "{{i18n:CT.Wizard.EliStory}}",
@@ -421,8 +469,22 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}",
+
+				//Dylan Topics
+
+				"DylanDroneProgress": "{{i18n:CT.Robin.DylanDroneProgress}}"
+			}
+		},
+
+		{
+			"LogName": "Robin - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			"Entries": {
 				"EnDHomecoming": "{{i18n:CT.Robin.EnDHomecoming}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -438,8 +500,6 @@
 
 				//Dylan Topics
 
-				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro}}",
-				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}",
 				"DylanDroneProgress": "{{i18n:CT.Demetrius.DylanDroneProgress}}",
 				"DylanExpedition": "{{i18n:CT.Demetrius.DylanExpedition}}",
 				"DylanArticle": "{{i18n:CT.Demetrius.DylanArticle}}",
@@ -448,15 +508,26 @@
 		},
 
 		{
+			"LogName": "Demetrius - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			"Entries": {
+
+				//Dylan Topics
+
+				"DylanIntro": "{{i18n:CT.Demetrius.DylanIntro}}",
+				"DylanBeach": "{{i18n:CT.Demetrius.DylanBeach}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
+			}
+		},
+
+		{
 			"LogName": "Maru",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-
-				//Eli Topics
-
-				"EliIntro": "{{i18n:CT.Maru.EliIntro}}",
-				"EliMushroomCave": "{{i18n:CT.Maru.EliMushroomCave}}",
 
 				//Dylan Topics
 
@@ -467,8 +538,27 @@
 
 				//Other Topics
 
-				"EnDClinicAppointment": "{{i18n:CT.Maru.EnDClinicAppointment}}",
 				"EnDPlan": "{{i18n:CT.Maru.EnDPlan}}"
+			}
+		},
+
+		{
+			"LogName": "Maru - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Maru.EliIntro}}",
+				"EliMushroomCave": "{{i18n:CT.Maru.EliMushroomCave}}",
+
+				//Other Topics
+
+				"EnDClinicAppointment": "{{i18n:CT.Maru.EnDClinicAppointment}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -480,9 +570,7 @@
 
 				//Eli Topics
 
-				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
 				"EliJunimo1": "{{i18n:CT.Leah.EliJunimo1}}",
-				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
 				"EliMysteryBeast": "{{i18n:CT.Leah.EliMysteryBeast}}",
 				"EliFogHounds": "{{i18n:CT.Leah.EliFogHounds}}",
 
@@ -492,8 +580,27 @@
 				"DylanBeach": "{{i18n:CT.Leah.DylanBeach}}",
 				"DylanTown": "{{i18n:CT.Leah.DylanTown}}",
 				"DylanSaloon": "{{i18n:CT.Leah.DylanSaloon}}",
-				"DylanArticle": "{{i18n:CT.Leah.DylanArticle}}",
+				"DylanArticle": "{{i18n:CT.Leah.DylanArticle}}"
+			}
+		},
+
+		{
+			"LogName": "Leah - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Leah.EliIntro}}",
+				"EliGuestRoom": "{{i18n:CT.Leah.EliGuestRoom}}",
+
+				//Dylan Topics
+
 				"DylanCCAquarium": "{{i18n:CT.Leah.DylanCCAquarium}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -502,10 +609,6 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-
-				//Eli Topics
-
-				"EliIntro": "{{i18n:CT.Elliott.EliIntro}}",
 
 				//Dylan Topics
 
@@ -519,6 +622,18 @@
 		},
 
 		{
+			"LogName": "Elliott - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Elliott.EliIntro}}"
+			}
+		},
+
+		{
 			"LogName": "Harvey",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
@@ -528,13 +643,23 @@
 
 				"EliMushroomCave": "{{i18n:CT.Harvey.EliMushroomCave}}",
 
-				//Dylan Topics
-
-				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}",
-
 				//Other Topics
 
 				"EnDClinicAppointment": "{{i18n:CT.Harvey.EnDClinicAppointment}}"
+			}
+		},
+		{
+			"LogName": "Harvey - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			"Entries": {
+
+				//Dylan Topics
+
+				"DylanSaloon": "{{i18n:CT.Harvey.DylanSaloon}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -543,10 +668,27 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
-				"EliIntro": "{{i18n:CT.Abigail.EliIntro}}",
-				"EliWoods": "{{i18n:CT.Abigail.EliWoods}}",
+
+				//Eli Topics
+
 				"EliFogHounds": "{{i18n:CT.Abigail.EliFogHounds}}",
 				"EliGuild": "{{i18n:CT.Abigail.EliGuild}}"
+			}
+		},
+
+		{
+			"LogName": "Abigail - Extra ",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliIntro": "{{i18n:CT.Abigail.EliIntro}}",
+				"EliWoods": "{{i18n:CT.Abigail.EliWoods}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -556,14 +698,26 @@
 			"Target": "Characters/Dialogue/Pierre",
 			"Entries": {
 
-				//Eli Topics
-
-				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
-				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak}}",
-
 				//Dylan Topics
 
 				"DylanArticle": "{{i18n:CT.Pierre.DylanArticle}}"
+			}
+		},
+
+		{
+			"LogName": "Pierre - Extra",
+			"Action":"EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			"Entries": {
+
+				//Eli Topics
+
+				"EliGuild": "{{i18n:CT.Pierre.EliGuild}}",
+				"EnDJojaBreak": "{{i18n:CT.Pierre.EnDJojaBreak}}"
+
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -572,6 +726,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
+
+				//Other Topics
+
 				"EliJunimo1": "{{i18n:CT.Sebastian.EliJunimo1}}"
 			}
 		},
@@ -581,6 +738,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
+
+				//Other Topics
+
 				"EnDJojaBreak": "{{i18n:CT.Sam.EnDJojaBreak}}"
 			}
 		},
@@ -590,11 +750,28 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Willy",
 			"Entries": {
+
+				//Dylan Topics
+
 				"DylanIntro": "{{i18n:CT.Willy.DylanIntro}}",
 				"DylanBeach": "{{i18n:CT.Willy.DylanBeach}}",
-				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}",
 				"DylanExpedition": "{{i18n:CT.Willy.DylanExpedition}}",
 				"DylanArticle": "{{i18n:CT.Willy.DylanArticle}}"
+			}
+		},
+
+		{
+			"LogName": "Willy - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Willy",
+			"Entries": {
+
+				//Dylan Topics
+				
+				"DylanSaloon": "{{i18n:CT.Willy.DylanSaloon}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -603,9 +780,26 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Penny",
 			"Entries": {
+
+				//Dylan Topics
+
 				"DylanLibrary": "{{i18n:CT.Penny.DylanLibrary}}",
-				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}",
+				"DylanLesson": "{{i18n:CT.Penny.DylanLesson}}"
+			}
+		},
+
+		{
+			"LogName": "Penny - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"Entries": {
+
+				//Dylan Topics
+
 				"DylanArticle": "{{i18n:CT.Penny.DylanArticle}}"
+			},
+			"When": {
+				"Extra Conversation Topics": true
 			}
 		},
 
@@ -656,17 +850,32 @@
 				{
 					//Eli Topics
 
-					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
 					"EliMysteryBeast": "{{i18n:CT.Marlon.EliMysteryBeast}}",
 					"EliFogHounds": "{{i18n:CT.Marlon.EliFogHounds}}",
-					"EliGuild": "{{i18n:CT.Marlon.EliGuild}}",
+					"EliGuild": "{{i18n:CT.Marlon.EliGuild}}"
+				},
+				"When": {
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+				  }	
+		},
+
+		{
+			"LogName": "Marlon Vanilla - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marlon",
+			"Entries":
+				{
+					//Eli Topics
+
+					"EliIntro": "{{i18n:CT.Marlon.EliIntro}}",
 
 					//Dylan Topics
 
 					"DylanSaloon":"{{i18n:CT.Marlon.DylanSaloon}}"
 				},
 				"When": {
-					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+					"Extra Conversation Topics": true
 				  }	
 		},
 		
@@ -678,17 +887,32 @@
 				{
 					//Eli Topics
 
-					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
 					"EliMysteryBeast": "{{i18n:CT.MarlonSVE.EliMysteryBeast}}",
 					"EliFogHounds": "{{i18n:CT.MarlonSVE.EliFogHounds}}",
-					"EliGuild": "{{i18n:CT.MarlonSVE.EliGuild}}",
+					"EliGuild": "{{i18n:CT.MarlonSVE.EliGuild}}"
+				},
+				"When": {
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				  }	
+		},
+
+		{
+			"LogName": "Marlon SVE - Extra",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarlonFey",
+			"Entries":
+				{
+					//Eli Topics
+
+					"EliIntro": "{{i18n:CT.MarlonSVE.EliIntro}}",
 
 					//Dylan Topics
 					
 					"DylanSaloon":"{{i18n:CT.MarlonSVE.DylanSaloon}}"
 				},
 				"When": {
-					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+					"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+					"Extra Conversation Topics": true
 				  }	
 		},
 
